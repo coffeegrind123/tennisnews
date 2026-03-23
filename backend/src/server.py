@@ -157,6 +157,9 @@ class Handler(BaseHTTPRequestHandler):
         if parsed.path == "/api/tweets":
             tweets = load_tweets()
             q = params.get("q", [""])[0]
+            days = params.get("days", ["2"])[0]
+            if days != "all":
+                tweets = filter_recent(tweets, int(days))
             if q:
                 tweets = filter_tweets(tweets, q)
             self.send_response(200)
@@ -174,6 +177,7 @@ class Handler(BaseHTTPRequestHandler):
             days = params.get("days", ["2"])[0]
             if days != "all":
                 articles = filter_recent(articles, int(days))
+                tweets = filter_recent(tweets, int(days))
             if q or src:
                 articles = filter_articles(articles, q, src)
             if q:

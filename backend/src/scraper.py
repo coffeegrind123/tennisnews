@@ -76,6 +76,9 @@ def to_helsinki(dt_str: str) -> str:
         dt = datetime.now(HELSINKI_TZ) - timedelta(days=int(rel.group(1)))
         return dt.strftime("%Y-%m-%d %H:%M %Z")
 
+    # Twitter/xcancel: "Mar 23, 2026 · 8:15 AM UTC" -> "Mar 23, 2026 8:15 AM UTC"
+    s = re.sub(r"\s*·\s*", " ", s)
+
     # Clean up common noise
     s = re.sub(r"^\w+day,\s*", "", s)  # "Wednesday, March 4" -> "March 4"
     s = re.sub(r"\s*(GMT|BST|UTC|EST|PST|CET|CEST)\s*$", "", s)  # strip tz abbrevs
@@ -114,6 +117,7 @@ def to_helsinki(dt_str: str) -> str:
         "%d %b %Y %H:%M",
         "%d %b %Y",
         "%b %d %Y",
+        "%b %d, %Y %I:%M %p",
         "%b %d, %Y",
         "%B %d %Y",
         "%B %d, %Y",
@@ -252,6 +256,8 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
             try:
                 from scrapers.twitter_feeds import scrape as scrape_twitter
                 twitter_tweets = await scrape_twitter(page)
+                for tw in twitter_tweets:
+                    tw["date"] = to_helsinki(tw.get("date", ""))
                 print(f"  [TWITTER] Total: {len(twitter_tweets)} tweets")
             except Exception as e:
                 print(f"  [TWITTER] ERROR - {e}")
@@ -375,7 +381,8 @@ async def run():
     now = datetime.now(HELSINKI_TZ)
     cutoff = (now - timedelta(days=2)).strftime("%Y-%m-%d")
     recent = [a for a in unique if a.get("date", "")[:10] >= cutoff]
-    generate_html(recent, tweets, PUBLIC_DIR / "index.html")
+    recent_tweets = [t for t in tweets if t.get("date", "")[:10] >= cutoff]
+    generate_html(recent, recent_tweets, PUBLIC_DIR / "index.html")
 
     print(f"\nDone: {len(unique)} unique articles ({len(recent)} recent) + {len(tweets)} tweets saved")
     print(f"  JSON: {articles_path}")

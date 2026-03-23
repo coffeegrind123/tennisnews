@@ -41,7 +41,7 @@ async def scrape(page) -> list[dict]:
                     if (!content) continue;
                     var text = content.textContent.trim();
                     if (!text || text.length < 10) continue;
-                    var date = dateEl ? dateEl.textContent.trim() : '';
+                    var date = dateEl ? (dateEl.getAttribute('title') || dateEl.textContent.trim()) : '';
                     var link = linkEl ? linkEl.getAttribute('href') : '';
                     tweets.push({text: text.substring(0, 500), date: date, link: link});
                 }
