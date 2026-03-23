@@ -70,12 +70,20 @@ def to_helsinki(dt_str: str) -> str:
         return ""
     s = dt_str.strip()
 
+    # Handle relative dates: "3 DAYS AGO", "2 DAYS AGO"
+    rel = re.match(r"(\d+)\s+DAYS?\s+AGO", s, re.IGNORECASE)
+    if rel:
+        dt = datetime.now(HELSINKI_TZ) - timedelta(days=int(rel.group(1)))
+        return dt.strftime("%Y-%m-%d %H:%M %Z")
+
     # Clean up common noise
     s = re.sub(r"^\w+day,\s*", "", s)  # "Wednesday, March 4" -> "March 4"
     s = re.sub(r"\s*(GMT|BST|UTC|EST|PST|CET|CEST)\s*$", "", s)  # strip tz abbrevs
-    s = re.sub(r"(\d)(st|nd|rd|th)", r"\1", s)  # "March 5th" -> "March 5"
+    s = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", s)  # "March 5th" -> "March 5"
     s = re.sub(r"\.\s*$", "", s)  # trailing period (Djokovic dates: "12. 03. 2026.")
     s = re.sub(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", r"\1/\2/\3", s)  # "12. 03. 2026" -> "12/03/2026"
+    # Swiss Indoors: "20Oct 2025" -> "20 Oct 2025"
+    s = re.sub(r"(\d{1,2})([A-Z][a-z]{2})\s+(\d{4})", r"\1 \2 \3", s)
     # Wimbledon: "MON 02 MAR 202610:30" -> "02 Mar 2026 10:30"
     s = re.sub(r"^[A-Z]{3}\s+", "", s)
     m = re.match(r"(\d{1,2})\s+([A-Z]{3})\s+(\d{4})(\d{2}:\d{2})", s)
@@ -105,7 +113,9 @@ def to_helsinki(dt_str: str) -> str:
         "%Y-%m-%d",
         "%d %b %Y %H:%M",
         "%d %b %Y",
+        "%b %d %Y",
         "%b %d, %Y",
+        "%B %d %Y",
         "%B %d, %Y",
         "%B %d",
         "%d %B %Y",
