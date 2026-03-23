@@ -1,4 +1,5 @@
-"""Tennis Panorama - https://www.tennispanorama.com/ (WordPress)"""
+"""Tennis Panorama - https://www.tennispanorama.com/ (WordPress/GenerateBlocks)
+Desc in .gb-block-post-grid-excerpt, date in .gb-block-post-grid-date."""
 
 URL = "https://www.tennispanorama.com/"
 
@@ -16,7 +17,12 @@ async def scrape(page) -> list[dict]:
             seen.add(href);
             const title = a.textContent.trim();
             if (!title || title.length < 10) return;
-            articles.push({title, link: href, description: ''});
+            const container = a.closest('[class*="gb-block-post"], article, div');
+            const descEl = container ? container.querySelector('[class*="excerpt"]') : null;
+            const desc = descEl ? descEl.textContent.trim().substring(0, 500) : '';
+            const dateEl = container ? container.querySelector('[class*="date"]') : null;
+            const date = dateEl ? dateEl.textContent.trim() : '';
+            articles.push({title, link: href, description: desc, date: date});
         });
         return articles.slice(0, 25);
     }""")

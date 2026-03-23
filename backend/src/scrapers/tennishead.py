@@ -1,4 +1,5 @@
-"""Tennishead - https://tennishead.net/tennis/news/"""
+"""Tennishead - https://tennishead.net/tennis/news/
+Desc in article p, date in article time[datetime]."""
 
 URL = "https://tennishead.net/tennis/news/"
 
@@ -19,11 +20,10 @@ async def scrape(page) -> list[dict]:
             const title = a.textContent.trim();
             if (!title || title.length < 10) return;
             const p = el.querySelector('p');
-            articles.push({
-                title,
-                link: href,
-                description: p ? p.textContent.trim().substring(0, 300) : ''
-            });
+            const desc = p ? p.textContent.trim().substring(0, 500) : '';
+            const timeEl = el.querySelector('time');
+            const date = timeEl ? (timeEl.getAttribute('datetime') || timeEl.textContent.trim()) : '';
+            articles.push({title, link: href, description: desc, date: date});
         });
         return articles.slice(0, 25);
     }""")

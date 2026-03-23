@@ -41,5 +41,5 @@ SITES = [
     {"name": "Chandos Tennis Club", "url": "https://chandosltc.com/category/news/", "type": "rss", "feed_url": "https://chandosltc.com/feed"},
     {"name": "Great Missenden LTC", "url": "https://www.gmltc.com/", "type": "scrape", "module": "great_missenden"},
     {"name": "Tennis Europe", "url": "https://www.tenniseurope.org/newslist/News", "type": "scrape", "module": "tennis_europe"},
-    {"name": "Swiss Indoors Basel", "url": "https://www.swissindoorsbasel.ch/en/tournament/news", "type": "scrape", "module": "swiss_indoors"},
+    {"name": "Swiss Indoors Basel", "url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/", "type": "scrape", "module": "swiss_indoors"},
 ]

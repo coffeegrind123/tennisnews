@@ -12,11 +12,14 @@ import os
 import re
 import sys
 import html as html_lib
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 
 import feedparser
+
+HELSINKI_TZ = ZoneInfo("Europe/Helsinki")
 
 SCRIPT_DIR = Path(__file__).parent
 BACKEND_DIR = SCRIPT_DIR.parent
@@ -59,18 +62,81 @@ def strip_html(text: str) -> str:
     return text[:500]
 
 
+def to_helsinki(dt_str: str) -> str:
+    """Best-effort convert a date string to Europe/Helsinki format."""
+    if not dt_str:
+        return ""
+    s = dt_str.strip()
+
+    # Clean up common noise
+    s = re.sub(r"^\w+day,\s*", "", s)  # "Wednesday, March 4" -> "March 4"
+    s = re.sub(r"\s*(GMT|BST|UTC|EST|PST|CET|CEST)\s*$", "", s)  # strip tz abbrevs
+    s = re.sub(r"(\d)(st|nd|rd|th)", r"\1", s)  # "March 5th" -> "March 5"
+    s = re.sub(r"\.\s*$", "", s)  # trailing period (Djokovic dates: "12. 03. 2026.")
+    s = re.sub(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", r"\1/\2/\3", s)  # "12. 03. 2026" -> "12/03/2026"
+    # Wimbledon: "MON 02 MAR 202610:30" -> "02 Mar 2026 10:30"
+    s = re.sub(r"^[A-Z]{3}\s+", "", s)
+    m = re.match(r"(\d{1,2})\s+([A-Z]{3})\s+(\d{4})(\d{2}:\d{2})", s)
+    if m:
+        s = f"{m.group(1)} {m.group(2)} {m.group(3)} {m.group(4)}"
+    # US short dates: "5/19/25" -> "05/19/2025"
+    m2 = re.match(r"(\d{1,2})/(\d{1,2})/(\d{2})$", s)
+    if m2:
+        y = int(m2.group(3))
+        y = y + 2000 if y < 50 else y + 1900
+        s = f"{m2.group(1)}/{m2.group(2)}/{y}"
+
+    # Try RFC 2822 first
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(dt_str)
+        return dt.astimezone(HELSINKI_TZ).strftime("%Y-%m-%d %H:%M %Z")
+    except Exception:
+        pass
+
+    formats = [
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%S.%f%z",
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+        "%Y-%m-%d",
+        "%d %b %Y %H:%M",
+        "%d %b %Y",
+        "%b %d, %Y",
+        "%B %d, %Y",
+        "%B %d",
+        "%d %B %Y",
+        "%d/%m/%Y",
+        "%m/%d/%Y",
+        "%b %d",
+    ]
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(s.strip(), fmt)
+            if dt.year == 1900:
+                dt = dt.replace(year=datetime.now().year)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(HELSINKI_TZ).strftime("%Y-%m-%d %H:%M %Z")
+        except Exception:
+            continue
+    return dt_str
+
+
 def parse_date(entry) -> str:
     for field in ("published_parsed", "updated_parsed"):
         t = getattr(entry, field, None) or entry.get(field)
         if t:
             try:
-                return datetime(*t[:6], tzinfo=timezone.utc).isoformat()
+                dt = datetime(*t[:6], tzinfo=timezone.utc)
+                return dt.astimezone(HELSINKI_TZ).strftime("%Y-%m-%d %H:%M %Z")
             except Exception:
                 pass
     for field in ("published", "updated"):
         v = getattr(entry, field, None) or entry.get(field)
         if v:
-            return v
+            return to_helsinki(v)
     return ""
 
 
@@ -120,7 +186,7 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
                 "link": item.get("link", ""),
                 "source_name": name,
                 "source_url": site["url"],
-                "date": item.get("date", ""),
+                "date": to_helsinki(item.get("date", "")),
             })
         print(f"  [SCRAPE] {name}: {len(articles)} articles")
         return articles

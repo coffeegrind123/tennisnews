@@ -1,4 +1,5 @@
-"""Rafael Nadal Fans - https://rafaelnadalfans.com/ (WordPress)"""
+"""Rafael Nadal Fans - https://rafaelnadalfans.com/ (WordPress)
+Date in time.entry-date[datetime] on listing. Desc from article meta."""
 
 URL = "https://rafaelnadalfans.com/"
 
@@ -10,13 +11,16 @@ async def scrape(page) -> list[dict]:
     return await page.evaluate("""() => {
         const articles = [];
         const seen = new Set();
-        document.querySelectorAll('.entry-title a, article h2 a, h2.entry-title a').forEach(a => {
+        document.querySelectorAll('.entry-title a, article h2 a').forEach(a => {
             const href = a.getAttribute('href') || '';
             if (!href || seen.has(href)) return;
             seen.add(href);
             const title = a.textContent.trim();
             if (!title || title.length < 10) return;
-            articles.push({title, link: href, description: ''});
+            const container = a.closest('article, .post, div');
+            const timeEl = container ? container.querySelector('time.entry-date, time[datetime]') : null;
+            const date = timeEl ? (timeEl.getAttribute('datetime') || timeEl.textContent.trim()) : '';
+            articles.push({title, link: href, description: '', date: date});
         });
         return articles.slice(0, 25);
     }""")

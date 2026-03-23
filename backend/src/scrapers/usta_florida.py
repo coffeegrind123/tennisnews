@@ -1,4 +1,5 @@
-"""USTA Florida - https://www.ustaflorida.com/news/"""
+"""USTA Florida - https://www.ustaflorida.com/news/
+Date in p.post-date on listing. Desc from article meta."""
 
 URL = "https://www.ustaflorida.com/news/"
 
@@ -16,7 +17,10 @@ async def scrape(page) -> list[dict]:
             seen.add(href);
             const title = a.textContent.trim();
             if (!title || title.length < 10) return;
-            articles.push({title, link: href, description: ''});
+            const container = a.closest('article, div, li');
+            const dateEl = container ? container.querySelector('.post-date, [class*="date"]') : null;
+            const date = dateEl ? dateEl.textContent.trim() : '';
+            articles.push({title, link: href, description: '', date: date});
         });
         return articles.slice(0, 25);
     }""")

@@ -1,4 +1,5 @@
-"""Tennis Canada - https://www.tenniscanada.com/news"""
+"""Tennis Canada - https://www.tenniscanada.com/news
+Date in p.date on listing. Desc in p.short-description (featured only)."""
 
 URL = "https://www.tenniscanada.com/news"
 
@@ -19,7 +20,11 @@ async def scrape(page) -> list[dict]:
             seen.add(href);
             const title = h2.textContent.trim();
             if (!title || title.length < 10) return;
-            articles.push({title, link: href, description: ''});
+            const dateEl = el.querySelector('.date, p.date, [class*="date"]');
+            const date = dateEl ? dateEl.textContent.trim() : '';
+            const descEl = el.querySelector('.short-description, p.short-description');
+            const desc = descEl ? descEl.textContent.trim().substring(0, 500) : '';
+            articles.push({title, link: href, description: desc, date: date});
         });
         return articles.slice(0, 25);
     }""")

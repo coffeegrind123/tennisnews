@@ -1,4 +1,5 @@
-"""Tennis.com - https://www.tennis.com/news"""
+"""Tennis.com - https://www.tennis.com/news
+Desc in p tags on listing. Date only on article pages."""
 
 URL = "https://www.tennis.com/news"
 BASE = "https://www.tennis.com"
@@ -16,13 +17,15 @@ async def scrape(page) -> list[dict]:
             if (seen.has(href)) return;
             seen.add(href);
             const h = a.querySelector('h2, h3');
-            const title = h ? h.textContent.trim() : a.textContent.trim().substring(0, 200);
+            const title = h ? h.textContent.trim() : '';
             if (!title || title.length < 10) return;
             const p = a.querySelector('p');
+            const desc = p ? p.textContent.trim().substring(0, 500) : '';
             articles.push({
                 title: title,
                 link: href.startsWith('http') ? href : '""" + BASE + """' + href,
-                description: p ? p.textContent.trim().substring(0, 300) : ''
+                description: desc,
+                date: ''
             });
         });
         return articles.slice(0, 25);

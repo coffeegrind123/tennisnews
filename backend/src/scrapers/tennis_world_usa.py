@@ -1,4 +1,5 @@
-"""Tennis World USA - https://www.tennisworldusa.org/"""
+"""Tennis World USA - https://www.tennisworldusa.org/
+Date via time[datetime] on listing. Desc from article meta."""
 
 URL = "https://www.tennisworldusa.org/"
 
@@ -19,7 +20,9 @@ async def scrape(page) -> list[dict]:
             seen.add(href);
             const title = h3 ? h3.textContent.trim() : a.textContent.trim().substring(0, 200);
             if (!title || title.length < 10) return;
-            articles.push({title, link: href, description: ''});
+            const timeEl = el.querySelector('time');
+            const date = timeEl ? (timeEl.getAttribute('datetime') || timeEl.textContent.trim()) : '';
+            articles.push({title, link: href, description: '', date: date});
         });
         return articles.slice(0, 25);
     }""")
