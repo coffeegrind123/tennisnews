@@ -5,11 +5,15 @@ Supports ?q=keyword and ?source=name query parameters for filtering.
 """
 
 import json
+import re
 import html as html_lib
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
+from zoneinfo import ZoneInfo
+
+HELSINKI_TZ = ZoneInfo("Europe/Helsinki")
 
 PROJECT_DIR = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_DIR / "data"
@@ -42,6 +46,12 @@ def filter_articles(articles: list[dict], query: str = "", source: str = "") -> 
         s = source.lower()
         results = [a for a in results if s in a["source_name"].lower()]
     return results
+
+
+def filter_recent(articles: list[dict], days: int = 2) -> list[dict]:
+    now = datetime.now(ZoneInfo("Europe/Helsinki"))
+    cutoff = (now - timedelta(days=days)).strftime("%Y-%m-%d")
+    return [a for a in articles if re.search(r"\d{4}-\d{2}-\d{2}", a.get("date", "") or "") and re.search(r"\d{4}-\d{2}-\d{2}", a["date"]).group() >= cutoff]
 
 
 def filter_tweets(tweets: list[dict], query: str = "") -> list[dict]:
@@ -112,7 +122,7 @@ form{{margin:1em 0}}input{{padding:0.3em;width:300px}}
 h1.section{{margin-top:2em;border-top:2px solid #333;padding-top:0.5em}}</style></head>
 <body>
 <h1>Tennis News Feed</h1>
-<p>Updated: {now} | {len(articles)} articles{filter_info} | <a href="/">All ({len(all_articles)})</a> | <a href="#twitter">{len(tweets)} tweets</a></p>
+<p>Updated: {now} | {len(articles)} articles{filter_info} | <a href="/">Today+Yesterday</a> | <a href="?days=7">Week</a> | <a href="?days=all">All ({len(all_articles)})</a> | <a href="#twitter">{len(tweets)} tweets</a></p>
 <form method="get"><input type="text" name="q" value="{q_val}" placeholder="Search articles and tweets...">
 <button type="submit">Search</button></form>
 <nav>Sources: {source_links}</nav>
@@ -132,6 +142,9 @@ class Handler(BaseHTTPRequestHandler):
             articles = load_articles()
             q = params.get("q", [""])[0]
             src = params.get("source", [""])[0]
+            days = params.get("days", ["2"])[0]
+            if days != "all":
+                articles = filter_recent(articles, int(days))
             if q or src:
                 articles = filter_articles(articles, q, src)
             self.send_response(200)
@@ -158,6 +171,9 @@ class Handler(BaseHTTPRequestHandler):
             tweets = load_tweets()
             q = params.get("q", [""])[0]
             src = params.get("source", [""])[0]
+            days = params.get("days", ["2"])[0]
+            if days != "all":
+                articles = filter_recent(articles, int(days))
             if q or src:
                 articles = filter_articles(articles, q, src)
             if q:

@@ -1,8 +1,12 @@
-"""Australian Open - https://ausopen.com/news
-Date on listing via time element. Desc from article meta."""
+"""Australian Open - https://ausopen.com/news (Drupal 10)
+Listing: no desc, time element has text date but empty datetime attr.
+Article: meta[name=description]. No article:published_time. Time text on page."""
 
 URL = "https://ausopen.com/news"
 BASE = "https://ausopen.com"
+
+
+from scrapers.utils import log_progress, log_done
 
 
 async def scrape(page) -> list[dict]:
@@ -28,29 +32,32 @@ async def scrape(page) -> list[dict]:
             }
             if (!link) return;
             const fullLink = link.startsWith('http') ? link : '""" + BASE + """' + link;
-            // Date from nearby time element
-            const container = h2.closest('div, section, article');
-            const timeEl = container ? container.querySelector('time') : null;
-            const date = timeEl ? (timeEl.textContent.trim() || '') : '';
-            articles.push({title, link: fullLink, date: date});
+            articles.push({title, link: fullLink});
         });
-        return articles.slice(0, 20);
+        return articles.slice(0, 15);
     }""")
 
     articles = []
-    for item in links:
+    for idx, item in enumerate(links, 1):
+        log_progress(idx, len(links))
         try:
-            await page.goto(item["link"], wait_until="domcontentloaded", timeout=15000)
+            await page.goto(item["link"], wait_until="domcontentloaded", timeout=12000)
             await page.wait_for_timeout(1500)
-            desc = await page.evaluate("""() => {
+            meta = await page.evaluate("""() => {
+                var desc = '';
+                var date = '';
                 var m = document.querySelector('meta[name="description"]');
-                return m ? (m.getAttribute('content') || '').substring(0, 500) : '';
+                if (m) desc = m.getAttribute('content') || '';
+                // Time element has text date like "11 March 2026"
+                var t = document.querySelector('time');
+                if (t) date = t.textContent.trim();
+                return {desc: desc.substring(0, 500), date: date};
             }""")
             articles.append({
                 "title": item["title"], "link": item["link"],
-                "description": desc, "date": item.get("date", ""),
+                "description": meta["desc"], "date": meta["date"],
             })
         except Exception:
-            articles.append({"title": item["title"], "link": item["link"], "description": "", "date": item.get("date", "")})
-
+            articles.append({"title": item["title"], "link": item["link"], "description": "", "date": ""})
+    log_done()
     return articles

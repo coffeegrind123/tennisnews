@@ -5,6 +5,9 @@ URL = "https://tennis-infinity.com/"
 BASE = "https://tennis-infinity.com"
 
 
+from scrapers.utils import log_progress, log_done
+
+
 async def scrape(page) -> list[dict]:
     await page.goto(URL, wait_until="networkidle", timeout=30000)
     await page.wait_for_timeout(5000)
@@ -26,7 +29,8 @@ async def scrape(page) -> list[dict]:
     }""")
 
     articles = []
-    for item in links:
+    for idx, item in enumerate(links, 1):
+        log_progress(idx, len(links))
         try:
             await page.goto(item["link"], wait_until="domcontentloaded", timeout=15000)
             await page.wait_for_timeout(2000)
@@ -35,7 +39,7 @@ async def scrape(page) -> list[dict]:
                 var date = '';
                 var m = document.querySelector('meta[name="description"]');
                 if (m) desc = m.getAttribute('content') || '';
-                var d = document.querySelector('meta[property="article:published_time"]');
+                var d = document.querySelector('meta[property="article:published_time"], meta[name="article:published_time"]');
                 if (d) date = d.getAttribute('content') || '';
                 return {desc: desc.substring(0, 500), date: date};
             }""")
@@ -46,4 +50,5 @@ async def scrape(page) -> list[dict]:
         except Exception:
             articles.append({"title": item["title"], "link": item["link"], "description": "", "date": ""})
 
+    log_done()
     return articles

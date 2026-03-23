@@ -23,6 +23,7 @@ async def scrape(page) -> list[dict]:
                 seen.add(href);
                 const title = a.textContent.trim();
                 if (!title || title.length < 10) return;
+                if (/^(Membercard|Premium Lounge|Event Lounge|Experience Basel|Join the team|Ticket)/i.test(title)) return;
                 const descEl = el.querySelector('[class*="Description"]');
                 const desc = descEl ? descEl.textContent.trim().substring(0, 500) : '';
                 const dateEl = el.querySelector('[class*="Date"]');

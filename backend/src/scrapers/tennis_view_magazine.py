@@ -1,5 +1,8 @@
+from scrapers.utils import log_progress, log_done
+
 """Tennis View Magazine - http://www.tennisviewmag.com/ (Drupal)
-Desc in p.teaser, date in span.date on listing."""
+Listing: desc in p.teaser (wasn't working before due to dedup), date in span.date.
+Article: meta[name=description]. No article:published_time. Date as visible text only."""
 
 URL = "http://www.tennisviewmag.com/tennis-view-magazine/news"
 BASE = "http://www.tennisviewmag.com"
@@ -10,7 +13,7 @@ async def scrape(page) -> list[dict]:
         await page.goto(URL, wait_until="domcontentloaded", timeout=25000)
         await page.wait_for_timeout(4000)
 
-        return await page.evaluate("""(function() {
+        links = await page.evaluate("""(function() {
             var byHref = {};
             var aa = document.querySelectorAll('a');
             for (var i = 0; i < aa.length; i++) {
@@ -22,33 +25,43 @@ async def scrape(page) -> list[dict]:
                     byHref[h] = {title: t, link: h};
                 }
             }
-            // Get desc and date from each row
-            var rows = document.querySelectorAll('.views-row, tr.views-row');
-            var rowData = {};
-            rows.forEach(function(row) {
-                var a = row.querySelector('a[href*="/article/"]');
-                if (!a) return;
-                var href = a.getAttribute('href');
-                var teaser = row.querySelector('p.teaser, .teaser');
-                var dateEl = row.querySelector('span.date, .date');
-                rowData[href] = {
-                    desc: teaser ? teaser.textContent.trim().substring(0, 500) : '',
-                    date: dateEl ? dateEl.textContent.trim() : ''
-                };
-            });
             var articles = [];
             for (var key in byHref) {
                 if (byHref[key].title.length >= 10) {
-                    var rd = rowData[key] || {};
-                    articles.push({
-                        title: byHref[key].title,
-                        link: byHref[key].link,
-                        description: rd.desc || '',
-                        date: rd.date || ''
-                    });
+                    articles.push(byHref[key]);
                 }
             }
-            return articles.slice(0, 25);
+            return articles.slice(0, 15);
         })()""")
+
+        articles = []
+        for idx, item in enumerate(links, 1):
+            log_progress(idx, len(links))
+            full_link = item["link"] if item["link"].startswith("http") else BASE + item["link"]
+            try:
+                await page.goto(full_link, wait_until="domcontentloaded", timeout=12000)
+                await page.wait_for_timeout(1500)
+                meta = await page.evaluate("""() => {
+                    var desc = '';
+                    var date = '';
+                    var m = document.querySelector('meta[name="description"]');
+                    if (m) desc = m.getAttribute('content') || '';
+                    var els = document.querySelectorAll('[class*="date"], .date, span.date');
+                    for (var i = 0; i < els.length; i++) {
+                        var t = els[i].textContent.trim();
+                        if (t.match(/\\d{4}/)) { date = t; break; }
+                    }
+                    return {desc: desc.substring(0, 500), date: date};
+                }""")
+                articles.append({
+                    "title": item["title"],
+                    "link": full_link,
+                    "description": meta["desc"],
+                    "date": meta["date"],
+                })
+            except Exception:
+                articles.append({"title": item["title"], "link": full_link, "description": "", "date": ""})
+        log_done()
+        return articles
     except Exception:
         return []

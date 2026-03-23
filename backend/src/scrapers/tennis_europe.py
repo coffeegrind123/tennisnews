@@ -41,16 +41,25 @@ async def scrape(page) -> list[dict]:
                 const fullLink = href.startsWith('http') ? href : '""" + BASE + """' + href;
                 articles.push({title, link: fullLink, description: desc, date: date});
             });
-            // Fallback: short news list at bottom
-            document.querySelectorAll('a[href*="/news/"]').forEach(a => {
-                const href = a.getAttribute('href') || '';
-                if (!href.match(/\\/news\\/\\d+/) || seen.has(href)) return;
-                seen.add(href);
-                const title = a.textContent.trim();
-                if (!title || title.length < 10 || title === 'Latest News') return;
-                const fullLink = href.startsWith('http') ? href : '""" + BASE + """' + href;
-                articles.push({title, link: fullLink, description: '', date: ''});
-            });
+            // Short news list at bottom: "DD/MM/YYYY\t-\tTitle" with link
+            var rows = document.querySelectorAll('tr, li, p, div');
+            for (var i = 0; i < rows.length; i++) {
+                var text = rows[i].textContent.trim();
+                var m = text.match(/^(\\d{2}\\/\\d{2}\\/\\d{4})\\s*[-–]\\s*(.+)/);
+                if (m) {
+                    var dateStr = m[1]; // DD/MM/YYYY
+                    var rowTitle = m[2].trim();
+                    if (seen.has(rowTitle)) continue;
+                    // Find link in this row
+                    var rowLink = '';
+                    var ra = rows[i].querySelector('a[href*="/news/"]');
+                    if (ra) rowLink = ra.getAttribute('href') || '';
+                    if (!rowLink) continue;
+                    seen.add(rowTitle);
+                    var fullL = rowLink.startsWith('http') ? rowLink : '""" + BASE + """' + rowLink;
+                    articles.push({title: rowTitle, link: fullL, description: '', date: dateStr});
+                }
+            }
             return articles.slice(0, 25);
         }""")
     except Exception:

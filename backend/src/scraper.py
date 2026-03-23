@@ -13,6 +13,8 @@ import re
 import sys
 import html as html_lib
 from datetime import datetime, timezone, timedelta
+
+sys.stdout.reconfigure(line_buffering=True)
 from pathlib import Path
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
@@ -188,10 +190,10 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
                 "source_url": site["url"],
                 "date": to_helsinki(item.get("date", "")),
             })
-        print(f"  [SCRAPE] {name}: {len(articles)} articles")
+        print(f"{len(articles)} articles")
         return articles
     except Exception as e:
-        print(f"  [SCRAPE] {name}: ERROR - {e}")
+        print(f"ERROR - {e}")
         return []
 
 
@@ -223,15 +225,17 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
 
     all_articles = []
     twitter_tweets = []
+    total = len(scrape_sites)
     try:
         async with AsyncCamoufox(**kwargs) as browser:
             page = await browser.new_page()
-            for site in scrape_sites:
+            for idx, site in enumerate(scrape_sites, 1):
+                print(f"  [{idx}/{total}] {site['name']}...", end=" ")
                 try:
                     articles = await scrape_site_with_module(page, site)
                     all_articles.extend(articles)
                 except Exception as e:
-                    print(f"  [SCRAPE] {site['name']}: FAILED - {e}")
+                    print(f"FAILED - {e}")
 
             # Scrape Twitter feeds
             print("  Fetching Twitter feeds...")
