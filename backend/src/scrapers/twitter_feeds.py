@@ -14,6 +14,8 @@ ACCOUNTS = [
     {"handle": "theslicetennis", "name": "The Slice Tennis", "outlet": "The Slice"},
     {"handle": "mattyat", "name": "Matt Trollope", "outlet": "Tennis Australia"},
     {"handle": "viv_christie", "name": "Vivienne Christie", "outlet": "Tennis Australia"},
+    {"handle": "josemorgado", "name": "José Morgado", "outlet": "Record Portugal / SportTV"},
+    {"handle": "MichalSamulski", "name": "Michal Samulski", "outlet": "ITWA / Tennis Hall of Fame"},
 ]
 
 BASE = "https://xcancel.com"
