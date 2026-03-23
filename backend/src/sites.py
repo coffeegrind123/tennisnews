@@ -6,7 +6,6 @@ Scrape sites have a dedicated async function in scrapers/<name>.py
 
 SITES = [
     {"name": "ATP Tour", "url": "https://www.atptour.com/en/news", "type": "scrape", "module": "atp_tour"},
-    {"name": "Racquet Sports Industry", "url": "https://tennisindustrymag.com/news/", "type": "scrape", "module": "racquet_sports_industry"},
     {"name": "Tennis.com", "url": "https://www.tennis.com/news", "type": "scrape", "module": "tennis_com"},
     {"name": "Tennis World USA", "url": "https://www.tennisworldusa.org/", "type": "scrape", "module": "tennis_world_usa"},
     {"name": "Tennis Connected", "url": "https://tennisconnected.com/", "type": "rss", "feed_url": "https://tennisconnected.com/feed/"},
