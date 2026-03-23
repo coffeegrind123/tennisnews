@@ -371,9 +371,13 @@ async def run():
         json.dumps(tweets, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    generate_html(unique, tweets, PUBLIC_DIR / "index.html")
+    # Static HTML only includes last 2 days
+    now = datetime.now(HELSINKI_TZ)
+    cutoff = (now - timedelta(days=2)).strftime("%Y-%m-%d")
+    recent = [a for a in unique if a.get("date", "")[:10] >= cutoff]
+    generate_html(recent, tweets, PUBLIC_DIR / "index.html")
 
-    print(f"\nDone: {len(unique)} unique articles + {len(tweets)} tweets saved")
+    print(f"\nDone: {len(unique)} unique articles ({len(recent)} recent) + {len(tweets)} tweets saved")
     print(f"  JSON: {articles_path}")
     print(f"  Tweets: {tweets_path}")
     print(f"  HTML: {PUBLIC_DIR / 'index.html'}")
