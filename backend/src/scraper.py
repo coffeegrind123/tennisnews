@@ -213,18 +213,18 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
 
 async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
     if not scrape_sites:
-        return []
+        return [], []
 
     camoufox_path = str(CAMOUFOX_BIN) if CAMOUFOX_BIN.exists() else None
     if not camoufox_path:
         print("[WARN] camoufox binary not found, skipping scrape sites")
-        return []
+        return [], []
 
     try:
         from camoufox.async_api import AsyncCamoufox
     except ImportError:
         print("[WARN] camoufox not installed, skipping scrape sites")
-        return []
+        return [], []
 
     proxy_config = parse_proxy_url(DEFAULT_HTTP_PROXY) if DEFAULT_HTTP_PROXY else None
     kwargs = {
