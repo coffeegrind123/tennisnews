@@ -27,7 +27,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: backend/camoufox_build
-          key: camoufox-patched-v146.0.1-beta.25-v3
+          key: camoufox-patched-v146.0.1-beta.25-v4
 
       - name: Download camoufox browser
         if: steps.cache-camoufox.outputs.cache-hit != 'true'
@@ -37,20 +37,6 @@ jobs:
           unzip camoufox.zip -d camoufox_build
           rm camoufox.zip
           chmod +x camoufox_build/camoufox-bin
-          echo '{"version": "146.0.1", "release": "beta.25"}' > camoufox_build/version.json
-          python -c "
-          import json
-          with open('camoufox_build/properties.json') as f:
-              props = json.load(f)
-          if not any(p['property'] == 'headers.Accept-Encoding' for p in props):
-              props.append({'property': 'headers.Accept-Encoding', 'type': 'str'})
-              with open('camoufox_build/properties.json', 'w') as f:
-                  json.dump(props, f)
-              print('Patched properties.json with headers.Accept-Encoding')
-          else:
-              print('properties.json already has headers.Accept-Encoding')
-          "
-          ls -la camoufox_build/
 
       - name: Install system dependencies
         run: |
@@ -65,9 +51,6 @@ jobs:
           CACHE_DIR=$(python -c "from platformdirs import user_cache_dir; print(user_cache_dir('camoufox'))")
           rm -rf "$CACHE_DIR"
           ln -s "$(pwd)/backend/camoufox_build" "$CACHE_DIR"
-          echo "Linked $CACHE_DIR -> $(pwd)/backend/camoufox_build"
-          ls -la "$CACHE_DIR/camoufox-bin"
-          python -c "import json; d=json.load(open('$CACHE_DIR/properties.json')); print(f'{len(d)} properties loaded')"
 
       - name: Mask proxy components
         if: env.UPSTREAM_PROXY != ''
