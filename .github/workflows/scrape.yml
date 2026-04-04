@@ -27,7 +27,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: backend/camoufox_build
-          key: camoufox-patched-v146.0.1-beta.25-v2
+          key: camoufox-patched-v146.0.1-beta.25-v3
 
       - name: Download camoufox browser
         if: steps.cache-camoufox.outputs.cache-hit != 'true'
@@ -38,6 +38,18 @@ jobs:
           rm camoufox.zip
           chmod +x camoufox_build/camoufox-bin
           echo '{"version": "146.0.1", "release": "beta.25"}' > camoufox_build/version.json
+          python -c "
+          import json
+          with open('camoufox_build/properties.json') as f:
+              props = json.load(f)
+          if not any(p['property'] == 'headers.Accept-Encoding' for p in props):
+              props.append({'property': 'headers.Accept-Encoding', 'type': 'str'})
+              with open('camoufox_build/properties.json', 'w') as f:
+                  json.dump(props, f)
+              print('Patched properties.json with headers.Accept-Encoding')
+          else:
+              print('properties.json already has headers.Accept-Encoding')
+          "
           ls -la camoufox_build/
 
       - name: Install system dependencies
