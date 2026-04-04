@@ -47,6 +47,15 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r backend/requirements.txt
 
+      - name: Link camoufox binary to pip cache
+        run: |
+          CACHE_DIR=$(python -c "from platformdirs import user_cache_dir; print(user_cache_dir('camoufox'))")
+          rm -rf "$CACHE_DIR"
+          ln -s "$(pwd)/backend/camoufox_build" "$CACHE_DIR"
+          echo "Linked $CACHE_DIR -> $(pwd)/backend/camoufox_build"
+          ls -la "$CACHE_DIR/camoufox-bin"
+          python -c "import json; d=json.load(open('$CACHE_DIR/properties.json')); print(f'{len(d)} properties loaded')"
+
       - name: Mask proxy components
         if: env.UPSTREAM_PROXY != ''
         run: |
