@@ -1,6 +1,4 @@
 backend/camoufox_build/
-data/
-public/
 __pycache__/
 *.pyc
 .env
