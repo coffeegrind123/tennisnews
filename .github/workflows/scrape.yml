@@ -47,10 +47,22 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r backend/requirements.txt
 
+      - name: Mask proxy components
+        if: env.UPSTREAM_PROXY != ''
+        run: |
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*@\(.*\):.*|\1|p')"
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*:\([0-9]*\)$|\1|p')"
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*://\(.*\):.*@.*|\1|p')"
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*://.*:\(.*\)@.*|\1|p')"
+        env:
+          UPSTREAM_PROXY: ${{ secrets.UPSTREAM_PROXY }}
+
       - name: Run scraper
         working-directory: backend/src
-        run: python scraper.py
+        run: python scraper.py 2>&1 | head -500
         timeout-minutes: 20
+        env:
+          SCRAPER_HTTP_PROXY: ${{ secrets.UPSTREAM_PROXY }}
 
       - name: Commit and push results
         run: |
