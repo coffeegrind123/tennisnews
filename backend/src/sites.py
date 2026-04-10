@@ -23,7 +23,7 @@ SITES = [
     {"name": "Wimbledon", "url": "https://www.wimbledon.com/en_GB/news/index.html", "type": "scrape", "module": "wimbledon"},
     {"name": "ESPN Tennis", "url": "https://www.espn.com/tennis/", "type": "scrape", "module": "espn_tennis"},
     {"name": "Novak Djokovic", "url": "https://novakdjokovic.com/en/n/news/", "type": "scrape", "module": "novak_djokovic"},
-    {"name": "Tennisbuzz", "url": "https://tennisbuzz.net/", "type": "scrape", "module": "tennisbuzz"},
+    # Tennisbuzz — site is dead (Phoenix Server: Site Not Found) as of 2026-04-10
     {"name": "Tennis Canada", "url": "https://www.tenniscanada.com/news", "type": "scrape", "module": "tennis_canada"},
     {"name": "USTA Florida", "url": "https://www.ustaflorida.com/news/", "type": "scrape", "module": "usta_florida"},
     {"name": "World Tennis Magazine", "url": "https://worldtennismagazine.com/", "type": "rss", "feed_url": "https://worldtennismagazine.com/feed"},

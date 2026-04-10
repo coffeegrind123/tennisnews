@@ -1,6 +1,6 @@
 """Wimbledon - https://www.wimbledon.com/en_GB/news/index.html
-JS SPA. No og:description. Date from custom meta[name=resultdate] (Unix ms) or text.
-Must parse articles from visible text on listing, then visit for desc + date."""
+JS SPA. Extract article links directly from DOM, visit each for desc + date.
+Previous text-parsing approach broke when site stopped separating category labels on own lines."""
 
 from scrapers.utils import log_progress, log_done
 
@@ -14,64 +14,45 @@ async def scrape(page) -> list[dict]:
     await page.goto(URL, wait_until="networkidle", timeout=30000)
     await page.wait_for_timeout(5000)
 
-    text = await page.evaluate("() => document.body.innerText")
-    lines = [l.strip() for l in text.split("\n") if l.strip()]
-
-    # Also try to grab actual links
-    page_links = await page.evaluate("""() => {
-        var links = {};
-        document.querySelectorAll('a').forEach(a => {
-            var href = a.getAttribute('href') || '';
-            if (href.includes('/news/') && href.includes('/articles/')) {
-                var text = a.textContent.trim().substring(0, 200);
-                if (text.length > 10) links[text] = href.startsWith('http') ? href : '""" + BASE + """' + href;
+    links = await page.evaluate("""() => {
+        const articles = [];
+        const seen = new Set();
+        document.querySelectorAll('a[href*="/news/articles/"]').forEach(a => {
+            const href = a.getAttribute('href') || '';
+            if (!href || seen.has(href)) return;
+            seen.add(href);
+            let title = '';
+            const headings = a.querySelectorAll('h2, h3, h4, [class*="title"], [class*="heading"]');
+            for (const h of headings) {
+                const t = h.textContent.trim();
+                if (t.length > 10) { title = t; break; }
             }
+            if (!title) title = a.getAttribute('aria-label') || '';
+            if (!title) {
+                const text = a.textContent.trim().replace(/\\s+/g, ' ');
+                const cleaned = text
+                    .replace(/^(NEWS|FEATURE|FOUNDATION|news|feature|foundation)\\s*/i, '')
+                    .replace(/[A-Z]{3}\\s+\\d{1,2}\\s+[A-Z]{3}\\s+\\d{4}\\s*\\d{2}:\\d{2}\\s*GMT\\s*/gi, '')
+                    .replace(/^\\d+\\s+DAYS?\\s+AGO\\s*/i, '')
+                    .trim();
+                if (cleaned.length > 10) title = cleaned.substring(0, 200);
+            }
+            if (!title || title.length < 10) return;
+            const fullLink = href.startsWith('http') ? href : '""" + BASE + """' + href;
+            articles.push({title, link: fullLink});
         });
-        return links;
+        return articles.slice(0, 20);
     }""")
 
-    raw = []
-    seen = set()
-    i = 0
-    while i < len(lines) - 1:
-        line = lines[i]
-        if line in ("NEWS", "FEATURE", "FOUNDATION"):
-            date = ""
-            title = ""
-            if i + 1 < len(lines):
-                next_line = lines[i + 1]
-                if re.match(r"(\d+ DAYS? AGO|[A-Z]{3} \d{1,2} [A-Z]{3} \d{4})", next_line):
-                    date = next_line.split("GMT")[0].strip()
-                    if i + 2 < len(lines):
-                        title = lines[i + 2]
-                        i += 3
-                    else:
-                        i += 2
-                else:
-                    title = next_line
-                    i += 2
-            if title and len(title) > 10 and title not in seen:
-                seen.add(title)
-                link = page_links.get(title, URL)
-                raw.append({"title": title, "link": link, "date": date})
-        else:
-            i += 1
-
-    # Visit article pages for desc + better dates
     articles = []
-    visit_items = raw[:20]
-    for idx, item in enumerate(visit_items, 1):
-        log_progress(idx, len(visit_items))
-        if item["link"] == URL:
-            articles.append({**item, "description": ""})
-            continue
+    for idx, item in enumerate(links, 1):
+        log_progress(idx, len(links))
         try:
             await page.goto(item["link"], wait_until="domcontentloaded", timeout=12000)
             await page.wait_for_timeout(2000)
             meta = await page.evaluate("""() => {
                 var desc = '';
                 var date = '';
-                // First meaningful paragraph for desc
                 var ps = document.querySelectorAll('p');
                 for (var i = 0; i < ps.length; i++) {
                     var t = ps[i].textContent.trim();
@@ -79,24 +60,20 @@ async def scrape(page) -> list[dict]:
                         desc = t; break;
                     }
                 }
-                // Date from custom meta resultdate (Unix ms)
                 var rd = document.querySelector('meta[name="resultdate"]');
                 if (rd) {
                     var ms = parseInt(rd.getAttribute('content'));
-                    if (ms > 0) {
-                        var d = new Date(ms);
-                        date = d.toISOString();
-                    }
+                    if (ms > 0) date = new Date(ms).toISOString();
+                }
+                if (!date) {
+                    var d2 = document.querySelector('meta[property="article:published_time"]');
+                    if (d2) date = d2.getAttribute('content') || '';
                 }
                 return {desc: desc.substring(0, 500), date: date};
             }""")
-            articles.append({
-                **item,
-                "description": meta["desc"],
-                "date": meta["date"] or item["date"],
-            })
+            articles.append({**item, "description": meta["desc"], "date": meta["date"]})
         except Exception:
-            articles.append({**item, "description": ""})
+            articles.append({**item, "description": "", "date": ""})
 
     log_done()
     return articles

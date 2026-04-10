@@ -21,7 +21,9 @@ async def scrape(page) -> list[dict]:
             if (seen.has(href)) return;
             seen.add(href);
             const h = a.querySelector('h2, h3');
-            const title = h ? h.textContent.trim() : '';
+            let title = h ? h.textContent.trim() : '';
+            if (!title) title = a.getAttribute('aria-label') || '';
+            if (!title) { const sp = a.querySelector('span'); if (sp) title = sp.textContent.trim(); }
             if (!title || title.length < 10) return;
             const p = a.querySelector('p');
             const desc = p ? p.textContent.trim().substring(0, 500) : '';

@@ -21,7 +21,13 @@ async def scrape(page) -> list[dict]:
             const href = a.getAttribute('href') || '';
             if (!href || seen.has(href)) return;
             seen.add(href);
-            const title = h3 ? h3.textContent.trim() : a.textContent.trim().substring(0, 200);
+            let title = h3 ? h3.textContent.trim() : '';
+            if (!title) {
+                const h2 = el.querySelector('h2');
+                if (h2) title = h2.textContent.trim();
+            }
+            if (!title) title = a.textContent.trim().split('\\n')[0].substring(0, 200);
+            title = title.replace(/\\s*write_timeago\\([^)]*\\);?\\s*/g, '').replace(/\\d+\\s*[hm]\\s*$/, '').trim();
             if (!title || title.length < 10) return;
             const timeEl = el.querySelector('time');
             const date = timeEl ? (timeEl.getAttribute('datetime') || timeEl.textContent.trim()) : '';
