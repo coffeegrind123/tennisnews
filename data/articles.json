@@ -1,11 +1,339 @@
 [
   {
+    "title": "Tommy Paul Wins First US Clay Title",
+    "description": "",
+    "link": "https://www.tennispanorama.com/archives/76819",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": ""
+  },
+  {
+    "title": "Billie Jean King Cup Qualifying – Jovic and Kessler Lead U.S. Team vs. Belgium This Weekend",
+    "description": "",
+    "link": "https://www.tennispanorama.com/archives/76809",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": ""
+  },
+  {
+    "title": "April 20, 2006: The day Guillermo Coria won despite 23 double faults in Monte-Carlo",
+    "description": "Every day, Tennis Majors looks back at the biggest moments in tennis history. On April 20, 2006, Guillermo Coria reached the quarter-finals in Monte-Carlo despite serving 23 double faults",
+    "link": "https://www.tennismajors.com/atp/rolex-monte-carlo-masters-1000-atp/april-20-2006-the-day-guillermo-coria-won-despite-23-double-faults-in-monte-carlo-334623.html",
+    "source_name": "Tennis Majors",
+    "source_url": "https://www.tennismajors.com/",
+    "date": "2026-04-20 13:43 EEST"
+  },
+  {
+    "title": "When Emma Raducanu plans to return to tennis after withdrawing from the Madrid Open",
+    "description": "Emma Raducanu is in a curious position at the moment which has the entire tennis world scratching their head.",
+    "link": "https://tennishead.net/when-emma-raducanu-plans-to-return-to-tennis-after-withdrawing-from-the-madrid-open/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-20 10:00 EEST"
+  },
+  {
+    "title": "Elena Rybakina is the fourth WTA player in 2026 to win 2+ titles\t\t\t\tRybakina joins Aryna Sabalenka, Jessica Pegula and Mirra Andreeva as the player with 2+ titles in 2026.",
+    "description": "Rybakina joins Aryna Sabalenka, Jessica Pegula and Mirra Andreeva as the player with 2+ titles in 2026.",
+    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/166047/elena-rybakina-is-the-fourth-wta-player-in-2026-to-win-2-titles/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 09:05 EEST"
+  },
+  {
+    "title": "Karolina Muchova comments on Marketa Vondrousova doping controversy",
+    "description": "Muchova reveals she keeps in touch with Vondrousova, but insists she doesn't have any inside information.",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166032/karolina-muchova-comments-on-marketa-vondrousova-doping-controversy/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 07:20 EEST"
+  },
+  {
+    "title": "Alexandra Eala sets up fallback plan, signs up for two WTA 125 (Challenger) events",
+    "description": "Eala signs up for two WTA 125 (Challenger) tournaments, but will play only if she loses early in Madrid and Rome.",
+    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/166033/alexandra-eala-sets-up-fallback-plan-signs-up-for-two-wta-125-challenger-events/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 05:40 EEST"
+  },
+  {
+    "title": "Boris Becker highlights key factor behind Carlos Alcaraz's injury concerns",
+    "description": "Carlos Alcaraz experienced a physical setback in Barcelona",
+    "link": "https://www.tennisworldusa.org/tennis/news/Carlos_Alcaraz/166048/boris-becker-highlights-key-factor-behind-carlos-alcaraz-s-injury-concerns/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 04:57 EEST"
+  },
+  {
+    "title": "Aryna Sabalenka could take two Madrid Open records this year from Petra Kvitova and Simona Halep",
+    "description": "Aryna Sabalenka will make her return to tennis at the Madrid Open for the first time since her iconic Sunshine Double victory. The world number…",
+    "link": "https://tennishead.net/aryna-sabalenka-could-take-two-madrid-open-records-this-year-from-petra-kvitova-and-simona-halep/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-20 04:00 EEST"
+  },
+  {
+    "title": "Iga Swiatek felt 'pleasure' and received 'positive information' during Stuttgart loss",
+    "description": "Swiatek remained positive after losing to Mirra Andreeva in the Stuttgart quarterfinal.",
+    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/166031/iga-swiatek-felt-pleasure-and-received-positive-information-during-stuttgart-loss/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 03:55 EEST"
+  },
+  {
+    "title": "Rafael Jodar breaks into Top 50 on ATP rankings just three weeks after Top 100 debut",
+    "description": "The Spanish teenager was ranked No. 686 a year ago.",
+    "link": "https://www.tennis.com/news/articles/rafael-jodar-breaks-into-top-50-on-atp-rankings-three-weeks-after-top-100-debut-moutet-landaluce-podrez",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-20 03:00 EEST"
+  },
+  {
+    "title": "Novak Djokovic breaks record for most career weeks in Top 5 in ATP rankings history",
+    "description": "This week is his incredible 860th career week in the elite, surpassing Roger Federer’s previous record of 859.",
+    "link": "https://www.tennis.com/news/articles/novak-djokovic-breaks-record-for-most-career-weeks-in-top-5-in-atp-rankings-history",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-20 03:00 EEST"
+  },
+  {
+    "title": "Aussie Watch: Gibson, De Minaur lead bumper Aussie crop in Madrid Open",
+    "description": "A soaring Talia Gibson returns to the clay for the first time since breaking into the top 100, joining eight other Australians vying for singles success in the Spanish capital.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/20/aussie-watch-april-20",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-20 03:00 EEST"
+  },
+  {
+    "title": "Stuttgart champion Elena Rybakina has no intention of selling her second Porsche",
+    "description": "Rybakina confirms she plans to keep her second Porsche.",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166045/stuttgart-champion-elena-rybakina-has-no-intention-of-selling-her-second-porsche/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 02:35 EEST"
+  },
+  {
+    "title": "Juan Martin Del Potro has a surprise name who he thinks could trouble Carlos Alcaraz and Jannik Sinner",
+    "description": "Juan Martín Del Potro will know better than anyone just how difficult it can be to chase greatness. After all, he spent his entire career…",
+    "link": "https://tennishead.net/juan-martin-del-porto-has-a-surprise-name-who-he-thinks-could-trouble-carlos-alcaraz-and-jannik-sinner/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-20 02:00 EEST"
+  },
+  {
+    "title": "Watch: Karolina Muchova tells Elena Rybakina she 'clearly wanted' to win Porsche",
+    "description": "Muchova kept it light after suffering a two-set defeat in the Stuttgart final to Rybakina.",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166044/watch-karolina-muchova-tells-elena-rybakina-she-clearly-wanted-to-win-porsche/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-20 00:03 EEST"
+  },
+  {
+    "title": "Arthur Fils joins Yannick Noah on elite list after reaching the Barcelona Open final",
+    "description": "Arthur Fils has been in sensational form since returning from injury at the beginning of the season. The Frenchman is in his second ATP Tour…",
+    "link": "https://tennishead.net/arthur-fils-joins-yannick-noah-on-elite-list-after-reaching-the-barcelona-open-final/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-20 00:00 EEST"
+  },
+  {
+    "title": "Emma Raducanu absence extends due to after-effects of virus, pulls out of Madrid",
+    "description": "Raducanu won't be able to kick off her clay season in Madrid.",
+    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/166046/emma-raducanu-absence-extends-due-to-aftereffects-of-virus-pulls-out-of-madrid/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 21:59 EEST"
+  },
+  {
+    "title": "Toni Nadal explains why he doesn’t think Novak Djokovic will ever win another Grand Slam title",
+    "description": "Novak Djokovic’s chances of winning a 25th Grand Slam title grow slimmer with each passing year. After all, as he ages and his body begins…",
+    "link": "https://tennishead.net/toni-nadal-explains-why-he-doesnt-think-novak-djokovic-will-ever-win-another-grand-slam-title/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-19 21:00 EEST"
+  },
+  {
+    "title": "Rouen: Veronika Podrez fails to cap off WTA debut with title, loses to Marta Kostyuk",
+    "description": "Qualifier world No. 209 Podrez was beaten by No. 1 seed Kostyuk in the Rouen final. ",
+    "link": "https://www.tennisworldusa.org/tennis/news/On_the_WTA_results_with/166043/rouen-veronika-podrez-fails-to-cap-off-wta-debut-with-title-loses-to-marta-kostyuk/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 20:14 EEST"
+  },
+  {
+    "title": "Arthur Fils wins Barcelona over Andrey Rublev for his first title since 2024",
+    "description": "Arthur Fils claimed his fourth ATP title in Barcelona, the first since injury",
+    "link": "https://www.tennisworldusa.org/tennis/news/On_the_ATP_results_with/166042/arthur-fils-wins-barcelona-over-andrey-rublev-for-his-first-title-since-2024/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 20:02 EEST"
+  },
+  {
+    "title": "Andrey Rublev has overtaken Roger Federer in one area by reaching the Barcelona final",
+    "description": "Andrey Rublev has reached his first final in 11 months at the Barcelona Open. The Russian star has beaten Mariano Navone, Lorenzo Sonego, Tomas Machac,…",
+    "link": "https://tennishead.net/andrey-rublev-has-overtaken-roger-federer-in-one-area-by-reaching-the-barcelona-final/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-19 20:00 EEST"
+  },
+  {
+    "title": "Ten Minutes of Chaos, One Barcelona Title for Fils",
+    "description": "Arthur Fils overcame late nerves to close out his title in Barcelona.",
+    "link": "https://tennisnow.com/fils-wins-barcelona/",
+    "source_name": "Tennis Now",
+    "source_url": "https://www.tennisnow.com/",
+    "date": "2026-04-19 19:51 EEST"
+  },
+  {
+    "title": "Next Level: Is Today’s Tennis The Best Quality in Open Era History?",
+    "description": "A tennis historian assesses if today's tennis is the best level in history.",
+    "link": "https://tennisnow.com/next-level-is-todays-tennis-the-best-quality-in-open-era-history/",
+    "source_name": "Tennis Now",
+    "source_url": "https://www.tennisnow.com/",
+    "date": "2026-04-19 19:39 EEST"
+  },
+  {
+    "title": "Ben Shelton joins Andre Agassi and Andy Roddick on exclusive American list after winning Munich",
+    "description": "Ben Shelton has secured back-to-back Munich Open titles. The American proved too strong for Italian star Flavio Cobolli, beating the 23-year-old 6-2, 7-5 on the…",
+    "link": "https://tennishead.net/ben-shelton-joins-andre-agassi-and-andy-roddick-on-exclusive-american-list-after-winning-munich/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-19 19:30 EEST"
+  },
+  {
+    "title": "History Made: Kostyuk Triumphs in First All-Ukrainian WTA Final",
+    "description": "Marta Kostyk took the honors in Rouen, defeating Veronika Podrez in the first all-Ukrainian final in WTA history.",
+    "link": "https://tennisnow.com/history-made-kostyuk-triumphs-in-first-all-ukrainian-wta-final/",
+    "source_name": "Tennis Now",
+    "source_url": "https://www.tennisnow.com/",
+    "date": "2026-04-19 19:03 EEST"
+  },
+  {
+    "title": "Chris Evert has already noticed a change in Iga Swiatek’s game since she hired Francisco Roig",
+    "description": "Chris Evert has emerged to offer her thoughts on Iga Swiatek after watching her play in Stuttgart this week. It was not the return to…",
+    "link": "https://tennishead.net/chris-evert-has-already-noticed-a-change-in-iga-swiateks-game-since-she-hired-francisco-roig/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-19 19:00 EEST"
+  },
+  {
+    "title": "Arthur Fils may have arrived for real after Barcelona Open win over Andrey Rublev",
+    "description": "Arthur Fils faced Andrey Rublev at the Barcelona Open, trying to do something he hasn't done in two years. Could he get it done?",
+    "link": "https://lobandsmash.com/arthur-fils-may-have-arrived-for-real-after-barcelona-open-win-over-andrey-rublev?utm_source=RSS",
+    "source_name": "Lob & Smash",
+    "source_url": "https://lobandsmash.com/",
+    "date": "2026-04-19 18:54 EEST"
+  },
+  {
+    "title": "Fils conquers Barcelona to signal he is back among the best",
+    "description": "Eight months out, two match points saved in round one, his 100th win in the semis, and now a Barcelona title on clay — Fils (No 9) beat Rublev (No 5) 6-2, 7-6 (2) and the comeback has become a title challenge. Doha and Miami were signs. Barcelona is proof.",
+    "link": "https://www.tennismajors.com/atp/fils-conquers-barcelona-to-signal-he-is-back-among-the-best-848725.html",
+    "source_name": "Tennis Majors",
+    "source_url": "https://www.tennismajors.com/",
+    "date": "2026-04-19 18:52 EEST"
+  },
+  {
+    "title": "Mutua Madrid Open 2026: Schedule of Play for Monday April 20",
+    "description": "Mutua Madrid Open 2026: Schedule of Play for Monday April 20 LINK: Madrid Open Schedule of Play 2026 Mutua Madrid Open Daily Schedule of Play (ATP & WTA 1000) The 2026 Mutua Madrid Open promises two weeks of elite tennis, featuring both ATP Masters 1000 and WTA 1000 competition at the iconic Caja Mágica. As […] The post Mutua Madrid Open 2026: Schedule of Play for Monday April 20 appeared first on Tennis Connected .",
+    "link": "https://tennisconnected.com/mutua-madrid-open-2026-schedule-of-play-for-monday-april-20/",
+    "source_name": "Tennis Connected",
+    "source_url": "https://tennisconnected.com/",
+    "date": "2026-04-19 18:39 EEST"
+  },
+  {
+    "title": "Kostyuk wins Rouen title as teenage qualifier Podrez announces herself",
+    "description": "Marta Kostyuk won the trophy on Sunday afternoon against Veronika Podrez.",
+    "link": "https://www.tennismajors.com/wta-tour-news/kostyuk-wins-rouen-title-as-teenage-qualifier-podrez-announces-herself-848708.html",
+    "source_name": "Tennis Majors",
+    "source_url": "https://www.tennismajors.com/",
+    "date": "2026-04-19 17:59 EEST"
+  },
+  {
+    "title": "Ben Shelton Captures Biggest Clay Tennis Title of Career in Munich",
+    "description": "Photo credit: BMW Open Facebook Slow dirt tracks don’t stall Ben Shelton’s drive. Revving his competitive engine, Shelton rode his all-court skills powering past Flavio Cobolli 6-2, 7-5 to collect his fifth career championship on the red clay of Munich today. It’s a milestone moment for Shelton and American tennis at the ATP 500-level BMW […] The post Ben Shelton Captures Biggest Clay Tennis Title of Career in Munich appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/19/ben-shelton-captures-biggest-clay-tennis-title-of-career-in-munich/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-19 17:31 EEST"
+  },
+  {
+    "title": "Stepanek highlights turning points in Jannik Sinner's win over Carlos Alcaraz",
+    "description": "Jannik Sinner dethroned Carlos Alcaraz in Monte Carlo in straight sets",
+    "link": "https://www.tennisworldusa.org/tennis/news/Jannik_Sinner/166040/stepanek-highlights-turning-points-in-jannik-sinner-s-win-over-carlos-alcaraz/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 17:30 EEST"
+  },
+  {
+    "title": "Ben Shelton tops Flavio Cobolli in Munich, lifts fifth ATP title",
+    "description": "Ben Shelton has won two ATP 500 titles this season",
+    "link": "https://www.tennisworldusa.org/tennis/news/On_the_ATP_results_with/166041/ben-shelton-tops-flavio-cobolli-in-munich-lifts-fifth-atp-title/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 17:19 EEST"
+  },
+  {
     "title": "Red Hot: Shelton Wins Fifth Career Title in Munich",
     "description": "Ben Shelton won the biggest clay-court title by an American man since Andre Agassi claimed the 2002 Rome crown.",
     "link": "https://tennisnow.com/red-hot-shelton-wins-fifth-career-title-in-munich/",
     "source_name": "Tennis Now",
     "source_url": "https://www.tennisnow.com/",
     "date": "2026-04-19 17:01 EEST"
+  },
+  {
+    "title": "Ian Poulter fires back at LIV Golf collapse rumours: 48 hours is not a distraction",
+    "description": "The English golfer reminds that there have been many changes in the world of golf in recent years.",
+    "link": "https://www.tennisworldusa.org/other_news/golf/166037/ian-poulter-fires-back-at-liv-golf-collapse-rumours-48-hours-is-not-a-distraction/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 17:00 EEST"
+  },
+  {
+    "title": "What Elena Rybakina has already achieved in 2026 that took her 11 months to do last year",
+    "description": "Elena Rybakina finds herself in yet another WTA final after beating Mirra Andreeva in the Stuttgart Open semi-finals. The Australian Open champion has also reached…",
+    "link": "https://tennishead.net/what-elena-rybakina-has-already-achieved-in-2026-that-took-her-11-months-to-do-last-year/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-19 17:00 EEST"
+  },
+  {
+    "title": "Shelton stops Cobolli to win Munich Open title",
+    "description": "Ben Shelton bounced back from disappointment last year by defeating Flavio Cobolli 6-2, 7-5 to win the Munich Open.",
+    "link": "https://www.espn.com/tennis/story/_/id/48531189/ben-shelton-beats-flavio-cobolli-win-munich-open",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-19 16:51 EEST"
+  },
+  {
+    "title": "SOLINCO® Tennis PERFORMANCE ENGINEERED EQUIPMENT",
+    "description": "﻿Editors Note: •Editors Note: Solinco strings are the green ones you’ve all seen for years. The team at 10sBalls and team Solinco started up around same time. We built a strong bond with them. They never cease to impress us with their stable of players. Coaches.and Characters they connect to. Including us. They make the […] The post SOLINCO® Tennis PERFORMANCE ENGINEERED EQUIPMENT appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/19/solinco-tennis-performance-engineered-equipment-2/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-19 16:30 EEST"
+  },
+  {
+    "title": "Alexander Zverev reveals he wants to follow Sinner and Alcaraz’s example",
+    "description": "The 28-year-old reached the semifinals of the BMW Open, where he was ultimately defeated by Italian tennis player Flavio Cobolli.",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166026/alexander-zverev-reveals-he-wants-to-follow-sinner-and-alcarazs-example/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 16:30 EEST"
+  },
+  {
+    "title": "Elena Rybakina speaks straight after winning the Stuttgart Open for a second time",
+    "description": "Elena Rybakina reigns supreme in Germany once again. The Kazakh has secured her second title of the 2026 season, defeating Karolina Muchova in the Stuttgart…",
+    "link": "https://tennishead.net/elena-rybakinas-immediate-reaction-after-winning-the-stuttgart-open-for-a-second-time/",
+    "source_name": "Tennishead",
+    "source_url": "https://tennishead.net/tennis/news/",
+    "date": "2026-04-19 16:30 EEST"
+  },
+  {
+    "title": "Rybakina beats Muchova for 2nd title in Stuttgart",
+    "description": "Elena Rybakina defeated Karolina Muchova 7-5, 6-1 to win the Porsche Tennis Grand Prix for the second time.",
+    "link": "https://www.espn.com/tennis/story/_/id/48530942/elena-rybakina-beats-muchova-win-porsche-tennis-grand-prix",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-19 16:19 EEST"
   },
   {
     "title": "Shelton avenges Munich final defeat to claim first European clay title",
@@ -24,6 +352,14 @@
     "date": "2026-04-19 16:01 EEST"
   },
   {
+    "title": "New rumours surrounding Tiger Woods grow during 90-day Swiss rehab stay",
+    "description": "A friend of Tiger’s girlfriend, Vanessa Trump, told the Daily Mail that he is responding well to treatment, while Vanessa is very satisfied with the information she is receiving.",
+    "link": "https://www.tennisworldusa.org/other_news/golf/166036/new-rumours-surrounding-tiger-woods-grow-during-90day-swiss-rehab-stay/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 15:30 EEST"
+  },
+  {
     "title": "Rybakina reclaims Stuttgart crown and leads the WTA Race opening the clay seaon",
     "description": "Elena Rybakina (No 1 seed, world No 2) beat Karolina Muchova (No 7 seed) 7-5, 6-1 to win her second Stuttgart title and 13th career title, extending her winning streak at the Porsche Arena to eight matches.",
     "link": "https://www.tennismajors.com/wta-tour-news/rybakina-reclaims-stuttgart-crown-and-leads-the-wta-race-opening-the-clay-seaon-848666.html",
@@ -38,6 +374,198 @@
     "source_name": "Tennis Majors",
     "source_url": "https://www.tennismajors.com/",
     "date": "2026-04-19 15:13 EEST"
+  },
+  {
+    "title": "Joao Fonseca explains key reason behind defeat to Ben Shelton in Munich",
+    "description": "“Another good week with a solid level of tennis,” he said.",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166024/joao-fonseca-explains-key-reason-behind-defeat-to-ben-shelton-in-munich/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 15:00 EEST"
+  },
+  {
+    "title": "Iga Swiatek on Francisco Roig: Clear vision, but execution still a challenge",
+    "description": "The Polish tennis player encounters problems from tournament to tournament, and the cooperation with Francisco Roig could be a turning point this season.",
+    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/166023/iga-swiatek-on-francisco-roig-clear-vision-but-execution-still-a-challenge/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 13:30 EEST"
+  },
+  {
+    "title": "Toni Nadal says Djokovic cannot maintain rhythm for two hours against Alcaraz",
+    "description": "He especially highlighted the qualities of Carlos Alcaraz, stressing that the Spaniard has a constant level of play that is rarely seen. ",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166021/toni-nadal-says-djokovic-cannot-maintain-rhythm-for-two-hours-against-alcaraz/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 10:30 EEST"
+  },
+  {
+    "title": "How can you watch the Madrid draw?",
+    "description": "",
+    "link": "https://www.atptour.com/en/news/madrid-2026-how-to-watch-the-draw",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Who won the Barcelona title?",
+    "description": "The 2026 Barcelona Open Banc Sabadell concluded Sunday when Arthur Fils won the title. View all Barcelona Sunday results here.",
+    "link": "https://www.atptour.com/en/news/barcelona-2026-results",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Who won the Munich title?",
+    "description": "The 2026 BMW Open by Bitpanda concluded Sunday when Ben Shelton won the title. View Sunday's results here. ",
+    "link": "https://www.atptour.com/en/news/munich-2026-results",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Video: How Fils triumphed in Barcelona",
+    "description": "ATPTour.com relives Arthur Fils' journey to the Barcelona trophy through videos of key moments in the week.",
+    "link": "https://www.atptour.com/en/news/fils-barcelona-2026-video-recap",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Fils overcomes Rublev, claims Barcelona crown for first title since injury",
+    "description": "Arthur Fils held his nerve through a dramatic late surge from Andrey Rublev at the Barcelona Open Banc Sabadell on Sunday when he defeated the 28-year-old 6-2, 7-6(2) in the championship match to clinch the title at the clay-court ATP 500 event.",
+    "link": "https://www.atptour.com/en/news/fils-rublev-barcelona-2026-final",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Video: How Shelton won Munich",
+    "description": "Ben Shelton lifted his fifth tour-level trophy in Munich. Relive the key moments of the week through video.",
+    "link": "https://www.atptour.com/en/news/shelton-munich-2026-video-recap",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Shelton wins Munich title to become first American since Agassi to do this...",
+    "description": "Ben Shelton clinched his fifth ATP Tour title and second on clay on Sunday at the BMW Open by Bitpanda in Munich.",
+    "link": "https://www.atptour.com/en/news/shelton-cobolli-munich-2026-final",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Cash/Glasspool soar to first title of season in Barcelona",
+    "description": "Julian Cash and Lloyd Glasspool have been made to wait for a title in 2026, but they finally had reason to celebrate on Sunday at the Barcelona Open Banc Sabadell.",
+    "link": "https://www.atptour.com/en/news/barcelona-2026-doubles-final",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Germans Schnaitter/Wallner save championship point, triumph on home soil in Munich",
+    "description": "German qualifiers Jakob Schnaitter and Mark Wallner captured their first ATP Tour title as a team on Sunday at the BMW Open by Bitpanda in Munich.",
+    "link": "https://www.atptour.com/en/news/munich-2026-doubles-final",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Arthur Fils triumphs in Barcelona, Rybakina, Shelton claim clay-court titles",
+    "description": "As they move on to the 1000s, a look at what might propel them higher, or hold them back, on dirt.",
+    "link": "https://www.tennis.com/news/articles/arthur-fils-triumphs-in-barcelona-rybakina-shelton-claim-clay-court-titles",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Munich champ Ben Shelton: I have big ambitions on clay",
+    "description": "Shelton became the first U.S. man to win a notable clay event since Andre Agassi in 2002—and is eyeing a peak in Paris.",
+    "link": "https://www.tennis.com/news/articles/munich-champ-ben-shelton-i-have-big-ambitions-on-clay",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "With Rybakina and Kostyuk’s titles, No. 1 seeds have won the last seven WTA events in a row",
+    "description": "Top seeds conquered Indian Wells, Miami, Charleston, Bogota and Linz, and now Stuttgart and Rouen.",
+    "link": "https://www.tennis.com/news/articles/with-rybakina-and-kostyuk-s-titles-no-1-seeds-have-won-the-last-seven-wta-events-in-a-row",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Ben Shelton wins biggest clay-court title for an American man since Andre Agassi in 2002",
+    "description": "The 23-year-old lefty captured the ATP 500 crown on the clay of Munich, Germany on Sunday afternoon.",
+    "link": "https://www.tennis.com/news/articles/ben-shelton-wins-munich-biggest-clay-court-title-for-an-american-man-since-agassi-in-rome-in-2002",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Elena Rybakina storms to second Stuttgart title over Karolina Muchova",
+    "description": "The reigning Australian Open champion takes home her second Porsche in three years to kick off her clay-court campaign.",
+    "link": "https://www.tennis.com/news/articles/elena-rybakina-storms-to-second-stuttgart-title-over-karolina-muchova",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Could the next installment of Sincaraz be decided at net?",
+    "description": "Sinner is No. 1, but Alcaraz is the straw that stirs the drink—and that affects the entire tour.",
+    "link": "https://www.tennis.com/news/articles/jannik-sinner-carlos-alcaraz-sincaraz",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "ESPN AP Tennis Headlines",
+    "description": "Visit ESPN for live scores, highlights and sports news. Stream exclusive games on ESPN and play fantasy sports.",
+    "link": "https://www.espn.com/",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Maresova & Papoian Victorious in Maia",
+    "description": "After an intense week of competition, Beata Maresova and Rafael Papoian secure their first-ever Supery Category title...",
+    "link": "https://www.tenniseurope.org/news/163125/Maresova-Papoian-Victorious-in-Maia",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-04-19 03:00 EEST"
+  },
+  {
+    "title": "Wilson Launches New Tennis Shoe, The Rush 5",
+    "description": "Photo credit: Wilson It’s rush hour on court and Wilson is bringing the speed. Wilson today announces the launch of its newest men’s tennis shoe, the Rush 5 Tour. Designed for the speed, physicality and relentless movement of the modern game, the Rush 5 Tour delivers explosive propulsion, uncompromising stability and tour-level durability. The revamped […] The post Wilson Launches New Tennis Shoe, The Rush 5 appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/18/wilson-launches-new-tennis-shoe-the-rush-5/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-19 00:00 EEST"
+  },
+  {
+    "title": "Alexander Zverev reveals the main reason for his loss in Munich",
+    "description": "The next tournament on Alexander's schedule is the Mutua Madrid Open",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Interviews/166016/alexander-zverev-reveals-the-main-reason-for-his-loss-in-munich/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-19 00:00 EEST"
+  },
+  {
+    "title": "Barcelona Open Tennis Draws and Schedule for Sunday, April 19, 2026",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has been staged […] The post Barcelona Open Tennis Draws and Schedule for Sunday, April 19, 2026 appeared first on 10sBalls.com • Tennis",
+    "link": "https://10sballs.com/2026/04/18/barcelona-open-tennis-draws-and-schedule-for-sunday-april-19-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-18 21:49 EEST"
+  },
+  {
+    "title": "Serena Williams’ former coach Macci issues strong warning on Alcaraz wrist injury",
+    "description": "“The Spanish Magician made the right call by pulling out of the tournament.\"",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/166002/serena-williams-former-coach-macci-issues-strong-warning-on-alcaraz-wrist-injury/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-18 21:00 EEST"
   },
   {
     "title": "Tennis Now TV: Fans Reveal the BEST & WORST Commentators",
@@ -70,14 +598,6 @@
     "source_name": "Tennis Now",
     "source_url": "https://www.tennisnow.com/",
     "date": "2026-04-18 20:00 EEST"
-  },
-  {
-    "title": "Next Level: Is Today’s Tennis The Best Quality in Open Era History?",
-    "description": "A tennis historian assesses if today's tennis is the best level in history.",
-    "link": "https://tennisnow.com/next-level-is-todays-tennis-the-best-quality-in-open-era-history/",
-    "source_name": "Tennis Now",
-    "source_url": "https://www.tennisnow.com/",
-    "date": "2026-04-18 19:39 EEST"
   },
   {
     "title": "2026 Mutua Madrid Open Live Streaming Guide (ATP & WTA 1000)",
@@ -128,14 +648,6 @@
     "date": "2026-04-18 18:10 EEST"
   },
   {
-    "title": "Kostyuk, Podrez Set All-Ukrainian Final in Rouen",
-    "description": "Marta Kostyuk will bid for her second WTA title on Sunday in Rouen.",
-    "link": "https://tennisnow.com/kostyuk-podrez-set-all-ukrainian-final-in-rouen/",
-    "source_name": "Tennis Now",
-    "source_url": "https://www.tennisnow.com/",
-    "date": "2026-04-18 18:07 EEST"
-  },
-  {
     "title": "Rybakina and Muchova reach Stuttgart final as top seeds continue to fall",
     "description": "Karolina Muchova edged out Elina Svitolina 6-4, 2-6, 6-4 on Saturday afternoon. She'll play the winner of the match between Kazakh Elena Rybakina, the top seed, and Russian Mirra Andreeva, the No 6 seed, in the final",
     "link": "https://www.tennismajors.com/wta-tour-news/rybakina-and-muchova-reach-stuttgart-final-as-top-seeds-continue-to-fall-848617.html",
@@ -150,6 +662,14 @@
     "source_name": "Tennis Majors",
     "source_url": "https://www.tennismajors.com/",
     "date": "2026-04-18 16:40 EEST"
+  },
+  {
+    "title": "Elena Rybakina: I was feeling a lot of frustration, just going downhill",
+    "description": "Rybakina reflects on her Stuttgart thriller win against Leylah Fernandez.",
+    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/165991/elena-rybakina-i-was-feeling-a-lot-of-frustration-just-going-downhill/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-18 16:10 EEST"
   },
   {
     "title": "Cobolli stuns defending champion Zverev to reach first Munich final",
@@ -168,12 +688,84 @@
     "date": "2026-04-18 15:28 EEST"
   },
   {
+    "title": "Sinner's girlfriend, Laila impresses fans with stunning look and relaxed golf moments",
+    "description": "While some expected Hasanovic to leave Monte Carlo, she nevertheless decided to stay, wanting to attend Genny's fashion show. Laila and Snyder were noticed at the event at the Yacht Club de Monaco, with their interesting outfits. ",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/165995/sinner-s-girlfriend-laila-impresses-fans-with-stunning-look-and-relaxed-golf-moments/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-18 15:00 EEST"
+  },
+  {
     "title": "How to Build a Winning Tennis DFS Strategy: From Beginner Picks to Advanced Tactics",
     "description": "Tennis has always been a thinking person's sport. Daily Fantasy Sports is proving it can be a thinking person's game, too.",
     "link": "https://www.tennismajors.com/others-news/how-to-build-a-winning-tennis-dfs-strategy-from-beginner-picks-to-advanced-tactics-848583.html",
     "source_name": "Tennis Majors",
     "source_url": "https://www.tennismajors.com/",
     "date": "2026-04-18 14:03 EEST"
+  },
+  {
+    "title": "Remembering Alejandro Burillo, leading figure in Mexican tennis",
+    "description": "Alejandro Burillo, the visionary Mexican businessman whose passion and leadership helped establish his country as a key destination on the ATP Tour calendar, passed away this week at the age of 74.",
+    "link": "https://www.atptour.com/en/news/burillo-obituary-april-2026",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "Thiem’s Tips: Domi's key ATP Fantasy factors for Madrid, where he beat Nadal & Federer",
+    "description": "The 2026 ATP Fantasy season is underway, and Dominic Thiem is offering fans an early glimpse into the mindset required to succeed in the fantasy tennis game. Learn from the former World No. 3, serving as your assistant manager, as you pick your team for the Mutua Madrid Open.",
+    "link": "https://www.atptour.com/en/news/thiem-atp-fantasy-madrid-2026",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "What is the Barcelona tennis schedule?",
+    "description": "Sunday's order of play at the Barcelona Open Banc Sabadell will feature singles final between Arthur Fils and Andrey rublev. View here the full Sunday Barcelona schedule.",
+    "link": "https://www.atptour.com/en/news/barcelona-2026-schedule",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "Fils denies #NextGenATP Jodar, sets Rublev final in Barcelona",
+    "description": "Arthur Fils absorbed the full force of Rafael Jodar’s rapid rise on Saturday at the Barcelona Open Banc Sabadell, but the ninth seed refused to become the Spaniard’s next breakthrough scalp.",
+    "link": "https://www.atptour.com/en/news/fils-jodar-barcelona-2026-sfs",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "Flavio Cobolli dedicates Munich upset of Alexander Zverev to late 13-year-old friend",
+    "description": "“A friend of mine passed away yesterday. He was only 13 years old. This win is for him,” an emotional Cobolli said during his on-court interview.",
+    "link": "https://www.tennis.com/news/articles/flavio-cobolli-emotional-alexander-zverev-munich",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "Arthur Fils battles past Rafael Jodar in Barcelona semifinals for 100th win of career",
+    "description": "The 21-year-old Frenchman is the first man born in 2004 or later to record 100 tour-level victories in his career.",
+    "link": "https://www.tennis.com/news/articles/arthur-fils-battles-past-rafael-jodar-in-barcelona-semifinals-100th-win-of-career",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "A clay title, a return to No. 1: Sinner finds his clay-court momentum",
+    "description": "Men’s tennis has been revolving around Jannik Sinner and Carlos Alcaraz for quite some time now. Their rankings, their results and the level they keep producing have made that very clear, and Monte Carlo only underlined it once again. So, when Sinner lost to Novak Djokovic in the Australian Open semifinals, it stood out, not because it changed the bigger picture, but because it briefly paused the momentum he had been building. Even then, the larger story at the top of the men’s game remained the",
+    "link": "https://www.asiantennis.com/news/a-clay-title-a-return-to-no-1-sinner-finds-his-clay-court-momentum/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-18 03:00 EEST"
+  },
+  {
+    "title": "Malta hosts 2026 ITF/Tennis Europe Small States Championships",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/163117/Malta-hosts-2026-ITFTennis-Europe-Small-States-Championships",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-04-18 03:00 EEST"
   },
   {
     "title": "ATP and WTA 2026: Schedule of Play for Saturday April 18 for Barcelona, Munich, Stuttgart and Rouen",
@@ -184,12 +776,20 @@
     "date": "2026-04-18 01:32 EEST"
   },
   {
-    "title": "Cirstea Advances to Rouen Semis, Continuing Fine Form in Final Season",
-    "description": "Sorana Cirstea reached her second semifinal of 2026 with a win over Ana Bondar in Rouen.",
-    "link": "https://tennisnow.com/cirstea-advances-to-rouen-semis-continuing-fine-form-in-final-season/",
-    "source_name": "Tennis Now",
-    "source_url": "https://www.tennisnow.com/",
-    "date": "2026-04-17 23:09 EEST"
+    "title": "Barcelona Open Tennis Draws and Schedule for Saturday, April 18, 2026",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has been staged […] The post Barcelona Open Tennis Draws and Schedule for Saturday, April 18, 2026 appeared first on 10sBalls.com • Tenn",
+    "link": "https://10sballs.com/2026/04/17/barcelona-open-tennis-draws-and-schedule-for-saturday-april-18-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-17 22:43 EEST"
+  },
+  {
+    "title": "Stuttgart: Iga Swiatek's poor year continues, loses after collapse and blowing lead",
+    "description": "Swiatek lost to Mirra Andreeva from a set up in the Stuttgart quarterfinal.",
+    "link": "https://www.tennisworldusa.org/tennis/news/On_the_WTA_results_with/165985/stuttgart-iga-swiatek-s-poor-year-continues-loses-after-collapse-and-blowing-lead/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-17 21:14 EEST"
   },
   {
     "title": "Novak Djokovic and Carlos Alcaraz deliver body blow to Madrid Masters",
@@ -198,6 +798,30 @@
     "source_name": "Lob & Smash",
     "source_url": "https://lobandsmash.com/",
     "date": "2026-04-17 20:30 EEST"
+  },
+  {
+    "title": "Carlos Alcaraz, Novak Djokovic Withdraw from Madrid",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis The Mutua Madrid Open has lost significant Spanish star power. World No. 2 Carlos Alcaraz officially withdrew from next week’s Mutua Madrid Open today as he continues recovery from the right wrist injury that forced him to pull out of Barcelona after his opening-round win over Otto Virtanen. Reigning Australian Open, Roland Garros […] The post Carlos Alcaraz, Novak Djokovic Withdraw from Madrid appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/17/carlos-alcaraz-novak-djokovic-withdraw-from-madrid/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-17 19:39 EEST"
+  },
+  {
+    "title": "Ben Shelton keeps BMW Open dream alive after scare",
+    "description": "Ben Shelton keeps BMW Open dream alive with nervy win over Joao Fonseca. Shelton had to dig deep on Friday to keep his title hopes alive at the BMW Open by Bitpanda in Munich, edging past rising Brazi...",
+    "link": "https://tennis-infinity.com/news/ben-shelton-keeps-bmw-open-dream-alive-after-scare",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-17 19:02 EEST"
+  },
+  {
+    "title": "Aryna Sabalenka opens up on her two personalities",
+    "description": "Aryna Sabalenka is dominating women's tennis right now, but the world number one is in a reflective mood.  In a wide-ranging cover interview for Esquire magazine's Mavericks of Sports issue, the 27-ye...",
+    "link": "https://tennis-infinity.com/news/aryna-sabalenka-opens-up-on-her-two-personalities",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-17 18:36 EEST"
   },
   {
     "title": "Ben Shelton survives tense BMW Open scare to keep momentum alive",
@@ -216,6 +840,22 @@
     "date": "2026-04-17 18:27 EEST"
   },
   {
+    "title": "How Tennis Players Actually Unwind Between Tournaments",
+    "description": "I’ve spent years covering professional tennis, and something keeps surprising casual fans. Players need serious mental breaks between tournaments—not just physical rest, but actual brain downtime where they’re not thinking about tennis at all. And the ways they decompress? Pretty ordinary, honestly. Between matches at Indian Wells last year, I caught up with three ATP […] The post How Tennis Players Actually Unwind Between Tournaments appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/how-tennis-players-actually-unwind-between-tournaments/27517",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-17 18:26 EEST"
+  },
+  {
+    "title": "Why The Diamond Tennis Bracelet Still Wins",
+    "description": "There’s something quietly confident about a tennis bracelet. It doesn’t try too hard, it doesn’t beg for attention, and yet it always ends up being the piece people notice. Whether you’re watching a match from the stands or grabbing coffee after a morning hit, it fits right in without ever feeling out of place. That […] The post Why The Diamond Tennis Bracelet Still Wins appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/why-the-diamond-tennis-bracelet-still-wins/27513",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-17 18:10 EEST"
+  },
+  {
     "title": "Alexander Zverev nearly collapses before stunning BMW Open survival",
     "description": "The BMW Open match between Alexander Zverev and Francisco Cerundolo didn't go as it first appeared it might. Here is what happened.",
     "link": "https://lobandsmash.com/alexander-zverev-nearly-collapses-before-stunning-bmw-open-survival?utm_source=RSS",
@@ -232,12 +872,108 @@
     "date": "2026-04-17 15:48 EEST"
   },
   {
+    "title": "Andy Roddick breaks down why Roger Federer was impossible to tactically solve",
+    "description": "Roddick is proud that he was able to leave a deep mark on the world of tennis and play against the greats of the sport, and ultimately be part of one of the greatest eras of tennis. ",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/165974/andy-roddick-breaks-down-why-roger-federer-was-impossible-to-tactically-solve/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-17 15:00 EEST"
+  },
+  {
+    "title": "Alcaraz, Djokovic skip Madrid Open with injuries",
+    "description": "Carlos Alcaraz (wrist) and Novak Djokovic (shoulder) have both pulled out of the Madrid Open because of lingering injuries.",
+    "link": "https://www.espn.com/tennis/story/_/id/48511022/novak-djokovic-pulls-madrid-open-injury",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-17 13:59 EEST"
+  },
+  {
+    "title": "Jaime Alcaraz grabs attention following Carlos Alcaraz injury setback in Barcelona",
+    "description": "14-year-old Jaime is very similar to Carlos in his playing style, and he is also his younger brother. Jaime trains at Carlos Alcaraz's academy in Murcia.",
+    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/165973/jaime-alcaraz-grabs-attention-following-carlos-alcaraz-injury-setback-in-barcelona/",
+    "source_name": "Tennis World USA",
+    "source_url": "https://www.tennisworldusa.org/",
+    "date": "2026-04-17 13:30 EEST"
+  },
+  {
+    "title": "Sorana Cirstea has won 20 matches in a year faster than she’s ever done in her career",
+    "description": "And in the final year of her career, too.",
+    "link": "https://www.tennis.com/news/articles/sorana-cirstea-has-won-20-matches-in-a-year-faster-than-shes-ever-done-in-her-career",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "Marketa Vondrousova hit with doping charge after refusing late evening test in December",
+    "description": "The 2023 Wimbledon champion said “fear clouded (my) judgment,” and could now be facing up to a four-year ban from tennis. ",
+    "link": "https://www.tennis.com/news/articles/marketa-vondrousova-hit-with-doping-charge-after-refusing-late-evening-test-in-december",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "\"Vamos Rafa!\" Teen titan Jodar takes Barcelona by storm",
+    "description": "On Friday, the 19-year-old with the bullet backhand showed why he has Spanish fans—and the tennis world—buzzing.",
+    "link": "https://www.tennis.com/news/articles/vamos-rafa-teen-titan-jodar-takes-barcelona-by-storm",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "Ben Shelton survives Joao Fonseca test in Munich, Zverev powers into semifinals",
+    "description": "The American will face Alex Molcan next, as Flavio Cobolli sets up a clash with the defending champion.",
+    "link": "https://www.tennis.com/news/articles/ben-shelton-survives-joao-fonseca-test-in-munich-zverev-powers-into-semifinals",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "Carlos Alcaraz, Novak Djokovic withdraw from Madrid Open citing injuries",
+    "description": "The Spaniard is set to miss his home Masters 1000 event for the second year in a row.",
+    "link": "https://www.tennis.com/news/articles/carlos-alcaraz-novak-djokovic-withdraw-from-madrid-open-citing-injuries",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "Karolina Muchova snaps Coco Gauff losing streak to reach Stuttgart semifinals",
+    "description": "Muchova was a shocking 0-6 in her head-to-head with the reigning Roland Garros champion but nabbed her first win in three sets on Friday.",
+    "link": "https://www.tennis.com/news/articles/karolina-muchova-snaps-coco-gauff-losing-streak-to-reach-stuttgart-semifinals",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "Canadian Teams All Beat Mexico to Qualify for ITF Junior Team Finals",
+    "description": "Canada’s Billie Jean King Cup Juniors, Davis Cup Juniors, and ITF World Junior Tennis teams all won their decisive...",
+    "link": "https://www.tenniscanada.com/news/change-the-game/2026/canadian-teams-all-beat-mexico-to-qualify-for-itf-junior-team-finals",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
+    "title": "Fernandez Battles in Stuttgart Quarter-final Loss to Rybakina; Shapovalov Out in Munich",
+    "description": "",
+    "link": "https://www.tenniscanada.com/news/pro-tennis/2026/shapovalov-munich-fernandez-stuttgart-friday",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-17 03:00 EEST"
+  },
+  {
     "title": "ATP and WTA 2026: Schedule of Play for Friday April 17 for Barcelona, Munich, Stuttgart and Rouen",
     "description": "ATP and WTA 2026: Schedule of Play for Friday April 17 for Barcelona, Munich, Stuttgart and Rouen LINK: Barcelona Schedule | Munich Schedule | Stuttgart Schedule | Rouen Schedule ATP & WTA Order of Play: Barcelona, Munich, Stuttgart & Rouen (Daily Schedule Guide 2026) The European clay swing moves into full rhythm this week with […] The post ATP and WTA 2026: Schedule of Play for Friday April 17 for Barcelona, Munich, Stuttgart and Rouen appeared first on Tennis Connected .",
     "link": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-for-friday-april-17-for-barcelona-munich-stuttgart-and-rouen/",
     "source_name": "Tennis Connected",
     "source_url": "https://tennisconnected.com/",
     "date": "2026-04-16 23:12 EEST"
+  },
+  {
+    "title": "Barcelona Open Tennis Draws and Schedule for Friday, April 17, 2026",
+    "description": "Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has been staged at the Real Club […] The post Barcelona Open Tennis Draws and Schedule for Friday, April 17, 2026 appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/16/barcelona-open-tennis-draws-and-schedule-for-friday-april-17-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-16 22:06 EEST"
   },
   {
     "title": "Coco Gauff turns heads with statement performance in Stuttgart",
@@ -254,6 +990,22 @@
     "source_name": "Lob & Smash",
     "source_url": "https://lobandsmash.com/",
     "date": "2026-04-16 19:24 EEST"
+  },
+  {
+    "title": "Roberto Bautista Agut Will Retire from Tennis After 2026",
+    "description": "Roberto Bautista Agut will reach the end of a glorious pro path at the end of this season. Former Wimbledon semifinalist Bautista Agut announced today he will retire from the pro tour at the end of the 2026 season. nnounced that he will retire at the end of 2026. He is currently ranked No. 93 in […] The post Roberto Bautista Agut Will Retire from Tennis After 2026 appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/16/roberto-bautista-agut-will-retire-from-tennis-after-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-16 19:21 EEST"
+  },
+  {
+    "title": "Players Battle for Golden Tickets at Cocoa Beach NTRP Regional Qualifier",
+    "description": "Players competed across four divisions at the Racquet Club of Cocoa Beach for a guaranteed spot at sectionals.",
+    "link": "https://www.ustaflorida.com/players-battle-for-golden-tickets-at-cocoa-beach-ntrp-regional-qualifier/",
+    "source_name": "USTA Florida",
+    "source_url": "https://www.ustaflorida.com/news/",
+    "date": "2026-04-16 17:52 EEST"
   },
   {
     "title": "Alexander Zverev sends brutal message in BMW Open rout",
@@ -280,6 +1032,86 @@
     "date": "2026-04-16 15:01 EEST"
   },
   {
+    "title": "French Open increases total purse to $72.1 million",
+    "description": "The prize money for the French Open has increased by about 10% for an overall pot of 61.7 million euros ($72.1 million), organizers said.",
+    "link": "https://www.espn.com/tennis/story/_/id/48502052/french-open-increases-total-purse-721-million",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-16 14:39 EEST"
+  },
+  {
+    "title": "When Philadelphia Tried To Take US Open Tennis Away From New York",
+    "description": "By Randy Walker @TennisPublisher There has always been a heated rivalry in sports between New York City and Philadelphia – whether it is the Eagles and Giants in the National Football League, the Phillies and the Mets in Major League Baseball or the Rangers and the Flyers in the National Hockey League. The rivalry also […] The post When Philadelphia Tried To Take US Open Tennis Away From New York appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/when-philadelphia-tried-to-take-us-open-tennis-away-from-new-york/27505",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-16 14:00 EEST"
+  },
+  {
+    "title": "Roland Garros to give Monfils \"free rein\" for \"Gaël & Friends\" event, Stan Wawrinka to be honored after last match",
+    "description": "The FFT also confirmed that players will be able to wear connected devices as part of a trial at this year's edition.",
+    "link": "https://www.tennis.com/news/articles/roland-garros-monfils-gael-friends-event-stan-wawrinka-honored-last-match-connected-devices",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Alexander Zverev rolls into Munich quarterfinals with dominant win over Diallo",
+    "description": "The top seed will face Francisco Cerundolo next, as Denis Shapovalov and Alex Molcan also advance at the BMW Open by Bitpanda.",
+    "link": "https://www.tennis.com/news/articles/alexander-zverev-rolls-munich-quarterfinals-diallo-win-cerundolo-next-shapovalov",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Elena Rybakina reveals she used Stuttgart Porsche to pass driving test after Shnaider win",
+    "description": "The 2024 champion initially took home the car without having a driver’s license.",
+    "link": "https://www.tennis.com/news/articles/elena-rybakina-reveals-she-used-stuttgart-porsche-to-pass-driving-test-after-shnaider-win",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Maria on the mic: Sharapova set to launch 'Pretty Tough' podcast",
+    "description": "The former world No. 1 becomes the latest current or former player to enter the podcasting space.",
+    "link": "https://www.tennis.com/news/articles/maria-on-the-mic-sharapova-set-to-launch-pretty-tough-podcast",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Iga Swiatek begins chapter with new coach Francisco Roig after \"crazy boost of motivation\" from Rafael Nadal",
+    "description": "On the Pole's quest to reclaim her clay crown, and who else might be vying with her for it this spring.",
+    "link": "https://www.tennis.com/news/articles/iga-swiatek-begins-chapter-coach-francisco-roig-crazy-boost-motivation-nadal-clay",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Sharon Fichman is Thriving and Still Learning in Team Canada Captain’s Role",
+    "description": "",
+    "link": "https://www.tenniscanada.com/news/change-the-game/2026/sharon-fichman-thriving-still-learning-team-canada-captain-role",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Reversal of Fortunes for Canadian Teams on Day 2 of ITF Team Qualifying",
+    "description": "Canada’s U14 teams both swept their opponents in ITF Team Qualifying in Montreal on Thursday while the U16s both lost...",
+    "link": "https://www.tenniscanada.com/news/change-the-game/2026/reversal-of-fortunes-for-canadian-teams-on-day-2-itf-team-qualifying",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-16 03:00 EEST"
+  },
+  {
+    "title": "Former Doubles World No. 1 Jamie Murray Announces his Tennis Retirement",
+    "description": "Former doubles world No. 1 Jamie Murray, part of British tennis royalty, is closing the curtain on his brilliant career. The 40-year-old Jamie Murray, who made history as the first British man to ever hold the world No. 1 doubles ranking, announced his retirement today. “My tennis journey comes to an end after 36 years,”Jamie […] The post Former Doubles World No. 1 Jamie Murray Announces his Tennis Retirement appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/15/former-doubles-world-no-1-jamie-murray-announces-his-tennis-retirement/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-15 23:34 EEST"
+  },
+  {
     "title": "ATP and WTA 2026: Schedule of Play for Thursday April 16 for Barcelona, Munich, Stuttgart and Rouen",
     "description": "ATP and WTA 2026: Schedule of Play for Thursday April 16 for Barcelona, Munich, Stuttgart and Rouen ATP & WTA Order of Play: Barcelona, Munich, Stuttgart & Rouen (Daily Schedule Guide 2026) LINK: Barcelona Schedule | Munich Schedule | Stuttgart Schedule | Rouen Schedule The European clay swing moves into full rhythm this week with […] The post ATP and WTA 2026: Schedule of Play for Thursday April 16 for Barcelona, Munich, Stuttgart and Rouen appeared first on Tennis Connected .",
     "link": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-for-thursday-april-16-for-barcelona-munich-stuttgart-and-rouen/",
@@ -288,12 +1120,84 @@
     "date": "2026-04-15 22:23 EEST"
   },
   {
+    "title": "He hit a wall face-first at the Barcelona Open 10 years ago and instantly became famous",
+    "description": "Ten years ago this week a young ball boy at the Barcelona Open did something that nobody on court was supposed to notice.  He tripped on the clay, catapulted face-first into one of the blue advertisin...",
+    "link": "https://tennis-infinity.com/news/he-hit-a-wall-face-first-at-the-barcelona-open-10-years-ago-and-instantly-became-famous",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-15 22:23 EEST"
+  },
+  {
+    "title": "Barcelona Open Tennis Draws and Schedule for Thursday, April 16, 2026",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has been staged […] The post Barcelona Open Tennis Draws and Schedule for Thursday, April 16, 2026 appeared first on 10sBalls.com • Tenn",
+    "link": "https://10sballs.com/2026/04/15/barcelona-open-tennis-draws-and-schedule-for-thursday-april-16-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-15 22:19 EEST"
+  },
+  {
+    "title": "Eva Lys immediately apologises to Paula Badosa after getting first win in 3 months",
+    "description": "Eva Lys apologises to best friend Paula Badosa after stunning Stuttgart comeback. The match looked done and Paula Badosa seemed to be cruising toward a comfortable first-round victory at the Porsche T...",
+    "link": "https://tennis-infinity.com/news/eva-lys-immediately-apologises-to-paula-badosa-after-getting-first-win-in-3-months",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-15 21:33 EEST"
+  },
+  {
+    "title": "Clara Tauson is building towards a big European summer",
+    "description": "The clay-court season is underway but Clara Tauson is not yet part of it.  The Danish world number 18 is currently based at the Piatti Tennis Center near Monaco on the Italian Riviera working through...",
+    "link": "https://tennis-infinity.com/news/clara-tauson-is-building-towards-a-big-european-summer",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-15 20:43 EEST"
+  },
+  {
     "title": "Mirra Andreeva turns the tables on Jelena Ostapenko in Stuttgart",
     "description": "Jelena Ostapenko only knows one way to play, and that doesn't always work, which she proved against Mirra Andreeva in Stuttgart.",
     "link": "https://lobandsmash.com/mirra-andreeva-turns-tables-on-jelena-ostapenko-in-stuttgart?utm_source=RSS",
     "source_name": "Lob & Smash",
     "source_url": "https://lobandsmash.com/",
     "date": "2026-04-15 20:35 EEST"
+  },
+  {
+    "title": "Carlos Alcaraz drops bombshell at Barcelona Open",
+    "description": "Carlos Alcaraz's spring campaign has taken a serious hit.  The Spanish world number two withdrew from the Barcelona Open on Wednesday after medical tests on his right wrist revealed a problem more sig...",
+    "link": "https://tennis-infinity.com/news/carlos-alcaraz-drops-bombshell-at-barcelona-open",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-15 20:29 EEST"
+  },
+  {
+    "title": "Jamie Murray, Andy's brother, retires from tennis",
+    "description": "Jamie Murray, who became the first British doubles player to reach the top of the world rankings, has joined his brother Andy in retirement.",
+    "link": "https://www.espn.com/tennis/story/_/id/48494158/british-doubles-great-jamie-murray-andy-murray-brother-retires-tennis",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-15 20:10 EEST"
+  },
+  {
+    "title": "Carlos Alcaraz Withdraws from Barcelona Open",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis A wrist watch has knocked Carlos Alcaraz out of Barcelona. Alcaraz officially withdrew from the Barcelona Open today citing concerns over the wrist issue he sustained during his 6-4, 6-2 victory over Otto Virtanen yesterday. In a statement, the tournament said Alcaraz pulled out after undergoing scans on his right wrist. […] The post Carlos Alcaraz Withdraws from Barcelona Open appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/15/carlos-alcaraz-withdraws-from-barcelona-open/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-15 19:26 EEST"
+  },
+  {
+    "title": "Alcaraz (wrist) withdraws from Barcelona Open",
+    "description": "Carlos Alcaraz withdrew from the Barcelona Open after undergoing a test on his right wrist, the tournament announced Wednesday.",
+    "link": "https://www.espn.com/tennis/story/_/id/48494817/carlos-alcaraz-withdraws-barcelona-open-due-wrist",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-15 19:24 EEST"
+  },
+  {
+    "title": "Iga Swiatek reveals what it was really like to train with Rafael Nadal",
+    "description": "Iga Swiatek opens up about training with Rafael Nadal ahead of Stuttgart return. Swiatek arrived in Stuttgart this week with a new coach, a fresh perspective and a story to tell about the preparation...",
+    "link": "https://tennis-infinity.com/news/iga-swiatek-reveals-what-it-was-really-like-to-train-with-rafael-nadal",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-15 18:30 EEST"
   },
   {
     "title": "Wilson Introduces Blade v10 – The Most Played Racket on Tour",
@@ -312,6 +1216,22 @@
     "date": "2026-04-15 16:19 EEST"
   },
   {
+    "title": "Roland Garros 2026: The Favorites to Watch as the Clay Season Reaches Its Peak",
+    "description": "The red clay of Paris has a way of separating the pretenders from the genuine contenders, and with Roland Garros now just weeks away, the tennis world is already debating who will be lifting the trophies when it’s all over. The 2026 French Open runs from 18 May to 7 June at Stade Roland Garros. […] The post Roland Garros 2026: The Favorites to Watch as the Clay Season Reaches Its Peak appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/roland-garros-2026-the-favorites-to-watch-as-the-clay-season-reaches-its-peak/27498",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-15 16:14 EEST"
+  },
+  {
+    "title": "Inaugural $100,000 US Open TYPTI Championship Launches In Los Angeles May 20-24",
+    "description": "TYPTI CEO and Chairman Steve Bellamy announced today the inaugural US Open TYPTI Championships, the first major professional and amateur TYPTI event that will take place at Calabasas Pickleball Club near Los Angeles from May 20-24. There will be five professional divisions with $100,000 in total prize money and numerous amateur events, including ratings, seniors and junior divisions. This event will launch […] The post Inaugural $100,000 US Open TYPTI Championship Launches In Los Angeles May 20-",
+    "link": "https://worldtennismagazine.com/inaugural-100000-us-open-typti-championship-launches-in-los-angeles-may-20-24/27494",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-15 16:01 EEST"
+  },
+  {
     "title": "UCD and DCU Claim Inaugural Student Sport Ireland / Tennis Ireland Team Tennis Titles",
     "description": "University College Dublin 1 and Dublin City University 2 have been crowned the first ever champions of the Student Sport Ireland / Tennis Ireland Team Tennis League, claiming the Division […] The post UCD and DCU Claim Inaugural Student Sport Ireland / Tennis Ireland Team Tennis Titles appeared first on Tennis Ireland .",
     "link": "https://www.tennisireland.ie/news/ucd-and-dcu-claim-inaugural-student-sport-ireland-tennis-ireland-team-tennis-titles",
@@ -328,6 +1248,62 @@
     "date": "2026-04-15 08:00 EEST"
   },
   {
+    "title": "Ben Shelton sets up Joao Fonseca QF showdown in Munich",
+    "description": "Cool conditions persist at the BMW Open by Bitpanda, while Shelton and Fonseca advance to the stage of the final eight of the ATP 500 clay-court tournament.",
+    "link": "https://www.tennis.com/news/articles/ben-shelton-sets-up-joao-fonseca-qf-showdown-in-munich",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
+    "title": "Tennis' \"Murray era\" ends as Jamie follows brother Andy into retirement",
+    "description": "The former doubles world No. 1 made the announcement on social media on Wednesday.",
+    "link": "https://www.tennis.com/news/articles/tennis-murray-era-ends-as-jamie-follows-brother-andy-into-retirement",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
+    "title": "Boris Becker’s 1989 US Open trophy fetches $357K in rare auction",
+    "description": "The former world No. 1’s championship hardware is now the second-priciest piece of tennis memorabilia ever sold.",
+    "link": "https://www.tennis.com/news/articles/boris-becker-1989-us-open-trophy-fetches-357k-rare-memorabilia-auction",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
+    "title": "Carlos Alcaraz withdraws from Barcelona, Jannik Sinner keeps No. 1 ranking heading into Madrid",
+    "description": "The Spaniard underwent tests on his right wrist Wednesday, according to tournament organizers.",
+    "link": "https://www.tennis.com/news/articles/carlos-alcaraz-withdraws-barcelona-jannik-sinner-keeps-no-1-going-into-madrid",
+    "source_name": "Tennis.com",
+    "source_url": "https://www.tennis.com/news",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
+    "title": "De Minaur sees off Ofner to progress in Barcelona",
+    "description": "Australian No.1 Alex de Minaur has made a convincing start to his Barcelona Open campaign, defeating Austrian qualifier Sebastian Ofner in straight sets.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/15/de-minaur-sees-off-ofner-to-progress-in-barcelona",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
+    "title": "Team Canada’s U16s Race Out of the Gate at North America Qualifying in Montreal",
+    "description": "Canada’s Davis Cup Juniors and Billie Jean King Cup Juniors teams both swept the Dominican Republic in ITF Team...",
+    "link": "https://www.tenniscanada.com/news/change-the-game/2026/team-canadas-u16s-race-out-of-the-gate-at-north-america-qualifying-in-montreal",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
+    "title": "Maia Super Category - Follow the action",
+    "description": "All eyes on Maia as the top 14 & Under players compete for one of the most coveted titles on the Tour...",
+    "link": "https://www.tenniseurope.org/news/163103/Maia-Super-Category-Follow-the-action",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-04-15 03:00 EEST"
+  },
+  {
     "title": "Incredible dominance of Alcaraz and Sinner may not be the best thing for tennis, or them",
     "description": "The top two are almost 8,000 points ahead of No 3 Alexander Zverev and are mopping up every tile, but is it becoming too boring?",
     "link": "https://www.tennismajors.com/atp/incredible-dominance-of-alcaraz-and-sinner-may-not-be-the-best-thing-for-tennis-or-them-848299.html",
@@ -336,12 +1312,44 @@
     "date": "2026-04-15 00:46 EEST"
   },
   {
+    "title": "Netflix Drops Trailer for New Rafa Nadal Tennis Documentary",
+    "description": "Rafa Nadal famously said “suffering” is a prerequisite to Grand Slam success. In its new Rafa documentary, Netflix lifts the curtain on the agonizing pain and exhilarating passion the King of Clay brought to the court. Netflix shared a trailer for the Rafa documentary, which airs on May 29th. “I am not a winner. I am a competitor,” […] The post Netflix Drops Trailer for New Rafa Nadal Tennis Documentary appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/14/netflix-drops-trailer-for-new-rafa-nadal-tennis-documentary/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-14 23:28 EEST"
+  },
+  {
+    "title": "Barcelona Open Tennis Draws and Schedule for Wednesday, April 15, 2026",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has been staged […] The post Barcelona Open Tennis Draws and Schedule for Wednesday, April 15, 2026 appeared first on 10sBalls.com • Ten",
+    "link": "https://10sballs.com/2026/04/14/barcelona-open-tennis-draws-and-schedule-for-wednesday-april-15-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-14 23:16 EEST"
+  },
+  {
     "title": "Arthur Fils survives Barcelona Open scare against Terence Atmane",
     "description": "Two Frenchmen battled in Barcelona in the first round of the ATP 500. Here is what happened between Arthur Fils and Terence Atmane.",
     "link": "https://lobandsmash.com/arthur-fils-survives-barcelona-open-scare-against-terence-atmane?utm_source=RSS",
     "source_name": "Lob & Smash",
     "source_url": "https://lobandsmash.com/",
     "date": "2026-04-14 23:10 EEST"
+  },
+  {
+    "title": "Italy to host Wimbledon tuneup on grass in 2028",
+    "description": "The Italian Tennis and Padel Federation has purchased the rights to an ATP event in Brussels with plans to stage a Wimbledon tuneup on grass courts in June 2028.",
+    "link": "https://www.espn.com/tennis/story/_/id/48485294/italy-host-wimbledon-tuneup-grass-starting-2028",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-14 20:37 EEST"
+  },
+  {
+    "title": "Eala bows out in Stuttgart as Fernandez dominates Filipina-rooted clashAlex Eala has been eliminated from the Porsche Tennis Grand Prix in Stuttgart following defeat to Leylah Fernandez.6dMiguel Alfon",
+    "description": "Alex Eala has been eliminated from the Porsche Tennis Grand Prix in Stuttgart following defeat to Leylah Fernandez.",
+    "link": "https://www.espn.com/tennis/story/_/id/48485049/alex-eala-bows-stuttgart-leylah-fernandez-dominates-filipina-rooted-clash",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-04-14 20:00 EEST"
   },
   {
     "title": "ATP and WTA 2026: Schedule of Play for Wednesday April 15 for Barcelona, Munich, Stuttgart and Rouen",
@@ -384,6 +1392,54 @@
     "date": "2026-04-14 12:16 EEST"
   },
   {
+    "title": "Ranking movers: Duckworth ascendant after Mexico title",
+    "description": "James Duckworth leads the Aussie risers after winning a history-making 18th ATP Challenger title, moving to fifth on the circuit's all-time leaderboard.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/14/ranking-movers--duckworth-ascendant-after-mexico-title",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-14 03:00 EEST"
+  },
+  {
+    "title": "Canada’s Juniors Looking to Shine Again at Team Qualifying in Montreal",
+    "description": "Canada is hosting the North, Central America, and Caribbean qualifying rounds of ITF World Junior Team Competitions...",
+    "link": "https://www.tenniscanada.com/news/change-the-game/2026/canadas-juniors-looking-to-shine-again-at-team-qualifying-in-montreal",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-14 03:00 EEST"
+  },
+  {
+    "title": "Road to Singapore begins in Kathmandu for South Asia’s rising talents",
+    "description": "The road to Singapore begins in Kathmandu as the ITF Asia 12&U Team Competition – Regional Qualifying Event of South Asia gets underway in Nepal this week. The South Asian regional competition brings together some of the brightest young players in the region, all hoping to keep their journey alive toward the ATF 12&U Team Competition Finals in Singapore later this year.",
+    "link": "https://www.asiantennis.com/news/road-to-singapore-begins-in-kathmandu-for-south-asias-rising-talents/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-14 03:00 EEST"
+  },
+  {
+    "title": "Thailand and Indonesia go through as India falls just short in New Delhi",
+    "description": "The Billie Jean King Cup Asia/Oceania Group I in New Delhi had a little bit of everything. There was pressure from the first day, there were close ties, there were unexpected turns, and there was even drama on the final afternoon. When it all ended, Thailand and Indonesia were the two teams to move into the 2026 Billie Jean King Cup Play-offs. India finished third, Korea Republic fourth, while New Zealand and Mongolia ended fifth and sixth and were relegated to Group II for 2027.",
+    "link": "https://www.asiantennis.com/news/thailand-and-indonesia-go-through-as-india-falls-just-short-in-new-delhi/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-14 03:00 EEST"
+  },
+  {
+    "title": "Barcelona Open Tennis Draws and Schedule for Tuesday, April 14, 2026",
+    "description": "Photo credit: Rolex Monte-Carlo Masters Facebook Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has […] The post Barcelona Open Tennis Draws and Schedule for Tuesday, April 14, 2026 appeared first on 10sBalls.com • TennisBa",
+    "link": "https://10sballs.com/2026/04/13/barcelona-open-tennis-draws-and-schedule-for-tuesday-april-14-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-14 00:15 EEST"
+  },
+  {
+    "title": "Watch the Trailer for Rafa, the New Rafael Nadal Documentary on Netflix (Out May 29)",
+    "description": "Behind the trophies and records, there’s a side of Rafael Nadal rarely seen. Netflix has announced Rafa, a four-part documentary series premiering May 29. The series follows Rafa’s final ATP …",
+    "link": "https://rafaelnadalfans.com/2026/04/13/watch-the-trailer-for-rafa-the-new-rafael-nadal-documentary-on-netflix-out-may-29/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-04-14 00:12 EEST"
+  },
+  {
     "title": "Nick Kyrgios, Francisco Cerundolo, Cameron Norrie and Ugo Humbert confirmed for UTS Rio 2026",
     "description": "The UTS Tour has announced the first four players for its debut South American event, UTS Rio, to be held at Maracanãzinho in Rio de Janeiro from July 16 to 18, 2026. Francisco Cerundolo (No. 19), Cameron Norrie (No. 24), Ugo Humbert (No. 34) and Nick Kyrgios are the first confirmed participants for the tournament, … Continued",
     "link": "https://www.tennismajors.com/others-news/nick-kyrgios-francisco-cerundolo-cameron-norrie-and-ugo-humbert-confirmed-for-uts-rio-2026-848383.html",
@@ -392,12 +1448,20 @@
     "date": "2026-04-13 21:35 EEST"
   },
   {
-    "title": "How Jannik Sinner turned a gruelling winter training block into the most dominant spring in tennis in tennis",
-    "description": "Indian Wells. Miami. Monte Carlo. The world No. 1 didn't just return from a sluggish start to the season – he came back and demolished the competition. Here is how he did it. Once upon a time in California...",
-    "link": "https://www.tennismajors.com/atp/how-jannik-sinner-turned-a-gruelling-winter-training-block-into-the-most-dominant-spring-in-tennis-in-tennis-848390.html",
-    "source_name": "Tennis Majors",
-    "source_url": "https://www.tennismajors.com/",
-    "date": "2026-04-13 20:36 EEST"
+    "title": "Hugo Boss Signs on as Official Australian Open Apparel Outfitter",
+    "description": "Photo credit: Hugo Boss The Happy Slam unveils Boss game gear in January. Today, Hugo Boss announced a landmark partnership as the Official Lifestyle Outfitter of the Australian Open, starting in January 2027. “We are absolutely excited to partner with the Australian Open, which is one of the most dynamic and globally followed sporting events […] The post Hugo Boss Signs on as Official Australian Open Apparel Outfitter appeared first on 10sBalls.com • TennisBalls.com .",
+    "link": "https://10sballs.com/2026/04/13/hugo-boss-signs-on-as-official-australian-open-apparel-outfitter/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-13 19:32 EEST"
+  },
+  {
+    "title": "Jannik Sinner earns a staggering amount for beating Carlos Alcaraz in Monte Carlo",
+    "description": "Jannik Sinner claimed his first clay-court Masters title on Sunday at the Rolex Monte-Carlo Masters, defeating Carlos Alcaraz 7-6(5), 6-3 in windy conditions to secure his third trophy of the 2026 sea...",
+    "link": "https://tennis-infinity.com/news/jannik-sinner-earns-a-staggering-amount-for-beating-carlos-alcaraz-in-monte-carlo",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-13 18:52 EEST"
   },
   {
     "title": "ATP and WTA 2026: Schedule of Play for Tuesday April 14 for Barcelona, Munich, Stuttgart and Rouen",
@@ -408,6 +1472,22 @@
     "date": "2026-04-13 16:44 EEST"
   },
   {
+    "title": "Australian Open Gets A New Boss",
+    "description": "The Australian Open announced that it is delighted to announce a major new partnership, welcoming global fashion brand BOSS as the tournament’s Official Lifestyle Outfitter from 2027. The landmark partnership will see BOSS bring its unmistakable blend of sharp tailoring, modern sportswear and premium hospitality to Melbourne Park, dressing the Australian Open on and off […] The post Australian Open Gets A New Boss appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/australian-open-gets-a-new-boss/27489",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-13 14:48 EEST"
+  },
+  {
+    "title": "Serena Williams breaks silence on family life with rare photos of her two girls",
+    "description": "Serena Williams gave fans an unusually intimate look at her family life this week. Posting a carousel of photos on Instagram that quickly became one of her most talked-about posts in months.  The 44-y...",
+    "link": "https://tennis-infinity.com/news/serena-williams-breaks-her-silence-on-family-life-with-rare-photos-of-her-two-girls",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-13 14:43 EEST"
+  },
+  {
     "title": "Roger Federer came this close to ending the GOAT debate for good",
     "description": "Some might think Roger Federer is the greatest tennis player ever as it is, but had he won three points, there might be no real debate.",
     "link": "https://lobandsmash.com/roger-federer-came-this-close-to-ending-goat-debate-for-good?utm_source=RSS",
@@ -416,28 +1496,60 @@
     "date": "2026-04-13 14:00 EEST"
   },
   {
-    "title": "April 13, 1986: The day Steffi Graf won her first WTA Tour title",
-    "description": "On this day in 1986, Steffi Graf won her first-ever WTA singles title, beating American Chris Evert in the final of the Family Circle Cup",
-    "link": "https://www.tennismajors.com/wta-tour-news/april-13-1986-the-day-steffi-graf-won-her-first-wta-tour-title-333170.html",
-    "source_name": "Tennis Majors",
-    "source_url": "https://www.tennismajors.com/",
-    "date": "2026-04-13 12:47 EEST"
+    "title": "Novak Djokovic has two more years of tennis planned and a very clear reason why",
+    "description": "For years Novak Djokovic dodged the question. Now he has answered it clearly.  The 24-time Grand Slam champion has confirmed that he intends to retire at the 2028 Los Angeles Olympic Games, a timeline...",
+    "link": "https://tennis-infinity.com/news/novak-djokovic-has-two-more-years-of-tennis-planned-and-a-very-clear-reason-why",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-13 12:42 EEST"
   },
   {
-    "title": "Alcaraz eyes full clay swing but repeats: “I will listen to my body much better this year”",
-    "description": "After his loss at the Monte-Carlo final, Carlos Alcaraz could not confirm that he will play Barcelona, Madrid and Rome ahead of French Open, even though it remains his objective, provided his body allows it, which has rarely been the case in recent years. “Well, I don’t know, the main goal is to play the … Continued",
-    "link": "https://www.tennismajors.com/atp-actualite/alcaraz-eyes-full-clay-swing-but-repeats-i-will-listen-to-my-body-much-better-this-year-848355.html",
-    "source_name": "Tennis Majors",
-    "source_url": "https://www.tennismajors.com/",
-    "date": "2026-04-12 22:55 EEST"
+    "title": "Hungry Holger Rune in the stands: Injured star spotted scouting Alcaraz and Sinner in Monte-Carlo",
+    "description": "While Jannik Sinner and Carlos Alcaraz battled it out in the Monte Carlo Masters final on Sunday, one notable face was watching from the stands of Court Rainier III.  Seated just in front of six-time...",
+    "link": "https://tennis-infinity.com/news/hungry-holger-rune-in-the-stands-injured-star-spotted-scouting-alcaraz-and-sinner-in-monte-carlo",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-13 12:04 EEST"
   },
   {
-    "title": "ATP and WTA 2026: Schedule of Play for Monday April 13 for Barcelona, Munich, Stuttgart and Rouen",
-    "description": "ATP and WTA 2026: Schedule of Play for Monday April 13 for Barcelona, Munich, Stuttgart and Rouen LINK: Barcelona Schedule | Munich Schedule | Stuttgart Schedule | Rouen Schedule ATP & WTA Order of Play: Barcelona, Munich, Stuttgart & Rouen (Daily Schedule Guide 2026) The European clay swing moves into full rhythm this week with […] The post ATP and WTA 2026: Schedule of Play for Monday April 13 for Barcelona, Munich, Stuttgart and Rouen appeared first on Tennis Connected .",
-    "link": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-for-monday-april-13-for-barcelona-munich-stuttgart-and-rouen/",
-    "source_name": "Tennis Connected",
-    "source_url": "https://tennisconnected.com/",
-    "date": "2026-04-12 19:52 EEST"
+    "title": "Barcelona Open Tennis Draws and Schedule for Monday, April 13, 2026",
+    "description": "Photo credit: Rob Stone/@RobStoneTennis Barcelona Open Banc Sabadell Barcelona, SpainApril 13-19, 2026Red ClayPrize Money: €2,950,310 Carlos Alcaraz is Top Seed in Barcelona Carlos Alcaraz, who defeated Lorenzo Musetti in the 2025 Monte-Carlo final, is the top seed and Musetti is seeded second in Barcelona.The Barcelona Open Banc Sabadell, Trofeo Conde de Godo, has been staged […] The post Barcelona Open Tennis Draws and Schedule for Monday, April 13, 2026 appeared first on 10sBalls.com • Tennis",
+    "link": "https://10sballs.com/2026/04/12/barcelona-open-tennis-draws-and-schedule-for-monday-april-13-2026/",
+    "source_name": "10sBalls",
+    "source_url": "https://10sballs.com/",
+    "date": "2026-04-13 03:50 EEST"
+  },
+  {
+    "title": "Aussie Watch: De Minaur third seed in Barcelona, Kasatkina back in action",
+    "description": "Alex de Minaur looks to continue his strong start to the claycourt season, while Daria Kasatkina returns from injury to play in Rouen.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/13/aussie-watch--de-minaur-third-seed-in-barcelona,-kasatkina-back-in-action",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-13 03:00 EEST"
+  },
+  {
+    "title": "Monday Digest: Auger-Aliassime Completes Masters 1000 Quarter-Final Set in Monte-Carlo",
+    "description": "By reaching the Monte-Carlo quarter-finals, Felix Auger-Aliassime became the first Canadian singles player to reach all...",
+    "link": "https://www.tenniscanada.com/news/pro-tennis/2026/monday-digest-auger-aliassime-completes-masters-1000-quarter-final-set-in-monte-carlo",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-13 03:00 EEST"
+  },
+  {
+    "title": "Jannik Sinner Topples Carlos Alcaraz The Become The New Prince of Monte Carlo",
+    "description": "The red clay of the Court Rainier III has seen its fair share of legends, but today, it bore witness to the definitive rivalry of the modern era. In a heavyweight clash that felt more like a chess match played at 100 mph, Jannik Sinner claimed his first Rolex Monte Carlo Masters title, defeating defending champion Carlos […] The post Jannik Sinner Topples Carlos Alcaraz The Become The New Prince of Monte Carlo appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/jannik-sinner-topples-carlos-alcaraz-the-become-the-new-prince-of-monte-carlo/27483",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-12 22:20 EEST"
+  },
+  {
+    "title": "Iga Swiatek's new coach roasted for how he dumped his last player",
+    "description": "Swiatek's new coach Francisco Roig is facing heavy criticism for the way he abandoned young French player Giovanni Mpetshi Perricard before taking the job. Best known for his nearly two decades as Raf...",
+    "link": "https://tennis-infinity.com/news/iga-swiateks-new-coach-roasted-for-how-he-dumped-his-last-player",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-12 20:06 EEST"
   },
   {
     "title": "Sinner Wins Monte Carlo Title",
@@ -448,6 +1560,14 @@
     "date": "2026-04-12 19:30 EEST"
   },
   {
+    "title": "Alexander Zverev's candid admission sums up his Jannik Sinner problem",
+    "description": "Eight consecutive defeats.  That is the sobering reality Alexander Zverev now faces in his rivalry with Jannik Sinner, and after his latest loss at the Monte Carlo Masters, the German made no attempt...",
+    "link": "https://tennis-infinity.com/news/alexander-zverevs-candid-admission-sums-up-his-jannik-sinner-problem",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-12 18:42 EEST"
+  },
+  {
     "title": "Carlos Alcaraz was left stunned by what Jannik Sinner just delivered",
     "description": "The Monte-Carlo Masters final between Carlos Alcaraz and Jannik Sinner was seemingly bound to be great. Here is what happened.",
     "link": "https://lobandsmash.com/carlos-alcaraz-was-left-stunned-by-what-jannik-sinner-just-delivered?utm_source=RSS",
@@ -456,12 +1576,52 @@
     "date": "2026-04-12 18:36 EEST"
   },
   {
+    "title": "Carlos Alcaraz has already earned more than Andy Murray's entire career",
+    "description": "By reaching the Monte Carlo final on Sunday, Carlos Alcaraz secured more than just a shot at the title.  The 22-year-old Spaniard officially surpassed Andy Murray on the all-time prize money list, bec...",
+    "link": "https://tennis-infinity.com/news/carlos-alcaraz-has-already-earned-more-than-andy-murrays-entire-career",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-12 18:13 EEST"
+  },
+  {
+    "title": "Iva Jovic Gets A Pete Sampras, Jim Courier Comparison As Team USA (Without Its Top 3 Players) Falls To Belgium In Billie Jean King Cup First Round",
+    "description": "By Randy Walker @TennisPublisher Missing it’s top three players who are all ranked in the Top 10, the United States Billie Jean King Cup team, the national tennis team for the USA, was defeated by Belgium 3-1 in the opening round of the 2026 competition played on indoor red clay in Ostend, Belgium. Eighteen-year-old rising […] The post Iva Jovic Gets A Pete Sampras, Jim Courier Comparison As Team USA (Without Its Top 3 Players) Falls To Belgium In Billie Jean King Cup First Round appeared first ",
+    "link": "https://worldtennismagazine.com/iva-jovic-gets-a-pete-sampras-jim-courier-comparison-as-team-usa-without-its-top-3-players-falls-to-belgium-in-billie-jean-king-cup-first-round/27476",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-12 15:51 EEST"
+  },
+  {
+    "title": "How the Second Screen Changed Tennis Fandom",
+    "description": "There was a time when watching tennis meant sitting through changeovers, rain delays and those long gaps between sets with nothing but your own thoughts. You watched the ball, checked the scoreboard, and when play stopped, you just waited. That era’s done. Now a tennis match runs across two screens. The main one shows the […] The post How the Second Screen Changed Tennis Fandom appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/how-the-second-screen-changed-tennis-fandom/27472",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-12 15:40 EEST"
+  },
+  {
     "title": "Monte-Carlo Masters final: Preview, start time, and how to watch",
     "description": "In the Monte-Carlo Masters final everyone expected, here is how to watch Jannik Sinner versus Carlos Alcaraz, and what to expect.",
     "link": "https://lobandsmash.com/monte-carlo-masters-final-preview-start-time-how-to-watch?utm_source=RSS",
     "source_name": "Lob & Smash",
     "source_url": "https://lobandsmash.com/",
     "date": "2026-04-12 10:00 EEST"
+  },
+  {
+    "title": "Chinese Taipei edges India to top spot as Colombo wraps up on a high",
+    "description": "The ITF Asia 14&U Development Championships in Colombo came to an end with another lively week of competition, and when it was all over, Chinese Taipei finished first overall, with India ending the series in second place.",
+    "link": "https://www.asiantennis.com/news/chinese-taipei-edges-india-to-top-spot-as-colombo-wraps-up-on-a-high/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-12 03:00 EEST"
+  },
+  {
+    "title": "USTA Florida Celebrates $120,600 Court Renovation at Fort Walton Beach Tennis Center",
+    "description": "USTA Florida celebrates $120,600 court renovation at the Fort Walton Beach Tennis Center, featuring resurfaced courts and new upgrades.",
+    "link": "https://www.ustaflorida.com/usta-florida-celebrates-120600-court-renovation-at-fort-walton-beach-tennis-center/",
+    "source_name": "USTA Florida",
+    "source_url": "https://www.ustaflorida.com/news/",
+    "date": "2026-04-11 21:00 EEST"
   },
   {
     "title": "Monte Carlo Masters 2026 Day Seven Recap",
@@ -488,6 +1648,38 @@
     "date": "2026-04-11 16:15 EEST"
   },
   {
+    "title": "Who is the best tennis player in the world in 2026?",
+    "description": "It sounds like a simple question: who is currently the best tennis player in the world?  But the answer depends on how you look at it. The official ATP ranking says one thing, recent form says somethi...",
+    "link": "https://tennis-infinity.com/news/who-is-the-best-tennis-player-in-the-world-in-2026",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-11 11:17 EEST"
+  },
+  {
+    "title": "Jones shines in Billie Jean King Cup debut amid British defeat",
+    "description": "Debutant Emerson Jones was a shining light in Australia’s 3-1 Qualifier defeat to Great Britain in Melbourne.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/11/billie-jean-king-cup-day-2-wrap",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-11 03:00 EEST"
+  },
+  {
+    "title": "Andreescu Gives All in Marathon Match, Team Canada Falls in Billie Jean King Cup Qualifiers Tie",
+    "description": "",
+    "link": "https://www.tenniscanada.com/news/pro-tennis/2026/andreescu-gives-all-in-marathon-match-canada-falls-in-billie-jean-king-cup-qualifiers-tie",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-11 03:00 EEST"
+  },
+  {
+    "title": "2026 Billie Jean King Cup Qualifiers: Relive Canada's Tie with Kazakhstan",
+    "description": "Team Canada took on Kazakhstan in the 2026 Billie Jean King Cup Qualifiers Apr. 10 and 11 in Astana for a spot in...",
+    "link": "https://www.tenniscanada.com/news/pro-tennis/2026/2026-billie-jean-king-cup-qualifiers-canada-kazakhstan",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-11 03:00 EEST"
+  },
+  {
     "title": "Monte Carlo Masters 2026 Day Six Recap",
     "description": "Day Six at the Rolex Monte-Carlo Masters delivered a mix of dominance from the top seeds and another fairy-tale chapter for the home crowd. Carlos Alcaraz cruised past Alexander Bublik with a near-flawless second set to reach the semi-finals, while Jannik Sinner looked sharp in a straight-sets win over Felix Auger-Aliassime. Alexander Zverev had to …",
     "link": "https://www.perfect-tennis.com/monte-carlo-masters-2026-day-six-recap/",
@@ -512,12 +1704,52 @@
     "date": "2026-04-10 18:18 EEST"
   },
   {
-    "title": "Jannik Sinner reaches Monte-Carlo semis and the message is clear",
-    "description": "Jannik Sinner defeated Felix Auger-Aliassime in the quarterfinals of the 2026 Monte-Carlo Masters. Here is what happened.",
-    "link": "https://lobandsmash.com/jannik-sinner-reaches-monte-carlo-semis-and-message-is-clear?utm_source=RSS",
-    "source_name": "Lob & Smash",
-    "source_url": "https://lobandsmash.com/",
-    "date": "2026-04-10 16:49 EEST"
+    "title": "When Andre Agassi First Became No. 1 In The World",
+    "description": "When Andre Agassi First Became No. 1 In The World by Randy Walker @TennisPublisher It was on April 10, 1995 when Andre Agassi first became the No. 1 ranked player in the world. Agassi burst onto the scene in pro tennis in 1988 when he ascended to No. 3 in the world, buoyed by tournament […] The post When Andre Agassi First Became No. 1 In The World appeared first on World Tennis Magazine .",
+    "link": "https://worldtennismagazine.com/when-andre-agassi-first-became-no-1-in-the-world/27464",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-04-10 18:09 EEST"
+  },
+  {
+    "title": "BJK Cup: Stosur optimistic about historic comeback",
+    "description": "Armed with the experience required, Australian Billie Jean King Cup captain Sam Stosur is hopeful her side can flip the script in their Qualifier tie against Great Britain.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/10/bjk-cup-friday-results",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-10 03:00 EEST"
+  },
+  {
+    "title": "De Minaur subdues \"incredible talent\" in Monte Carlo to make quarterfinals",
+    "description": "Buoyant Alex de Minaur has made the Monte Carlo Masters quarterfinals after defeating Belgian rising star Alexander Blockx in straight sets.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/10/de-minaur-subdues--incredible-talent--in-monte-carlo",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-10 03:00 EEST"
+  },
+  {
+    "title": "Sinner Too Much for Auger-Aliassime Again in Monte-Carlo Quarters",
+    "description": "Félix Auger-Aliassime was again unable to crack the complex code that is Jannik Sinner as the Canadian No. 1 fell 6-3,...",
+    "link": "https://www.tenniscanada.com/news/pro-tennis/2026/sinner-too-much-for-auger-aliassime-again-in-monte-carlo-quarters",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-10 03:00 EEST"
+  },
+  {
+    "title": "Andreescu Makes Winning Return to Team Canada, Billie Jean King Cup Tie Even After Day One",
+    "description": "Bianca Andreescu was a winner in her first Billie Jean King Cup match since 2022 on Friday as Canada and Kazakhstan are...",
+    "link": "https://www.tenniscanada.com/news/pro-tennis/2026/2026-billie-jean-king-cup-qualifiers-canada-kazakhstan-friday",
+    "source_name": "Tennis Canada",
+    "source_url": "https://www.tenniscanada.com/news",
+    "date": "2026-04-10 03:00 EEST"
+  },
+  {
+    "title": "Tennis Europe & Dunlop launch best ever ball offer for Junior Tour events",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/163071/Tennis-Europe-Dunlop-launch-best-ever-ball-offer-for-Junior-Tour-events",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-04-10 03:00 EEST"
   },
   {
     "title": "Monte Carlo Masters 2026 Day Five Recap",
@@ -528,6 +1760,14 @@
     "date": "2026-04-09 22:23 EEST"
   },
   {
+    "title": "Florida Juniors Named to United States Teams for Junior World Team Event Qualifying",
+    "description": "Four Florida juniors named to United States teams for Junior Davis Cup, Billie Jean King Cup, and World Junior Tennis Qualifying in Montreal.",
+    "link": "https://www.ustaflorida.com/florida-juniors-named-to-united-states-teams-for-junior-world-team-event-qualifying/",
+    "source_name": "USTA Florida",
+    "source_url": "https://www.ustaflorida.com/news/",
+    "date": "2026-04-09 21:00 EEST"
+  },
+  {
     "title": "ATP Challenger 75, Elm Park Dublin, June 2026",
     "description": "Tennis Ireland to Host ATP Challenger 75 for the First Time in Almost Two Decades The ATP Tour returns to Elm Park Golf & Sports Club, Dublin, 14–20 June 2026 […] The post ATP Challenger 75, Elm Park Dublin, June 2026 appeared first on Tennis Ireland .",
     "link": "https://www.tennisireland.ie/news/atp-challenger-75-elm-park-dublin-june-2026",
@@ -536,12 +1776,68 @@
     "date": "2026-04-09 11:42 EEST"
   },
   {
+    "title": "Talented Aussie juniors learn from the best at Billie Jean King Cup camp",
+    "description": "Ten of Australia’s most promising junior girls have joined a training camp in Melbourne ahead of Australia’s Billie Jean King Cup tie against Great Britain.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/09/talented-aussie-juniors-learn-from-the-best-at-billie-jean-king-cup-camp",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-09 03:00 EEST"
+  },
+  {
+    "title": "Gibson to lead BJK Cup Finals pursuit in Melbourne",
+    "description": "Talia Gibson will make her Billie Jean King Cup playing debut on Friday, competing as Australia’s No.1 singles player.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/09/australia-v-great-britain-billie-jean-king-cup-qualifier-preview",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-09 03:00 EEST"
+  },
+  {
     "title": "Monte Carlo Masters 2026 Day Four Recap",
     "description": "Day Four at the Rolex Monte-Carlo Masters delivered one of the most shocking results of the season and a memorable moment for the home crowd. Italian wild card Matteo Berrettini stunned fans with a ruthless 6-0, 6-0 demolition of seventh seed Daniil Medvedev in just 49 minutes Meanwhile, local boy Valentin Vacherot sent the Monte-Carlo …",
     "link": "https://www.perfect-tennis.com/monte-carlo-masters-2026-day-four-recap/",
     "source_name": "Perfect Tennis",
     "source_url": "https://www.perfect-tennis.com/",
     "date": "2026-04-08 21:17 EEST"
+  },
+  {
+    "title": "2026 USTA National Women’s Senior Hard Court Tennis Championships Scheduled for May 4-10 at La Jolla Beach & Tennis Club",
+    "description": "USTA NATIONAL WOMEN’S SENIOR HARD COURT TENNIS CHAMPIONSHIPS SCHEDULED FOR MAY 4-10, 2026 AT LA JOLLA BEACH & TENNIS CLUB Top Senior Women Tennis Players to Compete for National Singles and Doubles Titles LA JOLLA, Calif. – (April 8, 2026) – The La Jolla Beach & Tennis Club, one of California's most treasured beachfront resorts for more",
+    "link": "https://www.tennispanorama.com/archives/76812",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-04-08 17:56 EEST"
+  },
+  {
+    "title": "Tennis betting in Florida: What fans need to know before placing a wager",
+    "description": "As the world of tennis continues to captivate enthusiasts globally, a parallel trend is emerging within the gambling sector: tennis betting.  In Florida, a state renowned for its vibrant sporting cult...",
+    "link": "https://tennis-infinity.com/news/tennis-betting-in-florida-what-fans-need-to-know-before-placing-a-wager",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-08 15:44 EEST"
+  },
+  {
+    "title": "BJK Cup: Kokkinis relishes Orange Girl opportunity",
+    "description": "Seventeen-year-old Tahlia Kokkinis will continue a long-standing tradition during Australia’s Qualifier against Great Britain in Melbourne this week.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/08/bjk-cup--kokkinis-relishes-orange-girl-opportunity",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-08 03:00 EEST"
+  },
+  {
+    "title": "Gritty De Minaur takes revenge on Norrie in Monte Carlo",
+    "description": "Alex de Minaur has advanced to the round of 16 in Monte Carlo after defeating Cameron Norrie in his first claycourt match of the year.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/08/gritty-de-minaur-takes-revenge-on-norrie-in-monte-carlo",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-08 03:00 EEST"
+  },
+  {
+    "title": "Pegula retains Charleston title as Clay gets underway on the WTA Tour",
+    "description": "Jessica Pegula’s strong start to the 2026 season continued with another title, as the American successfully defended the Credit One Charleston Open crown with a 6-2 6-2 win over Ukraine’s Yuliia Starodubtseva in the final. The WTA 500 event in Charleston is the first clay-court week of the women’s season, played on green clay rather than the usual red clay we usually see later in Europe, including at the iconic Roland Garros, and Pegula finished the week by lifting the trophy for the second year",
+    "link": "https://www.asiantennis.com/news/pegula-retains-charleston-title-as-clay-gets-underway-on-the-wta-tour/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-08 03:00 EEST"
   },
   {
     "title": "Monte Carlo Masters 2026 Day Three Recap",
@@ -560,12 +1856,92 @@
     "date": "2026-04-07 14:34 EEST"
   },
   {
+    "title": "Tennis sensation (18) makes remarkable confession: 'I didn't even know what that was'",
+    "description": "Iva Jovic had never played on clay as a child. That detail alone says something about how extraordinary her rise has been. The 18-year-old American reached the quarterfinals of the Australian Open ear...",
+    "link": "https://tennis-infinity.com/news/tennis-sensation-18-makes-remarkable-confession-i-didnt-even-know-what-that-was",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-07 08:25 EEST"
+  },
+  {
+    "title": "Ranking Movers: Duckworth rises after deep run to ATP Challenger final",
+    "description": "James Duckworth leads the rising Australian players in the most recent edition of Ranking Movers following a stretch to the ATP Challenger finals in San Luis Potosi, Mexico.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/07/ranking-movers-duckworth-rises-after-deep-run-to-atp-challenger-final",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
+    "title": "Birrell eager for British Billie Jean King Cup challenge",
+    "description": "In-form and ready, Kimberly Birrell is fired up to lead Australia into its home BJK Cup Qualifier against Great Britain in Melbourne.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/07/kimberly-birrell-billie-jean-king-cup",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
+    "title": "Aussie Watch: De Minaur tackles Monte Carlo, Gibson leads BJK Cup squad",
+    "description": "The Aussie No.1 is back in action on Monaco’s clay this week alongside Alexei Popyrin, while the Billie Jean King Cup team faces archrival Great Britain in Melbourne.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/07/aussie-watch--de-minaur-kickstarts-claycourt-swing-in-monte-carlo",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
+    "title": "Pegula Earns Charleston Title",
+    "description": "Defeated Starodubtseva 6-2, 6-2",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/pegula-earns-charleston-title",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
+    "title": "Pegula Defeats Jovic 6-4, 5-7, 6-3 To Reach Charleston Open Final",
+    "description": "Will face Yuliia Starodubtseva in the final",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/pegula-defeats-jovic-6-4-5-7-6-3-reach-charleston-open-final",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
+    "title": "Keys Conquers Bencic To Reach Charleston Semis",
+    "description": "Advances after a 3-set battle",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/keys-conquers-bencic-reach-charleston-semis",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
+    "title": "Indonesia lead the charge as India eye home advantage in Billie Jean King Cup",
+    "description": "NEW DELHI, APRIL 6, 2026: Indonesia will start as the team to beat when the Asia-Oceania Group I ties of the Billie Jean King Cup get underway at the DLTA Complex on Monday, with hosts India hoping to use familiar conditions to stay in the race for a Play-offs spot.",
+    "link": "https://www.asiantennis.com/news/indonesia-lead-the-charge-as-india-eye-home-advantage-in-billie-jean-king-cup/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-07 03:00 EEST"
+  },
+  {
     "title": "Monte Carlo Masters 2026 Day Two Recap",
     "description": "Day Two at the Rolex Monte-Carlo Masters delivered a mix of emotion, upsets, and rising talent on the red clay of Monaco The biggest story was the farewell of Swiss legend Stan Wawrinka, who played his final match at the tournament where he claimed his only Masters 1000 title in 2014. Meanwhile, Stefanos Tsitsipas suffered …",
     "link": "https://www.perfect-tennis.com/monte-carlo-masters-2026-day-two-recap/",
     "source_name": "Perfect Tennis",
     "source_url": "https://www.perfect-tennis.com/",
     "date": "2026-04-06 22:08 EEST"
+  },
+  {
+    "title": "USTA Coaching and WeCOACH Announce New Partnership",
+    "description": "USTA, ORLANDO, FL (April 6, 2026) — WeCOACH is proud to announce a new strategic partnership with USTA Coaching, a new entity established by the USTA with a national platform created to support, elevate and expand the tennis coaching community across the United States. As a Mission Partner with WeCOACH, USTA Coaching will join us in",
+    "link": "https://www.tennispanorama.com/archives/76816",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-04-06 18:05 EEST"
+  },
+  {
+    "title": "USTA Roland Garros Wild Card Challenge Standings",
+    "description": "Standings Update -- Roland Garros Wild Card Challenge Akasha Urhobo, Dali Blanch Lead After Week 1 ORLANDO, Fla., April 6, 2026 – Nineteen-year old Akasha Urhobo and 23-year old Dali Blanch are the leaders of the USTA's Roland Garros Wild Card Challenge after its first of five weeks. Urhobo, who has won two USTA Pro Circuit W35 singles titles already",
+    "link": "https://www.tennispanorama.com/archives/76814",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-04-06 18:00 EEST"
   },
   {
     "title": "Monte Carlo Masters 2026 Day One Recap",
@@ -576,12 +1952,68 @@
     "date": "2026-04-06 10:51 EEST"
   },
   {
+    "title": "Jones steps into the spotlight with Billie Jean King Cup debut",
+    "description": "Emerson Jones, the 60th player to wear the green and gold at BJK Cup, joins a select group of teenagers to represent Australia.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/06/emerson-jones-jacket-presentation-feature",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-06 03:00 EEST"
+  },
+  {
+    "title": "Valentin Vacherot: “I'd rather win Monte Carlo than a Grand Slam”",
+    "description": "Valentin Vacherot, this week's guest on The Sit-Down podcast, reflects on that fairytale Shanghai Masters victory and discusses his connection with the Monte Carlo event, which got underway this week in Monaco.",
+    "link": "https://ausopen.com/articles/news/valentin-vacherot-id-rather-win-monte-carlo-grand-slam",
+    "source_name": "Australian Open",
+    "source_url": "https://ausopen.com/news",
+    "date": "2026-04-06 03:00 EEST"
+  },
+  {
+    "title": "A strong start in Colombo as India tops Week 1",
+    "description": "The first week of the ITF Asia 14&U Development Championships Finals in Colombo, Sri Lanka came to a strong finish, with several young players producing impressive performances across singles and doubles.",
+    "link": "https://www.asiantennis.com/news/a-strong-start-in-colombo-as-india-tops-week-1/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-06 03:00 EEST"
+  },
+  {
+    "title": "Clara Tauson out indefinitely",
+    "description": "It’s unknown how long Clara Tauson will be out of action. Clara Tauson will have to delay the start of her clay-court season this year. She had been scheduled to play the WTA 500 tournament in Linz, A...",
+    "link": "https://tennis-infinity.com/news/clara-tauson-out-indefinitely",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-04 01:02 EEST"
+  },
+  {
+    "title": "All photos of Rafael Nadal and the family members he invited on a luxury trip to the Caribbean",
+    "description": "Rafa Nadal enjoys a luxury Caribbean getaway with his extended family. Rafa Nadal recently spent time in an exclusive Caribbean destination, surrounded by a large group of relatives in a stunning sett...",
+    "link": "https://tennis-infinity.com/news/all-photos-of-rafael-nadal-and-the-family-members-he-invited-on-a-luxury-trip-to-the-caribbean",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-04-04 00:19 EEST"
+  },
+  {
     "title": "Monte Carlo Masters Draw 2026",
     "description": "The 2026 Rolex Monte Carlo Masters draw is officially out, and it feels like a breath of fresh air compared to the lengthy two-week Masters 1000 grind we’ve been forced to swallow on the ATP Tour. With its traditional compact 56-player singles field (instead of the expanded 96-player draws elsewhere), Monte Carlo delivers an action-packed …",
     "link": "https://www.perfect-tennis.com/monte-carlo-masters-draw-2026/",
     "source_name": "Perfect Tennis",
     "source_url": "https://www.perfect-tennis.com/",
     "date": "2026-04-03 21:42 EEST"
+  },
+  {
+    "title": "Shnaider Blitzes Fernandez To Reach Charleston Quarters",
+    "description": "Advanced after a 6-3, 6-0 win",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/shnaider-blitzes-fernandez-reach-charleston-quarters",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-04-03 03:00 EEST"
+  },
+  {
+    "title": "No Coaching Comeback: Rafael Nadal Chose Family Over Coaching Iga Swiatek",
+    "description": "This week, social media was buzzing with speculation that Rafael Nadal could join Iga Swiatek’s team as her coach. The six-time major winner recently parted ways with coach Wim Fissette after an ea…",
+    "link": "https://rafaelnadalfans.com/2026/04/03/no-coaching-comeback-rafael-nadal-chose-family-over-coaching-iga-swiatek/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-04-03 01:01 EEST"
   },
   {
     "title": "Entries Are Open — Irish National Blind/VI Tennis Championships 2026",
@@ -592,12 +2024,92 @@
     "date": "2026-04-02 20:03 EEST"
   },
   {
+    "title": "Australia v Great Britain: An historic Billie Jean King Cup tie",
+    "description": "For the first time in almost 40 years, Melbourne Park will host the Culture Amp Australian Billie Jean King Cup team, who take on Great Britain for a place in September’s finals.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/02/aus-v-gbr-billie-jean-king-cup-historical-context",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-02 03:00 EEST"
+  },
+  {
+    "title": "Ashley Cooper Scholarship: Propelling Aussie talent to greater heights",
+    "description": "Several recipients of the Ashley Cooper Scholarship, awarded since 2022, are experiencing upward career trajectories that might not have been possible without critical funding.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/02/ashley-cooper-scholarship-propelling-aussie-players",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-02 03:00 EEST"
+  },
+  {
+    "title": "Emerson Jones named in Australian Billie Jean King Cup squad",
+    "description": "Teenager Emerson Jones will replace Maya Joint in the Culture Amp Australian Billie Jean King Cup team for their upcoming Qualifier against Great Britain.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/04/01/emerson-jones-named-in-australian-billie-jean-king-cup-squad",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-04-01 03:00 EEST"
+  },
+  {
+    "title": "Sinner, Sabalenka, and consecutive sets won",
+    "description": "The dominance of Jannik Sinner and Aryna Sabalenka in Miami inspired ausopen.com to investigate how this compares to the record-setters at the Australian Open.",
+    "link": "https://ausopen.com/articles/news/sinner-sabalenka-and-consecutive-sets-won",
+    "source_name": "Australian Open",
+    "source_url": "https://ausopen.com/news",
+    "date": "2026-04-01 03:00 EEST"
+  },
+  {
+    "title": "Women’s team tennis takes centre stage in Delhi: BJKC Asia/Oceania Group - 1",
+    "description": "The Billie Jean King Cup Asia/Oceania Group I will bring a big week of women’s team tennis to New Delhi, with the tournament set to be played at the DLTA Stadium from 7th to 11th April, 2026. Six teams will compete in the event, making it one of the most important team competitions in Asia this season.",
+    "link": "https://www.asiantennis.com/news/womens-team-tennis-takes-centre-stage-in-delhi-bjkc-asia-oceania-group-1/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-04-01 03:00 EEST"
+  },
+  {
     "title": "Gerry Smyth of Tennis Connacht Elected President of Tennis Ireland",
     "description": "Tennis Connacht celebrates a landmark moment as one of its own, Gerry Smyth, takes up the role of President of Tennis Ireland. A proud member of Galway Lawn Tennis Club, […] The post Gerry Smyth of Tennis Connacht Elected President of Tennis Ireland appeared first on Tennis Ireland .",
     "link": "https://www.tennisireland.ie/news/gerry-smyth-of-tennis-connacht-elected-president-of-tennis-ireland",
     "source_name": "Tennis Ireland",
     "source_url": "https://www.tennisireland.ie/",
     "date": "2026-03-31 15:22 EEST"
+  },
+  {
+    "title": "Ranking movers: Gibson nears top 50 after historic Sunshine Swing",
+    "description": "Talia Gibson's breathtaking start to the year continues while Emerson Jones has achieved a career-high ranking after Miami.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/31/ranking-movers--gibson-climbs-again-after-historic-sunshine-swing",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-31 03:00 EEST"
+  },
+  {
+    "title": "A regional team with a bigger purpose : The GSPDP/ITF 14&U team in Colombo",
+    "description": "At the ITF Asia 14&U Development Championships Finals 2026 in Colombo, Sri Lanka, there is one team that stands a little apart. While most players in the event are competing for their own countries, the GSPDP/ITF 14&U team is representing the region. GSPDP – stands for Grand Slam Player Development Programme, and this team is part of a special development pathway designed to support promising young players from across Asia. It is a group made up of talented juniors who have come through the earl",
+    "link": "https://www.asiantennis.com/news/a-regional-team-with-a-bigger-purpose-the-gspdp-itf-14u-team-in-colombo/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-31 03:00 EEST"
+  },
+  {
+    "title": "Colombo campaign ends with Malaysia and Vietnam moved to the Final-Qualifying",
+    "description": "Malaysia and Vietnam booked the two qualifying spots from the 2026 Junior Davis Cup Asia/Oceania Pre-Qualifying event, which was played in Colombo, Sri Lanka from 23 to 28 March. Sri Lanka and Turkmenistan finished just behind them to complete the top four in a competitive week of junior team tennis.",
+    "link": "https://www.asiantennis.com/news/colombo-campaign-ends-with-malaysia-and-vietnam-moved-to-the-final-qualifying/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-31 03:00 EEST"
+  },
+  {
+    "title": "WTA – Sabalenka Captures Sunshine Double, Leading the Race to the Finals",
+    "description": "",
+    "link": "https://www.tennispanorama.com/archives/76797",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-03-30 17:18 EEST"
+  },
+  {
+    "title": "ATP Launches Official Fantasy Game",
+    "description": "",
+    "link": "https://www.tennispanorama.com/archives/76800",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-03-30 16:29 EEST"
   },
   {
     "title": "Tennis Unlocked: The Passing Game",
@@ -616,12 +2128,76 @@
     "date": "2026-03-30 09:45 EEST"
   },
   {
+    "title": "Triple Double – Sinner, Sabalenka, and Siniakova/Townsend, Complete “Sunshine Doubles” with Miami Open Wins",
+    "description": "(March 29, 2026) There was the completion of a triple “Sunshine Double” on Sunday at the Miami Open for Jannik Sinner, Aryna Sabalenka and the doubles team of Katerina Siniakova and Taylor Townsend. Winning both Indian Wells and the Miami Open constitutes the Sunshine Double. Jannik Sinner beat Jiri Lehecka 6-4, 6-4 to capture the",
+    "link": "https://www.tennispanorama.com/archives/76802",
+    "source_name": "Tennis Panorama",
+    "source_url": "https://www.tennispanorama.com/",
+    "date": "2026-03-30 08:01 EEST"
+  },
+  {
+    "title": "Aussie Watch: Popyrin, Tomljanovic begin claycourt campaigns",
+    "description": "Seven Australians are in singles action as the claycourt season kicks off in Houston, Charleston, Marrakech and Bucharest.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/30/aussie-watch--popyrin-and-tomljanovic-spearhead-clay-court-contingent",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-30 03:00 EEST"
+  },
+  {
+    "title": "Aussie Weekly Wrap: Marinkov, Simes claim maiden crowns in Swan Hill",
+    "description": "Pavle Marinkov and Ashleigh Simes enjoyed breakout successes in Swan Hill this week, while John-Patrick Smith and Storm Hunter had strong showings in Miami.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/30/aussie-weekly-wrap--marinkov,-simes-claim-maiden-crowns-in-swan-hill",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-30 03:00 EEST"
+  },
+  {
+    "title": "Seminar for coaches ATF YTS x COMOOON Kinder Tennis Seminar – Cambodia",
+    "description": "Seminar for coaches ATF YTS x COMOOON Kinder Tennis Seminar – Cambodia\n📍 National Olympic Stadium, Phnom Penh, Cambodia\n📅 4–5 April 2026",
+    "link": "https://www.asiantennis.com/news/seminar-for-coaches-atf-yts-x-comooon-kinder-tennis-seminar-cambodia/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-30 03:00 EEST"
+  },
+  {
+    "title": "Garcia & Johri Win in Torelló",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/163032/Garcia-Johri-Win-in-Torello",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-03-30 03:00 EEST"
+  },
+  {
+    "title": "Five Volunteers Graduate USTA Florida Leadership Academy",
+    "description": "Five volunteers from across the state have graduated from the USTA Florida Leadership Academy ready to make an impact.",
+    "link": "https://www.ustaflorida.com/five-volunteers-graduate-usta-florida-leadership-academy/",
+    "source_name": "USTA Florida",
+    "source_url": "https://www.ustaflorida.com/news/",
+    "date": "2026-03-29 16:00 EEST"
+  },
+  {
+    "title": "Sinner Defeats Tiafoe 6-2, 6-2 To Reach Miami Open Semifinal",
+    "description": "The world number one has his eye on winning the Sunshine Double.",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/sinner-defeats-tiafoe-6-2-6-2-reach-miami-open-semifinal",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-03-29 02:00 EET"
+  },
+  {
     "title": "Irish Juniors Shine at St. Anne’s ITF & Tennis Europe Events",
     "description": "It was a superb week for Irish junior tennis at the ITF and Tennis Europe events hosted by St. Anne’s in Waterford, with Irish players dominating across both tournaments. ITF […] The post Irish Juniors Shine at St. Anne’s ITF & Tennis Europe Events appeared first on Tennis Ireland .",
     "link": "https://www.tennisireland.ie/news/irish-juniors-shine-at-st-annes-itf-tennis-europe-events",
     "source_name": "Tennis Ireland",
     "source_url": "https://www.tennisireland.ie/",
     "date": "2026-03-28 19:09 EET"
+  },
+  {
+    "title": "AUS v GB Flashback: Stosur clutch in swansong BJK Cup campaign",
+    "description": "Sam Stosur looks back on her last winning tie as a player four years ago, ahead of Australia's Billie Jean King Cup Qualifier against Great Britain next month.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/27/aus-v-gb-flashback--stosur-s-swansong-continues-with-clutch-performance",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-27 02:00 EET"
   },
   {
     "title": "Wildcards – ITF J30, Kilkenny & TE14 3, Belfast",
@@ -632,12 +2208,396 @@
     "date": "2026-03-26 11:42 EET"
   },
   {
+    "title": "USTA Florida Releases White Paper Making the Case for Public Tennis Court Investment Across the State",
+    "description": "USTA Florida releases White Paper showcasing the case for public tennis court investment across the state of Florida.",
+    "link": "https://www.ustaflorida.com/usta-florida-releases-white-paper-making-the-case-for-public-tennis-court-investment-across-the-state/",
+    "source_name": "USTA Florida",
+    "source_url": "https://www.ustaflorida.com/news/",
+    "date": "2026-03-25 18:00 EET"
+  },
+  {
+    "title": "How the AO “broke things open” for Lindsay Davenport",
+    "description": "The Australian Open was where former world No.1 Lindsay Davenport qualified for her first Slam and reached the third round in 1993, notched her first major quarterfinal in 1994, and ultimately won in 2000 for her third Grand Slam title in the past six majors.",
+    "link": "https://ausopen.com/articles/news/how-ao-broke-things-open-lindsay-davenport",
+    "source_name": "Australian Open",
+    "source_url": "https://ausopen.com/news",
+    "date": "2026-03-25 02:00 EET"
+  },
+  {
+    "title": "Fritz Gets Past Opelka To Reach Miami Open 4th Round",
+    "description": "Defeated his fellow American in straight sets",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/fritz-gets-past-opelka-reach-miami-open-4th-round",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-03-25 02:00 EET"
+  },
+  {
+    "title": "Davis Cup Juniors Asia/Oceania Pre-Qualifying begins in Colombo",
+    "description": "The Davis Cup Juniors Asia/Oceania Pre-Qualifying event has begun in Colombo, Sri Lanka, with teams gathering for the opening ceremony and the start of a busy week of junior team tennis.",
+    "link": "https://www.asiantennis.com/news/davis-cup-juniors-asia-oceania-pre-qualifying-begins-in-colombo/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-25 02:00 EET"
+  },
+  {
+    "title": "From Miami breakthrough to Top 30: Alexandra Eala is becoming one of Asia’s names to watch",
+    "description": "Miami again, Sunshine Swing again, and the name, Alexandra Eala is back in the conversation. A year after her surprised run in Miami, the 20-year-old Filipina came back to the same venue and did well again, reaching the third round in 2026. Her run ended against Karolina Muchova, but the bigger picture is clear now, this is not just one magic week anymore. Eala is starting to go deep at big tournaments again and again. That fits with where her career is right now. This month, Eala climbed to a c",
+    "link": "https://www.asiantennis.com/news/from-miami-breakthrough-to-top-30-alexandra-eala-is-becoming-one-of-asias-names-to-watch/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-25 02:00 EET"
+  },
+  {
     "title": "Upcoming Community Tennis – April 2026",
     "description": "Dublin Airlie Park, Adamstown Golden Game Tennis Women’s Try Tennis Beginner Adult Tennis All the above start Wednesday April 8th. Parastanding Tennis Programme – ongoing Venue: Shankill TC Time/Date: Every Sunday 9am […] The post Upcoming Community Tennis – April 2026 appeared first on Tennis Ireland .",
     "link": "https://www.tennisireland.ie/news/community-tennis-airlie-park-april-2026",
     "source_name": "Tennis Ireland",
     "source_url": "https://www.tennisireland.ie/",
     "date": "2026-03-24 16:52 EET"
+  },
+  {
+    "title": "Zheng Defeats Stephens To Reach Miami Open Third Round",
+    "description": "Advanced after a 6-3, 6-2 win",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/zheng-defeats-stephens-reach-miami-open-third-round",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-03-24 02:00 EET"
+  },
+  {
+    "title": "BJK Cup Juniors Asia/Oceania Pre-Qualifying: Colombo week wraps up with Singapore on top",
+    "description": "The Billie Jean King Cup Juniors (Asia/Oceania) Pre-Qualifying event was held in Colombo, Sri Lanka, from 16–21 March 2026, bringing together Under-16 girls’ teams from across the region for a week of junior team tennis.",
+    "link": "https://www.asiantennis.com/news/bjk-cup-juniors-asia-oceania-pre-qualifying-colombo-week-wraps-up-with-singapore-on-top/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-24 02:00 EET"
+  },
+  {
+    "title": "Asian spotlight in Miami : Rybakina’s form, Zheng’s comeback",
+    "description": "Miami is giving Asian tennis two very different stories at the same time in the women’s singles, and both feel important.",
+    "link": "https://www.asiantennis.com/news/asian-spotlight-in-miami-rybakinas-form-zhengs-comeback/",
+    "source_name": "Asian Tennis Federation",
+    "source_url": "https://www.asiantennis.com/news/",
+    "date": "2026-03-24 02:00 EET"
+  },
+  {
+    "title": "Hewitt, Simes make finals appearances in Wodonga",
+    "description": "Cruz Hewitt and Ashleigh Simes had breakout tournaments at the Wodonga International this week after both reached the ftitle match",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/23/hewitt,-simes-make-finals-appearances-in-wodonga",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-23 02:00 EET"
+  },
+  {
+    "title": "Miami: Gibson secures fifth top-20 victory to reach fourth round",
+    "description": "Qualifier Talia Gibson has beaten Iva Jovic in straight sets to reach the round of 16 at both Sunshine Swing WTA 1000 events.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/23/miami--gibson-downs-jovic,-records-another-top-20-victory",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-23 02:00 EET"
+  },
+  {
+    "title": "Australian Open 2027 dates announced",
+    "description": "The dates for Australian Open 2027 are locked in, with the season’s first Grand Slam tournament set for Melbourne Park on 11-31 January.",
+    "link": "https://ausopen.com/articles/news/australian-open-2027-dates-announced",
+    "source_name": "Australian Open",
+    "source_url": "https://ausopen.com/news",
+    "date": "2026-03-23 02:00 EET"
+  },
+  {
+    "title": "51st Tennis Europe Annual General Meeting",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/163000/51st-Tennis-Europe-Annual-General-Meeting",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-03-23 02:00 EET"
+  },
+  {
+    "title": "Rafael Nadal Enjoys Derby Night as Real Madrid Beat Atletico",
+    "description": "Rafael Nadal was back at the Santiago Bernabéu on Sunday night, doing what he’s done so many times before — supporting his beloved Real Madrid. Our champ was in the stands for the derby against Atl…",
+    "link": "https://rafaelnadalfans.com/2026/03/23/rafael-nadal-enjoys-derby-night-as-real-madrid-beat-atletico/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-03-23 01:30 EET"
+  },
+  {
+    "title": "Gibson records another upset, eliminates Osaka in Miami",
+    "description": "Talia Gibson has recorded her fourth top-20 victory in a matter of weeks after triumphing against Naomi Osaka on Sunday.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/03/22/gibson-records-another-upset,-eliminates-osaka-in-miami",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-03-22 02:00 EET"
+  },
+  {
+    "title": "Italy maintains dominance of European Tennis Trophy",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/162995/Italy-maintains-dominance-of-European-Tennis-Trophy",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-03-21 02:00 EET"
+  },
+  {
+    "title": "44 nations convene in Gdańsk for Tennis Europe AGM",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/162976/44-nations-convene-in-Gdansk-for-Tennis-Europe-AGM",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-03-19 02:00 EET"
+  },
+  {
+    "title": "Sinner Reaches Indian Wells Final",
+    "description": "Defeated Alexander Zverev in straight sets",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/sinner-reaches-indian-wells-final",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-03-15 02:00 EET"
+  },
+  {
+    "title": "Rybakina Defeats Svitolina 7-5, 6-4 To Reach Indian Wells Final",
+    "description": "Will face world number one, Sabalenka in the Final",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/rybakina-defeats-svitolina-7-5-6-4-reach-indian-wells-final",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-03-15 02:00 EET"
+  },
+  {
+    "title": "Tennis Europe and Mental Point bring Mental Training to junior players",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/162944/Tennis-Europe-and-Mental-Point-bring-Mental-Training-to-junior-players",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-03-13 02:00 EET"
+  },
+  {
+    "title": "Mboko Defeats Anisimova In Round-Of-Sixteen At Indian Wells",
+    "description": "Advanced after a 6-4, 6-1 win",
+    "link": "http://www.tennisviewmag.com/tennis-view-magazine/article/mboko-defeats-anisimova-round-sixteen-indian-wells",
+    "source_name": "Tennis View Magazine",
+    "source_url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+    "date": "2026-03-12 02:00 EET"
+  },
+  {
+    "title": "Top 10 matches at Australian Open 2026",
+    "description": "We re-cap 10 classic matches from AO 2026, which you can enjoy again – or catch them for the first time if you missed them – when they’re broadcast on Tennis+ from 11-20 March.",
+    "link": "https://ausopen.com/articles/news/top-10-matches-australian-open-2026",
+    "source_name": "Australian Open",
+    "source_url": "https://ausopen.com/news",
+    "date": "2026-03-10 02:00 EET"
+  },
+  {
+    "title": "In the Spotlight: Tennis in the Faroe Islands",
+    "description": "",
+    "link": "https://www.tenniseurope.org/news/162929/In-the-Spotlight-Tennis-in-the-Faroe-Islands",
+    "source_name": "Tennis Europe",
+    "source_url": "https://www.tenniseurope.org/newslist/News",
+    "date": "2026-03-10 02:00 EET"
+  },
+  {
+    "title": "Rafael Nadal’s Sweet Snow Moment with Rafa Junior Melts Fans’ Hearts",
+    "description": "Last month, Rafael Nadal gave fans a heartwarming glimpse into his life after tennis by sharing both photos and videos from a family ski trip in Baqueira Beret. Our champ posted joyful moments from…",
+    "link": "https://rafaelnadalfans.com/2026/03/03/rafael-nadal-sweet-snow-moment-son-rafa-junior/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-03-03 20:22 EET"
+  },
+  {
+    "title": "Serena Williams officially reinstated as an active tennis player",
+    "description": "It seems that Serena Williams' comeback will soon become a reality after she was officially reinstated as an active player. The 23-time major winner has played her last professional tennis match at th...",
+    "link": "https://tennis-infinity.com/news/serena-williams-officially-reinstated-as-an-active-tennis-player",
+    "source_name": "Tennis Infinity",
+    "source_url": "https://tennis-infinity.com/",
+    "date": "2026-02-22 23:19 EET"
+  },
+  {
+    "title": "Rafael Nadal’s Message to Lindsey Vonn After Horrific Olympic Crash",
+    "description": "If anyone knows how hard it is to come back again and again after injury, it is Rafael Nadal. He has put his rackets away and is now retired, but he still follows sports closely and often uses his …",
+    "link": "https://rafaelnadalfans.com/2026/02/08/rafael-nadal-message-to-lindsey-vonn-after-horrific-2026-olympic-games-crash/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-02-08 21:04 EET"
+  },
+  {
+    "title": "WATCH: Rafael Nadal on Life After Tennis and the Men’s Final in Melbourne",
+    "description": "In case you missed it earlier, 22-time Grand Slam champion and two-time Australian Open winner Rafael Nadal sat down with Ollie Haig for an exclusive chat about life after tennis and his thoughts o…",
+    "link": "https://rafaelnadalfans.com/2026/02/01/rafael-nadal-on-life-after-tennis-and-the-mens-final-in-melbourne/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-02-02 00:39 EET"
+  },
+  {
+    "title": "Rafael Nadal attends Australian Open final",
+    "description": "Rafael Nadal attended the Australian Open final between Novak Djokovic and Carlos Alcaraz. Before the match, our champ also said he was cheering for Alcaraz. His fellow doubles partner, with whom h…",
+    "link": "https://rafaelnadalfans.com/2026/02/01/rafael-nadal-attends-australian-open-final-2026-carlos-alcaraz-won-novak-djokovic/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-02-01 14:46 EET"
+  },
+  {
+    "title": "Most Grand Slam Titles",
+    "description": "The Grand Slam tennis circuit features the Australian Open, French Open, Wimbledon and US Open. Which men and women have taken home the most titles?",
+    "link": "https://www.espn.com/tennis/story/_/id/39364315/who-won-most-grand-slams-tennis-history",
+    "source_name": "ESPN Tennis",
+    "source_url": "https://www.espn.com/tennis/",
+    "date": "2026-02-01 14:30 EET"
+  },
+  {
+    "title": "Nadal Returns to Australia: “If I Have to Support Someone, I Support Carlos”",
+    "description": "Rafael Nadal may now be retired from professional tennis, but he is back Down Under, returning to the Australian Open ahead of the ‘Night of Legends’ event taking place before Sunday’s men’s single…",
+    "link": "https://rafaelnadalfans.com/2026/01/31/rafael-nadal-returns-to-australia-if-i-have-to-support-someone-i-support-carlos-alcaraz-novak-djokovic-australian-open-2026-final/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-01-31 10:42 EET"
+  },
+  {
+    "title": "Daniil delivers: Medvedev crowned 2026 Brisbane International champion",
+    "description": "Daniil Medvedev defeats Brandon Nakashima to secure his 22nd ATP title at the Brisbane International.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/01/brisbane-international-2026-mens-singles-final-medvedev-nakashima",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-01-11 02:00 EET"
+  },
+  {
+    "title": "Aryna Sabalenka a Brisbane International champion again",
+    "description": "Aryna Sabalenka completed a perfect campaign at Pat Rafter Arena, with a straight-sets victory over Marta Kostyuk securing her second straight Brisbane International triumph.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/01/brisbane-international-2026-womens-final-report-sabalenka-kostyuk",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-01-11 02:00 EET"
+  },
+  {
+    "title": "Cabral/Miedler topple defending champions for Brisbane title",
+    "description": "Francisco Cabral and Lucas Miedler upset world no.1 duo Julian Cash and Lloyd Glasspool at Pat Rafter Arena for their fourth trophy together.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/01/cabral-and-miedler-topple-defending-champions-for-brisbane-2026-doubles-title",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-01-11 02:00 EET"
+  },
+  {
+    "title": "Rafa Roundup: Nadal Says He’s “Not Very Good, Not Very Bad” as a Dad",
+    "description": "Photo: Jesus Orihuela / as.com ARTICLES: Nadal: “I’m figuring out what I want to be when I grow up” —  as.com … I don’t think it was excellence. I’ve always tried to give my best version. Now…",
+    "link": "https://rafaelnadalfans.com/2026/01/04/rafael-nadal-says-he-not-very-good-not-very-bad-as-a-dad-son-rafa-junior/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2026-01-04 20:47 EET"
+  },
+  {
+    "title": "Rafael Nadal Undergoes Hand Surgery, Jokes About Australian Open 2026",
+    "description": "Rafael Nadal’s team announced that he underwent surgery on his right hand on Thursday in Barcelona to address severe osteoarthritis. Photo: Rafa Nadal Rafa Nadal underwent a surgical procedure yest…",
+    "link": "https://rafaelnadalfans.com/2025/12/12/rafael-nadal-undergoes-hand-surgery-jokes-about-australian-open-2026-tennis-news/",
+    "source_name": "Rafael Nadal Fans",
+    "source_url": "https://rafaelnadalfans.com/",
+    "date": "2025-12-13 00:25 EET"
+  },
+  {
+    "title": "João Fonseca crowns his sensational week in Basel",
+    "description": "João Fonseca crowns his sensational week in BaselJoão Fonseca (ATP 46) has won Swiss Indoors Basel 2025.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-26_Jo-o-Fonseca-caps-a-sensational-week-with-the-title-in-Basel.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-26 03:00 EEST"
+  },
+  {
+    "title": "Final of Swiss Indoors Basel 2025 – Fonseca versus Davidovich Fokina",
+    "description": "Final of Swiss Indoors Basel 2025 – Fonseca versus Davidovich FokinaThe final Swiss Indoors Basel 2025 match-up has been decided: 19-year-old João Fonseca will face Alejandro Davidovich Fokina on Sunday.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-25_Final-of-Swiss-Indoors-Basel-2025-Fonseca-versus-Davidovich-Fokina.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-25 03:00 EEST"
+  },
+  {
+    "title": "João Fonseca advances to semi-finals in sensational fashion",
+    "description": "João Fonseca advances to semi-finals in sensational fashionBrazilian rising star João Fonseca continues his fantastic run at Swiss Indoors Basel.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-24_Jo-o-Fonseca-advances-to-semi-finals-in-sensational-fashion.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-24 03:00 EEST"
+  },
+  {
+    "title": "Swiss Indoors Basel quarter-finals – Friday set for high drama",
+    "description": "Swiss Indoors Basel quarter-finals – Friday set for high dramaSwiss Indoors Basel 2025 is approaching the decisive phase.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-23_Swiss-Indoors-Basel-quarter-finals-Friday-set-for-high-drama.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-23 03:00 EEST"
+  },
+  {
+    "title": "Top stars live up to their billing",
+    "description": "Top stars live up to their billingOn Wednesday, the favourites prevailed at Swiss Indoors Basel and underscored their ambitions in impressive fashion.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-23_Top-stars-live-up-to-their-billing-.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-22 03:00 EEST"
+  },
+  {
+    "title": "Next Gen impress – Wawrinka shines",
+    "description": "Next Gen impress – Wawrinka shinesThe second day of the Swiss Indoors Basel tournament was all about the Next Gen, but it also ended on an emotional high thanks to local favourite Stan Wawrinka.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-21_Next-Gen-impress-Wawrinka-shines.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-21 03:00 EEST"
+  },
+  {
+    "title": "Super Monday – a tribute to Basel and the Next Gen",
+    "description": "Super Monday – a tribute to Basel and the Next GenSuper Monday on 20 October 2025 brings together everything Swiss Indoors Basel has to offer:",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-Super-Monday-a-tribute-to-Basel-and-the-Next-Gen.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-20 03:00 EEST"
+  },
+  {
+    "title": "Super Monday delights the Basel crowd",
+    "description": "Super Monday delights the Basel crowdSuper Monday 2025 showcased everything that Swiss Indoors Basel has to offer:",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-20_Super-Monday-delights-the-Basel-crowd.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-20 03:00 EEST"
+  },
+  {
+    "title": "Finalists from Stockholm and Brussels arrive with momentum",
+    "description": "Finalists from Stockholm and Brussels arrive with momentumTwo ATP Tour finals will be held today, Sunday, 19 October 2025, and all four finalists will be competing at Swiss Indoors Basel.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-19_Finalists-from-Stockholm-and-Brussels-arrive-with-momentum.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-19 03:00 EEST"
+  },
+  {
+    "title": "Swiss Indoors Basel kicks off with exciting qualifying matches and a top-notch main draw",
+    "description": "Swiss Indoors Basel kicks off with exciting qualifying matches and a top-notch main drawSwiss Indoors Basel 2025 is off to a rousing start, thrilling spectators at St. Jakobshalle from the outset.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-18_Swiss-Indoors-Basel-kicks-off-with-exciting-qualifying-matches-and-a-top-notch-main-draw.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-18 03:00 EEST"
+  },
+  {
+    "title": "Valentin Vacherot",
+    "description": "Valentin VacherotThe Shanghai Sensation Arrives in Basel!",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-14_Valentin-Vacherot.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-10-14 03:00 EEST"
+  },
+  {
+    "title": "Centenary Tennis Clubs Event in Venice",
+    "description": "On the last few days of September 2025, a team of players from Chandos travelled to Venice to participate in an International Competition against three other clubs from Europe. The event comprise of Men’s and Women’s Singles and Doubles 50+ and 60+ age category. The event was held at Tennis Club Venezia on the beautiful Continue Reading The post Centenary Tennis Clubs Event in Venice appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/centenary-tennis-clubs-event-in-venice/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2025-10-09 15:25 EEST"
+  },
+  {
+    "title": "Explosive field at Swiss Indoors Basel",
+    "description": "Explosive field at Swiss Indoors BaselExplosive field at Swiss Indoors Basel",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-09-26_Explosive-field-at-Swiss-Indoors-Basel.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-09-26 03:00 EEST"
+  },
+  {
+    "title": "Hotspot Basel 2025",
+    "description": "Hotspot Basel 2025Grande Finalissima on Super Monday at Swiss Indoors",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-09-15_Hotspot-Basel-2025.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-09-15 03:00 EEST"
   },
   {
     "title": "Most US Open Second Round Appearances",
@@ -664,6 +2624,78 @@
     "date": "2025-08-24 21:02 EEST"
   },
   {
+    "title": "Taylor Fritz, Casper Ruud and Denis Shapovalov",
+    "description": "Taylor Fritz, Casper Ruud and Denis Shapovalovexpand the field of high-ranking participants at Swiss Indoors",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-07-28_Taylor-Fritz-Casper-Ruud-and-Denis-Shapovalov.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-07-28 03:00 EEST"
+  },
+  {
+    "title": "Padel Tennis Court Open for Our Members",
+    "description": "Our Padel court is now open to all our Club members. A long time in the making , we celebrated our court completion . Our Head Tennis and Padel Coach Javier ran taster clinics throughout the week of the 22nd June with a grand opening plays sessions, BBQ and celebration on the weekend of Continue Reading The post Padel Tennis Court Open for Our Members appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/padel-tennis-court-open-for-our-members/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2025-07-01 19:53 EEST"
+  },
+  {
+    "title": "First player announcements: the Next Gen hotshots",
+    "description": "First player announcements: the Next Gen hotshotsSwiss Indoors Basel presents five shooting stars",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-06-20_First-player-announcements-the-Next-Gen-hotshots.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2025-06-20 03:00 EEST"
+  },
+  {
+    "title": "Women’s Team Reach Semi Final’s of the National Finals of the NPL",
+    "description": "16 teams competed for the National Finals of the NATIONAL PREMIER LEAGUE doubles event. Well done our Women for reaching season ending Finale and a great job by our team reaching the Semi Finals where they lost to the home team St. George’s Hill. Thanks to Kapari Bagerbaseh, Jaquelyn Ogunwale, Aimee Bromfield. Amelie Brooks. A Continue Reading The post Women’s Team Reach Semi Final’s of the National Finals of the NPL appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/womens-team-reach-semi-finals-of-the-national-finals-of-the-npl/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2025-05-27 14:33 EEST"
+  },
+  {
+    "title": "Live Tennis Scores",
+    "description": "Carlos Alcaraz takes Rome - dismantling Jannik Sinner in the process. The Spaniard looks to be the favourite heading into the second major of the season in Paris.",
+    "link": "https://www.theslicetennis.com/articles/carlos-quiets-the-crowd",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2025-05-19 03:00 EEST"
+  },
+  {
+    "title": "A Ruud Awakening In Madrid",
+    "description": "Casper Ruud has won the biggest title of his career at the Madrid Open after opening up about mental struggles. The Norwegian now places himself in the middle of the pack of contenders for the French Open.",
+    "link": "https://www.theslicetennis.com/articles/a-ruud-awakening",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2025-05-05 03:00 EEST"
+  },
+  {
+    "title": "Relentless and Dominant: Alcaraz Storms to Victory in Monte Carlo",
+    "description": "",
+    "link": "https://www.theslicetennis.com/articles/relentless-and-dominant-alcaraz-storms-to-victory-in-monte-carlo",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2025-04-14 03:00 EEST"
+  },
+  {
+    "title": "Mensik Magic in Miami",
+    "description": "Jakub Mensik shocked Novak Djokovic and the tennis world by winning his first Masters 1000 event, winning 7/7 tiebreakers on the way. The teenager is a sensation.",
+    "link": "https://www.theslicetennis.com/articles/mensik-wins-maiden-atp-title-at-the-miami-open",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2025-03-31 03:00 EEST"
+  },
+  {
+    "title": "Jack Draper puts it all together in the desert",
+    "description": "",
+    "link": "https://www.theslicetennis.com/articles/jack-draper-puts-it-all-together-in-the-desert",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2025-03-17 02:00 EET"
+  },
+  {
     "title": "Frustrated Nick Kyrgios Calls Sinner Ban A “Sad Day For Tennis”",
     "description": "Nick Kyrgios is not happy.",
     "link": "https://www.tennis-x.com/xblog/2025-02-15/38450.php",
@@ -686,6 +2718,14 @@
     "source_name": "Tennis-X",
     "source_url": "https://www.tennis-x.com/",
     "date": "2025-02-15 17:18 EET"
+  },
+  {
+    "title": "Sir Andy Murray at the Club",
+    "description": "We were proud to host a filming of A league of Their Own featuring Sir Andy Murray and Romesh Ranganathan at the Club. Was great to see a Tennis legend playing on our courts and Romesh who did his best to return 120 plus miles an hour serves serves. An excerpt from the shoot aired Continue Reading The post Sir Andy Murray at the Club appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/sir-andy-murray-at-the-club/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2025-02-05 18:07 EET"
   },
   {
     "title": "Sinner Swallows Up Zverev For Second Straight Australian Open, 3rd Slam",
@@ -798,6 +2838,78 @@
     "source_name": "Tennis-X",
     "source_url": "https://www.tennis-x.com/",
     "date": "2025-01-08 06:10 EET"
+  },
+  {
+    "title": "Team Social Evening",
+    "description": "A good night of tennis and food was had at our team social night this November, Over 35 players took part in our beat our pro Tennis players and coach led drills night. Followed by drinks and homemade pizza, thanks to all who took part. The post Team Social Evening appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/team-social-evening/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2024-11-19 12:52 EET"
+  },
+  {
+    "title": "French newcomer Giovanni Mpetshi Perricard takes the Swiss Indoors title",
+    "description": "French newcomer Giovanni Mpetshi Perricard takes the Swiss Indoors titleGiovanni Mpetshi Perricard celebrates the greatest success of his career to date.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2024-10-27-French-newcomer-Giovanni-Mpetshi-Perricard-takes-the-Swiss-Indoors-title.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2024-10-27 03:00 EEST"
+  },
+  {
+    "title": "NextGen stars in the Swiss Indoors final",
+    "description": "NextGen stars in the Swiss Indoors final Perricard and Shelton to battle for the title.",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2024-10-26-NextGen-stars-in-the-Swiss-Indoors-final-.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2024-10-26 03:00 EEST"
+  },
+  {
+    "title": "NextGen dominates in Basel:",
+    "description": "NextGen dominates in Basel: Top-class quarter-final matches and young semi-finalists",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2024-10-25-NextGen-dominates-in-Basel-.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2024-10-25 03:00 EEST"
+  },
+  {
+    "title": "Club Finals Sunday 20th October Results and Review",
+    "description": "Club Tournament 2024 Review 159 Players took part, 200 matches played, 16 events, 170 matches WINNERS AND REVIEW LINK [metaslider id=”6831″] The post Club Finals Sunday 20th October Results and Review appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/club-finals-sunday-20th-october/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2024-10-17 19:49 EEST"
+  },
+  {
+    "title": "Women’s First Team Win Middlesex Premier League East",
+    "description": "Great job by our Women's team to capture a first Middlesex Premier League East title in many years winning a group division of 7 excellent teams. The team were undefeated all season and came home with a very high average sets and match score . They will now compete in a Play of against the Premier League West Winners Campden Hill for the overall title scheduled for 22 September from 1:00pm. A big thanks to all the players who took part. The post Women’s First Team Win Middlesex Premier League Ea",
+    "link": "https://chandosltc.com/womens-first-team-win-middlesex-premier-league-east/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2024-08-13 12:38 EEST"
+  },
+  {
+    "title": "Members Organise Community Grass Roots Programme",
+    "description": "Members have brought their love of the game to help support and create a grass roots scheme bringing tennis to children alongside the Jason Roberts Foundation . Our members Geoffrey , Leeta, Yamile , Olga and Gaby all volunteer regularly and our coaches Ken and Emilia have also been involved in promoting tennis with the Continue Reading The post Members Organise Community Grass Roots Programme appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/members-organise-community-grass-roots-programme/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2024-06-12 15:52 EEST"
+  },
+  {
+    "title": "Teams Compete Well In The Worldpay National Premier League Finals",
+    "description": "A great effort by both teams who missed out on competing for the National Premier League Doubles Finals title . Our Men lost out in the first round to number 4 seeds Edinburgh by a 3-1 match loss. Great effort by the team to make the Finals for the First time in 4 years. The Continue Reading The post Teams Compete Well In The Worldpay National Premier League Finals appeared first on Chandos Lawn Tennis Club .",
+    "link": "https://chandosltc.com/teams-compete-well-in-the-worldpay-national-premier-league-finals/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2024-06-04 16:56 EEST"
+  },
+  {
+    "title": "Kapari Represents in African Games",
+    "description": "Every couple of years, athletes from various disciplines and specialities train and prepare to capture the chance to compete at the Olympics. As an athlete, there isn't a more eloquent honour than carrying the badge of participating at the Olympics with the colours of your nation adorning you. This year, that chance for some athletes from the African continent was at the 13th All-Africa Games held in Accra. The Ghanaian capital hosted over 5,000 athletes from 52 countries athletes competing in 2",
+    "link": "https://chandosltc.com/kapari-representing-ghana-in-the-african-games/",
+    "source_name": "Chandos Tennis Club",
+    "source_url": "https://chandosltc.com/category/news/",
+    "date": "2024-04-25 16:34 EEST"
   },
   {
     "title": "Tennis star fears she will 'break a leg' as event's hazardous clay courts exposed",
@@ -958,5 +3070,181 @@
     "source_name": "Tennis News Blog",
     "source_url": "https://the-tennisnews.blogspot.com/",
     "date": "2024-01-28 10:14 EET"
+  },
+  {
+    "title": "Djokovic Powers Up Before 2023 Australian Open",
+    "description": "Novak Djokovic has picked up where he left off in 2022, entering the Australian Open is great form, looking like the obvious favourite. Here’s a re-cap of last week’s action.",
+    "link": "https://www.theslicetennis.com/articles/djokovic-powers-up-before-2023-australian-open",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-10-01 03:00 EEST"
+  },
+  {
+    "title": "The Laver Cup Descends on Vancouver",
+    "description": "The Laver Cup is in Vancouver for the 2023 edition where Bjorn Borg’s Team Europe will take on John MacEnroe’s Team World on Canadian soil.",
+    "link": "https://www.theslicetennis.com/articles/the-laver-cup-descends-on-vancouver",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-09-21 03:00 EEST"
+  },
+  {
+    "title": "Medvedev & Zverev Drama in Monte-Carlo",
+    "description": "Monte Carlo has been full of drama, funny clips and spicy press conferences this year. Despite the lack of stars showing up, fans were still treated to lots of action.",
+    "link": "https://www.theslicetennis.com/articles/medvedev-amp-zverev-drama-in-monte-carlo",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-04-15 03:00 EEST"
+  },
+  {
+    "title": "Wimbledon 2023 Championship Preview",
+    "description": "Novak Djokovic looks to make history once again at the 2023 Wimbledon Championships. Draw previews, storylines, and contenders - all here.",
+    "link": "https://www.theslicetennis.com/articles/wimbledon-2023-championship-preview",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-03-07 02:00 EET"
+  },
+  {
+    "title": "Quarterfinals Underway at Australian Open: Can Djokovic Be Stopped?",
+    "description": "Quarterfinal action is underway at the Australian Open with some of the title contenders in action. Is nine time Australian Open champ Novak Djokovic still the favourite?",
+    "link": "https://www.theslicetennis.com/articles/quarterfinals-underway-at-australian-open-can-djokovic-be-stopped",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-01-24 02:00 EET"
+  },
+  {
+    "title": "‘Iconic’ Andy Murray Wins Historic Australian Open Match",
+    "description": "Andy Murray has won an instant classic at the Australian Open over Thanasi Kokkinakis. The historic match almost lasted six hours, and almost went into the next work day.",
+    "link": "https://www.theslicetennis.com/articles/iconic-andy-murray-wins-historic-australian-open-match",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-01-19 02:00 EET"
+  },
+  {
+    "title": "Andy Murray Highlights Unique Day 2 of Australian Open",
+    "description": "Andy Murray won an epic match over Italy’s Matteo Berrettini. Rafael Nadal and Iga Swiatek headline Day 3 action from the Australian Open.",
+    "link": "https://www.theslicetennis.com/articles/andy-murray-highlights-unique-day-2-in-melbourne",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2023-01-17 02:00 EET"
+  },
+  {
+    "title": "Spaniards Dominate 2023 ATP Awards",
+    "description": "Carlos Alcaraz takes the top spot at the annual ATP Awards. We recap the winners and give some context to the decisions.",
+    "link": "https://www.theslicetennis.com/articles/spaniards-dominate-2023-atp-awards",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-12-19 02:00 EET"
+  },
+  {
+    "title": "Team Canada Makes History, Wins 1st Davis Cup",
+    "description": "Canada has won the Davis Cup for the first time in it’s 122 year history, with Felix Auger-Aliassime leading the team to victory in the Finals in Malaga, Spain. What does it mean for Canadian tennis?",
+    "link": "https://www.theslicetennis.com/articles/team-canada-makes-history-wins-1st-davis-cup",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-11-28 02:00 EET"
+  },
+  {
+    "title": "Interview: Auger-Aliassime on Team Events, ATP Finals, Facing Nadal at French",
+    "description": "Felix Auger-Aliassime has some huge team event wins in 2022 against Djokovic, Alcaraz and Zverev. With the season coming to an end, he’s hoping that confidence will get him into the ATP Finals.",
+    "link": "https://www.theslicetennis.com/articles/interview-felix-feels-responsibility-in-team-events",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-10-27 03:00 EEST"
+  },
+  {
+    "title": "Tsitsipas’ Fantastic and Frustrating 2022 Season Continues in Stockholm",
+    "description": "Stefanos Tsitsipas is back in Stockholm, trying to add to his both successful and disappointing 2022 season, with an elite lineup of players challenging him.",
+    "link": "https://www.theslicetennis.com/articles/2022-stockholm-open-has-fantastic-field",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-10-18 03:00 EEST"
+  },
+  {
+    "title": "How I Grew Up With Roger Federer",
+    "description": "With Roger Federer’s retirement announcement, we’ve all found ourselves reminiscing on how he’s played a role in our tennis lives through the years.",
+    "link": "https://www.theslicetennis.com/articles/how-i-grew-up-with-roger-federer",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-09-20 03:00 EEST"
+  },
+  {
+    "title": "US Open Women’s Draw Preview & Predictions",
+    "description": "A comprehensive break down of the Women’s draw, quarter by quarter, including predictions all the way through. Does Serena have any chance in her last US Open?",
+    "link": "https://www.theslicetennis.com/articles/womens-usopen-2022-preview",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-08-29 03:00 EEST"
+  },
+  {
+    "title": "Is Dominic Thiem Back?",
+    "description": "Dominic Thiem has started to win matches again, a sight for sore tennis fan eyes. What does being “back” mean, and how high should we set our expectations?",
+    "link": "https://www.theslicetennis.com/articles/is-dominic-thiem-back",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-07-26 03:00 EEST"
+  },
+  {
+    "title": "Wimbledon’s Centenary Celebrations Sadly Set For Hollowest Championships Yet",
+    "description": "Despite the centenary celebrations, Wimbledon 2022 may feel like a sadly hollow affair.",
+    "link": "https://www.theslicetennis.com/articles/wimbledons-centenary-celebrations-sadly-set-for-hollowest-championships-yet",
+    "source_name": "The Slice",
+    "source_url": "https://www.theslicetennis.com/articles",
+    "date": "2022-06-20 03:00 EEST"
+  },
+  {
+    "title": "Bleachr’s TennisONE App Wins Fifth Tennis Industry Innovation Challenge »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/503670/Bleachrs-TennisONE-App-Wins-Fifth-Tennis-Industry-Innovation-Challenge.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
+  },
+  {
+    "title": "Three Finalists Chosen to Present at 2020 Tennis Industry Innovation Challenge »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/503677/Three-Finalists-Chosen-to-Present-at-2020-Tennis-Industry-Innovation-Challenge.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
+  },
+  {
+    "title": "Racquet Sports Industry Magazine Names 2019 'Champions of Tennis' »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/503684/Racquet-Sports-Industry-Magazine-Names-2019-Champions-of-Tennis.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
+  },
+  {
+    "title": "Judging Panel Chosen for Fifth Edition Of Tennis Industry Innovation Challenge »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/503887/Judging-Panel-Chosen-for-Fifth-Edition-Of-Tennis-Industry-Innovation-Challenge.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
+  },
+  {
+    "title": "Innovation Challenge Deadline Extended to Dec. 15 »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/503891/Innovation-Challenge-Deadline-Extended-to-Dec.-15.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
+  },
+  {
+    "title": "2017 US Open Series Launches July 24 with BB&T Atlanta Open »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/355832/2017-US-Open-Series-Launches-July-24-with-BBT-Atlanta-Open.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
+  },
+  {
+    "title": "10th Annual TIA Tennis Forum to Focus on the Future And Spotlight Innovation to Grow the Industry »",
+    "description": "",
+    "link": "https://www.racquetindustryresearch.org/news/355833/10th-Annual-TIA-Tennis-Forum-to-Focus-on-the-Future-And-Spotlight-Innovation-to-Grow-the-Industry.htm",
+    "source_name": "Racquet Industry Research",
+    "source_url": "https://www.racquetindustryresearch.org/news/",
+    "date": "2020-01-29 02:00 EET"
   }
 ]
