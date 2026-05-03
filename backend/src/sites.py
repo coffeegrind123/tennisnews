@@ -23,7 +23,6 @@ SITES = [
     {"name": "Wimbledon", "url": "https://www.wimbledon.com/en_GB/news/index.html", "type": "scrape", "module": "wimbledon"},
     {"name": "ESPN Tennis", "url": "https://www.espn.com/tennis/", "type": "scrape", "module": "espn_tennis"},
     {"name": "Novak Djokovic", "url": "https://novakdjokovic.com/en/n/news/", "type": "scrape", "module": "novak_djokovic"},
-    # Tennisbuzz — site is dead (Phoenix Server: Site Not Found) as of 2026-04-10
     {"name": "Tennis Canada", "url": "https://www.tenniscanada.com/news", "type": "scrape", "module": "tennis_canada"},
     {"name": "USTA Florida", "url": "https://www.ustaflorida.com/news/", "type": "scrape", "module": "usta_florida"},
     {"name": "World Tennis Magazine", "url": "https://worldtennismagazine.com/", "type": "rss", "feed_url": "https://worldtennismagazine.com/feed"},
@@ -36,9 +35,7 @@ SITES = [
     {"name": "Asian Tennis Federation", "url": "https://www.asiantennis.com/news/", "type": "scrape", "module": "asian_tennis_federation"},
     {"name": "Tennis Ireland", "url": "https://www.tennisireland.ie/", "type": "rss", "feed_url": "https://www.tennisireland.ie/feed"},
     {"name": "The Slice", "url": "https://www.theslicetennis.com/articles", "type": "scrape", "module": "the_slice"},
-    {"name": "Tennis Threads", "url": "https://tennisthreads.net/", "type": "rss", "feed_url": "https://tennisthreads.net/feed"},
     {"name": "Chandos Tennis Club", "url": "https://chandosltc.com/category/news/", "type": "rss", "feed_url": "https://chandosltc.com/feed"},
-    {"name": "Great Missenden LTC", "url": "https://www.gmltc.com/", "type": "scrape", "module": "great_missenden"},
     {"name": "Tennis Europe", "url": "https://www.tenniseurope.org/newslist/News", "type": "scrape", "module": "tennis_europe"},
     {"name": "Swiss Indoors Basel", "url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/", "type": "scrape", "module": "swiss_indoors"},
 ]
