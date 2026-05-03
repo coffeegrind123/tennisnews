@@ -1,4 +1,4 @@
-"""Twitter/X tennis feed scraper via xcancel.com proxy.
+"""Twitter/X tennis feed scraper via nitter.kareem.one proxy.
 Scrapes recent tweets from curated tennis-focused accounts."""
 
 ACCOUNTS = [
@@ -18,7 +18,7 @@ ACCOUNTS = [
     {"handle": "MichalSamulski", "name": "Michal Samulski", "outlet": "ITWA / Tennis Hall of Fame"},
 ]
 
-BASE = "https://xcancel.com"
+BASE = "https://nitter.kareem.one"
 
 
 async def scrape(page) -> list[dict]:
