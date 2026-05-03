@@ -200,7 +200,7 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
                 "title": title[:200],
                 "description": item.get("description", "")[:500],
                 "link": item.get("link", ""),
-                "source_name": name,
+                "source_name": item.get("source_name") or name,
                 "source_url": site["url"],
                 "date": to_helsinki(item.get("date", "")),
             })
