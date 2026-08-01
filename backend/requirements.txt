@@ -1,2 +1,7 @@
 feedparser
 camoufox
+# playwright 1.60 dispatches pageError with `location.url`, which the camoufox
+# FF146 juggler never sends. The driver process then dies on the FIRST uncaught
+# JS error on any page, taking the whole browser (and every remaining site) with
+# it. 1.59 does not read that field.
+playwright<1.60

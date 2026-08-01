@@ -1,17 +1,26 @@
 """ATP Tour - https://www.atptour.com/en/news
-No desc/date on listing. Must visit each article for meta description + ld+json date."""
+No desc/date on listing. Must visit each article for meta description + ld+json date.
+
+Sits behind a Cloudflare managed challenge that serves a 403 interstitial before
+the real page. Without waiting for that to clear, `.atp_card` matches nothing and
+the source reports "0 articles" as if the site had simply changed layout."""
 
 NAME = "ATP Tour"
 URL = "https://www.atptour.com/en/news"
 BASE = "https://www.atptour.com"
 
+CARD_SELECTOR = ".atp_card"
 
+
+from scrapers.cloudflare import wait_for_challenge
 from scrapers.utils import log_progress, log_done
 
 
 async def scrape(page) -> list[dict]:
     await page.goto(URL, wait_until="domcontentloaded", timeout=30000)
-    await page.wait_for_timeout(3000)
+    if not await wait_for_challenge(page, CARD_SELECTOR, timeout_s=75,
+                                    log=lambda m: print(f"\n    [ATP]{m}")):
+        raise RuntimeError("ATP Tour: never got past the Cloudflare challenge")
 
     links = await page.evaluate("""() => {
         const articles = [];

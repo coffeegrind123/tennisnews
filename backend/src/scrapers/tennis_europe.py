@@ -1,29 +1,61 @@
 """Tennis Europe - https://www.tenniseurope.org/newslist/News
-Cookie consent required. Desc in .newsabstract p, date in .post span.date."""
+
+Hard cookie wall: the news URL 302s to /cookies/?returnurl=... until consent is
+stored, so nothing can be read until a consent button is clicked. The consent
+buttons are ASP.NET submits identified by class (js-accept-basic /
+js-select-all-save), not by a stable label -- the visible text is "Yes, I accept",
+which a text match for "accept" only catches by luck and which changes with the
+site's language.
+
+Desc in .newsabstract p, date in .post span.date. A second, denser list at the
+bottom of the page is a table of "DD/MM/YYYY - Title" rows.
+"""
 
 URL = "https://www.tenniseurope.org/newslist/News"
 BASE = "https://www.tenniseurope.org"
 
+# The ASP.NET backend is slow and the consent redirect adds a second round trip.
+NAV_TIMEOUT_MS = 60000
+
+CONSENT_SELECTORS = (
+    "button.js-accept-basic",
+    "button.js-select-all-save",
+    "button.js-save",
+)
+
+
+async def _accept_cookies(page) -> bool:
+    """Returns True if we ended up on the news page rather than the cookie wall."""
+    if "/cookies" not in page.url:
+        return True
+    for sel in CONSENT_SELECTORS:
+        try:
+            loc = page.locator(sel)
+            if await loc.count() == 0:
+                continue
+            await loc.first.click(timeout=8000)
+            await page.wait_for_timeout(2500)
+            if "/cookies" not in page.url:
+                return True
+        except Exception:
+            continue
+    # Consent stored but no redirect back: go to the news list directly.
+    await page.goto(URL, wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
+    await page.wait_for_timeout(2000)
+    return "/cookies" not in page.url
+
 
 async def scrape(page) -> list[dict]:
-    try:
-        await page.goto(URL, wait_until="domcontentloaded", timeout=20000)
-        await page.wait_for_timeout(2000)
+    await page.goto(URL, wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
+    await page.wait_for_timeout(2000)
 
-        try:
-            btn = page.locator("button", has_text="accept")
-            if await btn.count() > 0:
-                await btn.first.click()
-                await page.wait_for_timeout(3000)
-            else:
-                btn2 = page.locator("button", has_text="Select all and save")
-                if await btn2.count() > 0:
-                    await btn2.first.click()
-                    await page.wait_for_timeout(3000)
-        except Exception:
-            pass
+    if not await _accept_cookies(page):
+        raise RuntimeError(
+            f"Tennis Europe: stuck on the cookie wall at {page.url} - none of "
+            f"{CONSENT_SELECTORS} produced a redirect back to the news list"
+        )
 
-        return await page.evaluate("""() => {
+    return await page.evaluate("""() => {
             const articles = [];
             const seen = new Set();
             document.querySelectorAll('.post').forEach(el => {
@@ -62,5 +94,3 @@ async def scrape(page) -> list[dict]:
             }
             return articles.slice(0, 25);
         }""")
-    except Exception:
-        return []

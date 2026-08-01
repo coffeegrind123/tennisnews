@@ -1,10 +1,17 @@
 """DuckDuckGo News - aggregator covering Reuters, NYT, NBC, BBC, Yahoo etc.
 
-Bootstrap: GET https://duckduckgo.com/?q=...&iar=news → page contains vqd token
-Fetch:     GET https://duckduckgo.com/news.js?...&vqd=...&df=d → JSON results
-df=d restricts to last 24h. Multi-query iteration broadens coverage.
+The old implementation lifted a `vqd` token off the bootstrap page and called the
+internal `/news.js` JSON endpoint. The token is still there, but the endpoint now
+answers 403 ("If this error persists, please let us know: ops@duckduckgo.com"),
+so every query fell into a bare `except: continue` and the source reported zero
+without ever saying why.
+
+The rendered results are still fully present in the DOM, so read those instead.
+DuckDuckGo ships build-hashed class names, so nothing here keys off a class:
+results are `<article>` elements (excluding the outer wrapper article) that hold
+an `h2` plus an outbound link, the source name is the span next to the favicon
+served from /ip3/, and the element after the h2 holds "<relative date><excerpt>".
 """
-from datetime import datetime, timezone
 from urllib.parse import quote_plus
 
 QUERIES = [
@@ -15,58 +22,81 @@ QUERIES = [
     "Grand Slam tennis",
 ]
 
-NEWS_JS_TMPL = (
-    "/news.js?l=us-en&o=json&noamp=1&q={q}&df=d&vqd={vqd}&p=-1"
-)
+EXTRACT_JS = r"""() => {
+    const out = [];
+    const arts = [...document.querySelectorAll('article')].filter(a =>
+        !a.querySelector('article') &&           // skip the page-level wrapper
+        a.querySelector('h2') &&
+        a.querySelector('a[href^="http"]'));
+
+    for (const a of arts) {
+        const h2 = a.querySelector('h2');
+        const link = a.querySelector('a[href^="http"]');
+        const title = h2.textContent.trim();
+        const href = link.getAttribute('href') || '';
+        if (!title || title.length < 10 || !href) continue;
+
+        let source = '';
+        const fav = a.querySelector('img[src*="/ip3/"]');
+        if (fav && fav.nextElementSibling) source = fav.nextElementSibling.textContent.trim();
+
+        let date = '';
+        let excerpt = '';
+        const body = h2.nextElementSibling;
+        if (body) {
+            const text = body.textContent.trim();
+            // "2 days agoJuly 31 (Reuters) - ..." / "5 hours agoThe ..."
+            const m = text.match(/^(\d+\s+(?:second|minute|hour|day|week|month)s?\s+ago|yesterday|today)/i);
+            if (m) {
+                date = m[1];
+                excerpt = text.slice(m[0].length).trim();
+            } else {
+                excerpt = text;
+            }
+        }
+        out.push({title: title, link: href, source: source, date: date, excerpt: excerpt.slice(0, 500)});
+    }
+    return out;
+}"""
 
 
 async def scrape(page) -> list[dict]:
     articles = []
     seen = set()
+    errors = []
+
     for q in QUERIES:
+        url = f"https://duckduckgo.com/?q={quote_plus(q)}&iar=news&ia=news&df=d"
         try:
-            await page.goto(
-                f"https://duckduckgo.com/?q={quote_plus(q)}&iar=news&ia=news&df=d",
-                wait_until="domcontentloaded",
-                timeout=20000,
-            )
-            vqd = await page.evaluate(
-                "() => { const m = document.documentElement.outerHTML.match(/vqd=([^\"&\\s]+)/); return m ? m[1] : null; }"
-            )
-            if not vqd:
-                continue
-            url = NEWS_JS_TMPL.format(q=quote_plus(q), vqd=vqd)
-            data = await page.evaluate(
-                "async (u) => { const r = await fetch(u, { headers: { 'X-Requested-With': 'XMLHttpRequest' } }); return await r.json(); }",
-                url,
-            )
-            if not isinstance(data, dict):
-                continue
-            for r in data.get("results") or []:
-                link = r.get("url") or ""
-                if not link or link in seen:
-                    continue
-                seen.add(link)
-                ts = r.get("date") or 0
-                date_str = ""
-                if ts:
-                    try:
-                        date_str = (
-                            datetime.fromtimestamp(int(ts), tz=timezone.utc)
-                            .strftime("%a, %d %b %Y %H:%M:%S %z")
-                        )
-                    except Exception:
-                        pass
-                src = (r.get("source") or "").strip()
-                title = (r.get("title") or "").strip()
-                excerpt = (r.get("excerpt") or "").strip()
-                articles.append({
-                    "title": title,
-                    "description": excerpt,
-                    "link": link,
-                    "date": date_str,
-                    "source_name": f"DDG/{src}" if src else "DuckDuckGo News",
-                })
-        except Exception:
+            await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            await page.wait_for_selector("article h2", timeout=20000)
+            await page.wait_for_timeout(1500)
+            results = await page.evaluate(EXTRACT_JS)
+        except Exception as e:
+            errors.append(f"{q}: {type(e).__name__}: {str(e)[:90]}")
             continue
+
+        if not results:
+            errors.append(f"{q}: page loaded but matched 0 result articles")
+        for r in results:
+            link = r["link"]
+            if link in seen:
+                continue
+            seen.add(link)
+            src = r["source"].strip()
+            articles.append({
+                "title": r["title"],
+                "description": r["excerpt"],
+                "link": link,
+                "date": r["date"],
+                "source_name": f"DDG/{src}" if src else "DuckDuckGo News",
+            })
+
+    if not articles:
+        raise RuntimeError(
+            "DuckDuckGo News returned nothing for any query. "
+            + (" | ".join(errors) if errors else "no errors reported - selector drift?")
+        )
+    if errors:
+        print(f"\n      [DDG] {len(errors)}/{len(QUERIES)} queries failed: {'; '.join(errors)}")
     return articles

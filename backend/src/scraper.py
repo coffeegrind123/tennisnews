@@ -39,6 +39,15 @@ CAMOUFOX_BIN = (
 
 DEFAULT_HTTP_PROXY = os.environ.get("SCRAPER_HTTP_PROXY")
 
+# Per-run source health. Written to data/health.json and used to decide the exit
+# code, so a run that quietly collects nothing fails the job instead of going green.
+HEALTH: dict = {
+    "browser_ok": False,
+    "browser_error": "",
+    "sources": {},
+    "twitter": {"tweets": 0, "accounts": 0, "error": "not run"},
+}
+
 
 def parse_proxy_url(proxy_url: str) -> dict | None:
     try:
@@ -70,11 +79,30 @@ def to_helsinki(dt_str: str) -> str:
         return ""
     s = dt_str.strip()
 
-    # Handle relative dates: "3 DAYS AGO", "2 DAYS AGO"
-    rel = re.match(r"(\d+)\s+DAYS?\s+AGO", s, re.IGNORECASE)
+    # Relative dates: "3 days ago", "2 hours ago", "Yesterday", "Today"
+    now_local = datetime.now(HELSINKI_TZ)
+    rel = re.match(r"(\d+)\s+(minute|hour|day|week|month)s?\s+ago", s, re.IGNORECASE)
     if rel:
-        dt = datetime.now(HELSINKI_TZ) - timedelta(days=int(rel.group(1)))
-        return dt.strftime("%Y-%m-%d %H:%M %Z")
+        n = int(rel.group(1))
+        unit = rel.group(2).lower()
+        delta = {
+            "minute": timedelta(minutes=n),
+            "hour": timedelta(hours=n),
+            "day": timedelta(days=n),
+            "week": timedelta(weeks=n),
+            "month": timedelta(days=30 * n),
+        }[unit]
+        return (now_local - delta).strftime("%Y-%m-%d %H:%M %Z")
+    if re.match(r"^yesterday\b", s, re.IGNORECASE):
+        return (now_local - timedelta(days=1)).strftime("%Y-%m-%d %H:%M %Z")
+    if re.match(r"^(today|just now)\b", s, re.IGNORECASE):
+        return now_local.strftime("%Y-%m-%d %H:%M %Z")
+    # Nitter's short form on recent tweets: "2h", "45m", "3d"
+    short = re.match(r"^(\d+)([mhd])$", s)
+    if short:
+        n = int(short.group(1))
+        delta = {"m": timedelta(minutes=n), "h": timedelta(hours=n), "d": timedelta(days=n)}[short.group(2)]
+        return (now_local - delta).strftime("%Y-%m-%d %H:%M %Z")
 
     # Twitter/xcancel: "Mar 23, 2026 · 8:15 AM UTC" -> "Mar 23, 2026 8:15 AM UTC"
     s = re.sub(r"\s*·\s*", " ", s)
@@ -178,9 +206,11 @@ async def fetch_rss(site: dict) -> list[dict]:
                 "source_url": site["url"],
                 "date": parse_date(entry),
             })
+        HEALTH["sources"][name] = {"type": "rss", "count": len(articles), "error": ""}
         print(f"  [RSS] {name}: {len(articles)} articles")
         return articles
     except Exception as e:
+        HEALTH["sources"][name] = {"type": "rss", "count": 0, "error": str(e)[:200]}
         print(f"  [RSS] {name}: ERROR - {e}")
         return []
 
@@ -204,9 +234,11 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
                 "source_url": site["url"],
                 "date": to_helsinki(item.get("date", "")),
             })
+        HEALTH["sources"][name] = {"type": "scrape", "count": len(articles), "error": ""}
         print(f"{len(articles)} articles")
         return articles
     except Exception as e:
+        HEALTH["sources"][name] = {"type": "scrape", "count": 0, "error": str(e)[:200]}
         print(f"ERROR - {e}")
         return []
 
@@ -217,13 +249,15 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
 
     camoufox_path = str(CAMOUFOX_BIN) if CAMOUFOX_BIN.exists() else None
     if not camoufox_path:
-        print("[WARN] camoufox binary not found, skipping scrape sites")
+        HEALTH["browser_error"] = f"camoufox binary not found at {CAMOUFOX_BIN}"
+        print(f"[FATAL] {HEALTH['browser_error']}")
         return [], []
 
     try:
         from camoufox.async_api import AsyncCamoufox
-    except ImportError:
-        print("[WARN] camoufox not installed, skipping scrape sites")
+    except ImportError as e:
+        HEALTH["browser_error"] = f"camoufox not importable: {e}"
+        print(f"[FATAL] {HEALTH['browser_error']}")
         return [], []
 
     proxy_config = parse_proxy_url(DEFAULT_HTTP_PROXY) if DEFAULT_HTTP_PROXY else None
@@ -242,6 +276,7 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
     total = len(scrape_sites)
     try:
         async with AsyncCamoufox(**kwargs) as browser:
+            HEALTH["browser_ok"] = True
             page = await browser.new_page()
             for idx, site in enumerate(scrape_sites, 1):
                 print(f"  [{idx}/{total}] {site['name']}...", end=" ")
@@ -249,6 +284,7 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
                     articles = await scrape_site_with_module(page, site)
                     all_articles.extend(articles)
                 except Exception as e:
+                    HEALTH["sources"][site["name"]] = {"count": 0, "error": str(e)[:200]}
                     print(f"FAILED - {e}")
 
             # Scrape Twitter feeds
@@ -258,13 +294,20 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
                 twitter_tweets = await scrape_twitter(page)
                 for tw in twitter_tweets:
                     tw["date"] = to_helsinki(tw.get("date", ""))
+                HEALTH["twitter"] = {
+                    "tweets": len(twitter_tweets),
+                    "accounts": len(set(t.get("handle", "") for t in twitter_tweets)),
+                    "error": "",
+                }
                 print(f"  [TWITTER] Total: {len(twitter_tweets)} tweets")
             except Exception as e:
+                HEALTH["twitter"] = {"tweets": 0, "accounts": 0, "error": str(e)[:300]}
                 print(f"  [TWITTER] ERROR - {e}")
 
             await page.close()
     except Exception as e:
-        print(f"[ERROR] camoufox session failed: {e}")
+        HEALTH["browser_error"] = f"{type(e).__name__}: {e}"
+        print(f"[FATAL] camoufox session failed: {HEALTH['browser_error']}")
 
     return all_articles, twitter_tweets
 
@@ -353,13 +396,21 @@ async def run():
 
     all_articles = rss_articles + scrape_articles
 
-    seen = set()
+    # Dedup on title AND link: the same story often appears twice on one listing
+    # (e.g. a "featured" block plus the chronological list) under two different
+    # headlines, which a title-only key lets through.
+    seen_titles = set()
+    seen_links = set()
     unique = []
     for a in all_articles:
-        key = re.sub(r"\W+", "", a["title"].lower())[:60]
-        if key not in seen:
-            seen.add(key)
-            unique.append(a)
+        title_key = re.sub(r"\W+", "", a["title"].lower())[:60]
+        link_key = a.get("link", "").split("#")[0].rstrip("/")
+        if title_key in seen_titles or (link_key and link_key in seen_links):
+            continue
+        seen_titles.add(title_key)
+        if link_key:
+            seen_links.add(link_key)
+        unique.append(a)
 
     def sort_key(a):
         d = a.get("date", "")
@@ -389,6 +440,44 @@ async def run():
     print(f"  Tweets: {tweets_path}")
     print(f"  HTML: {PUBLIC_DIR / 'index.html'}")
 
+    return report_health(scrape_sites, len(scrape_articles))
+
+
+def report_health(scrape_sites: list[dict], scrape_article_count: int) -> int:
+    """Write data/health.json and return the process exit code.
+
+    A run where the browser never started, or where every browser-scraped source
+    came back empty, is a FAILURE even though the RSS half still produced JSON.
+    Reporting that as success is what let this rot undetected for months.
+    """
+    HEALTH["generated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    empty = sorted(n for n, v in HEALTH["sources"].items() if v.get("count", 0) == 0)
+    HEALTH["empty_sources"] = empty
+    (DATA_DIR / "health.json").write_text(
+        json.dumps(HEALTH, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    fatal = []
+    if scrape_sites and not HEALTH["browser_ok"]:
+        fatal.append(f"browser never started: {HEALTH['browser_error'] or 'unknown'}")
+    elif scrape_sites and scrape_article_count == 0:
+        fatal.append(f"all {len(scrape_sites)} browser-scraped sources returned 0 articles")
+    if HEALTH["twitter"].get("tweets", 0) == 0:
+        fatal.append(f"twitter returned 0 tweets: {HEALTH['twitter'].get('error') or 'no error reported'}")
+
+    print("\n--- source health ---")
+    print(f"  browser_ok={HEALTH['browser_ok']} twitter_tweets={HEALTH['twitter'].get('tweets', 0)}")
+    if empty:
+        print(f"  {len(empty)} source(s) returned 0 articles: {', '.join(empty)}")
+
+    if fatal:
+        for f in fatal:
+            print(f"[FAIL] {f}")
+        return 1
+    print("  all checks passed")
+    return 0
+
 
 if __name__ == "__main__":
-    asyncio.run(run())
+    sys.exit(asyncio.run(run()))

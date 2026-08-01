@@ -1,15 +1,22 @@
 """Rafael Nadal Fans - https://rafaelnadalfans.com/ (WordPress)
 Listing: date in time[datetime]. No desc on listing.
-Article: og:description (NOT name=description), article:published_time."""
+Article: og:description (NOT name=description), article:published_time.
+
+The host is slow and rate limits aggressively (plain HTTP clients get 429). A
+30s navigation budget was marginal - the listing regularly takes 30-45s - so the
+whole source intermittently failed with a bare goto timeout."""
 
 URL = "https://rafaelnadalfans.com/"
+
+LISTING_TIMEOUT_MS = 60000
+ARTICLE_TIMEOUT_MS = 20000
 
 
 from scrapers.utils import log_progress, log_done
 
 
 async def scrape(page) -> list[dict]:
-    await page.goto(URL, wait_until="domcontentloaded", timeout=30000)
+    await page.goto(URL, wait_until="domcontentloaded", timeout=LISTING_TIMEOUT_MS)
     await page.wait_for_timeout(3000)
 
     links = await page.evaluate("""() => {
@@ -33,7 +40,7 @@ async def scrape(page) -> list[dict]:
     for idx, item in enumerate(links, 1):
         log_progress(idx, len(links))
         try:
-            await page.goto(item["link"], wait_until="domcontentloaded", timeout=12000)
+            await page.goto(item["link"], wait_until="domcontentloaded", timeout=ARTICLE_TIMEOUT_MS)
             await page.wait_for_timeout(1500)
             desc = await page.evaluate("""() => {
                 var m = document.querySelector('meta[property="og:description"]');

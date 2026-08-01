@@ -45,13 +45,32 @@ async def scrape(page) -> list[dict]:
             meta = await page.evaluate("""() => {
                 var date = '';
                 var desc = '';
-                // Date from visible text
-                var els = document.querySelectorAll('[class*="date"], [class*="Date"]');
-                for (var i = 0; i < els.length; i++) {
-                    var t = els[i].textContent.trim().replace(/^Published\\s*/i, '');
-                    if (t.match(/\\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\b/i)) { date = t; break; }
+                // Prefer machine-readable ISO timestamps. The visible text is
+                // "Published June 08, 2026" and the old abbreviated-month regex
+                // (\\bJun\\b) never matched a full month name, so every article
+                // came back dateless.
+                var pt = document.querySelector('meta[property="article:published_time"]');
+                if (pt) date = pt.getAttribute('content') || '';
+                if (!date) {
+                    var t = document.querySelector('time[datetime]');
+                    if (t) date = t.getAttribute('datetime') || '';
                 }
-                // Desc from meta
+                if (!date) {
+                    var ld = document.querySelector('script[type="application/ld+json"]');
+                    if (ld) {
+                        try {
+                            var j = JSON.parse(ld.textContent);
+                            date = j.datePublished || j.dateCreated || '';
+                        } catch (e) {}
+                    }
+                }
+                if (!date) {
+                    var els = document.querySelectorAll('[class*="date"], [class*="Date"]');
+                    for (var i = 0; i < els.length; i++) {
+                        var txt = els[i].textContent.trim().replace(/^Published\\s*/i, '');
+                        if (txt.match(/\\d{4}/)) { date = txt; break; }
+                    }
+                }
                 var m = document.querySelector('meta[name="description"]');
                 if (m) desc = m.getAttribute('content') || '';
                 return {date: date, desc: desc.substring(0, 500)};

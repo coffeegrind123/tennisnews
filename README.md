@@ -1,6 +1,6 @@
 # Tennis News Aggregator
 
-Simple tennis news feed that scrapes ~37 sites and serves a plain HTML page designed for LLM consumption. Includes a curated Twitter feed section from 12 tennis-focused accounts.
+Simple tennis news feed that scrapes 39 sites and serves a plain HTML page designed for LLM consumption. Includes a curated Twitter feed section from 12 tennis-focused accounts.
 
 ## Setup
 
@@ -46,8 +46,22 @@ PORT=3000 ./run.sh
 
 ## Sources
 
-37 tennis news sites from [Feedspot Top 40](https://news.feedspot.com/tennis_news_websites/):
-- 12 via RSS feeds (feedparser)
-- 25 via browser scraping (camoufox) with per-site tailored modules
+39 tennis news sites, defined in `backend/src/sites.py`:
+- 18 via RSS feeds (feedparser)
+- 21 via browser scraping (camoufox) with per-site tailored modules
 
-12 curated Twitter accounts scraped via xcancel.com proxy.
+12 curated Twitter accounts scraped via Nitter. The primary instance is
+`lightbrd.com`; it sits behind a Cloudflare managed challenge, which
+`scrapers/cloudflare.py` waits out (and clicks through, when a Turnstile widget
+is actually rendered). If an instance cannot be cleared the scraper falls through
+an ordered list of alternatives rather than silently reporting zero tweets.
+Override the order with `NITTER_BASES=https://a,https://b`.
+
+## Health
+
+`scraper.py` writes `data/health.json` every run (per-source article counts,
+errors, which sources came back empty) and **exits non-zero** if the browser
+never started, if every browser-scraped source was empty, or if Twitter produced
+no tweets. The CI job publishes whatever it collected and then fails on that
+signal, so a broken scrape shows up as a red run instead of a quietly shrinking
+feed.

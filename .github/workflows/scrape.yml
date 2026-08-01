@@ -46,11 +46,8 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r backend/requirements.txt
 
-      - name: Link camoufox binary to pip cache
-        run: |
-          CACHE_DIR=$(python -c "from platformdirs import user_cache_dir; print(user_cache_dir('camoufox'))")
-          rm -rf "$CACHE_DIR"
-          ln -s "$(pwd)/backend/camoufox_build" "$CACHE_DIR"
+      - name: Register camoufox build with the camoufox library
+        run: python backend/setup_camoufox.py
 
       - name: Mask proxy components
         if: env.UPSTREAM_PROXY != ''
@@ -62,9 +59,13 @@ jobs:
         env:
           UPSTREAM_PROXY: ${{ secrets.UPSTREAM_PROXY }}
 
+      # continue-on-error so a bad scrape still publishes whatever it did collect;
+      # the health gate at the end of the job turns the run red.
       - name: Run scraper
+        id: scrape
+        continue-on-error: true
         working-directory: backend/src
-        run: python scraper.py 2>&1 | head -500
+        run: python scraper.py
         timeout-minutes: 20
         env:
           SCRAPER_HTTP_PROXY: ${{ secrets.UPSTREAM_PROXY }}
@@ -82,8 +83,18 @@ jobs:
         with:
           path: public/
 
+      - name: Health gate
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "::error::Scraper reported unhealthy sources - see data/health.json below"
+          cat data/health.json || echo "(no health.json written)"
+          exit 1
+
   deploy:
     needs: scrape
+    # A failed health gate still leaves a valid (if incomplete) artifact, so keep
+    # publishing rather than letting the site go stale on top of a red run.
+    if: always() && needs.scrape.result != 'cancelled' && needs.scrape.result != 'skipped'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

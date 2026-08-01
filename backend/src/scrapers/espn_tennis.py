@@ -1,5 +1,9 @@
 """ESPN Tennis - https://www.espn.com/tennis/
-Desc in .contentItem__subhead on listing. Date from article meta DC.date.issued."""
+Desc in .contentItem__subhead on listing. Date from article meta DC.date.issued.
+
+The page carries ESPN-wide nav, promos and "more sports" rails, so a bare
+a[href*="/story/"] match pulled in NFL/NBA content ("NFL depth charts for all 32
+teams") and published it as tennis news. Only /tennis/story/ URLs count."""
 
 URL = "https://www.espn.com/tennis/"
 
@@ -14,9 +18,13 @@ async def scrape(page) -> list[dict]:
     links = await page.evaluate("""() => {
         const articles = [];
         const seen = new Set();
-        document.querySelectorAll('a[href*="/story/"]').forEach(a => {
+        document.querySelectorAll('a[href*="/tennis/story/"]').forEach(a => {
             const href = a.getAttribute('href') || '';
             if (!href || seen.has(href)) return;
+            // Guard against absolute links to other sports that happen to
+            // contain the substring, and against /tennis/story/ appearing
+            // inside a query string.
+            if (!/^(https:\\/\\/www\\.espn\\.com)?\\/tennis\\/story\\//.test(href)) return;
             seen.add(href);
             const title = a.textContent.trim();
             if (!title || title.length < 10) return;
