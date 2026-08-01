@@ -1,15 +1,22 @@
 """Twitter/X tennis feed scraper via Nitter.
 
-Primary instance is lightbrd.com. It sits behind a Cloudflare managed challenge,
-so the instance is health-checked once (paying the interstitial cost a single
-time -- the clearance cookie then covers every account in the same context) and
-only if it cannot be cleared do we fall back to another instance.
+Primary instance is lightbrd.com, which sits behind a Cloudflare managed
+challenge. The FF152 camoufox build clears it; FF146 could not.
 
-The fallbacks are not a "simpler alternative" to lightbrd: Nitter instances die,
-get rate limited, and turn their anti-bot settings up without warning, and a
-feed that silently drops to zero tweets is exactly the failure mode this repo
-already suffered for months. Instance choice is reported in the output so it is
-always visible which one served the data.
+Instances are walked in order and accounts are carried between them: whatever an
+instance cannot serve is retried on the next one, so a partial failure costs
+those profiles rather than the whole feed. Two distinct failure modes are handled
+separately because they need opposite responses:
+
+  * interstitial not cleared -> a property of that request; try the next account
+  * Cloudflare error 1015    -> a property of the INSTANCE; abandon it at once
+                                and carry the remaining accounts elsewhere
+
+That second case is not hypothetical. Clearing lightbrd's challenge is what
+exposed it: lightbrd serves roughly three profiles then rate limits, so the run
+that finally "won" the challenge collected FEWER tweets (15) than one that fell
+back to an unchallenged instance (55). Requests are paced to stay under that
+limit rather than sprinting into it.
 
 Override the instance order with NITTER_BASES (comma separated).
 """
@@ -60,6 +67,9 @@ CHALLENGE_TIMEOUT_S = int(os.environ.get("NITTER_CHALLENGE_TIMEOUT", "75"))
 # Subsequent loads ride the clearance cookie and should be quick; a long wait
 # here just multiplies across 14 accounts.
 ACCOUNT_TIMEOUT_S = int(os.environ.get("NITTER_ACCOUNT_TIMEOUT", "25"))
+# Pause between profile loads. lightbrd starts returning Cloudflare 1015 after
+# roughly three back-to-back requests, so pacing is what keeps an instance alive.
+ACCOUNT_DELAY_MS = int(os.environ.get("NITTER_ACCOUNT_DELAY_MS", "4000"))
 
 EXTRACT_JS = """(max) => {
     var out = [];
@@ -85,9 +95,27 @@ EXTRACT_JS = """(max) => {
 }"""
 
 
+class RateLimited(Exception):
+    """The instance served Cloudflare error 1015 (or equivalent) for this request."""
+
+
+async def _is_rate_limited(page) -> bool:
+    state = await page.evaluate("""() => ({
+        title: document.title || '',
+        body: (document.body ? document.body.innerText : '').slice(0, 300),
+    })""")
+    blob = f"{state['title']} {state['body']}".lower()
+    return "error 1015" in blob or "you are being rate limited" in blob
+
+
 async def _load_timeline(page, base: str, handle: str, timeout_s: int) -> list[dict] | None:
     """Load one profile. Returns the raw tweet dicts, or None if the page never
-    got past its interstitial / never rendered a timeline."""
+    got past its interstitial / never rendered a timeline.
+
+    Raises RateLimited when the instance is throttling us, which is a property of
+    the INSTANCE rather than the account and so must abort the whole instance
+    instead of being retried per handle.
+    """
     url = f"{base}/{handle}"
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
@@ -95,63 +123,96 @@ async def _load_timeline(page, base: str, handle: str, timeout_s: int) -> list[d
         print(f"    [TWITTER] {url}: goto failed - {type(e).__name__}: {str(e)[:110]}")
         return None
 
+    if await _is_rate_limited(page):
+        raise RateLimited(f"{base} returned Cloudflare 1015 for @{handle}")
+
     def log(msg):
         print(msg)
 
     ok = await wait_for_challenge(page, TIMELINE_SELECTOR, timeout_s=timeout_s, log=log)
     if not ok:
+        if await _is_rate_limited(page):
+            raise RateLimited(f"{base} returned Cloudflare 1015 for @{handle}")
         return None
     return await page.evaluate(EXTRACT_JS, MAX_TWEETS_PER_ACCOUNT)
 
 
-async def _pick_instance(page) -> str | None:
-    """Return the first instance that actually serves a timeline."""
-    for base in BASES:
-        print(f"    [TWITTER] probing instance {base} ...")
-        tweets = await _load_timeline(page, base, PROBE_HANDLE, CHALLENGE_TIMEOUT_S)
-        if tweets:
-            print(f"    [TWITTER] using {base} ({len(tweets)} tweets on probe)")
-            return base
-        print(f"    [TWITTER] {base} unusable, trying next")
-    return None
+
+
+
+
+def _to_records(tweets, account, base):
+    out = []
+    for t in tweets:
+        handle = account["handle"]
+        link = f"{base}{t['link']}" if t["link"] else f"https://x.com/{handle}"
+        out.append({
+            "title": t["text"],
+            "description": "",
+            "link": link,
+            "handle": handle,
+            "author": account["name"],
+            "outlet": account["outlet"],
+            "date": t["date"],
+            "is_retweet": t.get("is_retweet", False),
+        })
+    return out
 
 
 async def scrape(page) -> list[dict]:
-    base = await _pick_instance(page)
-    if not base:
-        raise RuntimeError(
-            f"no usable Nitter instance among {BASES} - every one failed its "
-            f"interstitial or served an empty timeline"
-        )
-
     all_tweets = []
-    failed = []
+    done = set()
+    tried_instances = []
 
-    for account in ACCOUNTS:
-        handle = account["handle"]
-        tweets = await _load_timeline(page, base, handle, ACCOUNT_TIMEOUT_S)
+    # Instances are tried in order, and an instance that starts rate limiting is
+    # abandoned mid-run with the REMAINING accounts carried to the next one.
+    # Clearing lightbrd's Cloudflare challenge is what exposed this: it serves
+    # about three profiles then returns error 1015 for the rest, so a run that
+    # "won" the challenge collected fewer tweets (15) than one that fell back to
+    # an unchallenged instance (55).
+    for base in BASES:
+        remaining = [a for a in ACCOUNTS if a["handle"] not in done]
+        if not remaining:
+            break
+        tried_instances.append(base)
+        print(f"    [TWITTER] instance {base}: {len(remaining)} account(s) to fetch")
 
-        if tweets is None:
-            failed.append(handle)
-            print(f"    [TWITTER] @{handle}: no timeline rendered")
-            continue
+        rate_limited = False
+        for i, account in enumerate(remaining):
+            handle = account["handle"]
+            try:
+                tweets = await _load_timeline(page, base, handle, ACCOUNT_TIMEOUT_S)
+            except RateLimited as e:
+                print(f"    [TWITTER] {e} - abandoning this instance, "
+                      f"{len(remaining) - i} account(s) carried over")
+                rate_limited = True
+                break
 
-        for t in tweets:
-            link = f"{base}{t['link']}" if t["link"] else f"https://x.com/{handle}"
-            all_tweets.append({
-                "title": t["text"],
-                "description": "",
-                "link": link,
-                "handle": handle,
-                "author": account["name"],
-                "outlet": account["outlet"],
-                "date": t["date"],
-                "is_retweet": t.get("is_retweet", False),
-            })
-        print(f"    [TWITTER] @{handle}: {len(tweets)} tweets")
+            if tweets is None:
+                print(f"    [TWITTER] @{handle}: no timeline rendered")
+                continue
 
-    if failed:
-        print(f"    [TWITTER] {len(failed)}/{len(ACCOUNTS)} accounts returned nothing: "
-              f"{', '.join(failed)}")
-    print(f"    [TWITTER] instance={base} total={len(all_tweets)}")
+            all_tweets.extend(_to_records(tweets, account, base))
+            done.add(handle)
+            print(f"    [TWITTER] @{handle}: {len(tweets)} tweets ({base.split('//')[1]})")
+
+            # Pace requests: hammering 12 profiles back to back is what triggers
+            # the 1015 in the first place.
+            if i < len(remaining) - 1:
+                await page.wait_for_timeout(ACCOUNT_DELAY_MS)
+
+        if not rate_limited and len(done) == len(ACCOUNTS):
+            break
+
+    missing = [a["handle"] for a in ACCOUNTS if a["handle"] not in done]
+    if missing:
+        print(f"    [TWITTER] {len(missing)}/{len(ACCOUNTS)} accounts returned nothing: "
+              f"{', '.join(missing)}")
+    if not all_tweets:
+        raise RuntimeError(
+            f"no tweets from any instance (tried {tried_instances}) - every one "
+            f"failed its interstitial, rate limited us, or served empty timelines"
+        )
+    print(f"    [TWITTER] instances used={tried_instances} total={len(all_tweets)} "
+          f"accounts={len(done)}/{len(ACCOUNTS)}")
     return all_tweets

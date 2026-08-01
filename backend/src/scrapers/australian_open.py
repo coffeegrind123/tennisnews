@@ -5,12 +5,16 @@ Article: meta[name=description]. No article:published_time. Time text on page.""
 URL = "https://ausopen.com/news"
 BASE = "https://ausopen.com"
 
+# The listing is slow and got slower behind a proxy; 30s was marginal and the
+# source intermittently failed with a bare goto timeout.
+NAV_TIMEOUT_MS = 60000
+
 
 from scrapers.utils import log_progress, log_done
 
 
 async def scrape(page) -> list[dict]:
-    await page.goto(URL, wait_until="domcontentloaded", timeout=30000)
+    await page.goto(URL, wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
     await page.wait_for_timeout(4000)
 
     links = await page.evaluate("""() => {

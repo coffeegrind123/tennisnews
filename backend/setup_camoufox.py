@@ -23,7 +23,10 @@ import shutil
 import sys
 from pathlib import Path
 
-REPO_NAME = "coffeegrind123"
+# Directory name under <cache>/browsers/. camoufox's repos.yml defines the known
+# repos (Official, CoryKing, JWriter20); matching the name keeps this layout
+# consistent with what `camoufox fetch` would produce for the same build.
+REPO_NAME = os.environ.get("CAMOUFOX_REPO_NAME", "jwriter20")
 
 
 def main() -> int:
@@ -34,9 +37,28 @@ def main() -> int:
     if not binary.exists():
         print(f"ERROR: no camoufox-bin at {binary}", file=sys.stderr)
         return 1
+
+    # Not every release ships version.json - the JWriter20 FF152 build does not -
+    # but camoufox's resolver requires it. application.ini always carries the
+    # same information ("Version=152.0.4-beta.28"), so synthesise it from there
+    # rather than failing or hardcoding a version in the workflow.
     if not version_json.exists():
-        print(f"ERROR: no version.json at {version_json}", file=sys.stderr)
-        return 1
+        app_ini = build_dir / "application.ini"
+        if not app_ini.exists():
+            print(f"ERROR: neither version.json nor application.ini in {build_dir}", file=sys.stderr)
+            return 1
+        ver_line = ""
+        for line in app_ini.read_text(errors="replace").splitlines():
+            if line.startswith("Version="):
+                ver_line = line.split("=", 1)[1].strip()
+                break
+        if "-" not in ver_line:
+            print(f"ERROR: cannot parse a version/build from application.ini "
+                  f"(Version={ver_line!r})", file=sys.stderr)
+            return 1
+        version, build = ver_line.split("-", 1)
+        version_json.write_text(json.dumps({"version": version, "release": build}))
+        print(f"synthesised version.json from application.ini: {version}-{build}")
 
     meta = json.loads(version_json.read_text())
     version = meta.get("version", "unknown")
