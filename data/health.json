@@ -2,12 +2,27 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,7 +32,7 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,14 +42,9 @@
       "count": 20,
       "error": ""
     },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Open Court": {
       "type": "rss",
-      "count": 0,
+      "count": 10,
       "error": ""
     },
     "Guardian Tennis": {
@@ -42,37 +52,17 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
-    "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Connected": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -82,153 +72,142 @@
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
+    "Tennis Ireland": {
       "type": "rss",
-      "count": 0,
+      "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 0,
+      "count": 20,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
       "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.atptour.com/en/news\", waiting until \"domcontentloaded\"\n"
+      "error": "ATP Tour: never got past the Cloudflare challenge"
     },
     "Tennis.com": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tennis.com/news\", waiting until \"domcontentloaded\"\n"
+      "count": 12,
+      "error": ""
     },
     "Tennis World USA": {
       "type": "scrape",
       "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tennisworldusa.org/\", waiting until \"domcontentloaded\"\n"
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://tennishead.net/tennis/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tennis.com.au/news-and-events/news-and-features/all-news\", waiting until \"domcontentloaded\"\n"
+      "count": 25,
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://tennis-infinity.com/\", waiting until \"networkidle\"\n"
+      "count": 20,
+      "error": ""
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://ausopen.com/news\", waiting until \"domcontentloaded\"\n"
+      "count": 15,
+      "error": ""
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 12,
+      "error": ""
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.espn.com/tennis/\", waiting until \"domcontentloaded\"\n"
+      "count": 11,
+      "error": ""
     },
     "Novak Djokovic": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://novakdjokovic.com/en/n/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 4,
+      "error": ""
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tenniscanada.com/news\", waiting until \"domcontentloaded\"\n"
+      "count": 12,
+      "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.ustaflorida.com/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 5,
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://rafaelnadalfans.com/\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tennispanorama.com/\", waiting until \"domcontentloaded\"\n"
+      "count": 8,
+      "error": ""
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
+      "count": 10,
       "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 0,
+      "count": 3,
       "error": ""
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 0,
+      "count": 15,
       "error": ""
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tenniseurope.org/newslist/News\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
+      "count": 17,
       "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 0,
-      "error": "DuckDuckGo News returned nothing for any query. tennis: Error: Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://duckduck | ATP tour: Error: Page.goto: NS_ERROR_PROXY_C"
+      "count": 135,
+      "error": ""
     }
   },
   "twitter": {
-    "tweets": 0,
-    "accounts": 0,
-    "error": "no usable Nitter instance among ['https://lightbrd.com', 'https://nitter.privacyredirect.com', 'https://nitter.tiekoetter.com', 'https://nitter.poast.org', 'https://nitter.net'] - every one failed its interstitial or served an empty timeline"
+    "tweets": 55,
+    "accounts": 11,
+    "error": ""
   },
-  "proxy": "configured and reachable",
-  "generated_at": "2026-08-01 19:53:57 UTC",
+  "proxy_error": "URLError: <urlopen error Tunnel connection failed: 407 Proxy Authentication Required>",
+  "proxy": "configured but UNREACHABLE - fell back to direct",
+  "generated_at": "2026-08-01 20:08:01 UTC",
   "empty_sources": [
     "ATP Tour",
-    "Asian Tennis Federation",
-    "Australian Open",
-    "Brisbane International",
-    "DuckDuckGo News",
-    "ESPN Tennis",
-    "Novak Djokovic",
-    "Open Court",
-    "Rafael Nadal Fans",
-    "Swiss Indoors Basel",
-    "Tennis Australia",
-    "Tennis Canada",
-    "Tennis Europe",
-    "Tennis Infinity",
-    "Tennis Now",
-    "Tennis Panorama",
-    "Tennis View Magazine",
-    "Tennis World USA",
-    "Tennis.com",
-    "Tennishead",
-    "US Open",
-    "USTA Florida",
-    "Wimbledon",
-    "Women's Tennis Blog"
+    "Tennis World USA"
   ]
 }
