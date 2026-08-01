@@ -226,11 +226,44 @@ def parse_date(entry) -> str:
     return ""
 
 
+# There is no single user agent these hosts agree on, so rotate rather than
+# pick. Measured, not assumed: most feeds behind a WAF reject feedparser's
+# self-identifying default ("feedparser/6.0.14 +https://github.com/..."), but
+# World Tennis Magazine and 10sBalls do the exact opposite - they serve the
+# feedparser agent and answer a Chrome UA with 403. Trying a browser agent
+# alone made those two worse, not better.
+RSS_USER_AGENTS = [
+    ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"),
+    feedparser.USER_AGENT,
+    "Mozilla/5.0 (compatible; TennisNewsBot/1.0; +https://github.com/coffeegrind123/tennisnews)",
+]
+
+
 async def fetch_rss(site: dict) -> list[dict]:
     feed_url = site["feed_url"]
     name = site["name"]
     try:
-        feed = await asyncio.to_thread(feedparser.parse, feed_url)
+        feed = None
+        tried = []
+        for agent in RSS_USER_AGENTS:
+            feed = await asyncio.to_thread(feedparser.parse, feed_url, agent=agent)
+            if feed.entries:
+                break
+            tried.append(f"{agent.split('/')[0]}:{getattr(feed, 'status', None)}")
+            await asyncio.sleep(1)
+
+        if not feed.entries:
+            status = getattr(feed, "status", None)
+            bozo = getattr(feed, "bozo_exception", None)
+            HEALTH["sources"][name] = {
+                "type": "rss", "count": 0,
+                "error": f"no entries from any user agent ({', '.join(tried)}); "
+                         f"last http={status}, bozo={str(bozo)[:80]}",
+            }
+            print(f"  [RSS] {name}: 0 articles (tried {', '.join(tried)})")
+            return []
+
         articles = []
         for entry in feed.entries[:20]:
             title = strip_html(entry.get("title", ""))
