@@ -64,26 +64,45 @@ def parse_proxy_url(proxy_url: str) -> dict | None:
         return None
 
 
-def proxy_reachable(config: dict, timeout: float = 8.0) -> bool:
-    """TCP-connect to the proxy before handing it to the browser.
+PROXY_PROBE_URL = "https://example.com"
+
+
+def proxy_reachable(config: dict, timeout: float = 15.0) -> bool:
+    """Fetch a URL *through* the proxy before handing it to the browser.
 
     A dead proxy is indistinguishable from a dead internet from inside the
     browser: every goto fails instantly with NS_ERROR_PROXY_CONNECTION_REFUSED,
     which reads as "all 21 sites are broken" rather than "one credential
-    expired". Checking it once up front turns that into a single clear line.
+    expired".
+
+    This deliberately issues a real HTTPS request, which makes the proxy perform
+    a CONNECT with our credentials. A plain TCP connect to host:port is NOT
+    sufficient and gave a false pass in CI: the socket opened, the preflight
+    said "reachable", and every subsequent browser navigation was still refused
+    because the proxy accepts connections but rejects the tunnel.
     """
-    import socket
+    from urllib.request import ProxyHandler, build_opener
 
     server = config.get("server", "")
     parsed = urlparse(server)
-    host, port = parsed.hostname, parsed.port
-    if not host or not port:
+    if not parsed.hostname or not parsed.port:
+        HEALTH["proxy_error"] = f"unparseable proxy server: {server!r}"
         return False
+
+    auth = ""
+    if config.get("username"):
+        auth = f"{config['username']}:{config.get('password', '')}@"
+    proxy_url = f"http://{auth}{parsed.hostname}:{parsed.port}"
+
+    opener = build_opener(ProxyHandler({"http": proxy_url, "https": proxy_url}))
     try:
-        with socket.create_connection((host, port), timeout=timeout):
+        with opener.open(PROXY_PROBE_URL, timeout=timeout) as r:
+            if r.status >= 400:
+                HEALTH["proxy_error"] = f"proxy returned HTTP {r.status} for {PROXY_PROBE_URL}"
+                return False
             return True
     except Exception as e:
-        HEALTH["proxy_error"] = f"{type(e).__name__}: {e}"
+        HEALTH["proxy_error"] = f"{type(e).__name__}: {str(e)[:160]}"
         return False
 
 
