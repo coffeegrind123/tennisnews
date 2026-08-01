@@ -64,6 +64,29 @@ def parse_proxy_url(proxy_url: str) -> dict | None:
         return None
 
 
+def proxy_reachable(config: dict, timeout: float = 8.0) -> bool:
+    """TCP-connect to the proxy before handing it to the browser.
+
+    A dead proxy is indistinguishable from a dead internet from inside the
+    browser: every goto fails instantly with NS_ERROR_PROXY_CONNECTION_REFUSED,
+    which reads as "all 21 sites are broken" rather than "one credential
+    expired". Checking it once up front turns that into a single clear line.
+    """
+    import socket
+
+    server = config.get("server", "")
+    parsed = urlparse(server)
+    host, port = parsed.hostname, parsed.port
+    if not host or not port:
+        return False
+    try:
+        with socket.create_connection((host, port), timeout=timeout):
+            return True
+    except Exception as e:
+        HEALTH["proxy_error"] = f"{type(e).__name__}: {e}"
+        return False
+
+
 def strip_html(text: str) -> str:
     if not text:
         return ""
@@ -261,6 +284,20 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
         return [], []
 
     proxy_config = parse_proxy_url(DEFAULT_HTTP_PROXY) if DEFAULT_HTTP_PROXY else None
+    if proxy_config:
+        if proxy_reachable(proxy_config):
+            HEALTH["proxy"] = "configured and reachable"
+            print(f"  [PROXY] {proxy_config['server']} reachable")
+        else:
+            # Going direct beats scraping nothing at all. Say so loudly: the run
+            # is now using the runner's own IP, which some sites treat worse.
+            HEALTH["proxy"] = "configured but UNREACHABLE - fell back to direct"
+            print(f"  [PROXY] WARNING: {proxy_config['server']} unreachable "
+                  f"({HEALTH.get('proxy_error')}) - falling back to a direct connection")
+            proxy_config = None
+    else:
+        HEALTH["proxy"] = "not configured"
+
     kwargs = {
         "headless": True,
         "humanize": False,
