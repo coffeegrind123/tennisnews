@@ -2,37 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "10sBalls": {
-      "type": "rss",
-      "count": 0,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 0,
-      "error": ""
-    },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,9 +17,19 @@
       "count": 10,
       "error": ""
     },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Open Court": {
@@ -52,27 +37,27 @@
       "count": 0,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -82,14 +67,29 @@
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 0,
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 0,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 0,
       "error": ""
     },
     "ATP Tour": {
@@ -203,9 +203,9 @@
     "accounts": 0,
     "error": "no usable Nitter instance among ['https://lightbrd.com', 'https://nitter.privacyredirect.com', 'https://nitter.tiekoetter.com', 'https://nitter.poast.org', 'https://nitter.net'] - every one failed its interstitial or served an empty timeline"
   },
-  "generated_at": "2026-08-01 19:46:29 UTC",
+  "proxy": "configured and reachable",
+  "generated_at": "2026-08-01 19:53:57 UTC",
   "empty_sources": [
-    "10sBalls",
     "ATP Tour",
     "Asian Tennis Federation",
     "Australian Open",
@@ -220,6 +220,7 @@
     "Tennis Canada",
     "Tennis Europe",
     "Tennis Infinity",
+    "Tennis Now",
     "Tennis Panorama",
     "Tennis View Magazine",
     "Tennis World USA",
@@ -228,7 +229,6 @@
     "US Open",
     "USTA Florida",
     "Wimbledon",
-    "Women's Tennis Blog",
-    "World Tennis Magazine"
+    "Women's Tennis Blog"
   ]
 }
