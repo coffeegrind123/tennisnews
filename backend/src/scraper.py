@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import time
 import html as html_lib
 from datetime import datetime, timezone, timedelta
 
@@ -65,6 +66,39 @@ def parse_proxy_url(proxy_url: str) -> dict | None:
 
 
 PROXY_PROBE_URL = "https://example.com"
+PROXY_PROBE_ATTEMPTS = 4
+
+# Nothing this scraper extracts comes from an image, video, font or tracking
+# pixel, but on a metered proxy every one of them is paid for. Images alone are
+# typically the large majority of bytes on a news listing page.
+#
+# Scripts and stylesheets are deliberately NOT blocked: the SPA sources
+# (Wimbledon, US Open, Tennis.com) render their content with JS, and the
+# Cloudflare and Anubis interstitials are solved by running their scripts.
+BLOCKED_RESOURCE_TYPES = {"image", "media", "font"}
+BLOCK_ASSETS = os.environ.get("SCRAPER_LOAD_IMAGES", "").lower() not in ("1", "true", "yes")
+
+
+async def install_asset_blocker(page) -> dict:
+    """Abort image/media/font requests. Returns a live counter dict."""
+    stats = {"blocked": 0, "allowed": 0}
+
+    async def route_handler(route):
+        if route.request.resource_type in BLOCKED_RESOURCE_TYPES:
+            stats["blocked"] += 1
+            try:
+                await route.abort()
+            except Exception:
+                pass
+        else:
+            stats["allowed"] += 1
+            try:
+                await route.continue_()
+            except Exception:
+                pass
+
+    await page.route("**/*", route_handler)
+    return stats
 
 
 def proxy_reachable(config: dict, timeout: float = 15.0) -> bool:
@@ -95,15 +129,29 @@ def proxy_reachable(config: dict, timeout: float = 15.0) -> bool:
     proxy_url = f"http://{auth}{parsed.hostname}:{parsed.port}"
 
     opener = build_opener(ProxyHandler({"http": proxy_url, "https": proxy_url}))
-    try:
-        with opener.open(PROXY_PROBE_URL, timeout=timeout) as r:
-            if r.status >= 400:
-                HEALTH["proxy_error"] = f"proxy returned HTTP {r.status} for {PROXY_PROBE_URL}"
-                return False
-            return True
-    except Exception as e:
-        HEALTH["proxy_error"] = f"{type(e).__name__}: {str(e)[:160]}"
-        return False
+
+    # Residential proxies drop connections routinely - the working one here
+    # measured 4/6 on repeated probes. A single-shot check would therefore
+    # discard a perfectly usable proxy about a third of the time and silently
+    # run the whole scrape from the runner's own IP. Only a proxy that fails
+    # EVERY attempt is treated as unusable; a dead one fails deterministically
+    # (the expired credential returns 407 every single time).
+    errors = []
+    for attempt in range(1, PROXY_PROBE_ATTEMPTS + 1):
+        try:
+            with opener.open(PROXY_PROBE_URL, timeout=timeout) as r:
+                if r.status < 400:
+                    if attempt > 1:
+                        print(f"  [PROXY] probe succeeded on attempt {attempt}")
+                    return True
+                errors.append(f"HTTP {r.status}")
+        except Exception as e:
+            errors.append(f"{type(e).__name__}: {str(e)[:70]}")
+        if attempt < PROXY_PROBE_ATTEMPTS:
+            time.sleep(2)
+
+    HEALTH["proxy_error"] = f"{PROXY_PROBE_ATTEMPTS} attempts failed: {'; '.join(errors)}"
+    return False
 
 
 def strip_html(text: str) -> str:
@@ -367,6 +415,13 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
         async with AsyncCamoufox(**kwargs) as browser:
             HEALTH["browser_ok"] = True
             page = await browser.new_page()
+
+            asset_stats = None
+            if BLOCK_ASSETS:
+                asset_stats = await install_asset_blocker(page)
+                print(f"  [ASSETS] blocking {sorted(BLOCKED_RESOURCE_TYPES)} "
+                      f"(set SCRAPER_LOAD_IMAGES=1 to disable)")
+
             for idx, site in enumerate(scrape_sites, 1):
                 print(f"  [{idx}/{total}] {site['name']}...", end=" ")
                 try:
@@ -392,6 +447,13 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
             except Exception as e:
                 HEALTH["twitter"] = {"tweets": 0, "accounts": 0, "error": str(e)[:300]}
                 print(f"  [TWITTER] ERROR - {e}")
+
+            if asset_stats:
+                total = asset_stats["blocked"] + asset_stats["allowed"]
+                pct = (100 * asset_stats["blocked"] / total) if total else 0
+                HEALTH["assets"] = {**asset_stats, "blocked_pct": round(pct, 1)}
+                print(f"  [ASSETS] blocked {asset_stats['blocked']} of {total} "
+                      f"requests ({pct:.0f}%)")
 
             await page.close()
     except Exception as e:
