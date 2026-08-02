@@ -79,6 +79,78 @@ BLOCKED_RESOURCE_TYPES = {"image", "media", "font"}
 BLOCK_ASSETS = os.environ.get("SCRAPER_LOAD_IMAGES", "").lower() not in ("1", "true", "yes")
 
 
+# Navigation policy for the LISTING load of each source.
+#
+# Raising per-site timeouts one at a time as each fails does not converge: three
+# different sources timed out in one CI run and two entirely different ones in the
+# next, because the residential proxy adds latency to every request and which site
+# happens to cross its budget is luck. So apply a floor centrally instead.
+#
+# It deliberately covers ONLY the first navigation of each source. The per-article
+# gotos that follow (ATP visits 20, Wimbledon 12) keep their short budgets: a blanket
+# 60s floor would let a single hung article stall a source for twenty minutes.
+NAV_FLOOR_DIRECT_MS = int(os.environ.get("SCRAPER_NAV_FLOOR_MS", "30000"))
+NAV_FLOOR_PROXIED_MS = int(os.environ.get("SCRAPER_NAV_FLOOR_PROXIED_MS", "75000"))
+# A slow load often succeeds immediately on a second attempt, which a longer timeout
+# alone will not fix.
+NAV_RETRIES = int(os.environ.get("SCRAPER_NAV_RETRIES", "1"))
+# Cap the retries across the WHOLE run. Retrying every source at the proxied floor
+# would cost 21 x 150s worst case and blow the job's step timeout, turning a bad
+# network into zero data instead of partial data. Once spent, sources still get the
+# floor - they just fail on the first attempt.
+NAV_RETRY_BUDGET = int(os.environ.get("SCRAPER_NAV_RETRY_BUDGET", "6"))
+
+
+def install_navigation_policy(page, floor_ms: int, retries: int) -> dict:
+    """Floor + retry the first navigation of each source. Returns a stats dict.
+
+    `page.arm_nav_floor()` re-arms before each source; the wrapper disarms itself
+    after the first goto so per-article navigations are untouched.
+    """
+    from playwright.async_api import TimeoutError as PWTimeout
+
+    original_goto = page.goto
+    stats = {"floored": 0, "retried": 0, "retry_saved": 0, "budget_exhausted": 0}
+    state = {"armed": False, "budget": NAV_RETRY_BUDGET}
+
+    async def goto(url, **kwargs):
+        if not state["armed"]:
+            return await original_goto(url, **kwargs)
+        state["armed"] = False  # listing only; later gotos keep their own budgets
+
+        requested = kwargs.get("timeout") or 0
+        if requested < floor_ms:
+            kwargs["timeout"] = floor_ms
+            stats["floored"] += 1
+
+        last = None
+        for attempt in range(retries + 1):
+            try:
+                resp = await original_goto(url, **kwargs)
+                if attempt:
+                    stats["retry_saved"] += 1
+                    print(f"\n      [NAV] {url[:60]} succeeded on attempt {attempt + 1}")
+                return resp
+            except PWTimeout as e:
+                last = e
+                if attempt < retries:
+                    if state["budget"] <= 0:
+                        stats["budget_exhausted"] += 1
+                        print(f"\n      [NAV] {url[:60]} timed out; run-wide retry "
+                              f"budget spent, not retrying")
+                        break
+                    state["budget"] -= 1
+                    stats["retried"] += 1
+                    print(f"\n      [NAV] {url[:60]} timed out at "
+                          f"{kwargs['timeout']/1000:.0f}s, retrying "
+                          f"({state['budget']} retries left this run)")
+        raise last
+
+    page.goto = goto
+    page.arm_nav_floor = lambda: state.__setitem__("armed", True)
+    return stats
+
+
 async def install_asset_blocker(page) -> dict:
     """Abort image/media/font requests. Returns a live counter dict."""
     stats = {"blocked": 0, "allowed": 0}
@@ -343,6 +415,8 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
     module_name = site["module"]
     try:
         mod = importlib.import_module(f"scrapers.{module_name}")
+        if hasattr(page, "arm_nav_floor"):
+            page.arm_nav_floor()
         raw = await mod.scrape(page)
         articles = []
         for item in raw:
@@ -416,6 +490,11 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
             HEALTH["browser_ok"] = True
             page = await browser.new_page()
 
+            nav_floor = NAV_FLOOR_PROXIED_MS if proxy_config else NAV_FLOOR_DIRECT_MS
+            nav_stats = install_navigation_policy(page, nav_floor, NAV_RETRIES)
+            print(f"  [NAV] listing-navigation floor {nav_floor/1000:.0f}s "
+                  f"({'proxied' if proxy_config else 'direct'}), {NAV_RETRIES} retry")
+
             asset_stats = None
             if BLOCK_ASSETS:
                 asset_stats = await install_asset_blocker(page)
@@ -454,6 +533,11 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
                 HEALTH["assets"] = {**asset_stats, "blocked_pct": round(pct, 1)}
                 print(f"  [ASSETS] blocked {asset_stats['blocked']} of {total} "
                       f"requests ({pct:.0f}%)")
+            if nav_stats:
+                HEALTH["navigation"] = nav_stats
+                print(f"  [NAV] floored {nav_stats['floored']} listing load(s), "
+                      f"retried {nav_stats['retried']}, "
+                      f"{nav_stats['retry_saved']} recovered by retry")
 
             await page.close()
     except Exception as e:
