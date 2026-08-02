@@ -2,7 +2,7 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "World Tennis Magazine": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,17 +17,7 @@
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -35,6 +25,11 @@
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Tennis Majors": {
@@ -47,9 +42,9 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Tennis365": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -72,11 +67,6 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
@@ -87,6 +77,16 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
@@ -94,8 +94,8 @@
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "ATP Tour: never got past the Cloudflare challenge"
+      "count": 13,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -104,12 +104,12 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
+      "count": 25,
       "error": ""
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -129,8 +129,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -169,8 +169,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://www.tennisviewmag.com/tennis-view-magazine/news\", waiting until \"domcontentloaded\"\n"
     },
     "Brisbane International": {
       "type": "scrape",
@@ -179,8 +179,8 @@
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.asiantennis.com/news/\", waiting until \"domcontentloaded\"\n"
     },
     "Tennis Europe": {
       "type": "scrape",
@@ -194,20 +194,25 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 135,
+      "count": 111,
       "error": ""
     }
   },
   "twitter": {
-    "tweets": 55,
-    "accounts": 11,
+    "tweets": 60,
+    "accounts": 12,
     "error": ""
   },
-  "proxy_error": "URLError: <urlopen error Tunnel connection failed: 407 Proxy Authentication Required>",
-  "proxy": "configured but UNREACHABLE - fell back to direct",
-  "generated_at": "2026-08-01 20:08:01 UTC",
+  "proxy": "configured and reachable",
+  "assets": {
+    "blocked": 8726,
+    "allowed": 6733,
+    "blocked_pct": 56.4
+  },
+  "generated_at": "2026-08-02 00:05:39 UTC",
   "empty_sources": [
-    "ATP Tour",
-    "Tennis World USA"
+    "Asian Tennis Federation",
+    "Tennis View Magazine",
+    "US Open"
   ]
 }
