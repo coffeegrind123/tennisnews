@@ -3,3 +3,4 @@ backend/camoufox_build*/
 __pycache__/
 *.pyc
 .env
+backend/node_modules/

@@ -13,7 +13,10 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Must exceed the scrape step's own timeout (35) or the JOB cap fires first
+    # and the step budget is meaningless. Extra room covers the camoufox download
+    # on a cache miss (663 MB) plus npm install for the defender bridge.
+    timeout-minutes: 50
 
     steps:
       - uses: actions/checkout@v4
@@ -50,6 +53,18 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install -r backend/requirements.txt
+
+      # Node + @stackone/defender drive the prompt-injection scanner that screens
+      # every scraped headline/description before it reaches public/index.html,
+      # which is explicitly consumed by LLMs. Without this the scrape still runs
+      # but items are marked unscanned rather than silently presented as clean.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install defender bridge deps
+        working-directory: backend
+        run: npm install --omit=dev --no-audit --no-fund
 
       - name: Register camoufox build with the camoufox library
         run: python backend/setup_camoufox.py

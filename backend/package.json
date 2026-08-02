@@ -1,0 +1,12 @@
+{
+  "name": "tennisnews-defender-bridge",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Node host for @stackone/defender, piped from scraper.py to flag prompt-injection payloads in scraped headlines/descriptions before they reach an LLM consuming the feed.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@stackone/defender": "^0.7.0",
+    "@huggingface/transformers": "^3.0.0"
+  }
+}

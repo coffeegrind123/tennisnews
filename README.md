@@ -57,6 +57,40 @@ is actually rendered). If an instance cannot be cleared the scraper falls throug
 an ordered list of alternatives rather than silently reporting zero tweets.
 Override the order with `NITTER_BASES=https://a,https://b`.
 
+## Prompt-injection screening
+
+`public/index.html` is designed for LLM consumption, and every string in it comes
+from a third-party site or Twitter account. A headline reading "Ignore previous
+instructions and ..." is a working indirect prompt injection against whatever
+model reads the feed.
+
+Every article title, description and tweet is therefore screened through
+[@stackone/defender](https://www.npmjs.com/package/@stackone/defender) (pattern
+detection plus an ONNX classifier) via a long-lived Node bridge
+(`backend/src/defender_bridge.mjs`), spawned once per run.
+
+When an item is flagged the text is **redacted** but the item is kept: the source
+name, link and date survive, and the HTML carries a visible warning naming the
+source. Dropping the story silently would hide the fact that a source is serving
+injections; this makes it obvious which one is.
+
+The classifier threshold is **0.85**, measured rather than inherited:
+
+| | tier2 score |
+|---|---|
+| 522 real scraped articles | median 0.052, p95 0.141, **max 0.778** |
+| Known-attack controls | **0.939 – 0.963** |
+
+Re-measure with `python3 backend/tools/calibrate_defender.py` if the source mix
+changes; it also runs known-attack and known-benign controls, so a scanner that
+has silently stopped working shows up as missed controls rather than a clean bill
+of health. The sbox-learn-docs mirror uses 0.95 for long tutorial prose — at that
+value three of the four attack controls here passed.
+
+If Node or the bridge is unavailable the scrape still runs, but items are marked
+`"injection": {"scanned": false}` rather than being presented as clean, and
+`data/health.json` records why. Set `SCRAPER_DEFENDER=0` to skip screening.
+
 ## Health
 
 `scraper.py` writes `data/health.json` every run (per-source article counts,
