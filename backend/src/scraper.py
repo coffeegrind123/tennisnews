@@ -677,6 +677,16 @@ async def run():
         defender.screen(t, text_fields=("title",))
     HEALTH["defender"] = defender.stop()
     dsum = HEALTH["defender"]
+
+    # Persist the attempts themselves so the techniques aimed at this feed
+    # accumulate across runs rather than living only in one run's log.
+    import injection_log
+    HEALTH["injections"] = injection_log.merge(DATA_DIR / "injections.jsonl", defender.captured)
+    ilog = HEALTH["injections"]
+    if ilog["new_this_run"] or ilog["total_recorded"]:
+        print(f"  [INJECTIONS] {ilog['new_this_run']} new, {ilog['repeat_this_run']} repeat, "
+              f"{ilog['total_recorded']} recorded total"
+              + (f" | sources: {ilog['by_source']}" if ilog["by_source"] else ""))
     if dsum["available"]:
         print(f"  [DEFENDER] scanned {dsum['scanned']}, flagged {dsum['flagged']}, "
               f"redacted {dsum['redacted']}"

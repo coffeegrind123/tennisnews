@@ -87,6 +87,25 @@ has silently stopped working shows up as missed controls rather than a clean bil
 of health. The sbox-learn-docs mirror uses 0.95 for long tutorial prose — at that
 value three of the four attack controls here passed.
 
+### Captured attempts
+
+Every redacted payload is appended to `data/injections.jsonl`, committed with the
+feed, so the techniques actually aimed at this site accumulate over time:
+
+```bash
+python3 backend/tools/injection_report.py          # sources, techniques, persistence
+python3 backend/tools/injection_report.py --show 5 # decode payloads (sandbox only)
+```
+
+Records are deduplicated on a fingerprint of link+payload — a hostile headline
+usually stays up for days, so without that it would re-append on every run and
+bury the signal. Repeats bump `times_seen` and `last_seen` instead.
+
+**Payloads are stored base64, not plaintext.** This repo is public and exists to be
+read by LLMs, so a plaintext corpus of working injection payloads would itself be
+an ingestion hazard. Base64 keeps the evidence byte-exact while making ingestion a
+deliberate act. The file's first line is a `_README` record saying so.
+
 If Node or the bridge is unavailable the scrape still runs, but items are marked
 `"injection": {"scanned": false}` rather than being presented as clean, and
 `data/health.json` records why. Set `SCRAPER_DEFENDER=0` to skip screening.

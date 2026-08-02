@@ -27,11 +27,14 @@ than being presented as clean. "Nobody looked" and "looked and found nothing" ar
 different claims and the feed reports which one it is.
 """
 
+import base64
+import hashlib
 import json
 import os
 import shutil
 import subprocess
 import threading
+from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -57,6 +60,9 @@ class Defender:
         self.redacted = 0
         self._next_id = 0
         self.by_source: dict[str, int] = {}
+        # Captured attempts, written to data/injections.jsonl so the tricks people
+        # actually try against this feed accumulate over time.
+        self.captured: list[dict] = []
 
     # ---------------------------------------------------------------- start
     def start(self) -> bool:
@@ -172,6 +178,32 @@ class Defender:
             self.flagged += 1
             self.redacted += 1
             self.by_source[str(source)] = self.by_source.get(str(source), 0) + 1
+            # Capture the attempt BEFORE redacting - the payload is the evidence.
+            #
+            # Stored base64 rather than plaintext: this repo is public and its whole
+            # purpose is LLM consumption, so a corpus of live injection payloads
+            # sitting in readable text is itself an ingestion hazard for anything
+            # crawling the repo. b64 keeps it exact and analysable while making
+            # accidental ingestion a deliberate act. `preview` stays plaintext but
+            # truncated, for human triage.
+            self.captured.append({
+                "captured_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "source": str(source),
+                "source_url": item.get("source_url", ""),
+                "link": item.get("link", ""),
+                "risk": risk,
+                "score": res.get("tier2Score"),
+                "detections": detections,
+                "patterns": res.get("patternsByField") or {},
+                "fields": [f for f in text_fields if item.get(f)],
+                "payload_b64": base64.b64encode(joined.encode("utf-8")).decode("ascii"),
+                "preview": joined[:200].replace("\n", " "),
+                # Identity for dedup: the same payload from the same URL should not
+                # append a fresh record on every run.
+                "fingerprint": hashlib.sha256(
+                    (str(item.get("link", "")) + "|" + joined).encode("utf-8")
+                ).hexdigest()[:16],
+            })
             for f in text_fields:
                 if item.get(f):
                     item[f] = REDACTION
@@ -203,6 +235,7 @@ class Defender:
             "flagged": self.flagged,
             "redacted": self.redacted,
             "by_source": dict(sorted(self.by_source.items(), key=lambda kv: -kv[1])),
+            "captured": len(self.captured),
         }
         self.active = False
         return summary
