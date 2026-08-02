@@ -7,9 +7,9 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Tennis Connected": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Perfect Tennis": {
@@ -17,7 +17,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,27 +32,7 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,19 +42,29 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
+    "BBC Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Ubitennis": {
@@ -83,6 +78,11 @@
       "error": ""
     },
     "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -109,7 +109,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -119,8 +119,8 @@
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 20,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://tennis-infinity.com/\", waiting until \"networkidle\"\n"
     },
     "Australian Open": {
       "type": "scrape",
@@ -129,8 +129,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -139,7 +139,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 11,
+      "count": 0,
       "error": ""
     },
     "Novak Djokovic": {
@@ -169,8 +169,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://www.tennisviewmag.com/tennis-view-magazine/news\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -179,8 +179,8 @@
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.asiantennis.com/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 15,
+      "error": ""
     },
     "Tennis Europe": {
       "type": "scrape",
@@ -194,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 111,
+      "count": 40,
       "error": ""
     }
   },
@@ -205,14 +205,13 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8726,
-    "allowed": 6733,
-    "blocked_pct": 56.4
+    "blocked": 9046,
+    "allowed": 6593,
+    "blocked_pct": 57.8
   },
-  "generated_at": "2026-08-02 00:05:39 UTC",
+  "generated_at": "2026-08-02 01:21:55 UTC",
   "empty_sources": [
-    "Asian Tennis Federation",
-    "Tennis View Magazine",
-    "US Open"
+    "ESPN Tennis",
+    "Tennis Infinity"
   ]
 }
