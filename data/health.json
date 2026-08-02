@@ -2,6 +2,21 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -12,27 +27,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Ireland": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
       "error": ""
     },
     "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,12 +47,32 @@
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -62,39 +82,15 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "10sBalls": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:403, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "count": 16,
+      "error": ""
     },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -108,18 +104,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 26869,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a24992cece1bf435 Performance and Se"
-      }
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -143,8 +129,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -153,7 +139,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Novak Djokovic": {
@@ -198,8 +184,8 @@
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.tenniseurope.org/newslist/News\", waiting until \"domcontentloaded\"\n"
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
@@ -208,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 109,
+      "count": 91,
       "error": ""
     }
   },
@@ -219,9 +205,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8586,
-    "allowed": 7250,
-    "blocked_pct": 54.2
+    "blocked": 9170,
+    "allowed": 7275,
+    "blocked_pct": 55.8
   },
   "navigation": {
     "floored": 21,
@@ -232,7 +218,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 606,
+    "scanned": 655,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -244,10 +230,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-02 02:31:09 UTC",
+  "generated_at": "2026-08-02 02:56:49 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Tennis World USA",
-    "US Open"
+    "Tennis Europe"
   ]
 }
