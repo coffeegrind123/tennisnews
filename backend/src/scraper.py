@@ -410,6 +410,52 @@ async def fetch_rss(site: dict) -> list[dict]:
         return []
 
 
+EMPTY_DIAGNOSTIC_JS = """() => {
+    const body = document.body ? document.body.innerText : '';
+    const t = (document.title || '').toLowerCase();
+    const b = body.toLowerCase();
+    const markers = [];
+    for (const [label, needles] of [
+        ['cloudflare-challenge', ['just a moment', 'checking your browser', 'performing security verification']],
+        ['access-denied',        ['access denied', 'error 1015', 'you are being rate limited', 'forbidden']],
+        ['consent-wall',         ['accept cookies', 'we value your privacy', 'consent', 'gdpr']],
+        ['captcha',              ['captcha', 'verify you are human', 'are you a robot']],
+        ['geo-block',            ['not available in your', 'unavailable in your region', 'geo']],
+        ['empty-shell',          []],
+    ]) {
+        if (needles.some(n => t.includes(n) || b.includes(n))) markers.push(label);
+    }
+    if (body.trim().length < 200) markers.push('near-empty-body');
+    return {
+        url: location.href,
+        title: document.title,
+        htmlLen: document.documentElement.outerHTML.length,
+        bodyTextLen: body.trim().length,
+        markers: markers,
+        bodyHead: body.replace(/\\s+/g, ' ').slice(0, 240),
+    };
+}"""
+
+
+async def diagnose_empty(page, name: str) -> dict:
+    """Describe the page a module found nothing on.
+
+    "extracted 0 items, no exception" is unactionable, and these failures only
+    reproduce in CI (different egress IP), so the diagnosis has to be captured
+    where it happens rather than guessed at afterwards. ESPN Tennis and Tennis
+    Australia both returned 0 in CI while yielding 11 and 25 items locally.
+    """
+    try:
+        info = await page.evaluate(EMPTY_DIAGNOSTIC_JS)
+    except Exception as e:
+        return {"diagnostic_error": f"{type(e).__name__}: {str(e)[:80]}"}
+    print(f"\n      [EMPTY] {name}: title={info['title'][:50]!r} "
+          f"bodyText={info['bodyTextLen']} markers={info['markers']}")
+    if info["markers"]:
+        print(f"      [EMPTY] {name}: body={info['bodyHead'][:140]!r}")
+    return info
+
+
 async def scrape_site_with_module(page, site: dict) -> list[dict]:
     name = site["name"]
     module_name = site["module"]
@@ -431,7 +477,10 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
                 "source_url": site["url"],
                 "date": to_helsinki(item.get("date", "")),
             })
-        HEALTH["sources"][name] = {"type": "scrape", "count": len(articles), "error": ""}
+        rec = {"type": "scrape", "count": len(articles), "error": ""}
+        if not articles:
+            rec["empty_diagnostic"] = await diagnose_empty(page, name)
+        HEALTH["sources"][name] = rec
         print(f"{len(articles)} articles")
         return articles
     except Exception as e:
@@ -440,7 +489,54 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
         return []
 
 
-async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
+async def retry_rss_via_browser(page, failed_sites: list[dict]) -> list[dict]:
+    """Re-fetch feeds that no user agent could get, using the browser's request
+    context (and therefore the proxy).
+
+    UA rotation fixes UA-based blocks. It cannot fix an IP-based one: in CI
+    10sBalls and World Tennis Magazine answered HTTP 202 with non-XML to ALL
+    THREE agents, which is an anti-bot interstitial keyed on the GitHub runner's
+    address - the same feeds serve 200 + valid XML to the feedparser agent from a
+    residential IP. page.request goes out through the browser context, so it
+    inherits the proxy and any clearance cookie the scrape already earned.
+    """
+    recovered = []
+    for site in failed_sites:
+        name, feed_url = site["name"], site["feed_url"]
+        try:
+            resp = await page.request.get(feed_url, timeout=45000)
+            body = await resp.body()
+            feed = await asyncio.to_thread(feedparser.parse, body)
+        except Exception as e:
+            print(f"    [RSS-RETRY] {name}: {type(e).__name__}: {str(e)[:90]}")
+            continue
+
+        if not feed.entries:
+            print(f"    [RSS-RETRY] {name}: still empty via browser "
+                  f"(http={resp.status}, {len(body)} bytes)")
+            continue
+
+        articles = []
+        for entry in feed.entries[:20]:
+            title = strip_html(entry.get("title", ""))
+            if not title:
+                continue
+            articles.append({
+                "title": title,
+                "description": strip_html(entry.get("summary", "") or entry.get("description", "")),
+                "link": entry.get("link", ""),
+                "source_name": name,
+                "source_url": site["url"],
+                "date": parse_date(entry),
+            })
+        HEALTH["sources"][name] = {"type": "rss", "count": len(articles),
+                                   "error": "", "recovered_via": "browser"}
+        recovered.extend(articles)
+        print(f"    [RSS-RETRY] {name}: {len(articles)} articles recovered via browser")
+    return recovered
+
+
+async def scrape_all_sites(scrape_sites: list[dict], failed_rss: list[dict] | None = None) -> list[dict]:
     if not scrape_sites:
         return [], []
 
@@ -509,6 +605,10 @@ async def scrape_all_sites(scrape_sites: list[dict]) -> list[dict]:
                 except Exception as e:
                     HEALTH["sources"][site["name"]] = {"count": 0, "error": str(e)[:200]}
                     print(f"FAILED - {e}")
+
+            if failed_rss:
+                print(f"  Retrying {len(failed_rss)} unreachable RSS feed(s) via the browser...")
+                all_articles.extend(await retry_rss_via_browser(page, failed_rss))
 
             # Scrape Twitter feeds
             print("  Fetching Twitter feeds...")
@@ -639,7 +739,12 @@ async def run():
     rss_results = await asyncio.gather(*rss_tasks)
     rss_articles = [a for batch in rss_results for a in batch]
 
-    scrape_articles, tweets = await scrape_all_sites(scrape_sites)
+    failed_rss = [site for site, arts in zip(rss_sites, rss_results) if not arts]
+    if failed_rss:
+        print(f"  [RSS] {len(failed_rss)} feed(s) unreachable directly, will retry via browser: "
+              f"{', '.join(s['name'] for s in failed_rss)}")
+
+    scrape_articles, tweets = await scrape_all_sites(scrape_sites, failed_rss)
 
     all_articles = rss_articles + scrape_articles
 
