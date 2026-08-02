@@ -12,17 +12,27 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,7 +42,7 @@
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -45,21 +55,6 @@
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Ubitennis": {
@@ -77,14 +72,19 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
+    "Racquet Magazine": {
       "type": "rss",
-      "count": 16,
+      "count": 10,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -104,12 +104,24 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/?__cf_chl_rt_tk=j9Pnda.X2hFtPCrDtfE2hvCiLUb4RjNKl.bMFC5ZaIE-1785658044-1.0.1.1-ngpSC3_9o5qwXVCJ5mo4NzpO2YQIyw9Ze08FDO4q5e4",
+        "title": "Just a moment...",
+        "htmlLen": 5694,
+        "bodyTextLen": 0,
+        "markers": [
+          "cloudflare-challenge",
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -124,7 +136,7 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
+      "count": 13,
       "error": ""
     },
     "US Open": {
@@ -184,8 +196,8 @@
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.tenniseurope.org/newslist/News\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
@@ -194,7 +206,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 91,
+      "count": 84,
       "error": ""
     }
   },
@@ -205,8 +217,8 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9170,
-    "allowed": 7275,
+    "blocked": 8929,
+    "allowed": 7065,
     "blocked_pct": 55.8
   },
   "navigation": {
@@ -218,7 +230,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 655,
+    "scanned": 634,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -230,8 +242,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-02 02:56:49 UTC",
+  "generated_at": "2026-08-02 08:24:09 UTC",
   "empty_sources": [
-    "Tennis Europe"
+    "Tennis World USA"
   ]
 }
