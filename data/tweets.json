@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03629249408313215,
+      "score": 0.04229335657551602,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03565349228397634,
+      "score": 0.03813884027659667,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.6400182652751474,
+      "score": 0.6760429729515296,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.18139808046998068,
+      "score": 0.2274845794347413,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.02689074870672285,
+      "score": 0.0319836553461419,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10088370518430474,
+      "score": 0.10671595372549571,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.049819636987813734,
+      "score": 0.05362097955691781,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.7545204987836087,
+      "score": 0.7511723498831658,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03337279517792742,
+      "score": 0.04023753489977663,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04428469310813843,
+      "score": 0.05790800582408252,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08673462401900708,
+      "score": 0.09959349546734775,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1221238799423538,
+      "score": 0.1351812076409259,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.043855451791295255,
+      "score": 0.0481916766365361,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.034513019780603615,
+      "score": 0.037262910079936304,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047977627844710775,
+      "score": 0.05112611982678717,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.4542063143027797,
+      "score": 0.4865782496843766,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0914378823039411,
+      "score": 0.08047096664726838,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03739931801507661,
+      "score": 0.03921172778715042,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10172380171514808,
+      "score": 0.1255350961776587,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054861616436240414,
+      "score": 0.06056913568179274,
       "detections": []
     }
   },
@@ -395,7 +395,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04051957329849346,
+      "score": 0.052842742943880375,
+      "detections": []
+    }
+  },
+  {
+    "title": "Quentin Halys and Luca Van Assche won their first ATP singles titles last weekend and now Arthur Gea this weekend.... French tennis is trending up again after the Tsonga, Gasquet and Monfils era of French tennis is ending...",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2083925550737858920#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-02 17:39 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.040316012060518915,
+      "detections": []
+    }
+  },
+  {
+    "title": "J.J. Wolf will move up nearly 300 spots on the ATP Tour rankings with his win in Vancouver. He certainly is a strong candidate for a @USOpen qualie wild card, which adds another big star who will be playing during the USTA's free \"Fan Week\"",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2083924691245269164#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-02 17:35 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03786284304666814,
       "detections": []
     }
   },
@@ -411,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06896472283155233,
+      "score": 0.07055356532168548,
       "detections": []
     }
   },
@@ -427,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06861851586073495,
+      "score": 0.06702084869613543,
       "detections": []
     }
   },
@@ -443,39 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035348608097514576,
-      "detections": []
-    }
-  },
-  {
-    "title": "Pre-Qualifying Events Can Prevent Empty, Weak Fields In Pro Qualifying Events youtu.be/_iQ2g-LpJHs?si=Dic0… via @YouTube",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2083542399150674006#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-01 16:16 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.17425312920066674,
-      "detections": []
-    }
-  },
-  {
-    "title": "Throwback article... (This will change very soon, if not already) Alexandra Eala Isn’t The Greatest Tennis Player From The Philippines…. Yet worldtennismagazine.com/alex…",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2083516043956293816#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-01 14:31 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04343389744828343,
+      "score": 0.046562609923347716,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06474730421853521,
+      "score": 0.07350493955175484,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.37864664513533247,
+      "score": 0.3855108013271664,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03594755546260789,
+      "score": 0.03746951430372129,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053991559881269996,
+      "score": 0.06253071608383029,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058962288304756603,
+      "score": 0.07297290163440073,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.074803457055685,
+      "score": 0.07398181881255324,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05017007132365902,
+      "score": 0.048603398987370504,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2119807566661964,
+      "score": 0.2220055469471008,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06791782457610394,
+      "score": 0.08967537365440656,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11861037341624985,
+      "score": 0.11561900813511304,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047639333610849904,
+      "score": 0.052431972674455034,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09695336708533885,
+      "score": 0.09435911618542293,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0418193371020888,
+      "score": 0.048298626911973896,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03856571886089128,
+      "score": 0.044684134386452204,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0696659813390831,
+      "score": 0.07814604249367085,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06527948904186438,
+      "score": 0.07616389356548484,
       "detections": []
     }
   },
@@ -795,7 +795,55 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04830750411656637,
+      "score": 0.059826971745923295,
+      "detections": []
+    }
+  },
+  {
+    "title": "19 year old Czech Jan Kumstat claims his 1st Challenger title as he beats No.2 seed Bueno to the Liberec Challenger.\n\nKumstat beat the No.1 seed Kolar in the 1st round and had scalps inc. Seyboth Wild along the way. Stormed to the title in the final essentially.\n\nWas concerned for Kumstat if any rally became protracted this deep into the week but he basically avoided that more or less completely - great use of the drop shot, 1-2 combination ball-striking, serve functioned fantastically as well a",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/JakeDaviesMUFC/status/2083895501233979722#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-02 15:39 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10178132690439873,
+      "detections": []
+    }
+  },
+  {
+    "title": "National Bank Open 2026: Schedule of Play for Sunday August 2.\n\ntennisconnected.com/national…",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisConnected/status/2083776210455195882#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-02 07:45 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04468217494497818,
+      "detections": []
+    }
+  },
+  {
+    "title": "Quite an incredible week and story for Artur Gea in Los Cabos!\n\nThird French to win a first ATP title in 8 days. \n\nHalys in Kitzbuhel \nVan Assche in Estoril \nGea in Los Cabos",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2083877432172453935#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-02 14:27 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.057359145041999744,
       "detections": []
     }
   },
@@ -811,7 +859,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.043315807679822196,
+      "score": 0.0422104237871486,
       "detections": []
     }
   },
@@ -827,55 +875,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.033291294938708235,
-      "detections": []
-    }
-  },
-  {
-    "title": "2026 National Bank Open Live Streaming Guide: How to Watch Toronto & Montreal Live.\n\ntennisconnected.com/2026-nat…",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisConnected/status/2083570114457203197#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-01 18:06 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05909795028900597,
-      "detections": []
-    }
-  },
-  {
-    "title": "Andreescu Returns Home to Launch 2026 National Bank Open Campaign Against Bartunkova.  \n\ntennisconnected.com/andreesc…",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisConnected/status/2083668606752117096#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-02 00:38 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04609340322522073,
-      "detections": []
-    }
-  },
-  {
-    "title": "Montreal tomorrow:",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2083720064302199061#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-02 04:02 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03271506718343567,
+      "score": 0.03663425490883492,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.033302287259085434,
+      "score": 0.038292744389468496,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10466957747362465,
+      "score": 0.10925696756380705,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03387088026563506,
+      "score": 0.03859491306210817,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.036461418253870524,
+      "score": 0.04018809641853059,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06965304335641816,
+      "score": 0.07889114009671583,
       "detections": []
     }
   }
