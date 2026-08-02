@@ -456,6 +456,29 @@ async def diagnose_empty(page, name: str) -> dict:
     return info
 
 
+# How long to wait out an interstitial before giving up on a source.
+CHALLENGE_WAIT_S = int(os.environ.get("SCRAPER_CHALLENGE_WAIT", "75"))
+
+
+def _normalise(raw, name: str, site: dict) -> list[dict]:
+    """Module output -> feed records. Shared by the first attempt and the
+    post-challenge retry so the two can never drift apart."""
+    articles = []
+    for item in raw or []:
+        title = item.get("title", "").strip()
+        if not title or len(title) < 5:
+            continue
+        articles.append({
+            "title": title[:200],
+            "description": item.get("description", "")[:500],
+            "link": item.get("link", ""),
+            "source_name": item.get("source_name") or name,
+            "source_url": site["url"],
+            "date": to_helsinki(item.get("date", "")),
+        })
+    return articles
+
+
 async def scrape_site_with_module(page, site: dict) -> list[dict]:
     name = site["name"]
     module_name = site["module"]
@@ -464,22 +487,43 @@ async def scrape_site_with_module(page, site: dict) -> list[dict]:
         if hasattr(page, "arm_nav_floor"):
             page.arm_nav_floor()
         raw = await mod.scrape(page)
-        articles = []
-        for item in raw:
-            title = item.get("title", "").strip()
-            if not title or len(title) < 5:
-                continue
-            articles.append({
-                "title": title[:200],
-                "description": item.get("description", "")[:500],
-                "link": item.get("link", ""),
-                "source_name": item.get("source_name") or name,
-                "source_url": site["url"],
-                "date": to_helsinki(item.get("date", "")),
-            })
+        articles = _normalise(raw, name, site)
         rec = {"type": "scrape", "count": len(articles), "error": ""}
         if not articles:
-            rec["empty_diagnostic"] = await diagnose_empty(page, name)
+            diag = await diagnose_empty(page, name)
+            rec["empty_diagnostic"] = diag
+
+            # Generic challenge recovery. Any source can end up behind a Cloudflare
+            # interstitial - it depends on the egress IP, not the site, so wiring it
+            # per-site (as was done for ATP and lightbrd) never finishes: Tennis
+            # World USA, which scrapes 25 articles directly, hit one through the
+            # proxy. Wait the challenge out and re-run the module; the clearance
+            # cookie is on the browser context, so the module's own navigation
+            # carries it and no site-specific code is needed.
+            if "cloudflare-challenge" in (diag.get("markers") or []):
+                from scrapers.cloudflare import wait_until_cleared
+                print(f"\n      [CHALLENGE] {name}: interstitial detected, waiting it out")
+                if await wait_until_cleared(page, timeout_s=CHALLENGE_WAIT_S,
+                                            log=lambda m: print(m)):
+                    if hasattr(page, "arm_nav_floor"):
+                        page.arm_nav_floor()
+                    try:
+                        raw = await mod.scrape(page)
+                        articles = _normalise(raw, name, site)
+                    except Exception as e:
+                        print(f"      [CHALLENGE] {name}: retry raised "
+                              f"{type(e).__name__}: {str(e)[:90]}")
+                        articles = []
+                    if articles:
+                        rec = {"type": "scrape", "count": len(articles), "error": "",
+                               "recovered_via": "challenge-wait"}
+                        print(f"      [CHALLENGE] {name}: recovered "
+                              f"{len(articles)} articles after clearing")
+                    else:
+                        rec["challenge_retry"] = "cleared but still empty"
+                else:
+                    rec["challenge_retry"] = "never cleared"
+
         HEALTH["sources"][name] = rec
         print(f"{len(articles)} articles")
         return articles

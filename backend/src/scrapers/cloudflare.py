@@ -113,3 +113,36 @@ async def wait_for_challenge(page, ready_selector: str, timeout_s: int = 75,
         f"len={last.get('len')} turnstile={last.get('hasTurnstile')} "
         f"body={str(last.get('body'))[:140]!r}")
     return False
+
+
+async def wait_until_cleared(page, timeout_s: int = 75, poll_s: float = 3.0,
+                             log=print) -> bool:
+    """Wait for an interstitial to clear WITHOUT knowing the site's markup.
+
+    `wait_for_challenge` needs a ready selector, which only works where the
+    caller knows what the real page looks like. This is the generic path: it
+    polls until the page stops *looking* like an interstitial, so a scraper that
+    came back empty behind a challenge can simply be re-run afterwards.
+
+    The clearance cookie lives on the browser context, so a module re-navigating
+    on its own carries it - which is why re-running the module is enough and no
+    per-site wiring is required.
+    """
+    waited = 0.0
+    clicked = False
+    last: dict = {}
+
+    while waited < timeout_s:
+        last = await page.evaluate(CHALLENGE_JS)
+        if not looks_like_challenge(last, 0):
+            log(f"      challenge cleared after {waited:.0f}s "
+                f"(title now {last.get('title','')[:40]!r})")
+            return True
+        if last.get("hasTurnstile") and not clicked and waited >= 6:
+            clicked = await _try_turnstile_click(page, log)
+        await page.wait_for_timeout(int(poll_s * 1000))
+        waited += poll_s
+
+    log(f"      STILL CHALLENGED after {timeout_s}s: title={last.get('title')!r} "
+        f"turnstile={last.get('hasTurnstile')}")
+    return False
