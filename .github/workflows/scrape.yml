@@ -71,7 +71,10 @@ jobs:
         continue-on-error: true
         working-directory: backend/src
         run: python scraper.py
-        timeout-minutes: 20
+        # 20 was not enough once the browser half actually ran: through the
+        # residential proxy the 21 scrape sites alone take ~13 min, and the run
+        # was killed mid-Twitter with no data written at all.
+        timeout-minutes: 35
         env:
           SCRAPER_HTTP_PROXY: ${{ secrets.UPSTREAM_PROXY }}
 

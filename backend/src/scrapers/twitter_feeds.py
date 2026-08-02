@@ -205,6 +205,17 @@ async def scrape(page) -> list[dict]:
 
             if tweets is None:
                 print(f"    [TWITTER] @{handle}: no timeline rendered")
+                # If the FIRST account cannot be served even after its retry, this
+                # instance's interstitial is not clearing for us at all, and the
+                # remaining accounts will each burn a full timeout proving the same
+                # thing. In CI that cost 6.7 minutes on lightbrd - 11 further
+                # failures at ~27s each - and pushed the whole run past its step
+                # timeout. One proven failure is enough; carry everything over.
+                if i == 0:
+                    print(f"    [TWITTER] {base}: first account failed after retry - "
+                          f"instance is not clearing, carrying all "
+                          f"{len(remaining)} account(s) to the next instance")
+                    break
                 continue
 
             all_tweets.extend(_to_records(tweets, account, base))
