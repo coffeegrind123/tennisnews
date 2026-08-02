@@ -7,7 +7,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,7 +17,7 @@
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,14 +47,9 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Ubitennis": {
@@ -67,30 +62,39 @@
       "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Open Court": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
       "error": ""
     },
     "10sBalls": {
       "type": "rss",
       "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "error": "no entries from any user agent (Mozilla:403, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -104,17 +108,27 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26869,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a24992cece1bf435 Performance and Se"
+      }
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 0,
+      "count": 25,
       "error": ""
     },
     "Tennis Infinity": {
@@ -129,8 +143,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -139,7 +153,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 0,
+      "count": 10,
       "error": ""
     },
     "Novak Djokovic": {
@@ -194,7 +208,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 110,
+      "count": 109,
       "error": ""
     }
   },
@@ -205,9 +219,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8190,
-    "allowed": 7262,
-    "blocked_pct": 53.0
+    "blocked": 8586,
+    "allowed": 7250,
+    "blocked_pct": 54.2
   },
   "navigation": {
     "floored": 21,
@@ -215,11 +229,25 @@
     "retry_saved": 0,
     "budget_exhausted": 0
   },
-  "generated_at": "2026-08-02 01:55:54 UTC",
+  "defender": {
+    "available": true,
+    "error": "",
+    "scanned": 606,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
+  },
+  "injections": {
+    "total_recorded": 0,
+    "new_this_run": 0,
+    "repeat_this_run": 0,
+    "by_source": {}
+  },
+  "generated_at": "2026-08-02 02:31:09 UTC",
   "empty_sources": [
     "10sBalls",
-    "ESPN Tennis",
-    "Tennis Australia",
-    "World Tennis Magazine"
+    "Tennis World USA",
+    "US Open"
   ]
 }
