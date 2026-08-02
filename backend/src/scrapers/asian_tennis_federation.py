@@ -5,12 +5,16 @@ Article: first paragraph is only source of desc."""
 URL = "https://www.asiantennis.com/news/"
 BASE = "https://www.asiantennis.com"
 
+# Raised from 20000ms: this listing timed out in CI through the
+# residential proxy while passing direct. Per-article budgets stay short.
+LISTING_TIMEOUT_MS = 60000
+
 
 from scrapers.utils import log_progress, log_done
 
 
 async def scrape(page) -> list[dict]:
-    await page.goto(URL, wait_until="domcontentloaded", timeout=20000)
+    await page.goto(URL, wait_until="domcontentloaded", timeout=LISTING_TIMEOUT_MS)
     await page.wait_for_timeout(3000)
 
     links = await page.evaluate("""() => {

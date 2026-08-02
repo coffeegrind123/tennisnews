@@ -7,9 +7,13 @@ Article: meta[name=description]. No article:published_time. Date as visible text
 URL = "http://www.tennisviewmag.com/tennis-view-magazine/news"
 BASE = "http://www.tennisviewmag.com"
 
+# Raised from 25000ms: this listing timed out in CI through the
+# residential proxy while passing direct. Per-article budgets stay short.
+LISTING_TIMEOUT_MS = 60000
+
 
 async def scrape(page) -> list[dict]:
-    await page.goto(URL, wait_until="domcontentloaded", timeout=25000)
+    await page.goto(URL, wait_until="domcontentloaded", timeout=LISTING_TIMEOUT_MS)
     await page.wait_for_timeout(4000)
 
     links = await page.evaluate("""(function() {

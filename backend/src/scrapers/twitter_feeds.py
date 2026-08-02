@@ -180,8 +180,23 @@ async def scrape(page) -> list[dict]:
         rate_limited = False
         for i, account in enumerate(remaining):
             handle = account["handle"]
+            # The FIRST load on an instance has to run the interstitial JS and needs
+            # the full challenge budget; later loads ride the clearance cookie and
+            # only need the short one. Giving every load the short budget silently
+            # demoted lightbrd in CI: all 12 accounts reported "no timeline
+            # rendered" at ~27s each because clearing took longer than 25s over the
+            # proxy, even though it clears in 12-15s direct.
+            budget = CHALLENGE_TIMEOUT_S if i == 0 else ACCOUNT_TIMEOUT_S
             try:
-                tweets = await _load_timeline(page, base, handle, ACCOUNT_TIMEOUT_S)
+                tweets = await _load_timeline(page, base, handle, budget)
+                # The first load is the one that PAYS for the interstitial, and the
+                # challenge often clears only as that attempt expires - so account 1
+                # reports nothing while every later account succeeds. Retry it once,
+                # now that the clearance cookie exists, instead of exporting it to a
+                # fallback instance.
+                if tweets is None and i == 0:
+                    print(f"    [TWITTER] @{handle}: retrying now the challenge has cleared")
+                    tweets = await _load_timeline(page, base, handle, ACCOUNT_TIMEOUT_S)
             except RateLimited as e:
                 print(f"    [TWITTER] {e} - abandoning this instance, "
                       f"{len(remaining) - i} account(s) carried over")

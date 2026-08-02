@@ -13,6 +13,10 @@ from datetime import datetime, timedelta, timezone
 
 URL = "https://www.usopen.org/en_US/news/index.html"
 BASE = "https://www.usopen.org"
+
+# Raised from 30000ms: this listing timed out in CI through the
+# residential proxy while passing direct. Per-article budgets stay short.
+LISTING_TIMEOUT_MS = 60000
 FEED = (BASE + "/relatedcontent/rest/v2/uso_v1/en/content/byType/news"
         "?zone=3&subType=articles&subType=match%20preview"
         "&startDate={start}&endDate={end}&count=100")
@@ -32,7 +36,7 @@ async def scrape(page) -> list[dict]:
 
     # Load the site first so the feed request carries the same origin/session the
     # SPA would have; the endpoint 302s for requests it does not like.
-    await page.goto(URL, wait_until="domcontentloaded", timeout=30000)
+    await page.goto(URL, wait_until="domcontentloaded", timeout=LISTING_TIMEOUT_MS)
     await page.wait_for_timeout(1500)
 
     resp = await page.request.get(feed_url, timeout=30000)
