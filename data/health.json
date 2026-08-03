@@ -2,12 +2,22 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,14 +27,9 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Last Word on Tennis": {
@@ -32,22 +37,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Guardian Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,14 +47,19 @@
       "count": 10,
       "error": ""
     },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 16,
+      "count": 20,
       "error": ""
     },
     "Tennis Nerd": {
@@ -74,8 +69,13 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "Open Court": {
       "type": "rss",
@@ -85,9 +85,8 @@
     },
     "Women's Tennis Blog": {
       "type": "rss",
-      "count": 20,
-      "error": "",
-      "recovered_via": "browser"
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:415, feedparser:415, Mozilla:415); last http=415, bozo=<unknown>:3:608: not well-formed (invalid token)"
     },
     "Tennis Now": {
       "type": "rss",
@@ -107,11 +106,12 @@
     "Tennis World USA": {
       "type": "scrape",
       "count": 25,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -126,7 +126,7 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 13,
+      "count": 15,
       "error": ""
     },
     "US Open": {
@@ -171,18 +171,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
-        "title": "",
-        "htmlLen": 95,
-        "bodyTextLen": 31,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Proxy Error 504 Gateway Timeout"
-      }
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -206,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 93,
+      "count": 105,
       "error": ""
     }
   },
@@ -217,12 +207,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7660,
-    "allowed": 7400,
-    "blocked_pct": 50.9
+    "blocked": 9514,
+    "allowed": 7149,
+    "blocked_pct": 57.1
   },
   "navigation": {
-    "floored": 21,
+    "floored": 22,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -230,7 +220,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 641,
+    "scanned": 613,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -242,9 +232,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-03 09:46:45 UTC",
+  "generated_at": "2026-08-03 16:41:37 UTC",
   "empty_sources": [
+    "10sBalls",
     "Tennis Now",
-    "Tennis View Magazine"
+    "Women's Tennis Blog",
+    "World Tennis Magazine"
   ]
 }
