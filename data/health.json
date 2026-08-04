@@ -7,12 +7,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -22,9 +22,9 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis Now": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Last Word on Tennis": {
@@ -37,7 +37,7 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -47,7 +47,7 @@
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,7 +57,12 @@
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -67,32 +72,26 @@
       "count": 10,
       "error": ""
     },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "10sBalls": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
     },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:415, feedparser:415, Mozilla:415); last http=415, bozo=<unknown>:3:608: not well-formed (invalid token)"
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -106,8 +105,19 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 28936,
+        "bodyTextLen": 1323,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Incompatible browser extension or network c"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
@@ -131,8 +141,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-05&endDate=2026-08-05&c"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -156,8 +166,8 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_NET_PARTIAL_TRANSFER\nCall log:\n  - navigating to \"https://www.ustaflorida.com/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 5,
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -166,18 +176,8 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennispanorama.com/",
-        "title": "Tennis Panorama delivers daily tennis news - Tennis Panorama",
-        "htmlLen": 27366,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 8,
+      "error": ""
     },
     "Tennis View Magazine": {
       "type": "scrape",
@@ -206,7 +206,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 55,
+      "count": 83,
       "error": ""
     }
   },
@@ -217,9 +217,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8025,
-    "allowed": 7251,
-    "blocked_pct": 52.5
+    "blocked": 8732,
+    "allowed": 7272,
+    "blocked_pct": 54.6
   },
   "navigation": {
     "floored": 21,
@@ -230,7 +230,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 541,
+    "scanned": 616,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -242,13 +242,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-04 08:46:18 UTC",
+  "generated_at": "2026-08-04 16:25:27 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Tennis Panorama",
-    "US Open",
-    "USTA Florida",
-    "Women's Tennis Blog",
+    "Tennis World USA",
     "World Tennis Magazine"
   ]
 }
