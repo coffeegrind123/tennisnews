@@ -16,6 +16,22 @@
     }
   },
   {
+    "title": "Looks like Jodar hurt his left wrist when he slipped late in this DC final vs Fritz.\nBummer all around",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/AmyLundyDahl/status/2084360531549339670#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-08-03 22:27 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04242532971911525,
+      "detections": []
+    }
+  },
+  {
     "title": "Interesting fact. Wednesday night is sold out in Toronto because of Alexandra Eala. \n\nFrom reliable sources I can tell you that only Serena has done that in the last 20 years. \n\nNot even Nadal, Federer or Djokovic have sold out an opening Wednesday night. \n\nIncredible.",
     "description": "",
     "link": "https://nitter.privacyredirect.com/TennisConnected/status/2083711120376811882#m",
@@ -64,18 +80,18 @@
     }
   },
   {
-    "title": "Looks like the lungs are coming back online 🫁",
+    "title": "National Bank Open 2026 Montreal Recap: Navone Stuns Berrettini, Monfils Shines\n\nperfect-tennis.com/national-…",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/AmyLundyDahl/status/2083617205682364460#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-01 21:13 EEST",
+    "link": "https://nitter.privacyredirect.com/perfecttennisuk/status/2084540244825649184#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-08-04 10:21 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03813884027659667,
+      "score": 0.05728603601600967,
       "detections": []
     }
   },
@@ -140,22 +156,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04023753489977663,
-      "detections": []
-    }
-  },
-  {
-    "title": "Anyone fancy a lovely trip to the quintessentially English Peak District?",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/PaulGolding/status/2080756767974179261#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-07-24 23:47 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05790800582408252,
       "detections": []
     }
   },
@@ -400,82 +400,82 @@
     }
   },
   {
-    "title": "Wow… Eala had Pegula on her back foot right off the return of Pegula’s first serve",
+    "title": "Venus Williams Pairing With Alexander Bublik Highlight Latest U.S. Open Mixed Doubles Entries worldtennismagazine.com/venu…",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084317596938043768#m",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084405009739878415#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-03 19:36 EEST",
+    "date": "2026-08-04 01:24 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04051818102209897,
+      "score": 0.05429866921355816,
       "detections": []
     }
   },
   {
-    "title": "What an amazing gesture here…",
+    "title": "Alex Eala Creates Tennis Tsunami In Philippines With Her First WTA Tour Title In Washington, D.C. worldtennismagazine.com/alex…",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084305890149032007#m",
+    "link": "https://nitter.privacyredirect.com/WorldTennisMag/status/2084377952117018625#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-03 18:50 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03545740551670705,
-      "detections": []
-    }
-  },
-  {
-    "title": "There needs to be three more withdrawals in the @USOpen men's singles field for American Martin Damm to get in... That would, presumably, free up a wild card for the USTA.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084288801745129705#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-03 17:42 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03706502010666755,
-      "detections": []
-    }
-  },
-  {
-    "title": "Sebi Korda and Irina-Camelia Begu have withdrawn from the US Open singles main draws, the USTA announced. Aleksander Vukic moves into the men's main draw. Elsa Jacquemot moves into the women's main draw.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084286810520256519#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-03 17:34 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04821327204322429,
-      "detections": []
-    }
-  },
-  {
-    "title": "August 3, 2012: Roger Federer defeats Juan Martin del Potro 3-6, 7-6 (5),19-17 in 4 hours, 26 minutes in an epic Olympic semifinal on Centre Court at Wimbledon. The match was the longest best-of-three set men’s singles match on record.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/DelpoBook/status/2084242564773773542#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-03 14:38 EEST",
+    "date": "2026-08-03 23:36 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09181291806370304,
+      "score": 0.04847634690139063,
+      "detections": []
+    }
+  },
+  {
+    "title": "Venus Williams and Alexander Bublik are new entries for the @USOpen mixed doubles.... Serena Williams, yet, unannounced.",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084379858713419809#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-03 23:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04002692967670911,
+      "detections": []
+    }
+  },
+  {
+    "title": "\"The Secrets of Spanish Tennis\" by Chris Lewit (which Rafael Jodar certainly adhered to growing up) is the top-ranked @NewChapterMedia book today here a.co/d/02ONcDVn #Amazon via @Amazon",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2084349208287424854#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-03 21:42 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.12429747078761064,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alex Eala Storms Past Jessica Pegula - After The Storm Passes - To Win First WTA Title In Washington tennisgrandstand.com/alex-ea… via @TennisGS",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisGS/status/2084337221872619599#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-03 20:54 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03918660765016072,
       "detections": []
     }
   },
@@ -492,6 +492,22 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.08314474589953268,
+      "detections": []
+    }
+  },
+  {
+    "title": "Take their word for it…my new book THE CRUELEST GAME comes out tomorrow August 4. Link to order in bio.",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/MattFutterman/status/2084463038082474461#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-04 05:14 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05337830955627872,
       "detections": []
     }
   },
@@ -540,22 +556,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.3855108013271664,
-      "detections": []
-    }
-  },
-  {
-    "title": "this is great",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/BlairHenley/status/2083171731112427963#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-07-31 15:43 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03746951430372129,
       "detections": []
     }
   },
@@ -800,82 +800,98 @@
     }
   },
   {
-    "title": "New Balance Launches Seasonal Tennis Collections for Second Half of Season – Including US Open Colorway.\n\ntennisconnected.com/new-bala…",
+    "title": "Gael Monfils. \n\nThe oldest man to win a match in Montreal in over 50 years. \n\nWhat a player.",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisConnected/status/2084294796227518876#m",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2084491405838160348#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-03 18:06 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04113294079967768,
-      "detections": []
-    }
-  },
-  {
-    "title": "Wilson Defyer 98 Pro vs Wilson Defyer 100 Review (2026).\n\ntennisconnected.com/wilson-d…",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisConnected/status/2084294684587782304#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-03 18:05 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04457268638990875,
-      "detections": []
-    }
-  },
-  {
-    "title": "Like what I’m seeing from Carlitos! \n\n🎥 _jcmrosa_ on Instagram",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2084237529604055507#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-03 14:18 EEST",
+    "date": "2026-08-04 07:07 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07793654515147101,
+      "score": 0.041641449013733026,
       "detections": []
     }
   },
   {
-    "title": "What an insane day…",
+    "title": "It’s been one of the best Monfils’ performances of the year.",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2084236809265975457#m",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2084484649758179717#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-03 14:15 EEST",
+    "date": "2026-08-04 06:40 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.056797405294100246,
+      "score": 0.03505723824077168,
       "detections": []
     }
   },
   {
-    "title": "Monday Order of Play 📜 \n\nThe women’s singles final starts at 12:00pm and the men’s singles final takes place not before 1:00pm.\n\n#MubadalaDCOpen",
+    "title": "As of today, 10% of the WTA top 100 is Czech 🤯\n\nOutrageous success for a nation of 11 million! 🇨🇿",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/mubadaladcopen/status/2084094975466258598#m",
+    "link": "https://nitter.privacyredirect.com/BastienFachan/status/2084389656456470595#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-03 04:52 EEST",
+    "date": "2026-08-04 00:23 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06132728607112395,
+      "score": 0.12884170862352823,
+      "detections": []
+    }
+  },
+  {
+    "title": "Very good win.",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2084470452668232165#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-04 05:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03776729701398251,
+      "detections": []
+    }
+  },
+  {
+    "title": "Montreal tomorrow",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2084458990621323345#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-04 04:58 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03902731255343197,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA Cincinnati wild cards\n\nDOUBLES\nSerena Williams/Venus Williams\n\nMAIN DRAW\nVenus Williams\nSloane Stephens\nTaylor Townsend\nDarja Vidmanova\nElvina Kalieva\nCaroline Dolehide\nLois Boisson\n\nQUALIES\nBianca Andreescu\nAkasha Urhobo\nCarol Young Suh Lee\nJeline Vandromme\nRobin Montgomery",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/MichalSamulski/status/2084398093542232265#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-08-04 00:56 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10112923261988746,
       "detections": []
     }
   },
@@ -940,22 +956,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04018809641853059,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP1000 Montreal wild cards\n\nMain draw: \nMonfils\nDraper\nDiallo\nGalarneau\nDraxl\n\nQualies: \nNishikori\nChan\nRice\nBoulais\n\nDoubles: \nAuger-Aliassime/Diallo\nShapovalov/Galarneau\nDraxl/Harper",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/MichalSamulski/status/2082559430793498770#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-07-29 23:10 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07889114009671583,
       "detections": []
     }
   }
