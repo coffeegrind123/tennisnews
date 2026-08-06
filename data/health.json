@@ -2,17 +2,17 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
     "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -57,14 +57,19 @@
       "count": 10,
       "error": ""
     },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Open Court": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis Nerd": {
@@ -72,26 +77,21 @@
       "count": 10,
       "error": ""
     },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "10sBalls": {
       "type": "rss",
-      "count": 16,
-      "error": ""
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
       "error": "",
       "recovered_via": "browser"
-    },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:415, feedparser:415, Mozilla:415); last http=415, bozo=<unknown>:3:608: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -105,19 +105,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 27074,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a266fce7f9142925 Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -141,8 +130,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -206,31 +195,31 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 86,
+      "count": 113,
       "error": ""
     }
   },
   "twitter": {
-    "tweets": 60,
-    "accounts": 12,
-    "error": ""
+    "tweets": 0,
+    "accounts": 0,
+    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9227,
-    "allowed": 7424,
-    "blocked_pct": 55.4
+    "blocked": 8980,
+    "allowed": 7450,
+    "blocked_pct": 54.7
   },
   "navigation": {
     "floored": 21,
-    "retried": 1,
-    "retry_saved": 1,
+    "retried": 0,
+    "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 608,
+    "scanned": 572,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -242,9 +231,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-05 16:14:24 UTC",
+  "generated_at": "2026-08-06 08:33:07 UTC",
   "empty_sources": [
-    "Tennis World USA",
-    "Women's Tennis Blog"
+    "10sBalls",
+    "US Open"
   ]
 }
