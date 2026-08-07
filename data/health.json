@@ -2,7 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Perfect Tennis": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -12,22 +17,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,6 +37,16 @@
       "count": 20,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
@@ -62,17 +62,12 @@
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Open Court": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -84,14 +79,20 @@
     },
     "10sBalls": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
     },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": "",
       "recovered_via": "browser"
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -130,8 +131,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -170,8 +171,18 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 101,
+        "bodyTextLen": 37,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Proxy Error 500 Internal Server Error"
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -195,20 +206,20 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 113,
+      "count": 30,
       "error": ""
     }
   },
   "twitter": {
-    "tweets": 0,
-    "accounts": 0,
-    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    "tweets": 60,
+    "accounts": 12,
+    "error": ""
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8980,
-    "allowed": 7450,
-    "blocked_pct": 54.7
+    "blocked": 8913,
+    "allowed": 7228,
+    "blocked_pct": 55.2
   },
   "navigation": {
     "floored": 21,
@@ -219,7 +230,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 572,
+    "scanned": 574,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -231,9 +242,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-06 08:33:07 UTC",
+  "generated_at": "2026-08-07 07:22:48 UTC",
   "empty_sources": [
-    "10sBalls",
-    "US Open"
+    "Tennis Now",
+    "Tennis View Magazine"
   ]
 }
