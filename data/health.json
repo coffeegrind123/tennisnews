@@ -2,7 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -12,22 +17,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -35,6 +30,16 @@
     "Tennis365": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Guardian Tennis": {
@@ -57,11 +62,6 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
@@ -72,27 +72,25 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
+    "Tennis Nerd": {
       "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
+      "count": 10,
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
     },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
     },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "Women's Tennis Blog": {
+    "10sBalls": {
       "type": "rss",
       "count": 0,
-      "error": "no entries from any user agent (Mozilla:415, feedparser:415, Mozilla:415); last http=415, bozo=<unknown>:3:608: not well-formed (invalid token)"
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -106,28 +104,29 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 27074,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a27f302c9f699c44 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/fan-zone/news",
-        "title": "Discover the Latest News from the Thrilling World of Tennis",
-        "htmlLen": 72156,
-        "bodyTextLen": 36,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Australian Open Sign In Play Compete"
-      }
+      "count": 25,
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -206,7 +205,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 89,
+      "count": 86,
       "error": ""
     }
   },
@@ -217,9 +216,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8734,
-    "allowed": 7415,
-    "blocked_pct": 54.1
+    "blocked": 8674,
+    "allowed": 6861,
+    "blocked_pct": 55.8
   },
   "navigation": {
     "floored": 21,
@@ -230,7 +229,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 579,
+    "scanned": 580,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -242,11 +241,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-08 06:54:40 UTC",
+  "generated_at": "2026-08-08 14:42:56 UTC",
   "empty_sources": [
-    "Tennis Australia",
+    "10sBalls",
+    "Tennis World USA",
     "US Open",
-    "Women's Tennis Blog",
     "World Tennis Magazine"
   ]
 }
