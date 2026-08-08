@@ -12,6 +12,11 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -32,27 +37,17 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Nerd": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -62,7 +57,7 @@
       "count": 10,
       "error": ""
     },
-    "Open Court": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -72,14 +67,9 @@
       "count": 20,
       "error": ""
     },
-    "Women's Tennis Blog": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "10sBalls": {
@@ -90,9 +80,19 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
+    "Open Court": {
+      "type": "rss",
       "count": 10,
       "error": "",
       "recovered_via": "browser"
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:415, feedparser:415, Mozilla:415); last http=415, bozo=<unknown>:3:608: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -106,29 +106,28 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 27032,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2771bfebfd09dbf Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/fan-zone/news",
+        "title": "Discover the Latest News from the Thrilling World of Tennis",
+        "htmlLen": 72156,
+        "bodyTextLen": 36,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Australian Open Sign In Play Compete"
+      }
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -143,7 +142,7 @@
     "US Open": {
       "type": "scrape",
       "count": 0,
-      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
+      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-09&endDate=2026-08-09&c"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -182,18 +181,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
-        "title": "",
-        "htmlLen": 91,
-        "bodyTextLen": 27,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Proxy Error 502 Bad Gateway"
-      }
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -217,7 +206,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 104,
+      "count": 89,
       "error": ""
     }
   },
@@ -228,9 +217,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8250,
-    "allowed": 6566,
-    "blocked_pct": 55.7
+    "blocked": 8734,
+    "allowed": 7415,
+    "blocked_pct": 54.1
   },
   "navigation": {
     "floored": 21,
@@ -241,7 +230,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 598,
+    "scanned": 579,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -253,10 +242,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-07 15:05:54 UTC",
+  "generated_at": "2026-08-08 06:54:40 UTC",
   "empty_sources": [
-    "Tennis View Magazine",
-    "Tennis World USA",
-    "US Open"
+    "Tennis Australia",
+    "US Open",
+    "Women's Tennis Blog",
+    "World Tennis Magazine"
   ]
 }
