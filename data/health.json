@@ -2,11 +2,6 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -17,22 +12,7 @@
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,14 +22,29 @@
       "count": 20,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Lob & Smash": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Tennis Now": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "BBC Tennis": {
@@ -67,6 +62,11 @@
       "count": 20,
       "error": ""
     },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
@@ -77,6 +77,11 @@
       "count": 10,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
@@ -84,13 +89,8 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "count": 10,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -104,23 +104,12 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 27074,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a27f302c9f699c44 Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -135,13 +124,21 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://ausopen.com/news",
+        "title": "News | AO",
+        "htmlLen": 45196,
+        "bodyTextLen": 857,
+        "markers": [],
+        "bodyHead": "11 - 31 Jan 2027 Skip to content Tournament Results Players Statistics Honour Roll Watch News News Listen to the AO Past Draws Visit Pre-Sale Ticket Info Accessibility Travel Packages AO Shop AO Reserve Thanks for visiting the Australian Op"
+      }
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-09&endDate=2026-08-09&c"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -150,8 +147,18 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 9,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.espn.com/tennis/",
+        "title": "",
+        "htmlLen": 1998,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -160,13 +167,13 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.tenniscanada.com/news\", waiting until \"domcontentloaded\"\n"
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 5,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_NET_PARTIAL_TRANSFER\nCall log:\n  - navigating to \"https://www.ustaflorida.com/news/\", waiting until \"domcontentloaded\"\n"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -205,7 +212,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 86,
+      "count": 87,
       "error": ""
     }
   },
@@ -216,9 +223,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8674,
-    "allowed": 6861,
-    "blocked_pct": 55.8
+    "blocked": 7670,
+    "allowed": 6292,
+    "blocked_pct": 54.9
   },
   "navigation": {
     "floored": 21,
@@ -229,7 +236,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 580,
+    "scanned": 622,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -241,11 +248,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-08 14:42:56 UTC",
+  "generated_at": "2026-08-09 06:54:48 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Tennis World USA",
-    "US Open",
-    "World Tennis Magazine"
+    "Australian Open",
+    "ESPN Tennis",
+    "Tennis Canada",
+    "USTA Florida"
   ]
 }
