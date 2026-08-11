@@ -7,7 +7,7 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,19 +32,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Open Court": {
@@ -57,6 +47,16 @@
       "count": 20,
       "error": ""
     },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
@@ -67,17 +67,7 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -87,7 +77,17 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:500, feedparser:500, Mozilla:500); last http=500, bozo=None"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+    },
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
@@ -129,8 +129,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -139,8 +139,18 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.espn.com/tennis/",
+        "title": "Tennis on ESPN - Scores, Schedule and News",
+        "htmlLen": 3361,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -154,7 +164,7 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 5,
+      "count": 15,
       "error": ""
     },
     "Rafael Nadal Fans": {
@@ -169,45 +179,45 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"http://www.tennisviewmag.com/tennis-view-magazine/news\", waiting until \"domcontentloaded\"\n"
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 3,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.brisbaneinternational.com.au/\", waiting until \"domcontentloaded\"\n"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.asiantennis.com/news/\", waiting until \"domcontentloaded\"\n"
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.tenniseurope.org/newslist/News\", waiting until \"domcontentloaded\"\n"
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 17,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://www.swissindoorsbasel.ch/en/tournament/tournament-news/\", waiting until \"domcontentloaded\"\n"
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 112,
-      "error": ""
+      "count": 0,
+      "error": "DuckDuckGo News returned nothing for any query. tennis: Error: Page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n  - navigating to \"https://duckduck | ATP tour: Error: Page.goto: NS_ERROR_PROXY_C"
     }
   },
   "twitter": {
-    "tweets": 60,
-    "accounts": 12,
-    "error": ""
+    "tweets": 0,
+    "accounts": 0,
+    "error": "no tweets from any instance (tried ['https://lightbrd.com', 'https://nitter.privacyredirect.com', 'https://nitter.tiekoetter.com', 'https://nitter.poast.org', 'https://nitter.net']) - every one failed its interstitial, rate limited us, or served empty timelines"
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8822,
-    "allowed": 7323,
-    "blocked_pct": 54.6
+    "blocked": 7296,
+    "allowed": 5669,
+    "blocked_pct": 56.3
   },
   "navigation": {
     "floored": 21,
@@ -218,7 +228,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 646,
+    "scanned": 423,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -230,9 +240,17 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-10 15:15:58 UTC",
+  "generated_at": "2026-08-11 07:05:08 UTC",
   "empty_sources": [
-    "Tennis Now",
-    "US Open"
+    "10sBalls",
+    "Asian Tennis Federation",
+    "Brisbane International",
+    "DuckDuckGo News",
+    "ESPN Tennis",
+    "Swiss Indoors Basel",
+    "Tennis Connected",
+    "Tennis Europe",
+    "Tennis View Magazine",
+    "World Tennis Magazine"
   ]
 }
