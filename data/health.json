@@ -2,7 +2,7 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Perfect Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,12 +17,22 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,7 +42,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -47,9 +57,9 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
+    "Racquet Magazine": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -57,19 +67,14 @@
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -79,20 +84,14 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "Tennis Now": {
-      "type": "rss",
       "count": 10,
       "error": "",
       "recovered_via": "browser"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -111,7 +110,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 12,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -121,8 +120,8 @@
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 20,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://tennis-infinity.com/\", waiting until \"networkidle\"\n"
     },
     "Australian Open": {
       "type": "scrape",
@@ -131,8 +130,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -171,8 +170,18 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 95,
+        "bodyTextLen": 31,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Proxy Error 504 Gateway Timeout"
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -196,7 +205,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 92,
+      "count": 74,
       "error": ""
     }
   },
@@ -207,9 +216,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9441,
-    "allowed": 7818,
-    "blocked_pct": 54.7
+    "blocked": 8581,
+    "allowed": 6139,
+    "blocked_pct": 58.3
   },
   "navigation": {
     "floored": 21,
@@ -220,7 +229,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 668,
+    "scanned": 586,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -232,8 +241,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-11 15:17:59 UTC",
+  "generated_at": "2026-08-12 07:33:34 UTC",
   "empty_sources": [
-    "World Tennis Magazine"
+    "10sBalls",
+    "Tennis Infinity",
+    "Tennis View Magazine",
+    "US Open"
   ]
 }
