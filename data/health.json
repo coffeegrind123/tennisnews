@@ -7,7 +7,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,7 +17,7 @@
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,17 +27,22 @@
       "count": 20,
       "error": ""
     },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Guardian Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
-    "Tennis365": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,7 +52,17 @@
       "count": 20,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,24 +72,14 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "10sBalls": {
       "type": "rss",
-      "count": 20,
+      "count": 16,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -85,13 +90,7 @@
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -105,8 +104,19 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26889,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2a04e5d08e647b4 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
@@ -120,8 +130,8 @@
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://tennis-infinity.com/\", waiting until \"networkidle\"\n"
+      "count": 20,
+      "error": ""
     },
     "Australian Open": {
       "type": "scrape",
@@ -170,18 +180,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
-        "title": "",
-        "htmlLen": 95,
-        "bodyTextLen": 31,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Proxy Error 504 Gateway Timeout"
-      }
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -190,8 +190,18 @@
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.asiantennis.com/news/",
+        "title": "Warning: Security Risk",
+        "htmlLen": 821,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Tennis Europe": {
       "type": "scrape",
@@ -205,7 +215,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 74,
+      "count": 82,
       "error": ""
     }
   },
@@ -216,9 +226,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8581,
-    "allowed": 6139,
-    "blocked_pct": 58.3
+    "blocked": 8272,
+    "allowed": 7076,
+    "blocked_pct": 53.9
   },
   "navigation": {
     "floored": 21,
@@ -229,7 +239,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 586,
+    "scanned": 598,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -241,11 +251,10 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-12 07:33:34 UTC",
+  "generated_at": "2026-08-12 15:09:02 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Tennis Infinity",
-    "Tennis View Magazine",
+    "Asian Tennis Federation",
+    "Tennis World USA",
     "US Open"
   ]
 }
