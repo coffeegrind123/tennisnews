@@ -7,22 +7,7 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -37,17 +22,12 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
+    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,9 +37,19 @@
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -67,30 +57,43 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
-    "Women's Tennis Blog": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
     "World Tennis Magazine": {
       "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:500, feedparser:500, Mozilla:500); last http=500, bozo=None"
+    },
+    "Open Court": {
+      "type": "rss",
       "count": 10,
-      "error": ""
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -104,19 +107,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 26889,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2a04e5d08e647b4 Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -140,8 +132,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -165,8 +157,8 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.ustaflorida.com/news/\", waiting until \"domcontentloaded\"\n"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -190,18 +182,8 @@
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.asiantennis.com/news/",
-        "title": "Warning: Security Risk",
-        "htmlLen": 821,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 15,
+      "error": ""
     },
     "Tennis Europe": {
       "type": "scrape",
@@ -215,7 +197,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 82,
+      "count": 89,
       "error": ""
     }
   },
@@ -226,20 +208,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8272,
-    "allowed": 7076,
-    "blocked_pct": 53.9
+    "blocked": 9383,
+    "allowed": 6728,
+    "blocked_pct": 58.2
   },
   "navigation": {
     "floored": 21,
-    "retried": 0,
-    "retry_saved": 0,
+    "retried": 1,
+    "retry_saved": 1,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 598,
+    "scanned": 627,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -251,10 +233,10 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-12 15:09:02 UTC",
+  "generated_at": "2026-08-13 07:33:25 UTC",
   "empty_sources": [
-    "Asian Tennis Federation",
-    "Tennis World USA",
-    "US Open"
+    "Tennis Connected",
+    "USTA Florida",
+    "World Tennis Magazine"
   ]
 }
