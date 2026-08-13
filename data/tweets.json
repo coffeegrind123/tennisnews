@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16372893969663596,
+      "score": 0.1725626305871885,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03466715193746579,
+      "score": 0.045489596316808247,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08858349311132012,
+      "score": 0.0832591014724301,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.02824713301533171,
+      "score": 0.03228932802178465,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0674376295918977,
+      "score": 0.0732220866181704,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.059182193470676554,
+      "score": 0.07449673120076383,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07500476458065423,
+      "score": 0.08134234236780244,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11171422145503827,
+      "score": 0.09838484871368725,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03680410585496136,
+      "score": 0.04208602886824126,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.20903958327963137,
+      "score": 0.189565294870889,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0674376295918977,
+      "score": 0.0732220866181704,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03593895113863854,
+      "score": 0.03785579444002656,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08673462401900708,
+      "score": 0.09959349546734775,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1221238799423538,
+      "score": 0.1351812076409259,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047977627844710775,
+      "score": 0.05112611982678717,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.4542063143027797,
+      "score": 0.4865782496843766,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04594628256801927,
+      "score": 0.051879535248310876,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06836440710324498,
+      "score": 0.0763393269813073,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04057276793012078,
+      "score": 0.048373085102905784,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08293781500848775,
+      "score": 0.09105782167556184,
       "detections": []
     }
   },
@@ -395,7 +395,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0914378823039411,
+      "score": 0.08047096664726838,
+      "detections": []
+    }
+  },
+  {
+    "title": "Zheng beat Svajda 6-3 in the third set in the NCAA singles final last November and 6-3 in the third again in the @CincyTennis qualifying final last night...",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2087866531745067287#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-13 14:39 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06163161079572761,
+      "detections": []
+    }
+  },
+  {
+    "title": "J.J. Wolf qualifies for the main draw of his hometown @CincyTennis winning second straight late night three-setter (finishing around 1:30 am last night). Since Cincinnati doesn't count for US Open Wild Card Challenge, he is the winner, it seems. Great comeback story....",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2087865709145506000#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-13 14:35 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04523854102130161,
       "detections": []
     }
   },
@@ -411,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04637003596901697,
+      "score": 0.059639112016125255,
       "detections": []
     }
   },
@@ -427,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.036762199302632116,
+      "score": 0.043853161986529055,
       "detections": []
     }
   },
@@ -443,39 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03520780406019136,
-      "detections": []
-    }
-  },
-  {
-    "title": "NCAA singles final rematch from last fall in the @CincyTennis final round of qualifying... Michael Zheng vs. Trevor Svajda. Watch the last points of that match from last November here youtu.be/7tWRrqnUosg?si=8pP8…",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisPublisher/status/2087606995872346279#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-12 21:27 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06770003200597045,
-      "detections": []
-    }
-  },
-  {
-    "title": "Roger Federer loses billionaire status as fortune wiped out in day of carnage news.com.au/sport/tennis/rog…",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/FedererBook/status/2087496728530288812#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-12 14:09 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06351979179672662,
+      "score": 0.04228180167396368,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09406502359023507,
+      "score": 0.13029463364064986,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.48040370871030047,
+      "score": 0.45758089891784537,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.19747369437769088,
+      "score": 0.19173297164385253,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046962659693738536,
+      "score": 0.05073377214998727,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03276524374839533,
+      "score": 0.03535482914469711,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23821285118633226,
+      "score": 0.2678689031347857,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12136836820971367,
+      "score": 0.10425121273434741,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16440092789149172,
+      "score": 0.18336819499462245,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.35047817558301453,
+      "score": 0.4312599678709901,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15629057134385738,
+      "score": 0.18190981703826972,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3615954372396743,
+      "score": 0.48657077049318165,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06791782457610394,
+      "score": 0.08967537365440656,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11861037341624985,
+      "score": 0.11561900813511304,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04727077125100212,
+      "score": 0.04849657514882421,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039699557572426804,
+      "score": 0.04067393788973407,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04042502583660266,
+      "score": 0.04312457350365621,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.18357117506193518,
+      "score": 0.19371527553454476,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03880282628345989,
+      "score": 0.04580593880327246,
       "detections": []
     }
   },
   {
-    "title": "Swiatek vs. Rybakina tomorrow:\n\n6-6 h2h\n\nRybakina won the last two (1-0 in 2026)\n\nSwiatek leads 5-4 on hardcourts\n\nSwiatek won the only previous final between them",
+    "title": "So it got better.\n\nGood news.",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087786245141238152#m",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087919070922371102#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-13 09:20 EEST",
+    "date": "2026-08-13 18:07 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07770583554766913,
+      "score": 0.04280451104359777,
       "detections": []
     }
   },
   {
-    "title": "In addition to reaching #1 in the rankings feeling inevitable, Rybakina now leads the very close Race \n\nVery important, this does not include all those points she defends following the US Open as she had that incredible run to end last season, this is only 2026 points",
+    "title": "Good news.\n\nPlay WILL START at time in Cincinnati today.",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/TennisUpdates26/status/2087769462036480436#m",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087918210221781284#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-13 08:13 EEST",
+    "date": "2026-08-13 18:04 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.034106124076995745,
+      "detections": []
+    }
+  },
+  {
+    "title": "Forecast is horrendous for today and for the entire week.",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087914631532622248#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-13 17:50 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03381475133432381,
+      "detections": []
+    }
+  },
+  {
+    "title": "Full Thursday OOP in Cincinnati, weather permitting:\n\n10 ATP MD matches\n14 WTA MD matches\n2 ATP Q matches\n2 WTA Q matches",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087914531485827298#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-13 17:49 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048684204004602154,
+      "detections": []
+    }
+  },
+  {
+    "title": "Swiatek vs. Rybakina: Heavyweight Toronto Showdown Set for National Bank Open Final.\n\ntennisconnected.com/swiatek-…",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisConnected/status/2087895958633816393#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-13 16:36 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06773328299205629,
-      "detections": []
-    }
-  },
-  {
-    "title": "Elena Rybakina comes back to beat Coco Gauff 5-7, 6-2, 6-2 and reach the Canada final. \n\n7th WTA1000 final!",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087765278415294487#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-13 07:56 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03471733723127878,
-      "detections": []
-    }
-  },
-  {
-    "title": "Pretty terrible loss for Kei 🥲",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087761907562262858#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-13 07:43 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0946600006384707,
-      "detections": []
-    }
-  },
-  {
-    "title": "Jaime Faria qualifies for the Cincinnati main draw! \n\nHit 9 aces.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/josemorgado/status/2087739149063196989#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-13 06:12 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03593539343600414,
+      "score": 0.045439133443934285,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03967039894539364,
+      "score": 0.044908769726664466,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039869775444614966,
+      "score": 0.046615859920122245,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.034658637855145114,
+      "score": 0.04076944513921036,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05279404209199391,
+      "score": 0.054895943852824494,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037296164386343006,
+      "score": 0.04375906353897669,
       "detections": []
     }
   }

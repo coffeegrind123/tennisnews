@@ -2,22 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,7 +17,37 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -37,29 +57,9 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Ubitennis": {
@@ -67,33 +67,30 @@
       "count": 20,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Open Court": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+      "count": 10,
+      "error": ""
     },
     "10sBalls": {
       "type": "rss",
       "count": 16,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:500, feedparser:500, Mozilla:500); last http=500, bozo=None"
-    },
-    "Open Court": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -157,8 +154,8 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.ustaflorida.com/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 15,
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -197,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 89,
+      "count": 98,
       "error": ""
     }
   },
@@ -208,20 +205,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9383,
-    "allowed": 6728,
-    "blocked_pct": 58.2
+    "blocked": 9722,
+    "allowed": 7859,
+    "blocked_pct": 55.3
   },
   "navigation": {
     "floored": 21,
-    "retried": 1,
-    "retry_saved": 1,
+    "retried": 0,
+    "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 627,
+    "scanned": 673,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -233,10 +230,6 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-13 07:33:25 UTC",
-  "empty_sources": [
-    "Tennis Connected",
-    "USTA Florida",
-    "World Tennis Magazine"
-  ]
+  "generated_at": "2026-08-13 15:09:03 UTC",
+  "empty_sources": []
 }
