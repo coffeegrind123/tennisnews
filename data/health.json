@@ -2,9 +2,9 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
+    "Tennis Connected": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis Majors": {
@@ -12,12 +12,17 @@
       "count": 20,
       "error": ""
     },
-    "Tennis365": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,7 +32,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,9 +52,19 @@
       "count": 20,
       "error": ""
     },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Racquet Magazine": {
@@ -57,30 +72,19 @@
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:500, feedparser:500, Mozilla:500); last http=500, bozo=None"
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
       "error": "",
       "recovered_via": "browser"
     },
@@ -90,16 +94,10 @@
       "error": "",
       "recovered_via": "browser"
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "ATP Tour: never got past the Cloudflare challenge"
     },
     "Tennis.com": {
       "type": "scrape",
@@ -113,12 +111,12 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 25,
+      "count": 1,
       "error": ""
     },
     "Tennis Infinity": {
@@ -198,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 20,
+      "count": 115,
       "error": ""
     }
   },
@@ -209,9 +207,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9797,
-    "allowed": 7272,
-    "blocked_pct": 57.4
+    "blocked": 8859,
+    "allowed": 7238,
+    "blocked_pct": 55.0
   },
   "navigation": {
     "floored": 21,
@@ -222,7 +220,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 595,
+    "scanned": 652,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -234,8 +232,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-14 07:37:05 UTC",
+  "generated_at": "2026-08-14 15:02:57 UTC",
   "empty_sources": [
-    "Tennis Connected"
+    "ATP Tour"
   ]
 }
