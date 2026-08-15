@@ -2,21 +2,6 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -27,7 +12,12 @@
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,9 +27,14 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Last Word on Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Tennis Now": {
@@ -47,12 +42,22 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -62,14 +67,9 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Ubitennis": {
       "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Nerd": {
@@ -82,22 +82,22 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": "",
       "recovered_via": "browser"
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "ATP Tour: never got past the Cloudflare challenge"
+      "count": 13,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -106,17 +106,28 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26931,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2b61b485ab0f103 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 1,
+      "count": 25,
       "error": ""
     },
     "Tennis Infinity": {
@@ -131,8 +142,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-16&endDate=2026-08-16&c"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -141,8 +152,8 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_GATEWAY_TIMEOUT\nCall log:\n  - navigating to \"https://www.espn.com/tennis/\", waiting until \"domcontentloaded\"\n"
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -196,20 +207,20 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 115,
+      "count": 118,
       "error": ""
     }
   },
   "twitter": {
-    "tweets": 60,
-    "accounts": 12,
+    "tweets": 50,
+    "accounts": 10,
     "error": ""
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8859,
-    "allowed": 7238,
-    "blocked_pct": 55.0
+    "blocked": 7145,
+    "allowed": 6890,
+    "blocked_pct": 50.9
   },
   "navigation": {
     "floored": 21,
@@ -220,7 +231,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 652,
+    "scanned": 628,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -232,8 +243,10 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-14 15:02:57 UTC",
+  "generated_at": "2026-08-15 06:44:36 UTC",
   "empty_sources": [
-    "ATP Tour"
+    "ESPN Tennis",
+    "Tennis World USA",
+    "US Open"
   ]
 }
