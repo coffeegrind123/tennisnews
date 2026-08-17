@@ -2,37 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,12 +17,37 @@
       "count": 20,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Tennis365": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,7 +57,12 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -65,11 +70,6 @@
     "Ubitennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Tennis Nerd": {
@@ -84,13 +84,14 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
     },
     "10sBalls": {
       "type": "rss",
       "count": 0,
-      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -104,19 +105,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 27070,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2c1161f2ac73eba Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -135,90 +125,90 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 15,
+      "error": ""
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 12,
+      "error": ""
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 10,
+      "error": ""
     },
     "Novak Djokovic": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 4,
+      "error": ""
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 11,
+      "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 15,
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 10,
+      "error": ""
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 8,
+      "error": ""
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 3,
+      "error": ""
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 15,
+      "error": ""
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 10,
+      "error": ""
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 17,
+      "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 0,
-      "error": "DuckDuckGo News returned nothing for any query. tennis: TargetClosedError: Page.goto: Target page, context or browser has been closed | ATP tour: TargetClosedError: Page.goto: Target page, context or "
+      "count": 101,
+      "error": ""
     }
   },
   "twitter": {
-    "tweets": 0,
-    "accounts": 0,
-    "error": "no tweets from any instance (tried ['https://lightbrd.com', 'https://nitter.privacyredirect.com', 'https://nitter.tiekoetter.com', 'https://nitter.poast.org', 'https://nitter.net']) - every one failed its interstitial, rate limited us, or served empty timelines"
+    "tweets": 60,
+    "accounts": 12,
+    "error": ""
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 2119,
-    "allowed": 2415,
-    "blocked_pct": 46.7
+    "blocked": 10345,
+    "allowed": 7570,
+    "blocked_pct": 57.7
   },
   "navigation": {
     "floored": 21,
@@ -229,7 +219,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 310,
+    "scanned": 657,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -241,25 +231,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-16 14:24:26 UTC",
+  "generated_at": "2026-08-17 06:54:50 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Asian Tennis Federation",
-    "Australian Open",
-    "Brisbane International",
-    "DuckDuckGo News",
-    "ESPN Tennis",
-    "Novak Djokovic",
-    "Rafael Nadal Fans",
-    "Swiss Indoors Basel",
-    "Tennis Canada",
-    "Tennis Europe",
-    "Tennis Panorama",
-    "Tennis View Magazine",
-    "Tennis World USA",
-    "US Open",
-    "USTA Florida",
-    "Wimbledon",
-    "World Tennis Magazine"
+    "10sBalls"
   ]
 }
