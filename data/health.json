@@ -12,22 +12,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,7 +22,12 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -52,14 +42,19 @@
       "count": 20,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Racquet Magazine": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis Now": {
@@ -72,7 +67,22 @@
       "count": 20,
       "error": ""
     },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -81,17 +91,6 @@
       "type": "rss",
       "count": 20,
       "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -110,7 +109,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -135,13 +134,23 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 12,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.espn.com/tennis/",
+        "title": "",
+        "htmlLen": 1998,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -195,7 +204,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 101,
+      "count": 85,
       "error": ""
     }
   },
@@ -206,9 +215,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 10345,
-    "allowed": 7570,
-    "blocked_pct": 57.7
+    "blocked": 6372,
+    "allowed": 5357,
+    "blocked_pct": 54.3
   },
   "navigation": {
     "floored": 21,
@@ -219,7 +228,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 657,
+    "scanned": 641,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -231,8 +240,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-17 06:54:50 UTC",
+  "generated_at": "2026-08-17 14:42:14 UTC",
   "empty_sources": [
-    "10sBalls"
+    "ESPN Tennis",
+    "Wimbledon"
   ]
 }
