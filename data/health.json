@@ -2,6 +2,11 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -12,7 +17,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -20,11 +25,6 @@
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Last Word on Tennis": {
@@ -37,24 +37,19 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -63,6 +58,11 @@
       "error": ""
     },
     "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -77,20 +77,20 @@
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -109,7 +109,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -134,8 +134,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 12,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "ESPN Tennis": {
       "type": "scrape",
@@ -174,12 +174,12 @@
       "empty_diagnostic": {
         "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
         "title": "",
-        "htmlLen": 101,
-        "bodyTextLen": 37,
+        "htmlLen": 95,
+        "bodyTextLen": 31,
         "markers": [
           "near-empty-body"
         ],
-        "bodyHead": "Proxy Error 500 Internal Server Error"
+        "bodyHead": "Proxy Error 504 Gateway Timeout"
       }
     },
     "Brisbane International": {
@@ -204,7 +204,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 120,
+      "count": 114,
       "error": ""
     }
   },
@@ -215,9 +215,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8586,
-    "allowed": 7035,
-    "blocked_pct": 55.0
+    "blocked": 7200,
+    "allowed": 5704,
+    "blocked_pct": 55.8
   },
   "navigation": {
     "floored": 21,
@@ -228,7 +228,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 688,
+    "scanned": 644,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -240,8 +240,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-18 06:45:34 UTC",
+  "generated_at": "2026-08-18 14:42:31 UTC",
   "empty_sources": [
-    "Tennis View Magazine"
+    "10sBalls",
+    "Tennis View Magazine",
+    "Wimbledon",
+    "World Tennis Magazine"
   ]
 }
