@@ -7,17 +7,22 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,12 +32,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Open Court": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,12 +47,17 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,17 +67,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -109,7 +109,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -134,23 +134,13 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 12,
+      "error": ""
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.espn.com/tennis/",
-        "title": "",
-        "htmlLen": 1998,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 10,
+      "error": ""
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -179,8 +169,18 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 101,
+        "bodyTextLen": 37,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Proxy Error 500 Internal Server Error"
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -204,7 +204,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 85,
+      "count": 120,
       "error": ""
     }
   },
@@ -215,9 +215,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 6372,
-    "allowed": 5357,
-    "blocked_pct": 54.3
+    "blocked": 8586,
+    "allowed": 7035,
+    "blocked_pct": 55.0
   },
   "navigation": {
     "floored": 21,
@@ -228,7 +228,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 641,
+    "scanned": 688,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -240,9 +240,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-17 14:42:14 UTC",
+  "generated_at": "2026-08-18 06:45:34 UTC",
   "empty_sources": [
-    "ESPN Tennis",
-    "Wimbledon"
+    "Tennis View Magazine"
   ]
 }
