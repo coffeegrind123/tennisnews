@@ -2,17 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Connected": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,12 +22,22 @@
       "count": 20,
       "error": ""
     },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Open Court": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,19 +47,9 @@
       "count": 20,
       "error": ""
     },
-    "Tennis365": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
       "error": ""
     },
     "Racquet Magazine": {
@@ -62,14 +57,24 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
+      "error": ""
+    },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
       "error": ""
     },
     "Tennis Nerd": {
@@ -84,13 +89,8 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "count": 10,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -109,7 +109,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 12,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -134,8 +134,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 12,
+      "error": ""
     },
     "ESPN Tennis": {
       "type": "scrape",
@@ -204,7 +204,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 114,
+      "count": 86,
       "error": ""
     }
   },
@@ -215,9 +215,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7200,
-    "allowed": 5704,
-    "blocked_pct": 55.8
+    "blocked": 8840,
+    "allowed": 7380,
+    "blocked_pct": 54.5
   },
   "navigation": {
     "floored": 21,
@@ -228,7 +228,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 644,
+    "scanned": 655,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -240,11 +240,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-18 14:42:31 UTC",
+  "generated_at": "2026-08-19 06:48:15 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Tennis View Magazine",
-    "Wimbledon",
-    "World Tennis Magazine"
+    "Tennis View Magazine"
   ]
 }
