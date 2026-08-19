@@ -80,9 +80,89 @@
     }
   },
   {
+    "title": "Four more stars are joining Stars of the Open presented by @Chase! ⭐️",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/usopen/status/2085400461759099356#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-06 19:19 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03535482914469711,
+      "detections": []
+    }
+  },
+  {
+    "title": "Montreal says Merci, Gaël ❤️\n\n@Gael_Monfils #NBO26",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisTV/status/2085207259261399525#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-06 06:32 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2678689031347857,
+      "detections": []
+    }
+  },
+  {
+    "title": "Fils first into final 16\n\nThe Frenchman eliminates Navone 6-3 6-2 in Montreal!\n\n#NBO26",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/TennisTV/status/2085445928350048593#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-06 22:20 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10425121273434741,
+      "detections": []
+    }
+  },
+  {
+    "title": "Your 2026 Mubadala DC Open champions 🏆\n\nAlex Eala & @Taylor_Fritz97 | #MubadalaDCOpen",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/mubadaladcopen/status/2084375912284311679#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-03 23:28 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.18336819499462245,
+      "detections": []
+    }
+  },
+  {
+    "title": "Soaking in the moment 🏆🎉\n\n@Taylor_Fritz97 🎊 #MubadalaDCOpen",
+    "description": "",
+    "link": "https://nitter.privacyredirect.com/mubadaladcopen/status/2084382583454826622#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-03 23:55 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.4312599678709901,
+      "detections": []
+    }
+  },
+  {
     "title": "Brandon Nakashima saved three match points to stun Daniil Medvedev. Auger-Aliassime, Tiafoe and Fritz also reached the Cincinnati last 16.\n\nperfect-tennis.com/cincinnat…",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/perfecttennisuk/status/2089963586567237794#m",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2089963586567237794#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
@@ -96,41 +176,9 @@
     }
   },
   {
-    "title": "A bit of a throwback to the old Perfect Tennis days 🎾\n\nWith Roger Federer heading into the Tennis Hall of Fame, Wilson has launched a special RF Hall of Fame collection.\n\nFour new pieces, so let's take a look 👇",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/perfecttennisuk/status/2089424081703612812#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-08-17 21:48 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05733881155844714,
-      "detections": []
-    }
-  },
-  {
-    "title": "Then the RF Hall of Fame Practice Duffel.\n\nSame cream/taupe theme with Swiss-inspired detailing.\n\n🎾 Holds up to 6 rackets\n👟 Separate shoe compartment\n🎒 Adjustable carry handles\n💰 $199",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/perfecttennisuk/status/2089424091652473177#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-08-17 21:48 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08460226770045313,
-      "detections": []
-    }
-  },
-  {
     "title": "And finally, the RF Hall of Fame Backpack.\n\n🎾 Holds 2 rackets\n💻 Padded laptop sleeve\n👟 Separate shoe tunnel\n✈️ Luggage strap\n💰 $159\n\nThe whole collection looks great, although racket prices these days are getting pretty wild.",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/perfecttennisuk/status/2089424096752787767#m",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2089424096752787767#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
@@ -144,98 +192,50 @@
     }
   },
   {
-    "title": "Roger Federer Hall of Fame Collection...",
+    "title": "Then the RF Hall of Fame Practice Duffel.\n\nSame cream/taupe theme with Swiss-inspired detailing.\n\n🎾 Holds up to 6 rackets\n👟 Separate shoe compartment\n🎒 Adjustable carry handles\n💰 $199",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/perfecttennisuk/status/2089380491753386274#m",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2089424091652473177#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
-    "date": "2026-08-17 18:55 EEST",
+    "date": "2026-08-17 21:48 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04728726782098901,
+      "score": 0.08460226770045313,
       "detections": []
     }
   },
   {
-    "title": "WTA 1000: CINCINNATI\nATTENTION FILIPINO CANADIANS\non TSN 3 NOW\nAlexandra Eala vs Amanda Anisimova.",
+    "title": "RF 01 Hall of Fame.\n\nSame 98 sq. inch head and 16x19 pattern as the Pro, but a much more manageable 318g strung weight and 319 swingweight.\n\nProbably the better option for most club players.\n\n💰 $329",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/tomtebbutt/status/2089540324326613163#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-08-18 05:30 EEST",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2089424087772713417#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-08-17 21:48 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05866427755709588,
+      "score": 0.04794466147622711,
       "detections": []
     }
   },
   {
-    "title": "ATP Cincy \nRafael Jodar d Denis Shapovalov 7-5, 4-6, 7-5\nDS up 5-1 in 3rd but things unravel. RJ has a MTO (calf), twice stops for broken shoelaces, there's an unruly fan, constant noise from adjacent Stadium (complete US national anthem) & nearby fireworks. Grandstand was a zoo.",
+    "title": "First up, the Wilson RF 01 Pro Hall of Fame.\n\nSame specs as the regular RF 01 Pro, but with a limited-edition cream/taupe cosmetic celebrating Federer's career.\n\nIt gives me some of those old Wilson nCode vibes.\n\n💰 $349",
     "description": "",
-    "link": "https://nitter.privacyredirect.com/tomtebbutt/status/2088967987223023772#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-08-16 15:35 EEST",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2089424084362743981#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-08-17 21:48 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.043023128549981776,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP Cincy 2R\nRafael Jodar d Denis Shapovalov 7-5, 4-6, 7-5\nDS up 5-1 in 3rd but things unravel. RJ has a MTO, twice stops for broken shoelaces, there's an unruly fan, constant sound from adjacent Stadium (i.e. complete US national anthem) & nearby fireworks. Grandstand was a zoo.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/tomtebbutt/status/2088819418272854296#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-08-16 05:45 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.046550349271246814,
-      "detections": []
-    }
-  },
-  {
-    "title": "WTA 1000 Cincinnati: Draw\n#34 (30)Leylah Fernandez bye then\n#98 Maria Timofeeva, 22, (UZB) or\n#37 Katerina Siniakova, 30, (CZE).\n#8 (7)Iga Swiatek, 25, (POL) bye then\nWC Venus Williams, 46, (USA) or a Qualifier.\n#1 seed Sabalenka - #2 seed Rybakina.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/tomtebbutt/status/2087307405197455810#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-08-12 01:37 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.051879535248310876,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP 1000: Cincinnati Draw\n#4 (2)Felix Auger-Aliassime bye then\n#53 Stefanos Tsitsipas or #78 Valentin Royer.\n#43 Denis Shapovalov vs #47 Adrian Mannarino.\n#69 Tallon Griekspoor vs #70 Botic van de Zandschulp. \nWC #143 Jack Draper vs #63 Martin Landaluce.\nNo. 1 seed:  #3 Zverev.",
-    "description": "",
-    "link": "https://nitter.privacyredirect.com/tomtebbutt/status/2087287049501987262#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-08-12 00:16 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0763393269813073,
+      "score": 0.05017996276665567,
       "detections": []
     }
   },
@@ -400,82 +400,162 @@
     }
   },
   {
-    "title": "Should be an amazing night with loads of good stories from Charlie and Richard Evans @Ringham7 who were both heavily involved with the ATP from its inception in the early 70s! Wish I could be there but I’m stuck in England! @atptour",
+    "title": "WTA 1000: CINCINNATI\nATTENTION FILIPINO CANADIANS\non TSN 3 NOW\nAlexandra Eala vs Amanda Anisimova.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/philip06931966/status/2089691406411411822#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-18 15:30 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0991433980721777,
-      "detections": []
-    }
-  },
-  {
-    "title": "This event is Wednesday night in San Diego... you can still get tickets. I hear a lot of tennis royalty will be there! Charlie Pasarell, His New Autobiography \"Serving First\" To Be Celebrated August 19 at La Jolla Beach & Tennis Club worldtennismagazine.com/char…",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089681624539500830#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-18 14:51 EEST",
+    "link": "https://nitter.tiekoetter.com/tomtebbutt/status/2089540324326613163#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-08-18 05:30 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.034598672737622356,
+      "score": 0.05866427755709588,
       "detections": []
     }
   },
   {
-    "title": "The only player who Venus Williams has beaten in singles in the last three years is... Peyton Stearns (Washington, DC last year)",
+    "title": "ATP Cincy \nRafael Jodar d Denis Shapovalov 7-5, 4-6, 7-5\nDS up 5-1 in 3rd but things unravel. RJ has a MTO (calf), twice stops for broken shoelaces, there's an unruly fan, constant noise from adjacent Stadium (complete US national anthem) & nearby fireworks. Grandstand was a zoo.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089522990983664084#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-18 04:21 EEST",
+    "link": "https://nitter.tiekoetter.com/tomtebbutt/status/2088967987223023772#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-08-16 15:35 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.048570966334080194,
+      "score": 0.043023128549981776,
       "detections": []
     }
   },
   {
-    "title": "Kostyuk and Stearns must have been paired together by Wilson... to show off those great looking kits",
+    "title": "ATP Cincy 2R\nRafael Jodar d Denis Shapovalov 7-5, 4-6, 7-5\nDS up 5-1 in 3rd but things unravel. RJ has a MTO, twice stops for broken shoelaces, there's an unruly fan, constant sound from adjacent Stadium (i.e. complete US national anthem) & nearby fireworks. Grandstand was a zoo.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089520255219491059#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-18 04:10 EEST",
+    "link": "https://nitter.tiekoetter.com/tomtebbutt/status/2088819418272854296#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-08-16 05:45 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04205027634644223,
+      "score": 0.046550349271246814,
       "detections": []
     }
   },
   {
-    "title": "U.S. Open Announces Official Mixed Doubles Entries (And Most Wild Card Entries) worldtennismagazine.com/u-s-… via @WorldTennisMag",
+    "title": "WTA 1000 Cincinnati: Draw\n#34 (30)Leylah Fernandez bye then\n#98 Maria Timofeeva, 22, (UZB) or\n#37 Katerina Siniakova, 30, (CZE).\n#8 (7)Iga Swiatek, 25, (POL) bye then\nWC Venus Williams, 46, (USA) or a Qualifier.\n#1 seed Sabalenka - #2 seed Rybakina.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089468406084911439#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-18 00:44 EEST",
+    "link": "https://nitter.tiekoetter.com/tomtebbutt/status/2087307405197455810#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-08-12 01:37 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5041055799197801,
+      "score": 0.051879535248310876,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP 1000: Cincinnati Draw\n#4 (2)Felix Auger-Aliassime bye then\n#53 Stefanos Tsitsipas or #78 Valentin Royer.\n#43 Denis Shapovalov vs #47 Adrian Mannarino.\n#69 Tallon Griekspoor vs #70 Botic van de Zandschulp. \nWC #143 Jack Draper vs #63 Martin Landaluce.\nNo. 1 seed:  #3 Zverev.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/tomtebbutt/status/2087287049501987262#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-08-12 00:16 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0763393269813073,
+      "detections": []
+    }
+  },
+  {
+    "title": "Venus and Serena Williams each earned $7,900 for their first round women’s doubles exit from @CincyTennis … before taxes",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089763728812118039#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 20:17 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.040929644908059455,
+      "detections": []
+    }
+  },
+  {
+    "title": "Popyrin is into the main draw, according to my calculations, so another Aussie will get that wild card, which is the Australian Open reciprocal",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089762062838669696#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 20:11 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03699697641632859,
+      "detections": []
+    }
+  },
+  {
+    "title": "Portugal tennis trending… buy stock now and collect dividends!",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089750801254060358#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 19:26 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07952689783495509,
+      "detections": []
+    }
+  },
+  {
+    "title": "I’m so excited that the USTA is doing a “pre-qualifying” mini tournament for the @usopen for Americans players… those who know me know how passionate I am about “earning” spots and wild card events … I actually suggested this to Eric Boutarax",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089750602905506159#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 19:25 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09321470849843405,
+      "detections": []
+    }
+  },
+  {
+    "title": "I’m going to guess that that USTA didn’t announce the last women’s singles wild card because they are waiting to hear from Serena Williams… and if she declines, it will go to Sofia Kenin.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2089749947327418637#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 19:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03679457505599227,
       "detections": []
     }
   },
@@ -492,6 +572,38 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.08314474589953268,
+      "detections": []
+    }
+  },
+  {
+    "title": "The ultimate honor in tennis, live around the world. 🌎\n\nWatch the Class of 2026 Induction Ceremony on August 29 at 6:30 p.m. EST via @TennisChannel and our international broadcast partners.\n\ntennisfame.com/induction-cel…",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisHalloFame/status/2089756660940120273#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 19:49 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10421757177180241,
+      "detections": []
+    }
+  },
+  {
+    "title": "Cc: @BlairHenley",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/BastienFachan/status/2089715096553497076#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-18 17:04 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.069306547968495,
       "detections": []
     }
   },
@@ -524,118 +636,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.1393130282977484,
-      "detections": []
-    }
-  },
-  {
-    "title": "Listen to Tony!",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/BlairHenley/status/2089387847543291966#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-17 19:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.041925657180388744,
-      "detections": []
-    }
-  },
-  {
-    "title": "He screamed “Jaaaaa!” right in his face 😂🤭",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/1gamesetmatch/status/2089134669367529974#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-08-17 02:38 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.1783185242957607,
-      "detections": []
-    }
-  },
-  {
-    "title": "Four more stars are joining Stars of the Open presented by @Chase! ⭐️",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/usopen/status/2085400461759099356#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-08-06 19:19 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03535482914469711,
-      "detections": []
-    }
-  },
-  {
-    "title": "Montreal says Merci, Gaël ❤️\n\n@Gael_Monfils #NBO26",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisTV/status/2085207259261399525#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-08-06 06:32 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2678689031347857,
-      "detections": []
-    }
-  },
-  {
-    "title": "Fils first into final 16\n\nThe Frenchman eliminates Navone 6-3 6-2 in Montreal!\n\n#NBO26",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisTV/status/2085445928350048593#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-08-06 22:20 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10425121273434741,
-      "detections": []
-    }
-  },
-  {
-    "title": "Your 2026 Mubadala DC Open champions 🏆\n\nAlex Eala & @Taylor_Fritz97 | #MubadalaDCOpen",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/mubadaladcopen/status/2084375912284311679#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-08-03 23:28 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.18336819499462245,
-      "detections": []
-    }
-  },
-  {
-    "title": "Soaking in the moment 🏆🎉\n\n@Taylor_Fritz97 🎊 #MubadalaDCOpen",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/mubadaladcopen/status/2084382583454826622#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-08-03 23:55 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.4312599678709901,
       "detections": []
     }
   },
@@ -720,6 +720,38 @@
     }
   },
   {
+    "title": "82 - Aryna Sabalenka (+82) holds the best winner-unforced error differential of any player at WTA-1000 events in 2026, with Linda Noskova (+24) next-best this season. Gulf.\n\n#CincyTennis | @CincyTennis @WTA",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/OptaAce/status/2089868312998281554#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-19 03:13 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.049360030444547065,
+      "detections": []
+    }
+  },
+  {
+    "title": "Top seven seeds - Sabalenka, Rybakina, Pegula, Gauff, Andreeva, Noskova and Swiatek - all into last 16 at #CincyTennis.\n\nIf we include Keys as well, every Grand Slam champion dating back to US Open 2024 is into the 4R.\n\nPlus seeds 9 & 10 - Anisimova and Kostyuk - also through.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/MattyAT/status/2089868817623306511#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-19 03:15 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04886480560488348,
+      "detections": []
+    }
+  },
+  {
     "title": "And the pattern holds for an eighth match, with Swiatek prevailing 6-3 1-6 6-3. \n\nInto her first final of the year (!) and will meet either Gauff or Rybakina in a marquee Toronto decider.",
     "description": "",
     "link": "https://nitter.tiekoetter.com/MattyAT/status/2087730070601556470#m",
@@ -768,114 +800,98 @@
     }
   },
   {
-    "title": "An incredible stat from @OptaAce:\n\nAryna Sabalenka (+93) has the highest winner-unforced error differential of any player at WTA 1000 events this season, with Pegula (+15) the next best.",
+    "title": "Cincinnati WTA 1000 R16",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/MattyAT/status/2085604724498432312#m",
-    "handle": "mattyat",
-    "author": "Matt Trollope",
-    "outlet": "Tennis Australia",
-    "date": "2026-08-07 08:51 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.19371527553454476,
-      "detections": []
-    }
-  },
-  {
-    "title": "As per @OptaAce, she's the first player to win 24 of her first 25 hardcourt matches in a season since Serena in 2015.",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/MattyAT/status/2084882547734159720#m",
-    "handle": "mattyat",
-    "author": "Matt Trollope",
-    "outlet": "Tennis Australia",
-    "date": "2026-08-05 09:01 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.043214890343378665,
-      "detections": []
-    }
-  },
-  {
-    "title": "Cincinnati ATP Masters 1000 R16, top half:\n\n[1] Zverev vs. [18] Paul\n[7] Cobolli vs. [12] Jódar\n\n[14] Mensik vs. Tirante\n[5] De Minaur vs. [21] Fils",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089578590295724138#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089915720226230378#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-18 08:02 EEST",
+    "date": "2026-08-19 06:21 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07850233769080862,
+      "score": 0.06830565617523421,
       "detections": []
     }
   },
   {
-    "title": "Cincinnati WTA 1000 R16, bottom half: \n\n[6] Noskova vs. [9] Anisimova \n[15] Cirstea vs. [3] Pegula\n \n[7] Swiatek vs. Parry \n[14] Shnaider vs. [2] Rybakina\n\nYes, please.",
+    "title": "Not the best hardcourt summer from Jovic so far.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089576769774870722#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089915447277703526#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-18 07:54 EEST",
+    "date": "2026-08-19 06:20 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.061655324409225436,
+      "score": 0.03973493439959763,
       "detections": []
     }
   },
   {
-    "title": "It's been a tough season for Anisimova, but she gets  one of her best wins to reach the last 16 in Cincinnati.\n\nFinally finding some form.",
+    "title": "Cincinnati ATP Masters 1000 R16:\n\n[1] Zverev vs. [18] Paul\n[7] Cobolli vs. [12] Jódar\n\n[14] Mensik vs. Tirante\n[5] De Minaur vs. [21] Fils\n\n[6] Fritz vs. [Q] O'Connell\n[27] Nakashima vs. Borges\n\n[10] Musetti vs. [Q] Faria\n[2] Auger-Aliassime vs. [17] Tiafoe",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089575931346076035#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089903980855894164#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-18 07:51 EEST",
+    "date": "2026-08-19 05:35 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039917860430387545,
+      "score": 0.06700899742928407,
       "detections": []
     }
   },
   {
-    "title": "Full house for Venus & Serena 🏡\n\n#CincyTennis",
+    "title": "Tien to Tiafoe at the net.\n\n\"Where is your injury? Thar surgery was fake. Stop lying.\"",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/CincyTennis/status/2089525166816579960#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089903892767068396#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-18 04:29 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.043727042497440805,
-      "detections": []
-    }
-  },
-  {
-    "title": "That’s a crazy stat",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089557317230493902#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-18 06:37 EEST",
+    "date": "2026-08-19 05:34 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04494358575359131,
+      "score": 0.10931399612959557,
+      "detections": []
+    }
+  },
+  {
+    "title": "Frances Tiafoe defeats Learner Tien 6-4, 4-6, 6-4 to reach the last 16 in Cincinnati for a 3rd consecutive year.\n\nFaces Felix Auger-Aliassime tomorrow night.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2089903428885422458#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-19 05:33 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06743604931848682,
+      "detections": []
+    }
+  },
+  {
+    "title": "US Open men’s & women’s wild cards",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/MichalSamulski/status/2089771636211757135#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-08-18 20:49 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03840756068922271,
       "detections": []
     }
   },
@@ -940,22 +956,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05302882918007845,
-      "detections": []
-    }
-  },
-  {
-    "title": "WTA1000 Cincinnati doubles draw incl. S.Williams/V.Williams vs Kostyuk/Stearns",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/MichalSamulski/status/2088387859514274100#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-08-15 01:10 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05198387628322634,
       "detections": []
     }
   }

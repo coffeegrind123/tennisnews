@@ -27,11 +27,6 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
@@ -48,6 +43,11 @@
       "error": ""
     },
     "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -72,14 +72,14 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -109,7 +109,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -129,8 +129,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -169,18 +169,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
-        "title": "",
-        "htmlLen": 95,
-        "bodyTextLen": 31,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Proxy Error 504 Gateway Timeout"
-      }
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -204,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 86,
+      "count": 41,
       "error": ""
     }
   },
@@ -215,9 +205,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8840,
-    "allowed": 7380,
-    "blocked_pct": 54.5
+    "blocked": 9599,
+    "allowed": 7243,
+    "blocked_pct": 57.0
   },
   "navigation": {
     "floored": 21,
@@ -228,7 +218,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 655,
+    "scanned": 595,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -240,8 +230,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-19 06:48:15 UTC",
+  "generated_at": "2026-08-19 14:46:11 UTC",
   "empty_sources": [
-    "Tennis View Magazine"
+    "US Open"
   ]
 }
