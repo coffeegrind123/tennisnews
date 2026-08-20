@@ -17,11 +17,6 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -37,19 +32,24 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "BBC Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Racquet Magazine": {
@@ -62,9 +62,9 @@
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
+    "Open Court": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Ubitennis": {
@@ -104,17 +104,28 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 27049,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2df5895fe152d19 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 25,
+      "count": 11,
       "error": ""
     },
     "Tennis Infinity": {
@@ -124,13 +135,13 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
+      "count": 14,
       "error": ""
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: socket hang up\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -169,8 +180,18 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 95,
+        "bodyTextLen": 31,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Proxy Error 504 Gateway Timeout"
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -194,7 +215,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 41,
+      "count": 88,
       "error": ""
     }
   },
@@ -205,9 +226,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9599,
-    "allowed": 7243,
-    "blocked_pct": 57.0
+    "blocked": 8425,
+    "allowed": 7141,
+    "blocked_pct": 54.1
   },
   "navigation": {
     "floored": 21,
@@ -218,7 +239,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 595,
+    "scanned": 620,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -230,8 +251,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-19 14:46:11 UTC",
+  "generated_at": "2026-08-20 06:44:58 UTC",
   "empty_sources": [
-    "US Open"
+    "Tennis View Magazine",
+    "Tennis World USA"
   ]
 }
