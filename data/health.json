@@ -2,9 +2,9 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Connected": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Ireland": {
@@ -12,17 +12,7 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,9 +22,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Last Word on Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Guardian Tennis": {
@@ -42,7 +32,7 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -52,7 +42,7 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -62,9 +52,19 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Ubitennis": {
@@ -77,11 +77,6 @@
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
@@ -89,8 +84,13 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -109,12 +109,12 @@
       "empty_diagnostic": {
         "url": "https://www.tennisworldusa.org/",
         "title": "Just a moment...",
-        "htmlLen": 27049,
+        "htmlLen": 26931,
         "bodyTextLen": 270,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2df5895fe152d19 Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2e21594ff165ded Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
@@ -145,7 +145,7 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 12,
+      "count": 13,
       "error": ""
     },
     "ESPN Tennis": {
@@ -160,8 +160,8 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_GATEWAY_TIMEOUT\nCall log:\n  - navigating to \"https://www.tenniscanada.com/news\", waiting until \"domcontentloaded\"\n"
     },
     "USTA Florida": {
       "type": "scrape",
@@ -180,18 +180,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
-        "title": "",
-        "htmlLen": 95,
-        "bodyTextLen": 31,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Proxy Error 504 Gateway Timeout"
-      }
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -215,7 +205,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 88,
+      "count": 114,
       "error": ""
     }
   },
@@ -226,9 +216,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8425,
-    "allowed": 7141,
-    "blocked_pct": 54.1
+    "blocked": 8610,
+    "allowed": 7461,
+    "blocked_pct": 53.6
   },
   "navigation": {
     "floored": 21,
@@ -239,7 +229,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 620,
+    "scanned": 608,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -251,9 +241,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-20 06:44:58 UTC",
+  "generated_at": "2026-08-20 14:46:42 UTC",
   "empty_sources": [
-    "Tennis View Magazine",
-    "Tennis World USA"
+    "10sBalls",
+    "Tennis Canada",
+    "Tennis World USA",
+    "World Tennis Magazine"
   ]
 }
