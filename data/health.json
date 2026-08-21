@@ -7,12 +7,22 @@
       "count": 20,
       "error": ""
     },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,9 +37,9 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Perfect Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Open Court": {
@@ -37,17 +47,7 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
+    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,12 +57,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -77,6 +72,11 @@
       "count": 10,
       "error": ""
     },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
@@ -84,13 +84,15 @@
     },
     "World Tennis Magazine": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
     },
     "10sBalls": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -104,19 +106,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 26931,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2e21594ff165ded Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -135,7 +126,7 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 14,
+      "count": 15,
       "error": ""
     },
     "US Open": {
@@ -150,7 +141,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Novak Djokovic": {
@@ -160,8 +151,8 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_GATEWAY_TIMEOUT\nCall log:\n  - navigating to \"https://www.tenniscanada.com/news\", waiting until \"domcontentloaded\"\n"
+      "count": 11,
+      "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
@@ -175,7 +166,7 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 8,
+      "count": 9,
       "error": ""
     },
     "Tennis View Magazine": {
@@ -205,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 114,
+      "count": 110,
       "error": ""
     }
   },
@@ -216,20 +207,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8610,
-    "allowed": 7461,
-    "blocked_pct": 53.6
+    "blocked": 9194,
+    "allowed": 7523,
+    "blocked_pct": 55.0
   },
   "navigation": {
     "floored": 21,
-    "retried": 0,
-    "retry_saved": 0,
+    "retried": 1,
+    "retry_saved": 1,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 608,
+    "scanned": 657,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -241,11 +232,6 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-20 14:46:42 UTC",
-  "empty_sources": [
-    "10sBalls",
-    "Tennis Canada",
-    "Tennis World USA",
-    "World Tennis Magazine"
-  ]
+  "generated_at": "2026-08-21 06:54:12 UTC",
+  "empty_sources": []
 }
