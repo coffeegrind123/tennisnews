@@ -12,12 +12,17 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,34 +32,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -62,12 +42,12 @@
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Tennis365": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -77,20 +57,40 @@
       "count": 20,
       "error": ""
     },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "10sBalls": {
       "type": "rss",
       "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": "",
       "recovered_via": "browser"
     },
@@ -106,12 +106,23 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26989,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2ea500dfc83ed9d Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -136,8 +147,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a.ct\") to be visible\n"
     },
     "ESPN Tennis": {
       "type": "scrape",
@@ -196,7 +207,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 110,
+      "count": 85,
       "error": ""
     }
   },
@@ -207,20 +218,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9194,
-    "allowed": 7523,
-    "blocked_pct": 55.0
+    "blocked": 5951,
+    "allowed": 5600,
+    "blocked_pct": 51.5
   },
   "navigation": {
     "floored": 21,
-    "retried": 1,
-    "retry_saved": 1,
+    "retried": 0,
+    "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 657,
+    "scanned": 613,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -232,6 +243,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-21 06:54:12 UTC",
-  "empty_sources": []
+  "generated_at": "2026-08-21 14:45:02 UTC",
+  "empty_sources": [
+    "Tennis World USA",
+    "Wimbledon"
+  ]
 }
