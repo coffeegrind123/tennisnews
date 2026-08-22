@@ -2,9 +2,14 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
+    "Tennis Ireland": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
+      "error": ""
+    },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Tennis Connected": {
@@ -12,9 +17,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Majors": {
@@ -22,12 +27,22 @@
       "count": 20,
       "error": ""
     },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,21 +57,6 @@
       "count": 20,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Open Court": {
       "type": "rss",
       "count": 10,
@@ -67,9 +67,9 @@
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Nerd": {
@@ -77,22 +77,20 @@
       "count": 10,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -106,23 +104,12 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 26989,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2ea500dfc83ed9d Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -147,8 +134,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a.ct\") to be visible\n"
+      "count": 13,
+      "error": ""
     },
     "ESPN Tennis": {
       "type": "scrape",
@@ -182,8 +169,8 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: Timeout 75000ms exceeded.\nCall log:\n  - navigating to \"http://www.tennisviewmag.com/tennis-view-magazine/news\", waiting until \"domcontentloaded\"\n"
     },
     "Brisbane International": {
       "type": "scrape",
@@ -207,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 85,
+      "count": 88,
       "error": ""
     }
   },
@@ -218,20 +205,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 5951,
-    "allowed": 5600,
-    "blocked_pct": 51.5
+    "blocked": 10327,
+    "allowed": 7213,
+    "blocked_pct": 58.9
   },
   "navigation": {
     "floored": 21,
-    "retried": 0,
+    "retried": 1,
     "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 613,
+    "scanned": 639,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -243,9 +230,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-21 14:45:02 UTC",
+  "generated_at": "2026-08-22 06:43:22 UTC",
   "empty_sources": [
-    "Tennis World USA",
-    "Wimbledon"
+    "Tennis View Magazine"
   ]
 }
