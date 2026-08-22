@@ -7,22 +7,22 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
+    "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -42,11 +42,6 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
@@ -57,7 +52,7 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -72,14 +67,14 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
+    "Tennis Nerd": {
       "type": "rss",
-      "count": 16,
+      "count": 10,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -87,10 +82,17 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": ""
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -109,7 +111,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -129,13 +131,13 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_GATEWAY_TIMEOUT\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a.ct\") to be visible\n"
     },
     "ESPN Tennis": {
       "type": "scrape",
@@ -170,7 +172,17 @@
     "Tennis View Magazine": {
       "type": "scrape",
       "count": 0,
-      "error": "Page.goto: Timeout 75000ms exceeded.\nCall log:\n  - navigating to \"http://www.tennisviewmag.com/tennis-view-magazine/news\", waiting until \"domcontentloaded\"\n"
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 101,
+        "bodyTextLen": 37,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Proxy Error 500 Internal Server Error"
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -194,7 +206,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 88,
+      "count": 86,
       "error": ""
     }
   },
@@ -205,20 +217,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 10327,
-    "allowed": 7213,
-    "blocked_pct": 58.9
+    "blocked": 6677,
+    "allowed": 5401,
+    "blocked_pct": 55.3
   },
   "navigation": {
     "floored": 21,
-    "retried": 1,
+    "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 639,
+    "scanned": 607,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -230,8 +242,10 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-22 06:43:22 UTC",
+  "generated_at": "2026-08-22 14:38:48 UTC",
   "empty_sources": [
-    "Tennis View Magazine"
+    "Tennis View Magazine",
+    "US Open",
+    "Wimbledon"
   ]
 }
