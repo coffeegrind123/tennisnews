@@ -1,17 +1,49 @@
 [
   {
-    "title": "Favorite chill tennis podcast\nMitch will zen you out 😀\nWe discuss Sinner’s decision on whether to play US Open or not 👇",
+    "title": "🎟️ Re: US Open ticket resale situation\nThere’s a tell here\nOn the resale market: Ticket prices don’t go down much if at all as the event gets closer.\nDid you notice they don’t budge?\nWhat does that say?\nAn individual wouldn’t want to take a loss\nWho can afford to take a loss? 🤔",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/AmyLundyDahl/status/2090229710349328666#m",
+    "link": "https://nitter.tiekoetter.com/AmyLundyDahl/status/2091120294073172403#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
-    "date": "2026-08-20 03:09 EEST",
+    "date": "2026-08-22 14:08 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06491329907125146,
+      "score": 0.0709756125466723,
+      "detections": []
+    }
+  },
+  {
+    "title": "The superb summer of Brandon Nakashima rolls on 🔥\n\nQueen's: Semifinal\nWashington: Semifinal\nMontreal: Final\nCincinnati: Semifinal*\n\nJust a completely transformed player since coach Wayne Ferreira came on board in June.\n\nCould he be US tennis' saviour?! 🇺🇸",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/BastienFachan/status/2090928140038115361#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-08-22 01:24 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0493930555332042,
+      "detections": []
+    }
+  },
+  {
+    "title": "2026 so far:\n\n- Alcaraz completes the career Grand Slam (youngest ever) and then gets injured and does play the next two Majors. \n\n- Sinner rolls through the clay season and loses second round at RG and then rolls to his second Wimbledon title. \n\n- Zverev finally grabs a Major after losing 3 finals in the absence of Sinner and Alcaraz along the way. \n\n- US Open: Alcaraz returns from a long injury layoff and Sinner is out with a knee injury. \n\nCrazy to say the least.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisConnected/status/2090810655662014783#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-08-21 17:38 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08523158399892826,
       "detections": []
     }
   },
@@ -48,34 +80,18 @@
     }
   },
   {
-    "title": "HERE WE GO! 👋🏻🇺🇸",
+    "title": "🇺🇸 All-American semi-final! Brandon Nakashima beat Taylor Fritz and Frances Tiafoe defeated Lorenzo Musetti to reach the Cincinnati final four. 🎾\n\nperfect-tennis.com/cincinnat…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/carlosalcaraz/status/2090484945760157726#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-20 20:03 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.043986051230183565,
-      "detections": []
-    }
-  },
-  {
-    "title": "5. Nothing addressing calendar reform though I realize that’s more the tours. But the Slams could step in and wield some leverage on this front.\n6. At least things are being tried\n7. But I’d still be pissed about the money",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/AmyLundyDahl/status/2090473863532441782#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-20 19:19 EEST",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2091089538512802103#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-08-22 12:06 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04724664673880539,
+      "score": 0.07061619378435438,
       "detections": []
     }
   },
@@ -140,22 +156,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05557983714154884,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tommy Paul saved match point to shock Alexander Zverev! Auger-Aliassime also crashed out as Cincinnati's draw blew wide open.\n\nperfect-tennis.com/cincinnat…",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2090329774501552437#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-08-20 09:47 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.056718172809122634,
       "detections": []
     }
   },
@@ -400,82 +400,82 @@
     }
   },
   {
-    "title": "Shocker... Jannik Sinner withdraws from the 2026 U.S. Open, the USTA just announced",
+    "title": "Official… Serena Williams and Carlos Alcaraz playing @usopen mixed doubles",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2090809187269849555#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091163877740302509#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-21 17:32 EEST",
+    "date": "2026-08-22 17:01 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05769658939271755,
+      "score": 0.05322745784037556,
       "detections": []
     }
   },
   {
-    "title": "Sure, it's nice that the 2026 US Open singles champs will earn $5.5 million...but Ken Rosewall, the 1970 US Open champion got a brand new..... Ford Pinto in addition to his $20,000 first prize check.",
+    "title": "250 years ago today, on August 22, 1776, the British landed on Long Island during the American Revolution. At least eight British men are landing on Long Island now to compete in U.S. Open qualifying. My story worldtennismagazine.com/exac…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2090775351668396319#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091138104866275740#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-21 15:17 EEST",
+    "date": "2026-08-22 15:19 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03517723015945795,
+      "score": 0.10271238807524297,
       "detections": []
     }
   },
   {
-    "title": "From the new @Jon_Wertheim SMS tennis news service…. My guess… Serena takes the final @usopen wild card (or Stan and Grigor get the two men’s WCs) and Grigor and Serena play in the mixed and Carlos Alcaraz goes to Tobacco country",
+    "title": "The new book \"Charlie Pasarell: Serving First: Dreams Realized and Lessons Learned from Family, Friends and a Life in Tennis\" is the top-ranked @NewChapterMedia book here a.co/d/0doxsOE6 #Amazon via @Amazon",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2090564341191860729#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091127436289221091#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-21 01:19 EEST",
+    "date": "2026-08-22 14:36 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0613236186167262,
+      "score": 0.0524783608121529,
       "detections": []
     }
   },
   {
-    "title": "Ethan Quinn and Gabriel Diallo have withdrawn from the US Open Men’s Main Draw Singles. Martin Damm and Yibing Wu move into Main Draw. Carlos Taberner is the first player out. The replacement for the wild card allocated to Martin Damm will be announced at a later date.",
+    "title": "I filmed this in early June... Breaking Down Stan Wawrinka’s US Open “Wild Card” Chances invidious.tiekoetter.com/MVgtfW3mUII?si=K7_s… via @YouTube",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2090551669427736583#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091126966145388985#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-21 00:28 EEST",
+    "date": "2026-08-22 14:34 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.059307179707290505,
+      "score": 0.07328540550620087,
       "detections": []
     }
   },
   {
-    "title": "Alejandro Davidovich Fokina (ESP) has withdrawn from the US Open Men's Main Draw Singles.\n \nAlexei Popyrin (AUS) moves into Main Draw.\n \nThe wild card previously allocated to Alexei Popyrin has now been awarded to Dane Sweeny (AUS).\n \nMartin Damm (USA) is the first player out.",
+    "title": "Tennis in Southeast Asia is on the rise 📈\n\nThe following four players will rise to career-high WTA rankings on Monday. \n\n🇵🇭 Alex Eala – #18\n🇮🇩 Janice Tjen – #35\n🇹🇭 Lanlana Tararudee – #72\n🇹🇭 Mananchaya Sawangkaew – #97\n\nEala will also become the highest-ranked Southeast Asian woman in WTA history. \n\nWhat a moment for the region.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2090457370447008134#m",
+    "link": "https://nitter.tiekoetter.com/TennisAsia/status/2091026158733398346#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-20 18:14 EEST",
-    "is_retweet": false,
+    "date": "2026-08-22 07:54 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04316478556882986,
+      "score": 0.06326998270316732,
       "detections": []
     }
   },
@@ -800,82 +800,82 @@
     }
   },
   {
-    "title": "Coco Gauff:\n\n17 WTA 1000 semifinals\n5 in 2026\n\n22yo\n\nMind blowing",
+    "title": "carlos doesn't play when it comes to doubles partners",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2090998034788204600#m",
+    "link": "https://nitter.tiekoetter.com/psgvds/status/2091167027608125556#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-22 06:02 EEST",
-    "is_retweet": false,
+    "date": "2026-08-22 17:14 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06988760503029029,
+      "score": 0.04398625091472037,
       "detections": []
     }
   },
   {
-    "title": "Frances Tiafoe’s Masters 1000 semfinals \n\nIndian Wells 2023\nCincinnati 2024\nCincinnati 2026",
+    "title": "19 year old Jan Kumstat just won a 3rd consecutive Challenger.\n\nLiberec (as a WC)\nHamburg (from Q)\nPrague\n\n17 consecutive wins\n\nUp from outside the top 500 to inside the top 200 in a month.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2090974309162336467#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091168676997193990#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-22 04:28 EEST",
+    "date": "2026-08-22 17:20 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08444660849565591,
+      "score": 0.08688694206124246,
       "detections": []
     }
   },
   {
-    "title": "Unreal tiebreak from Tiafoe.",
+    "title": "OFFICIAL!\n\nSerena Williams and Carlos Alcaraz will play mixed doubles TOGETHER at the US Open 2026.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2090961755539222675#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091164137619419592#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-22 03:38 EEST",
-    "is_retweet": false,
+    "date": "2026-08-22 17:02 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09187242729794766,
+      "score": 0.05297592622249422,
       "detections": []
     }
   },
   {
-    "title": "Fantastic draw!",
+    "title": "Osaka/Nishikori, Venus/Bublik, who initially asked for wild cards, won't play.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2090952363586535549#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091166989339287728#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-22 03:01 EEST",
+    "date": "2026-08-22 17:13 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04991768853330651,
+      "score": 0.07060928590954473,
       "detections": []
     }
   },
   {
-    "title": "Brandon Nakashima wins the last four games from 2-3* down in the 3rd set to beat Taylor Fritz 7-6(9), 4-6, 6-3 and reach back to back Masters 1000 semifinals: Montreal and now Cincinnati.",
+    "title": "US Open official mixed doubles list atm.\n\nMore recent changes:\nShnaider looking for a partner as Medvedev withdrew\nMladenovic (and not Ostapenko) now with Arevalo",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2090926836867813874#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091166296738087109#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-22 01:19 EEST",
+    "date": "2026-08-22 17:11 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07406960781947458,
+      "score": 0.055135607121523815,
       "detections": []
     }
   },

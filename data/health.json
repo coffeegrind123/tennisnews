@@ -2,11 +2,6 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -17,22 +12,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,9 +22,29 @@
       "count": 10,
       "error": ""
     },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -67,6 +67,11 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
     "Open Court": {
       "type": "rss",
       "count": 10,
@@ -77,22 +82,15 @@
       "count": 10,
       "error": ""
     },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -111,13 +109,23 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/fan-zone/news",
+        "title": "Discover the Latest News from the Thrilling World of Tennis",
+        "htmlLen": 223125,
+        "bodyTextLen": 102,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Australian Open Sign In Play Compete Fan Zone Summer Events Clubs, Coaches & Officials States About Us"
+      }
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -126,23 +134,33 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: Timeout 75000ms exceeded.\nCall log:\n  - navigating to \"https://ausopen.com/news\", waiting until \"domcontentloaded\"\n"
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_GATEWAY_TIMEOUT\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a.ct\") to be visible\n"
+      "count": 13,
+      "error": ""
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.espn.com/tennis/",
+        "title": "Tennis on ESPN - Scores, Schedule and News",
+        "htmlLen": 3361,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -176,12 +194,12 @@
       "empty_diagnostic": {
         "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
         "title": "",
-        "htmlLen": 101,
-        "bodyTextLen": 37,
+        "htmlLen": 91,
+        "bodyTextLen": 27,
         "markers": [
           "near-empty-body"
         ],
-        "bodyHead": "Proxy Error 500 Internal Server Error"
+        "bodyHead": "Proxy Error 502 Bad Gateway"
       }
     },
     "Brisbane International": {
@@ -206,7 +224,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 86,
+      "count": 106,
       "error": ""
     }
   },
@@ -217,20 +235,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 6677,
-    "allowed": 5401,
-    "blocked_pct": 55.3
+    "blocked": 8382,
+    "allowed": 6898,
+    "blocked_pct": 54.9
   },
   "navigation": {
     "floored": 21,
-    "retried": 0,
+    "retried": 1,
     "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 607,
+    "scanned": 626,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -242,10 +260,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-22 14:38:48 UTC",
+  "generated_at": "2026-08-23 06:42:02 UTC",
   "empty_sources": [
-    "Tennis View Magazine",
-    "US Open",
-    "Wimbledon"
+    "Australian Open",
+    "ESPN Tennis",
+    "Tennis Australia",
+    "Tennis View Magazine"
   ]
 }
