@@ -22,12 +22,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,14 +42,14 @@
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Open Court": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Racquet Magazine": {
@@ -77,20 +77,20 @@
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:403, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -104,8 +104,19 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26989,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a303133b79504547 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
@@ -124,7 +135,7 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
+      "count": 13,
       "error": ""
     },
     "US Open": {
@@ -139,7 +150,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Novak Djokovic": {
@@ -189,22 +200,12 @@
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
-        "title": "Tournament news · Swiss Indoors Basel",
-        "htmlLen": 45073,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 17,
+      "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 85,
+      "count": 70,
       "error": ""
     }
   },
@@ -215,9 +216,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 10215,
-    "allowed": 7801,
-    "blocked_pct": 56.7
+    "blocked": 8326,
+    "allowed": 6872,
+    "blocked_pct": 54.8
   },
   "navigation": {
     "floored": 21,
@@ -228,7 +229,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 638,
+    "scanned": 587,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -240,8 +241,10 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-24 06:57:11 UTC",
+  "generated_at": "2026-08-24 14:54:22 UTC",
   "empty_sources": [
-    "Swiss Indoors Basel"
+    "10sBalls",
+    "Tennis World USA",
+    "World Tennis Magazine"
   ]
 }
