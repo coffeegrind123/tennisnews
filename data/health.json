@@ -2,17 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -22,9 +17,9 @@
       "count": 20,
       "error": ""
     },
-    "Lob & Smash": {
+    "Perfect Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis365": {
@@ -32,12 +27,12 @@
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -52,22 +47,27 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -77,22 +77,20 @@
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "10sBalls": {
       "type": "rss",
       "count": 16,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -106,19 +104,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 26838,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a2fababf1ef3f107 Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -177,7 +164,7 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 9,
+      "count": 10,
       "error": ""
     },
     "Tennis View Magazine": {
@@ -202,12 +189,22 @@
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 17,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+        "title": "Tournament news · Swiss Indoors Basel",
+        "htmlLen": 45073,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 88,
+      "count": 85,
       "error": ""
     }
   },
@@ -218,20 +215,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9108,
-    "allowed": 7814,
-    "blocked_pct": 53.8
+    "blocked": 10215,
+    "allowed": 7801,
+    "blocked_pct": 56.7
   },
   "navigation": {
     "floored": 21,
-    "retried": 1,
-    "retry_saved": 1,
+    "retried": 0,
+    "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 626,
+    "scanned": 638,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -243,8 +240,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-23 14:35:51 UTC",
+  "generated_at": "2026-08-24 06:57:11 UTC",
   "empty_sources": [
-    "Tennis World USA"
+    "Swiss Indoors Basel"
   ]
 }

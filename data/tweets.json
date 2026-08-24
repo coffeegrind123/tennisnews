@@ -11,7 +11,55 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06980256182478962,
+      "score": 0.0709756125466723,
+      "detections": []
+    }
+  },
+  {
+    "title": "🚨Novak Djokovic is GUARANTEED to be seeded top 4 at the US Open.\n\nThis means he can't play one of Alcaraz or Zverev before the final and neither of them before the semifinal.\n\nAlso worth pointing out how incredible it is to be top 4 at 39 years old.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/DjokovicFan_/status/2091245173011550616#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-08-22 22:24 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11225008003676859,
+      "detections": []
+    }
+  },
+  {
+    "title": "One lone DF in the victory 🏆",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/AmyLundyDahl/status/2091687323649835338#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-08-24 03:41 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04238687625696288,
+      "detections": []
+    }
+  },
+  {
+    "title": "Stan the man denied 😞😢\n\nThe 41-year-old isn’t on the qualifying list either. \n\nUS Open wildcards:\n\n🇺🇸 Darwin Blanch\n🇺🇸 Michael Zheng\n🇺🇸 JJ Wolf\n🇺🇸 Sebastian Gorzny\n🇺🇸 Jack Kennedy\n🇺🇸 Patrick Kypson\n🇫🇷 Gaël Monfils\n🇦🇺 Dane Sweeny",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TheFirstServeAU/status/2091281233393389629#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-08-23 00:47 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06756997169324006,
       "detections": []
     }
   },
@@ -27,55 +75,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03751304585443685,
+      "score": 0.039539735821091486,
       "detections": []
     }
   },
   {
-    "title": "The superb summer of Brandon Nakashima rolls on 🔥\n\nQueen's: Semifinal\nWashington: Semifinal\nMontreal: Final\nCincinnati: Semifinal*\n\nJust a completely transformed player since coach Wayne Ferreira came on board in June.\n\nCould he be US tennis' saviour?! 🇺🇸",
+    "title": "Arthur Fils and Frances Tiafoe are into the Cincinnati Open final! A first-time Masters 1000 champion is guaranteed. 🎾\n\nperfect-tennis.com/cincinnat…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/BastienFachan/status/2090928140038115361#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-22 01:24 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04513715859586352,
-      "detections": []
-    }
-  },
-  {
-    "title": "2026 so far:\n\n- Alcaraz completes the career Grand Slam (youngest ever) and then gets injured and does play the next two Majors. \n\n- Sinner rolls through the clay season and loses second round at RG and then rolls to his second Wimbledon title. \n\n- Zverev finally grabs a Major after losing 3 finals in the absence of Sinner and Alcaraz along the way. \n\n- US Open: Alcaraz returns from a long injury layoff and Sinner is out with a knee injury. \n\nCrazy to say the least.",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisConnected/status/2090810655662014783#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-21 17:38 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07673088062642391,
-      "detections": []
-    }
-  },
-  {
-    "title": "It was a well written press release \nMuch to give thumbs up\nNow let’s look at math\nNBA, NFL, MLB player % of revenue ~ 50%\nUS Open 2025 revenue = $561 M\n2026 US Open prize money = $108 M\nPercent of players take? ~19% 😬",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/AmyLundyDahl/status/2090579343948886402#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-21 02:18 EEST",
+    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2091416423906025534#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-08-23 09:45 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2243531868654621,
+      "score": 0.04887479325685699,
       "detections": []
     }
   },
@@ -91,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07937606553612594,
+      "score": 0.07061619378435438,
       "detections": []
     }
   },
@@ -107,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04076411421035146,
+      "score": 0.04329873209474451,
       "detections": []
     }
   },
@@ -123,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05074364489642369,
+      "score": 0.05257246556794231,
       "detections": []
     }
   },
@@ -139,23 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03317298365877446,
-      "detections": []
-    }
-  },
-  {
-    "title": "US Open Prize Money 2026",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/perfecttennisuk/status/2090496179075231887#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-08-20 20:48 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05584660232495942,
+      "score": 0.0385540779199622,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031630623639772586,
+      "score": 0.03487727700395046,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0674376295918977,
+      "score": 0.0732220866181704,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03593895113863854,
+      "score": 0.03785579444002656,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08673462401900708,
+      "score": 0.09959349546734775,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03419672292954768,
+      "score": 0.04011619627844751,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3805444408157251,
+      "score": 0.5250368602383791,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06361911692197822,
+      "score": 0.06553610767526971,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5805643388065285,
+      "score": 0.6003325481652627,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05145628626014426,
+      "score": 0.05678969992839821,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06266747471144568,
+      "score": 0.07831612787633327,
       "detections": []
     }
   },
@@ -395,87 +395,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.034099828242786505,
+      "score": 0.03530690979739597,
       "detections": []
     }
   },
   {
-    "title": "Charlie Pasarell, @joeldrucker and @Ringham7 earlier this week at the LaJolla Beach & Tennis Club talking tennis and Charlie's new book \"Serving First: Dreams Realized and Lessons Learned from Family, Friends and a Life in Tennis\" for sale here a.co/d/0dHVjfvc via @Amazon",
+    "title": "The Free-To-The-Public U.S. Open Qualifying Tournament In 2026 May Be The Most Star-Studded Ever worldtennismagazine.com/the-…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091329234690077021#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091503988600381939#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-23 03:58 EEST",
+    "date": "2026-08-23 15:33 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03754133131915385,
+      "score": 0.46494098420231256,
       "detections": []
     }
   },
   {
-    "title": "Gritty win for Jess Pegula… it could finally be her year at the U.S. Open too",
+    "title": "Charlie Pasarell signing a copy of his new book “Serving First” at a special book launch event at the LaJolla Beach & Tennis Club",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091297577580847451#m",
+    "link": "https://nitter.tiekoetter.com/NewChapterMedia/status/2091318429869314373#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-23 01:52 EEST",
-    "is_retweet": false,
+    "date": "2026-08-23 03:15 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031030083622599333,
+      "score": 0.03871926573884083,
       "detections": []
     }
   },
   {
-    "title": "In \"The Pros, The Forgotten Era of Tennis\" Peter Underwood explains why professional players were forced into what was often called the traveling circus where these sporting outcasts played each other during long and rather tatty tours all over the world.\na.co/d/09TGg8dp",
+    "title": "A relative popcorn first round doubles match for an ATP 250 in Winston Salem this week",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091245095399899198#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091499489097916672#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-22 22:24 EEST",
+    "date": "2026-08-23 15:15 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04085072959099302,
+      "score": 0.039986381689181276,
       "detections": []
     }
   },
   {
-    "title": "Grigor Dimitrov practicing with Novak Djokovic on Ashe Stadium Saturday",
+    "title": "Cruz Hewitt on Growing Up, Getting Stronger and Chasing the Grand Slams worldtennismagazine.com/cruz…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091232102209495506#m",
+    "link": "https://nitter.tiekoetter.com/WorldTennisMag/status/2091484172267237472#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-22 21:32 EEST",
-    "is_retweet": false,
+    "date": "2026-08-23 14:14 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.052830870678220815,
+      "score": 0.06215406090036261,
       "detections": []
     }
   },
   {
-    "title": "Official… Serena Williams and Carlos Alcaraz playing @usopen mixed doubles",
+    "title": "Mike Bryan, left, won twice as many men’s doubles majors as John McEnroe (18 to 9)",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091163877740302509#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091481444912648692#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-22 17:01 EEST",
+    "date": "2026-08-23 14:03 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050486130393447966,
+      "score": 0.0483166558069777,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04569047222024164,
+      "score": 0.06507204583464041,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0640302805458777,
+      "score": 0.07641288267547033,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03193101527559687,
+      "score": 0.03889895546883914,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04507110703842754,
+      "score": 0.04471370486636552,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040636364262656315,
+      "score": 0.0445931659622156,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0544333455638923,
+      "score": 0.06052012474883538,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05258931034102781,
+      "score": 0.06270602503854844,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038744872104979886,
+      "score": 0.043986051230183565,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0573954112752446,
+      "score": 0.06410691207880413,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15629057134385738,
+      "score": 0.18190981703826972,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3615954372396743,
+      "score": 0.48657077049318165,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06791782457610394,
+      "score": 0.08967537365440656,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.049786959392969725,
+      "score": 0.049360030444547065,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04469350198615136,
+      "score": 0.04886480560488348,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039699557572426804,
+      "score": 0.04067393788973407,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04727077125100212,
+      "score": 0.04849657514882421,
       "detections": []
     }
   },
@@ -795,7 +795,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04042502583660266,
+      "score": 0.04312457350365621,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ivanovic and Ibrahimovic crossover!",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091490383012274368#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-23 14:38 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05336288541387989,
       "detections": []
     }
   },
@@ -811,7 +827,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.030620984738983593,
+      "score": 0.035783094390202524,
       "detections": []
     }
   },
@@ -827,7 +843,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.045990249368593875,
+      "score": 0.05752991989684323,
       "detections": []
     }
   },
@@ -843,7 +859,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051329703016225046,
+      "score": 0.058339934231172196,
       "detections": []
     }
   },
@@ -859,23 +875,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05917422893346963,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP Final is before the WTA final tomorrow",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091326936727388496#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-23 03:49 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0355002302274519,
+      "score": 0.06903263213165367,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03773511906596729,
+      "score": 0.03959871709977114,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05575582477435383,
+      "score": 0.059203822861651524,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08910454816285564,
+      "score": 0.08924468290648184,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.37685428500348694,
+      "score": 0.4654853419204785,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03304144659549461,
+      "score": 0.03840756068922271,
       "detections": []
     }
   }
