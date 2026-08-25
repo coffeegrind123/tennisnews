@@ -2,9 +2,9 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
+    "Perfect Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis Connected": {
@@ -17,12 +17,17 @@
       "count": 10,
       "error": ""
     },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,16 +52,6 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
@@ -67,12 +62,12 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -80,6 +75,11 @@
     "10sBalls": {
       "type": "rss",
       "count": 16,
+      "error": ""
+    },
+    "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -104,8 +104,19 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26989,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a30b55aa1e5d2a76 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
@@ -124,13 +135,13 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://ausopen.com/news\", waiting until \"domcontentloaded\"\n"
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-26&endDate=2026-08-26&c"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -142,9 +153,9 @@
       "count": 0,
       "error": "",
       "empty_diagnostic": {
-        "url": "https://www.espn.in/tennis/",
+        "url": "https://www.espn.com/tennis/",
         "title": "",
-        "htmlLen": 1211,
+        "htmlLen": 1998,
         "bodyTextLen": 0,
         "markers": [
           "near-empty-body"
@@ -159,8 +170,16 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tenniscanada.com/news",
+        "title": "Tennis Canada News | Tennis Canada",
+        "htmlLen": 338874,
+        "bodyTextLen": 4588,
+        "markers": [],
+        "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
+      }
     },
     "USTA Florida": {
       "type": "scrape",
@@ -179,8 +198,18 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 101,
+        "bodyTextLen": 37,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Proxy Error 500 Internal Server Error"
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -204,20 +233,20 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 82,
+      "count": 131,
       "error": ""
     }
   },
   "twitter": {
-    "tweets": 60,
-    "accounts": 12,
-    "error": ""
+    "tweets": 0,
+    "accounts": 0,
+    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9970,
-    "allowed": 7545,
-    "blocked_pct": 56.9
+    "blocked": 7245,
+    "allowed": 6726,
+    "blocked_pct": 51.9
   },
   "navigation": {
     "floored": 21,
@@ -228,7 +257,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 614,
+    "scanned": 563,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -240,9 +269,12 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-25 06:46:14 UTC",
+  "generated_at": "2026-08-25 14:50:26 UTC",
   "empty_sources": [
+    "Australian Open",
     "ESPN Tennis",
-    "US Open"
+    "Tennis Canada",
+    "Tennis View Magazine",
+    "Tennis World USA"
   ]
 }
