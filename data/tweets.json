@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0709756125466723,
+      "score": 0.06980256182478962,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11225008003676859,
+      "score": 0.13507659714545017,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04238687625696288,
+      "score": 0.040409379272863685,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06756997169324006,
+      "score": 0.060208787817332764,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039539735821091486,
+      "score": 0.03751304585443685,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04638757260163253,
+      "score": 0.04464758571373171,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06628584413107359,
+      "score": 0.07564546901529182,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04887479325685699,
+      "score": 0.0449754189323091,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07061619378435438,
+      "score": 0.07937606553612594,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04329873209474451,
+      "score": 0.04076411421035146,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03487727700395046,
+      "score": 0.031630623639772586,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0732220866181704,
+      "score": 0.0674376295918977,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03785579444002656,
+      "score": 0.03593895113863854,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09959349546734775,
+      "score": 0.08673462401900708,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.062163415073987593,
+      "score": 0.055743544829777156,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08118831152334638,
+      "score": 0.0747853291209016,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06553610767526971,
+      "score": 0.06361911692197822,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.6003325481652627,
+      "score": 0.5805643388065285,
       "detections": []
     }
   },
@@ -395,87 +395,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05678969992839821,
+      "score": 0.05145628626014426,
       "detections": []
     }
   },
   {
-    "title": "Great story at the @WSOpen From the tennis hot-bed of Utah, takes advantage of this week, gets an ATP shot. Quinn was in the SF of our @Verofutures in May! Utah Native Quinn Vandecasteele, Ranked No. 483, Takes Advantage of Winston-Salem Open Opportunity worldtennismagazine.com/utah…",
+    "title": "Certainly the most star-studded @USOpen qualifying tournament ever starts today at 11 am at Flushing Meadows.... My post... The Free-To-The-Public U.S. Open Qualifying Tournament In 2026 May Be The Most Star-Studded Ever worldtennismagazine.com/the-…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091718568123490773#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091866401816408089#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-24 05:45 EEST",
+    "date": "2026-08-24 15:33 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05222854799570191,
+      "score": 0.1793946981725442,
       "detections": []
     }
   },
   {
-    "title": "Stanford bound son of former @usopen quarterfinalist Linda Harvey Wild",
+    "title": "Take The Subway To The U.S. Open! Randy Walker Shows You... invidious.tiekoetter.com/Uw19s7CqSJU?is=AZUS… via @YouTube",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091602912908541961#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091854661078720810#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-23 22:06 EEST",
+    "date": "2026-08-24 14:46 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07007534434640741,
+      "score": 0.47156799361999896,
       "detections": []
     }
   },
   {
-    "title": "Photo of the U.S. Open grounds taken Sunday that a friend just sent me",
+    "title": "Cruz Hewitt’s dad on the cover the old Tennis Week magazine from 2001 after he won the @usopen",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091559686403178951#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091846740680806862#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-23 19:14 EEST",
+    "date": "2026-08-24 14:15 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06379458710716923,
+      "score": 0.03260343968493536,
       "detections": []
     }
   },
   {
-    "title": "The Free-To-The-Public U.S. Open Qualifying Tournament In 2026 May Be The Most Star-Studded Ever worldtennismagazine.com/the-…",
+    "title": "The Devastating U.S. Open Loss That Spurred Pete Sampras To Win 13 More Major Titles worldtennismagazine.com/the-…",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091503988600381939#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091838450974511178#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-23 15:33 EEST",
+    "date": "2026-08-24 13:42 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.46494098420231256,
+      "score": 0.07410592862597691,
       "detections": []
     }
   },
   {
-    "title": "Charlie Pasarell signing a copy of his new book “Serving First” at a special book launch event at the LaJolla Beach & Tennis Club",
+    "title": "Three open spots (3 byes) in the qualifying rounds of the  15K men's USTA Pro Circuit event in Champaign, Ill. Preston Stearns, brother of WTA pro Peyton Stearns, playing in the qualies. He had originally signed up to play U.S. Open mixed doubles with his sister.",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/NewChapterMedia/status/2091318429869314373#m",
+    "link": "https://nitter.tiekoetter.com/TennisPublisher/status/2091828224925839605#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-08-23 03:15 EEST",
-    "is_retweet": true,
+    "date": "2026-08-24 13:01 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03871926573884083,
+      "score": 0.0375288869067636,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038677914410475196,
+      "score": 0.03660874818553699,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.056630471137468816,
+      "score": 0.05141858816806223,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037535819835207214,
+      "score": 0.03456515552170431,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06507204583464041,
+      "score": 0.04569047222024164,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0445931659622156,
+      "score": 0.040636364262656315,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06052012474883538,
+      "score": 0.0544333455638923,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06270602503854844,
+      "score": 0.05258931034102781,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.043986051230183565,
+      "score": 0.038744872104979886,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06410691207880413,
+      "score": 0.0573954112752446,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.18190981703826972,
+      "score": 0.15629057134385738,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.48657077049318165,
+      "score": 0.3615954372396743,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08967537365440656,
+      "score": 0.06791782457610394,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.049360030444547065,
+      "score": 0.049786959392969725,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04886480560488348,
+      "score": 0.04469350198615136,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04067393788973407,
+      "score": 0.039699557572426804,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04849657514882421,
+      "score": 0.04727077125100212,
       "detections": []
     }
   },
@@ -795,71 +795,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04312457350365621,
+      "score": 0.04042502583660266,
       "detections": []
     }
   },
   {
-    "title": "New career highs on ATP Top 100:\n\n6. Cobolli\n11. Fils\n17. Nakashima\n39. Mérida\n40. Van Assche\n42. Tirante\n61. Vallejo\n70. Faria\n87. Shimabukuro\n92. Damm",
+    "title": "New ATP Top 10:\n1- Sinner, 12.800\n2- Zverev, 7.790 (+1)\n3- Alcaraz, 7.160 (-1)\n4- Auger-Aliassime, 4.640\n5- Djokovic, 3.770\n6- Cobolli, 3.710 (+3)\n7- De Minaur, 3.650 (+1)\n8- Medvedev, 3.580 (-1)\n9- Shelton, 3.480 (-3)\n10- Fritz, 3.475 (-1)",
     "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091721060777361435#m",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091705651294618064#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-24 05:55 EEST",
-    "is_retweet": false,
+    "date": "2026-08-24 04:54 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.4083629465723904,
-      "detections": []
-    }
-  },
-  {
-    "title": "New career highs on WTA Top 100:\n\n6. Noskova\n14. Jovic\n18. Eala\n29. Bejlek\n35. Tjen\n38. Bartůňková\n67. Korneeva\n72. Tararudee\n77. Vandewinkel\n97. Sawangkaew\n100. Preston",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091720341890486558#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-24 05:52 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08163851927142879,
-      "detections": []
-    }
-  },
-  {
-    "title": "US Open Men's Singles seeds:\n\nArnaldi and Buse are next on the line...",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091719882115018992#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-24 05:50 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.039621274664311264,
-      "detections": []
-    }
-  },
-  {
-    "title": "US Open Women's singles seeds:\n\nTjen and Vekic are the next possible on the line...",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091719582494908765#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-08-24 05:49 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05044978769120005,
+      "score": 0.05542918780736848,
       "detections": []
     }
   },
@@ -871,11 +823,75 @@
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
     "date": "2026-08-24 05:07 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05164643860683555,
+      "detections": []
+    }
+  },
+  {
+    "title": "US Open Women's singles seeds:\n\nTjen and Vekic are the next possible on the line...",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091719582494908765#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-24 05:49 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.050215413624276284,
+      "detections": []
+    }
+  },
+  {
+    "title": "US Open Men's Singles seeds:\n\nArnaldi and Buse are next on the line...",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091719882115018992#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-24 05:50 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.035087463790417606,
+      "detections": []
+    }
+  },
+  {
+    "title": "New career highs on WTA Top 100:\n\n6. Noskova\n14. Jovic\n18. Eala\n29. Bejlek\n35. Tjen\n38. Bartůňková\n67. Korneeva\n72. Tararudee\n77. Vandewinkel\n97. Sawangkaew\n100. Preston",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/josemorgado/status/2091720341890486558#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-08-24 05:52 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06697220657204035,
+      "detections": []
+    }
+  },
+  {
+    "title": "Arthur Fils and Learner Tien joining the men's field of the Kooyong Classic, that will be held from 12–14 January 2027 at Kooyong Lawn Tennis Club, in the week prior to the Australian Open.\n\n*\"Nick Kyrgios is no longer part of the confirmed field for the 2027 Kooyong Classic.\"",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/MichalSamulski/status/2091790003579810168#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-08-24 10:29 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05623766717323148,
+      "score": 0.03826960952670907,
       "detections": []
     }
   },
@@ -891,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.059440985528575525,
+      "score": 0.05705505498341676,
       "detections": []
     }
   },
@@ -907,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04117697627696794,
+      "score": 0.03529165564971682,
       "detections": []
     }
   },
@@ -923,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03959871709977114,
+      "score": 0.03773511906596729,
       "detections": []
     }
   },
@@ -939,23 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.059203822861651524,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP250 Winston-Salem Open wild cards\n\nCruz Hewitt\nStefanos Tsitsipas\nDaniil Medvedev",
-    "description": "",
-    "link": "https://nitter.tiekoetter.com/MichalSamulski/status/2090510751454667097#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-08-20 21:46 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08924468290648184,
+      "score": 0.05575582477435383,
       "detections": []
     }
   }
