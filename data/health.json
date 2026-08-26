@@ -2,17 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Perfect Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -22,22 +17,27 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,22 +47,12 @@
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -70,6 +60,16 @@
     "Open Court": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "10sBalls": {
@@ -82,14 +82,14 @@
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "ATP Tour": {
@@ -104,8 +104,19 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26989,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a313933caa7a5023 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
@@ -142,9 +153,9 @@
       "count": 0,
       "error": "",
       "empty_diagnostic": {
-        "url": "https://www.espn.in/tennis/",
-        "title": "Problem loading page",
-        "htmlLen": 812,
+        "url": "https://www.espn.com/tennis/",
+        "title": "Tennis on ESPN - Scores, Schedule and News",
+        "htmlLen": 3361,
         "bodyTextLen": 0,
         "markers": [
           "near-empty-body"
@@ -164,10 +175,10 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 351502,
-        "bodyTextLen": 4633,
+        "htmlLen": 338448,
+        "bodyTextLen": 7407,
         "markers": [],
-        "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
+        "bodyHead": "Skip to main menu Skip to main content Skip to footer Open the mobile menu Close the mobile menu Play Play Tennis 101 Tennis 101 Progressive Tennis Tennis Courts and Surfaces Tennis Points and Rules Tennis Shot Playbook Tennis Equipment Ace"
       }
     },
     "USTA Florida": {
@@ -187,8 +198,18 @@
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
+        "title": "",
+        "htmlLen": 820,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Brisbane International": {
       "type": "scrape",
@@ -212,7 +233,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 105,
+      "count": 110,
       "error": ""
     }
   },
@@ -223,9 +244,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8832,
-    "allowed": 6905,
-    "blocked_pct": 56.1
+    "blocked": 6723,
+    "allowed": 6360,
+    "blocked_pct": 51.4
   },
   "navigation": {
     "floored": 21,
@@ -236,7 +257,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 592,
+    "scanned": 561,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -248,9 +269,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-26 06:50:20 UTC",
+  "generated_at": "2026-08-26 14:54:32 UTC",
   "empty_sources": [
     "ESPN Tennis",
-    "Tennis Canada"
+    "Tennis Canada",
+    "Tennis View Magazine",
+    "Tennis World USA"
   ]
 }
