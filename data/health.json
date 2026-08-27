@@ -2,12 +2,17 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,27 +22,12 @@
       "count": 10,
       "error": ""
     },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,19 +37,14 @@
       "count": 20,
       "error": ""
     },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Racquet Magazine": {
@@ -67,9 +52,24 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "10sBalls": {
@@ -109,18 +109,18 @@
       "empty_diagnostic": {
         "url": "https://www.tennisworldusa.org/",
         "title": "Just a moment...",
-        "htmlLen": 26989,
+        "htmlLen": 26968,
         "bodyTextLen": 270,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a313933caa7a5023 Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a31cae9c4a78ca12 Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -130,8 +130,18 @@
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 20,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://tennis-infinity.com/",
+        "title": "",
+        "htmlLen": 319158,
+        "bodyTextLen": 137,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "Application error: a client-side exception has occurred while loading tennis-infinity.com (see the browser console for more information)."
+      }
     },
     "Australian Open": {
       "type": "scrape",
@@ -140,8 +150,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: failed to decompress 'gzip' encoding: Error: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subT"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -175,10 +185,10 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 338448,
-        "bodyTextLen": 7407,
+        "htmlLen": 217501,
+        "bodyTextLen": 4163,
         "markers": [],
-        "bodyHead": "Skip to main menu Skip to main content Skip to footer Open the mobile menu Close the mobile menu Play Play Tennis 101 Tennis 101 Progressive Tennis Tennis Courts and Surfaces Tennis Points and Rules Tennis Shot Playbook Tennis Equipment Ace"
+        "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
       }
     },
     "USTA Florida": {
@@ -193,23 +203,13 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 9,
+      "count": 10,
       "error": ""
     },
     "Tennis View Magazine": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "http://www.tennisviewmag.com/tennis-view-magazine/news",
-        "title": "",
-        "htmlLen": 820,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 10,
+      "error": ""
     },
     "Brisbane International": {
       "type": "scrape",
@@ -228,12 +228,22 @@
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 17,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+        "title": "Tournament news · Swiss Indoors Basel",
+        "htmlLen": 30942,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 110,
+      "count": 109,
       "error": ""
     }
   },
@@ -244,9 +254,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 6723,
-    "allowed": 6360,
-    "blocked_pct": 51.4
+    "blocked": 7671,
+    "allowed": 5871,
+    "blocked_pct": 56.6
   },
   "navigation": {
     "floored": 21,
@@ -257,7 +267,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 561,
+    "scanned": 506,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -269,11 +279,13 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-26 14:54:32 UTC",
+  "generated_at": "2026-08-27 17:28:34 UTC",
   "empty_sources": [
     "ESPN Tennis",
+    "Swiss Indoors Basel",
     "Tennis Canada",
-    "Tennis View Magazine",
-    "Tennis World USA"
+    "Tennis Infinity",
+    "Tennis World USA",
+    "US Open"
   ]
 }
