@@ -7,11 +7,6 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 10,
@@ -22,12 +17,22 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,17 +42,17 @@
       "count": 20,
       "error": ""
     },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
     "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -67,22 +72,17 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "10sBalls": {
       "type": "rss",
       "count": 16,
       "error": ""
     },
-    "Tennis Nerd": {
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -104,23 +104,12 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "Just a moment...",
-        "htmlLen": 26968,
-        "bodyTextLen": 270,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a31cae9c4a78ca12 Performance and Se"
-      },
-      "challenge_retry": "never cleared"
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 12,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -130,18 +119,8 @@
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://tennis-infinity.com/",
-        "title": "",
-        "htmlLen": 319158,
-        "bodyTextLen": 137,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Application error: a client-side exception has occurred while loading tennis-infinity.com (see the browser console for more information)."
-      }
+      "count": 20,
+      "error": ""
     },
     "Australian Open": {
       "type": "scrape",
@@ -150,8 +129,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: failed to decompress 'gzip' encoding: Error: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subT"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -160,18 +139,8 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.espn.com/tennis/",
-        "title": "Tennis on ESPN - Scores, Schedule and News",
-        "htmlLen": 3361,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 13,
+      "error": ""
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -185,8 +154,8 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 217501,
-        "bodyTextLen": 4163,
+        "htmlLen": 338656,
+        "bodyTextLen": 4644,
         "markers": [],
         "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
       }
@@ -228,22 +197,12 @@
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
-        "title": "Tournament news · Swiss Indoors Basel",
-        "htmlLen": 30942,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 18,
+      "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 109,
+      "count": 84,
       "error": ""
     }
   },
@@ -254,9 +213,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7671,
-    "allowed": 5871,
-    "blocked_pct": 56.6
+    "blocked": 9571,
+    "allowed": 7476,
+    "blocked_pct": 56.1
   },
   "navigation": {
     "floored": 21,
@@ -267,7 +226,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 506,
+    "scanned": 581,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -279,13 +238,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-27 17:28:34 UTC",
+  "generated_at": "2026-08-28 18:13:05 UTC",
   "empty_sources": [
-    "ESPN Tennis",
-    "Swiss Indoors Basel",
-    "Tennis Canada",
-    "Tennis Infinity",
-    "Tennis World USA",
-    "US Open"
+    "Tennis Canada"
   ]
 }
