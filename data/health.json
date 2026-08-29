@@ -2,11 +2,6 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 10,
@@ -17,14 +12,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Lob & Smash": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Perfect Tennis": {
@@ -37,7 +27,17 @@
       "count": 10,
       "error": ""
     },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -45,6 +45,16 @@
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Racquet Magazine": {
@@ -57,29 +67,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Tennis Nerd": {
@@ -92,10 +82,21 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "ATP Tour: never got past the Cloudflare challenge"
     },
     "Tennis.com": {
       "type": "scrape",
@@ -124,13 +125,13 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_PROXY_GATEWAY_TIMEOUT\nCall log:\n  - navigating to \"https://ausopen.com/news\", waiting until \"domcontentloaded\"\n"
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-06-30&endDate=2026-08-30&c"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -154,8 +155,8 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 338656,
-        "bodyTextLen": 4644,
+        "htmlLen": 217804,
+        "bodyTextLen": 4162,
         "markers": [],
         "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
       }
@@ -202,7 +203,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 84,
+      "count": 115,
       "error": ""
     }
   },
@@ -213,9 +214,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9571,
-    "allowed": 7476,
-    "blocked_pct": 56.1
+    "blocked": 7512,
+    "allowed": 7107,
+    "blocked_pct": 51.4
   },
   "navigation": {
     "floored": 21,
@@ -226,7 +227,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 581,
+    "scanned": 555,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -238,8 +239,12 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-28 18:13:05 UTC",
+  "generated_at": "2026-08-29 12:15:40 UTC",
   "empty_sources": [
-    "Tennis Canada"
+    "ATP Tour",
+    "Australian Open",
+    "Tennis Canada",
+    "US Open",
+    "World Tennis Magazine"
   ]
 }
