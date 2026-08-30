@@ -7,16 +7,6 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -37,7 +27,27 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,14 +57,9 @@
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
+    "Racquet Magazine": {
       "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Ubitennis": {
@@ -62,44 +67,34 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Nerd": {
+    "10sBalls": {
       "type": "rss",
-      "count": 10,
+      "count": 16,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "Open Court": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 13,
+      "count": 14,
       "error": ""
     },
     "Tennis.com": {
@@ -144,7 +139,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 12,
+      "count": 13,
       "error": ""
     },
     "Novak Djokovic": {
@@ -159,8 +154,8 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 230215,
-        "bodyTextLen": 4162,
+        "htmlLen": 338659,
+        "bodyTextLen": 4644,
         "markers": [],
         "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
       }
@@ -177,7 +172,7 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis View Magazine": {
@@ -207,7 +202,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 114,
+      "count": 76,
       "error": ""
     }
   },
@@ -218,9 +213,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9129,
-    "allowed": 7195,
-    "blocked_pct": 55.9
+    "blocked": 10013,
+    "allowed": 7855,
+    "blocked_pct": 56.0
   },
   "navigation": {
     "floored": 21,
@@ -231,7 +226,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 613,
+    "scanned": 579,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -243,7 +238,7 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-30 11:22:23 UTC",
+  "generated_at": "2026-08-30 18:13:42 UTC",
   "empty_sources": [
     "Tennis Canada"
   ]
