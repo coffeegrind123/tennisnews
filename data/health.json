@@ -2,7 +2,22 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -17,24 +32,14 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Tennis Now": {
@@ -43,16 +48,6 @@
       "error": ""
     },
     "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -67,22 +62,17 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -92,9 +82,21 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 14,
+      "count": 16,
       "error": ""
     },
     "Tennis.com": {
@@ -104,8 +106,19 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennisworldusa.org/",
+        "title": "Just a moment...",
+        "htmlLen": 26989,
+        "bodyTextLen": 270,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a33bf05f18417d87 Performance and Se"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
@@ -139,7 +152,7 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 13,
+      "count": 15,
       "error": ""
     },
     "Novak Djokovic": {
@@ -154,8 +167,8 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 338659,
-        "bodyTextLen": 4644,
+        "htmlLen": 338592,
+        "bodyTextLen": 4643,
         "markers": [],
         "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
       }
@@ -172,7 +185,7 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 11,
+      "count": 12,
       "error": ""
     },
     "Tennis View Magazine": {
@@ -197,25 +210,42 @@
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 18,
+      "count": 19,
       "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 76,
+      "count": 120,
       "error": ""
     }
   },
   "twitter": {
     "tweets": 0,
     "accounts": 0,
-    "error": "no tweets from any instance (tried ['https://lightbrd.com', 'https://nitter.privacyredirect.com', 'https://nitter.tiekoetter.com', 'https://nitter.poast.org', 'https://nitter.net']) - every one failed its interstitial, rate limited us, or served empty timelines"
+    "error": "no tweets from any instance (tried ['https://nuku.trabun.org', 'https://lightbrd.com', 'https://nitter.freedit.eu', 'https://twiiit.com']) - every one failed its interstitial, rate limited us, or served empty timelines",
+    "instances": {
+      "status": "discovered",
+      "candidates": 13,
+      "tiers": {
+        "timeline": 0,
+        "challenged": 4,
+        "rate-limited": 0,
+        "nitter-empty": 0,
+        "dead": 9
+      },
+      "bases": [
+        "https://nuku.trabun.org",
+        "https://lightbrd.com",
+        "https://nitter.freedit.eu",
+        "https://twiiit.com"
+      ]
+    }
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 10013,
-    "allowed": 7855,
-    "blocked_pct": 56.0
+    "blocked": 9173,
+    "allowed": 7109,
+    "blocked_pct": 56.3
   },
   "navigation": {
     "floored": 21,
@@ -226,7 +256,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 579,
+    "scanned": 602,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -238,8 +268,9 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-08-30 18:13:42 UTC",
+  "generated_at": "2026-08-31 12:32:18 UTC",
   "empty_sources": [
-    "Tennis Canada"
+    "Tennis Canada",
+    "Tennis World USA"
   ]
 }
