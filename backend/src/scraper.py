@@ -612,6 +612,14 @@ async def scrape_all_sites(scrape_sites: list[dict], failed_rss: list[dict] | No
     else:
         HEALTH["proxy"] = "not configured"
 
+    # Nitter instance discovery probes over plain HTTP and must take the SAME
+    # network path the browser will. Probing direct while the browser goes via
+    # the proxy validates the wrong route: reachability differs per exit IP, so
+    # the list would be built against hosts the browser cannot actually reach.
+    # None here means the proxy was configured but failed its preflight and the
+    # browser is going direct too.
+    effective_proxy_url = DEFAULT_HTTP_PROXY if proxy_config else None
+
     kwargs = {
         "headless": True,
         "humanize": False,
@@ -658,17 +666,28 @@ async def scrape_all_sites(scrape_sites: list[dict], failed_rss: list[dict] | No
             print("  Fetching Twitter feeds...")
             try:
                 from scrapers.twitter_feeds import scrape as scrape_twitter
-                twitter_tweets = await scrape_twitter(page)
+                twitter_tweets = await scrape_twitter(page, effective_proxy_url)
                 for tw in twitter_tweets:
                     tw["date"] = to_helsinki(tw.get("date", ""))
+                from scrapers.nitter_instances import LAST_RUN as NITTER_RUN
                 HEALTH["twitter"] = {
                     "tweets": len(twitter_tweets),
                     "accounts": len(set(t.get("handle", "") for t in twitter_tweets)),
+                    # Which instances this run actually walked, and why. Without
+                    # it "0 tweets" is indistinguishable from "0 instances", and
+                    # those need completely different fixes.
+                    "instances": dict(NITTER_RUN),
                     "error": "",
                 }
                 print(f"  [TWITTER] Total: {len(twitter_tweets)} tweets")
             except Exception as e:
-                HEALTH["twitter"] = {"tweets": 0, "accounts": 0, "error": str(e)[:300]}
+                from scrapers.nitter_instances import LAST_RUN as NITTER_RUN
+                # The instance report matters MOST on this path: "no tweets from
+                # any instance" reads as a scraper bug until you can see that
+                # discovery handed it five dead hosts.
+                HEALTH["twitter"] = {"tweets": 0, "accounts": 0,
+                                     "error": str(e)[:300],
+                                     "instances": dict(NITTER_RUN)}
                 print(f"  [TWITTER] ERROR - {e}")
 
             if asset_stats:

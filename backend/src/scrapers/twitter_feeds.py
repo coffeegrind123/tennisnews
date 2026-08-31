@@ -1,7 +1,8 @@
 """Twitter/X tennis feed scraper via Nitter.
 
-Primary instance is lightbrd.com, which sits behind a Cloudflare managed
-challenge. The FF152 camoufox build clears it; FF146 could not.
+Most instances sit behind a Cloudflare managed challenge or an Anubis
+proof-of-work wall. lightbrd.com is the reference case: the FF152 camoufox build
+clears its challenge, FF146 could not.
 
 Instances are walked in order and accounts are carried between them: whatever an
 instance cannot serve is retried on the next one, so a partial failure costs
@@ -18,11 +19,20 @@ that finally "won" the challenge collected FEWER tweets (15) than one that fell
 back to an unchallenged instance (55). Requests are paced to stay under that
 limit rather than sprinting into it.
 
-Override the instance order with NITTER_BASES (comma separated).
+The instance list is no longer hardcoded. scrapers/nitter_instances.py pulls
+candidates from public registries, probes each one over plain HTTP, and returns
+only those that answered - best tier first, shuffled within a tier. That
+shuffling is load bearing here rather than cosmetic: instances rate limit per
+client after a few profile loads, so a fixed order means one host absorbs every
+run and hits its 1015 at the same account every time.
+
+Override the instance order with NITTER_BASES (comma separated), which bypasses
+discovery entirely; see nitter_instances for the rest of the knobs.
 """
 
 import os
 
+from scrapers import nitter_instances
 from scrapers.cloudflare import wait_for_challenge
 
 # Removed 2026-08-01: @moormangirl (dormant, newest tweet April 2025) and
@@ -43,21 +53,29 @@ ACCOUNTS = [
     {"handle": "MichalSamulski", "name": "Michal Samulski", "outlet": "ITWA / Tennis Hall of Fame"},
 ]
 
-DEFAULT_BASES = [
-    "https://lightbrd.com",
-    "https://nitter.privacyredirect.com",
-    "https://nitter.tiekoetter.com",
-    "https://nitter.poast.org",
-    "https://nitter.net",
-]
-
-BASES = [b.strip().rstrip("/") for b in os.environ.get("NITTER_BASES", "").split(",") if b.strip()] \
-    or DEFAULT_BASES
+DEFAULT_BASES = nitter_instances.DEFAULT_BASES
 
 # The account used to decide whether an instance is usable at all. High volume
 # and long lived, so an empty timeline here means the instance is broken rather
 # than the account being quiet.
-PROBE_HANDLE = "josemorgado"
+PROBE_HANDLE = nitter_instances.PROBE_HANDLE
+
+
+def resolve_bases(proxy_url: str | None = None) -> list[str]:
+    """Instances to walk this run, best first.
+
+    Discovery is resolved per run rather than at import so the list reflects the
+    network as it is now, and so a discovery failure degrades to DEFAULT_BASES
+    instead of blowing up an import. NITTER_BASES still short-circuits the whole
+    thing, which is what the CI debug path uses.
+    """
+    try:
+        return nitter_instances.discover(proxy_url)
+    except Exception as e:
+        print(f"    [TWITTER] instance discovery failed ({type(e).__name__}: "
+              f"{str(e)[:120]}) - falling back to the built-in list")
+        return list(DEFAULT_BASES)
+
 
 TIMELINE_SELECTOR = ".timeline-item"
 MAX_TWEETS_PER_ACCOUNT = 5
@@ -159,10 +177,11 @@ def _to_records(tweets, account, base):
     return out
 
 
-async def scrape(page) -> list[dict]:
+async def scrape(page, proxy_url: str | None = None) -> list[dict]:
     all_tweets = []
     done = set()
     tried_instances = []
+    bases = resolve_bases(proxy_url)
 
     # Instances are tried in order, and an instance that starts rate limiting is
     # abandoned mid-run with the REMAINING accounts carried to the next one.
@@ -170,7 +189,7 @@ async def scrape(page) -> list[dict]:
     # about three profiles then returns error 1015 for the rest, so a run that
     # "won" the challenge collected fewer tweets (15) than one that fell back to
     # an unchallenged instance (55).
-    for base in BASES:
+    for base in bases:
         remaining = [a for a in ACCOUNTS if a["handle"] not in done]
         if not remaining:
             break

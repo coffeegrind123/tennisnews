@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .env
 backend/node_modules/
+backend/.cache/

@@ -50,12 +50,63 @@ PORT=3000 ./run.sh
 - 18 via RSS feeds (feedparser)
 - 21 via browser scraping (camoufox) with per-site tailored modules
 
-12 curated Twitter accounts scraped via Nitter. The primary instance is
-`lightbrd.com`; it sits behind a Cloudflare managed challenge, which
+12 curated Twitter accounts scraped via Nitter. Most instances sit behind a
+Cloudflare managed challenge or an Anubis proof-of-work wall, which
 `scrapers/cloudflare.py` waits out (and clicks through, when a Turnstile widget
 is actually rendered). If an instance cannot be cleared the scraper falls through
 an ordered list of alternatives rather than silently reporting zero tweets.
-Override the order with `NITTER_BASES=https://a,https://b`.
+
+The instance list is discovered per run by `scrapers/nitter_instances.py` rather
+than hardcoded. It merges candidate URLs from public registries, probes each one
+over plain HTTP, and returns only the hosts that answered - best tier first,
+shuffled within a tier. Shuffling is functional, not cosmetic: instances rate
+limit per client after a few profile loads, so a fixed order means one host
+absorbs every run and hits its 1015 at the same account every time.
+
+**A registry's own `status` field is not trusted.** Measured 2026-08-31, the
+upptime registry the module reads has not been written since 2024-04-02, and of
+the 37 hosts it still marks `"up"`, 18 fail DNS outright and none serve a
+timeline. Registries supply candidate URLs; the live probe decides what "up"
+means. When a registry's newest datapoint is older than
+`NITTER_REGISTRY_MAX_AGE_DAYS` its status field is ignored entirely.
+
+What each run actually walked, and why, lands in `data/health.json` under
+`twitter.instances` - so "0 tweets" can be told apart from "0 instances", which
+need completely different fixes.
+
+Override the order with `NITTER_BASES=https://a,https://b` (bypasses discovery),
+or set `NITTER_DISCOVERY=0` to use the built-in list. Other knobs are documented
+at the top of `scrapers/nitter_instances.py`.
+
+Offline tests for the discovery logic:
+`cd backend/src && python3 -m unittest scrapers.test_nitter_instances`
+
+### Current status (2026-08-31)
+
+Nitter is close to dead upstream. The project repo was archived 2026-08-26, X
+Corp sent cease-and-desist letters around 2026-08-24 (xcancel.com and
+nitter.catsarch.com both serve notices saying so), and the d420 monitor reports
+zero healthy hosts. The previous hardcoded list had rotted through completely:
+nitter.poast.org no longer resolves, nitter.net serves a stub, privacyredirect
+502s, tiekoetter 429s, and lightbrd.com's Cloudflare challenge now solves only
+to hang on "Waiting for lightbrd.com to respond" - the edge is up, the origin
+behind it is not. Zero of the five produced a tweet.
+
+Discovery is what recovers from that. Of 109 candidates probed, 9 answered; a
+browser pass over the 6 distinct backends found **nitter.freedit.eu working** -
+Cloudflare cleared in 9s, 20 timeline items, real tweets. It reached the list
+from the registry corpus and appears in no version of the old hardcoded list.
+That is the whole point of probing rather than trusting: one live host among a
+hundred dead ones is the difference between a working feed and none.
+
+A full scrape through the new path then returned **60 tweets across 12/12
+accounts from nitter.freedit.eu alone** - no fallback needed, no 1015 - with the
+newest tweets dated the same day. The feed had been dead since 2026-08-02.
+
+The rest of that browser pass, for the record: nitter.kareem.one never cleared,
+nuku.trabun.org clears Cloudflare then returns 401 (private), nt.vern.cc sits
+behind an unsolved go-away proof-of-work wall, and bird.habedieeh.re turns out
+to run Twitscher rather than Nitter.
 
 ## Prompt-injection screening
 
