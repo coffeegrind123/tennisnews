@@ -16,6 +16,38 @@
     }
   },
   {
+    "title": "It must’ve been hard for these guys to say nothing and not retaliate online when Kyrgios was on one of his cleanliness rants.",
+    "description": "",
+    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2094801448362008654#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-09-01 17:55 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10007003148478968,
+      "detections": []
+    }
+  },
+  {
+    "title": "just stopped by the Nike store and the employee said Carlos’ tank and shorts sold out by approx. 5pm. Only his warm up shirt is still available rn!",
+    "description": "",
+    "link": "https://nitter.freedit.eu/christianscourt/status/2094596775801692528#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-09-01 04:22 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.047316870190680475,
+      "detections": []
+    }
+  },
+  {
     "title": "I love this concept and I’m really happy Popyrin is working on that. 🙏🏻👏👏",
     "description": "",
     "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2094738498376872146#m",
@@ -44,38 +76,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.046726305612392056,
-      "detections": []
-    }
-  },
-  {
-    "title": "Forever grateful, New York 🗽",
-    "description": "",
-    "link": "https://nitter.freedit.eu/DjokerNole/status/2094467061267279970#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-31 19:47 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03524345551530229,
-      "detections": []
-    }
-  },
-  {
-    "title": ".@AmyLundyDahl joins us shortly on @TicketTalkNet at High Noon!\n\n🎾🎟️ @usopen",
-    "description": "",
-    "link": "https://nitter.freedit.eu/ScottFriedman3/status/2094452819344416913#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-08-31 18:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.13738794470354562,
       "detections": []
     }
   },
@@ -396,6 +396,566 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.062404144898021534,
+      "detections": []
+    }
+  },
+  {
+    "title": "Just found this photo of Michael Zheng after losing in the @USOpen qualifying final in 2024… with @adamzagoria looking to grab a quote on the left",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisPublisher/status/2094824814552781262#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-01 19:28 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0743467570258837,
+      "detections": []
+    }
+  },
+  {
+    "title": "My first taste of Alex Eala mania… from the @usopen qualifying rounds in 2024… fans giving their babies for Alex to hold, kiss and take photos with…",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisPublisher/status/2094808262629593308#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-01 18:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03779338500803212,
+      "detections": []
+    }
+  },
+  {
+    "title": "Photo I took of Rafa Jodar playing on Court 4 at the @usopen junior championships in 2024",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisPublisher/status/2094806885056573821#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-01 18:17 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.060091319844557595,
+      "detections": []
+    }
+  },
+  {
+    "title": "Day three at the US Open… Welcome to Ticketmaster Day",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisPublisher/status/2094790474879930378#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-01 17:12 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03302356143482337,
+      "detections": []
+    }
+  },
+  {
+    "title": "Useless US Open fact today.... both the ATP and WTA world No. 38 lost today in the first round",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisPublisher/status/2094614976342138884#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-01 05:35 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05382555935403758,
+      "detections": []
+    }
+  },
+  {
+    "title": "Had the chance to attend the USA Standing Adaptive Tennis tournament at @SMU. \n\nThe athletes have decreased mobility due to amputations, congenital conditions, etc., and they are SO impressive. \n\nThis is Nico Basaez from Chile (vs. Yusuke Hatano of Japan). Amazing. @USTATexas",
+    "description": "",
+    "link": "https://nitter.freedit.eu/BlairHenley/status/1602024208615219207#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2022-12-11 21:35 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08314474589953268,
+      "detections": []
+    }
+  },
+  {
+    "title": "In honor of Gael Monfils' 40th birthday, an all-time singalong by Victoria Azarenka:",
+    "description": "",
+    "link": "https://nitter.freedit.eu/BastienFachan/status/2094820318015525026#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-01 19:10 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.051425015751266345,
+      "detections": []
+    }
+  },
+  {
+    "title": "Louis Armstrong serenaded the birthday girl after her win 🎊\n\n@AnisimovaAmanda | #USOpen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/WTA/status/2094521002738749475#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-31 23:21 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06946706713908005,
+      "detections": []
+    }
+  },
+  {
+    "title": "All dressed up for tennis’ biggest night. ✨ #InductionCelebration #CloserToGreatness",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisHalloFame/status/2093860745419104388#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-30 03:37 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08037178874057244,
+      "detections": []
+    }
+  },
+  {
+    "title": "A legendary lineup in Newport for the Celebrity Pro Classic presented by Fidelity Investments 🎾 #InductionCelebration #ClosertoGreatness",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisHalloFame/status/2093542413448949881#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-08-29 06:33 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0757345859574161,
+      "detections": []
+    }
+  },
+  {
+    "title": "Louis Armstrong serenaded the birthday girl after her win 🎊\n\n@AnisimovaAmanda | #USOpen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/WTA/status/2094521002738749475#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-31 23:21 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06946706713908005,
+      "detections": []
+    }
+  },
+  {
+    "title": "Serving up a birthday win 🥳\n\n@AnisimovaAmanda locks in the win over fellow American Krueger, 6-1, 6-3!\n\n#USOpen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/WTA/status/2094510381335020004#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-31 22:39 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0510680607839154,
+      "detections": []
+    }
+  },
+  {
+    "title": "Stef the Great 🇬🇷\n\nThe former world No. 3 halts red-hot Fils to book his place in Round 2!",
+    "description": "",
+    "link": "https://nitter.freedit.eu/usopen/status/2094486564168409345#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-31 21:04 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.046961986676352,
+      "detections": []
+    }
+  },
+  {
+    "title": "BACK to winning ways 🚨🤩\n\nCarlos Alcaraz records his first ATP Tour win since April in a straight sets victory over Safiullin!\n\n@carlosalcaraz #USOpen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisTV/status/2094514481019683244#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-31 22:55 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07649237347670267,
+      "detections": []
+    }
+  },
+  {
+    "title": "In his own words ❤️\n\n@rogerfederer 🏆 @TennisHalloFame",
+    "description": "",
+    "link": "https://nitter.freedit.eu/TennisTV/status/2093865134842126815#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-08-30 03:55 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.19923107090312045,
+      "detections": []
+    }
+  },
+  {
+    "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
+    "description": "",
+    "link": "https://nitter.freedit.eu/theslicetennis/status/2047772450298228828#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-04-24 23:19 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04662039750201252,
+      "detections": []
+    }
+  },
+  {
+    "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
+    "description": "",
+    "link": "https://nitter.freedit.eu/theslicetennis/status/2094654232460771681#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-09-01 08:11 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09305625184728848,
+      "detections": []
+    }
+  },
+  {
+    "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/theslicetennis/status/2094288856296145080#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-31 07:59 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10802246388680846,
+      "detections": []
+    }
+  },
+  {
+    "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
+    "description": "",
+    "link": "https://nitter.freedit.eu/theslicetennis/status/2090301130009915703#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-20 07:53 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.16234388205363884,
+      "detections": []
+    }
+  },
+  {
+    "title": "The tour is going young! Montreal is a great example of that. How exciting are these players?\n\nPresented by @SIASport\n\n#shelton #jodar #merida",
+    "description": "",
+    "link": "https://nitter.freedit.eu/theslicetennis/status/2087574877599326214#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-12 19:20 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.18190981703826972,
+      "detections": []
+    }
+  },
+  {
+    "title": "Big gains ahead of the final Grand Slam 🤩\n\nWill we see one of these five stake their claim to the 🏆?",
+    "description": "",
+    "link": "https://nitter.freedit.eu/AustralianOpen/status/2093232118537085245#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-28 10:00 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06900236208000773,
+      "detections": []
+    }
+  },
+  {
+    "title": "Coco and Iga enter the US Open tied at the top of their form 😮‍💨\n\nWill we see a Grand Slam winner from among these five?",
+    "description": "",
+    "link": "https://nitter.freedit.eu/AustralianOpen/status/2093239662613574131#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-28 10:30 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.044748715058374786,
+      "detections": []
+    }
+  },
+  {
+    "title": "The Serena-Capriati rivalry was so good. A few notable things...\n\n- they played 7 times at majors, but never a final\n- those matches were compressed into a 3-year span\n- 6 of those 7 matches went the full 3 sets\n- Capriati a rare player with a winning H2H vs Serena at Slams (4-3)",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MattyAT/status/2091995134703661457#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-25 00:04 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05935918112289684,
+      "detections": []
+    }
+  },
+  {
+    "title": "Great stat from @OptaAce:\n\nJessica Pegula & Coco Gauff are the 2nd pair of Americans to face each other in multiple Tier I/WTA 1000 finals (Wuhan 2025, Cincinnati 2026) since the format’s introduction in 1990 after Serena Williams & Jennifer Capriati (Toronto 2001, Miami 2002-03)",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MattyAT/status/2091994211503759799#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-25 00:01 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06478292173795058,
+      "detections": []
+    }
+  },
+  {
+    "title": "82 - Aryna Sabalenka (+82) holds the best winner-unforced error differential of any player at WTA-1000 events in 2026, with Linda Noskova (+24) next-best this season. Gulf.\n\n#CincyTennis | @CincyTennis @WTA",
+    "description": "",
+    "link": "https://nitter.freedit.eu/OptaAce/status/2089868312998281554#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-08-19 03:13 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.049360030444547065,
+      "detections": []
+    }
+  },
+  {
+    "title": "Cobolli reacting, takes the 3rd set",
+    "description": "",
+    "link": "https://nitter.freedit.eu/josemorgado/status/2094841983302860816#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-01 20:37 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05241255171903946,
+      "detections": []
+    }
+  },
+  {
+    "title": "Big reaction from Keys, who last year didn’t survive her first round.",
+    "description": "",
+    "link": "https://nitter.freedit.eu/josemorgado/status/2094839009750970655#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-01 20:25 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04607652900395007,
+      "detections": []
+    }
+  },
+  {
+    "title": "For now, this is the only change on the schedule. \n\nBondar moved from court 6 to court 15 (who wasn’t scheduled to receive matches today).\n\nI’m expecting more changes and the two main stadiums to be used between sessions if possible…",
+    "description": "",
+    "link": "https://nitter.freedit.eu/josemorgado/status/2094838824039784924#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-01 20:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07809359140011865,
+      "detections": []
+    }
+  },
+  {
+    "title": "2017 runner up Madison Keys wins a rollercoaster straight setter against the talented teenager Alina Korneeva.\n\n7-5, 6-4",
+    "description": "",
+    "link": "https://nitter.freedit.eu/josemorgado/status/2094837361951625539#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-01 20:18 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03535361454070504,
+      "detections": []
+    }
+  },
+  {
+    "title": "Drying started at the US Open outer courts. \n\nIF no more rain they should be able to resume play in 40-50 mins or so.\n\nFrodkin - Rybakina\nPutintseva - Bencic\nMisolic - Cerundolo\nKnutson - Lys\nSweeny - Moutet\nBellucci - Piros\nBasavareddy - Schoolkate\nSakkari - Montgomery\nStarodubsteva - Seidel",
+    "description": "",
+    "link": "https://nitter.freedit.eu/edgeAIapp/status/2094835819437527492#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-01 20:12 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11002943684700377,
+      "detections": []
+    }
+  },
+  {
+    "title": "Uproar in the stands when @rogerfederer stepped onto the court at Ashe Stadium. Die-hard fans from Poland were waiting for him outside the stadium. @usopen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MichalSamulski/status/2094609031428018312#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-09-01 05:11 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05308172233574129,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ben Shelton advanced to the second round, where he faces Hubert Hurkacz. @usopen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MichalSamulski/status/2094605519310803200#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-09-01 04:57 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06591640491082278,
+      "detections": []
+    }
+  },
+  {
+    "title": "Stan Wawrinka just concluded his Grand Slam appearances, ten years after winning the @usopen title.\nThe Swiss Indoors in Basel will be the final tournament of his career.",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MichalSamulski/status/2094561789690159260#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-09-01 02:03 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04322335836282057,
+      "detections": []
+    }
+  },
+  {
+    "title": "Wawrinka vs Berrettini clash on Grandstand @usopen",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MichalSamulski/status/2094526753326665862#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-08-31 23:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.050489630385557115,
+      "detections": []
+    }
+  },
+  {
+    "title": "He’s back. Carlos Alcaraz - @usopen defending champion is playing his first singles match in more than 4 months after recovering from a wrist injury.",
+    "description": "",
+    "link": "https://nitter.freedit.eu/MichalSamulski/status/2094478578574381312#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-08-31 20:33 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0543554716091538,
       "detections": []
     }
   }
