@@ -31,8 +31,9 @@ read tweets - it only sees the wall in front of them. Three failure modes hide
 behind one "challenged" verdict and each is handled here, because here is where
 a real browser is looking at the real page:
 
-  * the interstitial never clears        -> a property of the request; one retry,
-                                            then carry the accounts onward
+  * the interstitial never clears        -> a property of the request; wait
+                                            longer on the SAME page, then carry
+                                            the accounts onward
   * Cloudflare error 1015                -> a property of the INSTANCE; abandon
                                             it at once
   * nitter answers, and says it has no   -> also the instance, and permanent:
@@ -47,11 +48,23 @@ not have. Every verdict reached here is written back through
 nitter_instances.record_verification, which is what puts a working instance at
 the front of the list next run instead of leaving it to the shuffle.
 
+A NOTE ON WAITING vs RELOADING
+------------------------------
+Cloudflare's managed challenge is proof-of-work that a reload DISCARDS - the
+page says as much: "Refreshing the page will restart the security verification
+and may take longer." The retry path used to call page.goto again, so a first
+attempt that had spent 75s solving the challenge was thrown away and restarted
+with a 25s budget, and the instance was then written off as "not clearing".
+Measured 2026-09-01: nitter.freedit.eu, the one instance with working tokens,
+clears in 60-100s on a single uninterrupted load and served a full timeline
+immediately afterwards. The retry now keeps waiting on the page already loaded.
+
 Override the instance order with NITTER_BASES (comma separated), which bypasses
 discovery entirely; see nitter_instances for the rest of the knobs.
 """
 
 import os
+import time
 
 from scrapers import nitter_instances
 from scrapers.cloudflare import wait_for_challenge
@@ -102,7 +115,23 @@ TIMELINE_SELECTOR = ".timeline-item"
 MAX_TWEETS_PER_ACCOUNT = 5
 
 # First page load on a challenged instance has to run the interstitial JS.
-CHALLENGE_TIMEOUT_S = int(os.environ.get("NITTER_CHALLENGE_TIMEOUT", "75"))
+#
+# 150 rather than 75, measured 2026-09-01: nitter.freedit.eu - the one instance
+# with working tokens - cleared its Cloudflare challenge somewhere between 60s
+# and 100s on a single uninterrupted load. At 75s CI missed it by seconds and
+# threw the whole run away. The budget is affordable now that an instance which
+# can never work is abandoned in ~5s by fatal_body_reason instead of costing
+# 100s of its own.
+CHALLENGE_TIMEOUT_S = int(os.environ.get("NITTER_CHALLENGE_TIMEOUT", "150"))
+# Extra seconds to keep waiting on the SAME page when the first budget expires.
+# Not a reload - see _load_timeline.
+CHALLENGE_RETRY_S = int(os.environ.get("NITTER_CHALLENGE_RETRY", "60"))
+# Ceiling on the whole Twitter phase. Six instances each allowed 150s + 60s can
+# in principle outlast the workflow's 35 minute step timeout, and being killed
+# there is the one outcome worse than no tweets: the step dies mid-run and
+# NOTHING is written, articles included. So the phase stops starting new
+# instances once it has spent this long and reports what it has.
+PHASE_BUDGET_S = int(os.environ.get("NITTER_PHASE_BUDGET", "720"))
 # Subsequent loads ride the clearance cookie and should be quick; a long wait
 # here just multiplies across 14 accounts.
 ACCOUNT_TIMEOUT_S = int(os.environ.get("NITTER_ACCOUNT_TIMEOUT", "25"))
@@ -161,19 +190,35 @@ def _is_rate_limited(blob: str) -> bool:
     return "error 1015" in blob or "you are being rate limited" in blob
 
 
-async def _load_timeline(page, base: str, handle: str, timeout_s: int) -> list[dict] | None:
+async def _load_timeline(page, base: str, handle: str, timeout_s: int,
+                         navigate: bool = True) -> list[dict] | None:
     """Load one profile. Returns the raw tweet dicts, or None if the page never
     got past its interstitial / never rendered a timeline.
+
+    `navigate=False` keeps waiting on the page that is ALREADY loaded instead of
+    fetching it again. That distinction is the whole ball game on a Cloudflare
+    managed challenge, which says so itself: "Refreshing the page will restart
+    the security verification and may take longer." A reload does not resume a
+    challenge, it discards it - so the old retry path threw away 75 seconds of
+    solved proof-of-work and started over with a 25 second budget, then reported
+    the instance as "not clearing".
 
     Raises RateLimited when the instance is throttling us, which is a property of
     the INSTANCE rather than the account and so must abort the whole instance
     instead of being retried per handle.
     """
     url = f"{base}/{handle}"
-    try:
-        await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-    except Exception as e:
-        print(f"    [TWITTER] {url}: goto failed - {type(e).__name__}: {str(e)[:110]}")
+    if navigate:
+        try:
+            await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        except Exception as e:
+            print(f"    [TWITTER] {url}: goto failed - {type(e).__name__}: {str(e)[:110]}")
+            return None
+    elif handle.lower() not in (page.url or "").lower():
+        # Asked to resume, but the browser is not on that profile - a goto that
+        # failed outright, or a redirect elsewhere. Resuming would wait on some
+        # other instance's page and read its verdict as this one's.
+        print(f"    [TWITTER] {url}: cannot resume, page is at {page.url or '(nothing)'}")
         return None
 
     # Checked BEFORE the challenge wait, not after: an instance that has already
@@ -238,9 +283,17 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
     # about three profiles then returns error 1015 for the rest, so a run that
     # "won" the challenge collected fewer tweets (15) than one that fell back to
     # an unchallenged instance (55).
+    started_at = time.monotonic()
     for base in bases:
         remaining = [a for a in ACCOUNTS if a["handle"] not in done]
         if not remaining:
+            break
+        spent = time.monotonic() - started_at
+        if tried_instances and spent > PHASE_BUDGET_S:
+            print(f"    [TWITTER] {spent / 60:.1f} min spent and "
+                  f"{len(bases) - len(tried_instances)} instance(s) still untried - "
+                  f"stopping here rather than risking the step timeout, which would "
+                  f"discard the articles too")
             break
         tried_instances.append(base)
         print(f"    [TWITTER] instance {base}: {len(remaining)} account(s) to fetch")
@@ -268,8 +321,11 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                 # now that the clearance cookie exists, instead of exporting it to a
                 # fallback instance.
                 if tweets is None and i == 0:
-                    print(f"    [TWITTER] @{handle}: retrying now the challenge has cleared")
-                    tweets = await _load_timeline(page, base, handle, ACCOUNT_TIMEOUT_S)
+                    print(f"    [TWITTER] @{handle}: budget expired, waiting a further "
+                          f"{CHALLENGE_RETRY_S}s on the SAME page (a reload would "
+                          f"restart the challenge)")
+                    tweets = await _load_timeline(page, base, handle,
+                                                  CHALLENGE_RETRY_S, navigate=False)
             except RateLimited as e:
                 print(f"    [TWITTER] {e} - abandoning this instance, "
                       f"{len(remaining) - i} account(s) carried over")
