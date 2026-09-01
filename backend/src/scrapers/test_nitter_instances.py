@@ -129,6 +129,25 @@ FIXTURES = {
         '<body><div class="profile-card"></div><div class="error-panel">'
         "Instance has been rate limited.</div></body></html>"
     ),
+    # Captured 2026-09-01 in a real browser. All three of these hosts scored
+    # TIER_CHALLENGE from the plain-HTTP probe, and all three are permanently
+    # incapable of serving a tweet - which is the distinction these fixtures
+    # exist to keep.
+    "no_auth_tokens": (
+        '<html><head><meta property="og:site_name" content="nitter"></head>'
+        "<body><div class=\"error-panel\">Instance has no auth tokens, or is "
+        "fully rate limited.</div><p>Use another instance or try again later.</p>"
+        "</body></html>"
+    ),
+    "twitscher_user_not_found": (
+        "<html><head><title>Twitscher</title></head><body>"
+        '<div class="error-panel">User "josemorgado" not found</div></body></html>'
+    ),
+    "origin_504": (
+        "<html><head><title>lightbrd.com | 504: Gateway time-out</title></head>"
+        "<body><h1>Gateway time-out Error code 504</h1>"
+        "<p>The web server reported a gateway time-out error.</p></body></html>"
+    ),
     "rate_limited": (
         "<html><head><title>Access denied</title></head><body>"
         "<h1>Error 1015</h1><p>You are being rate limited</p></body></html>"
@@ -283,12 +302,18 @@ class OrderingTest(unittest.TestCase):
         # hard way: a post-test run resolved to four fixture domains.
         import tempfile
         self._tmp = tempfile.TemporaryDirectory()
-        self._saved = (ni.CACHE_DIR, ni.CACHE_PATH)
+        self._saved = (ni.CACHE_DIR, ni.CACHE_PATH, ni.VERIFIED_PATH)
         ni.CACHE_DIR = pathlib.Path(self._tmp.name)
         ni.CACHE_PATH = ni.CACHE_DIR / "nitter_instances.json"
+        # Same trap as the cache above, one layer up: the verified store is real
+        # machine state, and discover() promotes anything in it. Without this,
+        # the developer's own data/nitter_verified.json revives nitter.freedit.eu
+        # into every synthetic fixture list and five ordering tests fail for a
+        # reason that has nothing to do with ordering.
+        ni.VERIFIED_PATH = ni.CACHE_DIR / "nitter_verified.json"
 
     def tearDown(self):
-        ni.CACHE_DIR, ni.CACHE_PATH = self._saved
+        ni.CACHE_DIR, ni.CACHE_PATH, ni.VERIFIED_PATH = self._saved
         self._tmp.cleanup()
 
     def _discover(self, records, **env):
@@ -384,6 +409,159 @@ class OrderingTest(unittest.TestCase):
         os.environ.pop("NITTER_SHUFFLE_SEED", None)
         self.assertGreater(len(orders), 1,
                            "a fixed order means one host absorbs every run")
+
+
+class FatalBodyTest(unittest.TestCase):
+    """The bodies that mean "this instance will never serve a tweet".
+
+    Every string here was read off a real page on 2026-09-01 in a real browser,
+    on a host the plain-HTTP probe had just scored TIER_CHALLENGE. That gap -
+    "there is a wall in front of the tweets" versus "there are no tweets" - is
+    what cost the scrape 75 seconds per useless instance per run.
+    """
+
+    def test_nitter_without_auth_tokens_is_fatal(self):
+        # nt.vern.cc, verbatim. No challenge at all in a browser; it renders
+        # this instantly, and plain HTTP saw only its 418.
+        self.assertIn("auth tokens", ni.fatal_body_reason(
+            "nitter Instance has no auth tokens, or is fully rate limited. "
+            "Use another instance or try again later."))
+
+    def test_fork_that_cannot_resolve_the_user_is_fatal(self):
+        # bird.habedieeh.re, a Twitscher fork, for an account that plainly exists.
+        reason = ni.fatal_body_reason('Twitscher User "djokernole" not found', "djokernole")
+        self.assertIn("cannot resolve", reason)
+
+    def test_dead_origin_behind_cloudflare_is_fatal(self):
+        # lightbrd.com: Cloudflare is up, the thing behind it is not.
+        self.assertIn("origin", ni.fatal_body_reason(
+            "Gateway time-out Error code 504 The web server reported a "
+            "gateway time-out error."))
+
+    def test_a_real_timeline_is_not_fatal(self):
+        # The control. Without it "returns a reason" proves nothing.
+        self.assertEqual("", ni.fatal_body_reason(
+            "nitter Novak Djokovic @DjokerNole 17h Forever grateful, New York"))
+
+    def test_an_interstitial_is_not_fatal(self):
+        # A challenge is the one thing a browser CAN beat, so it must never be
+        # confused with these. lightbrd's own challenge page, before the 504.
+        self.assertEqual("", ni.fatal_body_reason(
+            "Just a moment... Performing security verification This website "
+            "uses a security service to protect against malicious bots."))
+
+    def test_classify_files_them_below_every_guess(self):
+        for name in ("no_auth_tokens", "twitscher_user_not_found", "origin_504"):
+            with self.subTest(fixture=name):
+                rec = ClassifyTest()._classify(200, FIXTURES[name])
+                self.assertEqual(rec["tier"], ni.TIER_USELESS, rec["note"])
+                self.assertTrue(rec["note"], "a demotion must say why")
+
+    def test_a_challenge_fixture_is_still_a_candidate(self):
+        # Control for the test above: the same code path must NOT demote the
+        # tier that camoufox actually clears.
+        rec = ClassifyTest()._classify(403, FIXTURES["cloudflare_403"])
+        self.assertEqual(rec["tier"], ni.TIER_CHALLENGE)
+
+
+class VerifiedStoreTest(unittest.TestCase):
+    """What the browser proved, and how long it is worth trusting."""
+
+    def setUp(self):
+        import tempfile
+        self._tmp = tempfile.TemporaryDirectory()
+        self._saved = ni.VERIFIED_PATH
+        ni.VERIFIED_PATH = pathlib.Path(self._tmp.name) / "nitter_verified.json"
+
+    def tearDown(self):
+        ni.VERIFIED_PATH = self._saved
+        self._tmp.cleanup()
+
+    def test_a_success_is_remembered_as_good(self):
+        ni.record_verification("https://works.example", True, tweets=20)
+        self.assertEqual(ni.verified_state("https://works.example"), "good")
+
+    def test_a_permanent_failure_demotes_on_the_first_sighting(self):
+        # "No auth tokens" does not get better on the third attempt, so unlike a
+        # failed challenge it must not need three strikes.
+        ni.record_verification("https://tokenless.example", False,
+                               "instance has no X auth tokens", permanent=True)
+        self.assertEqual(ni.verified_state("https://tokenless.example"), "bad")
+
+    def test_a_failed_challenge_needs_repeating_before_it_counts(self):
+        base = "https://flaky.example"
+        for _ in range(ni.VERIFIED_MAX_FAILS - 1):
+            ni.record_verification(base, False, "interstitial did not clear")
+        self.assertEqual(ni.verified_state(base), "",
+                         "one bad day must not condemn an instance")
+        ni.record_verification(base, False, "interstitial did not clear")
+        self.assertEqual(ni.verified_state(base), "bad")
+
+    def test_success_clears_an_earlier_verdict(self):
+        base = "https://recovered.example"
+        ni.record_verification(base, False, "no X auth tokens", permanent=True)
+        self.assertEqual(ni.verified_state(base), "bad")
+        ni.record_verification(base, True, tweets=5)
+        self.assertEqual(ni.verified_state(base), "good",
+                         "an operator fixing their instance must be able to win it back")
+
+    def test_a_stale_success_stops_being_a_promotion(self):
+        import json
+        from datetime import datetime, timedelta, timezone
+        old = (datetime.now(timezone.utc)
+               - timedelta(days=ni.VERIFIED_TTL_DAYS + 1)).isoformat()
+        ni.VERIFIED_PATH.write_text(json.dumps(
+            {"instances": {"https://ancient.example": {"last_ok": old, "fails_since_ok": 0}}}))
+        self.assertEqual(ni.verified_state("https://ancient.example"), "",
+                         "a verification from a fortnight ago is not evidence about today")
+
+    def test_an_unreadable_store_is_not_fatal(self):
+        ni.VERIFIED_PATH.write_text("{ this is not json")
+        self.assertEqual(ni.load_verified(), {})
+        self.assertEqual(ni.verified_state("https://anything.example"), "")
+
+
+class VerifiedOrderingTest(OrderingTest):
+    """discover() ranking once the browser has had its say.
+
+    Inherits OrderingTest's setUp, which redirects both the cache and the
+    verified store into a temp dir.
+    """
+
+    def test_browser_proof_outranks_a_probe_guess(self):
+        ni.record_verification("https://proven.example", True, tweets=20)
+        got = self._discover([
+            self._rec("https://guess.example", ni.TIER_CHALLENGE),
+            self._rec("https://proven.example", ni.TIER_CHALLENGE),
+        ])
+        self.assertEqual(got[0], "https://proven.example")
+
+    def test_a_probe_that_drops_the_working_instance_cannot_lose_it(self):
+        # 2026-08-31, exactly: the probe flaked through the proxy, freedit.eu
+        # fell out of the list, and the run reported "no tweets from any
+        # instance" while the one instance that works sat unqueried.
+        ni.record_verification("https://proven.example", True, tweets=20)
+        got = self._discover([self._rec("https://guess.example", ni.TIER_CHALLENGE)])
+        self.assertEqual(got[0], "https://proven.example")
+        self.assertIn("https://guess.example", got)
+
+    def test_a_useless_instance_goes_to_the_back_not_the_front(self):
+        ni.record_verification("https://tokenless.example", False,
+                               "instance has no X auth tokens", permanent=True)
+        got = self._discover([
+            self._rec("https://tokenless.example", ni.TIER_CHALLENGE),
+            self._rec("https://unknown.example", ni.TIER_CHALLENGE),
+        ])
+        self.assertEqual(got[-1], "https://tokenless.example")
+
+    def test_a_timeline_tier_still_beats_an_unverified_challenge(self):
+        # The verified layer reorders; it must not throw away what the probe
+        # did manage to prove.
+        got = self._discover([
+            self._rec("https://challenged.example", ni.TIER_CHALLENGE),
+            self._rec("https://live.example", ni.TIER_TIMELINE),
+        ])
+        self.assertEqual(got[0], "https://live.example")
 
 
 if __name__ == "__main__":

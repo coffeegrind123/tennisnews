@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-09-01T10:18:18+00:00",
+  "instances": {
+    "https://bird.habedieeh.re": {
+      "last_fail": "2026-09-01T10:18:17+00:00",
+      "fails_since_ok": 1,
+      "reason": "instance cannot resolve @djokernole - backend cannot read X",
+      "permanent": true
+    },
+    "https://lightbrd.com": {
+      "last_fail": "2026-09-01T10:18:17+00:00",
+      "fails_since_ok": 1,
+      "reason": "origin behind Cloudflare is down",
+      "permanent": true
+    },
+    "https://nitter.freedit.eu": {
+      "last_ok": "2026-09-01T10:18:17+00:00",
+      "fails_since_ok": 0,
+      "tweets": 20,
+      "reason": "",
+      "permanent": false
+    },
+    "https://nitter.kareem.one": {
+      "last_fail": "2026-09-01T10:18:18+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
+      "permanent": false
+    },
+    "https://nt.vern.cc": {
+      "last_fail": "2026-09-01T10:18:18+00:00",
+      "fails_since_ok": 2,
+      "reason": "instance has no X auth tokens",
+      "permanent": true
+    },
+    "https://nuku.trabun.org": {
+      "last_fail": "2026-09-01T10:18:18+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
+      "permanent": false
+    }
+  }
+}

@@ -32,6 +32,43 @@ A challenged instance is deliberately NOT dropped: the plain-HTTP probe is a
 weaker client than the browser that follows it, and treating "I can't see it"
 as "it isn't there" would discard the instances that actually work.
 
+WHY A PROBE TIER IS NOT A VERIFICATION
+--------------------------------------
+TIER_CHALLENGE says "plain HTTP saw a wall, a browser may get past it". That is
+a GUESS, and once every instance is walled it is the only tier left - so the
+list ends up ranked by a signal carrying no information, and shuffled. Measured
+2026-09-01, all six surviving candidates were TIER_CHALLENGE and all six were
+different things in a real browser:
+
+  nitter.freedit.eu   live timeline, no challenge at all (direct AND via the
+                      residential proxy) - the one instance that works
+  nt.vern.cc          renders instantly: "Instance has no auth tokens, or is
+                      fully rate limited." Never going to serve a tweet.
+  bird.habedieeh.re   a Twitscher fork: 'User "<handle>" not found'
+  nitter.kareem.one   challenge never clears (75s in CI, 25s locally)
+  nuku.trabun.org     challenge never clears
+  lightbrd.com        Cloudflare 504, origin down
+
+The two that answer instantly with a nitter error page are the expensive ones:
+plain HTTP sees 418/200 and a body it cannot read past, scores them
+"challenged", and the browser then spends a full 75s challenge budget waiting
+for content that the instance has already said it does not have.
+
+So the browser is the authority, and what it proves is REMEMBERED:
+
+  * fatal_body_reason() recognises those pages, in the probe and in the
+    browser, so an instance that cannot serve tweets costs one page load
+    instead of 75s + a 25s retry + eleven more accounts.
+  * record_verification() writes what actually happened to data/, and
+    discover() puts a browser-verified instance at the FRONT next run instead
+    of reshuffling it into a random slot.
+  * a known-good base is never DROPPED by one bad probe, only demoted. The
+    probe is flaky through a shared residential proxy - the same 109
+    candidates scored 9, 6 and 5 challenged on three consecutive runs - and on
+    2026-08-31 that flakiness deleted freedit.eu, the only working instance,
+    from the list entirely. The run then reported "no tweets from any
+    instance" while a working instance sat one probe timeout away.
+
 REGISTRY FRESHNESS
 ------------------
 A registry's `status` is only meaningful if the registry is still being written.
@@ -124,6 +161,10 @@ TIER_TIMELINE = 0
 TIER_CHALLENGE = 1
 TIER_LIMITED = 2
 TIER_EMPTY = 3
+# Alive, unchallenged, and telling us outright that it has no tweets to give.
+# Ranked below every guess and never selected: unlike a challenge, this does not
+# get better with a stronger client.
+TIER_USELESS = 8
 TIER_DEAD = 9
 
 TIER_NAMES = {
@@ -131,6 +172,7 @@ TIER_NAMES = {
     TIER_CHALLENGE: "challenged",
     TIER_LIMITED: "rate-limited",
     TIER_EMPTY: "nitter-empty",
+    TIER_USELESS: "no-tokens",
     TIER_DEAD: "dead",
 }
 
@@ -181,6 +223,144 @@ RETIRED_MARKERS = (
 )
 
 _MAX_BODY = 200_000
+
+# Bodies that mean "this instance cannot serve tweets", as opposed to "something
+# is standing in front of the tweets". Recognising these is what turns a 100s
+# dead end into one page load. See the docstring for where each was observed.
+TOKENLESS_MARKERS = (
+    "instance has no auth tokens",
+    "no auth tokens, or is fully rate limited",
+)
+ORIGIN_DOWN_MARKERS = (
+    "error code 504",
+    "gateway time-out",
+    "gateway timeout",
+    "error code 521",
+    "web server is down",
+)
+
+
+def fatal_body_reason(text: str, handle: str | None = None) -> str:
+    """Why this body proves the instance is useless, or '' if it does not.
+
+    Deliberately NOT folded into the challenge markers: a challenge is a
+    property of the request that a better client may beat, while every one of
+    these is a property of the instance that no client can.
+    """
+    low = (text or "").lower()
+    if any(m in low for m in TOKENLESS_MARKERS):
+        return "instance has no X auth tokens"
+    if any(m in low for m in ORIGIN_DOWN_MARKERS):
+        return "origin behind Cloudflare is down"
+    # Twitscher and friends answer a profile request for a handle they cannot
+    # resolve with a bare "not found" - which, for an account we know exists
+    # and is public, means the backend cannot read X at all.
+    who = (handle or PROBE_HANDLE).lower()
+    if f'user "{who}" not found' in low or f"user @{who} not found" in low:
+        return f"instance cannot resolve @{who} - backend cannot read X"
+    return ""
+
+
+# Browser-proven results, which is the only evidence that actually means "this
+# instance can read tweets". Unlike the probe cache above, this one DOES live in
+# data/: the whole point is that it survives into the next CI run, and a
+# runner-local .cache/ does not. The churn objection that keeps the probe cache
+# out of data/ does not apply - this is a dozen lines that change at most once
+# per instance per run, in a directory CI already commits wholesale every run,
+# and it holds a verdict about the world rather than one runner's view of the
+# network.
+VERIFIED_PATH = Path(__file__).resolve().parents[3] / "data" / "nitter_verified.json"
+# How long a browser verification stays worth trusting. Long enough to survive a
+# bad week of probes, short enough that an instance which quietly loses its
+# tokens stops being promoted.
+VERIFIED_TTL_DAYS = float(os.environ.get("NITTER_VERIFIED_TTL_DAYS", "14"))
+# Consecutive browser failures, with no success in between, before a base is
+# dropped from the front rather than merely demoted.
+VERIFIED_MAX_FAILS = int(os.environ.get("NITTER_VERIFIED_MAX_FAILS", "3"))
+
+
+def _now_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def load_verified() -> dict:
+    try:
+        blob = json.loads(VERIFIED_PATH.read_text())
+        inst = blob.get("instances")
+        return inst if isinstance(inst, dict) else {}
+    except Exception:
+        return {}
+
+
+def record_verification(base: str, ok: bool, reason: str = "", tweets: int = 0,
+                        permanent: bool = False) -> None:
+    """Record what the BROWSER proved about `base`.
+
+    Called from the scrape rather than from discovery, because only the scrape
+    runs a browser - and the browser is the only client whose success means
+    anything. A no-op when nothing in the record would change, so repeated
+    calls within one run rewrite nothing; a repeat across runs does move the
+    timestamp, and that is deliberate - `last_ok` freshness is what
+    VERIFIED_TTL_DAYS reads, so a working instance has to keep re-proving it.
+    """
+    base = (base or "").rstrip("/")
+    if not base:
+        return
+    instances = load_verified()
+    before = json.dumps(instances.get(base), sort_keys=True)
+    rec = dict(instances.get(base) or {})
+    if ok:
+        rec.update({"last_ok": _now_iso(), "fails_since_ok": 0,
+                    "tweets": int(tweets), "reason": "", "permanent": False})
+    else:
+        # `permanent` separates "no auth tokens" from "the challenge beat us
+        # today". The first is a fact about the instance and demotes it on the
+        # first sighting; the second is a fact about one request and needs
+        # VERIFIED_MAX_FAILS of them before it counts.
+        rec.update({"last_fail": _now_iso(),
+                    "fails_since_ok": int(rec.get("fails_since_ok", 0)) + 1,
+                    "reason": reason[:160],
+                    "permanent": bool(permanent) or bool(rec.get("permanent"))})
+    if json.dumps(rec, sort_keys=True) == before:
+        return
+    instances[base] = rec
+    try:
+        VERIFIED_PATH.parent.mkdir(parents=True, exist_ok=True)
+        VERIFIED_PATH.write_text(json.dumps(
+            {"updated_at": _now_iso(),
+             "instances": dict(sorted(instances.items()))},
+            indent=2) + "\n")
+    except Exception as e:
+        _log(f"could not write {VERIFIED_PATH.name}: {type(e).__name__}: {e}")
+
+
+def _verified_age_days(rec: dict, field: str) -> float | None:
+    raw = (rec or {}).get(field)
+    if not raw:
+        return None
+    try:
+        when = datetime.fromisoformat(str(raw))
+    except ValueError:
+        return None
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - when).total_seconds() / 86400.0
+
+
+def verified_state(base: str, instances: dict | None = None) -> str:
+    """'good' / 'bad' / '' for a base, from the browser-proven record."""
+    instances = load_verified() if instances is None else instances
+    rec = instances.get((base or "").rstrip("/"))
+    if not rec:
+        return ""
+    age = _verified_age_days(rec, "last_ok")
+    fresh = age is not None and age <= VERIFIED_TTL_DAYS
+    fails = int(rec.get("fails_since_ok", 0))
+    if fresh and fails < VERIFIED_MAX_FAILS and not rec.get("permanent"):
+        return "good"
+    if rec.get("permanent") or fails >= VERIFIED_MAX_FAILS:
+        return "bad"
+    return ""
 
 
 def _env_int(name: str, default: int) -> int:
@@ -455,6 +635,16 @@ def classify(base: str, auth: str | None, proxy_url: str | None,
         rec["note"] = f"{low.count('timeline-item')} timeline items"
         return rec
 
+    # Checked BEFORE the challenge markers. Some of these pages are served with
+    # an anti-bot status code and would otherwise score as "challenged", which
+    # is what bought nt.vern.cc a 75s challenge budget per run to re-prove that
+    # it has no tokens.
+    fatal = fatal_body_reason(body)
+    if fatal:
+        rec["tier"] = TIER_USELESS
+        rec["note"] = fatal
+        return rec
+
     if any(m in low for m in CHALLENGE_MARKERS):
         rec["tier"] = TIER_CHALLENGE
         rec["note"] = "interstitial - browser may clear it"
@@ -595,10 +785,11 @@ def discover(proxy_url: str | None = None, use_cache: bool = True) -> list[str]:
 
     tier_counts = {TIER_NAMES[t]: len(by_tier.get(t, []))
                    for t in (TIER_TIMELINE, TIER_CHALLENGE, TIER_LIMITED,
-                             TIER_EMPTY, TIER_DEAD)}
+                             TIER_EMPTY, TIER_USELESS, TIER_DEAD)}
     _log("probe results: " + ", ".join(f"{k}={v}" for k, v in tier_counts.items()))
 
-    for tier in (TIER_TIMELINE, TIER_CHALLENGE, TIER_LIMITED, TIER_EMPTY):
+    for tier in (TIER_TIMELINE, TIER_CHALLENGE, TIER_LIMITED, TIER_EMPTY,
+                 TIER_USELESS):
         for rec in sorted(by_tier.get(tier, []), key=lambda r: r["base"]):
             _log(f"  {TIER_NAMES[tier]:<13} {rec['base']:<38} "
                  f"http={rec['http']:<4} {rec['bytes']:>7}B {rec['elapsed_ms']:>5}ms  "
@@ -636,6 +827,40 @@ def discover(proxy_url: str | None = None, use_cache: bool = True) -> list[str]:
             seen_backends.add(backend)
             ordered.append(rec["base"])
 
+    # ------------------------------------------------------------------
+    # Re-rank by what the BROWSER proved, which is the only evidence that an
+    # instance can actually read tweets. Everything above this point is the
+    # probe's opinion about whether a wall might be passable.
+    # ------------------------------------------------------------------
+    instances = load_verified()
+    states = {b: verified_state(b, instances) for b in ordered}
+    good = [b for b in ordered if states[b] == "good"]
+    bad = [b for b in ordered if states[b] == "bad"]
+    rest = [b for b in ordered if not states[b]]
+
+    # Most recently proven first: if two instances both work, prefer the one we
+    # have seen serve tweets more recently.
+    good.sort(key=lambda b: str((instances.get(b) or {}).get("last_ok", "")), reverse=True)
+
+    # A base the probe dropped but the browser has proven is re-added at the
+    # front rather than lost. The probe is flaky through a shared residential
+    # proxy - the same 109 candidates scored 9, 6 and 5 challenged on three
+    # consecutive runs - and on 2026-08-31 that flakiness deleted freedit.eu,
+    # the only instance that works, from the list entirely. The run then
+    # reported "no tweets from any instance" with a working one unqueried.
+    revived = []
+    for cand in list(DEFAULT_BASES) + list(instances):
+        norm, _auth = normalise(cand)
+        if norm and norm not in ordered and norm not in revived \
+                and verified_state(norm, instances) == "good":
+            revived.append(norm)
+    if revived:
+        _log(f"browser-verified but not in this probe's list, re-added: {revived}")
+
+    if good or bad or revived:
+        _log(f"browser-verified ranking: good={good + revived} demoted={bad}")
+    ordered = good + revived + rest + bad
+
     if not ordered:
         # Every candidate probed dead. That is a real, reportable state - as of
         # 2026-08 it is the expected one - but it is NOT a reason to hand the
@@ -659,6 +884,8 @@ def discover(proxy_url: str | None = None, use_cache: bool = True) -> list[str]:
         "status": "discovered",
         "candidates": len(candidates),
         "tiers": tier_counts,
+        "verified_good": good + revived,
+        "verified_bad": bad,
         "bases": ordered,
     })
     _write_cache(ordered, records)

@@ -26,6 +26,27 @@ shuffling is load bearing here rather than cosmetic: instances rate limit per
 client after a few profile loads, so a fixed order means one host absorbs every
 run and hits its 1015 at the same account every time.
 
+What the discovery probe CANNOT tell you is whether an instance can actually
+read tweets - it only sees the wall in front of them. Three failure modes hide
+behind one "challenged" verdict and each is handled here, because here is where
+a real browser is looking at the real page:
+
+  * the interstitial never clears        -> a property of the request; one retry,
+                                            then carry the accounts onward
+  * Cloudflare error 1015                -> a property of the INSTANCE; abandon
+                                            it at once
+  * nitter answers, and says it has no   -> also the instance, and permanent:
+    auth tokens / cannot resolve the        it will not improve with a better
+    user / its origin is 504                client, so abandon AND remember
+
+That last case used to be the most expensive thing in the run. nt.vern.cc
+renders "Instance has no auth tokens, or is fully rate limited" instantly, but
+plain HTTP sees only its 418, scores it "challenged", and the browser then waits
+the full 75s challenge budget for content the instance has already said it does
+not have. Every verdict reached here is written back through
+nitter_instances.record_verification, which is what puts a working instance at
+the front of the list next run instead of leaving it to the shuffle.
+
 Override the instance order with NITTER_BASES (comma separated), which bypasses
 discovery entirely; see nitter_instances for the rest of the knobs.
 """
@@ -117,12 +138,26 @@ class RateLimited(Exception):
     """The instance served Cloudflare error 1015 (or equivalent) for this request."""
 
 
-async def _is_rate_limited(page) -> bool:
+class InstanceUnusable(Exception):
+    """The instance answered, and what it answered proves it cannot serve tweets.
+
+    Distinct from RateLimited (which is temporary) and from a failed challenge
+    (which is per-request): this one is a property of the instance that no
+    client and no retry will change, so it is both abandoned and remembered.
+    """
+
+
+async def _page_blob(page) -> str:
+    """title + visible body, lowercased. One round trip, because every check
+    below wants the same text and each `evaluate` costs a proxied RTT."""
     state = await page.evaluate("""() => ({
         title: document.title || '',
-        body: (document.body ? document.body.innerText : '').slice(0, 300),
+        body: (document.body ? document.body.innerText : '').slice(0, 400),
     })""")
-    blob = f"{state['title']} {state['body']}".lower()
+    return f"{state['title']} {state['body']}".lower()
+
+
+def _is_rate_limited(blob: str) -> bool:
     return "error 1015" in blob or "you are being rate limited" in blob
 
 
@@ -141,16 +176,30 @@ async def _load_timeline(page, base: str, handle: str, timeout_s: int) -> list[d
         print(f"    [TWITTER] {url}: goto failed - {type(e).__name__}: {str(e)[:110]}")
         return None
 
-    if await _is_rate_limited(page):
+    # Checked BEFORE the challenge wait, not after: an instance that has already
+    # rendered its "no auth tokens" page is not going to render a timeline in
+    # another 75 seconds, and waiting for it is what pushed CI runs past their
+    # step timeout.
+    blob = await _page_blob(page)
+    if _is_rate_limited(blob):
         raise RateLimited(f"{base} returned Cloudflare 1015 for @{handle}")
+    fatal = nitter_instances.fatal_body_reason(blob, handle)
+    if fatal:
+        raise InstanceUnusable(f"{base}: {fatal}")
 
     def log(msg):
         print(msg)
 
     ok = await wait_for_challenge(page, TIMELINE_SELECTOR, timeout_s=timeout_s, log=log)
     if not ok:
-        if await _is_rate_limited(page):
+        # The error can also arrive late - a challenge clears and what is behind
+        # it is the token page. Re-read rather than assuming the first look.
+        blob = await _page_blob(page)
+        if _is_rate_limited(blob):
             raise RateLimited(f"{base} returned Cloudflare 1015 for @{handle}")
+        fatal = nitter_instances.fatal_body_reason(blob, handle)
+        if fatal:
+            raise InstanceUnusable(f"{base}: {fatal}")
         return None
     return await page.evaluate(EXTRACT_JS, MAX_TWEETS_PER_ACCOUNT)
 
@@ -197,6 +246,11 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
         print(f"    [TWITTER] instance {base}: {len(remaining)} account(s) to fetch")
 
         rate_limited = False
+        # Tweets THIS instance served. A 1015 after it has already delivered is
+        # an instance doing its job and then throttling, which must not be
+        # recorded as "cannot serve tweets" - that is the state that would
+        # demote a working instance out of the list.
+        served_here = 0
         for i, account in enumerate(remaining):
             handle = account["handle"]
             # The FIRST load on an instance has to run the interstitial JS and needs
@@ -219,7 +273,18 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
             except RateLimited as e:
                 print(f"    [TWITTER] {e} - abandoning this instance, "
                       f"{len(remaining) - i} account(s) carried over")
+                if served_here == 0:
+                    nitter_instances.record_verification(
+                        base, False, "rate limited before serving anything")
                 rate_limited = True
+                break
+            except InstanceUnusable as e:
+                # Permanent, and now remembered: next run puts this base behind
+                # everything else instead of re-proving it for 75 seconds.
+                print(f"    [TWITTER] {e} - permanent, abandoning this instance "
+                      f"and remembering it; {len(remaining) - i} account(s) carried over")
+                nitter_instances.record_verification(base, False, str(e)[:160],
+                                                     permanent=True)
                 break
 
             if tweets is None:
@@ -234,12 +299,21 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                     print(f"    [TWITTER] {base}: first account failed after retry - "
                           f"instance is not clearing, carrying all "
                           f"{len(remaining)} account(s) to the next instance")
+                    nitter_instances.record_verification(
+                        base, False, "interstitial did not clear in the browser")
                     break
                 continue
 
             all_tweets.extend(_to_records(tweets, account, base))
             done.add(handle)
+            served_here += len(tweets)
             print(f"    [TWITTER] @{handle}: {len(tweets)} tweets ({base.split('//')[1]})")
+            if served_here == len(tweets):
+                # First tweets out of this instance: it is proven, and proof is
+                # the thing the probe could never supply. Recorded on the first
+                # success rather than at the end of the loop so a later 1015
+                # cannot cost us the verdict.
+                nitter_instances.record_verification(base, True, tweets=len(tweets))
 
             # Pace requests: hammering 12 profiles back to back is what triggers
             # the 1015 in the first place.
