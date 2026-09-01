@@ -317,10 +317,18 @@ def record_verification(base: str, ok: bool, reason: str = "", tweets: int = 0,
         # today". The first is a fact about the instance and demotes it on the
         # first sighting; the second is a fact about one request and needs
         # VERIFIED_MAX_FAILS of them before it counts.
+        # An instance that has served tweets inside the trust window cannot be
+        # branded permanently incapable, whatever the caller says: the page that
+        # reports "no auth tokens" is the same page nitter shows when its token
+        # pool is merely spent, so the claim is only credible from an instance
+        # that has never delivered. Enforced here rather than trusted to every
+        # call site, because this file is what outlives the run.
+        served_recently = (_verified_age_days(rec, "last_ok") or 1e9) <= VERIFIED_TTL_DAYS
         rec.update({"last_fail": _now_iso(),
                     "fails_since_ok": int(rec.get("fails_since_ok", 0)) + 1,
                     "reason": reason[:160],
-                    "permanent": bool(permanent) or bool(rec.get("permanent"))})
+                    "permanent": (bool(permanent) or bool(rec.get("permanent")))
+                                 and not served_recently})
     if json.dumps(rec, sort_keys=True) == before:
         return
     instances[base] = rec

@@ -335,8 +335,21 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                 rate_limited = True
                 break
             except InstanceUnusable as e:
-                # Permanent, and now remembered: next run puts this base behind
-                # everything else instead of re-proving it for 75 seconds.
+                if served_here:
+                    # It served, then ran dry. Nitter says "no auth tokens, or
+                    # is fully rate limited" for both, and after 25 tweets it is
+                    # plainly the second - the token pool is spent for now, not
+                    # the instance useless. Recording a failure here would
+                    # demote the only instance that works: measured on
+                    # 2026-09-01, freedit served five accounts and was then
+                    # marked permanently bad by this very line.
+                    print(f"    [TWITTER] {e} - after {served_here} tweet(s), so its "
+                          f"token pool is spent rather than absent; leaving its "
+                          f"good record intact and carrying "
+                          f"{len(remaining) - i} account(s) over")
+                    break
+                # Never served anything: permanent, and now remembered, so the
+                # next run does not re-prove it for 150 seconds.
                 print(f"    [TWITTER] {e} - permanent, abandoning this instance "
                       f"and remembering it; {len(remaining) - i} account(s) carried over")
                 nitter_instances.record_verification(base, False, str(e)[:160],

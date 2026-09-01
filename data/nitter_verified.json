@@ -15,10 +15,10 @@
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-09-01T13:35:37+00:00",
-      "fails_since_ok": 1,
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
-      "permanent": true,
+      "reason": "",
+      "permanent": false,
       "last_fail": "2026-09-01T13:36:02+00:00"
     },
     "https://nitter.kareem.one": {

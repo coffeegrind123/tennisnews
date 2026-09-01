@@ -515,6 +515,26 @@ class VerifiedStoreTest(unittest.TestCase):
         self.assertEqual(ni.verified_state("https://ancient.example"), "",
                          "a verification from a fortnight ago is not evidence about today")
 
+    def test_a_server_that_served_cannot_be_branded_permanently_useless(self):
+        # 2026-09-01, verbatim: freedit served 25 tweets across 5 accounts, then
+        # reported "no auth tokens, or is fully rate limited" - the SAME page
+        # nitter shows when its token pool is merely spent. The caller marked it
+        # permanent and demoted the only instance that works. The store refuses
+        # that claim from an instance with a recent success.
+        base = "https://served-then-dry.example"
+        ni.record_verification(base, True, tweets=25)
+        ni.record_verification(base, False, "instance has no X auth tokens",
+                               permanent=True)
+        self.assertNotEqual(ni.verified_state(base), "bad")
+
+    def test_an_instance_that_never_served_is_still_branded(self):
+        # The control: the same claim from an instance with nothing to show for
+        # itself must still stick, or the demotion never happens at all.
+        base = "https://never-served.example"
+        ni.record_verification(base, False, "instance has no X auth tokens",
+                               permanent=True)
+        self.assertEqual(ni.verified_state(base), "bad")
+
     def test_an_unreadable_store_is_not_fatal(self):
         ni.VERIFIED_PATH.write_text("{ this is not json")
         self.assertEqual(ni.load_verified(), {})
