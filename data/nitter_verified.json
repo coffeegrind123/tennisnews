@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T13:12:19+00:00",
+  "updated_at": "2026-09-01T13:41:04+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-01T10:55:45+00:00",
@@ -8,34 +8,34 @@
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-09-01T11:35:50+00:00",
-      "fails_since_ok": 3,
-      "reason": "interstitial did not clear in the browser",
+      "last_fail": "2026-09-01T13:37:13+00:00",
+      "fails_since_ok": 4,
+      "reason": "https://lightbrd.com: origin behind Cloudflare is down",
       "permanent": true
     },
     "https://nitter.freedit.eu": {
-      "last_ok": "2026-09-01T10:18:17+00:00",
-      "fails_since_ok": 3,
-      "tweets": 20,
-      "reason": "interstitial did not clear in the browser",
-      "permanent": false,
-      "last_fail": "2026-09-01T13:12:15+00:00"
+      "last_ok": "2026-09-01T13:35:37+00:00",
+      "fails_since_ok": 1,
+      "tweets": 5,
+      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
+      "permanent": true,
+      "last_fail": "2026-09-01T13:36:02+00:00"
     },
     "https://nitter.kareem.one": {
-      "last_fail": "2026-09-01T11:28:47+00:00",
-      "fails_since_ok": 3,
+      "last_fail": "2026-09-01T13:41:03+00:00",
+      "fails_since_ok": 4,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },
     "https://nt.vern.cc": {
-      "last_fail": "2026-09-01T10:55:49+00:00",
-      "fails_since_ok": 3,
+      "last_fail": "2026-09-01T13:41:04+00:00",
+      "fails_since_ok": 4,
       "reason": "interstitial did not clear in the browser",
       "permanent": true
     },
     "https://nuku.trabun.org": {
-      "last_fail": "2026-09-01T13:12:19+00:00",
-      "fails_since_ok": 4,
+      "last_fail": "2026-09-01T13:37:30+00:00",
+      "fails_since_ok": 5,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     }
