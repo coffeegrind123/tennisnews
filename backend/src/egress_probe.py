@@ -36,12 +36,20 @@ async def egress_ips(page, n: int = 3) -> list[str]:
     return seen
 
 
-async def arm(label: str, proxy_url: str | None) -> None:
+async def arm(label: str, proxy_url: str | None, geoip: bool = False,
+              humanize: bool = False) -> None:
     cfg = parse_proxy_url(proxy_url) if proxy_url else None
-    kwargs = {"headless": True, "humanize": False, "enable_cache": True,
+    kwargs = {"headless": True, "humanize": humanize, "enable_cache": True,
               "timeout": 60000, "executable_path": str(CAMOUFOX_BIN)}
     if cfg:
         kwargs["proxy"] = cfg
+    # camoufox warns on every proxied launch that geoip=True is "heavily
+    # recommended", and the scraper has never passed it. Without it the spoofed
+    # locale, timezone and geolocation describe a client somewhere other than
+    # where the exit IP is, which is exactly the incoherence a managed challenge
+    # is looking for.
+    if geoip:
+        kwargs["geoip"] = True
     print(f"\n=== {label} ===", flush=True)
     async with AsyncCamoufox(**kwargs) as browser:
         page = await browser.new_page()
@@ -59,16 +67,26 @@ async def arm(label: str, proxy_url: str | None) -> None:
               f"({len(tweets or [])} tweets)", flush=True)
 
 
+# Each arm changes exactly one thing from the one above it, so whichever one
+# first says TIMELINE names the missing ingredient rather than a lucky
+# combination.
+ARMS = {
+    "direct":            ("DIRECT, as the scraper launches today", False, False, False),
+    "direct-geoip":      ("DIRECT + geoip", False, True, False),
+    "proxied":           ("PROXIED, as the scraper launches today", True, False, False),
+    "proxied-geoip":     ("PROXIED + geoip", True, True, False),
+    "proxied-geoip-hum": ("PROXIED + geoip + humanize", True, True, True),
+}
+
+
 async def main():
-    which = sys.argv[1:] or ["direct", "proxied"]
+    which = sys.argv[1:] or list(ARMS)
     for name in which:
-        if name == "direct":
-            await arm("DIRECT (the runner's own address)", None)
-        else:
-            p = os.environ.get("SCRAPER_HTTP_PROXY")
-            if not p:
-                print("\n=== PROXIED === skipped, no SCRAPER_HTTP_PROXY", flush=True)
-                continue
-            await arm("PROXIED (residential, rotates per connection)", p)
+        label, proxied, geoip, humanize = ARMS[name]
+        proxy = os.environ.get("SCRAPER_HTTP_PROXY") if proxied else None
+        if proxied and not proxy:
+            print(f"\n=== {label} === skipped, no SCRAPER_HTTP_PROXY", flush=True)
+            continue
+        await arm(label, proxy, geoip=geoip, humanize=humanize)
 
 asyncio.run(main())

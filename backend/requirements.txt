@@ -1,5 +1,11 @@
 feedparser
-camoufox
+# The launcher, from the SAME fork the workflow downloads the binary from -
+# JWriter20 is where camoufox is actively maintained, and a launcher and a build
+# that disagree about properties.json are not a combination anyone tests.
+# [geoip] is not optional in practice: camoufox warns on every proxied launch
+# that it is "heavily recommended", and without it the spoofed locale, timezone
+# and geolocation describe a client somewhere other than the exit IP.
+camoufox[geoip] @ git+https://github.com/JWriter20/camoufox.git#subdirectory=python
 # playwright 1.60 dispatches pageError with `location.url`, which the camoufox
 # FF146 juggler never sends. The driver process then dies on the FIRST uncaught
 # JS error on any page, taking the whole browser (and every remaining site) with
