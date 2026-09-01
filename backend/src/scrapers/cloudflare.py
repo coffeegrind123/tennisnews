@@ -16,6 +16,14 @@ than just a boolean, because "did not clear" and "cleared but the page is empty"
 look identical from the outside and need completely different fixes.
 """
 
+# Prose, and therefore ONLY a hint. Cloudflare serves the interstitial in the
+# language of the exit IP's country, so the moment the browser started using
+# geoip=True (which is what finally let it clear a challenge at all) these
+# stopped matching: a Korean exit returns "잠시만 기다리십시오…", and the
+# detector reported "no challenge" and abandoned in 3.7s a challenge that
+# clears in ten seconds. With a rotating residential exit the same page also
+# arrives in French, Portuguese and Indonesian. Structural detection below is
+# the authority; this list only helps when it happens to be in English.
 CHALLENGE_TITLES = (
     "just a moment",
     "making sure you're not a bot",
@@ -36,19 +44,36 @@ CHALLENGE_JS = """() => {
         body: body.replace(/\\s+/g, ' ').slice(0, 200),
         hasTurnstile: !!document.querySelector('iframe[src*="challenges.cloudflare.com"], .cf-turnstile, #challenge-stage'),
         hasChallengeForm: !!document.querySelector('#challenge-form, #challenge-running, #cf-challenge-running'),
+        // Language-independent, because the markup is the same in every locale.
+        // _cf_chl_opt is the challenge runtime's own options object and the
+        // script it loads always comes from /cdn-cgi/challenge-platform/.
+        hasChallengePlatform: !!(window._cf_chl_opt
+            || document.querySelector('script[src*="/cdn-cgi/challenge-platform/"]')
+            || document.querySelector('#challenge-error-text, #challenge-body-text, #cf-please-wait')),
+        // Anubis proof-of-work, the other wall these instances use.
+        hasAnubis: !!(window.anubis
+            || document.querySelector('script[src*="anubis"], #anubis_challenge, img[alt*="Anubis"]')),
     };
 }"""
 
 
 def looks_like_challenge(state: dict, ready_selector_count: int) -> bool:
-    """A page is still challenged if the real content never appeared AND it
-    either says so in the title or is still showing a Turnstile widget."""
+    """A page is still challenged if the real content never appeared AND the
+    page still carries challenge machinery.
+
+    Structure first, prose second. Reading the title was enough only while every
+    challenge arrived in English; it is markup that identifies a challenge in
+    any locale, and getting this wrong costs the whole run - "not a challenge"
+    means give up immediately, on a page that would have cleared.
+    """
     if ready_selector_count > 0:
         return False
-    title = (state.get("title") or "").lower()
-    if any(t in title for t in CHALLENGE_TITLES):
+    if state.get("hasChallengePlatform") or state.get("hasAnubis"):
         return True
-    return bool(state.get("hasTurnstile") or state.get("hasChallengeForm"))
+    if state.get("hasTurnstile") or state.get("hasChallengeForm"):
+        return True
+    title = (state.get("title") or "").lower()
+    return any(t in title for t in CHALLENGE_TITLES)
 
 
 async def _try_turnstile_click(page, log) -> bool:
