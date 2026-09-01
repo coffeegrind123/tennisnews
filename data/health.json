@@ -2,6 +2,11 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -12,9 +17,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis365": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Perfect Tennis": {
@@ -22,19 +27,14 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Guardian Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Now": {
@@ -42,12 +42,7 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Guardian Tennis": {
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -62,14 +57,14 @@
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Ubitennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -77,9 +72,9 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
+    "Tennis Nerd": {
       "type": "rss",
-      "count": 16,
+      "count": 10,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -90,7 +85,14 @@
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": ""
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -139,18 +141,8 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.espn.com/tennis/",
-        "title": "",
-        "htmlLen": 1998,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
+      "count": 16,
+      "error": ""
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -164,7 +156,7 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 351264,
+        "htmlLen": 339034,
         "bodyTextLen": 4722,
         "markers": [],
         "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
@@ -172,7 +164,7 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 15,
+      "count": 4,
       "error": ""
     },
     "Rafael Nadal Fans": {
@@ -212,48 +204,42 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 80,
+      "count": 138,
       "error": ""
     }
   },
   "twitter": {
     "tweets": 0,
     "accounts": 0,
-    "error": "no tweets from any instance (tried ['https://nitter.freedit.eu', 'https://nitter.kareem.one', 'https://nuku.trabun.org', 'https://lightbrd.com']) - every one failed its interstitial, rate limited us, or served empty timelines",
+    "error": "no tweets from any instance (tried ['https://nitter.freedit.eu', 'https://nuku.trabun.org']) - every one failed its interstitial, rate limited us, or served empty timelines",
     "instances": {
       "status": "discovered",
-      "candidates": 109,
+      "candidates": 13,
       "tiers": {
         "timeline": 0,
-        "challenged": 6,
+        "challenged": 2,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 103
+        "dead": 11
       },
       "verified_good": [
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
-        "https://lightbrd.com",
-        "https://bird.habedieeh.re",
-        "https://nt.vern.cc"
+        "https://nuku.trabun.org"
       ],
       "bases": [
         "https://nitter.freedit.eu",
-        "https://nitter.kareem.one",
-        "https://nuku.trabun.org",
-        "https://lightbrd.com",
-        "https://bird.habedieeh.re",
-        "https://nt.vern.cc"
+        "https://nuku.trabun.org"
       ]
     }
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9147,
-    "allowed": 8240,
-    "blocked_pct": 52.6
+    "blocked": 9974,
+    "allowed": 7357,
+    "blocked_pct": 57.6
   },
   "navigation": {
     "floored": 21,
@@ -264,7 +250,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 575,
+    "scanned": 635,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -276,9 +262,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-09-01 11:35:55 UTC",
+  "generated_at": "2026-09-01 13:12:23 UTC",
   "empty_sources": [
-    "ESPN Tennis",
     "Tennis Canada"
   ]
 }
