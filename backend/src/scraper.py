@@ -629,6 +629,26 @@ async def scrape_all_sites(scrape_sites: list[dict], failed_rss: list[dict] | No
     }
     if proxy_config:
         kwargs["proxy"] = proxy_config
+        # THE thing that makes a proxied browser survive a Cloudflare managed
+        # challenge. Measured on a runner 2026-09-01, one variable per arm,
+        # against nitter.freedit.eu:
+        #
+        #   direct, no geoip    stable Azure IP     no timeline after 151s
+        #   direct + geoip      stable Azure IP     no timeline after 151s
+        #   proxied, no geoip   rotating exits      no timeline after 152s
+        #   proxied + geoip     rotating exits      TIMELINE IN 10s
+        #
+        # Neither half works alone. Without geoip, camoufox spoofs a locale,
+        # timezone and geolocation that describe a client somewhere other than
+        # where the exit IP is, and a managed challenge exists to catch exactly
+        # that incoherence - it never clears, however long it is given. camoufox
+        # has been printing "heavily recommended that you pass geoip=True" on
+        # every proxied launch this whole time. Direct fails on the runner's
+        # datacenter reputation whether or not the fingerprint is coherent.
+        #
+        # humanize=True was measured too and adds nothing here (13s vs 10s), so
+        # it stays off.
+        kwargs["geoip"] = True
 
     all_articles = []
     twitter_tweets = []
