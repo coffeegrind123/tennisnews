@@ -7,12 +7,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -22,12 +22,7 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,7 +32,12 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -47,14 +47,19 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Guardian Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -77,27 +82,21 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "World Tennis Magazine": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
-    },
-    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": "",
       "recovered_via": "browser"
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.atptour.com/en/news\", waiting until \"domcontentloaded\"\n"
+      "count": 16,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -131,8 +130,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-07-04&endD"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -141,8 +140,18 @@
     },
     "ESPN Tennis": {
       "type": "scrape",
-      "count": 17,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.espn.com/tennis/",
+        "title": "",
+        "htmlLen": 1998,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -156,8 +165,8 @@
       "empty_diagnostic": {
         "url": "https://www.tenniscanada.com/news",
         "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 338397,
-        "bodyTextLen": 4697,
+        "htmlLen": 230078,
+        "bodyTextLen": 4215,
         "markers": [],
         "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
       }
@@ -204,46 +213,48 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 120,
+      "count": 64,
       "error": ""
     }
   },
   "twitter": {
-    "tweets": 60,
-    "accounts": 12,
+    "tweets": 0,
+    "accounts": 0,
+    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
     "instances": {
       "status": "discovered",
-      "candidates": 13,
+      "candidates": 109,
       "tiers": {
         "timeline": 0,
-        "challenged": 4,
+        "challenged": 6,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 9
+        "dead": 103
       },
       "verified_good": [
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
+        "https://bird.habedieeh.re",
+        "https://lightbrd.com",
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one",
-        "https://lightbrd.com"
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://nitter.freedit.eu",
+        "https://bird.habedieeh.re",
+        "https://lightbrd.com",
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one",
-        "https://lightbrd.com"
+        "https://nitter.kareem.one"
       ]
-    },
-    "error": ""
+    }
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8836,
-    "allowed": 7504,
-    "blocked_pct": 54.1
+    "blocked": 9082,
+    "allowed": 7322,
+    "blocked_pct": 55.4
   },
   "navigation": {
     "floored": 21,
@@ -254,7 +265,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 662,
+    "scanned": 520,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -266,10 +277,11 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-09-01 17:55:02 UTC",
+  "generated_at": "2026-09-02 10:36:09 UTC",
   "empty_sources": [
-    "ATP Tour",
+    "10sBalls",
+    "ESPN Tennis",
     "Tennis Canada",
-    "World Tennis Magazine"
+    "US Open"
   ]
 }
