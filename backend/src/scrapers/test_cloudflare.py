@@ -16,8 +16,10 @@ the language of the exit IP's country, and the exit rotates per connection, so
 import unittest
 
 from scrapers.cloudflare import (
+    is_browser_gone,
     is_navigation_race,
     looks_like_challenge,
+    page_is_dead,
     safe_evaluate,
 )
 
@@ -163,6 +165,52 @@ class NavigationRaceTest(unittest.IsolatedAsyncioTestCase):
         with self.assertRaises(RuntimeError):
             await safe_evaluate(page, "() => 1", retries=2, log=lambda m: None)
         self.assertEqual(page.calls, 3)
+
+
+class BrowserGoneTest(unittest.TestCase):
+    """Told apart from a navigation race because the two need OPPOSITE
+    responses: a race is retried on the same page, a dead browser must stop the
+    caller and blame nothing."""
+
+    def test_the_playwright_wordings_are_recognised(self):
+        for msg in ("Page.goto: Target page, context or browser has been closed",
+                    "TargetClosedError: Target closed",
+                    "Browser has been closed",
+                    "Browser has disconnected"):
+            self.assertTrue(is_browser_gone(RuntimeError(msg)), msg)
+
+    def test_recoverable_failures_are_not_mistaken_for_it(self):
+        # The control, and the important half: if this returned True for a
+        # timeout, one slow site would abort the whole run.
+        for msg in ("Timeout 30000ms exceeded",
+                    "net::ERR_NAME_NOT_RESOLVED",
+                    "Execution context was destroyed, most likely because of a "
+                    "navigation"):
+            self.assertFalse(is_browser_gone(RuntimeError(msg)), msg)
+
+    def test_the_two_readings_never_both_claim_the_same_exception(self):
+        for msg in ("Target page, context or browser has been closed",
+                    "Execution context was destroyed",
+                    "Timeout 30000ms exceeded"):
+            e = RuntimeError(msg)
+            self.assertFalse(is_browser_gone(e) and is_navigation_race(e), msg)
+
+    def test_page_is_dead_reads_is_closed(self):
+        class P:
+            def __init__(self, v): self.v = v
+            def is_closed(self): return self.v
+        self.assertTrue(page_is_dead(P(True)))
+        self.assertFalse(page_is_dead(P(False)))
+
+    def test_a_page_without_is_closed_is_assumed_alive(self):
+        # Test doubles and older stubs have no is_closed; assuming DEAD there
+        # would abort every run that used one.
+        self.assertFalse(page_is_dead(object()))
+
+    def test_a_page_whose_is_closed_raises_is_treated_as_dead(self):
+        class P:
+            def is_closed(self): raise RuntimeError("connection closed")
+        self.assertTrue(page_is_dead(P()))
 
 
 if __name__ == "__main__":

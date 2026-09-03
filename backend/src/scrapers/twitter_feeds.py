@@ -91,7 +91,12 @@ import os
 import time
 
 from scrapers import nitter_instances
-from scrapers.cloudflare import safe_evaluate, wait_for_challenge
+from scrapers.cloudflare import (
+    is_browser_gone,
+    page_is_dead,
+    safe_evaluate,
+    wait_for_challenge,
+)
 
 # Removed 2026-08-01: @moormangirl (dormant, newest tweet April 2025) and
 # @viv_christie (profile renders but serves no timeline - protected or empty).
@@ -191,6 +196,19 @@ class RateLimited(Exception):
     """The instance served Cloudflare error 1015 (or equivalent) for this request."""
 
 
+class BrowserGone(Exception):
+    """The page/browser died. Nothing here is a verdict on any instance.
+
+    Separate from every other failure in this module because it is the only one
+    that says nothing about Nitter at all. Measured 2026-09-03: the browser died
+    during the ARTICLE half, and the Twitter phase then walked all six instances
+    in 50 milliseconds - each goto raising TargetClosedError, each swallowed as
+    "no timeline rendered", each writing a permanent "interstitial did not
+    clear" against the host. Two of those six were lightbrd.com and
+    nitter.freedit.eu, the only instances that work.
+    """
+
+
 class InstanceUnusable(Exception):
     """The instance answered, and what it answered proves it cannot serve tweets.
 
@@ -236,6 +254,10 @@ async def _load_timeline(page, base: str, handle: str, timeout_s: int,
         try:
             await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         except Exception as e:
+            # Returning None here would be read as "this instance did not serve
+            # the profile", which is a verdict. A dead browser is not.
+            if is_browser_gone(e) or page_is_dead(page):
+                raise BrowserGone(f"{type(e).__name__}: {str(e)[:110]}") from e
             print(f"    [TWITTER] {url}: goto failed - {type(e).__name__}: {str(e)[:110]}")
             return None
     elif handle.lower() not in (page.url or "").lower():
@@ -309,6 +331,11 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
     # an unchallenged instance (55).
     started_at = time.monotonic()
     page_gone = False
+    if page_is_dead(page):
+        raise RuntimeError(
+            "the browser page was already closed before the Twitter phase "
+            "started - the article half died first, and walking the instance "
+            "list now would blame every host for it")
     for base in bases:
         remaining = [a for a in ACCOUNTS if a["handle"] not in done]
         if not remaining:
@@ -357,6 +384,16 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                           f"restart the challenge)")
                     tweets = await _load_timeline(page, base, handle,
                                                   CHALLENGE_RETRY_S, navigate=False)
+            except BrowserGone as e:
+                # No record_verification call anywhere on this path, and no
+                # attempt at the next instance: every one of them would fail
+                # identically and be blamed identically.
+                print(f"    [TWITTER] the browser is gone ({e}) - stopping the "
+                      f"Twitter phase with {len(all_tweets)} tweet(s) in hand; "
+                      f"no instance is blamed for this")
+                page_gone = True
+                rate_limited = True  # suppress the "all accounts done" shortcut
+                break
             except RateLimited as e:
                 print(f"    [TWITTER] {e} - abandoning this instance, "
                       f"{len(remaining) - i} account(s) carried over")

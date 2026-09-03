@@ -101,16 +101,24 @@ NAV_RETRIES = int(os.environ.get("SCRAPER_NAV_RETRIES", "1"))
 NAV_RETRY_BUDGET = int(os.environ.get("SCRAPER_NAV_RETRY_BUDGET", "6"))
 
 
-def install_navigation_policy(page, floor_ms: int, retries: int) -> dict:
+def install_navigation_policy(page, floor_ms: int, retries: int,
+                              stats: dict | None = None) -> dict:
     """Floor + retry the first navigation of each source. Returns a stats dict.
 
     `page.arm_nav_floor()` re-arms before each source; the wrapper disarms itself
     after the first goto so per-article navigations are untouched.
+
+    `stats` lets the caller supply the counter dict so a REPLACEMENT page keeps
+    writing into the same one. Passing it matters: the wrapper closes over this
+    object, so a fresh dict here would silently orphan every count taken before
+    the page was replaced, and the end-of-run [NAV] line would describe only the
+    last page rather than the run.
     """
     from playwright.async_api import TimeoutError as PWTimeout
 
     original_goto = page.goto
-    stats = {"floored": 0, "retried": 0, "retry_saved": 0, "budget_exhausted": 0}
+    if stats is None:
+        stats = {"floored": 0, "retried": 0, "retry_saved": 0, "budget_exhausted": 0}
     state = {"armed": False, "budget": NAV_RETRY_BUDGET}
 
     async def goto(url, **kwargs):
@@ -151,9 +159,14 @@ def install_navigation_policy(page, floor_ms: int, retries: int) -> dict:
     return stats
 
 
-async def install_asset_blocker(page) -> dict:
-    """Abort image/media/font requests. Returns a live counter dict."""
-    stats = {"blocked": 0, "allowed": 0}
+async def install_asset_blocker(page, stats: dict | None = None) -> dict:
+    """Abort image/media/font requests. Returns a live counter dict.
+
+    `stats` is caller-owned for the same reason as install_navigation_policy:
+    a replacement page must keep counting into the run's dict.
+    """
+    if stats is None:
+        stats = {"blocked": 0, "allowed": 0}
 
     async def route_handler(route):
         if route.request.resource_type in BLOCKED_RESOURCE_TYPES:
@@ -171,6 +184,30 @@ async def install_asset_blocker(page) -> dict:
 
     await page.route("**/*", route_handler)
     return stats
+
+
+# is_browser_gone / page_is_dead live in scrapers.cloudflare, beside
+# is_navigation_race - the two exception readings are only useful as a pair, and
+# both the article half here and the Twitter half there must agree on them.
+from scrapers.cloudflare import is_browser_gone, page_is_dead  # noqa: E402
+
+
+async def new_configured_page(browser, nav_floor: int, nav_stats: dict,
+                              asset_stats: dict | None):
+    """A fresh page carrying the same navigation policy and asset blocker.
+
+    The replacement has to be configured identically or the recovery is worse
+    than the crash: an unfloored page re-times-out on every proxied listing, and
+    an unrouted one downloads every image on a metered proxy.
+
+    Counters are MERGED into the caller's dicts rather than replaced, so the
+    end-of-run [NAV] and [ASSETS] lines still describe the whole run.
+    """
+    page = await browser.new_page()
+    install_navigation_policy(page, nav_floor, NAV_RETRIES, stats=nav_stats)
+    if asset_stats is not None:
+        await install_asset_blocker(page, stats=asset_stats)
+    return page
 
 
 def proxy_reachable(config: dict, timeout: float = 15.0) -> bool:
@@ -689,8 +726,57 @@ async def scrape_all_sites(scrape_sites: list[dict], failed_rss: list[dict] | No
                     articles = await scrape_site_with_module(page, site)
                     all_articles.extend(articles)
                 except Exception as e:
+                    # A dead browser is not this site's fault, and recording it
+                    # as one is how a single crash produced ten false verdicts
+                    # on 2026-09-03. Replace the page and give the site a second
+                    # chance on a live one; only blame it if it fails again.
+                    if is_browser_gone(e) or page_is_dead(page):
+                        print(f"BROWSER GONE - {str(e)[:90]}")
+                        HEALTH["browser_deaths"] = HEALTH.get("browser_deaths", 0) + 1
+                        try:
+                            page = await new_configured_page(
+                                browser, nav_floor, nav_stats, asset_stats)
+                        except Exception as e2:
+                            # The browser itself is gone, not just the page.
+                            # Nothing after this can succeed, so stop rather
+                            # than write 'returned 0 articles' against every
+                            # remaining source and instance.
+                            HEALTH["browser_error"] = (
+                                f"browser died at source {idx}/{total} "
+                                f"({site['name']}) and could not be revived: "
+                                f"{str(e2)[:120]}")
+                            print(f"  [BROWSER] unrecoverable: {str(e2)[:120]}")
+                            print(f"  [BROWSER] {total - idx + 1} source(s) and the "
+                                  f"Twitter phase were never attempted")
+                            for skipped in scrape_sites[idx - 1:]:
+                                HEALTH["sources"][skipped["name"]] = {
+                                    "count": 0,
+                                    "error": "not attempted - browser died earlier "
+                                             "in the run",
+                                }
+                            break
+                        print(f"  [BROWSER] page replaced after {site['name']}; "
+                              f"retrying it on the new page")
+                        try:
+                            articles = await scrape_site_with_module(page, site)
+                            all_articles.extend(articles)
+                            continue
+                        except Exception as e3:
+                            e = e3
                     HEALTH["sources"][site["name"]] = {"count": 0, "error": str(e)[:200]}
                     print(f"FAILED - {e}")
+
+            # The Twitter phase runs on this same page. Handing it a corpse
+            # makes all six instances fail their interstitial in 50ms and
+            # records a permanent "did not clear" against the only two that
+            # work - so check before, not after.
+            if page_is_dead(page):
+                try:
+                    page = await new_configured_page(
+                        browser, nav_floor, nav_stats, asset_stats)
+                    print("  [BROWSER] page replaced before the Twitter phase")
+                except Exception as e:
+                    print(f"  [BROWSER] cannot revive before Twitter: {str(e)[:120]}")
 
             if failed_rss:
                 print(f"  Retrying {len(failed_rss)} unreachable RSS feed(s) via the browser...")

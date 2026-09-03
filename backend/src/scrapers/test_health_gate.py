@@ -105,5 +105,63 @@ class HealthGateTest(unittest.TestCase):
         self.assertEqual(self._run(articles=0), 1)
 
 
+class PageReplacementTest(unittest.IsolatedAsyncioTestCase):
+    """A replacement page must keep counting into the RUN's counters.
+
+    install_navigation_policy's wrapper closes over the stats dict it is given,
+    so a fresh dict on the replacement page orphans everything counted before
+    the crash - and the end-of-run [NAV]/[ASSETS] lines would then describe only
+    the last page rather than the run, while looking perfectly normal.
+    """
+
+    class FakePage:
+        def __init__(self):
+            self.routes = []
+            self.goto = self._goto
+
+        async def _goto(self, url, **kwargs):
+            return None
+
+        async def route(self, pattern, handler):
+            self.routes.append(pattern)
+
+    class FakeBrowser:
+        def __init__(self, page):
+            self._page = page
+            self.pages_made = 0
+
+        async def new_page(self):
+            self.pages_made += 1
+            return self._page
+
+    async def test_the_replacement_shares_the_run_counters(self):
+        nav = {"floored": 7, "retried": 2, "retry_saved": 1, "budget_exhausted": 0}
+        assets = {"blocked": 500, "allowed": 100}
+        page = self.FakePage()
+        browser = self.FakeBrowser(page)
+        got = await scraper.new_configured_page(browser, 30000, nav, assets)
+        self.assertIs(got, page)
+        self.assertEqual(browser.pages_made, 1)
+        self.assertEqual(nav["floored"], 7, "counts from before the crash survive")
+        self.assertEqual(assets["blocked"], 500)
+
+    async def test_the_replacement_is_floored_and_routed_like_the_original(self):
+        # A bare replacement page would re-time-out on every proxied listing and
+        # download every image on a metered proxy - a recovery worse than the
+        # crash.
+        page = self.FakePage()
+        nav = {"floored": 0, "retried": 0, "retry_saved": 0, "budget_exhausted": 0}
+        assets = {"blocked": 0, "allowed": 0}
+        await scraper.new_configured_page(self.FakeBrowser(page), 30000, nav, assets)
+        self.assertTrue(hasattr(page, "arm_nav_floor"), "nav policy not installed")
+        self.assertEqual(page.routes, ["**/*"], "asset blocker not installed")
+
+    async def test_the_asset_blocker_is_skipped_when_it_was_never_on(self):
+        page = self.FakePage()
+        nav = {"floored": 0, "retried": 0, "retry_saved": 0, "budget_exhausted": 0}
+        await scraper.new_configured_page(self.FakeBrowser(page), 30000, nav, None)
+        self.assertEqual(page.routes, [])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

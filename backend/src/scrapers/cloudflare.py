@@ -66,6 +66,38 @@ def is_navigation_race(exc: BaseException) -> bool:
     return any(m in msg for m in NAVIGATION_RACE_MARKERS)
 
 
+# The OTHER thing playwright says, and it means the opposite: the page, its
+# context or the whole browser is gone. A navigation race is recoverable by
+# re-reading; this is not recoverable at all on the object that raised it.
+#
+# Kept beside is_navigation_race deliberately - the pair is only useful as a
+# pair. Treating this one as "the request failed" is what turned a single
+# browser crash on 2026-09-03 into ten false verdicts: four sources recorded as
+# empty, and six Nitter instances recorded as failing their interstitial, two of
+# them the only hosts that work.
+BROWSER_GONE_MARKERS = (
+    "target page, context or browser has been closed",
+    "target closed",
+    "browser has been closed",
+    "browser has disconnected",
+    "connection closed",
+)
+
+
+def is_browser_gone(exc: BaseException) -> bool:
+    """True when the BROWSER died, as opposed to this request failing."""
+    return any(m in str(exc).lower() for m in BROWSER_GONE_MARKERS)
+
+
+def page_is_dead(page) -> bool:
+    """Cheap liveness check, tolerant of a stub page with no is_closed()."""
+    closed = getattr(page, "is_closed", None)
+    try:
+        return bool(closed()) if callable(closed) else False
+    except Exception:
+        return True
+
+
 async def safe_evaluate(page, script, *args, retries: int = 2, log=print):
     """page.evaluate that survives the document being replaced under it.
 

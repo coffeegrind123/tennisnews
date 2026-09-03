@@ -129,8 +129,15 @@ SURVEY_REGISTRIES = [
 ]
 
 # X's own embed infrastructure. No auth, no login, not a third-party frontend -
-# so a cease-and-desist letter to instance operators does not touch it. If this
-# answers through the proxy it is the independent fallback the scrape lacks.
+# so a cease-and-desist letter to instance operators does not touch it. It was
+# the obvious candidate for the independent fallback the scrape lacks.
+#
+# MEASURED AND REJECTED, run 33794721083 on 2026-09-03: three attempts through
+# the residential proxy, all "Rate limit exceeded" (HTTP 429, 20 bytes) - the
+# same answer the dev container gets. The rotating residential exits do not help
+# because the limit is not on the exit, and there is no token to raise it with.
+# So this is NOT a usable fallback, and the arm is kept only so the verdict can
+# be re-tested cheaply rather than re-argued from memory.
 SYNDICATION_TIMELINE = ("https://syndication.twitter.com/srv/timeline-profile/"
                         "screen-name/{handle}")
 

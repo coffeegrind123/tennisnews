@@ -153,11 +153,17 @@ PROBE_HANDLE = os.environ.get("NITTER_PROBE_HANDLE", "josemorgado")
 #   nitter.tiekoetter.com       serves the C&D notice (was: "alive but throttling")
 #   nitter.privacyredirect.com  404s and redirects to privacyredirect.com, which
 #                               does not run nitter (was: HTTP 502)
+# nuku.trabun.org is deliberately NOT here despite answering a direct probe:
+# through the proxy the scrape actually uses it closed the connection without a
+# response (run 33794721083), and it has never served a tweet in the browser
+# either. libredirect still lists it, so discovery picks it up as a candidate
+# anyway - which is the right place for an unproven host. This list is the
+# fallback the BROWSER walks, where every entry that cannot work costs a full
+# challenge budget to re-prove.
 DEFAULT_BASES = [
     "https://nitter.freedit.eu",
     "https://lightbrd.com",
     "https://nitter.kareem.one",
-    "https://nuku.trabun.org",
 ]
 
 # Registries are tried in order and merged; each is optional and a failure of one

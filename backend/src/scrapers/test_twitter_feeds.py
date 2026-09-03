@@ -284,5 +284,103 @@ class PhaseSurvivesABrowserErrorTest(unittest.IsolatedAsyncioTestCase):
             await tf.scrape(_ScriptedPage({a["handle"]: RACE for a in tf.ACCOUNTS}))
 
 
+class DeadBrowserBlamesNobodyTest(unittest.IsolatedAsyncioTestCase):
+    """A crash in the ARTICLE half must not be recorded as a Nitter failure.
+
+    Run 33784201641, 2026-09-03 17:42: the browser died at site 18 of 21
+    (asiantennis.com). The Twitter phase then walked all six instances in 50
+    milliseconds - every goto raised TargetClosedError, every one was swallowed
+    as "no timeline rendered", and every host got a permanent "interstitial did
+    not clear" verdict written to data/nitter_verified.json. Two of the six were
+    lightbrd.com and nitter.freedit.eu, the only hosts that serve tweets.
+
+    One crash, six false verdicts, and the verdicts outlive the run.
+    """
+
+    TARGET_CLOSED = "Page.goto: Target page, context or browser has been closed"
+
+    def setUp(self):
+        self._saved_wait = tf.wait_for_challenge
+        self._saved_resolve = tf.resolve_bases
+        self._saved_record = tf.nitter_instances.record_verification
+        self.verdicts = []
+
+        async def cleared(page, selector, timeout_s=75, log=print):
+            return True
+        tf.wait_for_challenge = cleared
+        tf.nitter_instances.record_verification = (
+            lambda base, ok, reason="", **kw: self.verdicts.append((base, ok, reason)))
+        tf.resolve_bases = lambda proxy_url=None: [
+            "https://lightbrd.com", "https://nitter.freedit.eu",
+            "https://nt.vern.cc", "https://nuku.trabun.org"]
+        tf.ACCOUNT_DELAY_MS = 0
+
+    def tearDown(self):
+        tf.wait_for_challenge = self._saved_wait
+        tf.resolve_bases = self._saved_resolve
+        tf.nitter_instances.record_verification = self._saved_record
+        tf.ACCOUNT_DELAY_MS = 4000
+
+    def _dead_page(self, closed=True, after=0):
+        test = self
+
+        class DeadPage(_ScriptedPage):
+            def __init__(self):
+                super().__init__({})
+                self._n = 0
+
+            def is_closed(self):
+                return closed and self._n >= after
+
+            async def goto(self, url, **kwargs):
+                self._n += 1
+                if self._n > after:
+                    raise RuntimeError(test.TARGET_CLOSED)
+                self.gotos.append(url)
+                self.url = url
+        return DeadPage()
+
+    async def test_a_page_dead_before_the_phase_raises_without_touching_an_instance(self):
+        page = self._dead_page()
+        with self.assertRaises(RuntimeError):
+            await tf.scrape(page)
+        self.assertEqual(self.verdicts, [], "no host may be blamed for a dead browser")
+        self.assertEqual(page.gotos, [], "a corpse must not be walked round six hosts")
+
+    async def test_a_browser_that_dies_mid_phase_blames_no_instance(self):
+        # Alive for the first profile, dead from the second on.
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        page = self._dead_page(after=1)
+        page.script = {h: _tweet() for h in handles}
+        got = await tf.scrape(page)
+        self.assertEqual(len(got), 1, "the tweets collected before the crash are kept")
+        self.assertEqual([v for v in self.verdicts if v[1] is False], [],
+                         "a crash is not evidence against any host")
+
+    async def test_the_good_verdict_earned_before_the_crash_survives(self):
+        # The control for the assertion above: verdicts are not simply disabled.
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        page = self._dead_page(after=1)
+        page.script = {h: _tweet() for h in handles}
+        await tf.scrape(page)
+        self.assertEqual([v for v in self.verdicts if v[1] is True][0][0],
+                         "https://lightbrd.com")
+
+    async def test_target_closed_is_told_apart_from_an_ordinary_goto_failure(self):
+        # The control that keeps the detector honest: a DNS failure is still a
+        # per-request failure and must still cost the instance its verdict.
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+
+        class DnsFailPage(_ScriptedPage):
+            async def goto(self, url, **kwargs):
+                raise RuntimeError("net::ERR_NAME_NOT_RESOLVED")
+
+        page = DnsFailPage({h: _tweet() for h in handles})
+        with self.assertRaises(RuntimeError):
+            await tf.scrape(page)
+        self.assertTrue([v for v in self.verdicts if v[1] is False],
+                        "a real per-request failure must still be recorded")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
