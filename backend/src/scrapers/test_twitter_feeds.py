@@ -123,5 +123,166 @@ class BudgetTest(unittest.TestCase):
         self.assertLessEqual(tf.PHASE_BUDGET_S, 20 * 60)
 
 
+class _ScriptedPage:
+    """A page driven by a per-URL script, for the whole-phase tests.
+
+    `script` maps a handle to either a list of raw tweet dicts, or an Exception
+    instance to raise from the evaluate that reads the timeline.
+    """
+
+    def __init__(self, script, closed_after=None):
+        self.url = ""
+        self.script = script
+        self.gotos = []
+        self.closed_after = closed_after
+        self._closed = False
+
+    def is_closed(self):
+        return self._closed
+
+    async def goto(self, url, **kwargs):
+        self.gotos.append(url)
+        self.url = url
+
+    async def evaluate(self, script, *args):
+        handle = self.url.rsplit("/", 1)[-1]
+        if "title:" in script:
+            return {"title": "", "body": ""}
+        outcome = self.script.get(handle, [])
+        if self.closed_after is not None and len(self.gotos) >= self.closed_after:
+            self._closed = True
+        if isinstance(outcome, BaseException):
+            raise outcome
+        return outcome
+
+    async def wait_for_timeout(self, ms):
+        return None
+
+    async def wait_for_load_state(self, state, timeout=None):
+        return None
+
+
+def _tweet(text="a tweet long enough to be kept by the extractor"):
+    return [{"text": text, "date": "2026-09-03 10:00", "link": "/x/status/1",
+             "is_retweet": False}]
+
+
+RACE = RuntimeError("Page.evaluate: Execution context was destroyed, most "
+                    "likely because of a navigation")
+
+
+class PhaseSurvivesABrowserErrorTest(unittest.IsolatedAsyncioTestCase):
+    """A browser error on ONE profile must cost that profile, not the run.
+
+    Measured in CI twice. 2026-09-02 10:36: the navigation race escaped `scrape`
+    9.6 seconds into the first account on nitter.freedit.eu, so the remaining 11
+    accounts and the remaining 4 instances were never tried, 0 tweets were
+    written, and the run went red on the health gate - while the article half had
+    already collected 520 items. 2026-08-25 14:50 was the same escape, thrown on
+    the re-read one line after the challenge had finally cleared.
+    """
+
+    def setUp(self):
+        self._saved_wait = tf.wait_for_challenge
+        self._saved_resolve = tf.resolve_bases
+        self._saved_record = tf.nitter_instances.record_verification
+        self.verdicts = []
+
+        async def cleared(page, selector, timeout_s=75, log=print):
+            return True
+        tf.wait_for_challenge = cleared
+        tf.nitter_instances.record_verification = (
+            lambda base, ok, reason="", **kw: self.verdicts.append((base, ok, reason)))
+        tf.ACCOUNT_DELAY_MS = 0
+
+    def tearDown(self):
+        tf.wait_for_challenge = self._saved_wait
+        tf.resolve_bases = self._saved_resolve
+        tf.nitter_instances.record_verification = self._saved_record
+        tf.ACCOUNT_DELAY_MS = 4000
+
+    def _bases(self, *bases):
+        tf.resolve_bases = lambda proxy_url=None: list(bases)
+
+    async def test_one_racing_profile_does_not_lose_the_other_eleven(self):
+        self._bases("https://nitter.freedit.eu")
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        script = {h: _tweet() for h in handles}
+        script[handles[0]] = RACE          # exactly the 2026-09-02 shape
+        got = await tf.scrape(_ScriptedPage(script))
+        self.assertEqual(len({t["handle"] for t in got}), len(handles) - 1)
+        self.assertNotIn(handles[0], {t["handle"] for t in got})
+
+    async def test_a_race_records_no_verdict_against_the_instance(self):
+        # A page that navigated mid-read proves nothing about the host. Writing a
+        # failure here would demote the only instance that works.
+        self._bases("https://nitter.freedit.eu")
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        script = {h: _tweet() for h in handles}
+        script[handles[0]] = RACE
+        await tf.scrape(_ScriptedPage(script))
+        self.assertEqual([v for v in self.verdicts if v[1] is False], [])
+
+    async def test_the_challenge_budget_moves_to_the_next_account(self):
+        # The account that died mid-navigation never tested the interstitial, so
+        # the next one is still the first real attempt: it must get the long
+        # budget, not the 25s cookie-riding one. Under the old `i == 0` test it
+        # got 25s and the instance was written off.
+        self._bases("https://nitter.freedit.eu")
+        budgets = []
+
+        async def spy(page, selector, timeout_s=75, log=print):
+            budgets.append(timeout_s)
+            return True
+        tf.wait_for_challenge = spy
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        script = {h: _tweet() for h in handles}
+        script[handles[0]] = RACE
+        await tf.scrape(_ScriptedPage(script))
+        self.assertEqual(budgets[0], tf.CHALLENGE_TIMEOUT_S)
+        self.assertEqual(budgets[1], tf.CHALLENGE_TIMEOUT_S,
+                         "the account after a race is still the first real attempt")
+        self.assertEqual(budgets[2], tf.ACCOUNT_TIMEOUT_S)
+
+    async def test_a_racing_instance_still_falls_through_to_the_next_one(self):
+        self._bases("https://nitter.freedit.eu", "https://lightbrd.com")
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        page = _ScriptedPage({h: RACE for h in handles})
+
+        # Second instance works: rebuild the script once the walk moves on.
+        original_goto = page.goto
+
+        async def goto(url, **kwargs):
+            if "lightbrd.com" in url:
+                page.script = {h: _tweet() for h in handles}
+            await original_goto(url, **kwargs)
+        page.goto = goto
+
+        got = await tf.scrape(page)
+        self.assertEqual(len({t["handle"] for t in got}), len(handles))
+        self.assertTrue(all("lightbrd.com" in t["link"] for t in got))
+
+    async def test_a_closed_page_keeps_what_was_already_collected(self):
+        # The one case where continuing is pointless: every later account would
+        # raise the same thing. Stop, but return the tweets in hand rather than
+        # throwing them away.
+        self._bases("https://nitter.freedit.eu", "https://lightbrd.com")
+        handles = [a["handle"] for a in tf.ACCOUNTS]
+        script = {h: _tweet() for h in handles}
+        script[handles[2]] = RACE
+        page = _ScriptedPage(script, closed_after=3)
+        got = await tf.scrape(page)
+        self.assertEqual(len(got), 2)
+        self.assertEqual(len(page.gotos), 3, "no further profiles after the page died")
+
+    async def test_every_profile_racing_is_still_a_failure(self):
+        # The control. If the guard swallowed everything, a totally broken phase
+        # would report success with zero tweets and the health gate would go
+        # green on an empty feed.
+        self._bases("https://nitter.freedit.eu")
+        with self.assertRaises(RuntimeError):
+            await tf.scrape(_ScriptedPage({a["handle"]: RACE for a in tf.ACCOUNTS}))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

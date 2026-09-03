@@ -59,6 +59,30 @@ Measured 2026-09-01: nitter.freedit.eu, the one instance with working tokens,
 clears in 60-100s on a single uninterrupted load and served a full timeline
 immediately afterwards. The retry now keeps waiting on the page already loaded.
 
+CLEARING A CHALLENGE *IS* A NAVIGATION
+-------------------------------------
+Cloudflare's interstitial redirects to the real page the moment the proof-of-work
+lands, which destroys the execution context any in-flight page.evaluate was
+reading. Playwright surfaces that as "Execution context was destroyed, most
+likely because of a navigation" - i.e. the exception is thrown by the thing
+WORKING, and it arrives at an unpredictable moment because the clear time is
+whatever the proof-of-work takes.
+
+It used to escape `scrape` outright, and the article half's per-site try/except
+has no counterpart here, so one race cost every account AND every remaining
+instance. Twice in CI:
+
+  2026-08-25 14:50  nitter.poast.org - thrown on the re-read one line AFTER
+                    "STILL CHALLENGED after 25s", i.e. it cleared right then
+  2026-09-02 10:36  nitter.freedit.eu - 9.6s into the FIRST of 12 accounts;
+                    4 further instances never tried, 0 tweets written, run red
+                    on the health gate with 520 articles already collected
+
+Two layers now stop that. cloudflare.safe_evaluate re-reads the new document
+instead of raising, and the per-account `except Exception` below costs one
+profile rather than the phase - recording NO verdict, because a page that moved
+mid-read says nothing about whether the instance can serve tweets.
+
 Override the instance order with NITTER_BASES (comma separated), which bypasses
 discovery entirely; see nitter_instances for the rest of the knobs.
 """
@@ -67,7 +91,7 @@ import os
 import time
 
 from scrapers import nitter_instances
-from scrapers.cloudflare import wait_for_challenge
+from scrapers.cloudflare import safe_evaluate, wait_for_challenge
 
 # Removed 2026-08-01: @moormangirl (dormant, newest tweet April 2025) and
 # @viv_christie (profile renders but serves no timeline - protected or empty).
@@ -179,7 +203,7 @@ class InstanceUnusable(Exception):
 async def _page_blob(page) -> str:
     """title + visible body, lowercased. One round trip, because every check
     below wants the same text and each `evaluate` costs a proxied RTT."""
-    state = await page.evaluate("""() => ({
+    state = await safe_evaluate(page, """() => ({
         title: document.title || '',
         body: (document.body ? document.body.innerText : '').slice(0, 400),
     })""")
@@ -246,7 +270,7 @@ async def _load_timeline(page, base: str, handle: str, timeout_s: int,
         if fatal:
             raise InstanceUnusable(f"{base}: {fatal}")
         return None
-    return await page.evaluate(EXTRACT_JS, MAX_TWEETS_PER_ACCOUNT)
+    return await safe_evaluate(page, EXTRACT_JS, MAX_TWEETS_PER_ACCOUNT)
 
 
 
@@ -284,6 +308,7 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
     # "won" the challenge collected fewer tweets (15) than one that fell back to
     # an unchallenged instance (55).
     started_at = time.monotonic()
+    page_gone = False
     for base in bases:
         remaining = [a for a in ACCOUNTS if a["handle"] not in done]
         if not remaining:
@@ -304,6 +329,12 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
         # recorded as "cannot serve tweets" - that is the state that would
         # demote a working instance out of the list.
         served_here = 0
+        # The load that PAYS for the interstitial. Positional (`i == 0`) until a
+        # browser error could reach this loop: an account that died mid-navigation
+        # learnt nothing about the challenge, so the NEXT one is still the first
+        # real attempt and must inherit the long budget, the on-page retry and the
+        # right to write off the instance.
+        first_attempt = True
         for i, account in enumerate(remaining):
             handle = account["handle"]
             # The FIRST load on an instance has to run the interstitial JS and needs
@@ -312,7 +343,7 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
             # demoted lightbrd in CI: all 12 accounts reported "no timeline
             # rendered" at ~27s each because clearing took longer than 25s over the
             # proxy, even though it clears in 12-15s direct.
-            budget = CHALLENGE_TIMEOUT_S if i == 0 else ACCOUNT_TIMEOUT_S
+            budget = CHALLENGE_TIMEOUT_S if first_attempt else ACCOUNT_TIMEOUT_S
             try:
                 tweets = await _load_timeline(page, base, handle, budget)
                 # The first load is the one that PAYS for the interstitial, and the
@@ -320,7 +351,7 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                 # reports nothing while every later account succeeds. Retry it once,
                 # now that the clearance cookie exists, instead of exporting it to a
                 # fallback instance.
-                if tweets is None and i == 0:
+                if tweets is None and first_attempt:
                     print(f"    [TWITTER] @{handle}: budget expired, waiting a further "
                           f"{CHALLENGE_RETRY_S}s on the SAME page (a reload would "
                           f"restart the challenge)")
@@ -355,6 +386,31 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                 nitter_instances.record_verification(base, False, str(e)[:160],
                                                      permanent=True)
                 break
+            except Exception as e:
+                # Anything else the browser can throw at us - overwhelmingly the
+                # page navigating out from under an evaluate, which safe_evaluate
+                # already retries through. Reaching here means it outlived the
+                # retries, and the ONE thing that must not happen is what used to:
+                # the exception escaping `scrape` entirely, discarding every
+                # remaining account, every remaining instance, and any tweets
+                # already collected. Two CI runs died exactly that way
+                # (2026-08-25, 2026-09-02) having produced nothing at all.
+                #
+                # No verdict is recorded: a page that navigated mid-read says
+                # nothing about whether the instance can serve tweets, and writing
+                # a failure here would demote a working host on a transient race.
+                print(f"    [TWITTER] @{handle}: load failed - "
+                      f"{type(e).__name__}: {str(e)[:140]}")
+                if callable(getattr(page, "is_closed", None)) and page.is_closed():
+                    # The page is genuinely gone; every remaining account would
+                    # raise the same thing. Give up on the phase but KEEP what has
+                    # already been collected by returning through the normal path.
+                    print(f"    [TWITTER] the browser page is closed - stopping the "
+                          f"Twitter phase with {len(all_tweets)} tweet(s) in hand")
+                    rate_limited = True  # suppress the "all accounts done" shortcut
+                    page_gone = True
+                    break
+                continue
 
             if tweets is None:
                 print(f"    [TWITTER] @{handle}: no timeline rendered")
@@ -364,7 +420,7 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                 # thing. In CI that cost 6.7 minutes on lightbrd - 11 further
                 # failures at ~27s each - and pushed the whole run past its step
                 # timeout. One proven failure is enough; carry everything over.
-                if i == 0:
+                if first_attempt:
                     print(f"    [TWITTER] {base}: first account failed after retry - "
                           f"instance is not clearing, carrying all "
                           f"{len(remaining)} account(s) to the next instance")
@@ -373,6 +429,7 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
                     break
                 continue
 
+            first_attempt = False
             all_tweets.extend(_to_records(tweets, account, base))
             done.add(handle)
             served_here += len(tweets)
@@ -389,6 +446,8 @@ async def scrape(page, proxy_url: str | None = None) -> list[dict]:
             if i < len(remaining) - 1:
                 await page.wait_for_timeout(ACCOUNT_DELAY_MS)
 
+        if page_gone:
+            break
         if not rate_limited and len(done) == len(ACCOUNTS):
             break
 

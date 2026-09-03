@@ -19,7 +19,14 @@ SITES = [
     {"name": "Perfect Tennis", "url": "https://www.perfect-tennis.com/", "type": "rss", "feed_url": "https://www.perfect-tennis.com/feed/"},
     {"name": "US Open", "url": "https://www.usopen.org/en_US/news/index.html", "type": "scrape", "module": "us_open"},
     {"name": "Wimbledon", "url": "https://www.wimbledon.com/en_GB/news/index.html", "type": "scrape", "module": "wimbledon"},
-    {"name": "ESPN Tennis", "url": "https://www.espn.com/tennis/", "type": "scrape", "module": "espn_tennis"},
+    # RSS rather than scrape, 2026-09-03. The HTML page is bot-walled from the
+    # residential proxy's exits: health.json recorded htmlLen=1998 with an empty
+    # body ("near-empty-body"), while the same URL serves 191KB direct. The RSS
+    # endpoint is a separate, unwalled surface AND is fetched directly by
+    # feedparser rather than through the browser, so it dodges both problems.
+    # Use /rss/tennis/news - /rss/tennis is ESPN's site-wide "TOP" feed and
+    # returns NFL stories.
+    {"name": "ESPN Tennis", "url": "https://www.espn.com/tennis/", "type": "rss", "feed_url": "https://www.espn.com/espn/rss/tennis/news"},
     {"name": "Novak Djokovic", "url": "https://novakdjokovic.com/en/n/news/", "type": "scrape", "module": "novak_djokovic"},
     {"name": "Tennis Canada", "url": "https://www.tenniscanada.com/news", "type": "scrape", "module": "tennis_canada"},
     {"name": "USTA Florida", "url": "https://www.ustaflorida.com/news/", "type": "scrape", "module": "usta_florida"},
@@ -27,7 +34,11 @@ SITES = [
     {"name": "10sBalls", "url": "https://10sballs.com/", "type": "rss", "feed_url": "https://10sballs.com/feed/"},
     {"name": "Rafael Nadal Fans", "url": "https://rafaelnadalfans.com/", "type": "scrape", "module": "rafael_nadal_fans"},
     {"name": "Tennis Panorama", "url": "https://www.tennispanorama.com/", "type": "scrape", "module": "tennis_panorama"},
-    {"name": "Tennis View Magazine", "url": "http://www.tennisviewmag.com/tennis-view-magazine/news", "type": "scrape", "module": "tennis_view_magazine"},
+    # RSS rather than scrape, 2026-09-03. The site is HTTP-only and the upstream
+    # proxy cannot reach it: health.json recorded htmlLen=101 with the body
+    # "Proxy Error 500 Internal Server Error", while the same URL serves 37KB
+    # direct. RSS is fetched direct, so the proxy is out of the path entirely.
+    {"name": "Tennis View Magazine", "url": "http://www.tennisviewmag.com/tennis-view-magazine/news", "type": "rss", "feed_url": "http://www.tennisviewmag.com/rss.xml"},
     {"name": "Brisbane International", "url": "https://www.brisbaneinternational.com.au/", "type": "scrape", "module": "brisbane_international"},
     {"name": "Asian Tennis Federation", "url": "https://www.asiantennis.com/news/", "type": "scrape", "module": "asian_tennis_federation"},
     {"name": "Tennis Ireland", "url": "https://www.tennisireland.ie/", "type": "rss", "feed_url": "https://www.tennisireland.ie/feed"},

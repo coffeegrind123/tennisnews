@@ -15,7 +15,11 @@ the language of the exit IP's country, and the exit rotates per connection, so
 
 import unittest
 
-from scrapers.cloudflare import looks_like_challenge
+from scrapers.cloudflare import (
+    is_navigation_race,
+    looks_like_challenge,
+    safe_evaluate,
+)
 
 
 def state(**kw):
@@ -74,6 +78,91 @@ class ChallengeDetectionTest(unittest.TestCase):
         # wall worth waiting behind.
         self.assertFalse(looks_like_challenge(
             state(title="nitter", body="Instance has no auth tokens"), 0))
+
+
+class _NavigatingPage:
+    """A page that raises the navigation race for its first `fails` evaluates.
+
+    Modelled on the real thing rather than invented: the message is the exact
+    string playwright produced in CI on 2026-08-25 and 2026-09-02.
+    """
+
+    RACE = ("Page.evaluate: Execution context was destroyed, most likely "
+            "because of a navigation")
+
+    def __init__(self, fails=1, result="content", exc=None):
+        self.fails = fails
+        self.result = result
+        self.exc = exc
+        self.calls = 0
+        self.load_state_waits = 0
+
+    async def evaluate(self, script, *args):
+        self.calls += 1
+        if self.calls <= self.fails:
+            raise (self.exc or RuntimeError(self.RACE))
+        return self.result
+
+    async def wait_for_load_state(self, state, timeout=None):
+        self.load_state_waits += 1
+
+
+class NavigationRaceTest(unittest.IsolatedAsyncioTestCase):
+    """Cloudflare clearing its own challenge is a NAVIGATION, and a poll in
+    flight when it happens dies with the old document. That is what success
+    looks like from the inside, and it used to abort the entire Twitter phase:
+    2026-09-02 lost all 12 accounts and all 5 instances 9.6s into the first
+    profile; 2026-08-25 threw on the re-read one line AFTER the challenge
+    finally cleared.
+    """
+
+    def test_the_race_is_recognised(self):
+        self.assertTrue(is_navigation_race(RuntimeError(_NavigatingPage.RACE)))
+        self.assertTrue(is_navigation_race(
+            RuntimeError("Cannot find context with specified id")))
+
+    def test_a_real_error_is_not_mistaken_for_it(self):
+        # The control. Without it the matcher could return True for everything
+        # and every assertion above would still pass.
+        self.assertFalse(is_navigation_race(RuntimeError("Target page, context "
+                                                         "or browser has been closed")))
+        self.assertFalse(is_navigation_race(RuntimeError("Timeout 30000ms exceeded")))
+
+    async def test_a_navigation_is_re_read_not_raised(self):
+        page = _NavigatingPage(fails=1, result="timeline")
+        self.assertEqual(await safe_evaluate(page, "() => 1", log=lambda m: None),
+                         "timeline")
+        self.assertEqual(page.calls, 2)
+        # Re-reading immediately would race the same navigation again.
+        self.assertEqual(page.load_state_waits, 1)
+
+    async def test_arguments_survive_the_retry(self):
+        # The selector-count poll and the tweet extractor both pass an argument;
+        # dropping it on retry would silently return the wrong thing.
+        seen = []
+
+        class P(_NavigatingPage):
+            async def evaluate(self, script, *args):
+                seen.append(args)
+                return await super().evaluate(script, *args)
+
+        page = P(fails=1, result=[{"text": "x"}])
+        await safe_evaluate(page, "(max) => max", 5, log=lambda m: None)
+        self.assertEqual(seen, [(5,), (5,)])
+
+    async def test_an_unrelated_error_is_re_raised_immediately(self):
+        page = _NavigatingPage(fails=1, exc=RuntimeError("Target closed"))
+        with self.assertRaises(RuntimeError):
+            await safe_evaluate(page, "() => 1", log=lambda m: None)
+        self.assertEqual(page.calls, 1)
+
+    async def test_a_page_that_never_settles_still_raises(self):
+        # Swallowing this would report an endlessly navigating page as an empty
+        # result, which is the failure mode that hides a broken instance.
+        page = _NavigatingPage(fails=99)
+        with self.assertRaises(RuntimeError):
+            await safe_evaluate(page, "() => 1", retries=2, log=lambda m: None)
+        self.assertEqual(page.calls, 3)
 
 
 if __name__ == "__main__":

@@ -34,6 +34,61 @@ CHALLENGE_TITLES = (
     "ddos-guard",
 )
 
+# Playwright raises "Execution context was destroyed, most likely because of a
+# navigation" the instant the page navigates out from under an in-flight
+# evaluate. On an interstitial that is not an error - it is what SUCCESS looks
+# like: Cloudflare redirects to the real page the moment the proof-of-work
+# lands, and whichever poll was in flight dies with it. The exception used to
+# escape the whole Twitter phase. Measured twice in CI: 2026-08-25 (nitter.poast
+# .org, thrown on the re-read one line after the challenge finally cleared) and
+# 2026-09-02 (nitter.freedit.eu, 9.6s into the FIRST account) - both times it
+# discarded every remaining account AND every remaining instance and turned the
+# run red, having collected nothing.
+NAVIGATION_RACE_MARKERS = (
+    "execution context was destroyed",
+    "most likely because of a navigation",
+    "cannot find context with specified id",
+    "because of a navigation",
+    "frame was detached",
+    "navigating and changing the document",
+)
+
+
+def is_navigation_race(exc: BaseException) -> bool:
+    """True when this exception means "the page moved", not "the page is dead".
+
+    Deliberately matched on the message rather than the exception class: the
+    camoufox fork ships its own playwright build, and a class import that
+    resolves to a DIFFERENT playwright than the one raising would silently
+    match nothing - failing exactly like the bug this guards against.
+    """
+    msg = str(exc).lower()
+    return any(m in msg for m in NAVIGATION_RACE_MARKERS)
+
+
+async def safe_evaluate(page, script, *args, retries: int = 2, log=print):
+    """page.evaluate that survives the document being replaced under it.
+
+    Re-runs the script against the new document after waiting for it to reach
+    domcontentloaded. Anything that is not a navigation race is re-raised
+    untouched, and so is a race that outlives `retries` - a page that keeps
+    navigating is a real failure and must not be silently reported as an empty
+    result.
+    """
+    for attempt in range(retries + 1):
+        try:
+            return await page.evaluate(script, *args) if args else await page.evaluate(script)
+        except Exception as e:
+            if attempt >= retries or not is_navigation_race(e):
+                raise
+            log(f"      page navigated mid-evaluate ({str(e)[:80]}) - "
+                f"re-reading the new document (attempt {attempt + 2}/{retries + 1})")
+            try:
+                await page.wait_for_load_state("domcontentloaded", timeout=20000)
+            except Exception:
+                pass
+
+
 CHALLENGE_JS = """() => {
     const title = document.title || '';
     const body = document.body ? document.body.innerText : '';
@@ -111,15 +166,16 @@ async def wait_for_challenge(page, ready_selector: str, timeout_s: int = 75,
     last = {}
 
     while waited < timeout_s:
-        count = await page.evaluate(
-            "(sel) => document.querySelectorAll(sel).length", ready_selector
+        count = await safe_evaluate(
+            page, "(sel) => document.querySelectorAll(sel).length", ready_selector,
+            log=log,
         )
         if count > 0:
             if waited:
                 log(f"      cleared after {waited:.0f}s ({count} x {ready_selector})")
             return True
 
-        last = await page.evaluate(CHALLENGE_JS)
+        last = await safe_evaluate(page, CHALLENGE_JS, log=log)
         if not looks_like_challenge(last, count):
             # No content and no challenge either: an error page, an empty
             # profile, or a layout we do not recognise. Say which.
@@ -158,7 +214,7 @@ async def wait_until_cleared(page, timeout_s: int = 75, poll_s: float = 3.0,
     last: dict = {}
 
     while waited < timeout_s:
-        last = await page.evaluate(CHALLENGE_JS)
+        last = await safe_evaluate(page, CHALLENGE_JS, log=log)
         if not looks_like_challenge(last, 0):
             log(f"      challenge cleared after {waited:.0f}s "
                 f"(title now {last.get('title','')[:40]!r})")

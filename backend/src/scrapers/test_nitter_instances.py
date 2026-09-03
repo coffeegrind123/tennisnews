@@ -16,6 +16,7 @@ prevent were all misreadings of real bodies rather than logic errors:
 Synthetic HTML would not have caught any of them.
 """
 
+import json
 import pathlib
 import unittest
 
@@ -67,6 +68,36 @@ class RegistryParsingTest(unittest.TestCase):
             [("https://b.example", "down")],
         )
 
+    def test_libredirect_takes_clearnet_only(self):
+        # The live shape, 2026-09-03. tor/i2p entries need a SOCKS proxy the
+        # scrape has not got, and a .onion candidate is a guaranteed DNS
+        # failure that reads exactly like an instance dying.
+        payload = {
+            "invidious": {"clearnet": ["https://inv.example"]},
+            "nitter": {
+                "clearnet": ["https://xcancel.com", "https://nitter.kareem.one"],
+                "tor": ["http://nitterxyz.onion"],
+                "i2p": [], "loki": [],
+            },
+        }
+        self.assertEqual(
+            ni._parse_libredirect(payload),
+            [("https://xcancel.com", "unknown"),
+             ("https://nitter.kareem.one", "unknown")],
+        )
+
+    def test_libredirect_shapes_it_does_not_understand_are_not_errors(self):
+        # The control: every one of these must yield [] rather than raise, or a
+        # renamed key takes the whole discovery path down with it.
+        for payload in ({}, {"nitter": []}, {"nitter": {"clearnet": "nope"}},
+                        [], "string", {"nitter": {"tor": ["x"]}}):
+            self.assertEqual(ni._parse_libredirect(payload), [])
+
+    def test_libredirect_is_actually_wired_into_the_registry_list(self):
+        # A parser nothing calls is the failure mode this catches: the entire
+        # point is that it is the only corpus source still being updated.
+        self.assertTrue(any("libredirect" in r for r in ni.DEFAULT_REGISTRIES))
+
     def test_markdown_table_skips_non_instance_links(self):
         md = (
             "| [nitter.net](https://nitter.net) | [Let's Encrypt]"
@@ -78,6 +109,31 @@ class RegistryParsingTest(unittest.TestCase):
         self.assertIn("https://xcancel.com", got)
         self.assertNotIn("https://www.ssllabs.com/ssltest/analyze.html?d=nitter.net", got)
         self.assertNotIn("https://github.com/zedeus/nitter", got)
+
+
+class DefaultBasesTest(unittest.TestCase):
+    """The fallback list is walked by the BROWSER, and in that path every entry
+    that cannot work costs a full challenge budget to re-prove. A host that has
+    published a retirement notice is therefore not neutral - it is the most
+    expensive kind of entry there is."""
+
+    RETIRED_2026_08 = (
+        "xcancel.com", "nitter.net", "nitter.catsarch.com",
+        "nitter.tiekoetter.com",
+    )
+
+    def test_no_default_base_has_published_a_retirement_notice(self):
+        for host in self.RETIRED_2026_08:
+            for base in ni.DEFAULT_BASES:
+                self.assertNotIn(host, base,
+                                 f"{host} serves a cease-and-desist notice")
+
+    def test_the_list_is_not_empty_and_every_entry_normalises(self):
+        # The control: an empty or malformed fallback list would pass the
+        # assertion above trivially.
+        self.assertTrue(ni.DEFAULT_BASES)
+        for base in ni.DEFAULT_BASES:
+            self.assertEqual(ni.normalise(base)[0], base)
 
 
 class NormaliseTest(unittest.TestCase):
@@ -167,6 +223,14 @@ FIXTURES = {
         "<html><head><title>503 Service Unavailable</title></head><body>"
         "<p>Nitter is currently unavailable due to the cease and desist letters "
         "some public instance hosters have recieved.</p></body></html>"
+    ),
+    # xcancel.com, verbatim, 2026-09-03. Served with HTTP 200 and 321 bytes -
+    # so nothing but the prose distinguishes it from a working instance.
+    "xcorp_letter": (
+        "<html><body><p>On Monday 24th August at 8PM EST, we received at letter "
+        "from X Corp. asking to cease and desist the service XCancel. The "
+        "service XCancel is stopped until further notice. We are seeking legal "
+        "advice and won't share more details for now.</p></body></html>"
     ),
     "parked": "<html><head><title>Buy this domain</title></head><body>For sale</body></html>",
 }
@@ -262,9 +326,34 @@ class ClassifyTest(unittest.TestCase):
         self.assertEqual(rec["tier"], ni.TIER_DEAD)
         self.assertIn("landing page", rec["note"])
 
-    def test_cease_and_desist_page_is_dead(self):
+    def test_cease_and_desist_page_is_retired_not_merely_dead(self):
+        # The two mean opposite things about the future: a dead host may be one
+        # bad minute on a shared proxy, a C&D is not being rescinded. Only the
+        # retired verdict is allowed to suppress a candidate for a month.
         rec = self._classify(503, FIXTURES["cease_and_desist"])
-        self.assertEqual(rec["tier"], ni.TIER_DEAD)
+        self.assertEqual(rec["tier"], ni.TIER_RETIRED)
+
+    def test_an_x_corp_letter_served_with_http_200_is_still_retired(self):
+        # xcancel.com: 200 OK, 321 bytes, no error status to key off. If prose
+        # were not enough, this would score "not nitter" and be re-probed twice
+        # a day forever.
+        rec = self._classify(200, FIXTURES["xcorp_letter"])
+        self.assertEqual(rec["tier"], ni.TIER_RETIRED)
+
+    def test_the_retirement_note_quotes_the_operator(self):
+        # The note is the only place a future reader learns WHY the candidate
+        # pool collapsed. "dead" would hide it entirely.
+        rec = self._classify(200, FIXTURES["xcorp_letter"])
+        self.assertIn("X Corp", rec["note"])
+        self.assertNotIn("<", rec["note"], "markup must be stripped")
+
+    def test_a_working_instance_is_never_read_as_retired(self):
+        # The control. These markers are prose, and prose can appear on a page
+        # that also serves tweets - a timeline outranks the notice.
+        rec = self._classify(200,
+            FIXTURES["xcorp_letter"].replace("</body>",
+                                             '<div class="timeline-item">t</div></body>'))
+        self.assertEqual(rec["tier"], ni.TIER_TIMELINE)
 
     def test_parked_domain_is_dead(self):
         rec = self._classify(200, FIXTURES["parked"])
@@ -539,6 +628,105 @@ class VerifiedStoreTest(unittest.TestCase):
         ni.VERIFIED_PATH.write_text("{ this is not json")
         self.assertEqual(ni.load_verified(), {})
         self.assertEqual(ni.verified_state("https://anything.example"), "")
+
+
+class RetirementStoreTest(unittest.TestCase):
+    """A published retirement notice suppresses a candidate, but not forever.
+
+    X Corp started sending cease-and-desist letters to instance operators in
+    late August 2026 and four well-known hosts now serve a notice instead of
+    tweets. Re-probing them twice a day is pure cost - they cannot be fixed by a
+    better client - but "never probe again" would make a revival invisible, and
+    a C&D is a legal posture rather than a law of nature.
+    """
+
+    def setUp(self):
+        import tempfile
+        self._tmp = tempfile.TemporaryDirectory()
+        self._saved = ni.VERIFIED_PATH
+        ni.VERIFIED_PATH = pathlib.Path(self._tmp.name) / "nitter_verified.json"
+
+    def tearDown(self):
+        ni.VERIFIED_PATH = self._saved
+        self._tmp.cleanup()
+
+    def test_a_retirement_is_remembered_and_suppresses_the_host(self):
+        ni.record_retired("https://xcancel.example", "letter from X Corp")
+        self.assertTrue(ni.is_retired("https://xcancel.example"))
+        self.assertIn("X Corp", ni.load_verified()["https://xcancel.example"]["reason"])
+
+    def test_an_unknown_host_is_not_retired(self):
+        # The control. Without it, is_retired could return True for everything.
+        self.assertFalse(ni.is_retired("https://never-seen.example"))
+
+    def test_the_suppression_expires_so_a_revival_is_visible(self):
+        from datetime import datetime, timedelta, timezone
+        ni.record_retired("https://back.example", "gone")
+        stale = (datetime.now(timezone.utc)
+                 - timedelta(days=ni.RETIRED_RECHECK_DAYS + 1)).isoformat()
+        blob = json.loads(ni.VERIFIED_PATH.read_text())
+        blob["instances"]["https://back.example"]["retired_at"] = stale
+        ni.VERIFIED_PATH.write_text(json.dumps(blob))
+        self.assertFalse(ni.is_retired("https://back.example"),
+                         "a month-old notice must be re-probed, not trusted forever")
+
+    def test_an_instance_that_recently_served_tweets_is_never_retired(self):
+        # Some of these notices come off a SHARED error page that a working host
+        # can also hit. Browser proof outranks prose.
+        ni.record_verification("https://works.example", True, tweets=20)
+        ni.record_retired("https://works.example", "letter from X Corp")
+        self.assertFalse(ni.is_retired("https://works.example"))
+        self.assertEqual(ni.verified_state("https://works.example"), "good")
+
+
+class RetirementSkipsProbingTest(OrderingTest):
+    """The point of remembering a retirement is not tidiness, it is worker
+    slots: a retired host must never reach the probe again."""
+
+    def test_a_remembered_retiree_is_not_probed(self):
+        ni.record_retired("https://retired.example", "letter from X Corp")
+        probed = []
+        original = ni.probe_all
+
+        def spy(cands, proxy=None):
+            probed.extend(b for b, _auth in cands)
+            return [{"base": "https://live.example", "tier": ni.TIER_CHALLENGE,
+                     "http": 403, "bytes": 500, "elapsed_ms": 1, "note": "",
+                     "final": "https://live.example"}]
+        ni.probe_all = spy
+        original_registry = ni.fetch_registry
+        ni.fetch_registry = lambda url, proxy=None: [
+            ("https://retired.example", "up"), ("https://live.example", "up")]
+        try:
+            ni.discover(use_cache=False)
+        finally:
+            ni.probe_all, ni.fetch_registry = original, original_registry
+        self.assertIn("https://live.example", probed)
+        self.assertNotIn("https://retired.example", probed)
+
+    def test_a_new_retirement_found_by_the_probe_is_written_down(self):
+        records = [
+            {"base": "https://gone.example", "tier": ni.TIER_RETIRED, "http": 200,
+             "bytes": 321, "elapsed_ms": 5, "final": "https://gone.example",
+             "note": "operator retired the instance: letter from X Corp"},
+            {"base": "https://live.example", "tier": ni.TIER_CHALLENGE, "http": 403,
+             "bytes": 500, "elapsed_ms": 5, "final": "https://live.example",
+             "note": ""},
+        ]
+        self._discover(records)
+        self.assertTrue(ni.is_retired("https://gone.example"))
+        self.assertFalse(ni.is_retired("https://live.example"))
+
+    def test_a_retired_host_is_never_selected(self):
+        records = [
+            {"base": "https://gone.example", "tier": ni.TIER_RETIRED, "http": 200,
+             "bytes": 321, "elapsed_ms": 5, "final": "https://gone.example",
+             "note": "retired"},
+            {"base": "https://live.example", "tier": ni.TIER_CHALLENGE, "http": 403,
+             "bytes": 500, "elapsed_ms": 5, "final": "https://live.example",
+             "note": ""},
+        ]
+        self.assertEqual(self._discover(records), ["https://live.example"])
 
 
 class VerifiedOrderingTest(OrderingTest):

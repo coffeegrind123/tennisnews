@@ -129,16 +129,35 @@ PROBE_HANDLE = os.environ.get("NITTER_PROBE_HANDLE", "josemorgado")
 #   lightbrd.com        challenge solves, then "Waiting for lightbrd.com to
 #                       respond" - Cloudflare is up, the origin behind it is not
 #   nitter.kareem.one   challenge never cleared
-#   nitter.tiekoetter.com  HTTP 429, alive but throttling
-#   nitter.privacyredirect.com  HTTP 502
 # Removed the same day: nitter.poast.org (NXDOMAIN) and nitter.net (serves a
 # stub page, no timeline) - both were pure cost.
+#
+# Re-checked 2026-09-03, and this is where the list stops being a maintenance
+# chore and starts being the story. X Corp began sending cease-and-desist
+# letters to public instance operators in late August 2026, and four of the
+# corpus's best-known hosts now serve a notice instead of tweets:
+#
+#   xcancel.com            200, 321B: "On Monday 24th August at 8PM EST, we
+#                          received at letter from X Corp. asking to cease and
+#                          desist the service XCancel"
+#   nitter.net             200: same notice
+#   nitter.catsarch.com    503: "shutting Nitter down for the time being"
+#   nitter.tiekoetter.com  429: instance unavailable, cites the C&D letters
+#
+# Note the date: 24 August. The first red run in this repo was 25 August. Three
+# weeks of "the scraper is broken" was substantially the ecosystem going away
+# underneath it.
+#
+# Dropped here as a result - in the fallback path every dead entry costs a full
+# challenge budget to re-prove:
+#   nitter.tiekoetter.com       serves the C&D notice (was: "alive but throttling")
+#   nitter.privacyredirect.com  404s and redirects to privacyredirect.com, which
+#                               does not run nitter (was: HTTP 502)
 DEFAULT_BASES = [
     "https://nitter.freedit.eu",
     "https://lightbrd.com",
     "https://nitter.kareem.one",
-    "https://nitter.tiekoetter.com",
-    "https://nitter.privacyredirect.com",
+    "https://nuku.trabun.org",
 ]
 
 # Registries are tried in order and merged; each is optional and a failure of one
@@ -147,10 +166,17 @@ DEFAULT_BASES = [
 #                Frozen since 2024-04-02, so it is here for its URL corpus only.
 #   zedeus wiki - the project's own instance table. Small but hand maintained.
 #   d420        - live health monitor, {"hosts": [...], "last_update": ...}.
+#                 Measured 2026-09-03: healthy, and reporting ZERO healthy
+#                 hosts. Kept because an empty answer from a live monitor is
+#                 itself a finding, and it costs one request.
+#   libredirect - the redirect extension's instance list, {service: {clearnet:
+#                 [...]}}. The only one of the four still being updated, which
+#                 as of 2026-09 makes it the only source of NEW candidates.
 DEFAULT_REGISTRIES = [
     "https://raw.githubusercontent.com/qallen028/nitter-instances/master/history/summary.json",
     "https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md",
     "https://status.d420.de/api/v1/instances",
+    "https://raw.githubusercontent.com/libredirect/instances/main/data.json",
 ]
 
 USER_AGENT = (
@@ -166,6 +192,13 @@ TIER_EMPTY = 3
 # get better with a stronger client.
 TIER_USELESS = 8
 TIER_DEAD = 9
+# The operator has published that the instance is gone for legal reasons. Its
+# own tier rather than a flavour of `dead` because the two mean opposite things
+# about the FUTURE: a dead host may be a bad minute on a shared proxy, while a
+# cease-and-desist is not being rescinded. Counting them separately is also the
+# diagnostic that tells a future reader the ecosystem is being shut down rather
+# than this scraper being broken.
+TIER_RETIRED = 10
 
 TIER_NAMES = {
     TIER_TIMELINE: "timeline",
@@ -174,6 +207,7 @@ TIER_NAMES = {
     TIER_EMPTY: "nitter-empty",
     TIER_USELESS: "no-tokens",
     TIER_DEAD: "dead",
+    TIER_RETIRED: "retired",
 }
 
 # Markers that mean "an interstitial is in front of the content", not "the
@@ -223,6 +257,27 @@ RETIRED_MARKERS = (
 )
 
 _MAX_BODY = 200_000
+
+
+def _notice_excerpt(body: str, limit: int = 120) -> str:
+    """The operator's own words, stripped of markup, around the notice.
+
+    Logged verbatim because this is the finding: measured 2026-09-03, four of
+    the corpus's best-known hosts serve a cease-and-desist notice rather than
+    tweets - xcancel.com ("we received a letter from X Corp"), nitter.net,
+    nitter.catsarch.com and nitter.tiekoetter.com. That is not a bug to fix in
+    this scraper, and a log line saying only "dead" hides it completely.
+    """
+    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", body or "",
+                  flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    for marker in RETIRED_MARKERS:
+        at = text.lower().find(marker)
+        if at >= 0:
+            start = max(0, at - 60)
+            return text[start:start + limit].strip()
+    return text[:limit]
 
 # Bodies that mean "this instance cannot serve tweets", as opposed to "something
 # is standing in front of the tweets". Recognising these is what turns a 100s
@@ -277,6 +332,12 @@ VERIFIED_TTL_DAYS = float(os.environ.get("NITTER_VERIFIED_TTL_DAYS", "14"))
 # Consecutive browser failures, with no success in between, before a base is
 # dropped from the front rather than merely demoted.
 VERIFIED_MAX_FAILS = int(os.environ.get("NITTER_VERIFIED_MAX_FAILS", "3"))
+# How long a published retirement notice suppresses a candidate before it is
+# probed again. Not infinite on purpose: a host we stop probing is a host we can
+# never learn has come back, and "permanent" here is a legal posture rather than
+# a law of nature. Long enough that the 4 known retirees stop costing a worker
+# slot twice a day, short enough that a revival surfaces within a month.
+RETIRED_RECHECK_DAYS = float(os.environ.get("NITTER_RETIRED_RECHECK_DAYS", "30"))
 
 
 def _now_iso() -> str:
@@ -340,6 +401,55 @@ def record_verification(base: str, ok: bool, reason: str = "", tweets: int = 0,
             indent=2) + "\n")
     except Exception as e:
         _log(f"could not write {VERIFIED_PATH.name}: {type(e).__name__}: {e}")
+
+
+def record_retired(base: str, notice: str = "") -> None:
+    """Remember that `base` publishes a retirement notice.
+
+    Written from the PROBE rather than the browser, which is the one exception
+    to "the browser is the authority" - and it earns the exception because a
+    retirement notice is not a wall the browser could see past. It is the
+    content, served with a 200 to anyone who asks. No stronger client changes
+    what it says.
+
+    An instance that has served tweets inside the trust window is never retired,
+    however loudly a page claims otherwise: some of these notices are served
+    from a shared error page that a working host can also hit.
+    """
+    base = (base or "").rstrip("/")
+    if not base:
+        return
+    instances = load_verified()
+    rec = dict(instances.get(base) or {})
+    if (_verified_age_days(rec, "last_ok") or 1e9) <= VERIFIED_TTL_DAYS:
+        _log(f"  {base} published a retirement notice but served tweets "
+             f"within {VERIFIED_TTL_DAYS:.0f} days - not retiring it")
+        return
+    if rec.get("retired") and _verified_age_days(rec, "retired_at") is not None:
+        return
+    rec.update({"retired": True, "retired_at": _now_iso(),
+                "permanent": True, "reason": (notice or "operator retired")[:160]})
+    instances[base] = rec
+    try:
+        VERIFIED_PATH.parent.mkdir(parents=True, exist_ok=True)
+        VERIFIED_PATH.write_text(json.dumps(
+            {"updated_at": _now_iso(),
+             "instances": dict(sorted(instances.items()))},
+            indent=2) + "\n")
+    except Exception as e:
+        _log(f"could not write {VERIFIED_PATH.name}: {type(e).__name__}: {e}")
+
+
+def is_retired(base: str, instances: dict | None = None) -> bool:
+    """True while a recorded retirement notice is still worth believing."""
+    instances = load_verified() if instances is None else instances
+    rec = instances.get((base or "").rstrip("/")) or {}
+    if not rec.get("retired"):
+        return False
+    age = _verified_age_days(rec, "retired_at")
+    if age is None:
+        return True
+    return age <= RETIRED_RECHECK_DAYS
 
 
 def _verified_age_days(rec: dict, field: str) -> float | None:
@@ -516,6 +626,33 @@ def _parse_markdown_table(text: str) -> list[tuple[str, str]]:
     return out
 
 
+def _parse_libredirect(payload) -> list[tuple[str, str]]:
+    """libredirect's instances/data.json: {service: {clearnet: [...], tor: [...]}}.
+
+    Added 2026-09-03. It is the only candidate source still being maintained -
+    qallen028 froze in April 2024 and status.d420.de now answers
+    {"hosts": []} - so without this parser the corpus is a two-year-old
+    snapshot plus a wiki table, which is most of why 104 of 109 candidates
+    probe dead.
+
+    Only `clearnet` is taken. The tor and i2p lists are real instances but need
+    a SOCKS proxy the scrape does not have, and a .onion in the candidate list
+    is a guaranteed DNS failure that looks exactly like an instance dying.
+
+    Carries no status field, so every entry is "unknown" and the probe decides -
+    which is the correct posture for a hand-curated list anyway.
+    """
+    if not isinstance(payload, dict):
+        return []
+    nitter = payload.get("nitter")
+    if not isinstance(nitter, dict):
+        return []
+    urls = nitter.get("clearnet")
+    if not isinstance(urls, list):
+        return []
+    return [(u, "unknown") for u in urls if isinstance(u, str) and u.strip()]
+
+
 def fetch_registry(url: str, proxy_url: str | None = None) -> list[tuple[str, str]]:
     """Pull one registry. Returns (url, status) pairs; [] on any failure.
 
@@ -543,7 +680,8 @@ def fetch_registry(url: str, proxy_url: str | None = None) -> list[tuple[str, st
         pass
 
     if payload is not None:
-        entries = _parse_upptime_summary(payload) or _parse_d420(payload)
+        entries = (_parse_upptime_summary(payload) or _parse_d420(payload)
+                   or _parse_libredirect(payload))
     if not entries:
         entries = _parse_markdown_table(raw)
 
@@ -634,8 +772,12 @@ def classify(base: str, auth: str | None, proxy_url: str | None,
         return rec
 
     if any(m in low for m in RETIRED_MARKERS) and "timeline-item" not in low:
-        rec["tier"] = TIER_DEAD
-        rec["note"] = "operator retired the instance"
+        rec["tier"] = TIER_RETIRED
+        # Quote the operator rather than paraphrasing them. "retired" alone
+        # reads as an opinion this code formed; the notice itself is evidence,
+        # and it is the only thing in the log that explains WHY the candidate
+        # pool is collapsing.
+        rec["note"] = f"operator retired the instance: {_notice_excerpt(body)}"
         return rec
 
     if "timeline-item" in low:
@@ -785,7 +927,29 @@ def discover(proxy_url: str | None = None, use_cache: bool = True) -> list[str]:
     _log(f"{len(candidates)} unique candidate host(s) from "
          f"{len(registries)} registr(ies) + {len(DEFAULT_BASES)} built-ins")
 
+    # Hosts that have published a retirement notice are not probed again until
+    # RETIRED_RECHECK_DAYS is up. They cannot be fixed by a better client and
+    # they are not coming back this week, so every slot spent on one is a slot
+    # not spent on a host that might work.
+    known = load_verified()
+    retired_skipped = [b for b in candidates if is_retired(b, known)]
+    for base in retired_skipped:
+        candidates.pop(base, None)
+    if retired_skipped:
+        _log(f"skipping {len(retired_skipped)} host(s) with a published "
+             f"retirement notice (re-probed after {RETIRED_RECHECK_DAYS:.0f}d): "
+             f"{retired_skipped}")
+
     records = probe_all(list(candidates.items()), proxy_url)
+
+    # Remember the retirements this probe just found, so the next run does not
+    # pay for them. Done here rather than in classify() because classify is a
+    # pure function of one request and is called from the probe workers in
+    # parallel - writing the shared JSON from sixteen threads is a corruption
+    # waiting to happen.
+    for rec in records:
+        if rec["tier"] == TIER_RETIRED:
+            record_retired(rec["base"], rec["note"])
 
     by_tier: dict[int, list[dict]] = {}
     for rec in records:
@@ -793,11 +957,12 @@ def discover(proxy_url: str | None = None, use_cache: bool = True) -> list[str]:
 
     tier_counts = {TIER_NAMES[t]: len(by_tier.get(t, []))
                    for t in (TIER_TIMELINE, TIER_CHALLENGE, TIER_LIMITED,
-                             TIER_EMPTY, TIER_USELESS, TIER_DEAD)}
+                             TIER_EMPTY, TIER_USELESS, TIER_DEAD, TIER_RETIRED)}
+    tier_counts["retired_skipped"] = len(retired_skipped)
     _log("probe results: " + ", ".join(f"{k}={v}" for k, v in tier_counts.items()))
 
     for tier in (TIER_TIMELINE, TIER_CHALLENGE, TIER_LIMITED, TIER_EMPTY,
-                 TIER_USELESS):
+                 TIER_USELESS, TIER_RETIRED):
         for rec in sorted(by_tier.get(tier, []), key=lambda r: r["base"]):
             _log(f"  {TIER_NAMES[tier]:<13} {rec['base']:<38} "
                  f"http={rec['http']:<4} {rec['bytes']:>7}B {rec['elapsed_ms']:>5}ms  "

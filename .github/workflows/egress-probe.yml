@@ -1,11 +1,29 @@
-# Diagnostic only, never scheduled. Answers "can a GitHub runner clear a Nitter
-# instance's Cloudflare challenge, and through which egress?" - the one question
-# that cannot be measured anywhere but on a runner. Safe to delete once the
-# Twitter phase is settled.
+# Diagnostic only, never scheduled. Answers the questions that cannot be
+# measured anywhere but on a runner, through the residential proxy the scrape
+# actually uses:
+#
+#   sources  (default) - what is LEFT to scrape. Which registries still yield
+#                        candidates, which instances answer, which now serve an
+#                        X Corp cease-and-desist notice, and whether X's own
+#                        syndication endpoint is reachable from this egress.
+#                        Run this before changing the instance strategy.
+#   direct / proxied /
+#   *-geoip / *-hum    - can a runner CLEAR a Cloudflare challenge, and with
+#                        which launch flags. This is what established that
+#                        proxy+geoip is the only combination that works.
+#
+# A datacenter 429 and a residential 429 mean different things, and only this
+# workflow can tell them apart - which is why guessing from a dev container is
+# not a substitute for dispatching it.
 name: Nitter egress probe
 
 on:
   workflow_dispatch:
+    inputs:
+      arms:
+        description: 'Space-separated: sources, direct, direct-geoip, proxied, proxied-geoip, proxied-geoip-hum'
+        required: false
+        default: 'sources'
 
 jobs:
   probe:
@@ -55,8 +73,15 @@ jobs:
         env:
           UPSTREAM_PROXY: ${{ secrets.UPSTREAM_PROXY }}
 
-      - name: Probe both egresses
+      # ARMS goes through the environment rather than being interpolated into
+      # the run: line. A ${{ inputs.* }} expansion is textual substitution into
+      # the shell script, so a dispatch value containing shell metacharacters
+      # executes on the runner - with the proxy secret in scope. Only
+      # collaborators can dispatch this, which makes it low severity, not a
+      # non-issue.
+      - name: Probe
         working-directory: backend/src
-        run: python egress_probe.py
+        run: python egress_probe.py $ARMS
         env:
+          ARMS: ${{ inputs.arms }}
           SCRAPER_HTTP_PROXY: ${{ secrets.UPSTREAM_PROXY }}

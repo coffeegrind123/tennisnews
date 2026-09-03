@@ -277,6 +277,19 @@ def to_helsinki(dt_str: str) -> str:
     s = re.sub(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", r"\1/\2/\3", s)  # "12. 03. 2026" -> "12/03/2026"
     # Swiss Indoors: "20Oct 2025" -> "20 Oct 2025"
     s = re.sub(r"(\d{1,2})([A-Z][a-z]{2})\s+(\d{4})", r"\1 \2 \3", s)
+    # Drupal's default format, which Tennis View Magazine's RSS emits and
+    # feedparser cannot read at all - published_parsed comes back None, so the
+    # raw string reaches here: "Tuesday, September 1, 2026 - 12:00pm". The
+    # weekday is stripped above; this drops the separator and spaces the
+    # meridiem so %p can match.
+    #
+    # Leaving it unparsed is worse than having no date. generate_html filters on
+    # `date[:10] >= cutoff` as a STRING comparison, and "Tuesday, S" sorts ABOVE
+    # "2026-09-01" because 'T' > '2' in ASCII - so every item would pass the
+    # recency filter forever and the page would accumulate stale articles
+    # instead of dropping them. A silent always-true filter, not a visible error.
+    s = re.sub(r"(\d{4})\s*-\s*(\d{1,2}:\d{2})", r"\1 \2", s)
+    s = re.sub(r"(\d)\s*([ap]m)\b", r"\1 \2", s, flags=re.IGNORECASE)
     # Wimbledon: "MON 02 MAR 202610:30" -> "02 Mar 2026 10:30"
     s = re.sub(r"^[A-Z]{3}\s+", "", s)
     m = re.match(r"(\d{1,2})\s+([A-Z]{3})\s+(\d{4})(\d{2}:\d{2})", s)
@@ -309,6 +322,7 @@ def to_helsinki(dt_str: str) -> str:
         "%b %d %Y",
         "%b %d, %Y %I:%M %p",
         "%b %d, %Y",
+        "%B %d, %Y %I:%M %p",
         "%B %d %Y",
         "%B %d, %Y",
         "%B %d",
@@ -907,14 +921,47 @@ async def run():
     return report_health(scrape_sites, len(scrape_articles))
 
 
+# Consecutive zero-tweet runs before the Twitter phase is treated as rot rather
+# than weather. One is now expected noise: X Corp began sending cease-and-desist
+# letters to public Nitter operators in late August 2026, so the surviving
+# instances are few, all Cloudflare-fronted, and individually flaky. Failing the
+# whole job on the first miss red-lines a run that collected 330 articles
+# perfectly well, and a red run that is usually spurious is a red run nobody
+# reads. Three misses is ~1.5 days at two runs a day - still fast enough to
+# catch the silent rot the gate exists for.
+TWITTER_ZERO_STREAK_FATAL = int(os.environ.get("TWITTER_ZERO_STREAK_FATAL", "3"))
+
+
+def previous_health() -> dict:
+    """Last run's data/health.json, or {}.
+
+    CI commits data/ wholesale every run, so the file on disk at this point is
+    the previous run's - which is the only place a cross-run counter can live
+    without inventing new state. Read BEFORE this run overwrites it.
+    """
+    try:
+        return json.loads((DATA_DIR / "health.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def report_health(scrape_sites: list[dict], scrape_article_count: int) -> int:
     """Write data/health.json and return the process exit code.
 
     A run where the browser never started, or where every browser-scraped source
     came back empty, is a FAILURE even though the RSS half still produced JSON.
     Reporting that as success is what let this rot undetected for months.
+
+    The Twitter half is graded on a STREAK rather than a single run - see
+    TWITTER_ZERO_STREAK_FATAL. A zero-tweet run is always reported loudly; it
+    only fails the job once it has happened often enough to mean something.
     """
     HEALTH["generated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    tweets = HEALTH["twitter"].get("tweets", 0)
+    prior_streak = int((previous_health().get("twitter") or {}).get("zero_streak", 0))
+    zero_streak = prior_streak + 1 if tweets == 0 else 0
+    HEALTH["twitter"]["zero_streak"] = zero_streak
 
     empty = sorted(n for n, v in HEALTH["sources"].items() if v.get("count", 0) == 0)
     HEALTH["empty_sources"] = empty
@@ -923,18 +970,31 @@ def report_health(scrape_sites: list[dict], scrape_article_count: int) -> int:
     )
 
     fatal = []
+    warn = []
     if scrape_sites and not HEALTH["browser_ok"]:
         fatal.append(f"browser never started: {HEALTH['browser_error'] or 'unknown'}")
     elif scrape_sites and scrape_article_count == 0:
         fatal.append(f"all {len(scrape_sites)} browser-scraped sources returned 0 articles")
-    if HEALTH["twitter"].get("tweets", 0) == 0:
-        fatal.append(f"twitter returned 0 tweets: {HEALTH['twitter'].get('error') or 'no error reported'}")
+    if tweets == 0:
+        why = HEALTH["twitter"].get("error") or "no error reported"
+        if zero_streak >= TWITTER_ZERO_STREAK_FATAL:
+            fatal.append(f"twitter returned 0 tweets on {zero_streak} consecutive "
+                         f"runs: {why}")
+        else:
+            warn.append(f"twitter returned 0 tweets ({zero_streak} run(s) in a row, "
+                        f"fails at {TWITTER_ZERO_STREAK_FATAL}): {why}")
 
     print("\n--- source health ---")
-    print(f"  browser_ok={HEALTH['browser_ok']} twitter_tweets={HEALTH['twitter'].get('tweets', 0)}")
+    print(f"  browser_ok={HEALTH['browser_ok']} twitter_tweets={tweets}"
+          + (f" zero_streak={zero_streak}" if zero_streak else ""))
     if empty:
         print(f"  {len(empty)} source(s) returned 0 articles: {', '.join(empty)}")
 
+    for w in warn:
+        # A GitHub annotation, so a degraded run is visible in the run summary
+        # without having to be a failed run.
+        print(f"::warning::{w}")
+        print(f"[WARN] {w}")
     if fatal:
         for f in fatal:
             print(f"[FAIL] {f}")
