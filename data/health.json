@@ -2,12 +2,17 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Ireland": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,7 +22,17 @@
       "count": 20,
       "error": ""
     },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,12 +47,17 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,17 +67,7 @@
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -67,14 +77,9 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "10sBalls": {
       "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
+      "count": 16,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -82,15 +87,20 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
+    "Tennis Nerd": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:119: not well-formed (invalid token)"
+      "count": 10,
+      "error": ""
     },
     "World Tennis Magazine": {
       "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "ESPN Tennis": {
+      "type": "rss",
       "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -137,21 +147,6 @@
       "count": 13,
       "error": ""
     },
-    "ESPN Tennis": {
-      "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.espn.com/tennis/",
-        "title": "",
-        "htmlLen": 1998,
-        "bodyTextLen": 0,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      }
-    },
     "Novak Djokovic": {
       "type": "scrape",
       "count": 4,
@@ -159,16 +154,8 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tenniscanada.com/news",
-        "title": "Tennis Canada News | Tennis Canada",
-        "htmlLen": 338281,
-        "bodyTextLen": 4624,
-        "markers": [],
-        "bodyHead": "Skip to main menu Skip to main content Skip to footer PLAY COMPETE & PERFORM COACH CHEER FOR CANADA CHANGE THE GAME NEWS RESOURCES SPORT SAFETY DONATE SHOP FR FOLLOW US HOME NEWS News Stay up-to-date on all things Canadian tennis courtesy o"
-      }
+      "count": 12,
+      "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
@@ -185,11 +172,6 @@
       "count": 12,
       "error": ""
     },
-    "Tennis View Magazine": {
-      "type": "scrape",
-      "count": 10,
-      "error": ""
-    },
     "Brisbane International": {
       "type": "scrape",
       "count": 3,
@@ -197,68 +179,67 @@
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://www.asiantennis.com/news/\", waiting until \"domcontentloaded\"\n"
+      "count": 15,
+      "error": ""
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 10,
+      "error": ""
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: Target page, context or browser has been closed"
+      "count": 19,
+      "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 0,
-      "error": "DuckDuckGo News returned nothing for any query. tennis: TargetClosedError: Page.goto: Target page, context or browser has been closed | ATP tour: TargetClosedError: Page.goto: Target page, context or "
+      "count": 78,
+      "error": ""
     }
   },
   "twitter": {
-    "tweets": 0,
-    "accounts": 0,
-    "error": "no tweets from any instance (tried ['https://lightbrd.com', 'https://nitter.freedit.eu', 'https://nt.vern.cc', 'https://nuku.trabun.org', 'https://nitter.kareem.one', 'https://bird.habedieeh.re']) - every one failed its interstitial, rate limited us, or served empty timelines",
+    "tweets": 60,
+    "accounts": 12,
     "instances": {
       "status": "discovered",
       "candidates": 109,
       "tiers": {
         "timeline": 0,
-        "challenged": 6,
+        "challenged": 3,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 103
+        "dead": 103,
+        "retired": 3,
+        "retired_skipped": 0
       },
       "verified_good": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
-        "https://nt.vern.cc",
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one",
-        "https://bird.habedieeh.re"
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
-        "https://nt.vern.cc",
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one",
-        "https://bird.habedieeh.re"
+        "https://nitter.kareem.one"
       ]
-    }
+    },
+    "error": "",
+    "zero_streak": 0
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8099,
-    "allowed": 7364,
-    "blocked_pct": 52.4
+    "blocked": 9143,
+    "allowed": 7915,
+    "blocked_pct": 53.6
   },
   "navigation": {
-    "floored": 21,
+    "floored": 19,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -266,7 +247,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 430,
+    "scanned": 647,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -278,15 +259,8 @@
     "repeat_this_run": 0,
     "by_source": {}
   },
-  "generated_at": "2026-09-03 17:43:27 UTC",
+  "generated_at": "2026-09-03 19:34:49 UTC",
   "empty_sources": [
-    "10sBalls",
-    "Asian Tennis Federation",
-    "DuckDuckGo News",
-    "ESPN Tennis",
-    "Swiss Indoors Basel",
-    "Tennis Canada",
-    "Tennis Europe",
-    "World Tennis Magazine"
+    "ESPN Tennis"
   ]
 }

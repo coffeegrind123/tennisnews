@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T17:43:23+00:00",
+  "updated_at": "2026-09-03T19:33:41+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -9,11 +9,17 @@
     },
     "https://lightbrd.com": {
       "last_fail": "2026-09-03T17:43:23+00:00",
-      "fails_since_ok": 1,
-      "reason": "interstitial did not clear in the browser",
+      "fails_since_ok": 0,
+      "reason": "",
       "permanent": false,
-      "last_ok": "2026-09-03T10:41:35+00:00",
+      "last_ok": "2026-09-03T19:33:41+00:00",
       "tweets": 5
+    },
+    "https://nitter.catsarch.com": {
+      "retired": true,
+      "retired_at": "2026-09-03T19:31:19+00:00",
+      "permanent": true,
+      "reason": "operator retired the instance: vice Unavailable Nitter is currently unavailable due to the cease and desist letters some public instance hosters have r"
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-09-01T17:54:00+00:00",
@@ -29,6 +35,12 @@
       "reason": "interstitial did not clear in the browser",
       "permanent": true
     },
+    "https://nitter.tiekoetter.com": {
+      "retired": true,
+      "retired_at": "2026-09-03T19:31:19+00:00",
+      "permanent": true,
+      "reason": "operator retired the instance: ate for its return. Upstream legal notice On 24 August 2026 cease and desist letters were sent by X Corp. demanding a pe"
+    },
     "https://nt.vern.cc": {
       "last_fail": "2026-09-03T17:43:23+00:00",
       "fails_since_ok": 5,
@@ -40,6 +52,12 @@
       "fails_since_ok": 7,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
+    },
+    "https://xcancel.com": {
+      "retired": true,
+      "retired_at": "2026-09-03T19:31:19+00:00",
+      "permanent": true,
+      "reason": "operator retired the instance: st at 8PM EST, we received at letter from X Corp. asking to cease and desist the service XCancel. The service XCancel is"
     }
   }
 }
