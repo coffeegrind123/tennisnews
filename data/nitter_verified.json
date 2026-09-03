@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-09-03T10:41:35+00:00",
+  "updated_at": "2026-09-03T17:43:23+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
-      "last_fail": "2026-09-01T10:55:45+00:00",
-      "fails_since_ok": 2,
-      "reason": "https://bird.habedieeh.re: instance cannot resolve @amylundydahl - backend cannot read X",
+      "last_fail": "2026-09-03T17:43:23+00:00",
+      "fails_since_ok": 3,
+      "reason": "interstitial did not clear in the browser",
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-09-01T13:37:13+00:00",
-      "fails_since_ok": 0,
-      "reason": "",
+      "last_fail": "2026-09-03T17:43:23+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-09-03T10:41:35+00:00",
       "tweets": 5
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-09-01T17:54:00+00:00",
-      "fails_since_ok": 1,
+      "fails_since_ok": 2,
       "tweets": 5,
-      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-09-02T17:46:53+00:00"
+      "last_fail": "2026-09-03T17:43:23+00:00"
     },
     "https://nitter.kareem.one": {
-      "last_fail": "2026-09-02T17:47:06+00:00",
-      "fails_since_ok": 5,
-      "reason": "https://nitter.kareem.one: instance has no X auth tokens",
+      "last_fail": "2026-09-03T17:43:23+00:00",
+      "fails_since_ok": 6,
+      "reason": "interstitial did not clear in the browser",
       "permanent": true
     },
     "https://nt.vern.cc": {
-      "last_fail": "2026-09-01T13:41:04+00:00",
-      "fails_since_ok": 4,
+      "last_fail": "2026-09-03T17:43:23+00:00",
+      "fails_since_ok": 5,
       "reason": "interstitial did not clear in the browser",
       "permanent": true
     },
     "https://nuku.trabun.org": {
-      "last_fail": "2026-09-02T17:47:12+00:00",
-      "fails_since_ok": 6,
+      "last_fail": "2026-09-03T17:43:23+00:00",
+      "fails_since_ok": 7,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     }
