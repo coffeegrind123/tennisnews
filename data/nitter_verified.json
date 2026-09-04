@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T10:24:37+00:00",
+  "updated_at": "2026-09-04T17:33:29+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -12,7 +12,7 @@
       "fails_since_ok": 0,
       "reason": "",
       "permanent": false,
-      "last_ok": "2026-09-04T10:24:37+00:00",
+      "last_ok": "2026-09-04T17:33:29+00:00",
       "tweets": 5
     },
     "https://nitter.catsarch.com": {
@@ -34,6 +34,12 @@
       "fails_since_ok": 6,
       "reason": "interstitial did not clear in the browser",
       "permanent": true
+    },
+    "https://nitter.net": {
+      "retired": true,
+      "retired_at": "2026-09-04T17:33:17+00:00",
+      "permanent": true,
+      "reason": "operator retired the instance: nitter.net Cease and desist On 24 August 2026 cease and desist letters have been sent by X&nbsp;Corp. demanding a perman"
     },
     "https://nitter.tiekoetter.com": {
       "retired": true,
