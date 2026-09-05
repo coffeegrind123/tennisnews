@@ -7,32 +7,17 @@
       "count": 10,
       "error": ""
     },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
     "Tennis View Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,9 +32,24 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -62,12 +62,12 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Ubitennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -77,14 +77,14 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -99,8 +99,9 @@
     },
     "ESPN Tennis": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
+      "count": 9,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -119,23 +120,13 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/fan-zone/news",
-        "title": "Discover the Latest News from the Thrilling World of Tennis",
-        "htmlLen": 243710,
-        "bodyTextLen": 102,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "Australian Open Sign In Play Compete Fan Zone Summer Events Clubs, Coaches & Officials States About Us"
-      }
+      "count": 11,
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -204,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 109,
+      "count": 112,
       "error": ""
     }
   },
@@ -229,17 +220,17 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
+        "https://nuku.trabun.org",
         "https://bird.habedieeh.re",
-        "https://nitter.kareem.one",
-        "https://nuku.trabun.org"
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
         "https://twiiit.com",
+        "https://nuku.trabun.org",
         "https://bird.habedieeh.re",
-        "https://nitter.kareem.one",
-        "https://nuku.trabun.org"
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -247,9 +238,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9332,
-    "allowed": 7499,
-    "blocked_pct": 55.4
+    "blocked": 9941,
+    "allowed": 7191,
+    "blocked_pct": 58.0
   },
   "navigation": {
     "floored": 19,
@@ -260,7 +251,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 662,
+    "scanned": 685,
     "flagged": 1,
     "redacted": 1,
     "by_source": {
@@ -276,9 +267,6 @@
       "Ubitennis": 1
     }
   },
-  "generated_at": "2026-09-05 09:56:59 UTC",
-  "empty_sources": [
-    "ESPN Tennis",
-    "Tennis Australia"
-  ]
+  "generated_at": "2026-09-05 16:39:47 UTC",
+  "empty_sources": []
 }
