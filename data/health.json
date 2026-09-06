@@ -17,7 +17,12 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "Tennis View Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,9 +32,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Tennis Majors": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Ireland": {
@@ -37,22 +42,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -62,17 +52,27 @@
       "count": 20,
       "error": ""
     },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -82,24 +82,25 @@
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
+    "ESPN Tennis": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "ESPN Tennis": {
-      "type": "rss",
-      "count": 11,
       "error": "",
       "recovered_via": "browser"
     },
@@ -115,18 +116,8 @@
     },
     "Tennis World USA": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/",
-        "title": "しばらくお待ちください...",
-        "htmlLen": 28139,
-        "bodyTextLen": 187,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "www.tennisworldusa.org セキュリティ検証の実行 この Web サイトは、悪意のあるボットから保護するためにセキュリティ サービスを使用しています。このページは、Web サイトがボットではないことを確認している間に表示されます。 Ray ID: a36c9b2b29bae951 Cloudflare によるパフォーマンスとセキュリティ プライバシー"
-      }
+      "count": 25,
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -205,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 87,
+      "count": 83,
       "error": ""
     }
   },
@@ -217,11 +208,11 @@
       "candidates": 105,
       "tiers": {
         "timeline": 0,
-        "challenged": 6,
+        "challenged": 5,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 99,
+        "dead": 100,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -230,12 +221,15 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
+        "https://bird.habedieeh.re",
         "https://nitter.kareem.one",
         "https://nuku.trabun.org"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
+        "https://nitter.cz",
+        "https://bird.habedieeh.re",
         "https://nitter.kareem.one",
         "https://nuku.trabun.org"
       ]
@@ -245,9 +239,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9405,
-    "allowed": 7549,
-    "blocked_pct": 55.5
+    "blocked": 9173,
+    "allowed": 7005,
+    "blocked_pct": 56.7
   },
   "navigation": {
     "floored": 19,
@@ -258,26 +252,25 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 636,
-    "flagged": 2,
-    "redacted": 2,
+    "scanned": 648,
+    "flagged": 1,
+    "redacted": 1,
     "by_source": {
-      "US Open": 1,
       "Ubitennis": 1
     },
-    "captured": 2
+    "captured": 1
   },
   "injections": {
     "total_recorded": 2,
-    "new_this_run": 1,
+    "new_this_run": 0,
     "repeat_this_run": 1,
     "by_source": {
       "Ubitennis": 1,
       "US Open": 1
     }
   },
-  "generated_at": "2026-09-06 10:08:31 UTC",
+  "generated_at": "2026-09-06 16:49:54 UTC",
   "empty_sources": [
-    "Tennis World USA"
+    "ESPN Tennis"
   ]
 }
