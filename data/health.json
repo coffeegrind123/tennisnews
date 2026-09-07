@@ -7,11 +7,6 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -22,7 +17,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,22 +32,17 @@
       "count": 10,
       "error": ""
     },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -57,12 +52,17 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -77,6 +77,16 @@
       "count": 20,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
@@ -89,18 +99,7 @@
     },
     "ESPN Tennis": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
+      "count": 11,
       "error": "",
       "recovered_via": "browser"
     },
@@ -121,7 +120,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -196,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 83,
+      "count": 126,
       "error": ""
     }
   },
@@ -207,12 +206,12 @@
       "status": "discovered",
       "candidates": 105,
       "tiers": {
-        "timeline": 0,
-        "challenged": 5,
+        "timeline": 2,
+        "challenged": 4,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 100,
+        "dead": 99,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -221,16 +220,13 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
-        "https://bird.habedieeh.re",
-        "https://nitter.kareem.one",
         "https://nuku.trabun.org"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
         "https://nitter.cz",
-        "https://bird.habedieeh.re",
-        "https://nitter.kareem.one",
+        "https://nitter.privacyredirect.com",
         "https://nuku.trabun.org"
       ]
     },
@@ -239,9 +235,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9173,
-    "allowed": 7005,
-    "blocked_pct": 56.7
+    "blocked": 9308,
+    "allowed": 7143,
+    "blocked_pct": 56.6
   },
   "navigation": {
     "floored": 19,
@@ -252,25 +248,21 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 648,
-    "flagged": 1,
-    "redacted": 1,
-    "by_source": {
-      "Ubitennis": 1
-    },
-    "captured": 1
+    "scanned": 693,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
   },
   "injections": {
     "total_recorded": 2,
     "new_this_run": 0,
-    "repeat_this_run": 1,
+    "repeat_this_run": 0,
     "by_source": {
       "Ubitennis": 1,
       "US Open": 1
     }
   },
-  "generated_at": "2026-09-06 16:49:54 UTC",
-  "empty_sources": [
-    "ESPN Tennis"
-  ]
+  "generated_at": "2026-09-07 11:19:58 UTC",
+  "empty_sources": []
 }
