@@ -7,9 +7,9 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Perfect Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis View Magazine": {
@@ -17,12 +17,12 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,7 +37,7 @@
       "count": 10,
       "error": ""
     },
-    "Open Court": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,27 +47,12 @@
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -77,12 +62,12 @@
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
+    "Open Court": {
       "type": "rss",
-      "count": 16,
+      "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -92,9 +77,24 @@
       "count": 10,
       "error": ""
     },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 19,
+      "error": ""
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "ESPN Tennis": {
@@ -105,7 +105,7 @@
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 16,
+      "count": 15,
       "error": ""
     },
     "Tennis.com": {
@@ -120,7 +120,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -160,7 +160,7 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 15,
+      "count": 10,
       "error": ""
     },
     "Rafael Nadal Fans": {
@@ -195,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 126,
+      "count": 114,
       "error": ""
     }
   },
@@ -206,12 +206,12 @@
       "status": "discovered",
       "candidates": 105,
       "tiers": {
-        "timeline": 2,
-        "challenged": 4,
+        "timeline": 0,
+        "challenged": 7,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 99,
+        "dead": 98,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -220,13 +220,14 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
+        "https://nitter.kareem.one",
         "https://nuku.trabun.org"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
         "https://nitter.cz",
-        "https://nitter.privacyredirect.com",
+        "https://nitter.kareem.one",
         "https://nuku.trabun.org"
       ]
     },
@@ -235,9 +236,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9308,
-    "allowed": 7143,
-    "blocked_pct": 56.6
+    "blocked": 9027,
+    "allowed": 7602,
+    "blocked_pct": 54.3
   },
   "navigation": {
     "floored": 19,
@@ -248,7 +249,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 693,
+    "scanned": 680,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -263,6 +264,6 @@
       "US Open": 1
     }
   },
-  "generated_at": "2026-09-07 11:19:58 UTC",
+  "generated_at": "2026-09-07 18:44:27 UTC",
   "empty_sources": []
 }
