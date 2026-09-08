@@ -2,27 +2,17 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,7 +32,17 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -50,16 +50,6 @@
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -72,20 +62,30 @@
       "count": 20,
       "error": ""
     },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
       "error": ""
     },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
-    },
-    "ESPN Tennis": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
     "Women's Tennis Blog": {
       "type": "rss",
@@ -95,18 +95,16 @@
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
-      "error": "",
-      "recovered_via": "browser"
+      "error": ""
     },
-    "10sBalls": {
+    "ESPN Tennis": {
       "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 15,
+      "count": 16,
       "error": ""
     },
     "Tennis.com": {
@@ -196,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 112,
+      "count": 125,
       "error": ""
     }
   },
@@ -205,14 +203,14 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 108,
+      "candidates": 109,
       "tiers": {
-        "timeline": 1,
-        "challenged": 9,
+        "timeline": 0,
+        "challenged": 8,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 98,
+        "dead": 101,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -222,17 +220,16 @@
       ],
       "verified_bad": [
         "https://nuku.trabun.org",
-        "https://bird.habedieeh.re",
-        "https://nitter.kareem.one"
+        "https://bird.habedieeh.re"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
-        "https://nitter.jaydenha.uk",
+        "https://nitter.meowing.monster",
         "https://nitter.xitter.cc",
+        "https://nitter.cz",
         "https://nuku.trabun.org",
-        "https://bird.habedieeh.re",
-        "https://nitter.kareem.one"
+        "https://bird.habedieeh.re"
       ]
     },
     "error": "",
@@ -240,9 +237,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9463,
-    "allowed": 7315,
-    "blocked_pct": 56.4
+    "blocked": 9329,
+    "allowed": 7798,
+    "blocked_pct": 54.5
   },
   "navigation": {
     "floored": 19,
@@ -253,7 +250,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 672,
+    "scanned": 686,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -268,7 +265,7 @@
       "US Open": 1
     }
   },
-  "generated_at": "2026-09-08 10:34:19 UTC",
+  "generated_at": "2026-09-08 17:56:17 UTC",
   "empty_sources": [
     "ESPN Tennis"
   ]
