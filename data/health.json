@@ -2,9 +2,9 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
+    "Tennis Connected": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Perfect Tennis": {
@@ -12,14 +12,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Majors": {
@@ -27,7 +22,7 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,12 +32,12 @@
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -57,9 +52,19 @@
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Racquet Magazine": {
@@ -67,14 +72,9 @@
       "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "10sBalls": {
@@ -99,8 +99,9 @@
     },
     "ESPN Tennis": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
+      "count": 12,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -115,11 +116,12 @@
     "Tennis World USA": {
       "type": "scrape",
       "count": 25,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -144,8 +146,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -194,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 125,
+      "count": 119,
       "error": ""
     }
   },
@@ -203,14 +205,14 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 109,
+      "candidates": 110,
       "tiers": {
         "timeline": 0,
-        "challenged": 8,
+        "challenged": 10,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 101,
+        "dead": 100,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -219,15 +221,17 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
+        "https://nitter.kareem.one",
         "https://nuku.trabun.org",
         "https://bird.habedieeh.re"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
-        "https://nitter.meowing.monster",
+        "https://nitter.privacyredirect.com",
         "https://nitter.xitter.cc",
-        "https://nitter.cz",
+        "https://nitter.meowing.monster",
+        "https://nitter.kareem.one",
         "https://nuku.trabun.org",
         "https://bird.habedieeh.re"
       ]
@@ -237,12 +241,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9329,
-    "allowed": 7798,
-    "blocked_pct": 54.5
+    "blocked": 6851,
+    "allowed": 6102,
+    "blocked_pct": 52.9
   },
   "navigation": {
-    "floored": 19,
+    "floored": 20,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -250,7 +254,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 686,
+    "scanned": 685,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -265,8 +269,8 @@
       "US Open": 1
     }
   },
-  "generated_at": "2026-09-08 17:56:17 UTC",
+  "generated_at": "2026-09-09 10:40:30 UTC",
   "empty_sources": [
-    "ESPN Tennis"
+    "Wimbledon"
   ]
 }
