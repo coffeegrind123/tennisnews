@@ -7,9 +7,9 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Tennis View Magazine": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Perfect Tennis": {
@@ -17,17 +17,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -42,7 +37,7 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -62,22 +57,22 @@
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Open Court": {
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -92,16 +87,22 @@
       "count": 20,
       "error": ""
     },
-    "ESPN Tennis": {
-      "type": "rss",
-      "count": 11,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
+    },
+    "ESPN Tennis": {
+      "type": "rss",
+      "count": 9,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -120,7 +121,7 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 12,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
@@ -195,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 116,
+      "count": 18,
       "error": ""
     }
   },
@@ -204,14 +205,14 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 105,
+      "candidates": 16,
       "tiers": {
         "timeline": 0,
-        "challenged": 5,
+        "challenged": 7,
         "rate-limited": 0,
         "nitter-empty": 0,
-        "no-tokens": 0,
-        "dead": 100,
+        "no-tokens": 1,
+        "dead": 8,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -221,16 +222,15 @@
       ],
       "verified_bad": [
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one",
-        "https://bird.habedieeh.re"
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
+        "https://nitter.xitter.cc",
         "https://nitter.privacyredirect.com",
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one",
-        "https://bird.habedieeh.re"
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -238,9 +238,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8567,
-    "allowed": 7696,
-    "blocked_pct": 52.7
+    "blocked": 9480,
+    "allowed": 7804,
+    "blocked_pct": 54.8
   },
   "navigation": {
     "floored": 19,
@@ -251,7 +251,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 682,
+    "scanned": 588,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -267,6 +267,6 @@
       "DDG/TV SPIELFILM": 1
     }
   },
-  "generated_at": "2026-09-11 10:31:31 UTC",
+  "generated_at": "2026-09-11 17:48:42 UTC",
   "empty_sources": []
 }
