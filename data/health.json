@@ -7,9 +7,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Perfect Tennis": {
@@ -17,17 +17,17 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Tennis View Magazine": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis365": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,7 +37,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -62,9 +67,9 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Nerd": {
@@ -72,9 +77,9 @@
       "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Open Court": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "10sBalls": {
@@ -87,14 +92,9 @@
       "count": 20,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "ESPN Tennis": {
       "type": "rss",
-      "count": 14,
+      "count": 11,
       "error": "",
       "recovered_via": "browser"
     },
@@ -120,12 +120,12 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 2,
+      "count": 11,
       "error": ""
     },
     "Tennis Infinity": {
@@ -140,8 +140,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_NET_TIMEOUT\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -195,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 69,
+      "count": 116,
       "error": ""
     }
   },
@@ -204,14 +204,14 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 112,
+      "candidates": 105,
       "tiers": {
-        "timeline": 2,
+        "timeline": 0,
         "challenged": 5,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 105,
+        "dead": 100,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -220,17 +220,17 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
-        "https://nitter.kareem.one"
+        "https://nuku.trabun.org",
+        "https://nitter.kareem.one",
+        "https://bird.habedieeh.re"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
-        "https://nitter.netbub.com",
-        "https://nitter.jaydenha.uk",
-        "https://nitter.meowing.monster",
-        "https://nitter.altgr.xyz",
-        "https://twiiit.com",
-        "https://nitter.kareem.one"
+        "https://nitter.privacyredirect.com",
+        "https://nuku.trabun.org",
+        "https://nitter.kareem.one",
+        "https://bird.habedieeh.re"
       ]
     },
     "error": "",
@@ -238,9 +238,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8968,
-    "allowed": 7734,
-    "blocked_pct": 53.7
+    "blocked": 8567,
+    "allowed": 7696,
+    "blocked_pct": 52.7
   },
   "navigation": {
     "floored": 19,
@@ -251,7 +251,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 613,
+    "scanned": 682,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -267,8 +267,6 @@
       "DDG/TV SPIELFILM": 1
     }
   },
-  "generated_at": "2026-09-10 17:38:45 UTC",
-  "empty_sources": [
-    "US Open"
-  ]
+  "generated_at": "2026-09-11 10:31:31 UTC",
+  "empty_sources": []
 }
