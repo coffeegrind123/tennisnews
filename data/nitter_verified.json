@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T11:08:41+00:00",
+  "updated_at": "2026-09-13T17:25:13+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -22,7 +22,7 @@
       "reason": "operator retired the instance: vice Unavailable Nitter is currently unavailable due to the cease and desist letters some public instance hosters have r"
     },
     "https://nitter.freedit.eu": {
-      "last_ok": "2026-09-13T11:08:41+00:00",
+      "last_ok": "2026-09-13T17:25:13+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
