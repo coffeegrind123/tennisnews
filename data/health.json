@@ -7,17 +7,12 @@
       "count": 20,
       "error": ""
     },
-    "Tennis View Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,19 +32,14 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
+    "Perfect Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Guardian Tennis": {
@@ -62,7 +52,37 @@
       "count": 10,
       "error": ""
     },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -72,36 +92,15 @@
       "count": 16,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "ESPN Tennis": {
-      "type": "rss",
-      "count": 11,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
+    },
+    "ESPN Tennis": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -195,7 +194,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 85,
+      "count": 111,
       "error": ""
     }
   },
@@ -206,8 +205,8 @@
       "status": "discovered",
       "candidates": 105,
       "tiers": {
-        "timeline": 1,
-        "challenged": 6,
+        "timeline": 0,
+        "challenged": 7,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
@@ -220,18 +219,17 @@
         "https://lightbrd.com"
       ],
       "verified_bad": [
+        "https://nuku.trabun.org",
         "https://bird.habedieeh.re",
-        "https://nitter.kareem.one",
-        "https://nuku.trabun.org"
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://nitter.freedit.eu",
         "https://lightbrd.com",
-        "https://twiiit.com",
         "https://nitter.privacyredirect.com",
+        "https://nuku.trabun.org",
         "https://bird.habedieeh.re",
-        "https://nitter.kareem.one",
-        "https://nuku.trabun.org"
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -239,9 +237,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9591,
-    "allowed": 7394,
-    "blocked_pct": 56.5
+    "blocked": 9774,
+    "allowed": 7621,
+    "blocked_pct": 56.2
   },
   "navigation": {
     "floored": 19,
@@ -252,7 +250,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 650,
+    "scanned": 663,
     "flagged": 1,
     "redacted": 1,
     "by_source": {
@@ -272,6 +270,8 @@
       "Tennis Nerd": 1
     }
   },
-  "generated_at": "2026-09-14 11:31:01 UTC",
-  "empty_sources": []
+  "generated_at": "2026-09-14 19:16:01 UTC",
+  "empty_sources": [
+    "ESPN Tennis"
+  ]
 }
