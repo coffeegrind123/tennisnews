@@ -2,16 +2,6 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -22,14 +12,19 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis Connected": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
+      "error": ""
+    },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Last Word on Tennis": {
@@ -47,6 +42,16 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
@@ -62,19 +67,14 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
+    "10sBalls": {
       "type": "rss",
-      "count": 20,
+      "count": 16,
       "error": ""
     },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
       "error": ""
     },
     "Ubitennis": {
@@ -135,13 +135,13 @@
     },
     "Australian Open": {
       "type": "scrape",
-      "count": 14,
+      "count": 15,
       "error": ""
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-07-15&endDate=2026-09-14&c"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -160,19 +160,8 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
-        "title": "Just a moment...",
-        "htmlLen": 28434,
-        "bodyTextLen": 267,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.ustaflorida.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a3a8ce8a091af3fe Performance and Secur"
-      },
-      "challenge_retry": "cleared but still empty"
+      "count": 15,
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -181,7 +170,7 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Brisbane International": {
@@ -206,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 109,
+      "count": 85,
       "error": ""
     }
   },
@@ -215,14 +204,14 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 16,
+      "candidates": 105,
       "tiers": {
-        "timeline": 2,
+        "timeline": 1,
         "challenged": 6,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 8,
+        "dead": 98,
         "retired": 0,
         "retired_skipped": 4
       },
@@ -231,16 +220,18 @@
         "https://lightbrd.com"
       ],
       "verified_bad": [
-        "https://nitter.kareem.one"
+        "https://bird.habedieeh.re",
+        "https://nitter.kareem.one",
+        "https://nuku.trabun.org"
       ],
       "bases": [
         "https://nitter.freedit.eu",
         "https://lightbrd.com",
-        "https://nitter.netbub.com",
-        "https://nitter.click",
-        "https://nitter.xitter.cc",
-        "https://nitter.meowing.monster",
-        "https://nitter.kareem.one"
+        "https://twiiit.com",
+        "https://nitter.privacyredirect.com",
+        "https://bird.habedieeh.re",
+        "https://nitter.kareem.one",
+        "https://nuku.trabun.org"
       ]
     },
     "error": "",
@@ -248,20 +239,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7873,
-    "allowed": 6976,
-    "blocked_pct": 53.0
+    "blocked": 9591,
+    "allowed": 7394,
+    "blocked_pct": 56.5
   },
   "navigation": {
-    "floored": 20,
-    "retried": 1,
+    "floored": 19,
+    "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 637,
+    "scanned": 650,
     "flagged": 1,
     "redacted": 1,
     "by_source": {
@@ -281,9 +272,6 @@
       "Tennis Nerd": 1
     }
   },
-  "generated_at": "2026-09-13 17:26:14 UTC",
-  "empty_sources": [
-    "US Open",
-    "USTA Florida"
-  ]
+  "generated_at": "2026-09-14 11:31:01 UTC",
+  "empty_sources": []
 }
