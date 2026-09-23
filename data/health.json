@@ -2,12 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
+    "Tennis Connected": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,7 +17,17 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,17 +37,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,32 +52,12 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Open Court": {
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -82,14 +67,19 @@
       "count": 20,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
+    "Open Court": {
       "type": "rss",
-      "count": 16,
+      "count": 10,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -99,12 +89,24 @@
     },
     "ESPN Tennis": {
       "type": "rss",
+      "count": 20,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
       "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=<unknown>:2:116: not well-formed (invalid token)"
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 16,
+      "count": 13,
       "error": ""
     },
     "Tennis.com": {
@@ -144,8 +146,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -154,7 +156,7 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 11,
+      "count": 12,
       "error": ""
     },
     "USTA Florida": {
@@ -174,8 +176,20 @@
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 3,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/brisbane-international?__cf_chl_rt_tk=VqJY5fzi.PBRdygr8BG4Z7oCZ9jrSFHpfBFsoSMVtow-1790173090-1.0.1.1-RH4Y9C0x4ots3ZoKgzJ0FGE4v6DnQ5m5g.Xxx.jOvHM",
+        "title": "Just a moment...",
+        "htmlLen": 5776,
+        "bodyTextLen": 0,
+        "markers": [
+          "cloudflare-challenge",
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      },
+      "challenge_retry": "never cleared"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -194,7 +208,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 111,
+      "count": 94,
       "error": ""
     }
   },
@@ -203,32 +217,33 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 105,
+      "candidates": 16,
       "tiers": {
-        "timeline": 0,
+        "timeline": 1,
         "challenged": 7,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 98,
+        "dead": 8,
         "retired": 0,
         "retired_skipped": 4
       },
       "verified_good": [
-        "https://nitter.freedit.eu",
-        "https://lightbrd.com"
+        "https://lightbrd.com",
+        "https://nitter.freedit.eu"
       ],
       "verified_bad": [
         "https://nuku.trabun.org",
-        "https://bird.habedieeh.re",
         "https://nitter.kareem.one"
       ],
       "bases": [
-        "https://nitter.freedit.eu",
         "https://lightbrd.com",
-        "https://nitter.privacyredirect.com",
+        "https://nitter.freedit.eu",
+        "https://nitter.click",
+        "https://nitter.xitter.cc",
+        "https://nitter.netbub.com",
+        "https://nitter.meowing.monster",
         "https://nuku.trabun.org",
-        "https://bird.habedieeh.re",
         "https://nitter.kareem.one"
       ]
     },
@@ -237,9 +252,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9774,
-    "allowed": 7621,
-    "blocked_pct": 56.2
+    "blocked": 6103,
+    "allowed": 5661,
+    "blocked_pct": 51.9
   },
   "navigation": {
     "floored": 19,
@@ -250,18 +265,16 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 663,
-    "flagged": 1,
-    "redacted": 1,
-    "by_source": {
-      "Tennis Nerd": 1
-    },
-    "captured": 1
+    "scanned": 644,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
   },
   "injections": {
     "total_recorded": 5,
     "new_this_run": 0,
-    "repeat_this_run": 1,
+    "repeat_this_run": 0,
     "by_source": {
       "Ubitennis": 1,
       "US Open": 1,
@@ -270,8 +283,10 @@
       "Tennis Nerd": 1
     }
   },
-  "generated_at": "2026-09-14 19:16:01 UTC",
+  "generated_at": "2026-09-23 14:24:27 UTC",
   "empty_sources": [
-    "ESPN Tennis"
+    "Brisbane International",
+    "Wimbledon",
+    "World Tennis Magazine"
   ]
 }

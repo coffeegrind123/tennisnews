@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T19:15:09+00:00",
+  "updated_at": "2026-09-23T14:24:21+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -8,9 +8,9 @@
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-09-12T10:06:18+00:00",
-      "fails_since_ok": 0,
-      "reason": "",
+      "last_fail": "2026-09-23T14:22:32+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-09-14T19:15:09+00:00",
       "tweets": 5
@@ -21,13 +21,20 @@
       "permanent": true,
       "reason": "operator retired the instance: vice Unavailable Nitter is currently unavailable due to the cease and desist letters some public instance hosters have r"
     },
-    "https://nitter.freedit.eu": {
-      "last_ok": "2026-09-14T19:14:22+00:00",
+    "https://nitter.click": {
+      "last_ok": "2026-09-23T14:23:09+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
+      "permanent": false
+    },
+    "https://nitter.freedit.eu": {
+      "last_ok": "2026-09-14T19:14:22+00:00",
+      "fails_since_ok": 1,
+      "tweets": 5,
+      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
       "permanent": false,
-      "last_fail": "2026-09-03T17:43:23+00:00"
+      "last_fail": "2026-09-23T14:22:39+00:00"
     },
     "https://nitter.kareem.one": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -46,6 +53,13 @@
       "retired_at": "2026-09-03T19:31:19+00:00",
       "permanent": true,
       "reason": "operator retired the instance: ate for its return. Upstream legal notice On 24 August 2026 cease and desist letters were sent by X Corp. demanding a pe"
+    },
+    "https://nitter.xitter.cc": {
+      "last_ok": "2026-09-23T14:24:21+00:00",
+      "fails_since_ok": 0,
+      "tweets": 5,
+      "reason": "",
+      "permanent": false
     },
     "https://nt.vern.cc": {
       "last_fail": "2026-09-03T17:43:23+00:00",
