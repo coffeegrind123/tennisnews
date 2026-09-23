@@ -5,7 +5,9 @@ feedparser
 # [geoip] is not optional in practice: camoufox warns on every proxied launch
 # that it is "heavily recommended", and without it the spoofed locale, timezone
 # and geolocation describe a client somewhere other than the exit IP.
-camoufox[geoip] @ git+https://github.com/JWriter20/camoufox.git#subdirectory=python
+# Pinned to a commit: JWriter20 rewrote main's history on 2026-09-14 and moved
+# the package from python/ to pythonlib/, and the unpinned ref broke every run.
+camoufox[geoip] @ git+https://github.com/JWriter20/camoufox.git@52d6746a4a67830ec8a24e2196822204ba843134#subdirectory=pythonlib
 # playwright 1.60 dispatches pageError with `location.url`, which the camoufox
 # FF146 juggler never sends. The driver process then dies on the FIRST uncaught
 # JS error on any page, taking the whole browser (and every remaining site) with
