@@ -1,13 +1,15 @@
 feedparser
-# The launcher, from the SAME fork the workflow downloads the binary from -
-# JWriter20 is where camoufox is actively maintained, and a launcher and a build
-# that disagree about properties.json are not a combination anyone tests.
+# The launcher, from the SAME fork and commit the workflow downloads the binary
+# from: coffeegrind123/camoufox-beta is JWriter20's main plus Web Serial, the
+# setter seal, the daijro/camoufox#779 stock-parity sweep and the glxtest GPU
+# probe. A launcher and a build that disagree about properties.json are not a
+# combination anyone tests.
 # [geoip] is not optional in practice: camoufox warns on every proxied launch
 # that it is "heavily recommended", and without it the spoofed locale, timezone
 # and geolocation describe a client somewhere other than the exit IP.
-# Pinned to a commit: JWriter20 rewrote main's history on 2026-09-14 and moved
-# the package from python/ to pythonlib/, and the unpinned ref broke every run.
-camoufox[geoip] @ git+https://github.com/JWriter20/camoufox.git@52d6746a4a67830ec8a24e2196822204ba843134#subdirectory=pythonlib
+# Pinned to a commit: upstream history rewrites have broken an unpinned ref
+# before (JWriter20 moved python/ to pythonlib/ on 2026-09-14).
+camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-beta.git@a96b87fd9ee9551ce79510a75194ea9b3a139982#subdirectory=pythonlib
 # playwright 1.60 dispatches pageError with `location.url`, which the camoufox
 # FF146 juggler never sends. The driver process then dies on the FIRST uncaught
 # JS error on any page, taking the whole browser (and every remaining site) with
