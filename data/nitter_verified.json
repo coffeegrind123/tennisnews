@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:24:38+00:00",
+  "updated_at": "2026-09-24T11:01:31+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -8,8 +8,8 @@
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-09-23T14:22:32+00:00",
-      "fails_since_ok": 1,
+      "last_fail": "2026-09-24T11:01:21+00:00",
+      "fails_since_ok": 2,
       "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-09-14T19:15:09+00:00",
@@ -22,17 +22,17 @@
       "reason": "operator retired the instance: vice Unavailable Nitter is currently unavailable due to the cease and desist letters some public instance hosters have r"
     },
     "https://nitter.click": {
-      "last_ok": "2026-09-23T14:23:09+00:00",
+      "last_ok": "2026-09-24T11:00:48+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
       "permanent": false
     },
     "https://nitter.freedit.eu": {
-      "last_ok": "2026-09-14T19:14:22+00:00",
-      "fails_since_ok": 1,
+      "last_ok": "2026-09-24T11:01:31+00:00",
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
+      "reason": "",
       "permanent": false,
       "last_fail": "2026-09-23T14:22:39+00:00"
     },
