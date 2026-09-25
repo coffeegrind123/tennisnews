@@ -160,6 +160,22 @@
     }
   },
   {
+    "title": "Pre-China tuneup 💪",
+    "description": "",
+    "link": "https://nitter.xitter.cc/DjokerNole/status/2103216762145689606#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-09-24 23:15 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10773238116760428,
+      "detections": []
+    }
+  },
+  {
     "title": "Forever grateful, New York 🗽",
     "description": "",
     "link": "https://nitter.xitter.cc/DjokerNole/status/2094467061267279970#m",
@@ -220,22 +236,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.0732220866181704,
-      "detections": []
-    }
-  },
-  {
-    "title": "Two weeks, @PrimeVideo…",
-    "description": "",
-    "link": "https://nitter.xitter.cc/DjokerNole/status/2085357090181177609#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-06 16:27 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03785579444002656,
       "detections": []
     }
   },
@@ -800,82 +800,114 @@
     }
   },
   {
-    "title": "Paolini and Errani win the doubles rubber against China. Match finished at 1am. \n\nTwo time defending champ Italy back into the semifinals. \n\nCZECHIA vs. SPAIN tomorrow \n\nUKRAINE vs. ITALY on Saturday \n\nBoth semifinals starting 5pm local time.",
+    "title": "CZE 1-0 ESP\n\nKarolina Muchova wins a good match vs. Jessica Bouzas Maneiro 7-5, 6-4 (from a break down in the first set) to give Czechia the lead in Shenzhen. \n\nNoskova vs. Bucsa next.",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2103166825982742570#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2103438418243907772#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-24 19:57 EEST",
+    "date": "2026-09-25 13:56 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06536465460962557,
+      "score": 0.06386602279399141,
       "detections": []
     }
   },
   {
-    "title": "Chinese players 1-5 today in Chinese ATP events. \n\nOnly Bu won.",
+    "title": "Dimitrov in Portugal.",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2103166177174577288#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2103434850556407852#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-24 19:54 EEST",
+    "date": "2026-09-25 13:42 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04676444617699405,
+      "score": 0.066704785944394,
       "detections": []
     }
   },
   {
-    "title": "First set ➡️ Sakkari\n\n@mariasakkari takes a 7-5 lead over Hibino!\n\n #SgTennisOpen",
+    "title": "Kei Nishikori is ready for the last tournament of his career next week.",
     "description": "",
-    "link": "https://nitter.xitter.cc/WTA/status/2103140532511809911#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2103434178419138832#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-24 18:12 EEST",
+    "date": "2026-09-25 13:39 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06364711613956035,
+      "detections": []
+    }
+  },
+  {
+    "title": "BREAKING: Jannik Sinner is still not ready and OUT of Beijing.",
+    "description": "",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2103433708443496698#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-25 13:37 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0640823911407,
+      "detections": []
+    }
+  },
+  {
+    "title": "COMEBACK COMPLETE ✅\n\nTatiana Prozorova makes her first ever WTA semifinal in Singapore!\n\n#SgTennisOpen",
+    "description": "",
+    "link": "https://nitter.xitter.cc/WTA/status/2103425001101660301#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-25 13:02 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04255228708928922,
+      "score": 0.044013058091357304,
       "detections": []
     }
   },
   {
-    "title": "What an incredible win for Prozorova against Eala and the loud crowd.",
+    "title": "Players confirmed for ATP250 Lyon\n\nMonfils\nWawrinka\nHurkacz\nNakashima\nFery\nNorrie\nShapovalov\nPaul\nTiafoe\nBerrettini\nMusetti\nArnaldi\nVacherot\nHumbert\nRinderknech\nBaez\nGea\nBelshaw\nLandaluce\nVan Assche",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2103165490520793161#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-24 19:51 EEST",
+    "link": "https://nitter.xitter.cc/MichalSamulski/status/2103223493047492851#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-09-24 23:42 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03953044215702637,
+      "score": 0.6329700976010668,
       "detections": []
     }
   },
   {
-    "title": "This Italy vs. China tie is actually 🔥🔥🔥",
+    "title": "ATP250 Brussels entry list incl. Auger-Aliassime, Fils, Ruud",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2103164028256223327#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-24 19:45 EEST",
+    "link": "https://nitter.xitter.cc/MichalSamulski/status/2103221005758161389#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-09-24 23:32 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10229551957264547,
+      "score": 0.11139985229920371,
       "detections": []
     }
   },
@@ -924,38 +956,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04463330832483891,
-      "detections": []
-    }
-  },
-  {
-    "title": "Players confirmed for ATP500 Basel\n\nStan Wawrinka\nFelix Auger-Aliassime\nBen Shelton\nTaylor Fritz\nRafael Jodar\nArthur Fils\nJiri Lehecka\nJoao Fonseca\nHolger Rune\nCasper Ruud",
-    "description": "",
-    "link": "https://nitter.xitter.cc/MichalSamulski/status/2102333294448644519#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-09-22 12:44 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.21513569046374967,
-      "detections": []
-    }
-  },
-  {
-    "title": "Arthur Fery and Ignacio Buse named alternates for Laver Cup London 2026.",
-    "description": "",
-    "link": "https://nitter.xitter.cc/MichalSamulski/status/2101944875025395870#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-09-21 11:01 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05463310950986147,
       "detections": []
     }
   }
