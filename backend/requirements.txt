@@ -9,7 +9,7 @@ feedparser
 # and geolocation describe a client somewhere other than the exit IP.
 # Pinned to a commit: upstream history rewrites have broken an unpinned ref
 # before (JWriter20 moved python/ to pythonlib/ on 2026-09-14).
-camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-beta.git@6dffb89fb57e834a1ab498d7c1b1871586360b70#subdirectory=pythonlib
+camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-beta.git@ac80e9806d8e65cbd381a7eb7d53726235a90583#subdirectory=pythonlib
 # playwright 1.60 dispatches pageError with `location.url`, which the camoufox
 # FF146 juggler never sends. The driver process then dies on the FIRST uncaught
 # JS error on any page, taking the whole browser (and every remaining site) with
