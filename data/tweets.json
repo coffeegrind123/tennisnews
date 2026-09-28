@@ -2,7 +2,7 @@
   {
     "title": "After the U.S. Open I always think I need a break from watching tennis, but @LaverCup is just perfect for drawing me back in. It’s fresh, visually different & you can’t beat the mic’d interstitials for info/entertainment. Enjoying the ever living heck out of this Alcaraz Fritz 👀",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2103923678454943758#m",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2103923678454943758#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -18,7 +18,7 @@
   {
     "title": "When Fritz is just so freakin opinionated \nBut not wrong 😆",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2103624403850518858#m",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2103624403850518858#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -34,7 +34,7 @@
   {
     "title": "Big congratulations to Alexei Popyrin and wife Amy after tying the knot 💒❤️",
     "description": "",
-    "link": "https://nitter.freedit.eu/TheFirstServeAU/status/2103393876853788735#m",
+    "link": "https://lightbrd.com/TheFirstServeAU/status/2103393876853788735#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -50,7 +50,7 @@
   {
     "title": "On the Prozorova thing:\nI think about what other sports are doing.\nNFL has independent medical advisers who make the call if the player sits.\nIt’s not up to the player.\nAnd god knows the NFL knows something about concussion protocol.",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2103563333454495876#m",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2103563333454495876#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -66,7 +66,7 @@
   {
     "title": "I think the doubles peeps will say Prozorova had a tiny dip in focus unfortunately. Not facing her threat, stopped moving and didn’t back up. She took a little nap, which happens to everyone. Unlucky. Seems like WTA followed good concussion protocol.",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2103555500122009791#m",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2103555500122009791#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -400,6 +400,22 @@
     }
   },
   {
+    "title": "Manhattan As You Have Never Seen It! (Probably) youtu.be/lSRNB7v_dQE?si=3uIB… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2104583723446313142#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-28 17:47 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08201227067928554,
+      "detections": []
+    }
+  },
+  {
     "title": "Watching the Detroit Lions and the New York Jets on TV and hearing the comparisons between Jaymyr Gibbs and Barry Sanders, whose statue I visited at Oklahoma State exactly a week ago\nyoutu.be/8DkLdcRe44U?is=WC1Z… via @YouTube",
     "description": "",
     "link": "https://lightbrd.com/TennisPublisher/status/2104280901660381332#m",
@@ -460,22 +476,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.06815908402987751,
-      "detections": []
-    }
-  },
-  {
-    "title": "These kind of stories - about players winning gold balls - need more attention and publicity… almost every week of the year someone wins a USTA national championship",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2104189465111703840#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 15:40 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06053856560980595,
       "detections": []
     }
   },
@@ -800,6 +800,54 @@
     }
   },
   {
+    "title": "Zverev - Serve \nAlcaraz - Everything else",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2104628312072958417#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-28 20:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.29346386132034485,
+      "detections": []
+    }
+  },
+  {
+    "title": "Casper Ruud... again with something special!!😅😅",
+    "description": "",
+    "link": "https://lightbrd.com/TennisTalksPT/status/2104569833488888128#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-28 16:52 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10522857902936329,
+      "detections": []
+    }
+  },
+  {
+    "title": "Former top 10 Hubert Hurkacz improves to 6-1 vs. Denis Shapovalov, defeats the Canadian 6-7(8), 6-3, 6-3 to reach his 13th ATP final in Chengdu. \n\n1st final since may 2025.\n\nHe will face Alejandro Davidovich Fokina tomorrow.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2104570627369631925#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-28 16:55 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06655978090552973,
+      "detections": []
+    }
+  },
+  {
     "title": "Davis Cup Group I Playoffs in 2027.\n\nPortugal will play an home time for the first time since 2022. \n\nA couple of interesting ties.",
     "description": "",
     "link": "https://lightbrd.com/josemorgado/status/2104566108464280040#m",
@@ -828,54 +876,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09212294008832282,
-      "detections": []
-    }
-  },
-  {
-    "title": "Daniil Medvedev defeats Roman Safiullin 7-5, 6-4 to reach the Hangzhou final. \n\n44th career final\n4th in 2026\n\nSolid performance today.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104562653133725944#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 16:23 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06929023933654974,
-      "detections": []
-    }
-  },
-  {
-    "title": "Quite a set between Shapovalov and Hurkacz.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104548819937661008#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 15:28 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03906152055821209,
-      "detections": []
-    }
-  },
-  {
-    "title": "Gonçalo Marques into the main draw in Porto. \n\nHit 11 aces in a match with 0 break points.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104541821494075466#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 15:00 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05045001517082074,
       "detections": []
     }
   },
