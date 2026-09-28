@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11185250166628066,
+      "score": 0.10287260256528825,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.26420224949949866,
+      "score": 0.19566071600396057,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05092232537862611,
+      "score": 0.04459112603066621,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03934493337678101,
+      "score": 0.034093364122311356,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03775273928387777,
+      "score": 0.03304501210579599,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03953616686644204,
+      "score": 0.03906200329868245,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03930261245713003,
+      "score": 0.034811296078339035,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23869957607456987,
+      "score": 0.1889380908082934,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1658154282228027,
+      "score": 0.094843066620901,
       "detections": []
     }
   },
@@ -155,7 +155,327 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13002913223952536,
+      "score": 0.09379724533605463,
+      "detections": []
+    }
+  },
+  {
+    "title": "Pre-China tuneup 💪",
+    "description": "",
+    "link": "https://nitter.xitter.cc/DjokerNole/status/2103216762145689606#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-09-24 23:15 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10070797934282841,
+      "detections": []
+    }
+  },
+  {
+    "title": "Forever grateful, New York 🗽",
+    "description": "",
+    "link": "https://nitter.xitter.cc/DjokerNole/status/2094467061267279970#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-08-31 19:47 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.031024718045035097,
+      "detections": []
+    }
+  },
+  {
+    "title": "Travelling on one of our US routes? You can now enjoy SILA Hydration on board by @DjokerNole . \n\nStay hydrated throughout your journey with every sip. youtube.com/watch?v=eK-w0IzV…",
+    "description": "",
+    "link": "https://nitter.xitter.cc/qatarairways/status/2091912142329147567#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-08-24 18:34 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08436050844749349,
+      "detections": []
+    }
+  },
+  {
+    "title": "24 Grand Slams. 24 years of greatness. Novak Djokovic: The Wolf in Winter is streaming in 24 hours.",
+    "description": "",
+    "link": "https://nitter.xitter.cc/PrimeVideo/status/2090091618325922024#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-08-19 18:00 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.031630623639772586,
+      "detections": []
+    }
+  },
+  {
+    "title": "‘One of the most remarkable finals'\n\n@DjokerNole reflecting on his last @CincyTennis final - an incredible match against fellow Laureus Award winner, Carlos Alcaraz in 2023 🤝\n\n#CincyTennis | @atptour | @TennisTV",
+    "description": "",
+    "link": "https://nitter.xitter.cc/LaureusSport/status/2086784634096898256#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-08-10 15:00 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0674376295918977,
+      "detections": []
+    }
+  },
+  {
+    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
+    "description": "",
+    "link": "https://nitter.xitter.cc/operskapevacica/status/2090571789659214069#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 01:48 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03419672292954768,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
+    "description": "",
+    "link": "https://nitter.xitter.cc/jelenadjokovic/status/2090716683384103269#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 11:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.3805444408157251,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
+    "description": "",
+    "link": "https://nitter.xitter.cc/NBA/status/2078598248726438111#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-07-19 00:50 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05066850152822621,
+      "detections": []
+    }
+  },
+  {
+    "title": "🥹🥹🥹🥹🥹",
+    "description": "",
+    "link": "https://nitter.xitter.cc/jelenadjokovic/status/2017249310388142394#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-01-30 16:51 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2797040348766316,
+      "detections": []
+    }
+  },
+  {
+    "title": "🤣🤣🤣🙌🏼",
+    "description": "",
+    "link": "https://nitter.xitter.cc/jelenadjokovic/status/1987834454463652061#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-11-10 12:47 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2797040348766316,
+      "detections": []
+    }
+  },
+  {
+    "title": "RF - who else? Or maybe (beware oxymoron) a well-behaved John McEnroe.",
+    "description": "",
+    "link": "https://nitter.xitter.cc/tomtebbutt/status/2103611651853586511#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-26 01:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05983814628310663,
+      "detections": []
+    }
+  },
+  {
+    "title": "how does X (twitter) allow this con nonsense onto the site - totally irresponsible and inexcusable.\nIt makes X complicit with the scam.",
+    "description": "",
+    "link": "https://nitter.xitter.cc/tomtebbutt/status/2102465748547391766#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-22 21:31 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.3354215132270213,
+      "detections": []
+    }
+  },
+  {
+    "title": "Maybe the most spectacular - but no one compares with the magic of J. McEnroe.",
+    "description": "",
+    "link": "https://nitter.xitter.cc/tomtebbutt/status/2101691516573954274#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-20 18:14 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.030314635469110694,
+      "detections": []
+    }
+  },
+  {
+    "title": "Asking the question is proof of ignorance and arrogance. Don't you understand people in France, Italy Japan, Australia etc. are deeply patriotic and wouldn't change to be American. In Canada, we don't have the 2nd amendment, we have choice for women and universal healthcare. Amen",
+    "description": "",
+    "link": "https://nitter.xitter.cc/tomtebbutt/status/2100817577442201602#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-18 08:21 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0914784908556414,
+      "detections": []
+    }
+  },
+  {
+    "title": "No words required.\nAlso, it seems no one acknowledges the credible journalistic reporting done by Ben Rothenberg at the time. As with writing about politicians, you can either agree or disagree with the work. Some choose to do so, some do not.",
+    "description": "",
+    "link": "https://nitter.xitter.cc/tomtebbutt/status/2100386424050577515#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-17 03:48 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07485501503156801,
+      "detections": []
+    }
+  },
+  {
+    "title": "Watching the Detroit Lions and the New York Jets on TV and hearing the comparisons between Jaymyr Gibbs and Barry Sanders, whose statue I visited at Oklahoma State exactly a week ago\nyoutu.be/8DkLdcRe44U?is=WC1Z… via @YouTube",
+    "description": "",
+    "link": "https://nitter.xitter.cc/TennisPublisher/status/2104280901660381332#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-27 21:43 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04791832372930495,
+      "detections": []
+    }
+  },
+  {
+    "title": "Czechia Claims 12th Billie Jean King Cup Title, Sweeping Ukraine in Shenzhen worldtennismagazine.com/czec…",
+    "description": "",
+    "link": "https://nitter.xitter.cc/WorldTennisMag/status/2104215913453265236#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-27 17:25 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07478400117568633,
+      "detections": []
+    }
+  },
+  {
+    "title": "I'd like to see DAVIS CUP return to best-of-five set matches - with a 10-point match tiebreaker for a fifth-set - and have the ties be played over THREE DAYS (and all the to the final, home-and-away, like before)",
+    "description": "",
+    "link": "https://nitter.xitter.cc/TennisPublisher/status/2104216867132870889#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-27 17:29 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06407702760866035,
+      "detections": []
+    }
+  },
+  {
+    "title": "Rafael Nadal And Carlos Alcaraz Culture, Methods, Training Featured In New Book \"The Secrets of Spanish Tennis 2.0\" worldtennismagazine.com/rafa…",
+    "description": "",
+    "link": "https://nitter.xitter.cc/TennisPublisher/status/2104200434407903623#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-27 16:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05362702422527638,
+      "detections": []
+    }
+  },
+  {
+    "title": "These kind of stories - about players winning gold balls - need more attention and publicity… almost every week of the year someone wins a USTA national championship",
+    "description": "",
+    "link": "https://nitter.xitter.cc/TennisPublisher/status/2104189465111703840#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-27 15:40 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.052967985648745566,
       "detections": []
     }
   },
@@ -171,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
@@ -187,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16423754403377674,
+      "score": 0.21552331795558757,
       "detections": []
     }
   },
@@ -203,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.18542763606867788,
+      "score": 0.13774816000000634,
       "detections": []
     }
   },
@@ -219,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047678298952873364,
+      "score": 0.04569262043166923,
       "detections": []
     }
   },
@@ -235,7 +555,71 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05405068954804942,
+      "score": 0.05519535942840571,
+      "detections": []
+    }
+  },
+  {
+    "title": "Almost ready to go 👀🏆 \n\nThe Tokyo & Beijing draws are in! 🇯🇵🇨🇳",
+    "description": "",
+    "link": "https://nitter.xitter.cc/TennisTV/status/2104456722995909057#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-09-28 09:22 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04379204316842454,
+      "detections": []
+    }
+  },
+  {
+    "title": "London belongs to Team Europe 🔵🏆\n\n#LaverCup #TennisUnrivaled",
+    "description": "",
+    "link": "https://nitter.xitter.cc/LaverCup/status/2104257054332346523#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-09-27 20:09 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06661667004554851,
+      "detections": []
+    }
+  },
+  {
+    "title": "Hollywood came to London this year. LA, you’re next.\n\n#LaverCup #TennisUnrivaled",
+    "description": "",
+    "link": "https://nitter.xitter.cc/LaverCup/status/2104293270587085148#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-09-27 22:33 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0366769718845678,
+      "detections": []
+    }
+  },
+  {
+    "title": "Crowning the champs🏆\n\nThe Laver Cup has returned to Team Europe.\n\n#LaverCup #TennisUnrivaled",
+    "description": "",
+    "link": "https://nitter.xitter.cc/LaverCup/status/2104235339271553499#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-09-27 18:42 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06143603600171739,
       "detections": []
     }
   },
@@ -251,71 +635,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13999871246288328,
+      "score": 0.11262112746913137,
       "detections": []
     }
   },
   {
-    "title": "DEMON TIME 🔴 😈\n\n@alexdeminaur takes out US Open Champion Zverev to fire Team World into the lead!\n\n#LaverCup",
+    "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
     "description": "",
-    "link": "https://nitter.xitter.cc/TennisTV/status/2103883843421839647#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-09-26 19:26 EEST",
-    "is_retweet": true,
+    "link": "https://nitter.xitter.cc/theslicetennis/status/2047772450298228828#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-04-24 23:19 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13425652024727272,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
   {
-    "title": "Alexander Zverev joins Boris Becker as the ONLY German men to win the US Open! 🤝\n\n@AlexZverev #USOpen",
+    "title": "Alcaraz didn't win, but he still make a statement. How did you like Alcaraz's look this US Open?\n\nPresented by @SIASport\n\n#alcaraz #USOpen #tennis",
     "description": "",
-    "link": "https://nitter.xitter.cc/TennisTV/status/2099261327877308632#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-09-14 01:17 EEST",
-    "is_retweet": true,
+    "link": "https://nitter.xitter.cc/theslicetennis/status/2099494620602286223#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-09-14 16:44 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1860918711230649,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
   {
-    "title": "Win or lose, there’s always something to take with you 🎁",
+    "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
     "description": "",
-    "link": "https://nitter.xitter.cc/usopen/status/2099259689607315874#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-09-14 01:11 EEST",
-    "is_retweet": true,
+    "link": "https://nitter.xitter.cc/theslicetennis/status/2094654232460771681#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-09-01 08:11 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050524168365848096,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
   {
-    "title": "Two-time Grand Slam champion 🏆🏆\n\nAfter falling short in the 2020 final, Zverev finally gets his New York moment.",
+    "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
     "description": "",
-    "link": "https://nitter.xitter.cc/usopen/status/2099254951247561043#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-09-14 00:52 EEST",
-    "is_retweet": true,
+    "link": "https://nitter.xitter.cc/theslicetennis/status/2094288856296145080#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-31 07:59 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04425258138434783,
+      "score": 0.10530321311829208,
+      "detections": []
+    }
+  },
+  {
+    "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
+    "description": "",
+    "link": "https://nitter.xitter.cc/theslicetennis/status/2090301130009915703#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-20 07:53 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -331,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -347,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -363,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -379,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -395,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053163022829473876,
+      "score": 0.05572261542285587,
       "detections": []
     }
   },
   {
-    "title": "Andre Agassi with some fantastic words for Carlos Alcaraz.",
+    "title": "Quite a set between Shapovalov and Hurkacz.",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2104249562378719306#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2104548819937661008#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-27 19:39 EEST",
+    "date": "2026-09-28 15:28 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08009330472579383,
+      "score": 0.03473653135094095,
       "detections": []
     }
   },
   {
-    "title": "Fritz had two match points to give team World a 7-3 lead after match seven. \n\nAlcaraz came back to win that one and Europe didn’t lose another set.",
+    "title": "Gonçalo Marques into the main draw in Porto. \n\nHit 11 aces in a match with 0 break points.",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2104228814611955765#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2104541821494075466#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-27 18:16 EEST",
+    "date": "2026-09-28 15:00 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050473564564451644,
+      "score": 0.044264842494355625,
       "detections": []
     }
   },
   {
-    "title": "EUROPE 10-5 WORLD\n\nFlavio Cobolli and Jakub Mensik defeat Taylor Fritz and Alex De Minaur 7-5, 6-3 and Europe is ONE WIN AWAY from winning the Laver Cup in London.\n\nZverev vs. Tien next.",
+    "title": "Andrey Rublev plays very well to beat Kyrian Jacquet 7-6(0), 6-1 and reach the final in the Hangzhou ATP 250.\n\n400TH WIN OF HIS CAREER -- 9th active player to reach that mark (Nishikori, Wawrinka, Monfils all retiring in 2026)\n\n31st career tour-level final\n2nd in 2026 (Bastad W)",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2104194703788839048#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2104527381059055628#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-27 16:01 EEST",
+    "date": "2026-09-28 14:03 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.22554764477565045,
+      "score": 0.10127594629240487,
       "detections": []
     }
   },
   {
-    "title": "World Champions.\n\n@BJKCup",
+    "title": "3rd final in 2026, looks for 2nd title **",
     "description": "",
-    "link": "https://nitter.xitter.cc/josemorgado/status/2104194287680245782#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2104535942111621415#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-27 15:59 EEST",
+    "date": "2026-09-28 14:37 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2336548711662711,
+      "score": 0.06799923466450819,
       "detections": []
     }
   },
   {
-    "title": "Top seed Maria Timofeeva defeats qualifier Reese Brantmeier 7-6(8), 6-2 to record her 17th straight win on Portuguese soil and win the Eupago Porto Open WTA 125.\n\nShe will make her top 70 debut tomorrow, while up in the air on the way to play Beijing's WTA 1000.",
+    "title": "Alejandro Davidovich Fokina comes back to beat Nikoloz Basilashvili 4-6, 6-4, 6-3 and reach his 7th career final in Chengdu.\n\nGreat comeback week from Foki after not playing for 2.5 months.",
     "description": "",
-    "link": "https://nitter.xitter.cc/gasparlanca/status/2104180708231229940#m",
+    "link": "https://nitter.xitter.cc/josemorgado/status/2104529322543644716#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-27 15:05 EEST",
-    "is_retweet": true,
+    "date": "2026-09-28 14:11 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07718791071770008,
+      "score": 0.04009877551230713,
       "detections": []
     }
   },
@@ -491,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.20102749836103906,
+      "score": 0.17213374984813587,
       "detections": []
     }
   },
@@ -507,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06068615778743509,
+      "score": 0.0532889919039208,
       "detections": []
     }
   },
@@ -523,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037753810261477984,
+      "score": 0.03568477800525586,
       "detections": []
     }
   },
@@ -539,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.6329700976010668,
+      "score": 0.6014769974527829,
       "detections": []
     }
   },
@@ -555,407 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11139985229920371,
-      "detections": []
-    }
-  },
-  {
-    "title": "Pre-China tuneup 💪",
-    "description": "",
-    "link": "https://nitter.freedit.eu/DjokerNole/status/2103216762145689606#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-09-24 23:15 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10773238116760428,
-      "detections": []
-    }
-  },
-  {
-    "title": "Forever grateful, New York 🗽",
-    "description": "",
-    "link": "https://nitter.freedit.eu/DjokerNole/status/2094467061267279970#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-31 19:47 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03524345551530229,
-      "detections": []
-    }
-  },
-  {
-    "title": "Travelling on one of our US routes? You can now enjoy SILA Hydration on board by @DjokerNole . \n\nStay hydrated throughout your journey with every sip. piped.video/watch?v=eK-w0IzV…",
-    "description": "",
-    "link": "https://nitter.freedit.eu/qatarairways/status/2091912142329147567#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-24 18:34 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08187934787780865,
-      "detections": []
-    }
-  },
-  {
-    "title": "24 Grand Slams. 24 years of greatness. Novak Djokovic: The Wolf in Winter is streaming in 24 hours.",
-    "description": "",
-    "link": "https://nitter.freedit.eu/PrimeVideo/status/2090091618325922024#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-19 18:00 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03487727700395046,
-      "detections": []
-    }
-  },
-  {
-    "title": "‘One of the most remarkable finals'\n\n@DjokerNole reflecting on his last @CincyTennis final - an incredible match against fellow Laureus Award winner, Carlos Alcaraz in 2023 🤝\n\n#CincyTennis | @atptour | @TennisTV",
-    "description": "",
-    "link": "https://nitter.freedit.eu/LaureusSport/status/2086784634096898256#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-10 15:00 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0732220866181704,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
-    "description": "",
-    "link": "https://nitter.freedit.eu/operskapevacica/status/2090571789659214069#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 01:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04011619627844751,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
-    "description": "",
-    "link": "https://nitter.freedit.eu/jelenadjokovic/status/2090716683384103269#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 11:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.5250368602383791,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
-    "description": "",
-    "link": "https://nitter.freedit.eu/NBA/status/2078598248726438111#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-07-19 00:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.057143928695953146,
-      "detections": []
-    }
-  },
-  {
-    "title": "🥹🥹🥹🥹🥹",
-    "description": "",
-    "link": "https://nitter.freedit.eu/jelenadjokovic/status/2017249310388142394#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-01-30 16:51 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2923701160106168,
-      "detections": []
-    }
-  },
-  {
-    "title": "🤣🤣🤣🙌🏼",
-    "description": "",
-    "link": "https://nitter.freedit.eu/jelenadjokovic/status/1987834454463652061#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2025-11-10 12:47 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2923701160106168,
-      "detections": []
-    }
-  },
-  {
-    "title": "RF - who else? Or maybe (beware oxymoron) a well-behaved John McEnroe.",
-    "description": "",
-    "link": "https://nitter.freedit.eu/tomtebbutt/status/2103611651853586511#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-26 01:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0693728910163647,
-      "detections": []
-    }
-  },
-  {
-    "title": "how does X (twitter) allow this con nonsense onto the site - totally irresponsible and inexcusable.\nIt makes X complicit with the scam.",
-    "description": "",
-    "link": "https://nitter.freedit.eu/tomtebbutt/status/2102465748547391766#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-22 21:31 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.29037143630238793,
-      "detections": []
-    }
-  },
-  {
-    "title": "Maybe the most spectacular - but no one compares with the magic of J. McEnroe.",
-    "description": "",
-    "link": "https://nitter.freedit.eu/tomtebbutt/status/2101691516573954274#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-20 18:14 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.034363356251476566,
-      "detections": []
-    }
-  },
-  {
-    "title": "Asking the question is proof of ignorance and arrogance. Don't you understand people in France, Italy Japan, Australia etc. are deeply patriotic and wouldn't change to be American. In Canada, we don't have the 2nd amendment, we have choice for women and universal healthcare. Amen",
-    "description": "",
-    "link": "https://nitter.freedit.eu/tomtebbutt/status/2100817577442201602#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-18 08:21 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09663018380706817,
-      "detections": []
-    }
-  },
-  {
-    "title": "No words required.\nAlso, it seems no one acknowledges the credible journalistic reporting done by Ben Rothenberg at the time. As with writing about politicians, you can either agree or disagree with the work. Some choose to do so, some do not.",
-    "description": "",
-    "link": "https://nitter.freedit.eu/tomtebbutt/status/2100386424050577515#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-17 03:48 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07675680186219397,
-      "detections": []
-    }
-  },
-  {
-    "title": "Czechia Claims 12th Billie Jean King Cup Title, Sweeping Ukraine in Shenzhen worldtennismagazine.com/czec…",
-    "description": "",
-    "link": "https://nitter.freedit.eu/WorldTennisMag/status/2104215913453265236#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 17:25 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08720044621528214,
-      "detections": []
-    }
-  },
-  {
-    "title": "I'd like to see DAVIS CUP return to best-of-five set matches - with a 10-point match tiebreaker for a fifth-set - and have the ties be played over THREE DAYS (and all the to the final, home-and-away, like before)",
-    "description": "",
-    "link": "https://nitter.freedit.eu/TennisPublisher/status/2104216867132870889#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 17:29 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06985715534428531,
-      "detections": []
-    }
-  },
-  {
-    "title": "Rafael Nadal And Carlos Alcaraz Culture, Methods, Training Featured In New Book \"The Secrets of Spanish Tennis 2.0\" worldtennismagazine.com/rafa…",
-    "description": "",
-    "link": "https://nitter.freedit.eu/TennisPublisher/status/2104200434407903623#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 16:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06815908402987751,
-      "detections": []
-    }
-  },
-  {
-    "title": "These kind of stories - about players winning gold balls - need more attention and publicity… almost every week of the year someone wins a USTA national championship",
-    "description": "",
-    "link": "https://nitter.freedit.eu/TennisPublisher/status/2104189465111703840#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 15:40 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06053856560980595,
-      "detections": []
-    }
-  },
-  {
-    "title": "City of Newport Beach Awarded USTA Southern California  Tennis Towns Honor tennisgrandstand.com/city-of… via @TennisGS",
-    "description": "",
-    "link": "https://nitter.freedit.eu/TennisPublisher/status/2103972301574402537#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 01:17 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07009098560385253,
-      "detections": []
-    }
-  },
-  {
-    "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
-    "description": "",
-    "link": "https://nitter.freedit.eu/theslicetennis/status/2047772450298228828#m",
-    "handle": "theslicetennis",
-    "author": "The Slice Tennis",
-    "outlet": "The Slice",
-    "date": "2026-04-24 23:19 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04662039750201252,
-      "detections": []
-    }
-  },
-  {
-    "title": "Alcaraz didn't win, but he still make a statement. How did you like Alcaraz's look this US Open?\n\nPresented by @SIASport\n\n#alcaraz #USOpen #tennis",
-    "description": "",
-    "link": "https://nitter.freedit.eu/theslicetennis/status/2099494620602286223#m",
-    "handle": "theslicetennis",
-    "author": "The Slice Tennis",
-    "outlet": "The Slice",
-    "date": "2026-09-14 16:44 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.12847031732239908,
-      "detections": []
-    }
-  },
-  {
-    "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
-    "description": "",
-    "link": "https://nitter.freedit.eu/theslicetennis/status/2094654232460771681#m",
-    "handle": "theslicetennis",
-    "author": "The Slice Tennis",
-    "outlet": "The Slice",
-    "date": "2026-09-01 08:11 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09305625184728848,
-      "detections": []
-    }
-  },
-  {
-    "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
-    "description": "",
-    "link": "https://nitter.freedit.eu/theslicetennis/status/2094288856296145080#m",
-    "handle": "theslicetennis",
-    "author": "The Slice Tennis",
-    "outlet": "The Slice",
-    "date": "2026-08-31 07:59 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10802246388680846,
-      "detections": []
-    }
-  },
-  {
-    "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
-    "description": "",
-    "link": "https://nitter.freedit.eu/theslicetennis/status/2090301130009915703#m",
-    "handle": "theslicetennis",
-    "author": "The Slice Tennis",
-    "outlet": "The Slice",
-    "date": "2026-08-20 07:53 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.11411192137790674,
       "detections": []
     }
   }
