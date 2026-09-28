@@ -30,18 +30,18 @@ jobs:
         uses: actions/cache@v4
         with:
           path: backend/camoufox_build
-          key: camoufox-cg-v152.0.4-beta.31-cg.5-v1
+          key: camoufox-cg-v152.0.4-beta.31-cg.6-v1
 
       - name: Download camoufox browser
         if: steps.cache-camoufox.outputs.cache-hit != 'true'
         run: |
           cd backend
-          curl -fL -o camoufox.zip "https://github.com/coffeegrind123/camoufox-beta/releases/download/v152.0.4-beta.31-cg.5/camoufox-152.0.4-beta.31-lin.x86_64.zip"
-          echo "e514060c20142ecdff8dca61c9464f48fd7633103d49b3899022c983962cecd8  camoufox.zip" | sha256sum -c -
+          curl -fL -o camoufox.zip "https://github.com/coffeegrind123/camoufox-beta/releases/download/v152.0.4-beta.31-cg.6/camoufox-152.0.4-beta.31-lin.x86_64.zip"
+          echo "49a56499049f2d602e014253a36cbe1c4ed25dcf5e3d0cf81d5d68c62b02c987  camoufox.zip" | sha256sum -c -
           unzip -q camoufox.zip -d camoufox_build
           rm camoufox.zip
           chmod +x camoufox_build/camoufox-bin
-          # cg.5 ships version.json; setup_camoufox.py still synthesises it from
+          # cg.6 ships version.json; setup_camoufox.py still synthesises it from
           # application.ini for builds that do not. Assert on what the archive contains.
           test -f camoufox_build/version.json || echo "no version.json in archive (setup_camoufox.py will synthesise it)"
           test -x camoufox_build/camoufox-bin || { echo "no camoufox-bin in archive"; exit 1; }
