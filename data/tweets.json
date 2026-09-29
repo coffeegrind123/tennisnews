@@ -1,5 +1,21 @@
 [
   {
+    "title": "I was a guest on Talking Tennis ATP Weekly with @simonsaystennis \nEven though Brenner & I disagree on whether Laver Cup should be called an exhibition, we do agree on some Ryder Cup parallels. Plus: Medvedev & Asia previews.\n\nyoutube.com/live/-QdBDnqxorU…",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2104727750447714520#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-09-29 03:19 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048215914230430895,
+      "detections": []
+    }
+  },
+  {
     "title": "After the U.S. Open I always think I need a break from watching tennis, but @LaverCup is just perfect for drawing me back in. It’s fresh, visually different & you can’t beat the mic’d interstitials for info/entertainment. Enjoying the ever living heck out of this Alcaraz Fritz 👀",
     "description": "",
     "link": "https://lightbrd.com/AmyLundyDahl/status/2103923678454943758#m",
@@ -60,22 +76,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03934493337678101,
-      "detections": []
-    }
-  },
-  {
-    "title": "I think the doubles peeps will say Prozorova had a tiny dip in focus unfortunately. Not facing her threat, stopped moving and didn’t back up. She took a little nap, which happens to everyone. Unlucky. Seems like WTA followed good concussion protocol.",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2103555500122009791#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-09-25 21:41 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03775273928387777,
       "detections": []
     }
   },
@@ -784,98 +784,98 @@
     }
   },
   {
-    "title": "The last time the same two women set up a 3rd Grand Slam final meeting was in 2018, when Kerber played Serena in the Wimbledon final.\n\nTheir 3 major finals:\nAO 2016 - Kerber won\nWimbledon 2016 - Serena won\nWimbledon 2018 - Kerber won",
+    "title": "Speaking of match-ups, we're guaranteed a Grand Slam final rematch with Sabalenka through to the #USOpen decider.\n\nSABALENKA v RYBAKINA\nAO 2023 F - Sabalenka won\nAO 2026 F - Rybakina won\n\nSABALENKA v GAUFF\nUS 2023 F - Gauff won\nRG 2025 F - Gauff won",
     "description": "",
-    "link": "https://lightbrd.com/MattyAT/status/2098229786724434003#m",
+    "link": "https://lightbrd.com/MattyAT/status/2098216555628917173#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
-    "date": "2026-09-11 04:58 EEST",
+    "date": "2026-09-11 04:06 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039732775306344684,
+      "score": 0.053163022829473876,
       "detections": []
     }
   },
   {
-    "title": "Zverev - Serve \nAlcaraz - Everything else",
+    "title": "Francisco Cabral wins a 7th ATP title in Hangzhou.\n\n2nd in 2026\n2nd (and back to back) in Hangzhou\n1st with JJ Tracy\n\nNow won titles with four different partners:\nMiedler, 4\nBorges, 1\nBrkic, 1 \nTracy, 1\n\nImportant week.\n\nbolamarela.pt/campeao-franci…",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104628312072958417#m",
+    "link": "https://lightbrd.com/josemorgado/status/2104881597057302593#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 20:44 EEST",
+    "date": "2026-09-29 13:30 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.29346386132034485,
+      "score": 0.046100676609942534,
       "detections": []
     }
   },
   {
-    "title": "Casper Ruud... again with something special!!😅😅",
+    "title": "That would be the rematch of the Cincy final, of course...",
     "description": "",
-    "link": "https://lightbrd.com/TennisTalksPT/status/2104569833488888128#m",
+    "link": "https://lightbrd.com/josemorgado/status/2104860340701831178#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 16:52 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10522857902936329,
-      "detections": []
-    }
-  },
-  {
-    "title": "Former top 10 Hubert Hurkacz improves to 6-1 vs. Denis Shapovalov, defeats the Canadian 6-7(8), 6-3, 6-3 to reach his 13th ATP final in Chengdu. \n\n1st final since may 2025.\n\nHe will face Alejandro Davidovich Fokina tomorrow.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104570627369631925#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 16:55 EEST",
+    "date": "2026-09-29 12:06 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06655978090552973,
+      "score": 0.045966078726978006,
       "detections": []
     }
   },
   {
-    "title": "Davis Cup Group I Playoffs in 2027.\n\nPortugal will play an home time for the first time since 2022. \n\nA couple of interesting ties.",
+    "title": "Thursday gonna be brutal in Tokyo:\n\nAlcaraz vs. Michelsen\nTiafoe vs. Nishikori\nFritz vs. Munar\nMusetti vs. Fery\nRune vs. Jacquet\nRuud vs. Darderi\nNakashima vs. Humbert\nBerrettini vs. Davidovich\nJódar vs. Vallejo\n\nOnly four matches will make Centre Court.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104566108464280040#m",
+    "link": "https://lightbrd.com/josemorgado/status/2104858525893804057#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 16:37 EEST",
+    "date": "2026-09-29 11:59 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08024462178445022,
+      "score": 0.35672014664701956,
       "detections": []
     }
   },
   {
-    "title": "Hangzhou final is the best possible:\n\n[1] Daniil Medvedev vs. [2] Andrey Rublev\n\nDaniil leads the h2h 8-2 (7-2 tour-level)",
+    "title": "Nishikori's draw in the last tournament of his life:\n\nR1: #8 Tiafoe\nR2: #9 Fils\n\nBrutal.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104562887612064246#m",
+    "link": "https://lightbrd.com/josemorgado/status/2104857647753150507#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-28 16:24 EEST",
+    "date": "2026-09-29 11:55 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09212294008832282,
+      "score": 0.061219637150118446,
+      "detections": []
+    }
+  },
+  {
+    "title": "Jaime is the first on the LL list if someone withdraws.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2104855330077511718#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-09-29 11:46 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04220465678955824,
       "detections": []
     }
   },
