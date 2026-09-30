@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.048215914230430895,
+      "score": 0.043450012429532475,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11185250166628066,
+      "score": 0.10287260256528825,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.26420224949949866,
+      "score": 0.19566071600396057,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05092232537862611,
+      "score": 0.04459112603066621,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03934493337678101,
+      "score": 0.034093364122311356,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03953616686644204,
+      "score": 0.03906200329868245,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03930261245713003,
+      "score": 0.034811296078339035,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23869957607456987,
+      "score": 0.1889380908082934,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1658154282228027,
+      "score": 0.094843066620901,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13002913223952536,
+      "score": 0.09379724533605463,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.056572341709988636,
+      "score": 0.058476682463969094,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10773238116760428,
+      "score": 0.10070797934282841,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03524345551530229,
+      "score": 0.031024718045035097,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10789074296781702,
+      "score": 0.08436050844749349,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03487727700395046,
+      "score": 0.031630623639772586,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0693728910163647,
+      "score": 0.05983814628310663,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.29037143630238793,
+      "score": 0.3354215132270213,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.034363356251476566,
+      "score": 0.030314635469110694,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09663018380706817,
+      "score": 0.0914784908556414,
       "detections": []
     }
   },
@@ -395,7 +395,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07675680186219397,
+      "score": 0.07485501503156801,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ronald Acuna, Jr. gets hit by a pitch in the Atlanta Braves vs. Philadelphia Phillies MLB Playoff Game and the NBC commentator describes his reaction as being \"punctuated with a Monica Seles grunt\"",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2105022254341873960#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-29 22:49 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03374157471762652,
       "detections": []
     }
   },
@@ -411,7 +427,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08201227067928554,
+      "score": 0.08963135342802488,
       "detections": []
     }
   },
@@ -427,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05868925996155365,
+      "score": 0.04791832372930495,
       "detections": []
     }
   },
@@ -443,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08720044621528214,
+      "score": 0.07478400117568633,
       "detections": []
     }
   },
@@ -459,23 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06985715534428531,
-      "detections": []
-    }
-  },
-  {
-    "title": "Rafael Nadal And Carlos Alcaraz Culture, Methods, Training Featured In New Book \"The Secrets of Spanish Tennis 2.0\" worldtennismagazine.com/rafa…",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2104200434407903623#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 16:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06815908402987751,
+      "score": 0.06407702760866035,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16423754403377674,
+      "score": 0.21552331795558757,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.18542763606867788,
+      "score": 0.13774816000000634,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047678298952873364,
+      "score": 0.04569262043166923,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05405068954804942,
+      "score": 0.05519535942840571,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.044585124764483564,
+      "score": 0.04379204316842454,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07002765393274875,
+      "score": 0.06661667004554851,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04062280610669971,
+      "score": 0.0366769718845678,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06352579454348616,
+      "score": 0.06143603600171739,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13999871246288328,
+      "score": 0.11262112746913137,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039732775306344684,
+      "score": 0.038471704956394716,
       "detections": []
     }
   },
   {
-    "title": "Beijing on Wednesday.\n\nFull schedule with 5 ATP R1 matches and 16 WTA R1 matches.",
+    "title": "Good comeback from the Roland Garros semifinalist.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104982759085339110#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105261062316806532#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-29 20:12 EEST",
+    "date": "2026-09-30 14:38 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06134850893892489,
+      "score": 0.04295480099844797,
       "detections": []
     }
   },
   {
-    "title": "Karolina Pliskova will miss the rest of the season.",
+    "title": "Novak Djokovic’s new outfit for the @ChinaOpen. Looks great.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104972215104020969#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105257781549048263#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-29 19:30 EEST",
+    "date": "2026-09-30 14:25 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040580185540732235,
+      "score": 0.03429300512762978,
       "detections": []
     }
   },
   {
-    "title": "MOST HARDCOURT TITLES (OPEN ERA)\n\nDjokovic, 72\nFederer, 71\nAgassi, 46\nConnors, 43\nSampras, 36\nMurray, 34\nLendl, 31\nLaver, 25\nNadal, 25\nSinner, 23\nChang, 22\nEdberg, 22\nMcEnroe, 22\nMEDVEDEV, 22\nRoddick, 21",
+    "title": "Novak Djokovic\n\nNuno Borges\n\nUp next in Beijing.\n\n@sporttvportugal 1",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104929021628686509#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105252738535666080#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-29 16:39 EEST",
+    "date": "2026-09-30 14:05 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10709087278703963,
+      "score": 0.14827195361037115,
       "detections": []
     }
   },
   {
-    "title": "Carlos Alcaraz already practicing in Tokyo.\n\nIndoors, as it's expected to rain all week there.",
+    "title": "Thursday full OOP in Beijing with the conclusion of the R1 in both draws except... Medvedev (vs. Carreño), who got an extra day.\n\nRublev (who played the Hanghzou final vs. Medvedev) has to play tomorrow, though...",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104927775706812619#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105249345276690810#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-29 16:34 EEST",
+    "date": "2026-09-30 13:52 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04443103350669605,
+      "score": 0.04506363932543717,
       "detections": []
     }
   },
   {
-    "title": "Medvedev apologizing Rublev for the way he served today. 😂",
+    "title": "Delighting the home fans 🇨🇳\n\nFormer semi-finalist Bu outlasts Cerundolo 6-2 5-7 6-4!\n\n#ChinaOpen",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2104927525860216977#m",
+    "link": "https://lightbrd.com/TennisTV/status/2105234251184525406#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-29 16:33 EEST",
-    "is_retweet": false,
+    "date": "2026-09-30 12:52 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05466734311774752,
+      "score": 0.04399125995142967,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.20102749836103906,
+      "score": 0.17213374984813587,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06068615778743509,
+      "score": 0.0532889919039208,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037753810261477984,
+      "score": 0.03568477800525586,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.6329700976010668,
+      "score": 0.6014769974527829,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11139985229920371,
+      "score": 0.11411192137790674,
       "detections": []
     }
   }
