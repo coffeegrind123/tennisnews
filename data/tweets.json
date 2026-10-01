@@ -1,5 +1,53 @@
 [
   {
+    "title": "Yes 💯 \nThe secret: media is just like everyone else— they (we) don’t like to work late.\nAnd with diminishing ranks, journalists are having to work harder/longer.\nMost credentialed journalists are like zombies by the end of a Slam.\nBut that’s not a reason to change a sport.",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2105601019073724703#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-01 13:09 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.041295510043659424,
+      "detections": []
+    }
+  },
+  {
+    "title": "Touching and revealing to read Emma Navarro today as she provides details on what she has been experiencing and suffering from for the last three years.\n\nThe whole post is here:\n\ninstagram.com/p/Dd6ujadHPdz/…",
+    "description": "",
+    "link": "https://lightbrd.com/christophclarey/status/2105419556541923791#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-01 01:08 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08853095162804757,
+      "detections": []
+    }
+  },
+  {
+    "title": "Thirty love 😉\n\n@DjokerNole #ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/TennisTV/status/2105282339983200714#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-09-30 16:03 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07836232803243605,
+      "detections": []
+    }
+  },
+  {
     "title": "I was a guest on Talking Tennis ATP Weekly with @simonsaystennis \nEven though Brenner & I disagree on whether Laver Cup should be called an exhibition, we do agree on some Ryder Cup parallels. Plus: Medvedev & Asia previews.\n\nyoutube.com/live/-QdBDnqxorU…",
     "description": "",
     "link": "https://lightbrd.com/AmyLundyDahl/status/2104727750447714520#m",
@@ -28,54 +76,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.10287260256528825,
-      "detections": []
-    }
-  },
-  {
-    "title": "When Fritz is just so freakin opinionated \nBut not wrong 😆",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2103624403850518858#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-09-26 02:15 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.19566071600396057,
-      "detections": []
-    }
-  },
-  {
-    "title": "Big congratulations to Alexei Popyrin and wife Amy after tying the knot 💒❤️",
-    "description": "",
-    "link": "https://lightbrd.com/TheFirstServeAU/status/2103393876853788735#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-09-25 10:59 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04459112603066621,
-      "detections": []
-    }
-  },
-  {
-    "title": "On the Prozorova thing:\nI think about what other sports are doing.\nNFL has independent medical advisers who make the call if the player sits.\nIt’s not up to the player.\nAnd god knows the NFL knows something about concussion protocol.",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2103563333454495876#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-09-25 22:12 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.034093364122311356,
       "detections": []
     }
   },
@@ -160,6 +160,38 @@
     }
   },
   {
+    "title": "That Beijing feeling 🇨🇳",
+    "description": "",
+    "link": "https://lightbrd.com/DjokerNole/status/2105378400370122899#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-09-30 22:25 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04072700964128251,
+      "detections": []
+    }
+  },
+  {
+    "title": "Thirty love 😉\n\n@DjokerNole #ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/TennisTV/status/2105282339983200714#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-09-30 16:03 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07836232803243605,
+      "detections": []
+    }
+  },
+  {
     "title": "Back like he never left 👏\n\nNovak Djokovic wins a 30th match at the #ChinaOpen after 11 years since playing the event 🇨🇳",
     "description": "",
     "link": "https://lightbrd.com/atptour/status/2105282243291672614#m",
@@ -204,38 +236,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.10070797934282841,
-      "detections": []
-    }
-  },
-  {
-    "title": "Forever grateful, New York 🗽",
-    "description": "",
-    "link": "https://lightbrd.com/DjokerNole/status/2094467061267279970#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-31 19:47 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.031024718045035097,
-      "detections": []
-    }
-  },
-  {
-    "title": "Travelling on one of our US routes? You can now enjoy SILA Hydration on board by @DjokerNole . \n\nStay hydrated throughout your journey with every sip. youtube.com/watch?v=eK-w0IzV…",
-    "description": "",
-    "link": "https://lightbrd.com/qatarairways/status/2091912142329147567#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-08-24 18:34 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08436050844749349,
       "detections": []
     }
   },
@@ -400,6 +400,70 @@
     }
   },
   {
+    "title": "How many U.S. states have visited? Here's how got to state No. 46 recently... What Am I Doing In Hamburg, Iowa?!? youtu.be/w6myWieA-UY?si=WYBN… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2105482199038586954#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-01 05:17 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.16275594310798258,
+      "detections": []
+    }
+  },
+  {
+    "title": "“Tennis Smart & Simple,\" The Innovative New Tennis Instruction Book By Former Australian Open Quarterfinalist And Media Personality Sophie Amiach, Is Now Available For Sale worldtennismagazine.com/tenn…",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2105444776099356885#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-01 02:48 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04703266811749912,
+      "detections": []
+    }
+  },
+  {
+    "title": "\"Charlie Pasarell: Serving First: Dreams Realized and Lessons Learned from Family, Friends and a Life in Tennis\" is for sale and download here a.co/d/07ZgTjOa #Amazon via @Amazon",
+    "description": "",
+    "link": "https://lightbrd.com/WorldTennisMag/status/2105286679573471525#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-09-30 16:20 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.042998330118652825,
+      "detections": []
+    }
+  },
+  {
+    "title": "Charlie Pasarell on his \"Serving First\" book, Tennis Legends & a Lifetime in the Game WATCH: youtu.be/kH9kyXuKCWM?si=hIK9… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2105429221518795000#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-01 01:46 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04418839947536988,
+      "detections": []
+    }
+  },
+  {
     "title": "Ronald Acuna, Jr. gets hit by a pitch in the Atlanta Braves vs. Philadelphia Phillies MLB Playoff Game and the NBC commentator describes his reaction as being \"punctuated with a Monica Seles grunt\"",
     "description": "",
     "link": "https://lightbrd.com/TennisPublisher/status/2105022254341873960#m",
@@ -412,70 +476,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03374157471762652,
-      "detections": []
-    }
-  },
-  {
-    "title": "Manhattan As You Have Never Seen It! (Probably) youtu.be/lSRNB7v_dQE?si=3uIB… via @YouTube",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2104583723446313142#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-28 17:47 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08963135342802488,
-      "detections": []
-    }
-  },
-  {
-    "title": "Watching the Detroit Lions and the New York Jets on TV and hearing the comparisons between Jaymyr Gibbs and Barry Sanders, whose statue I visited at Oklahoma State exactly a week ago\nyoutu.be/8DkLdcRe44U?is=WC1Z… via @YouTube",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2104280901660381332#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 21:43 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04791832372930495,
-      "detections": []
-    }
-  },
-  {
-    "title": "Czechia Claims 12th Billie Jean King Cup Title, Sweeping Ukraine in Shenzhen worldtennismagazine.com/czec…",
-    "description": "",
-    "link": "https://lightbrd.com/WorldTennisMag/status/2104215913453265236#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 17:25 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07478400117568633,
-      "detections": []
-    }
-  },
-  {
-    "title": "I'd like to see DAVIS CUP return to best-of-five set matches - with a 10-point match tiebreaker for a fifth-set - and have the ties be played over THREE DAYS (and all the to the final, home-and-away, like before)",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2104216867132870889#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-27 17:29 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06407702760866035,
       "detections": []
     }
   },
@@ -784,98 +784,98 @@
     }
   },
   {
-    "title": "Speaking of match-ups, we're guaranteed a Grand Slam final rematch with Sabalenka through to the #USOpen decider.\n\nSABALENKA v RYBAKINA\nAO 2023 F - Sabalenka won\nAO 2026 F - Rybakina won\n\nSABALENKA v GAUFF\nUS 2023 F - Gauff won\nRG 2025 F - Gauff won",
+    "title": "The last time the same two women set up a 3rd Grand Slam final meeting was in 2018, when Kerber played Serena in the Wimbledon final.\n\nTheir 3 major finals:\nAO 2016 - Kerber won\nWimbledon 2016 - Serena won\nWimbledon 2018 - Kerber won",
     "description": "",
-    "link": "https://lightbrd.com/MattyAT/status/2098216555628917173#m",
+    "link": "https://lightbrd.com/MattyAT/status/2098229786724434003#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
-    "date": "2026-09-11 04:06 EEST",
+    "date": "2026-09-11 04:58 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05572261542285587,
+      "score": 0.038471704956394716,
       "detections": []
     }
   },
   {
-    "title": "That’s an incredible win for Tiago Pereira in Porto.",
+    "title": "Alcaraz lost just 10 points in the decider after two BRUTAL first sets...",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2105309314994823532#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105602707549806773#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-30 17:50 EEST",
+    "date": "2026-10-01 13:16 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04472675560081613,
+      "score": 0.03946732776952019,
       "detections": []
     }
   },
   {
-    "title": "Djokovic.\n\n\"Played a great tiebreak. Very happy for that. He served and played much better in the 2nd set\".\n\n\"This crowd have great love for me. There is a reason why I love to play in China. I didn't expect a packed crowd for me in the first round here\".",
+    "title": "Top seed and defending champ Carlos Alcaraz gets tested but beats fellow US Open 2026 quarterfinalist Alex Michelsen 7-6(1), 4-6, 6-1 and reaches the 2nd round in Tokyo.\n\nSaved 3 SPs in set 1, was 4-2 up in set 2\n\n6 consecutive wins in Tokyo.\n\nFaces Matteo Arnaldi on Saturday.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2105286051485090217#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105602602478252319#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-30 16:18 EEST",
+    "date": "2026-10-01 13:15 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03836598878185932,
+      "score": 0.1566270653781517,
       "detections": []
     }
   },
   {
-    "title": "30 - Novak Djokovic (30-0 at China Open) has claimed the most wins of any undefeated player at a single ATP-level event, since the inaugural ATP Tour season in 1990. Unblemished.\n\n#ChinaOpen | @ChinaOpen @atptour",
+    "title": "All Chinese women's singles final in the Asian Games: Wang Xiyu vs. Zhang Shuai\n\nEala and Putintseva both get Bronze.",
     "description": "",
-    "link": "https://lightbrd.com/OptaAce/status/2105283528170803510#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105602450967220609#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-30 16:08 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.207042253649337,
-      "detections": []
-    }
-  },
-  {
-    "title": "Djokovic in Beijing.\n\nUnbelievable stuff.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2105283624895697394#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-30 16:08 EEST",
+    "date": "2026-10-01 13:15 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.045282872059485425,
+      "score": 0.049455038693282494,
       "detections": []
     }
   },
   {
-    "title": "Djokovic vs. Portuguese players.\n\nJust one set lost (Faria at the 2025 AusOpen).",
+    "title": "Points won in the 3rd set:\n\nAlcaraz - 20\nMichelsen - 4",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2105283318468301085#m",
+    "link": "https://lightbrd.com/josemorgado/status/2105600595835191474#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-09-30 16:07 EEST",
+    "date": "2026-10-01 13:07 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04403856474994694,
+      "score": 0.04426209706335726,
+      "detections": []
+    }
+  },
+  {
+    "title": "World #2 (Race #1) Alexander Zverev starts his Beijing campaign with a solid 7-6(1), 6-4 win over Cam Norrie.\n\nh2h is now 9-0 for Sascha. \n\nHe really wants that world #1.\n\nAwaits Shang or Baez next.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2105596775977410831#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-01 12:52 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06584068311582827,
       "detections": []
     }
   },
