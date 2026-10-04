@@ -160,6 +160,38 @@
     }
   },
   {
+    "title": "There’s something about this place.",
+    "description": "",
+    "link": "https://lightbrd.com/DjokerNole/status/2106804765346705490#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-04 20:52 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.037146988476959415,
+      "detections": []
+    }
+  },
+  {
+    "title": "PERFECT IN BEIJING 🔥\n\n@DjokerNole becomes the first man in the Open Era to win his first 32 matches at a single event, moving past Rafa’s 31-0 start at Roland Garros 🤯\n\n@ChinaOpen  | #ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/atptour/status/2106742568541123000#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-04 16:45 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06535456223157476,
+      "detections": []
+    }
+  },
+  {
     "title": "Novak Djokovic roars to a win in 3 dramatic sets to keep his 31 win streak alive and progress to the quarter finals 😲🙌\n\n@ChinaOpen | #ChinaOpen",
     "description": "",
     "link": "https://lightbrd.com/atptour/status/2106048095977107879#m",
@@ -204,38 +236,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09360391888953126,
-      "detections": []
-    }
-  },
-  {
-    "title": "Back like he never left 👏\n\nNovak Djokovic wins a 30th match at the #ChinaOpen after 11 years since playing the event 🇨🇳",
-    "description": "",
-    "link": "https://lightbrd.com/atptour/status/2105282243291672614#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-09-30 16:02 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0673042735132757,
-      "detections": []
-    }
-  },
-  {
-    "title": "Meet @DjokerNole  at the Summer Palace🤩\n\nBack at a familiar place, Djokovic found a little bit of “德” everywhere.\n\nA gourd (hulu) , a folding fan, and a few unforgettable #ChinaOpen moments.",
-    "description": "",
-    "link": "https://lightbrd.com/ChinaOpen/status/2104836367083872425#m",
-    "handle": "djokernole",
-    "author": "Novak Djokovic",
-    "outlet": "Official",
-    "date": "2026-09-29 10:31 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.056572341709988636,
       "detections": []
     }
   },
@@ -800,82 +800,82 @@
     }
   },
   {
-    "title": "What a win for Valentin Vacherot! \n\nCameback from a break down in both sets he won.",
+    "title": "2 - Since 1973, Alexander Zverev (2025-26) is currently one of only two ATP top five players to hold back-to-back losing seasons with 10+ losses vs ATP top 20 opponents, along with Stefan Edberg (1993-94). Ceiling?\n\n#ChinaOpen | @ChinaOpen @atptour",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106678661655269830#m",
+    "link": "https://lightbrd.com/OptaAce/status/2106743730392973741#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-04 12:31 EEST",
-    "is_retweet": false,
+    "date": "2026-10-04 16:50 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03683227731154392,
+      "score": 0.18481032948922463,
       "detections": []
     }
   },
   {
-    "title": "Fils struggling to keep leads today…",
+    "title": "Longest ever undefeated streaks in tennis tournaments (singles):\n\nMonica Seles, 34-0 at the Australian Open\nNovak Djokovic, 32-0 in Beijing\nRafael Nadal, 31-0 at Roland Garros",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106676121224016374#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106743506513629293#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-04 12:21 EEST",
+    "date": "2026-10-04 16:49 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03151498996487959,
+      "score": 0.09294149611652587,
       "detections": []
     }
   },
   {
-    "title": "World #10 Alex De Minaur comes back to beat Andrey Rublev 1-6, 6-2, 6-3 and reach the semifinals in Beijing for the 2nd consecutive year.\n\n35th career semifinal \n4th in 2026\n\nFaces Hurkacz tomorrow.",
+    "title": "Vintage stuff from Djokovic.\n\nCrowd absolutely crazy. \n\n202 tour-level semifinals \n3rd in 2026 after Australian Open and Wimbledon",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106672905421459685#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106743024063844557#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-04 12:08 EEST",
+    "date": "2026-10-04 16:47 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15547490337659275,
+      "score": 0.05991469538755121,
       "detections": []
     }
   },
   {
-    "title": "A partir das 11h... Henrique Rocha na final do Porto Open. Transmissão SPORT TV 6",
+    "title": "WOW!\n\n39 year old Novak Djokovic defeats Roland Garros and US Open champion Alexander Zverev 4-6, 6-4, 6-4 to reach the semifinals in Beijing for the 7th time.\n\nThe 6-time champ is now 32-0 at the event.\n\n267th top 10 win of his career\n4th top 10 win in 2026\n2nd top 2 win in 2026",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106668046521663736#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106742491341091184#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-04 11:49 EEST",
+    "date": "2026-10-04 16:45 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3645711472306231,
+      "score": 0.0820999463126338,
       "detections": []
     }
   },
   {
-    "title": "Estamos em dose tripla neste momento em #TÉNISnaSPORTTV:\n\nSPORT TV 1: Rublev vs. De Minaur\nSPORT TV 2: Fils vs. Vacherot\nSPORT TV 5: Medvedev vs. Cerundolo",
+    "title": "Zverev saves a match point with one of the longest rallies of the match.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106667543809389053#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106741874019197403#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-04 11:47 EEST",
+    "date": "2026-10-04 16:42 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.19014706043180127,
+      "score": 0.0465247049327055,
       "detections": []
     }
   },
