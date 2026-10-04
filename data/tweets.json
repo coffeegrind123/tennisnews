@@ -1,5 +1,37 @@
 [
   {
+    "title": "Sorry meant Season 4",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2106528152268771363#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-04 02:33 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09754543271481757,
+      "detections": []
+    }
+  },
+  {
+    "title": "Catching up on Ted Lasso Season 3 👀 \nAndy Murray quoted",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2106527532249960661#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-04 02:31 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08184487660417974,
+      "detections": []
+    }
+  },
+  {
     "title": "BREAKING: Jannik Sinner is OUT of Shanghai.",
     "description": "",
     "link": "https://lightbrd.com/josemorgado/status/2106304349026517324#m",
@@ -44,38 +76,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04245113937258338,
-      "detections": []
-    }
-  },
-  {
-    "title": "Exclusive: Felix Auger-Aliassime, the world No5, has hired Ivan Ljubicic as his new coach. Ljubicic is currently expected to retain his role as a special advisor at the FFT\n\nthetimes.com/sport/tennis/ar…",
-    "description": "",
-    "link": "https://lightbrd.com/trlkershaw/status/2105687840202035206#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-01 18:54 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.055924553651833374,
-      "detections": []
-    }
-  },
-  {
-    "title": "WTA announcement for 2027:\n\nAll combined WTA 1000s will award equal prize money for the first time.\n\nChanges introduced, like lowering WTA 500 player commitment based on Tour Architecture Council input\n\nIntroduction of targeted Tournament Investment Fund\nthenationalnews.com/sport/te…",
-    "description": "",
-    "link": "https://lightbrd.com/ReemAbulleil/status/2105675671993213428#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-01 18:06 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10869035889177119,
       "detections": []
     }
   },
@@ -800,82 +800,82 @@
     }
   },
   {
-    "title": "Nadal hitting Murray. 🤣",
+    "title": "What a win for Valentin Vacherot! \n\nCameback from a break down in both sets he won.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106428213077459454#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106678661655269830#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-03 19:56 EEST",
+    "date": "2026-10-04 12:31 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0713508909015875,
+      "score": 0.03683227731154392,
       "detections": []
     }
   },
   {
-    "title": "First results of the weekend.",
+    "title": "Fils struggling to keep leads today…",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106418293611667739#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106676121224016374#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-03 19:17 EEST",
+    "date": "2026-10-04 12:21 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047149696751711864,
+      "score": 0.03151498996487959,
       "detections": []
     }
   },
   {
-    "title": "Beijing WTA 1000 R3:\n\n21 of the 32 seeds passed the second round. \n\nRybakina, Potapova and Paolini were the only top 16 seeds to lose.",
+    "title": "World #10 Alex De Minaur comes back to beat Andrey Rublev 1-6, 6-2, 6-3 and reach the semifinals in Beijing for the 2nd consecutive year.\n\n35th career semifinal \n4th in 2026\n\nFaces Hurkacz tomorrow.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106398532571996367#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106672905421459685#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-03 17:58 EEST",
+    "date": "2026-10-04 12:08 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04944016828754665,
+      "score": 0.15547490337659275,
       "detections": []
     }
   },
   {
-    "title": "Wow. \n\nElena Rybakina loses her first match as world number #1! \n\nTo world #118 Charaeva",
+    "title": "A partir das 11h... Henrique Rocha na final do Porto Open. Transmissão SPORT TV 6",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106397860111450201#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106668046521663736#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-03 17:55 EEST",
+    "date": "2026-10-04 11:49 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05398899304648157,
+      "score": 0.3645711472306231,
       "detections": []
     }
   },
   {
-    "title": "This is how Carlos Alcaraz came back from 2-6 down in the tiebreak earlier today…",
+    "title": "Estamos em dose tripla neste momento em #TÉNISnaSPORTTV:\n\nSPORT TV 1: Rublev vs. De Minaur\nSPORT TV 2: Fils vs. Vacherot\nSPORT TV 5: Medvedev vs. Cerundolo",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2106395794483839158#m",
+    "link": "https://lightbrd.com/josemorgado/status/2106667543809389053#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-03 17:47 EEST",
+    "date": "2026-10-04 11:47 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04527671368505527,
+      "score": 0.19014706043180127,
       "detections": []
     }
   },
