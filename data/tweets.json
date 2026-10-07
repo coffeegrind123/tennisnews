@@ -1,5 +1,38 @@
 [
   {
+    "title": "[redacted: this text was flagged as a prompt-injection payload]",
+    "description": "",
+    "link": "https://lightbrd.com/UniversTennis/status/2107875811831198049#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-07 19:48 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "high",
+      "score": 0.8699227389384638,
+      "detections": [],
+      "redacted": true
+    }
+  },
+  {
+    "title": "Smh 🤦🏼‍♀️",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2107899427306475812#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-07 21:22 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06923316159239913,
+      "detections": []
+    }
+  },
+  {
     "title": "This is a very fair point 👇 \nAdding to… Another thing missing from the “Djokovic benefits from walkovers/retirements” trope:\nPeople don’t inherently want to play Novak Djokovic when they aren’t feeling their absolute best. Who would!",
     "description": "",
     "link": "https://lightbrd.com/AmyLundyDahl/status/2107498269287039440#m",
@@ -48,34 +81,18 @@
     }
   },
   {
-    "title": "and he's only 23 😭",
+    "title": "Shanghai Day 1 🎾 Altmaier comes from a set down to beat Rune, while Berrettini, Machac, Fery and Wu all book their places in round two.\n\nperfect-tennis.com/shanghai-…",
     "description": "",
-    "link": "https://lightbrd.com/christianscourt/status/2107425733186556403#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-06 14:00 EEST",
-    "is_retweet": true,
+    "link": "https://lightbrd.com/perfecttennisuk/status/2107899696048201973#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-07 21:23 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04762606769737166,
-      "detections": []
-    }
-  },
-  {
-    "title": "TWO FOR TWO 🏆🏆 Alcaraz maintains his perfect record in Tokyo and defends his title!\n\n#japanopentennis",
-    "description": "",
-    "link": "https://lightbrd.com/TennisTV/status/2107423149377868007#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-06 13:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06588034204222915,
+      "score": 0.047456505695011045,
       "detections": []
     }
   },
@@ -140,22 +157,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.23869957607456987,
-      "detections": []
-    }
-  },
-  {
-    "title": "My new favourite betting account. There are few people so full of altruism in this world that, instead of just betting on their picks that are highly profitable, they share them with us too for just a few hundred $$$ 🥰",
-    "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2101211624962969859#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-09-19 10:27 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.1658154282228027,
       "detections": []
     }
   },
@@ -400,6 +401,22 @@
     }
   },
   {
+    "title": "\"The Bud Collins History of Tennis\" for sale and download here a.co/d/0bhQXNul #Amazon via @Amazon",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2107828087031566457#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-07 16:39 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.059305965489282485,
+      "detections": []
+    }
+  },
+  {
     "title": "With a hurricane looking possible for Louisiana, Mississippi, Alabama and Florida later this week, my book/ebook/audio book on prep will come in handy \"The Hurricane Handbook: Your Essential Guide to Staying Safe Before, During, and After the Storm a.co/d/05GY5kY4",
     "description": "",
     "link": "https://lightbrd.com/TennisPublisher/status/2107587877068476537#m",
@@ -461,22 +478,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05310746622833378,
-      "detections": []
-    }
-  },
-  {
-    "title": "Months later, the record is broken by Andreas Seppi and Bobby Reynolds, who conclude a match at 3:34 am at the 2007 Australian Open. Another year later, Lleyton Hewitt and Marcos Baghdatis play until 4:34 am at the 2008 Australian Open, setting the new standard.",
-    "description": "",
-    "link": "https://lightbrd.com/ThisDayInTennis/status/2107261600327663964#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-06 03:08 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04521003199867715,
       "detections": []
     }
   },
@@ -561,82 +562,82 @@
     }
   },
   {
-    "title": "Congratulations on an amazing career, @keinishikori! \n\nIt was always a pleasure to share the court with you. You can be very proud of everything you have achieved and the example you have set for so many people!\n\nAll the best for this new chapter! 🙌🏻\n\nありがとう, Kei! Big hug! 🤗",
+    "title": "Early birthday present secured ♥️\n\n#ChinaOpen",
     "description": "",
-    "link": "https://lightbrd.com/RafaelNadal/status/2105611213438632368#m",
+    "link": "https://lightbrd.com/WTA/status/2107830605727797663#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-10-01 13:50 EEST",
+    "date": "2026-10-07 16:49 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1358634003662444,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
   {
-    "title": "An incredible career 👏 \n\nThank you, @keinishikori ❤️‍🔥",
+    "title": "Took care of business 💼\n\n@ElinaSvitolina is into her 29th career WTA 1000 quarterfinal after defeating Li!\n\n#ChinaOpen",
     "description": "",
-    "link": "https://lightbrd.com/TennisTV/status/2105549427599364201#m",
+    "link": "https://lightbrd.com/WTA/status/2107852780220129298#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-10-01 09:44 EEST",
+    "date": "2026-10-07 18:17 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07457967418479584,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
   {
-    "title": "On this day in 1988, Steffi Graf completed the Golden Slam:\n🏆 Australian Open\n🏆 Roland Garros\n🏆 Wimbledon\n🏆 US Open\n🥇 Olympics",
+    "title": "Quarterfinalists assemble ✨\n\n@MercedesBenz | #ChinaOpen",
     "description": "",
-    "link": "https://lightbrd.com/usopen/status/2105743809305038924#m",
+    "link": "https://lightbrd.com/WTA/status/2107857640474759484#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-10-01 22:37 EEST",
+    "date": "2026-10-07 18:36 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03880478190705731,
+      "score": 0.21472693283175764,
       "detections": []
     }
   },
   {
-    "title": "GAUFF GOES THROUGH 🔥\n\n@CocoGauff takes the win in a hard fought match against Osorio to continue her run in Beijing!\n\n#ChinaOpen",
+    "title": "Iga advances ✅\n\n@iga_swiatek caps off an incredible showing in Beijing against Jovic!\n\n#ChinaOpen",
     "description": "",
-    "link": "https://lightbrd.com/WTA/status/2106255704306991501#m",
+    "link": "https://lightbrd.com/WTA/status/2107726303856087393#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-10-03 08:31 EEST",
+    "date": "2026-10-07 09:54 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06889664692547892,
+      "score": 0.05932541785596207,
       "detections": []
     }
   },
   {
-    "title": "Talk about raising it in the big moments 🤩\n\nFrom 2-6 down in the first set tie break, this is what Carlos Alcaraz produced 🔥\n\n#japanopentennis",
+    "title": "This feeling? Unbeatable.",
     "description": "",
-    "link": "https://lightbrd.com/TennisTV/status/2106263742413467945#m",
+    "link": "https://lightbrd.com/DjokerNole/status/2107470381854707821#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-10-03 09:03 EEST",
+    "date": "2026-10-06 16:57 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10543365990304648,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -801,82 +802,82 @@
     }
   },
   {
-    "title": "Tomas Machac comes back from set and break down to beat his former doubles partner Zhang Zhizhen 1-6, 7-6(3), 6-2.\n\nFirst tour-level win since Roland Garros.",
+    "title": "Rybakina is also out of Wuhan.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107757236647055792#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107908587871993861#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 11:57 EEST",
+    "date": "2026-10-07 21:59 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05281087472535415,
+      "score": 0.04997494071209847,
       "detections": []
     }
   },
   {
-    "title": "3 - Achieving the feat for the first time in her career, Elise Mertens is one of five players to claim WTA top 10 wins on all three surfaces in 2026 after Karolina Muchova, Linda Noskova, Emma Navarro and her defeated opponent, Coco Gauff. Adapt.\n\n#ChinaOpen | @ChinaOpen @WTA",
+    "title": "Cobolli's father reveals that he tried to add Ferrero to his team \"3 or 4 times\" and Juan Carlos always said no.",
     "description": "",
-    "link": "https://lightbrd.com/OptaAce/status/2107751110849274297#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107859689958486171#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 11:33 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.1334466485067472,
-      "detections": []
-    }
-  },
-  {
-    "title": "15th top 10 win for Mertens, 3rd in 2026.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107749604980654319#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 11:27 EEST",
+    "date": "2026-10-07 18:44 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0837195941445449,
+      "score": 0.054549945490597926,
       "detections": []
     }
   },
   {
-    "title": "Elise Mertens defeats world #4 and 2024 champ Coco Gauff 6-3, 6-3 to reach the QFs in Beijing.\n\n1st win over Gauff in six matches.\n\n7th WTA 1000, but first in over 5 (!) years.\n\nGauff loses a straight sets match for the first time since february. Her worst performance in a while.",
+    "title": "Altmaier with one of the SHOTS OF THE YEAR in a big moment in Shanghai.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107749298465038769#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107858708202226067#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 11:26 EEST",
+    "date": "2026-10-07 18:40 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06940801429135841,
+      "score": 0.03662951386085473,
       "detections": []
     }
   },
   {
-    "title": "Machac forces a decider vs. his good friend and former doubles partner Zhang in Shanghai.\n\nWas 1-6, 1-2*\n\n1-6, 7-6(3)",
+    "title": "Beijing WTA 1000 QFs:\n\n[WC] Zheng vs. [6] Svitolina\n[8] Świątek vs. [13] Mertens\n\n[4] Andreeva vs. [19] Alexandrova\n[7] Muchova vs. [26] Bartunkova",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107746475375501796#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107857956368765257#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 11:14 EEST",
+    "date": "2026-10-07 18:37 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04273465351725737,
+      "score": 0.055357442318838976,
+      "detections": []
+    }
+  },
+  {
+    "title": "Daniel Altmaier comes back to beat Holger Rune 1-6, 7-6(5), 6-4 to reach the 2nd round in Shanghai.\n\nA much better match from Holger compared to Tokyo.\n\nHe probably won't do it, but he could surely use a couple of Challengers to recover some rhythm and confidence...",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2107856412374073678#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-07 18:31 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03575743516428095,
       "detections": []
     }
   },
