@@ -400,6 +400,39 @@
     }
   },
   {
+    "title": "With a hurricane looking possible for Louisiana, Mississippi, Alabama and Florida later this week, my book/ebook/audio book on prep will come in handy \"The Hurricane Handbook: Your Essential Guide to Staying Safe Before, During, and After the Storm a.co/d/05GY5kY4",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2107587877068476537#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-07 00:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09290972544795993,
+      "detections": []
+    }
+  },
+  {
+    "title": "[redacted: this text was flagged as a prompt-injection payload]",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2107583663688794621#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-07 00:27 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "high",
+      "score": 0.8787291183971866,
+      "detections": [],
+      "redacted": true
+    }
+  },
+  {
     "title": "Kooky that Novak Djokovic wins his 102nd career ATP singles title in China with his last two wins being a disqualification (Medvedev) and a retirement (de Minaur). Not how he wanted to win but he'll take it!",
     "description": "",
     "link": "https://lightbrd.com/TennisPublisher/status/2107454448381669793#m",
@@ -444,38 +477,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04521003199867715,
-      "detections": []
-    }
-  },
-  {
-    "title": "UTR Match Play at the Indian Trails Tennis Club in Vero Beach, Florida this Thursday 5 pm to 7 pm. Sign up here app.utrsports.net/events/402…",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2107247457365049358#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-06 02:11 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.031209889765769036,
-      "detections": []
-    }
-  },
-  {
-    "title": "\"The Greatest Tennis Matches of All Time\" by Steve Flink is for sale and download here a.co/d/09PPrV15 #Amazon via @Amazon",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2107220708833296755#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-06 00:25 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07474511705255439,
       "detections": []
     }
   },
@@ -800,82 +801,82 @@
     }
   },
   {
-    "title": "ARIGATO TOKYO!  🏆❤️",
+    "title": "Tomas Machac comes back from set and break down to beat his former doubles partner Zhang Zhizhen 1-6, 7-6(3), 6-2.\n\nFirst tour-level win since Roland Garros.",
     "description": "",
-    "link": "https://lightbrd.com/carlosalcaraz/status/2107455620538618153#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107757236647055792#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-06 15:59 EEST",
+    "date": "2026-10-07 11:57 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05281087472535415,
+      "detections": []
+    }
+  },
+  {
+    "title": "3 - Achieving the feat for the first time in her career, Elise Mertens is one of five players to claim WTA top 10 wins on all three surfaces in 2026 after Karolina Muchova, Linda Noskova, Emma Navarro and her defeated opponent, Coco Gauff. Adapt.\n\n#ChinaOpen | @ChinaOpen @WTA",
+    "description": "",
+    "link": "https://lightbrd.com/OptaAce/status/2107751110849274297#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-07 11:33 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10646050166868964,
+      "score": 0.1334466485067472,
       "detections": []
     }
   },
   {
-    "title": "Great week in Tokyo. 🇯🇵 You guys made me feel like at home. Congratulations to Carlos for another great week. \n\nWork continues. Shanghai next🔜🇨🇳",
+    "title": "15th top 10 win for Mertens, 3rd in 2026.",
     "description": "",
-    "link": "https://lightbrd.com/jirilehecka/status/2107469671481938405#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107749604980654319#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-06 16:54 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05942243763147896,
-      "detections": []
-    }
-  },
-  {
-    "title": "Learner Tien replaces world #1 Jannik Sinner at the 'Six Kings Slam'...",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107516341666418837#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-06 20:00 EEST",
+    "date": "2026-10-07 11:27 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06698956704639888,
+      "score": 0.0837195941445449,
       "detections": []
     }
   },
   {
-    "title": "So... It's been a big tennis day in terms of news:\n\n- Sinner ends his season, and Zverev will become the new ATP World No. 1 (the 30th in history))\n\n- Djokovic wins the 102nd title of his career at 39, improves to 34-0 in Beijing\n\n- Alcaraz wins his 1st title since returning from injury and becomes the 1st player this century to successfully defend the Tokyo title",
+    "title": "Elise Mertens defeats world #4 and 2024 champ Coco Gauff 6-3, 6-3 to reach the QFs in Beijing.\n\n1st win over Gauff in six matches.\n\n7th WTA 1000, but first in over 5 (!) years.\n\nGauff loses a straight sets match for the first time since february. Her worst performance in a while.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107509677064122561#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107749298465038769#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-06 19:33 EEST",
+    "date": "2026-10-07 11:26 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0668908263425549,
+      "score": 0.06940801429135841,
       "detections": []
     }
   },
   {
-    "title": "Updated ATP Race, Djokovic is now in position to make Turin\n\n1 Zverev, 8.760\n- Sinner, 7.950 -\n2 Alcaraz, 4.560\n3 Shelton, 4.440\n4 Cobolli, 3.540\n5 Tiafoe, 3.380\n6 Fils, 3.285\n7 Medvedev, 3.030\n8 Djokovic, 2.840\n\n9 De Minaur, 2.680\n10 Jódar, 2.519\n11 Fritz, 2.490\n12 Mensik, 2.405",
+    "title": "Machac forces a decider vs. his good friend and former doubles partner Zhang in Shanghai.\n\nWas 1-6, 1-2*\n\n1-6, 7-6(3)",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107499495051456888#m",
+    "link": "https://lightbrd.com/josemorgado/status/2107746475375501796#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-06 18:53 EEST",
+    "date": "2026-10-07 11:14 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08101109309650352,
+      "score": 0.04273465351725737,
       "detections": []
     }
   },
