@@ -1,5 +1,21 @@
 [
   {
+    "title": "In other news, man disembarks Titanic, rejecting floatation as “unacceptable” 🤪",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2107925521447416305#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-07 23:06 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08990428230873926,
+      "detections": []
+    }
+  },
+  {
     "title": "[redacted: this text was flagged as a prompt-injection payload]",
     "description": "",
     "link": "https://lightbrd.com/UniversTennis/status/2107875811831198049#m",
@@ -61,22 +77,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05675804087274521,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak in Beijing. How it started and how it ended. 🎊🍾💃🎾👌",
-    "description": "",
-    "link": "https://lightbrd.com/marramirem5/status/2107466332249739326#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-06 16:41 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09276338951935961,
       "detections": []
     }
   },
@@ -401,6 +401,54 @@
     }
   },
   {
+    "title": "My road trip video from two weeks ago...Six States In Four Days… And I Almost Got Stranded In A  Kansas Cornfield  youtu.be/pQV4KvIfQ_A?si=zrYI… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108028222348878292#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-08 05:54 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2589635263585754,
+      "detections": []
+    }
+  },
+  {
+    "title": "What You Need To Prepare For A Hurricane! youtu.be/2X8IUfpRw4Q?si=ucc7… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108020519337341240#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-08 05:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0729432601773577,
+      "detections": []
+    }
+  },
+  {
+    "title": "Love this news as Fred Perry is just such an iconic and traditional (and forgotten!?) tennis brand.... Fred Perry Signs On For Davis Cup! worldtennismagazine.com/fred…",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108019112391639125#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-08 05:18 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03898615707294293,
+      "detections": []
+    }
+  },
+  {
     "title": "\"The Bud Collins History of Tennis\" for sale and download here a.co/d/0bhQXNul #Amazon via @Amazon",
     "description": "",
     "link": "https://lightbrd.com/TennisPublisher/status/2107828087031566457#m",
@@ -429,55 +477,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09290972544795993,
-      "detections": []
-    }
-  },
-  {
-    "title": "[redacted: this text was flagged as a prompt-injection payload]",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2107583663688794621#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-07 00:27 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "high",
-      "score": 0.8787291183971866,
-      "detections": [],
-      "redacted": true
-    }
-  },
-  {
-    "title": "Kooky that Novak Djokovic wins his 102nd career ATP singles title in China with his last two wins being a disqualification (Medvedev) and a retirement (de Minaur). Not how he wanted to win but he'll take it!",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2107454448381669793#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-06 15:54 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06139713208846978,
-      "detections": []
-    }
-  },
-  {
-    "title": "Another example of why moving the NCAA singles and doubles to the Fall was a terrible decision",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2107436094811984336#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-06 14:41 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05310746622833378,
       "detections": []
     }
   },
@@ -802,82 +801,98 @@
     }
   },
   {
-    "title": "Rybakina is also out of Wuhan.",
+    "title": "Andreeva up 7-6 on Alexandrova. \n\nWas 2-0 up then 5-3 down. Roller coaster.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107908587871993861#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108166614357364746#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 21:59 EEST",
+    "date": "2026-10-08 15:04 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04997494071209847,
+      "score": 0.03739174700356672,
       "detections": []
     }
   },
   {
-    "title": "Cobolli's father reveals that he tried to add Ferrero to his team \"3 or 4 times\" and Juan Carlos always said no.",
+    "title": "The in form Bu Yunchaokete defeats Luca Van Asshe 7-6(3), 6-3 to reach the 2nd round in Shanghai vs. Ruud.\n\n7th career top 50 win, 5 of them in China.\n\nFor the 2nd time, three Chinese players into R2 in Shanghai:\n\nWu, Zhou and Shang in 2024\n\nWu, Zhou and Bu in 2026",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107859689958486171#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108163540435767609#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 18:44 EEST",
+    "date": "2026-10-08 14:52 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054549945490597926,
+      "score": 0.08959237159370076,
       "detections": []
     }
   },
   {
-    "title": "Altmaier with one of the SHOTS OF THE YEAR in a big moment in Shanghai.",
+    "title": "Djokovic had (more) nice words to Kei Nishikori in Shanghai.\n\n\"I would like to use another opportunity to congratulate Kei for his outstanding career, a lot to be proud of. He, unfortunately, was injured quite a lot and struggled throughout his career to keep fit. I think this probably might be the only regret that he has, that he wasn't able to maybe stay healthier longer.\n\n“Because he was, when he was playing his best tennis, he was a top-5 player. Incredibly quick, so talented, the striking a",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107858708202226067#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108155591898145188#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 18:40 EEST",
+    "date": "2026-10-08 14:20 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03662951386085473,
+      "score": 0.07153153516206888,
       "detections": []
     }
   },
   {
-    "title": "Beijing WTA 1000 QFs:\n\n[WC] Zheng vs. [6] Svitolina\n[8] Świątek vs. [13] Mertens\n\n[4] Andreeva vs. [19] Alexandrova\n[7] Muchova vs. [26] Bartunkova",
+    "title": "Djokovic back in Shanghai.\n\n\"It was a phenomenal week for me, Beijing, the best week of this year, no doubt. I'm trying to build momentum on that here in Shanghai as well, use the confidence and hopefully have another great deep run in this tournament, another tournament in China where I've done very well in my career.\"",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107857956368765257#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108155170798362637#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 18:37 EEST",
+    "date": "2026-10-08 14:18 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.055357442318838976,
+      "score": 0.046781189405514526,
       "detections": []
     }
   },
   {
-    "title": "Daniel Altmaier comes back to beat Holger Rune 1-6, 7-6(5), 6-4 to reach the 2nd round in Shanghai.\n\nA much better match from Holger compared to Tokyo.\n\nHe probably won't do it, but he could surely use a couple of Challengers to recover some rhythm and confidence...",
+    "title": "Tough hour for the young Spanish players:\n\nStruff d. Landaluce 6-4, 6-4\n\nVan de Zandschulp d. Mérida 1-6, 6-3, 6-4",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2107856412374073678#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108154679523787008#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-07 18:31 EEST",
+    "date": "2026-10-08 14:16 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03575743516428095,
+      "score": 0.07516606712371586,
+      "detections": []
+    }
+  },
+  {
+    "title": "Carlos Alcaraz, Coco Gauff, Naomi Osaka and Jannik Sinner are confirmed for exho event AO 1 Point Slam.\nQualies are underway at clubs across Australia. The final incl. pros and amateurs will take place on Wednesday 13 January at Rod Laver Arena.",
+    "description": "",
+    "link": "https://lightbrd.com/MichalSamulski/status/2108051038766858252#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-08 07:25 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048086155750130345,
       "detections": []
     }
   },
@@ -942,22 +957,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.06068615778743509,
-      "detections": []
-    }
-  },
-  {
-    "title": "The O2 is still empty. In a few hours it will be completely packed, just like at the previous @LaverCup and all the ATP Finals held here. The London editions were among the best season-ending tournaments I’ve ever covered.",
-    "description": "",
-    "link": "https://lightbrd.com/MichalSamulski/status/2103768994117464286#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-09-26 11:49 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.037753810261477984,
       "detections": []
     }
   }
