@@ -1,5 +1,21 @@
 [
   {
+    "title": "Why are the \"haters\" attacking @CocoGauff ? She did everything within the rules. Honestly, Coco is the most genuine, thoughtful, humble human being you'll ever find. She is loved by everyone in the Tennis world. It's really disturbing to see her going through this turmoil.#kindness",
+    "description": "",
+    "link": "https://lightbrd.com/ChrissieEvert/status/2108189710568804682#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-08 16:36 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.14379686476656445,
+      "detections": []
+    }
+  },
+  {
     "title": "In other news, man disembarks Titanic, rejecting floatation as “unacceptable” 🤪",
     "description": "",
     "link": "https://lightbrd.com/AmyLundyDahl/status/2107925521447416305#m",
@@ -61,22 +77,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.0598930344916414,
-      "detections": []
-    }
-  },
-  {
-    "title": "When Novak’s dad said he’d have all the records, I must admit I was skeptical.\nNot anymore 😅👌",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2107482481650012610#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-06 17:45 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05157114387688257,
       "detections": []
     }
   },
@@ -401,6 +401,38 @@
     }
   },
   {
+    "title": "A video I made three years ago… John Lennon In New York: A Walk From Strawberry Fields To The Dakota youtu.be/ena6YLwpoFU?is=a7vR… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108528373903552626#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-09 15:01 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.047686367005486126,
+      "detections": []
+    }
+  },
+  {
+    "title": "Billie Jean King versus Taylor Fritz’s Mom at the U.S. Open youtu.be/hQCInQLvURk?is=EkWh… via @YouTube",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108522398043586947#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-09 14:38 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09149339020333477,
+      "detections": []
+    }
+  },
+  {
     "title": "\"Tennis Smart & Simple: For Players and Coaches of All Levels and Ages\" by Sophie Amiach here a.co/d/0apBQVCa #Amazon via @Amazon",
     "description": "",
     "link": "https://lightbrd.com/TennisPublisher/status/2108269247289852003#m",
@@ -449,38 +481,6 @@
     }
   },
   {
-    "title": "Love this news as Fred Perry is just such an iconic and traditional (and forgotten!?) tennis brand.... Fred Perry Signs On For Davis Cup! worldtennismagazine.com/fred…",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108019112391639125#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-08 05:18 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.038647843952486625,
-      "detections": []
-    }
-  },
-  {
-    "title": "\"The Bud Collins History of Tennis\" for sale and download here a.co/d/0bhQXNul #Amazon via @Amazon",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2107828087031566457#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-07 16:39 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0538493853420919,
-      "detections": []
-    }
-  },
-  {
     "title": "Had the chance to attend the USA Standing Adaptive Tennis tournament at @SMU. \n\nThe athletes have decreased mobility due to amputations, congenital conditions, etc., and they are SO impressive. \n\nThis is Nico Basaez from Chile (vs. Yusuke Hatano of Japan). Amazing. @USTATexas",
     "description": "",
     "link": "https://lightbrd.com/BlairHenley/status/1602024208615219207#m",
@@ -493,6 +493,22 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07516741505665173,
+      "detections": []
+    }
+  },
+  {
+    "title": "Journalist: \"You're the godfather of Daniil Medvedev's daughter, right?\"\n\nAndrey Rublev: \"I am the real father.\"\n\n☠️",
+    "description": "",
+    "link": "https://lightbrd.com/Djoko_UTD/status/2108120637755818425#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-08 12:01 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07706965158393446,
       "detections": []
     }
   },
@@ -541,22 +557,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05156592793711092,
-      "detections": []
-    }
-  },
-  {
-    "title": "\"I do get a little scared rolling to his [Alcaraz] forehand.\" 😅\n\nAn honest assessment from @Taylor_Fritz97.\n\n#LaverCup #TennisUnrivaled",
-    "description": "",
-    "link": "https://lightbrd.com/LaverCup/status/2103934679464476921#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-26 22:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.21552331795558757,
       "detections": []
     }
   },
@@ -801,82 +801,82 @@
     }
   },
   {
-    "title": "For Medvedev all courts are slow 😅",
+    "title": "Poor Buse...",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108212193107828833#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108534001350885491#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-08 18:05 EEST",
+    "date": "2026-10-09 15:24 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07328019195017167,
+      "score": 0.04623080732479428,
       "detections": []
     }
   },
   {
-    "title": "What a win for Srvcina. He is having a great season.",
+    "title": "Players to defeat Nadal on clay, Federer on grass and Djokovic on hardcourts:\n\nAndy Murray - (Nadal 2x, Federer 1x, Djokovic 8x)\n\nAlexander Zverev - (Nadal 2x, Federer 1x, Djokovic 4x)\n\nDominic Thiem - (Nadal 4x, Federer 1x, Djokovic 2x)\n\nHubert Hurkacz - (1 time each)",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108212089240084950#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108533228680183860#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-08 18:05 EEST",
+    "date": "2026-10-09 15:21 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03233066441925256,
+      "score": 0.09843509117064266,
       "detections": []
     }
   },
   {
-    "title": "Mirra Andreeva will reach a new career high on Monday: \n\nWorld #4, passing Coco Gauff.",
+    "title": "US Open semifinalist Karen Khachanov comes back from 2-4 down in the decider to beat Wimbledon semifinalist Arthur Fery 7-6(6), 6-7(5), 7-6(2) in... 3 hours and 29 minutes.\n\nInto the R3 in Shanghai to play Mannarino.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108189762007794082#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108532150702322043#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-08 16:36 EEST",
+    "date": "2026-10-09 15:16 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038263784221749156,
+      "score": 0.03148387996063136,
       "detections": []
     }
   },
   {
-    "title": "Australian Open’s new tournament director is excited to welcome “JACOB” Sinner and “ROBAKINA” in 2027!\n\nVia @TheFirstServeAU",
+    "title": "Mertens bagels Swiatek in the tiebreak.\n\n7-6(0) in Beijing QFs...",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108184905901383873#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108531264152125775#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-08 16:17 EEST",
+    "date": "2026-10-09 15:13 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042715790278635625,
+      "score": 0.04877790472563823,
       "detections": []
     }
   },
   {
-    "title": "4th WTA 1000 semifinal for Mirra Andreeva. \n\n2nd in 2026.",
+    "title": "Khachanov and Fery will play a 3rd set tiebreak.\n\n3 hours\n\n23 minutes",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108182552875815341#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108530110605217966#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-08 16:07 EEST",
+    "date": "2026-10-09 15:08 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06126110981394245,
+      "score": 0.03791764604140159,
       "detections": []
     }
   },
