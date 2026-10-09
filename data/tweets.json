@@ -2,7 +2,7 @@
   {
     "title": "Why are the \"haters\" attacking @CocoGauff ? She did everything within the rules. Honestly, Coco is the most genuine, thoughtful, humble human being you'll ever find. She is loved by everyone in the Tennis world. It's really disturbing to see her going through this turmoil.#kindness",
     "description": "",
-    "link": "https://lightbrd.com/ChrissieEvert/status/2108189710568804682#m",
+    "link": "https://nitter.freedit.eu/ChrissieEvert/status/2108189710568804682#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -18,7 +18,7 @@
   {
     "title": "In other news, man disembarks Titanic, rejecting floatation as “unacceptable” 🤪",
     "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2107925521447416305#m",
+    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2107925521447416305#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -34,7 +34,7 @@
   {
     "title": "[redacted: this text was flagged as a prompt-injection payload]",
     "description": "",
-    "link": "https://lightbrd.com/UniversTennis/status/2107875811831198049#m",
+    "link": "https://nitter.freedit.eu/UniversTennis/status/2107875811831198049#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -51,7 +51,7 @@
   {
     "title": "Smh 🤦🏼‍♀️",
     "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2107899427306475812#m",
+    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2107899427306475812#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -67,7 +67,7 @@
   {
     "title": "This is a very fair point 👇 \nAdding to… Another thing missing from the “Djokovic benefits from walkovers/retirements” trope:\nPeople don’t inherently want to play Novak Djokovic when they aren’t feeling their absolute best. Who would!",
     "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2107498269287039440#m",
+    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2107498269287039440#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -81,9 +81,25 @@
     }
   },
   {
+    "title": "🎾 Shanghai Day 3: Hurkacz stuns Djokovic; World No. 277 Yi Zhou upsets Musetti; Zverev survives an ankle scare; Shelton advances! 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://nitter.freedit.eu/perfecttennisuk/status/2108628056105734640#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-09 21:37 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06664518077496441,
+      "detections": []
+    }
+  },
+  {
     "title": "🎾 Shanghai Day 2: Hurkacz sets up a Djokovic showdown, Tsitsipas advances, Bu shines on serve and Norrie crashes out. Full recap 👇\n\nperfect-tennis.com/shanghai-…",
     "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2108248715760918771#m",
+    "link": "https://nitter.freedit.eu/perfecttennisuk/status/2108248715760918771#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
@@ -99,7 +115,7 @@
   {
     "title": "Shanghai Day 1 🎾 Altmaier comes from a set down to beat Rune, while Berrettini, Machac, Fery and Wu all book their places in round two.\n\nperfect-tennis.com/shanghai-…",
     "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2107899696048201973#m",
+    "link": "https://nitter.freedit.eu/perfecttennisuk/status/2107899696048201973#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
@@ -115,7 +131,7 @@
   {
     "title": "🎾 Shanghai Masters 2026 draw is out! Zverev and Alcaraz lead the field, but who has the toughest path? Explore the key matchups. 👀\n\nperfect-tennis.com/rolex-sha…",
     "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2107092952715800738#m",
+    "link": "https://nitter.freedit.eu/perfecttennisuk/status/2107092952715800738#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
@@ -131,7 +147,7 @@
   {
     "title": "Right decision but should have stood up like Djokovic. For that reason he's not admitted to Team Pure Blood.",
     "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2101996928959455605#m",
+    "link": "https://nitter.freedit.eu/perfecttennisuk/status/2101996928959455605#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
@@ -141,22 +157,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03906200329868245,
-      "detections": []
-    }
-  },
-  {
-    "title": "Managed decline of the UK.",
-    "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2101292445627506790#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-09-19 15:48 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.034811296078339035,
       "detections": []
     }
   },
@@ -401,82 +401,82 @@
     }
   },
   {
-    "title": "A video I made three years ago… John Lennon In New York: A Walk From Strawberry Fields To The Dakota youtu.be/ena6YLwpoFU?is=a7vR… via @YouTube",
+    "title": "Ticket stub I still have from 1987 for the year-end Virginia Slims Championships (now the WTA Tour Finals) when it was played at @TheGarden The ticket was $20",
     "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108528373903552626#m",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108608591120969992#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-10-09 15:01 EEST",
+    "date": "2026-10-09 20:20 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047686367005486126,
+      "score": 0.04195635333118643,
       "detections": []
     }
   },
   {
-    "title": "Billie Jean King versus Taylor Fritz’s Mom at the U.S. Open youtu.be/hQCInQLvURk?is=EkWh… via @YouTube",
+    "title": "John Lennon would have been 86 years old today... Read one of the craziest books about his life and death in the book \"The Lennon Prophecy: A New Examination of the Death Clues of The Beatles\" here a.co/d/0dnkUEeL #Amazon via @Amazon",
     "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108522398043586947#m",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108607003862175971#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-10-09 14:38 EEST",
+    "date": "2026-10-09 20:14 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09149339020333477,
+      "score": 0.19564770049014474,
       "detections": []
     }
   },
   {
-    "title": "\"Tennis Smart & Simple: For Players and Coaches of All Levels and Ages\" by Sophie Amiach here a.co/d/0apBQVCa #Amazon via @Amazon",
+    "title": "Nobel Peace Prize Winner’s Book “The Pros: The Forgotten Era Of Tennis” Documents Little-Known Era of Pro Tennis worldtennismagazine.com/2994…",
     "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108269247289852003#m",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108591034171367929#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-10-08 21:52 EEST",
+    "date": "2026-10-09 19:10 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0584310881204259,
+      "score": 0.05310453114788152,
       "detections": []
     }
   },
   {
-    "title": "My road trip video from two weeks ago...Six States In Four Days… And I Almost Got Stranded In A  Kansas Cornfield  youtu.be/pQV4KvIfQ_A?si=zrYI… via @YouTube",
+    "title": "CHARLIE PASARELL ON HIS FRIENDSHIP WITH ASHE, CREATING INDIAN WELLS youtu.be/yz1IQEduPT0?is=b7Wp… via @YouTube",
     "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108028222348878292#m",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108550069326872705#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-10-08 05:54 EEST",
+    "date": "2026-10-09 16:28 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.164403047970832,
+      "score": 0.038609723755819766,
       "detections": []
     }
   },
   {
-    "title": "What You Need To Prepare For A Hurricane! youtu.be/2X8IUfpRw4Q?si=ucc7… via @YouTube",
+    "title": "Many people don't know that this was Chris Evert's final match... many still incorrectly say her loss to Zina Garrison in the 1989 US Open was her final match",
     "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108020519337341240#m",
+    "link": "https://lightbrd.com/TennisPublisher/status/2108538336583581765#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
-    "date": "2026-10-08 05:23 EEST",
+    "date": "2026-10-09 15:41 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07696156545513234,
+      "score": 0.05514218369626203,
       "detections": []
     }
   },
@@ -493,6 +493,22 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07516741505665173,
+      "detections": []
+    }
+  },
+  {
+    "title": "Zverev’s flaw? Novak’s solution? Kim Clijsters breaks down their latest chess match.\n\nWas this full vintage Djokovic? 🔥\n\nCatch the full conversation in our latest episode- link in our bio! 🔗",
+    "description": "",
+    "link": "https://lightbrd.com/loveallpodcast/status/2108598152391532779#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-09 19:39 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1869486103897476,
       "detections": []
     }
   },
@@ -541,22 +557,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.08435560264205397,
-      "detections": []
-    }
-  },
-  {
-    "title": "Chanda Rubin joins Love All!\n\nShe breaks down what it takes to stay locked in through an epic marathon match before diving into her legendary career, and life as a trailblazer on and off the court. 🎾💥\n\nHead to the link in bio for the full episode out now! 🔗",
-    "description": "",
-    "link": "https://lightbrd.com/loveallpodcast/status/2105290319143030802#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-09-30 16:35 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05156592793711092,
       "detections": []
     }
   },
@@ -801,82 +801,82 @@
     }
   },
   {
-    "title": "Poor Buse...",
+    "title": "Shanghai ATP Masters 1000, 3rd round, top half:\n\n[1] Zverev vs. Halys\n[16] Nakashima vs. [19] Bublik\n\n[9] De Minaur vs. [Q] Sakamoto\n[26] Khachanov vs. Mannarino\n\n[3] Shelton vs. Gea\n[13] Mensik vs. [21] Cerundolo\n\n[WC] Zhou vs. Hurkacz\n[7] Tiafoe vs. [25] Davidovich",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108534001350885491#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108566582867722716#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-09 15:24 EEST",
+    "date": "2026-10-09 17:33 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04623080732479428,
+      "score": 0.062286687529887,
       "detections": []
     }
   },
   {
-    "title": "Players to defeat Nadal on clay, Federer on grass and Djokovic on hardcourts:\n\nAndy Murray - (Nadal 2x, Federer 1x, Djokovic 8x)\n\nAlexander Zverev - (Nadal 2x, Federer 1x, Djokovic 4x)\n\nDominic Thiem - (Nadal 4x, Federer 1x, Djokovic 2x)\n\nHubert Hurkacz - (1 time each)",
+    "title": "Musetti won 10 more points than Zhou. Lost in a 3rd set tiebreak.\n\nFery won 2 more points than Khachanov. Lost in a 3rd set tiebreak.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108533228680183860#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108565897770045566#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-09 15:21 EEST",
+    "date": "2026-10-09 17:30 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09843509117064266,
+      "score": 0.03455361604664229,
       "detections": []
     }
   },
   {
-    "title": "US Open semifinalist Karen Khachanov comes back from 2-4 down in the decider to beat Wimbledon semifinalist Arthur Fery 7-6(6), 6-7(5), 7-6(2) in... 3 hours and 29 minutes.\n\nInto the R3 in Shanghai to play Mannarino.",
+    "title": "WOW.\n\n21yo Zhou Yi, world #277, defeats Lorenzo Musetti 7-6(7), 3-6, 7-6(1) to reach the 3rd round in Shanghai. Biggest win of his career.\n\nCrowd erupts.\n\nMusetti didn't get broken all match and still lost.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108532150702322043#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108564688644755850#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-09 15:16 EEST",
+    "date": "2026-10-09 17:26 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03148387996063136,
+      "score": 0.0448987058020677,
       "detections": []
     }
   },
   {
-    "title": "Mertens bagels Swiatek in the tiebreak.\n\n7-6(0) in Beijing QFs...",
+    "title": "Musetti and Zhou into a 3rd set tiebreak in Shanghai.\n\nThe second in three hours.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108531264152125775#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108563317728104601#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-09 15:13 EEST",
+    "date": "2026-10-09 17:20 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04877790472563823,
+      "score": 0.03543072704838233,
       "detections": []
     }
   },
   {
-    "title": "Khachanov and Fery will play a 3rd set tiebreak.\n\n3 hours\n\n23 minutes",
+    "title": "Bublik defeats 2024 semifinalist Machac to reach the 3rd round in Shanghai.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2108530110605217966#m",
+    "link": "https://lightbrd.com/josemorgado/status/2108560489751961649#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-09 15:08 EEST",
+    "date": "2026-10-09 17:09 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03791764604140159,
+      "score": 0.12798625018887183,
       "detections": []
     }
   },

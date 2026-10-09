@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T12:28:13+00:00",
+  "updated_at": "2026-10-09T19:27:13+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -12,7 +12,7 @@
       "fails_since_ok": 0,
       "reason": "",
       "permanent": false,
-      "last_ok": "2026-10-09T12:28:13+00:00",
+      "last_ok": "2026-10-09T19:27:13+00:00",
       "tweets": 5
     },
     "https://nitter.catsarch.com": {
@@ -29,7 +29,7 @@
       "permanent": false
     },
     "https://nitter.freedit.eu": {
-      "last_ok": "2026-09-28T13:38:11+00:00",
+      "last_ok": "2026-10-09T19:26:03+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
@@ -56,10 +56,11 @@
     },
     "https://nitter.xitter.cc": {
       "last_ok": "2026-09-28T12:40:51+00:00",
-      "fails_since_ok": 0,
+      "fails_since_ok": 1,
       "tweets": 5,
-      "reason": "",
-      "permanent": false
+      "reason": "https://nitter.xitter.cc: instance has no X auth tokens",
+      "permanent": false,
+      "last_fail": "2026-10-09T19:26:24+00:00"
     },
     "https://nt.vern.cc": {
       "last_fail": "2026-09-03T17:43:23+00:00",
