@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T18:27:44+00:00",
+  "updated_at": "2026-10-11T12:02:35+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-09-03T17:43:23+00:00",
@@ -43,7 +43,7 @@
       "permanent": true
     },
     "https://nitter.meowing.monster": {
-      "last_ok": "2026-10-10T18:27:44+00:00",
+      "last_ok": "2026-10-11T12:02:35+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
