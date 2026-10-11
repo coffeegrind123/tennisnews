@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06067738366600131,
+      "score": 0.0509165022440656,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1532408775831513,
+      "score": 0.14379686476656445,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08990428230873926,
+      "score": 0.07148748699338209,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "high",
-      "score": 0.8699227389384638,
+      "score": 0.8630134237647838,
       "detections": [],
       "redacted": true
     }
@@ -76,7 +76,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06923316159239913,
+      "score": 0.05997183553413306,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 5: Arthur Gea stuns Shelton, Zverev earns his 60th win, Bublik battles through and Davidovich Fokina saves match point! 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/perfecttennisuk/status/2109334198079397929#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-11 20:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.044633013034731335,
       "detections": []
     }
   },
@@ -92,7 +108,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046466065865079655,
+      "score": 0.044684353984135144,
       "detections": []
     }
   },
@@ -108,7 +124,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07298647483463902,
+      "score": 0.06664518077496441,
       "detections": []
     }
   },
@@ -124,7 +140,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.060815041593090556,
+      "score": 0.06728620407833781,
       "detections": []
     }
   },
@@ -140,23 +156,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047456505695011045,
-      "detections": []
-    }
-  },
-  {
-    "title": "🎾 Shanghai Masters 2026 draw is out! Zverev and Alcaraz lead the field, but who has the toughest path? Explore the key matchups. 👀\n\nperfect-tennis.com/rolex-sha…",
-    "description": "",
-    "link": "https://nitter.meowing.monster/perfecttennisuk/status/2107092952715800738#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-10-05 15:58 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.1295689592275898,
+      "score": 0.041499568614869,
       "detections": []
     }
   },
@@ -172,7 +172,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -188,7 +188,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -204,7 +204,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0680413035403321,
+      "score": 0.05375876057592716,
       "detections": []
     }
   },
@@ -220,7 +220,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04386878636254758,
+      "score": 0.0382311927956425,
       "detections": []
     }
   },
@@ -236,7 +236,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07873480838748032,
+      "score": 0.07430335948554821,
       "detections": []
     }
   },
@@ -252,7 +252,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -268,7 +268,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -284,7 +284,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -300,7 +300,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -316,87 +316,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
   {
-    "title": "PLEASE - S'IL VOUS PLAIT\nGreg Rusedski, who grew up in Montreal and speaks some French, is pronouncing Auger-Aliassime\n\"Oh-JURE-aliassime.\"\nIt's \"Oh-ZHAY-aliassime.\"\nDon't like to criticize - but he should be among the last to be mispronouncing it (doing Shapovalov-Tabilo now)!",
+    "title": "Throwback photo from @tennispublisher when reading the final manuscript of our book at the old DownTown Association when it was located on Pine Street in NYC",
     "description": "",
-    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106208056027590835#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-03 05:21 EEST",
-    "is_retweet": false,
+    "link": "https://nitter.meowing.monster/DelpoBook/status/2108885255512006837#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-10 14:40 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.49964448051621474,
-      "detections": []
-    }
-  },
-  {
-    "title": "A solid choice for FAA",
-    "description": "",
-    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106078414834745449#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-02 20:46 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03157869086791935,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP 500 JAPAN OPEN: 2R\nAt 10 pm ET Canada.\n#30 Alejandro Tabilo, 29, (CHI) vs \n#40 Denis Shapovalov, 27, (CAN).\nH2H: 0-0.\nAT & DS both raised in Toronto.\nUS Open 2015 junior doubles.\nDS & FAA (CAN) def Tabilo (20 pounds heavier) (CAN) & Felipe Cuhna Silva (POR) 6-2, 3-6, (10-4).",
-    "description": "",
-    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106072005577785369#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-02 20:21 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04564546817828823,
-      "detections": []
-    }
-  },
-  {
-    "title": "RF - who else? Or maybe (beware oxymoron) a well-behaved John McEnroe.",
-    "description": "",
-    "link": "https://nitter.meowing.monster/tomtebbutt/status/2103611651853586511#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-26 01:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0693728910163647,
-      "detections": []
-    }
-  },
-  {
-    "title": "how does X (twitter) allow this con nonsense onto the site - totally irresponsible and inexcusable.\nIt makes X complicit with the scam.",
-    "description": "",
-    "link": "https://nitter.meowing.monster/tomtebbutt/status/2102465748547391766#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-22 21:31 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.29037143630238793,
+      "score": 0.047771060889083165,
       "detections": []
     }
   },
@@ -412,7 +348,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04307447902038203,
+      "score": 0.03877593682971853,
       "detections": []
     }
   },
@@ -428,7 +364,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.043827434416700554,
+      "score": 0.03964563741309875,
       "detections": []
     }
   },
@@ -444,7 +380,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04882198918037073,
+      "score": 0.04195635333118643,
       "detections": []
     }
   },
@@ -460,23 +396,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.17689251581371274,
-      "detections": []
-    }
-  },
-  {
-    "title": "Nobel Peace Prize Winner’s Book “The Pros: The Forgotten Era Of Tennis” Documents Little-Known Era of Pro Tennis worldtennismagazine.com/2994…",
-    "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2108591034171367929#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-09 19:10 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05831968748261481,
+      "score": 0.19564770049014474,
       "detections": []
     }
   },
@@ -492,7 +412,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
@@ -508,7 +428,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09100770729937732,
+      "score": 0.0763288362855373,
       "detections": []
     }
   },
@@ -524,7 +444,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05327508899664182,
+      "score": 0.045107951948091564,
       "detections": []
     }
   },
@@ -540,7 +460,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09445006988944613,
+      "score": 0.11687726793319098,
       "detections": []
     }
   },
@@ -556,87 +476,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16128178297853069,
-      "detections": []
-    }
-  },
-  {
-    "title": "Early birthday present secured ♥️\n\n#ChinaOpen",
-    "description": "",
-    "link": "https://nitter.meowing.monster/WTA/status/2107830605727797663#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-10-07 16:49 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09150462371495022,
-      "detections": []
-    }
-  },
-  {
-    "title": "Took care of business 💼\n\n@ElinaSvitolina is into her 29th career WTA 1000 quarterfinal after defeating Li!\n\n#ChinaOpen",
-    "description": "",
-    "link": "https://nitter.meowing.monster/WTA/status/2107852780220129298#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-10-07 18:17 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04766138540894144,
-      "detections": []
-    }
-  },
-  {
-    "title": "Quarterfinalists assemble ✨\n\n@MercedesBenz | #ChinaOpen",
-    "description": "",
-    "link": "https://nitter.meowing.monster/WTA/status/2107857640474759484#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-10-07 18:36 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.21472693283175764,
-      "detections": []
-    }
-  },
-  {
-    "title": "Iga advances ✅\n\n@iga_swiatek caps off an incredible showing in Beijing against Jovic!\n\n#ChinaOpen",
-    "description": "",
-    "link": "https://nitter.meowing.monster/WTA/status/2107726303856087393#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-10-07 09:54 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05932541785596207,
-      "detections": []
-    }
-  },
-  {
-    "title": "This feeling? Unbeatable.",
-    "description": "",
-    "link": "https://nitter.meowing.monster/DjokerNole/status/2107470381854707821#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-10-06 16:57 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.1869486103897476,
       "detections": []
     }
   },
@@ -652,7 +492,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -668,7 +508,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -684,7 +524,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -700,7 +540,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -716,7 +556,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -732,7 +572,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -748,7 +588,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -764,7 +604,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -780,7 +620,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -796,87 +636,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053163022829473876,
+      "score": 0.05572261542285587,
       "detections": []
     }
   },
   {
-    "title": "Quite a set between Nakashima and Bublik.",
+    "title": "Shanghai M1000 R16, top half",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2109240462171349034#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2109310777232679379#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-11 14:11 EEST",
+    "date": "2026-10-11 18:50 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04327693584235256,
+      "score": 0.09059549110553555,
       "detections": []
     }
   },
   {
-    "title": "Wuhan tomorrow.\n\nWang vs. Wang getting the deserved night session.",
+    "title": "Tough one for Tiafoe:\n\n- unbroken in the whole match\n- 0/5 on break points in the final set\n- slipped on his only match point\n\nFokina wins a thriller in almost 3 hours 🥵",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2109238078946898350#m",
+    "link": "https://nitter.meowing.monster/tennismasterr/status/2109309076555620615#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-11 14:02 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.053422846243709486,
-      "detections": []
-    }
-  },
-  {
-    "title": "That changes the draw with Bencic now top 8 seed and Kalinskaya seeded.",
-    "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2109237766928359510#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-11 14:00 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04671047970998745,
-      "detections": []
-    }
-  },
-  {
-    "title": "Jakub Mensik 🇨🇿 is the 17th player to reach 8 Masters 1000 rounds of 16 by age 21 and 40 days, since the Masters 1000 were created (1990).\n\nAmong the 16 before him, including:\n🔹 Nadal 🇪🇸 : 19\n🔹 Alcaraz 🇪🇸 : 15\n🔹 Sinner 🇮🇹 : 10\n🔹 Safin 🇷🇺 : 8\n\n#RolexShanghaiMasters",
-    "description": "",
-    "link": "https://nitter.meowing.monster/hawk_ai_tennis/status/2109230998269440117#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-11 13:33 EEST",
+    "date": "2026-10-11 18:44 EEST",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10084309856028885,
+      "score": 0.06565228447057876,
       "detections": []
     }
   },
   {
-    "title": "What a schedule tomorrow in Shanghai. Almost all matches are great!",
+    "title": "What a win for Foki. \n\nAlmost three hours. \n\nTiafoe had a big chance to pretty much seal his Turin spot this week…",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2109223211124617417#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2109307778401444165#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-11 13:02 EEST",
+    "date": "2026-10-11 18:38 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0465027234875211,
+      "score": 0.03687229322868713,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ouch Tiafoe slips on MP.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2109306967688904789#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-11 18:35 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06940287701232382,
+      "detections": []
+    }
+  },
+  {
+    "title": "Too good 😅",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2109281239760867333#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-11 16:53 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05595785531744582,
       "detections": []
     }
   },
@@ -892,7 +732,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04012259663164178,
+      "score": 0.035974073359954485,
       "detections": []
     }
   },
@@ -908,7 +748,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06194661225230959,
+      "score": 0.05088370749178214,
       "detections": []
     }
   },
@@ -924,7 +764,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.17667280058003013,
+      "score": 0.15434482445445125,
       "detections": []
     }
   },
@@ -940,7 +780,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.048086155750130345,
+      "score": 0.03931104774121497,
       "detections": []
     }
   },
@@ -956,7 +796,167 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05690833563233797,
+      "score": 0.0592671338405419,
+      "detections": []
+    }
+  },
+  {
+    "title": "PLEASE - S'IL VOUS PLAIT\nGreg Rusedski, who grew up in Montreal and speaks some French, is pronouncing Auger-Aliassime\n\"Oh-JURE-aliassime.\"\nIt's \"Oh-ZHAY-aliassime.\"\nDon't like to criticize - but he should be among the last to be mispronouncing it (doing Shapovalov-Tabilo now)!",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2106208056027590835#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-03 05:21 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.5329793440685826,
+      "detections": []
+    }
+  },
+  {
+    "title": "A solid choice for FAA",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2106078414834745449#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-02 20:46 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.028418747584157127,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP 500 JAPAN OPEN: 2R\nAt 10 pm ET Canada.\n#30 Alejandro Tabilo, 29, (CHI) vs \n#40 Denis Shapovalov, 27, (CAN).\nH2H: 0-0.\nAT & DS both raised in Toronto.\nUS Open 2015 junior doubles.\nDS & FAA (CAN) def Tabilo (20 pounds heavier) (CAN) & Felipe Cuhna Silva (POR) 6-2, 3-6, (10-4).",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2106072005577785369#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-02 20:21 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.042106884624653215,
+      "detections": []
+    }
+  },
+  {
+    "title": "RF - who else? Or maybe (beware oxymoron) a well-behaved John McEnroe.",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2103611651853586511#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-26 01:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05983814628310663,
+      "detections": []
+    }
+  },
+  {
+    "title": "how does X (twitter) allow this con nonsense onto the site - totally irresponsible and inexcusable.\nIt makes X complicit with the scam.",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2102465748547391766#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-09-22 21:31 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.3354215132270213,
+      "detections": []
+    }
+  },
+  {
+    "title": "Early birthday present secured ♥️\n\n#ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/WTA/status/2107830605727797663#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 16:49 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07133497694875393,
+      "detections": []
+    }
+  },
+  {
+    "title": "Took care of business 💼\n\n@ElinaSvitolina is into her 29th career WTA 1000 quarterfinal after defeating Li!\n\n#ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/WTA/status/2107852780220129298#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 18:17 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.046315418836513,
+      "detections": []
+    }
+  },
+  {
+    "title": "Quarterfinalists assemble ✨\n\n@MercedesBenz | #ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/WTA/status/2107857640474759484#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 18:36 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.23987347141005802,
+      "detections": []
+    }
+  },
+  {
+    "title": "Iga advances ✅\n\n@iga_swiatek caps off an incredible showing in Beijing against Jovic!\n\n#ChinaOpen",
+    "description": "",
+    "link": "https://lightbrd.com/WTA/status/2107726303856087393#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 09:54 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05961877571892252,
+      "detections": []
+    }
+  },
+  {
+    "title": "This feeling? Unbeatable.",
+    "description": "",
+    "link": "https://lightbrd.com/DjokerNole/status/2107470381854707821#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-06 16:57 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.029767043147506597,
       "detections": []
     }
   }

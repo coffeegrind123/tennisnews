@@ -12,17 +12,12 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis View Magazine": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -32,17 +27,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Guardian Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "BBC Tennis": {
+    "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -52,9 +37,29 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Open Court": {
@@ -65,11 +70,6 @@
     "Racquet Magazine": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
       "error": ""
     },
     "Ubitennis": {
@@ -105,8 +105,8 @@
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "ATP Tour: never got past the Cloudflare challenge"
     },
     "Tennis.com": {
       "type": "scrape",
@@ -129,13 +129,11 @@
       "error": "",
       "empty_diagnostic": {
         "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-        "title": "しばらくお待ちください...",
-        "htmlLen": 28512,
-        "bodyTextLen": 182,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "www.tennis.com.au セキュリティ検証の実行 この Web サイトは、悪意のあるボットから保護するためにセキュリティ サービスを使用しています。このページは、Web サイトがボットではないことを確認している間に表示されます。 Ray ID: a48da9351dd06999 Cloudflare によるパフォーマンスとセキュリティ プライバシー"
+        "title": "Even geduld...",
+        "htmlLen": 28688,
+        "bodyTextLen": 298,
+        "markers": [],
+        "bodyHead": "www.tennis.com.au Beveiliging wordt geverifieerd Deze website gebruikt een beveiligingsservice om zich te beschermen tegen schadelijke bots. Deze pagina wordt weergegeven terwijl de website controleert of u geen bot bent. Ray ID: a48ff6caab"
       }
     },
     "Tennis Infinity": {
@@ -174,19 +172,17 @@
       "error": "",
       "empty_diagnostic": {
         "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
-        "title": "しばらくお待ちください...",
-        "htmlLen": 28467,
-        "bodyTextLen": 184,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "www.ustaflorida.com セキュリティ検証の実行 この Web サイトは、悪意のあるボットから保護するためにセキュリティ サービスを使用しています。このページは、Web サイトがボットではないことを確認している間に表示されます。 Ray ID: a48db386d85c6372 Cloudflare によるパフォーマンスとセキュリティ プライバシー"
+        "title": "Even geduld...",
+        "htmlLen": 28643,
+        "bodyTextLen": 300,
+        "markers": [],
+        "bodyHead": "www.ustaflorida.com Beveiliging wordt geverifieerd Deze website gebruikt een beveiligingsservice om zich te beschermen tegen schadelijke bots. Deze pagina wordt weergegeven terwijl de website controleert of u geen bot bent. Ray ID: a48ffca9"
       }
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_BINDING_ABORTED\nCall log:\n  - navigating to \"https://rafaelnadalfans.com/\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Tennis Panorama": {
       "type": "scrape",
@@ -199,13 +195,11 @@
       "error": "",
       "empty_diagnostic": {
         "url": "https://www.tennis.com.au/brisbane-international",
-        "title": "しばらくお待ちください...",
-        "htmlLen": 28431,
-        "bodyTextLen": 182,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "www.tennis.com.au セキュリティ検証の実行 この Web サイトは、悪意のあるボットから保護するためにセキュリティ サービスを使用しています。このページは、Web サイトがボットではないことを確認している間に表示されます。 Ray ID: a48db531fb5702cd Cloudflare によるパフォーマンスとセキュリティ プライバシー"
+        "title": "Even geduld...",
+        "htmlLen": 28585,
+        "bodyTextLen": 298,
+        "markers": [],
+        "bodyHead": "www.tennis.com.au Beveiliging wordt geverifieerd Deze website gebruikt een beveiligingsservice om zich te beschermen tegen schadelijke bots. Deze pagina wordt weergegeven terwijl de website controleert of u geen bot bent. Ray ID: a48ffeff88"
       }
     },
     "Asian Tennis Federation": {
@@ -225,7 +219,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 92,
+      "count": 93,
       "error": ""
     }
   },
@@ -241,8 +235,8 @@
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 104,
-        "retired": 1,
+        "dead": 103,
+        "retired": 2,
         "retired_skipped": 0
       },
       "verified_good": [
@@ -252,9 +246,9 @@
         "https://nitter.xitter.cc"
       ],
       "verified_bad": [
-        "https://nitter.kareem.one",
         "https://nitter.tiekoetter.com",
         "https://bird.habedieeh.re",
+        "https://nitter.kareem.one",
         "https://nuku.trabun.org"
       ],
       "bases": [
@@ -262,10 +256,10 @@
         "https://lightbrd.com",
         "https://nitter.freedit.eu",
         "https://nitter.xitter.cc",
-        "https://nitter.kareem.one",
+        "https://nitter.netbub.com",
         "https://nitter.tiekoetter.com",
         "https://bird.habedieeh.re",
-        "https://nuku.trabun.org"
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -273,9 +267,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 3352,
-    "allowed": 5119,
-    "blocked_pct": 39.6
+    "blocked": 3876,
+    "allowed": 5974,
+    "blocked_pct": 39.4
   },
   "navigation": {
     "floored": 19,
@@ -286,7 +280,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 617,
+    "scanned": 610,
     "flagged": 1,
     "redacted": 1,
     "by_source": {
@@ -331,11 +325,11 @@
       "DDG/RP ONLINE": 1
     }
   },
-  "generated_at": "2026-10-11 12:03:49 UTC",
+  "generated_at": "2026-10-11 18:45:49 UTC",
   "empty_sources": [
+    "ATP Tour",
     "Asian Tennis Federation",
     "Brisbane International",
-    "Rafael Nadal Fans",
     "Tennis Australia",
     "USTA Florida"
   ]
