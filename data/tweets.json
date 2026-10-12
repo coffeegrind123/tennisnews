@@ -2,7 +2,7 @@
   {
     "title": "Novak Djokovic reflects on his early exit in Shanghai and looks forward to Paris 👀",
     "description": "",
-    "link": "https://nitter.freedit.eu/tntsports/status/2108607201573036332#m",
+    "link": "https://lightbrd.com/tntsports/status/2108607201573036332#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -11,14 +11,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0509165022440656,
+      "score": 0.06067738366600131,
       "detections": []
     }
   },
   {
     "title": "Why are the \"haters\" attacking @CocoGauff ? She did everything within the rules. Honestly, Coco is the most genuine, thoughtful, humble human being you'll ever find. She is loved by everyone in the Tennis world. It's really disturbing to see her going through this turmoil.#kindness",
     "description": "",
-    "link": "https://nitter.freedit.eu/ChrissieEvert/status/2108189710568804682#m",
+    "link": "https://lightbrd.com/ChrissieEvert/status/2108189710568804682#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -27,14 +27,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.14379686476656445,
+      "score": 0.1532408775831513,
       "detections": []
     }
   },
   {
     "title": "In other news, man disembarks Titanic, rejecting floatation as “unacceptable” 🤪",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2107925521447416305#m",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2107925521447416305#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -43,14 +43,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07148748699338209,
+      "score": 0.08990428230873926,
       "detections": []
     }
   },
   {
     "title": "[redacted: this text was flagged as a prompt-injection payload]",
     "description": "",
-    "link": "https://nitter.freedit.eu/UniversTennis/status/2107875811831198049#m",
+    "link": "https://lightbrd.com/UniversTennis/status/2107875811831198049#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "high",
-      "score": 0.8630134237647838,
+      "score": 0.8699227389384638,
       "detections": [],
       "redacted": true
     }
@@ -67,7 +67,7 @@
   {
     "title": "Smh 🤦🏼‍♀️",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2107899427306475812#m",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2107899427306475812#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -76,7 +76,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05997183553413306,
+      "score": 0.06923316159239913,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 6: Bergs stuns Alcaraz! 😱 Zverev seals year-end No. 1, Tsitsipas beats Fritz and Medvedev cruises into the last 16. 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://lightbrd.com/perfecttennisuk/status/2109690605916106984#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-12 20:00 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05174232681724838,
+      "detections": []
+    }
+  },
+  {
+    "title": "Owen Jones discusses immigration with Konstantin Kisin and Francis Foster on TriggerNOMETRY",
+    "description": "",
+    "link": "https://lightbrd.com/TonyLapidus/status/2109663047581311048#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-12 18:10 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07672444712306134,
       "detections": []
     }
   },
@@ -92,7 +124,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.044633013034731335,
+      "score": 0.04794336097011944,
       "detections": []
     }
   },
@@ -108,7 +140,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.044684353984135144,
+      "score": 0.046466065865079655,
       "detections": []
     }
   },
@@ -124,39 +156,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06664518077496441,
-      "detections": []
-    }
-  },
-  {
-    "title": "🎾 Shanghai Day 2: Hurkacz sets up a Djokovic showdown, Tsitsipas advances, Bu shines on serve and Norrie crashes out. Full recap 👇\n\nperfect-tennis.com/shanghai-…",
-    "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2108248715760918771#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-10-08 20:30 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06728620407833781,
-      "detections": []
-    }
-  },
-  {
-    "title": "Shanghai Day 1 🎾 Altmaier comes from a set down to beat Rune, while Berrettini, Machac, Fery and Wu all book their places in round two.\n\nperfect-tennis.com/shanghai-…",
-    "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2107899696048201973#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-10-07 21:23 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.041499568614869,
+      "score": 0.07298647483463902,
       "detections": []
     }
   },
@@ -172,7 +172,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04110978562399009,
+      "score": 0.04838077284405698,
       "detections": []
     }
   },
@@ -188,7 +188,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -204,7 +204,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05375876057592716,
+      "score": 0.0680413035403321,
       "detections": []
     }
   },
@@ -220,7 +220,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0382311927956425,
+      "score": 0.04386878636254758,
       "detections": []
     }
   },
@@ -236,7 +236,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07430335948554821,
+      "score": 0.07873480838748032,
       "detections": []
     }
   },
@@ -252,7 +252,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03419672292954768,
+      "score": 0.04011619627844751,
       "detections": []
     }
   },
@@ -268,7 +268,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3805444408157251,
+      "score": 0.5250368602383791,
       "detections": []
     }
   },
@@ -284,7 +284,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -300,7 +300,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -316,7 +316,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
+      "detections": []
+    }
+  },
+  {
+    "title": "I suspect you know a lot more than most of us 😃",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2109691321040380360#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 20:03 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1284310225291502,
+      "detections": []
+    }
+  },
+  {
+    "title": "Stefanos Tsitsipas on camera after win > Fritz. \"I'm not a huge fan of math myself,\" he says. \"It was an assessment of today's match.  X, Y and Z has been over-complicating things. In the end 1, 2 and 3 was easier than any of the other theories I might have had in the beginning.\"",
+    "description": "",
+    "link": "https://lightbrd.com/tomtebbutt/status/2109668517649735930#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 18:32 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09664616117453932,
       "detections": []
     }
   },
@@ -332,7 +364,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06055937555163351,
+      "score": 0.06399643516456799,
       "detections": []
     }
   },
@@ -348,7 +380,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5329793440685826,
+      "score": 0.49964448051621474,
       "detections": []
     }
   },
@@ -364,39 +396,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.028418747584157127,
+      "score": 0.03157869086791935,
       "detections": []
     }
   },
   {
-    "title": "ATP 500 JAPAN OPEN: 2R\nAt 10 pm ET Canada.\n#30 Alejandro Tabilo, 29, (CHI) vs \n#40 Denis Shapovalov, 27, (CAN).\nH2H: 0-0.\nAT & DS both raised in Toronto.\nUS Open 2015 junior doubles.\nDS & FAA (CAN) def Tabilo (20 pounds heavier) (CAN) & Felipe Cuhna Silva (POR) 6-2, 3-6, (10-4).",
+    "title": "If you lose in the first round of Wuhan WTA 1000, you earn $18,300. If you lose in the second round, you earn $26,000",
     "description": "",
-    "link": "https://lightbrd.com/tomtebbutt/status/2106072005577785369#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-02 20:21 EEST",
+    "link": "https://lightbrd.com/TennisPublisher/status/2109688939757932663#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-12 19:53 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042106884624653215,
-      "detections": []
-    }
-  },
-  {
-    "title": "RF - who else? Or maybe (beware oxymoron) a well-behaved John McEnroe.",
-    "description": "",
-    "link": "https://lightbrd.com/tomtebbutt/status/2103611651853586511#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-09-26 01:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05983814628310663,
+      "score": 0.04398502786050563,
       "detections": []
     }
   },
@@ -412,7 +428,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04484151127105343,
+      "score": 0.05101481497893847,
       "detections": []
     }
   },
@@ -428,7 +444,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04938456508278605,
+      "score": 0.04989386899961668,
       "detections": []
     }
   },
@@ -444,7 +460,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03773628296379756,
+      "score": 0.04462832239022313,
       "detections": []
     }
   },
@@ -460,23 +476,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.047771060889083165,
-      "detections": []
-    }
-  },
-  {
-    "title": "Pat Rafter and I with the US Open trophy during his post-tournament victory photo shoot in 1997 in front of the United Nations",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2108889168957108315#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-10 14:55 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03877593682971853,
+      "score": 0.05581827415789238,
       "detections": []
     }
   },
@@ -492,7 +492,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -508,7 +508,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04721806526117825,
+      "score": 0.05492274252439274,
       "detections": []
     }
   },
@@ -524,7 +524,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0763288362855373,
+      "score": 0.09100770729937732,
       "detections": []
     }
   },
@@ -540,7 +540,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.045107951948091564,
+      "score": 0.05327508899664182,
       "detections": []
     }
   },
@@ -556,7 +556,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11687726793319098,
+      "score": 0.09445006988944613,
       "detections": []
     }
   },
@@ -572,7 +572,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07133497694875393,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
@@ -588,7 +588,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046315418836513,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
@@ -604,7 +604,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23987347141005802,
+      "score": 0.21472693283175764,
       "detections": []
     }
   },
@@ -620,7 +620,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05961877571892252,
+      "score": 0.05932541785596207,
       "detections": []
     }
   },
@@ -636,7 +636,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -652,7 +652,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -668,7 +668,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09538015064692588,
+      "score": 0.12847031732239908,
       "detections": []
     }
   },
@@ -684,7 +684,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0682846059170864,
+      "score": 0.09305625184728848,
       "detections": []
     }
   },
@@ -700,7 +700,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10530321311829208,
+      "score": 0.10802246388680846,
       "detections": []
     }
   },
@@ -716,7 +716,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
       "detections": []
     }
   },
@@ -732,7 +732,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04429579004191101,
+      "score": 0.04606339031995195,
       "detections": []
     }
   },
@@ -748,7 +748,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03664577134024063,
+      "score": 0.046044345126827674,
       "detections": []
     }
   },
@@ -764,7 +764,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05077455186343883,
+      "score": 0.058084135172919674,
       "detections": []
     }
   },
@@ -780,7 +780,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035108805522030946,
+      "score": 0.0373607233899036,
       "detections": []
     }
   },
@@ -796,7 +796,71 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038471704956394716,
+      "score": 0.039732775306344684,
+      "detections": []
+    }
+  },
+  {
+    "title": "Nagal apologized for his celebration.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2109763318236000760#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-13 00:49 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04580318884404172,
+      "detections": []
+    }
+  },
+  {
+    "title": "Shanghai Masters 1000 R16",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2109697157251084357#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-12 20:26 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11656940735873306,
+      "detections": []
+    }
+  },
+  {
+    "title": "Wow. \n\nWhat an upset in Wuhan!",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2109677096029368818#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-12 19:06 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05679494625360438,
+      "detections": []
+    }
+  },
+  {
+    "title": "One of the most interesting Races in recent years.\n\nHalf of the contenders never made the event.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2109647267686719903#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-12 17:07 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0362879547421649,
       "detections": []
     }
   },
@@ -812,71 +876,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07888502975087286,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tommy Paul is an incredible shotmaker.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2109645277342945409#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-12 17:00 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.034949076990044875,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tommy Paul easily beats the defending champion Valentin Vacherot (was on a 10 match winning streak here) 6-4, 6-2 to reach the last 16 in Shanghai against  Zizou Bergs.\n\nVacherot will leave the top 30 after this tournament.\n\nPaul well inside the Race to Turin.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2109644993052975210#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-12 16:58 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10226516232465518,
-      "detections": []
-    }
-  },
-  {
-    "title": "Unfortunately, Aleksandra Krunic has withdrawn from WTA Finals Indian Wells with a knee injury.\n\nAs a result, Krunic and doubles partner Anna Danilina will not compete at the season-ending event.",
-    "description": "",
-    "link": "https://lightbrd.com/WTA/status/2109636885375001041#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-12 16:26 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.035384336121688766,
-      "detections": []
-    }
-  },
-  {
-    "title": "x.com/atptour/status/2109630…",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2109640105803600032#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-12 16:39 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05692075049327565,
+      "score": 0.08398732389347645,
       "detections": []
     }
   },
@@ -892,7 +892,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035974073359954485,
+      "score": 0.04012259663164178,
       "detections": []
     }
   },
@@ -908,7 +908,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05088370749178214,
+      "score": 0.06194661225230959,
       "detections": []
     }
   },
@@ -924,7 +924,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15434482445445125,
+      "score": 0.17667280058003013,
       "detections": []
     }
   },
@@ -940,7 +940,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03931104774121497,
+      "score": 0.048086155750130345,
       "detections": []
     }
   },
@@ -956,7 +956,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0592671338405419,
+      "score": 0.05690833563233797,
       "detections": []
     }
   }
