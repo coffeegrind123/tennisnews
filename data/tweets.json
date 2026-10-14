@@ -1,5 +1,69 @@
 [
   {
+    "title": "My son tells me many of his classmates are betting on sports. He’s 16. There’s going to be a societal reckoning.",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2110424810585035061#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-14 20:37 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.047874004068965144,
+      "detections": []
+    }
+  },
+  {
+    "title": "Another unintended consequence of the serve clock: Added pressure on the ball kids. In Shanghai these poor kids are handling *both* balls and snotty towels. Jodar snaps at them in match vs Botic— but it’s 100% the players’ responsibility to manage that time.",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2110420893868667336#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-14 20:22 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.047609279412397155,
+      "detections": []
+    }
+  },
+  {
+    "title": "\"Riyadh Season has announced the postponement of the third edition of the international “Six Kings Slam” tennis tournament, originally scheduled for October 21, 22, and 24, to December 27–30, 2026...The decision reflects Riyadh Season’s commitment to delivering sporting events to the highest standards, following an assessment of the organizational and logistical challenges associated with hosting the tournament and their potential impact on the quality of the audience experience.\"",
+    "description": "",
+    "link": "https://lightbrd.com/jon_wertheim/status/2110383560045506600#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-14 17:53 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.029808797491910816,
+      "detections": []
+    }
+  },
+  {
+    "title": "Umpire to Jódar: “Así no con ellos”\nNot like that with them.",
+    "description": "",
+    "link": "https://lightbrd.com/AmyLundyDahl/status/2110341035750539345#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-14 15:04 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0663875936285536,
+      "detections": []
+    }
+  },
+  {
     "title": "Novak Djokovic reflects on his early exit in Shanghai and looks forward to Paris 👀",
     "description": "",
     "link": "https://lightbrd.com/tntsports/status/2108607201573036332#m",
@@ -16,67 +80,18 @@
     }
   },
   {
-    "title": "Why are the \"haters\" attacking @CocoGauff ? She did everything within the rules. Honestly, Coco is the most genuine, thoughtful, humble human being you'll ever find. She is loved by everyone in the Tennis world. It's really disturbing to see her going through this turmoil.#kindness",
+    "title": "🎾 Shanghai Day 8: Medvedev beats Tsitsipas, Jodar fights back again, Ruud advances after FAA retires and Paul ends Bergs' run! 👇\n\nperfect-tennis.com/shanghai-…",
     "description": "",
-    "link": "https://lightbrd.com/ChrissieEvert/status/2108189710568804682#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-08 16:36 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.14379686476656445,
-      "detections": []
-    }
-  },
-  {
-    "title": "In other news, man disembarks Titanic, rejecting floatation as “unacceptable” 🤪",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2107925521447416305#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-07 23:06 EEST",
+    "link": "https://lightbrd.com/perfecttennisuk/status/2110424176381120790#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-14 20:35 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07148748699338209,
-      "detections": []
-    }
-  },
-  {
-    "title": "[redacted: this text was flagged as a prompt-injection payload]",
-    "description": "",
-    "link": "https://lightbrd.com/UniversTennis/status/2107875811831198049#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-07 19:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "high",
-      "score": 0.8630134237647838,
-      "detections": [],
-      "redacted": true
-    }
-  },
-  {
-    "title": "Smh 🤦🏼‍♀️",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2107899427306475812#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-07 21:22 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05997183553413306,
+      "score": 0.042685242406305765,
       "detections": []
     }
   },
@@ -141,22 +156,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.044633013034731335,
-      "detections": []
-    }
-  },
-  {
-    "title": "🎾 Shanghai Day 4: Alcaraz cruises, Medvedev and Auger-Aliassime battle back, Tsitsipas earns his 400th win and Vacherot advances! 👇\n\nperfect-tennis.com/shanghai-…",
-    "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2108942447095033861#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-10-10 18:27 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.044684353984135144,
       "detections": []
     }
   },
@@ -801,82 +800,98 @@
     }
   },
   {
-    "title": "Medvedev 6-4 up on Tsitsipas in Shanghai.",
+    "title": "Not surprising",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2110323529988079911#m",
+    "link": "https://lightbrd.com/josemorgado/status/2110401055246647493#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-14 13:55 EEST",
+    "date": "2026-10-14 19:03 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03915791463337139,
+      "score": 0.030766701626305067,
       "detections": []
     }
   },
   {
-    "title": "Winners:\n\nOstapenko - 46\nPegula - 15\n\nThe most Ostapenko match ever.\n\nThe last return game was INSANE.",
+    "title": "ATP LIVE RACE:\n\n4. Cobolli, 3.540 (OUT)\n5. Tiafoe, 3.380 (OUT)\n6. Fils, 3.325 (OUT)\n7. Medvedev, 3.220 (QF)\n8. De Minaur, 2.880 (QF)\n--\n9. Djokovic, 2.840 (OUT)\n10. Jódar, 2.709 (QF)\n11. Paul, 2.585 (QF)\n12. Fritz, 2.530 (OUT)\n13. Mensik, 2.495 (OUT)",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2110322733896941904#m",
+    "link": "https://lightbrd.com/josemorgado/status/2110370610882785294#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-14 13:52 EEST",
+    "date": "2026-10-14 17:02 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04021344984790219,
+      "score": 0.06995943154280743,
       "detections": []
     }
   },
   {
-    "title": "WHAT A WIN!\n\nJelena Ostapenko saves three match points and defeats world #4 Jessica Pegula 2-6, 7-6(7), 6-3 to reach the last 16 in Wuhan.\n\nHer best win of the season.\n\n28th career top 10 win\n16th career top 5 win\n1st top 5 win of the year",
+    "title": "Tomorrow in Shanghai:\n\n2.30pm: Gea vs. Davidovich\n6pm: Zverev vs. De Minaur",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2110321533407363109#m",
+    "link": "https://lightbrd.com/josemorgado/status/2110368826634178897#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-14 13:47 EEST",
+    "date": "2026-10-14 16:55 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05349587295802873,
+      "score": 0.05218518693494173,
       "detections": []
     }
   },
   {
-    "title": "A little piece of Karolina Muchova history:\n\nShe becomes the first woman this century to win her first 10 tiebreaks of the year, via @OptaAce 🌟\n\n✅ Tomljanovic\n✅ Cristian\n✅ Mboko\n✅ Sawangkaew\n✅ Osaka\n✅ Gauff\n✅ Boulter\n✅ Osaka\n✅ Mcnally\n✅ Mcnally",
+    "title": "WOW!\n\nAnn Li comes back from 2-4 down in the 2nd set and upsets world #2 and three time champ Aryna Sabalenka 3-6, 6-4, 7-6(5) to reach the last 16 in Wuhan.\n\nNeeded TEN MATCH POINTS!\n\nSabalenka won her first 20 matches at the event but now has back to back losses...\n\nShe is looking like she needs holidays.",
     "description": "",
-    "link": "https://lightbrd.com/BastienFachan/status/2110314720876212695#m",
+    "link": "https://lightbrd.com/josemorgado/status/2110368491098210662#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-14 13:20 EEST",
-    "is_retweet": true,
+    "date": "2026-10-14 16:53 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05132316146570901,
+      "score": 0.036878392688050966,
       "detections": []
     }
   },
   {
-    "title": "Active players to reach the QFs at all M1000 events:\n\nDjokovic\nCilic\nTsitsipas\nZverev\nDimitrov\nMedvedev\nHurkacz\nRublev\nAlcaraz\nSinner\nAuger-Aliassime\nRUUD\n\nMissing one: Wawrinka (Miami)",
+    "title": "NINE match points saved from Sabalenka.\n\nLi has a 10th. First on serve.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2110302103457390620#m",
+    "link": "https://lightbrd.com/josemorgado/status/2110368150688846231#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-14 12:30 EEST",
-    "is_retweet": true,
+    "date": "2026-10-14 16:52 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.420336790407156,
+      "score": 0.039677251299087564,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP250 Stockholm Open entry list\nFritz\nRuud\nRune\nBerrettini\nBublik\nShapovalov\nNorrie\nVacherot\nBlockx\nBergs\nvan de Zandschulp\nCerundolo\nFery\nDavidovich Fokina\nDarderi\nTabilo\nEtcheverry\nHumbert\nRinderknech\nMichelsen",
+    "description": "",
+    "link": "https://lightbrd.com/MichalSamulski/status/2110421244403216772#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-14 20:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.54729992808026,
       "detections": []
     }
   },
@@ -941,22 +956,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03931104774121497,
-      "detections": []
-    }
-  },
-  {
-    "title": "2026 @LaverCup by the numbers\n- 74,336 fans from 61 countries\n- more than 179 million social/digital impressions\n- broadcasted to more than 220 territories\n- 155 accredited media\n- more than 1,100 people involved in the production",
-    "description": "",
-    "link": "https://lightbrd.com/MichalSamulski/status/2107055729593262087#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-05 13:30 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0592671338405419,
       "detections": []
     }
   }
