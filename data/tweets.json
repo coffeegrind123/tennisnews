@@ -2,7 +2,7 @@
   {
     "title": "My son tells me many of his classmates are betting on sports. He’s 16. There’s going to be a societal reckoning.",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2110424810585035061#m",
+    "link": "https://nitter.meowing.monster/AmyLundyDahl/status/2110424810585035061#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -18,7 +18,7 @@
   {
     "title": "Another unintended consequence of the serve clock: Added pressure on the ball kids. In Shanghai these poor kids are handling *both* balls and snotty towels. Jodar snaps at them in match vs Botic— but it’s 100% the players’ responsibility to manage that time.",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2110420893868667336#m",
+    "link": "https://nitter.meowing.monster/AmyLundyDahl/status/2110420893868667336#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -34,7 +34,7 @@
   {
     "title": "\"Riyadh Season has announced the postponement of the third edition of the international “Six Kings Slam” tennis tournament, originally scheduled for October 21, 22, and 24, to December 27–30, 2026...The decision reflects Riyadh Season’s commitment to delivering sporting events to the highest standards, following an assessment of the organizational and logistical challenges associated with hosting the tournament and their potential impact on the quality of the audience experience.\"",
     "description": "",
-    "link": "https://nitter.freedit.eu/jon_wertheim/status/2110383560045506600#m",
+    "link": "https://nitter.meowing.monster/jon_wertheim/status/2110383560045506600#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -50,7 +50,7 @@
   {
     "title": "Umpire to Jódar: “Así no con ellos”\nNot like that with them.",
     "description": "",
-    "link": "https://nitter.freedit.eu/AmyLundyDahl/status/2110341035750539345#m",
+    "link": "https://nitter.meowing.monster/AmyLundyDahl/status/2110341035750539345#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -66,7 +66,7 @@
   {
     "title": "Novak Djokovic reflects on his early exit in Shanghai and looks forward to Paris 👀",
     "description": "",
-    "link": "https://nitter.freedit.eu/tntsports/status/2108607201573036332#m",
+    "link": "https://nitter.meowing.monster/tntsports/status/2108607201573036332#m",
     "handle": "amylundydahl",
     "author": "Amy Lundy",
     "outlet": "Tennis Connected",
@@ -76,6 +76,886 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.06067738366600131,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 8: Medvedev beats Tsitsipas, Jodar fights back again, Ruud advances after FAA retires and Paul ends Bergs' run! 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/perfecttennisuk/status/2110424176381120790#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-14 20:35 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04536132421892741,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 7: Zverev saves four set points to beat Bublik! Gea stuns Mensik, Foki ends Hurkacz's run and de Minaur advances. 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/perfecttennisuk/status/2110067719269749095#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-13 20:58 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04883922912578043,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 6: Bergs stuns Alcaraz! 😱 Zverev seals year-end No. 1, Tsitsipas beats Fritz and Medvedev cruises into the last 16. 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/perfecttennisuk/status/2109690605916106984#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-12 20:00 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05174232681724838,
+      "detections": []
+    }
+  },
+  {
+    "title": "Owen Jones discusses immigration with Konstantin Kisin and Francis Foster on TriggerNOMETRY",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TonyLapidus/status/2109663047581311048#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-12 18:10 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07672444712306134,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 5: Arthur Gea stuns Shelton, Zverev earns his 60th win, Bublik battles through and Davidovich Fokina saves match point! 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/perfecttennisuk/status/2109334198079397929#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-11 20:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04794336097011944,
+      "detections": []
+    }
+  },
+  {
+    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
+    "description": "",
+    "link": "https://nitter.meowing.monster/operskapevacica/status/2090571789659214069#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 01:48 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04011619627844751,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
+    "description": "",
+    "link": "https://nitter.meowing.monster/jelenadjokovic/status/2090716683384103269#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 11:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.5250368602383791,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
+    "description": "",
+    "link": "https://nitter.meowing.monster/NBA/status/2078598248726438111#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-07-19 00:50 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.057143928695953146,
+      "detections": []
+    }
+  },
+  {
+    "title": "🥹🥹🥹🥹🥹",
+    "description": "",
+    "link": "https://nitter.meowing.monster/jelenadjokovic/status/2017249310388142394#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-01-30 16:51 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2923701160106168,
+      "detections": []
+    }
+  },
+  {
+    "title": "🤣🤣🤣🙌🏼",
+    "description": "",
+    "link": "https://nitter.meowing.monster/jelenadjokovic/status/1987834454463652061#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-11-10 12:47 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2923701160106168,
+      "detections": []
+    }
+  },
+  {
+    "title": "I suspect you know a lot more than most of us 😃",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2109691321040380360#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 20:03 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1284310225291502,
+      "detections": []
+    }
+  },
+  {
+    "title": "Stefanos Tsitsipas on camera after win > Fritz. \"I'm not a huge fan of math myself,\" he says. \"It was an assessment of today's match.  X, Y and Z has been over-complicating things. In the end 1, 2 and 3 was easier than any of the other theories I might have had in the beginning.\"",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2109668517649735930#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 18:32 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09664616117453932,
+      "detections": []
+    }
+  },
+  {
+    "title": "For Canadian nighthawks:\nNow on TSN2 \nFernandez vs Alexandrova\nOn TSN5\nAuger-Aliassime vs Carreno Busta",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2109508012167532656#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 07:54 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06399643516456799,
+      "detections": []
+    }
+  },
+  {
+    "title": "PLEASE - S'IL VOUS PLAIT\nGreg Rusedski, who grew up in Montreal and speaks some French, is pronouncing Auger-Aliassime\n\"Oh-JURE-aliassime.\"\nIt's \"Oh-ZHAY-aliassime.\"\nDon't like to criticize - but he should be among the last to be mispronouncing it (doing Shapovalov-Tabilo now)!",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106208056027590835#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-03 05:21 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.49964448051621474,
+      "detections": []
+    }
+  },
+  {
+    "title": "A solid choice for FAA",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106078414834745449#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-02 20:46 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03157869086791935,
+      "detections": []
+    }
+  },
+  {
+    "title": "This is the house (photo from 2017) that still stands of my ancestor grandmother Sarah Prince Osborne, who was one of the first accused Salem witches. Her story is documented in the book \"A Salem Witch Story: The Tale of Sarah Prince Osborne\" here a.co/d/06JH0sEv",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2110551347837673801#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-15 05:00 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06172211622071737,
+      "detections": []
+    }
+  },
+  {
+    "title": "Is the printed media guide and media notes a thing of the past?@joefav looked into it … joefavorito.com/2026/10/13/w…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2110106211517690160#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-13 23:31 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0847370085132376,
+      "detections": []
+    }
+  },
+  {
+    "title": "If you lose in the first round of Wuhan WTA 1000, you earn $18,300. If you lose in the second round, you earn $26,000",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2109688939757932663#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-12 19:53 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04398502786050563,
+      "detections": []
+    }
+  },
+  {
+    "title": "Why are the WTA 1000 in Wuhan and the ATP 1000 in Shanghai not morphed into a combined event???",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2109612961790873817#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-12 14:51 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05101481497893847,
+      "detections": []
+    }
+  },
+  {
+    "title": "The republished autobiography of Althea Gibson \"I Always Wanted To Be Somebody\" is for sale and download here a.co/d/0fHMzr6M #Amazon via @Amazon",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2109434044689617397#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-12 03:00 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04989386899961668,
+      "detections": []
+    }
+  },
+  {
+    "title": "Had the chance to attend the USA Standing Adaptive Tennis tournament at @SMU. \n\nThe athletes have decreased mobility due to amputations, congenital conditions, etc., and they are SO impressive. \n\nThis is Nico Basaez from Chile (vs. Yusuke Hatano of Japan). Amazing. @USTATexas",
+    "description": "",
+    "link": "https://nitter.meowing.monster/BlairHenley/status/1602024208615219207#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2022-12-11 21:35 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08314474589953268,
+      "detections": []
+    }
+  },
+  {
+    "title": "— Periodista: “Has practicado con Jannik Sinner y con Carlos Alcaraz. ¿Están haciendo fila para entrenar contigo?”\n\n— Zizou Bergs: “No, no, no. Soy su perra. Cuando quieren practicar, yo estoy ahí”\n\nHoy el tipo le ganó a Alcaraz.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/Tiempodetenis1/status/2109760419212427372#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-13 00:37 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.5864810770234961,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ya está subida en mi canal mi semana en Tokyo 🇯🇵🤟🏻\n\nCharlamos con @carlosalcaraz y @jamunar_38",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tometcheverry/status/2109775970387550217#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-13 01:39 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.7622020487934897,
+      "detections": []
+    }
+  },
+  {
+    "title": "The Great Wall and #ChinaOpen trophy. 🏆\nKeep going up. The view follows.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/ChinaOpen/status/2109559939035455859#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-12 11:20 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05492274252439274,
+      "detections": []
+    }
+  },
+  {
+    "title": "Radek Stepanek is on this season of StardanceCZ. Here he is performing his first dance of the competition with dance partner Vanda Bartosova Detinska. 😃",
+    "description": "",
+    "link": "https://nitter.meowing.monster/lawanda50/status/2109093639276445780#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-11 04:28 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09100770729937732,
+      "detections": []
+    }
+  },
+  {
+    "title": "Early birthday present secured ♥️\n\n#ChinaOpen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/WTA/status/2107830605727797663#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 16:49 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09150462371495022,
+      "detections": []
+    }
+  },
+  {
+    "title": "Took care of business 💼\n\n@ElinaSvitolina is into her 29th career WTA 1000 quarterfinal after defeating Li!\n\n#ChinaOpen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/WTA/status/2107852780220129298#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 18:17 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04766138540894144,
+      "detections": []
+    }
+  },
+  {
+    "title": "Quarterfinalists assemble ✨\n\n@MercedesBenz | #ChinaOpen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/WTA/status/2107857640474759484#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 18:36 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.21472693283175764,
+      "detections": []
+    }
+  },
+  {
+    "title": "Iga advances ✅\n\n@iga_swiatek caps off an incredible showing in Beijing against Jovic!\n\n#ChinaOpen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/WTA/status/2107726303856087393#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-07 09:54 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05932541785596207,
+      "detections": []
+    }
+  },
+  {
+    "title": "This feeling? Unbeatable.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/DjokerNole/status/2107470381854707821#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2026-10-06 16:57 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.031627229987510885,
+      "detections": []
+    }
+  },
+  {
+    "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/theslicetennis/status/2047772450298228828#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-04-24 23:19 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04662039750201252,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alcaraz didn't win, but he still make a statement. How did you like Alcaraz's look this US Open?\n\nPresented by @SIASport\n\n#alcaraz #USOpen #tennis",
+    "description": "",
+    "link": "https://nitter.meowing.monster/theslicetennis/status/2099494620602286223#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-09-14 16:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.12847031732239908,
+      "detections": []
+    }
+  },
+  {
+    "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
+    "description": "",
+    "link": "https://nitter.meowing.monster/theslicetennis/status/2094654232460771681#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-09-01 08:11 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09305625184728848,
+      "detections": []
+    }
+  },
+  {
+    "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/theslicetennis/status/2094288856296145080#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-31 07:59 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10802246388680846,
+      "detections": []
+    }
+  },
+  {
+    "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
+    "description": "",
+    "link": "https://nitter.meowing.monster/theslicetennis/status/2090301130009915703#m",
+    "handle": "theslicetennis",
+    "author": "The Slice Tennis",
+    "outlet": "The Slice",
+    "date": "2026-08-20 07:53 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.16234388205363884,
+      "detections": []
+    }
+  },
+  {
+    "title": "FIRST TITLE 🏆\n\nIt's third time lucky in tour-level finals for Kimberly Birrell as she claims the all-Aussie battle against Maya Joint 6-4 6-2, scoring her maiden WTA title at the Korea Open!\n\n#GoAussies",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisAustralia/status/2104122798918738099#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-09-27 11:15 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04606339031995195,
+      "detections": []
+    }
+  },
+  {
+    "title": "Great graphic. And massive fan of the Wikipedia colour scheme 😍",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MattyAT/status/2099245223511736380#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-09-14 00:13 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.046044345126827674,
+      "detections": []
+    }
+  },
+  {
+    "title": "Outstanding third-set stats for Elena Rybakina:\n\n> 100% first-serve points won\n> 15 winners, 6 unforced errors\n> 4/4 points won at net\n> generated 5 break points to Sabalenka's 0\n\n#USOpen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MattyAT/status/2098919180179493135#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-09-13 02:38 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.058084135172919674,
+      "detections": []
+    }
+  },
+  {
+    "title": "Sabalenka v Rybakina.\nThree Grand Slam finals. \nThree three-set battles. \nOne of the best big-stage rivalries.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MattyAT/status/2098898071954600347#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-09-13 01:14 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0373607233899036,
+      "detections": []
+    }
+  },
+  {
+    "title": "Speaking of match-ups, we're guaranteed a Grand Slam final rematch with Sabalenka through to the #USOpen decider.\n\nSABALENKA v RYBAKINA\nAO 2023 F - Sabalenka won\nAO 2026 F - Rybakina won\n\nSABALENKA v GAUFF\nUS 2023 F - Gauff won\nRG 2025 F - Gauff won",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MattyAT/status/2098216555628917173#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-09-11 04:06 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.053163022829473876,
+      "detections": []
+    }
+  },
+  {
+    "title": "Gea explains his mid match retirement in Shanghai.\n\n\"During the warm-up, I felt a sharp pain in my psoas. I wasn’t even sure whether I would take to the court. In the end, I wanted to give it a try. Unfortunately, it was too painful to play. With the end of the season approaching, it was too risky to push.\"",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2110737358530175242#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-15 17:19 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.039628706228289186,
+      "detections": []
+    }
+  },
+  {
+    "title": "An Open Letter from ATP Chairman Andrea Gaudenzi on the next phase of OneVision.\n\nProposed changes from 2028, subject to consultation and approval, cover player compensation, rankings and points, the calendar and competition formats.\n\nRead more: bit.ly/4zFeytf",
+    "description": "",
+    "link": "https://nitter.meowing.monster/ATPComms/status/2110732424829452306#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-15 17:00 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08341493440625293,
+      "detections": []
+    }
+  },
+  {
+    "title": "Wow.\n\nDalma Galfi (#152, former top 80) defeats Matilde Jorge 3-6, 7-6(10), 7-5 to reach the QFs in Lisbon WTA 125. \n\n3 hours, 43 minutes \n\nJorge…\nServed for the match in the 2nd set \nHad 5 MPs in the 2nd set tiebreak \nServed for the match and had 1 more MP in the 3rd \n\nInsane",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2110730763289202943#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-15 16:53 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06084902114169886,
+      "detections": []
+    }
+  },
+  {
+    "title": "Some epic scenes here in Lisbon. \n\nMatilde Jorge served for the match in both 2nd and 3rd sets, had a total of six MPs and still wasn’t able to finish the job vs. Galfi, who is now serving at 4-5. \n\n3h31",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2110726922065875016#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-15 16:38 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05258794995367579,
+      "detections": []
+    }
+  },
+  {
+    "title": "Imagine a Swiatek vs. Ostapenko final…",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2110718656862642639#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-15 16:05 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10592235363227735,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP250 Stockholm Open entry list\nFritz\nRuud\nRune\nBerrettini\nBublik\nShapovalov\nNorrie\nVacherot\nBlockx\nBergs\nvan de Zandschulp\nCerundolo\nFery\nDavidovich Fokina\nDarderi\nTabilo\nEtcheverry\nHumbert\nRinderknech\nMichelsen",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2110421244403216772#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-14 20:23 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.5758947037966714,
+      "detections": []
+    }
+  },
+  {
+    "title": "Taylor Fritz will return for the 35th anniversary of the ATP250 Delray Beach. Fritz, the 2023-24 champion, is looking to become the first three-time champion in the history of Delray Beach Open.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2108230621525107126#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-08 19:18 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04012259663164178,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alexander Bublik joins Casper Ruud and Holger Rune to play ATP250 Stockholm.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2108229714213007471#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-08 19:15 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06194661225230959,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP1000 Paris entry list @RolexPMasters",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2108229076427399469#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-08 19:12 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.17667280058003013,
+      "detections": []
+    }
+  },
+  {
+    "title": "Carlos Alcaraz, Coco Gauff, Naomi Osaka and Jannik Sinner are confirmed for exho event AO 1 Point Slam.\nQualies are underway at clubs across Australia. The final incl. pros and amateurs will take place on Wednesday 13 January at Rod Laver Arena.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2108051038766858252#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-08 07:25 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048086155750130345,
+      "detections": []
+    }
+  },
+  {
+    "title": "The Great Wall Of China 🇨🇳\n\n@DjokerNole is STILL undefeated at the #ChinaOpen and wins his 7th title, after De Minaur retires in Beijing",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/TennisTV/status/2107450772351054057#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-06 15:39 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04838077284405698,
+      "detections": []
+    }
+  },
+  {
+    "title": "This feeling? Unbeatable.",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/DjokerNole/status/2107470381854707821#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-06 16:57 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.031627229987510885,
+      "detections": []
+    }
+  },
+  {
+    "title": "Undefeated! 🏆\n\nNovak Djokovic expands his reign in Beijing 😲💪",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/atptour/status/2107450588279853336#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-06 15:39 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0680413035403321,
+      "detections": []
+    }
+  },
+  {
+    "title": "A strange end to a magical week. Wishing @alexdeminaur a speedy recovery ❤️‍🩹 \n\nProud to win a seventh time at a tournament so close to my heart. Thank you to the Chinese people for the truly incredible support all week. No place like Beijing. 🫶🏼🇨🇳",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/DjokerNole/status/2107466198581399931#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-06 16:41 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04386878636254758,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ladies and gentlemen, our seven-time China Open champion: Novak Djokovic! 🏆\n\n@DjokerNole  | #ChinaOpen",
+    "description": "",
+    "link": "https://nitter.tiekoetter.com/ChinaOpen/status/2107462847240212491#m",
+    "handle": "djokernole",
+    "author": "Novak Djokovic",
+    "outlet": "Official",
+    "date": "2026-10-06 16:27 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07873480838748032,
       "detections": []
     }
   }

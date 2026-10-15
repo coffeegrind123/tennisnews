@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-15T10:53:36+00:00",
+  "updated_at": "2026-10-15T18:19:43+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
-      "last_fail": "2026-10-15T10:53:36+00:00",
-      "fails_since_ok": 4,
-      "reason": "https://bird.habedieeh.re: instance cannot resolve @perfecttennisuk - backend cannot read X",
+      "last_fail": "2026-10-15T18:19:36+00:00",
+      "fails_since_ok": 5,
+      "reason": "https://bird.habedieeh.re: instance cannot resolve @djokernole - backend cannot read X",
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-10-15T10:45:46+00:00",
-      "fails_since_ok": 1,
-      "reason": "interstitial did not clear in the browser",
+      "last_fail": "2026-10-15T18:10:29+00:00",
+      "fails_since_ok": 2,
+      "reason": "https://lightbrd.com: instance has no X auth tokens",
       "permanent": false,
       "last_ok": "2026-10-14T18:34:23+00:00",
       "tweets": 5
@@ -29,30 +29,30 @@
       "permanent": false
     },
     "https://nitter.cz": {
-      "last_fail": "2026-10-15T10:49:46+00:00",
-      "fails_since_ok": 1,
+      "last_fail": "2026-10-15T18:16:00+00:00",
+      "fails_since_ok": 2,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-10-15T10:46:05+00:00",
-      "fails_since_ok": 0,
+      "fails_since_ok": 1,
       "tweets": 5,
-      "reason": "",
+      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
       "permanent": false,
-      "last_fail": "2026-10-14T11:04:39+00:00"
+      "last_fail": "2026-10-15T18:10:17+00:00"
     },
     "https://nitter.kareem.one": {
-      "last_fail": "2026-10-15T10:53:25+00:00",
-      "fails_since_ok": 7,
+      "last_fail": "2026-10-15T18:19:31+00:00",
+      "fails_since_ok": 8,
       "reason": "interstitial did not clear in the browser",
       "permanent": true
     },
     "https://nitter.meowing.monster": {
-      "last_ok": "2026-10-13T20:16:43+00:00",
-      "fails_since_ok": 1,
+      "last_ok": "2026-10-15T18:10:39+00:00",
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "interstitial did not clear in the browser",
+      "reason": "",
       "permanent": false,
       "last_fail": "2026-10-15T10:45:58+00:00"
     },
@@ -71,8 +71,11 @@
     "https://nitter.tiekoetter.com": {
       "retired": true,
       "retired_at": "2026-09-03T19:31:19+00:00",
-      "permanent": true,
-      "reason": "operator retired the instance: ate for its return. Upstream legal notice On 24 August 2026 cease and desist letters were sent by X Corp. demanding a pe"
+      "permanent": false,
+      "reason": "",
+      "last_ok": "2026-10-15T18:19:43+00:00",
+      "fails_since_ok": 0,
+      "tweets": 5
     },
     "https://nitter.xitter.cc": {
       "last_ok": "2026-09-28T12:40:51+00:00",
