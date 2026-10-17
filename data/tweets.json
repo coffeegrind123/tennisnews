@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07988143891898933,
+      "score": 0.07844014174516728,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15059159957834423,
+      "score": 0.11489253571048472,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06151994420988763,
+      "score": 0.05533682521186702,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06762586520987879,
+      "score": 0.07000470878929216,
       "detections": []
     }
   },
@@ -75,7 +75,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.052430694771138535,
+      "score": 0.059347714835529655,
+      "detections": []
+    }
+  },
+  {
+    "title": "🎾 Shanghai Day 11: Davidovich Fokina stuns Zverev, Jodar beats Medvedev! 🇪🇸 Am all-Spanish Masters 1000 final awaits! 👇\n\nperfect-tennis.com/shanghai-…",
+    "description": "",
+    "link": "https://lightbrd.com/perfecttennisuk/status/2111458958980403253#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-17 17:06 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06059935976313145,
       "detections": []
     }
   },
@@ -91,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04523925888019744,
+      "score": 0.04476057422326397,
       "detections": []
     }
   },
@@ -107,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050066543752850606,
+      "score": 0.046016881446742895,
       "detections": []
     }
   },
@@ -123,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04536132421892741,
+      "score": 0.042685242406305765,
       "detections": []
     }
   },
@@ -139,23 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04883922912578043,
-      "detections": []
-    }
-  },
-  {
-    "title": "🎾 Shanghai Day 6: Bergs stuns Alcaraz! 😱 Zverev seals year-end No. 1, Tsitsipas beats Fritz and Medvedev cruises into the last 16. 👇\n\nperfect-tennis.com/shanghai-…",
-    "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2109690605916106984#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-10-12 20:00 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05174232681724838,
+      "score": 0.0454004787796321,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0680413035403321,
+      "score": 0.05375876057592716,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04386878636254758,
+      "score": 0.0382311927956425,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07873480838748032,
+      "score": 0.07430335948554821,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1284310225291502,
+      "score": 0.13001057870750016,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09664616117453932,
+      "score": 0.10542145595195437,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06399643516456799,
+      "score": 0.06055937555163351,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.49964448051621474,
+      "score": 0.5329793440685826,
       "detections": []
     }
   },
@@ -395,7 +395,71 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03157869086791935,
+      "score": 0.028418747584157127,
+      "detections": []
+    }
+  },
+  {
+    "title": "Is #NoTo24 trending yet? Terrible decision by @CFBPlayoff to expand playoff to 24 teams and eliminate conference title games. LISTEN TO THE FANS! THE AUDIENCE! I'm boycotting all college football sponsors @drpepper @Allstate @ATT @ChickfilA @CocaCola @CapitalOne @cheezit @vrbo",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2111485324840869921#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-17 18:51 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.4354941078854945,
+      "detections": []
+    }
+  },
+  {
+    "title": "The book \"Pete Sampras: Greatness Revisited\" by Steve Flink is for sale and download here a.co/d/0ftVYLT1 #Amazon via @Amazon The book revisits all of the 14 major singles title won by Sampras with some fascinating extra content.",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2111468391722586171#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-17 17:44 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08497933120129417,
+      "detections": []
+    }
+  },
+  {
+    "title": "It was great to catch up with my former USTA boss, Arlen Kantarian, who was on the same flight as me Friday night from Vero Beach, Florida to New York",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2111420594671833179#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-17 14:34 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.034119006005276786,
+      "detections": []
+    }
+  },
+  {
+    "title": "This Davis Cup series between the USA and India in Winston-Salem was postponed due to the 9/11 attacks on the USA. @JRBlake made his Davis Cup debut and Andy Roddick played his first \"live\" Davis Cup matches... Six years later, the two would lead the USA to the Davis Cup title",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2111420273748807763#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-17 14:33 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.037297556817669095,
       "detections": []
     }
   },
@@ -411,71 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06172211622071737,
-      "detections": []
-    }
-  },
-  {
-    "title": "Is the printed media guide and media notes a thing of the past?@joefav looked into it … joefavorito.com/2026/10/13/w…",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2110106211517690160#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-13 23:31 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0847370085132376,
-      "detections": []
-    }
-  },
-  {
-    "title": "If you lose in the first round of Wuhan WTA 1000, you earn $18,300. If you lose in the second round, you earn $26,000",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2109688939757932663#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-12 19:53 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04398502786050563,
-      "detections": []
-    }
-  },
-  {
-    "title": "Why are the WTA 1000 in Wuhan and the ATP 1000 in Shanghai not morphed into a combined event???",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2109612961790873817#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-12 14:51 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05101481497893847,
-      "detections": []
-    }
-  },
-  {
-    "title": "The republished autobiography of Althea Gibson \"I Always Wanted To Be Somebody\" is for sale and download here a.co/d/0fHMzr6M #Amazon via @Amazon",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2109434044689617397#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-12 03:00 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04989386899961668,
+      "score": 0.06267833073821802,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.6532919467382663,
+      "score": 0.7275988742673308,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5864810770234961,
+      "score": 0.5576127669378443,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.7622020487934897,
+      "score": 0.7955666909400823,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05492274252439274,
+      "score": 0.04721806526117825,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09150462371495022,
+      "score": 0.07133497694875393,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04766138540894144,
+      "score": 0.046315418836513,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.21472693283175764,
+      "score": 0.23987347141005802,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05932541785596207,
+      "score": 0.05961877571892252,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039732775306344684,
+      "score": 0.038471704956394716,
       "detections": []
     }
   },
   {
-    "title": "Ostapenko was *4-1, *5-4 and *6-5 + set point up in the first set but she has to play a tiebreak vs. Kartal in the Wuhan semifinals.",
+    "title": "Auger-Aliassime won’t qualify to the ATP Finals and will end the season outside the top 10 (was there the entire season).",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2111397799933993043#m",
+    "link": "https://lightbrd.com/josemorgado/status/2111495733991862450#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-17 13:03 EEST",
+    "date": "2026-10-17 19:33 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373073407670315,
+      "score": 0.034792912625479684,
       "detections": []
     }
   },
   {
-    "title": "Zverev’s backhand 🤯",
+    "title": "Chwalinska's win over #9 Swiatek is the first top 10 win of her career.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2111388710809764332#m",
+    "link": "https://lightbrd.com/josemorgado/status/2111460127714758680#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-17 12:27 EEST",
+    "date": "2026-10-17 17:11 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13540485531335697,
+      "score": 0.039534055693422575,
       "detections": []
     }
   },
   {
-    "title": "9 aces from Zverev in the 1st set.",
+    "title": "WTA Race to Indian Wells, last spot:  \n\nIn position to qualify:  \nMuchova, 4.735 (not in Ningbo)\n\nChasing: \nSwiatek, 4.189 (in Ningbo's draw) \nKostyuk, 3.920 (in Ningbo's draw)\n\nIf Muchova doesn't play Tokyo, Swiatek needs W+QF or F+F in Ningbo/Tokyo. Kostyuk needs two titles.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2111388492160983504#m",
+    "link": "https://lightbrd.com/josemorgado/status/2111458559971987784#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-17 12:26 EEST",
+    "date": "2026-10-17 17:05 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04517140086384376,
+      "score": 0.04916487191411247,
       "detections": []
     }
   },
   {
-    "title": "Zverev wins 12 of the last 13 points to take the first set 7-5 vs. Davidovich in the Shanghai SFs.\n\n43 minutes.",
+    "title": "Maja Chwalinska has two tour-level finals.\n\nRoland Garros\n\nWuhan WTA 1000\n\nShe will be ranked #11 or #12 on Monday.\n\nIncredible.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2111387964173701348#m",
+    "link": "https://lightbrd.com/josemorgado/status/2111457573765349603#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-17 12:24 EEST",
+    "date": "2026-10-17 17:01 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05784736221608073,
+      "score": 0.04335596841096848,
       "detections": []
     }
   },
   {
-    "title": "Tennis legend Kukushkin retires in Almaty next week. 4 Top 10 wins, career high of No.39, but to me players with such a unique game-style bring so much to our sport. Fantastic game for grass too.\n\nWishing Kuku well in his life after tennis. One more big week....",
+    "title": "Maja Chwalinska defeats friend and former #1 Iga Swiatek 7-5, 6-1 to reach the Wuhan WTA 1000 final.\n\nIga got injured and this is probably the end of her season, as she now needs a miracle to qualify for the WTA Finals.",
     "description": "",
-    "link": "https://lightbrd.com/JakeDaviesATP/status/2111386372623740987#m",
+    "link": "https://lightbrd.com/josemorgado/status/2111457352138531012#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-17 12:18 EEST",
-    "is_retweet": true,
+    "date": "2026-10-17 17:00 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03376077748643713,
+      "score": 0.04672924929904225,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11148660829783838,
+      "score": 0.10328118008189482,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5758947037966714,
+      "score": 0.54729992808026,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04012259663164178,
+      "score": 0.035974073359954485,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06194661225230959,
+      "score": 0.05088370749178214,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.17667280058003013,
+      "score": 0.15434482445445125,
       "detections": []
     }
   }
