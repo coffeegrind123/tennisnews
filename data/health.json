@@ -2,12 +2,7 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis View Magazine": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,7 +12,17 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis View Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -25,11 +30,6 @@
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
       "error": ""
     },
     "Tennis365": {
@@ -42,9 +42,19 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
+    "BBC Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Racquet Magazine": {
@@ -52,27 +62,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Ireland": {
+    "Open Court": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
     "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -92,22 +87,28 @@
       "count": 20,
       "error": ""
     },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
     "10sBalls": {
       "type": "rss",
       "count": 16,
       "error": "",
       "recovered_via": "browser"
     },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": "",
+      "recovered_via": "browser"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "ATP Tour: never got past the Cloudflare challenge"
+      "count": 13,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -127,12 +128,13 @@
     "Tennis Australia": {
       "type": "scrape",
       "count": 11,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Tennis Infinity": {
       "type": "scrape",
-      "count": 20,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://tennis-infinity.com/\", waiting until \"networkidle\"\n"
     },
     "Australian Open": {
       "type": "scrape",
@@ -142,7 +144,7 @@
     "US Open": {
       "type": "scrape",
       "count": 0,
-      "error": "US Open feed returned HTTP 403 for https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-08-18&endDate=2026-10-18&c"
+      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.usopen.org/en_US/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -162,8 +164,7 @@
     "USTA Florida": {
       "type": "scrape",
       "count": 15,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -193,12 +194,12 @@
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.swissindoorsbasel.ch/en/tournament/tournament-news/\", waiting until \"domcontentloaded\"\n"
+      "count": 19,
+      "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 118,
+      "count": 117,
       "error": ""
     }
   },
@@ -220,21 +221,21 @@
       },
       "verified_good": [
         "https://lightbrd.com",
-        "https://nitter.tiekoetter.com",
         "https://nitter.freedit.eu",
-        "https://nitter.meowing.monster"
+        "https://nitter.meowing.monster",
+        "https://nitter.tiekoetter.com"
       ],
       "verified_bad": [
-        "https://nitter.kareem.one",
+        "https://bird.habedieeh.re",
         "https://nuku.trabun.org"
       ],
       "bases": [
         "https://lightbrd.com",
-        "https://nitter.tiekoetter.com",
         "https://nitter.freedit.eu",
         "https://nitter.meowing.monster",
-        "https://twiiit.com",
-        "https://nitter.kareem.one",
+        "https://nitter.tiekoetter.com",
+        "https://nitter.cz",
+        "https://bird.habedieeh.re",
         "https://nuku.trabun.org"
       ]
     },
@@ -243,9 +244,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 5169,
-    "allowed": 6843,
-    "blocked_pct": 43.0
+    "blocked": 6702,
+    "allowed": 6890,
+    "blocked_pct": 49.3
   },
   "navigation": {
     "floored": 21,
@@ -256,7 +257,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 612,
+    "scanned": 626,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -307,11 +308,10 @@
       "DDG/Lente Desportiva이(가) MSN.com에서 작성": 1
     }
   },
-  "generated_at": "2026-10-17 16:59:12 UTC",
+  "generated_at": "2026-10-18 10:25:05 UTC",
   "empty_sources": [
-    "ATP Tour",
     "ESPN Tennis",
-    "Swiss Indoors Basel",
+    "Tennis Infinity",
     "US Open"
   ]
 }
