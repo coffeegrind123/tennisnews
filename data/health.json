@@ -7,12 +7,12 @@
       "count": 20,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,19 +27,14 @@
       "count": 10,
       "error": ""
     },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
+    "Guardian Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis Ireland": {
@@ -47,9 +42,14 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Last Word on Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -62,17 +62,7 @@
       "count": 10,
       "error": ""
     },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -82,12 +72,22 @@
       "count": 16,
       "error": ""
     },
-    "Tennis Nerd": {
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Open Court": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -105,8 +105,8 @@
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.atptour.com/en/news\", waiting until \"domcontentloaded\"\n"
+      "count": 13,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -116,8 +116,7 @@
     "Tennis World USA": {
       "type": "scrape",
       "count": 25,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -127,8 +126,7 @@
     "Tennis Australia": {
       "type": "scrape",
       "count": 11,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -147,8 +145,8 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 20,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_ABORT\nCall log:\n  - navigating to \"https://www.wimbledon.com/en_GB/news/index.html\", waiting until \"domcontentloaded\"\n"
     },
     "Novak Djokovic": {
       "type": "scrape",
@@ -157,8 +155,8 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.tenniscanada.com/news\", waiting until \"domcontentloaded\"\n"
+      "count": 11,
+      "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
@@ -177,13 +175,23 @@
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 3,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/brisbane-international",
+        "title": "しばらくお待ちください...",
+        "htmlLen": 28222,
+        "bodyTextLen": 182,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": "www.tennis.com.au セキュリティ検証の実行 この Web サイトは、悪意のあるボットから保護するためにセキュリティ サービスを使用しています。このページは、Web サイトがボットではないことを確認している間に表示されます。 Ray ID: a4c92cc36d9376ff Cloudflare によるパフォーマンスとセキュリティ プライバシー"
+      }
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_BINDING_ABORTED\nCall log:\n  - navigating to \"https://www.asiantennis.com/news/\", waiting until \"domcontentloaded\"\n"
     },
     "Tennis Europe": {
       "type": "scrape",
@@ -197,7 +205,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 87,
+      "count": 59,
       "error": ""
     }
   },
@@ -206,36 +214,37 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 20,
+      "candidates": 116,
       "tiers": {
-        "timeline": 0,
-        "challenged": 8,
+        "timeline": 1,
+        "challenged": 11,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 12,
-        "retired": 0,
+        "dead": 102,
+        "retired": 2,
         "retired_skipped": 0
       },
       "verified_good": [
         "https://lightbrd.com",
-        "https://nitter.meowing.monster",
+        "https://nitter.tiekoetter.com",
         "https://nitter.freedit.eu",
-        "https://nitter.tiekoetter.com"
+        "https://nitter.meowing.monster"
       ],
       "verified_bad": [
-        "https://nuku.trabun.org",
-        "https://nitter.kareem.one"
+        "https://bird.habedieeh.re",
+        "https://nitter.kareem.one",
+        "https://nuku.trabun.org"
       ],
       "bases": [
         "https://lightbrd.com",
-        "https://nitter.meowing.monster",
-        "https://nitter.freedit.eu",
         "https://nitter.tiekoetter.com",
-        "https://nitter.xitter.cc",
+        "https://nitter.freedit.eu",
+        "https://nitter.meowing.monster",
+        "https://nitter.jaydenha.uk",
         "https://nitter.netbub.com",
-        "https://twiiit.com",
-        "https://nuku.trabun.org"
+        "https://nitter.xitter.cc",
+        "https://twiiit.com"
       ]
     },
     "error": "",
@@ -243,20 +252,20 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8810,
-    "allowed": 7866,
-    "blocked_pct": 52.8
+    "blocked": 5910,
+    "allowed": 4459,
+    "blocked_pct": 57.0
   },
   "navigation": {
-    "floored": 21,
-    "retried": 0,
+    "floored": 19,
+    "retried": 1,
     "retry_saved": 0,
     "budget_exhausted": 0
   },
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 649,
+    "scanned": 609,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -307,9 +316,10 @@
       "DDG/Lente Desportiva이(가) MSN.com에서 작성": 1
     }
   },
-  "generated_at": "2026-10-18 16:28:16 UTC",
+  "generated_at": "2026-10-18 17:17:06 UTC",
   "empty_sources": [
-    "ATP Tour",
-    "Tennis Canada"
+    "Asian Tennis Federation",
+    "Brisbane International",
+    "Wimbledon"
   ]
 }
