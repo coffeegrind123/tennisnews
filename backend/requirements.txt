@@ -8,10 +8,9 @@ feedparser
 # that it is "heavily recommended", and without it the spoofed locale, timezone
 # and geolocation describe a client somewhere other than the exit IP.
 # Pinned to a commit: upstream history rewrites have broken an unpinned ref
-# before (JWriter20 moved python/ to pythonlib/ on 2026-09-14).
-camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-beta.git@b418bb69f760b3f5647ec2408735af4ffc21e888#subdirectory=pythonlib
-# playwright 1.60 dispatches pageError with `location.url`, which the camoufox
-# FF146 juggler never sends. The driver process then dies on the FIRST uncaught
-# JS error on any page, taking the whole browser (and every remaining site) with
-# it. 1.59 does not read that field.
-playwright<1.60
+# before (JWriter20 moved python/ to pythonlib/ on 2026-09-14, and upstream
+# moved it back to python/ on 2026-10-06).
+camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-beta.git@2fb5b55298505c79a9a1777ddcd6bdac3aaf9d45#subdirectory=python
+# playwright: the launcher's own bound. cg.8's Juggler sends pageError's
+# location.url (the reason for the old <1.60 pin), and its CI ran on 1.62.
+playwright<1.63
