@@ -2,9 +2,9 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Connected": {
+    "Lob & Smash": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis View Magazine": {
@@ -12,32 +12,7 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -47,14 +22,24 @@
       "count": 10,
       "error": ""
     },
-    "Guardian Tennis": {
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
+    "Last Word on Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -67,12 +52,37 @@
       "count": 10,
       "error": ""
     },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
+    "Tennis Ireland": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
     "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -82,27 +92,16 @@
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "ESPN Tennis": {
       "type": "rss",
       "count": 20,
       "error": "",
       "recovered_via": "browser"
     },
-    "World Tennis Magazine": {
+    "Women's Tennis Blog": {
       "type": "rss",
-      "count": 10,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+      "count": 20,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -121,21 +120,13 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-        "title": "Один момент…",
-        "htmlLen": 28475,
-        "bodyTextLen": 288,
-        "markers": [],
-        "bodyHead": "www.tennis.com.au Выполнение проверки безопасности Этот веб-сайт использует сервис безопасности для защиты от вредоносных ботов. Эта страница отображается, пока веб-сайт проверяет, что вы не бот. Ray ID: a4d245f5eae9666b Производительность "
-      }
+      "count": 11,
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -170,7 +161,8 @@
     "USTA Florida": {
       "type": "scrape",
       "count": 15,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -184,16 +176,8 @@
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/brisbane-international",
-        "title": "Один момент…",
-        "htmlLen": 28393,
-        "bodyTextLen": 288,
-        "markers": [],
-        "bodyHead": "www.tennis.com.au Выполнение проверки безопасности Этот веб-сайт использует сервис безопасности для защиты от вредоносных ботов. Эта страница отображается, пока веб-сайт проверяет, что вы не бот. Ray ID: a4d24efbfca7a0b2 Производительность "
-      }
+      "count": 3,
+      "error": ""
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -212,7 +196,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 135,
+      "count": 85,
       "error": ""
     }
   },
@@ -223,12 +207,12 @@
       "status": "discovered",
       "candidates": 116,
       "tiers": {
-        "timeline": 1,
-        "challenged": 9,
+        "timeline": 0,
+        "challenged": 11,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 104,
+        "dead": 103,
         "retired": 2,
         "retired_skipped": 0
       },
@@ -239,9 +223,9 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
-        "https://bird.habedieeh.re",
         "https://nuku.trabun.org",
-        "https://nitter.kareem.one"
+        "https://nitter.kareem.one",
+        "https://bird.habedieeh.re"
       ],
       "bases": [
         "https://lightbrd.com",
@@ -250,8 +234,8 @@
         "https://nitter.freedit.eu",
         "https://nitter.jaydenha.uk",
         "https://nitter.xitter.cc",
-        "https://nitter.cz",
-        "https://bird.habedieeh.re"
+        "https://nuku.trabun.org",
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -259,12 +243,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7221,
-    "allowed": 7204,
-    "blocked_pct": 50.1
+    "blocked": 6811,
+    "allowed": 6416,
+    "blocked_pct": 51.5
   },
   "navigation": {
-    "floored": 19,
+    "floored": 20,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -272,7 +256,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 666,
+    "scanned": 667,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -323,10 +307,6 @@
       "DDG/Lente Desportiva이(가) MSN.com에서 작성": 1
     }
   },
-  "generated_at": "2026-10-19 19:53:51 UTC",
-  "empty_sources": [
-    "10sBalls",
-    "Brisbane International",
-    "Tennis Australia"
-  ]
+  "generated_at": "2026-10-20 10:56:18 UTC",
+  "empty_sources": []
 }
