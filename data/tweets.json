@@ -80,18 +80,18 @@
     }
   },
   {
-    "title": "RT @politblogme: Magnifique 🤣🤣🤣",
+    "title": "Magnifique 🤣🤣🤣",
     "description": "",
-    "link": "https://lightbrd.com/perfecttennisuk/status/2112446546629263363#m",
+    "link": "https://lightbrd.com/politblogme/status/2112326135971262872#m",
     "handle": "perfecttennisuk",
     "author": "Perfect Tennis",
     "outlet": "Perfect Tennis",
-    "date": "2026-10-20 10:31 EEST",
-    "is_retweet": false,
+    "date": "2026-10-20 02:32 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1965008511951361,
+      "score": 0.06980714832019336,
       "detections": []
     }
   },
@@ -800,6 +800,70 @@
     }
   },
   {
+    "title": "Basilashvili is having one of those weeks in Almaty… \n\nFrom qualifying to the QFs — awaits Rublev or Mannarino!",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2112855727656366165#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-21 13:37 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04816687005315903,
+      "detections": []
+    }
+  },
+  {
+    "title": "Fernandez in 3h04 🤯",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2112853978031509611#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-21 13:30 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11060083648854237,
+      "detections": []
+    }
+  },
+  {
+    "title": "Terrence Atmane on his recent (bad) behaviors. \n\n“I received a lot of hate after what happened in Shanghai. It’s understandable — I deserved it. I’ve been behaving terribly lately. I’ve been going through a very difficult time mentally over the past few weeks. It’s been an extremely long season for me, and I’ve struggled with mental health issues, so it hasn’t been easy. Here in Almaty, I’m trying to put all of that behind me and make a fresh start. Shanghai showed me that this kind of behaviour",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2112693931934712180#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-21 02:54 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08669534072938048,
+      "detections": []
+    }
+  },
+  {
+    "title": "Good night for the Belgiums in Brussels.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2112689518025556269#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-21 02:36 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.049193423395980776,
+      "detections": []
+    }
+  },
+  {
     "title": "Good win for Bonzi.\n\nHis 3rd top 50 win of the year.",
     "description": "",
     "link": "https://lightbrd.com/josemorgado/status/2112603131305685357#m",
@@ -816,66 +880,18 @@
     }
   },
   {
-    "title": "Gastão Elias retired from professional tennis in Lisbon.\n\n@PhotographyReis did his usual magic.",
+    "title": "Stan Wawrinka’s farewell event will take place on December 19 in Geneva’s Palexpo.\n\n8:10 pm\nStan Wawrinka vs Gael Monfils (1 set)\n\nStan Wawrinka/Roger Federer vs Gael Monfils/Andy Murray (2 sets)",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112596348948357518#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-20 20:26 EEST",
+    "link": "https://lightbrd.com/MichalSamulski/status/2112810323384184923#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-21 10:36 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0676723510597811,
-      "detections": []
-    }
-  },
-  {
-    "title": "Two world #1 having fun together.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112591358481617026#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-20 20:06 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.036996532312031975,
-      "detections": []
-    }
-  },
-  {
-    "title": "That was Moutet's second top 50 win of the year.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112586004016119849#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-20 19:45 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.041951661257026006,
-      "detections": []
-    }
-  },
-  {
-    "title": "Good start.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112580204271149085#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-20 19:22 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06649352867475383,
+      "score": 0.04968873077672124,
       "detections": []
     }
   },
@@ -940,22 +956,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.11148660829783838,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP250 Stockholm Open entry list\nFritz\nRuud\nRune\nBerrettini\nBublik\nShapovalov\nNorrie\nVacherot\nBlockx\nBergs\nvan de Zandschulp\nCerundolo\nFery\nDavidovich Fokina\nDarderi\nTabilo\nEtcheverry\nHumbert\nRinderknech\nMichelsen",
-    "description": "",
-    "link": "https://lightbrd.com/MichalSamulski/status/2110421244403216772#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-14 20:23 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.5758947037966714,
       "detections": []
     }
   }
