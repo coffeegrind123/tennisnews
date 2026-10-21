@@ -2,6 +2,11 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
@@ -12,12 +17,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Perfect Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,24 +27,9 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Last Word on Tennis": {
       "type": "rss",
       "count": 10,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Guardian Tennis": {
-      "type": "rss",
-      "count": 20,
       "error": ""
     },
     "Tennis Now": {
@@ -52,12 +37,27 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Ireland": {
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -67,19 +67,14 @@
       "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "10sBalls": {
+    "Open Court": {
       "type": "rss",
-      "count": 16,
+      "count": 10,
       "error": ""
     },
     "Tennis Nerd": {
@@ -87,9 +82,9 @@
       "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "Women's Tennis Blog": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "ESPN Tennis": {
@@ -98,10 +93,16 @@
       "error": "",
       "recovered_via": "browser"
     },
-    "Women's Tennis Blog": {
+    "World Tennis Magazine": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
     },
     "ATP Tour": {
       "type": "scrape",
@@ -145,7 +146,7 @@
     },
     "Wimbledon": {
       "type": "scrape",
-      "count": 13,
+      "count": 14,
       "error": ""
     },
     "Novak Djokovic": {
@@ -155,13 +156,21 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.tenniscanada.com/news\", waiting until \"domcontentloaded\"\n"
+      "count": 11,
+      "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
+        "title": "Nur einen Moment…",
+        "htmlLen": 28366,
+        "bodyTextLen": 313,
+        "markers": [],
+        "bodyHead": "www.ustaflorida.com Sicherheitsüberprüfung wird durchgeführt Diese Website nutzt einen Sicherheitsservice, um sich vor böswilligen Bots zu schützen. Diese Seite wird angezeigt, solange die Website überprüft, dass Sie kein Bot sind. Ray ID: "
+      }
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -178,15 +187,17 @@
       "count": 0,
       "error": "",
       "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/brisbane-international",
-        "title": "잠시만 기다리십시오…",
-        "htmlLen": 28092,
-        "bodyTextLen": 165,
+        "url": "https://www.tennis.com.au/brisbane-international?__cf_chl_rt_tk=Zduq0s79MCfCQ51CXQQIQG3arxwstMFJjA6qC4LFo9c-1792607247-1.0.1.1-buNybV8CdAhc4KkpyvzYYViWWMcxXx74y06oynbdY2Q",
+        "title": "Just a moment...",
+        "htmlLen": 5787,
+        "bodyTextLen": 0,
         "markers": [
+          "cloudflare-challenge",
           "near-empty-body"
         ],
-        "bodyHead": "www.tennis.com.au 보안 확인 수행 중 이 웹 사이트는 보안 서비스를 사용하여 악의적인 봇으로부터 보호합니다. 이 페이지는 웹 사이트에서 사용자가 봇이 아님을 확인하는 동안에만 표시됩니다. Ray ID: a4dfc119895ef0b2 Cloudflare의 성능 및 보안 개인 정보"
-      }
+        "bodyHead": ""
+      },
+      "challenge_retry": "never cleared"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -205,7 +216,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 89,
+      "count": 64,
       "error": ""
     }
   },
@@ -214,14 +225,14 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 117,
+      "candidates": 114,
       "tiers": {
-        "timeline": 2,
-        "challenged": 10,
+        "timeline": 1,
+        "challenged": 9,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 103,
+        "dead": 102,
         "retired": 2,
         "retired_skipped": 0
       },
@@ -232,18 +243,18 @@
         "https://nitter.freedit.eu"
       ],
       "verified_bad": [
-        "https://bird.habedieeh.re",
-        "https://nitter.kareem.one"
+        "https://nitter.kareem.one",
+        "https://bird.habedieeh.re"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.tiekoetter.com",
         "https://nitter.meowing.monster",
         "https://nitter.freedit.eu",
-        "https://nitter.jaydenha.uk",
         "https://nitter.mie.foundation",
+        "https://nitter.netbub.com",
         "https://nitter.xitter.cc",
-        "https://nitter.netbub.com"
+        "https://nitter.cz"
       ]
     },
     "error": "",
@@ -251,9 +262,9 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7760,
-    "allowed": 6811,
-    "blocked_pct": 53.3
+    "blocked": 6126,
+    "allowed": 6518,
+    "blocked_pct": 48.4
   },
   "navigation": {
     "floored": 19,
@@ -264,22 +275,28 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 650,
-    "flagged": 2,
-    "redacted": 2,
+    "scanned": 623,
+    "flagged": 8,
+    "redacted": 8,
     "by_source": {
-      "DuckDuckGo News": 2
+      "DuckDuckGo News": 3,
+      "DDG/T-Online": 1,
+      "DDG/WELT": 1,
+      "DDG/Heute auf MSN.com": 1,
+      "DDG/ZEIT ONLINE": 1,
+      "DDG/dw": 1
     },
-    "captured": 2
+    "captured": 8
   },
   "injections": {
-    "total_recorded": 61,
-    "new_this_run": 1,
-    "repeat_this_run": 1,
+    "total_recorded": 67,
+    "new_this_run": 6,
+    "repeat_this_run": 2,
     "by_source": {
-      "DuckDuckGo News": 20,
+      "DuckDuckGo News": 22,
       "amylundydahl": 3,
       "DDG/Süddeutsche Zeitung": 2,
+      "DDG/T-Online": 2,
       "Tennis365": 2,
       "Ubitennis": 1,
       "US Open": 1,
@@ -300,7 +317,6 @@
       "DDG/Westdeutsche Zeitung": 1,
       "DDG/dw": 1,
       "DDG/Blick": 1,
-      "DDG/T-Online": 1,
       "DDG/canaltenis": 1,
       "DDG/L'Équipe": 1,
       "DDG/Terra": 1,
@@ -314,12 +330,15 @@
       "DDG/Sportmediaset": 1,
       "DDG/Sporting News": 1,
       "DDG/GOAL": 1,
-      "DDG/Lente Desportiva이(가) MSN.com에서 작성": 1
+      "DDG/Lente Desportiva이(가) MSN.com에서 작성": 1,
+      "DDG/WELT": 1,
+      "DDG/Heute auf MSN.com": 1,
+      "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-10-21 11:04:40 UTC",
+  "generated_at": "2026-10-21 18:34:18 UTC",
   "empty_sources": [
     "Brisbane International",
-    "Tennis Canada"
+    "USTA Florida"
   ]
 }
