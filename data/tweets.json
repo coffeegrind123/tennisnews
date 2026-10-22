@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.46630743171865274,
+      "score": 0.3742083131772179,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07988143891898933,
+      "score": 0.07844014174516728,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15059159957834423,
+      "score": 0.11489253571048472,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06151994420988763,
+      "score": 0.05533682521186702,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06762586520987879,
+      "score": 0.07000470878929216,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06980714832019336,
+      "score": 0.07522298847185518,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06604460622383783,
+      "score": 0.06059935976313145,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04523925888019744,
+      "score": 0.04476057422326397,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050066543752850606,
+      "score": 0.046016881446742895,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04536132421892741,
+      "score": 0.042685242406305765,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0680413035403321,
+      "score": 0.05375876057592716,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04386878636254758,
+      "score": 0.0382311927956425,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07873480838748032,
+      "score": 0.07430335948554821,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1284310225291502,
+      "score": 0.13001057870750016,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09664616117453932,
+      "score": 0.10542145595195437,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06399643516456799,
+      "score": 0.06055937555163351,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.49964448051621474,
+      "score": 0.5329793440685826,
       "detections": []
     }
   },
@@ -395,7 +395,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03157869086791935,
+      "score": 0.028418747584157127,
+      "detections": []
+    }
+  },
+  {
+    "title": "USTA’s Megan Rose to lead Rugby World Cup In 2031 theguardian.com/sport/2026/o…",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2113290579518140673#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-22 18:25 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04188268212287477,
       "detections": []
     }
   },
@@ -411,7 +427,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06945773116550247,
+      "score": 0.062132612395432565,
       "detections": []
     }
   },
@@ -427,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05471899239674445,
+      "score": 0.04986348870007493,
       "detections": []
     }
   },
@@ -443,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04723076017502944,
+      "score": 0.043040173679572385,
       "detections": []
     }
   },
@@ -459,23 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05253461546647579,
-      "detections": []
-    }
-  },
-  {
-    "title": "Charlie Pasarell aces tennis memoir with life lessons on and off the courts sandiegouniontribune.com/202…",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2112165435227398528#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-19 15:54 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07478679399282676,
+      "score": 0.05102982696836874,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07645013193031144,
+      "score": 0.06801157437492673,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05568780153264456,
+      "score": 0.046106019241286905,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.6532919467382663,
+      "score": 0.7275988742673308,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5864810770234961,
+      "score": 0.5576127669378443,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09150462371495022,
+      "score": 0.07133497694875393,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04766138540894144,
+      "score": 0.046315418836513,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.21472693283175764,
+      "score": 0.23987347141005802,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05932541785596207,
+      "score": 0.05961877571892252,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039732775306344684,
+      "score": 0.038471704956394716,
       "detections": []
     }
   },
   {
-    "title": "She has her spot 🤙\n\nDiana Shnaider comes through stern opposition in Eala and steps into the Final 8 in Ningbo!\n\n#NingboOpen",
+    "title": "Cobolli. \"You make me nervous because you are not a normal opponent. You are a legend of the sport.\"",
     "description": "",
-    "link": "https://lightbrd.com/WTA/status/2113223159822373122#m",
+    "link": "https://lightbrd.com/josemorgado/status/2113335073369940473#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-22 13:57 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04428568125582387,
-      "detections": []
-    }
-  },
-  {
-    "title": "Stan Wawrinka becomes the 4th oldest player to win a tour-level match since 1990:\n\nJimmy Connors, 42Y10M (1995)\nIvo Karlovic, 42Y4M (2021)\nFeliciano López 41Y9M (2023)\nStan Wawrinka 41Y6M (2026)",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112921980122882547#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-21 18:00 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08603290935953285,
-      "detections": []
-    }
-  },
-  {
-    "title": "David Goffin is not done yet! \n\nInto R2 in singles and QFs in doubles in Brussels, the last tournament of his career. \n\nPlays twice tomorrow.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112973828918022239#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-21 21:26 EEST",
+    "date": "2026-10-22 21:22 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051968433284669026,
+      "score": 0.05077076618516665,
       "detections": []
     }
   },
   {
-    "title": "Kouamé vs. Musetti is DELIVERING",
+    "title": "Top seed Flavio Cobolli defeats Stan Wawrinka 6-2, 6-4 to reach the QFs in Lyon.\n\nBreaks a streak of 4 losses (US Open, Laver Cup, Beijing, Shanghai).\n\n20th career QF\n\n8th in 2026\n\nWawrinka will retire next week in Basel.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112962969394872553#m",
+    "link": "https://lightbrd.com/josemorgado/status/2113334146902688204#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-21 20:43 EEST",
+    "date": "2026-10-22 21:18 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05141302978993997,
+      "score": 0.08644332129088177,
       "detections": []
     }
   },
   {
-    "title": "Moutet into the QFs in Lyon.\n\nNeeds a big week as he is defending his top 100 status this month (defending final this week from Almaty 2025, then QFs in Vienna).",
+    "title": "Brussels QFs:",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2112949439040016560#m",
+    "link": "https://lightbrd.com/josemorgado/status/2113330192689332327#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-21 19:49 EEST",
+    "date": "2026-10-22 21:02 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.060156481229337234,
+      "score": 0.06535627843789382,
+      "detections": []
+    }
+  },
+  {
+    "title": "Cobolli breaks Wawrinka to lead 6-2, *2-1.\n\nHe broke strings in HALF OF THE POINTS in this game (3/6), winning two of them. Insane.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2113326594471186636#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-22 20:48 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04122496690301002,
+      "detections": []
+    }
+  },
+  {
+    "title": "OMG.\n\nCobolli just broke strings in back to back points.\n\nAnd won BOTH POINTS.\n\n(Broken strings 3 times in 5 points in this game)",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2113326264258007122#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-22 20:46 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03371685120376111,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04968873077672124,
+      "score": 0.05102228692094869,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04500558978496103,
+      "score": 0.03963101051037897,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07052227682646396,
+      "score": 0.057425615670704803,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05356338664979976,
+      "score": 0.04507260583211605,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11148660829783838,
+      "score": 0.10328118008189482,
       "detections": []
     }
   }

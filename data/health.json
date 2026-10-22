@@ -7,27 +7,17 @@
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Connected": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Ireland": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -35,11 +25,6 @@
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Tennis Now": {
@@ -52,12 +37,17 @@
       "count": 20,
       "error": ""
     },
-    "BBC Tennis": {
+    "Open Court": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "BBC Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -67,24 +57,9 @@
       "count": 10,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "10sBalls": {
@@ -92,16 +67,40 @@
       "count": 16,
       "error": ""
     },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "ESPN Tennis": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
+    },
     "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "ESPN Tennis": {
+    "Tennis Ireland": {
       "type": "rss",
-      "count": 20,
-      "error": "",
-      "recovered_via": "browser"
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
+    },
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -120,14 +119,13 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 11,
+      "count": 10,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
       "count": 11,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -141,8 +139,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-08-23&endD"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -162,8 +160,7 @@
     "USTA Florida": {
       "type": "scrape",
       "count": 15,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -178,12 +175,13 @@
     "Brisbane International": {
       "type": "scrape",
       "count": 3,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.asiantennis.com/news/\", waiting until \"domcontentloaded\"\n"
     },
     "Tennis Europe": {
       "type": "scrape",
@@ -197,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 87,
+      "count": 116,
       "error": ""
     }
   },
@@ -206,15 +204,15 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 117,
+      "candidates": 109,
       "tiers": {
-        "timeline": 2,
-        "challenged": 9,
+        "timeline": 0,
+        "challenged": 7,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 104,
-        "retired": 2,
+        "dead": 101,
+        "retired": 1,
         "retired_skipped": 0
       },
       "verified_good": [
@@ -225,7 +223,6 @@
       ],
       "verified_bad": [
         "https://bird.habedieeh.re",
-        "https://nuku.trabun.org",
         "https://nitter.kareem.one"
       ],
       "bases": [
@@ -233,10 +230,10 @@
         "https://nitter.tiekoetter.com",
         "https://nitter.freedit.eu",
         "https://nitter.meowing.monster",
-        "https://nitter.jaydenha.uk",
-        "https://nitter.mie.foundation",
-        "https://nitter.xitter.cc",
-        "https://bird.habedieeh.re"
+        "https://nitter.altgr.xyz",
+        "https://nitter.cz",
+        "https://bird.habedieeh.re",
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -244,12 +241,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 8161,
-    "allowed": 8254,
-    "blocked_pct": 49.7
+    "blocked": 5645,
+    "allowed": 6579,
+    "blocked_pct": 46.2
   },
   "navigation": {
-    "floored": 21,
+    "floored": 20,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -257,7 +254,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 639,
+    "scanned": 645,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -311,8 +308,10 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-10-22 11:06:57 UTC",
+  "generated_at": "2026-10-22 18:26:36 UTC",
   "empty_sources": [
-    "US Open"
+    "Asian Tennis Federation",
+    "ESPN Tennis",
+    "Tennis Ireland"
   ]
 }
