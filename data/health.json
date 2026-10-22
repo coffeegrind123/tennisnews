@@ -2,17 +2,22 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Tennis Connected": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
+    "Perfect Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis View Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -22,17 +27,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -40,6 +35,16 @@
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Guardian Tennis": {
@@ -52,14 +57,9 @@
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Racquet Magazine": {
@@ -67,9 +67,14 @@
       "count": 10,
       "error": ""
     },
-    "Ubitennis": {
+    "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Open Court": {
@@ -77,9 +82,14 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Nerd": {
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -90,17 +100,6 @@
     "ESPN Tennis": {
       "type": "rss",
       "count": 20,
-      "error": "",
-      "recovered_via": "browser"
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
       "error": "",
       "recovered_via": "browser"
     },
@@ -121,13 +120,14 @@
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
       "type": "scrape",
       "count": 11,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -141,8 +141,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 25,
-      "error": ""
+      "count": 0,
+      "error": "APIRequestContext.get: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-08-23&endD"
     },
     "Wimbledon": {
       "type": "scrape",
@@ -161,16 +161,9 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
+      "count": 15,
       "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
-        "title": "Nur einen Moment…",
-        "htmlLen": 28366,
-        "bodyTextLen": 313,
-        "markers": [],
-        "bodyHead": "www.ustaflorida.com Sicherheitsüberprüfung wird durchgeführt Diese Website nutzt einen Sicherheitsservice, um sich vor böswilligen Bots zu schützen. Diese Seite wird angezeigt, solange die Website überprüft, dass Sie kein Bot sind. Ray ID: "
-      }
+      "recovered_via": "challenge-wait"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -184,20 +177,8 @@
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/brisbane-international?__cf_chl_rt_tk=Zduq0s79MCfCQ51CXQQIQG3arxwstMFJjA6qC4LFo9c-1792607247-1.0.1.1-buNybV8CdAhc4KkpyvzYYViWWMcxXx74y06oynbdY2Q",
-        "title": "Just a moment...",
-        "htmlLen": 5787,
-        "bodyTextLen": 0,
-        "markers": [
-          "cloudflare-challenge",
-          "near-empty-body"
-        ],
-        "bodyHead": ""
-      },
-      "challenge_retry": "never cleared"
+      "count": 3,
+      "error": ""
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -216,7 +197,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 64,
+      "count": 87,
       "error": ""
     }
   },
@@ -225,36 +206,37 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 114,
+      "candidates": 117,
       "tiers": {
-        "timeline": 1,
+        "timeline": 2,
         "challenged": 9,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 102,
+        "dead": 104,
         "retired": 2,
         "retired_skipped": 0
       },
       "verified_good": [
         "https://lightbrd.com",
         "https://nitter.tiekoetter.com",
-        "https://nitter.meowing.monster",
-        "https://nitter.freedit.eu"
+        "https://nitter.freedit.eu",
+        "https://nitter.meowing.monster"
       ],
       "verified_bad": [
-        "https://nitter.kareem.one",
-        "https://bird.habedieeh.re"
+        "https://bird.habedieeh.re",
+        "https://nuku.trabun.org",
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://lightbrd.com",
         "https://nitter.tiekoetter.com",
-        "https://nitter.meowing.monster",
         "https://nitter.freedit.eu",
+        "https://nitter.meowing.monster",
+        "https://nitter.jaydenha.uk",
         "https://nitter.mie.foundation",
-        "https://nitter.netbub.com",
         "https://nitter.xitter.cc",
-        "https://nitter.cz"
+        "https://bird.habedieeh.re"
       ]
     },
     "error": "",
@@ -262,12 +244,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 6126,
-    "allowed": 6518,
-    "blocked_pct": 48.4
+    "blocked": 8161,
+    "allowed": 8254,
+    "blocked_pct": 49.7
   },
   "navigation": {
-    "floored": 19,
+    "floored": 21,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -275,23 +257,16 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 623,
-    "flagged": 8,
-    "redacted": 8,
-    "by_source": {
-      "DuckDuckGo News": 3,
-      "DDG/T-Online": 1,
-      "DDG/WELT": 1,
-      "DDG/Heute auf MSN.com": 1,
-      "DDG/ZEIT ONLINE": 1,
-      "DDG/dw": 1
-    },
-    "captured": 8
+    "scanned": 639,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
   },
   "injections": {
     "total_recorded": 67,
-    "new_this_run": 6,
-    "repeat_this_run": 2,
+    "new_this_run": 0,
+    "repeat_this_run": 0,
     "by_source": {
       "DuckDuckGo News": 22,
       "amylundydahl": 3,
@@ -336,9 +311,8 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-10-21 18:34:18 UTC",
+  "generated_at": "2026-10-22 11:06:57 UTC",
   "empty_sources": [
-    "Brisbane International",
-    "USTA Florida"
+    "US Open"
   ]
 }
