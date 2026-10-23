@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T10:54:39+00:00",
+  "updated_at": "2026-10-23T18:14:21+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -8,9 +8,9 @@
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-10-15T18:10:29+00:00",
-      "fails_since_ok": 0,
-      "reason": "",
+      "last_fail": "2026-10-23T18:13:59+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-10-23T10:54:39+00:00",
       "tweets": 5
@@ -49,10 +49,10 @@
       "permanent": true
     },
     "https://nitter.meowing.monster": {
-      "last_ok": "2026-10-16T10:32:35+00:00",
-      "fails_since_ok": 1,
+      "last_ok": "2026-10-23T18:14:21+00:00",
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "interstitial did not clear in the browser",
+      "reason": "",
       "permanent": false,
       "last_fail": "2026-10-16T17:55:57+00:00"
     },
