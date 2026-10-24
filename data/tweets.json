@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08113477997751921,
+      "score": 0.0741344837164909,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06239313642907972,
+      "score": 0.061570889268445984,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.46630743171865274,
+      "score": 0.3742083131772179,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07988143891898933,
+      "score": 0.07844014174516728,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15059159957834423,
+      "score": 0.11489253571048472,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1965008511951361,
+      "score": 0.17366480852390856,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06604460622383783,
+      "score": 0.06059935976313145,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04523925888019744,
+      "score": 0.04476057422326397,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058533735946682736,
+      "score": 0.05548620133107868,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04536132421892741,
+      "score": 0.042685242406305765,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0680413035403321,
+      "score": 0.05375876057592716,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04386878636254758,
+      "score": 0.0382311927956425,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07873480838748032,
+      "score": 0.07430335948554821,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -315,7 +315,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
+      "detections": []
+    }
+  },
+  {
+    "title": "No comment",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2113992147418628389#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-24 16:52 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03392204116088773,
       "detections": []
     }
   },
@@ -331,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1284310225291502,
+      "score": 0.13001057870750016,
       "detections": []
     }
   },
@@ -347,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09664616117453932,
+      "score": 0.10542145595195437,
       "detections": []
     }
   },
@@ -363,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06399643516456799,
+      "score": 0.06055937555163351,
       "detections": []
     }
   },
@@ -379,23 +395,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.49964448051621474,
+      "score": 0.5329793440685826,
       "detections": []
     }
   },
   {
-    "title": "A solid choice for FAA",
+    "title": "I met a woman who lives in Great Neck, New York last night at a cocktail party and I told her about my late father's book of short stories \"Growing Up In Great Neck, 1941-1947\" and she immediately bought it. You can too here a.co/d/08BaKtZW #Amazon via @Amazon",
     "description": "",
-    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106078414834745449#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-02 20:46 EEST",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2113971417180217740#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-24 15:30 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03157869086791935,
+      "score": 0.07571906177450831,
+      "detections": []
+    }
+  },
+  {
+    "title": "There is a “Randy’s Donuts” franchise coming to my NYC neighborhood 😜",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2113969059247067410#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-24 15:21 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.029144154423189468,
       "detections": []
     }
   },
@@ -411,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03987336568941923,
+      "score": 0.035190213047011865,
       "detections": []
     }
   },
@@ -427,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04639334952037721,
+      "score": 0.03827848018874669,
       "detections": []
     }
   },
@@ -443,39 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042735284857162444,
-      "detections": []
-    }
-  },
-  {
-    "title": "So @PeterBurnsESPN & @ChrisDoering .... How are SEC title rings, like Jason Campbell just showed off @SECNetwork, going to be determined now that the SEC has 16 teams (of which four could have the same record with no viable \"follow-able\" tiebreaker) and no SEC Championship game?",
-    "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2113630653128278284#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-23 16:56 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0943493945185519,
-      "detections": []
-    }
-  },
-  {
-    "title": "How China turns forgotten corners into fitness courts english.news.cn/20261021/65b…",
-    "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2113625028457533497#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-23 16:34 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.13194514327320336,
+      "score": 0.03532119947529569,
       "detections": []
     }
   },
@@ -491,7 +491,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
+      "detections": []
+    }
+  },
+  {
+    "title": "Impossible is nothing for @rogerfederer 🪄\n\n@SH_RolexMasters | #RolexShanghaiMasters",
+    "description": "",
+    "link": "https://nitter.meowing.monster/atptour/status/2114010839497814132#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-24 18:07 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.8163072737421272,
+      "detections": []
+    }
+  },
+  {
+    "title": "these are FIRST-round matches next week: \n\nShelton vs Ruud\nFritz vs Tsitsipas\nFils vs Hurkacz\nTiafoe vs Musetti\nCobolli vs Dimitrov\nPaul vs Khachanov\nAlcaraz vs Khachanov\n\nnot enough? here's more:\n\nLehecka vs Wawrinka\nDjokovic vs Humbert\nNakashima vs Griekspoor\nMedvedev vs Merida",
+    "description": "",
+    "link": "https://nitter.meowing.monster/Dimonator/status/2113971884039553445#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-24 15:32 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.20489731187773993,
       "detections": []
     }
   },
@@ -507,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08265269410078507,
+      "score": 0.07987874857526957,
       "detections": []
     }
   },
@@ -523,39 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05567384009949165,
-      "detections": []
-    }
-  },
-  {
-    "title": "No exaggeration, this guy might be the best interview in pro sports right now",
-    "description": "",
-    "link": "https://nitter.meowing.monster/IainMacBets/status/2112178317332042035#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-19 16:45 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07645013193031144,
-      "detections": []
-    }
-  },
-  {
-    "title": "An update from me 🎾",
-    "description": "",
-    "link": "https://nitter.meowing.monster/DKTNNS/status/2112214787409293758#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-19 19:10 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05568780153264456,
+      "score": 0.0473297687758046,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09150462371495022,
+      "score": 0.07133497694875393,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04766138540894144,
+      "score": 0.046315418836513,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.21472693283175764,
+      "score": 0.23987347141005802,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05932541785596207,
+      "score": 0.05961877571892252,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -795,87 +795,103 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053163022829473876,
+      "score": 0.05572261542285587,
       "detections": []
     }
   },
   {
-    "title": "Musetti.\n\n\"You have to win matches like this if you wanna be one of the best players in the world\"",
+    "title": "Struff up 6-4 on Fils.\n\nPlaying incredibly well.",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2113773067755262327#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114043657666052133#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 02:22 EEST",
+    "date": "2026-10-24 20:17 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1414282813556353,
+      "score": 0.03143540912062808,
       "detections": []
     }
   },
   {
-    "title": "What did we just watch.\n\n1.17am in Lyon.\n\nWow.",
+    "title": "Altmaier won\n\nMoutet and Duckworth lost\n\nMannarino is on court",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2113772143678808335#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114039302652895561#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 02:18 EEST",
+    "date": "2026-10-24 20:00 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05234900939354442,
+      "score": 0.04090635088994499,
       "detections": []
     }
   },
   {
-    "title": "4-4 in the decider.\n\n3 hours\n\n23 minutes\n\nInsane.",
+    "title": "🪫✈️ Not even a day off for these players, who competed in one tournament yesterday and are already playing in another today:\n\nMannarino (Almaty → Vienna)\nMoutet (Lyon → Vienna)\nAltmaier (Lyon → Basel)\nDuckworth (Almaty → Basel)\n\nLyon to Vienna or Basel is manageable, but travelling all the way from Almaty, potentially spending 15+ hours in transit, and competing the very next day? Brutal 🫩",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2113769483370193312#m",
+    "link": "https://nitter.meowing.monster/tennismasterr/status/2113816286858039770#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 02:08 EEST",
-    "is_retweet": false,
+    "date": "2026-10-24 05:14 EEST",
+    "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038214456208494944,
+      "score": 0.12384393800361881,
       "detections": []
     }
   },
   {
-    "title": "Andy Murray and Milos Raonic have the record for longest ever best of 3 set match indoors.\n\n2016 ATP Finals SF - 3h38\n\nVan Assche and Musetti are 17 minutes away at 3-4 in the decider...\n\npiped.video/watch?v=N1XCRScd…",
+    "title": "Bublik withdraws from Basel.\n\nRuud is now seeded so won't need to face Shelton in R1.\n\nRuud vs. Stricker\n\nShelton vs. Q/LL",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2113768700667191648#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114038644600434939#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 02:05 EEST",
+    "date": "2026-10-24 19:57 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08356274392887213,
+      "score": 0.08660109209604397,
       "detections": []
     }
   },
   {
-    "title": "Musetti asks ATP Supervisor Rogério Santos to use his phone... for a reason.\n\n\"I have my antidoping alarm set for 1am.\"\n\nThey never imagined they would be on court at this time of the night/morning.",
+    "title": "Not that all surprising Faria's results have dropped late in the season, has played SO MUCH tennis in 2026. Full list below:",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2113766013497954621#m",
+    "link": "https://nitter.meowing.monster/tennismasterr/status/2113992674562998784#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 01:54 EEST",
+    "date": "2026-10-24 16:55 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06550910398785759,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP500 Basel and Vienna main draw",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2113984681800610052#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-24 16:23 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.18649132836406512,
+      "score": 0.06257925036585399,
       "detections": []
     }
   },
@@ -891,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04968873077672124,
+      "score": 0.05102228692094869,
       "detections": []
     }
   },
@@ -907,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04500558978496103,
+      "score": 0.03963101051037897,
       "detections": []
     }
   },
@@ -923,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07052227682646396,
+      "score": 0.057425615670704803,
       "detections": []
     }
   },
@@ -939,23 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05356338664979976,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak Djokovic to play ATP500 Swiss Indoors in Basel.",
-    "description": "",
-    "link": "https://nitter.meowing.monster/MichalSamulski/status/2111112810839384481#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-16 18:11 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.11148660829783838,
+      "score": 0.04507260583211605,
       "detections": []
     }
   }
