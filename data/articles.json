@@ -1,5 +1,19 @@
 [
   {
+    "title": "Sinner: ‘We made it happen, now it’s time to enjoy’",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/wimbledon_2026_sinner_quotes_final",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.037661110043557364,
+      "detections": []
+    }
+  },
+  {
     "title": "Champion again: Sinner defeats Zverev with 100th Grand Slam match win",
     "description": "I have read, understand and agree to the Terms of Use",
     "link": "https://www.wimbledon.com/en_GB/news/wimbledon_2026_sinner_zverev_final",
@@ -42,44 +56,156 @@
     }
   },
   {
-    "title": "Frances Tiafoe lights up DC Open with superstar homecoming",
-    "description": "1 year agoWASHINGTON, DC—It takes Frances Tiafoe almost 10 minutes to about 50 feet at the Mubadala Citi DC Open. The DMV native makes multiple stops in the short distance between the press conference room and player area, where he's asked to sign numerous ...",
-    "link": "https://www.tennis.com/news/articles/frances-tiafoe-2025-citi-dc-open-interview",
+    "title": "Health Benefits of Tennis",
+    "description": "5 years agoWhen you maintain an active lifestyle, you improve your overall health while building strong muscles and bones. But over time, doing the same physical activities can become boring. If you're looking for a new activity to add to your fitness routine ...",
+    "link": "https://www.webmd.com/fitness-exercise/features/tennis-workout",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
     "date": "",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03366307966624558,
+      "score": 0.05014588326090629,
       "detections": []
     }
   },
   {
-    "title": "Tennis Participation In US Hits New High, Prompting $10 Million Investment",
-    "description": "2 years agoFor the fifth consecutive year, tennis participation in the U.S. increased. Last year saw a 1.9 million or over eight percent increase from the estimated 23.8 million Americans who played tennis at some point in 2023 to bring the number of people who ...",
-    "link": "https://www.forbes.com/sites/brucelee/2025/03/03/tennis-participation-hits-new-high-257m-prompts-10m-investment/",
+    "title": "ATP Tour campaign ushers in a new era of tennis",
+    "description": "2 years agoThe men's tennis tour has launched It All Adds Up, a new brand platform and campaign, in the hope of boosting interest in the sport between the majors Wieden+Kennedy London has created a new brand platform and campaign for the ATP Tour, the year-round ...",
+    "link": "https://www.creativereview.co.uk/atp-tour-brand-campaign-tennis/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
     "date": "",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07388110097979489,
+      "score": 0.03027286845262737,
       "detections": []
     }
   },
   {
-    "title": "Tennis Mailbag: Why Holger Rune's Injury Sparked a Schedule Debate",
-    "description": "1 year ago• Here's the latest Served podcast: • Here's Andy Roddick on Armchair Expert: • I'm hearing that the WTA is on the verge of major sponsor announcement, a well-regarded car company to replace Hologic. • I had the good fortune of interviewing ...",
-    "link": "https://www.si.com/tennis/tennis-mailbag-why-holger-rune-injury-sparked-schedule-debate",
+    "title": "Levels of Tennis Explained: ITF, Challengers, ATP Tour",
+    "description": "2 years agoAs with any sport, professional tennis has levels to it. The most commonly known tier in men's tennis is the ATP Tour, and its counterpart in women's tennis, the WTA Tour. However, there are several levels below this. From the ITF through to the ...",
+    "link": "https://www.tennisnerd.net/levels-of-tennis",
+    "source_name": "DDG/tennisnerd",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04857085661378353,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Tennis 2026 - ATP Tour Kalenteri, Ranking & Turnaukset",
+    "description": "1 year agoATP eli Association of Tennis Professionals perustettiin vuonna 1972. Järjestön organisoima ATP Tour on miesten ammattilaistenniksen korkein kansainvälinen kiertue. Naisten vastaava kiertue on WTA Tour. ATP-kiertueeseen kuuluvat Grand Slam -turnaukset sekä ATP Finals-, ATP Masters-, ATP 500- ja ATP 250 -turnaukset. Täältä löydät ATP Tourin täydellisen kilpailukalenterin, ATP ...",
+    "link": "https://etusuora.com/tennis/atp",
+    "source_name": "DDG/etusuora",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2878536745049814,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATPツアー大会が26年ぶりに韓国で開催、ズべレフらトッププレイヤーも出場へ",
+    "description": "4 years ago男子プロテニス世界ランキング2位のアレクサンダー・ズベレフ（25）、今年全仏オープン男子シングルス準優勝のキャスパー・ルード（24）が今秋に来韓する。この二人より1週間先 ...",
+    "link": "https://www.donga.com/jp/article/all/20220723/3528928/1",
+    "source_name": "DDG/동아일보",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06219183167712558,
+      "detections": []
+    }
+  },
+  {
+    "title": "U-NEXTが男子テニスツアー「ATP Tour」の日本国内における独占配信を開始。「ATP Media」と5年間のパートナーシップ契約を締結",
+    "description": "2 years agoU-NEXTは、「ATP Media」と5年間にわたるパートナーシップを締結。世界最高峰の男子テニスツアー「ATP Tour」の日本国内における独占配信を開始いたします。U-NEXTの月額会員の方であれば、追加 ...",
+    "link": "https://www.unext.co.jp/ja/press-room/atp-tour-live-2024-11-29",
+    "source_name": "DDG/unext",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09195798919205196,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA announces 2026 Tour calendar",
+    "description": "1 year agoST PETERSBURG, Fla. -- The WTA has announced the 2026 Tour calendar, featuring over 50 tournaments in 26 countries and territories in addition to the four Grand Slams. The 2026 WTA Tour season will showcase: Ten WTA 1000 tournaments, including seven ...",
+    "link": "https://www.wtatennis.com/news/4377748/wta-announces-2026-tour-calendar",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
     "date": "",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03944424702963861,
+      "score": 0.04502713518489896,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA through the decades: Celebrating 50 years of the WTA Tour",
+    "description": "3 years agoToday marks the 50th anniversary of the Women's Tennis Association (WTA), but have you ever wondered how the tour came to be what it is today? From the birth of women's tennis thanks to the Original Nine to the present day and historical ...",
+    "link": "https://www.lta.org.uk/news/2023/june/celebrating-50-years-of-the-wta-tour/",
+    "source_name": "DDG/lta",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05087162120397807,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA Tour: terminarz na sezon 2026. W jakich turniejach zagra Iga Świątek?",
+    "description": "1 year agoWTA opublikowała kalendarz imprez z cyklu WTA Tour na rok 2026. Najlepsze tenisistki świata zagrają w dobrze znanych sobie miejscach, ponieważ na liście nie doszło do wielkich zmian.",
+    "link": "https://sport.tvp.pl/89384417/wta-tour-terminarz-na-sezon-2026-w-jakich-turniejach-zagra-iga-swiatek",
+    "source_name": "DDG/tvp",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.6904803472511101,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA Tour od 2027 wyłącznie w Eleven Sports",
+    "description": "1 year agoOd 2027 r. wszystkie turnieje WTA Tour - cieszącego się w Polsce ogromną popularnością - trafią na wyłączność do Eleven Sports. Polscy kibice będą mogli śledzić sukcesy Igi Świątek i rywalizację najlepszych tenisistek świata w pełnej ...",
+    "link": "https://satkurier.pl/news/246197/wta-tour-od-2027-wylacznie-w-eleven-sports.html",
+    "source_name": "DDG/satkurier",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.6788909006543337,
+      "detections": []
+    }
+  },
+  {
+    "title": "Arthur Fils gives emotional reaction after losing in the Brussels semi-finals, ‘it’s hard to see the positives’",
+    "description": "Arthur Fils has endured a strange week in Brussels, with his time in the Belgian capital having now been brought to a rather abrupt end....",
+    "link": "https://sports.yahoo.com/articles/arthur-fils-gives-emotional-reaction-100000797.html",
+    "source_name": "Yahoo Sports Tennis",
+    "source_url": "https://sports.yahoo.com/tennis/",
+    "date": "2026-10-25 12:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03045871829848485,
       "detections": []
     }
   },
@@ -94,6 +220,48 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.035957588345332595,
+      "detections": []
+    }
+  },
+  {
+    "title": "He’s the Australian ATP player who has won 96 matches in 2026 and is closing in on unique Ivan Lendl record",
+    "description": "Australian tennis is in a strange position at the moment. After all, whilst it obviously boasts a handful of talented players, it feels like, on...",
+    "link": "https://sports.yahoo.com/articles/australian-atp-player-won-96-090000079.html",
+    "source_name": "Yahoo Sports Tennis",
+    "source_url": "https://sports.yahoo.com/tennis/",
+    "date": "2026-10-25 11:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.042250781841604274,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alexander Zverev Eyes Career Grand Slam After 2026 Breakthrough",
+    "description": "The season may still be ongoing, but Alexander Zverev has already outlined one of his top goals for next year. Zverev is set to end 2026 as world No.1 and could seal this position as early as next week if he reaches the quarter-finals of the Vienna Open or better. This year, he won his […]",
+    "link": "https://www.ubitennis.net/2026/10/alexander-zverev-eyes-career-grand-slam-after-2026-breakthrough/",
+    "source_name": "Ubitennis",
+    "source_url": "https://www.ubitennis.net/",
+    "date": "2026-10-25 10:53 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09586252390325752,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Lyon Final Best Bet – Lorenzo Musetti Vs Taylor Fritz",
+    "description": "Aug 21, 2026; Mason, OH, USA; Taylor Fritz (USA) reacts after returning a shot against Ben Nakashima (USA) during the Cincinnati Open at Lindner Family Tennis Center. Mandatory Credit: Aaron Doster-Imagn Images | Source: Lastwordonsports.com - Steen Kirby",
+    "link": "https://lastwordonsports.com/tennis/2026/10/25/atp-lyon-final-best-bet-musetti-fritz/",
+    "source_name": "Last Word on Tennis",
+    "source_url": "https://lastwordonsports.com/tennis/",
+    "date": "2026-10-25 10:30 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.13134400390207557,
       "detections": []
     }
   },
@@ -140,20 +308,6 @@
     }
   },
   {
-    "title": "Novak Djokovic learns his Basel Open path as tough opponents await\t\t\t\tThe 39-year-old is returning to Basel for the first time since 2011, hoping to collect valuable ranking points and...",
-    "description": "The 39-year-old is returning to Basel for the first time since 2011, hoping to collect valuable ranking points and improve his chances of qualifying for the ATP Finals in Turin.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Novak_Djokovic/170862/novak-djokovic-learns-his-basel-open-path-as-tough-opponents-await/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 09:07 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.032279165690968226,
-      "detections": []
-    }
-  },
-  {
     "title": "ATP Rankings: How many points will Sinner, Zverev, Alcaraz, Shelton, Djokovic drop next week?",
     "description": "Jannik Sinner, who won't feature, won the Vienna Open and Paris Masters last year. The post ATP Rankings: How many points will Sinner, Zverev, Alcaraz, Shelton, Djokovic drop next week? appeared first on Tennis365 .",
     "link": "https://www.tennis365.com/atp-tour/atp-rankings-points-sinner-zverev-alcaraz-shelton-djokovic-drop-next-week",
@@ -182,30 +336,30 @@
     }
   },
   {
-    "title": "Siniakova Wins 10 Straight Games to Clinch Sixth WTA Singles Title",
-    "description": "Katerina Siniakova captured her sixth career WTA singles title with a commanding 6-1, 6-0 victory over Ashlyn Krueger in the Japan Open final in Osaka.",
-    "link": "https://www.wtatennis.com/news/4598497/siniakova-wins-10-straight-games-to-clinch-sixth-wta-singlea-title",
-    "source_name": "DuckDuckGo News",
+    "title": "Suns' Duop Reath: Used sparingly despite opportunity",
+    "description": "Suns' Duop Reath: Used sparingly despite opportunity",
+    "link": "https://www.cbssports.com/fantasy/basketball/news/suns-duop-reath-used-sparingly-despite-opportunity/",
+    "source_name": "DDG/CBSSports.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 08:22 EET",
+    "date": "2026-10-25 08:38 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042083620002669325,
+      "score": 0.029887668769474025,
       "detections": []
     }
   },
   {
-    "title": "Alexandra Eala set to return to Auckland after unfortunate end to 2026 debut",
-    "description": "Eala set to kick off her season in Auckland for the second year in a row.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170847/alexandra-eala-set-to-return-to-auckland-after-unfortunate-end-to-2026-debut/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 07:05 EET",
+    "title": "\"Regretting what he did\" - Andre Agassi faces massive fan backlash over attitude change towards Alexander Zverev after World No. 1 rise",
+    "description": "Alexander Zverev has earned high praise from Andre Agassi after achieving his lifelong goal of winning a Grand Slam title during the 2026 season. However, the former World No.",
+    "link": "https://www.sportskeeda.com/tennis/news-regretting-did-andre-agassi-faces-massive-fan-backlash-attitude-change-towards-alexander-zverev-world-no-1-rise",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-25 08:38 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.030083810273668805,
+      "score": 0.0927916008070313,
       "detections": []
     }
   },
@@ -266,16 +420,30 @@
     }
   },
   {
-    "title": "Martina Navratilova rips into 'nasty' critics of Elina Svitolina, Gael Monfils",
-    "description": "Navratilova shows public support to Svitolina and Monfils after the news of their divorce.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170846/martina-navratilova-rips-into-nasty-critics-of-elina-svitolina-gael-monfils-/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 04:50 EET",
+    "title": "Yuki Bhambri-Ryan Seggerman topple top seeds in final to win ATP 250 Almaty Open 2026 doubles tennis title",
+    "description": "India's Yuki Bhambri won his career's fifth ATP Tour crown after claiming the ATP 250 Almaty Open 2026 doubles tennis title with USA's Ryan Seggerman.",
+    "link": "https://www.olympics.com/en/news/almaty-open-2026-tennis-doubles-final-yuki-bhambri-india-report",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-25 04:38 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07476471418854011,
+      "score": 0.06114075692352056,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP roundup: Taylor Fritz to face Lorenzo Musetti in Lyon title match",
+    "description": "By Field Level Media Oct 25 (Field Level Media) - Second-seeded Taylor Fritz drilled 15 aces while overwhelming fellow American Tommy Paul 6-3, 7-5 on Saturday to reach the final at the Grand Prix Auvergne- Rhone-Alpes in Lyon, France. Fritz also saved...",
+    "link": "https://kelo.com/2026/10/24/atp-roundup-taylor-fritz-to-face-lorenzo-musetti-in-lyon-title-match/",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-25 04:38 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06753054031609448,
       "detections": []
     }
   },
@@ -290,20 +458,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.029716741207854832,
-      "detections": []
-    }
-  },
-  {
-    "title": "Queretaro Open",
-    "description": "Get the latest updates on news, matches & video for the Queretaro Open an official Women's Tennis Association event taking place 2026.",
-    "link": "https://www.wtatennis.com/tournaments/1145/Queretaro/2026",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 03:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09584258158211152,
       "detections": []
     }
   },
@@ -350,20 +504,6 @@
     }
   },
   {
-    "title": "Hong Kong boss shuts down tournament quality concerns after Zheng Qinwen withdrawal",
-    "description": "President of the Hong Kong, China Tennis Association Michael Cheng Ming-git addresses whether Zheng's withdrawal negatively reflects on the tournament.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170854/hong-kong-boss-shuts-down-tournament-quality-concerns-after-zheng-qinwen-withdrawal/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 02:40 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06377482008449178,
-      "detections": []
-    }
-  },
-  {
     "title": "5 Players Withdraw From WTA Guangzhou Open",
     "description": "Aug 2, 2025; Montreal, QC, Canada; Rain delay on centre court and the WTA logo on the net during the match between Jessica Bouzas Maneiro (ESP) and Lin Zhu (CHN) in fourth round play at IGA Stadium. Mandatory Credit: Eric Bolte-Imagn Images | Source: Lastwordonsports.com - Steen Kirby",
     "link": "https://lastwordonsports.com/tennis/2026/10/24/5-players-withdraw-wta-guangzhou/",
@@ -388,62 +528,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07145332192269144,
-      "detections": []
-    }
-  },
-  {
-    "title": "Meet tennis star Monica Seles' billionaire partner with a 32-year age gap",
-    "description": "Monica Seles, 52, met Tom Golisano, 84, in 2009, and the duo got engaged in 2014. Learn all about Tom and their relationship.",
-    "link": "https://www.msn.com/en-us/news/other/meet-tennis-star-monica-seles-billionaire-partner-with-a-32-year-age-gap/ss-AA2g0g1Q",
-    "source_name": "DDG/Hello! US on MSN.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 02:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07720199119553545,
-      "detections": []
-    }
-  },
-  {
-    "title": "BNB Ningbo Open",
-    "description": "Player list coming soon. Please check back for updates. Player list coming soon. Please check back for updates. Player list coming soon. Please check back for updates ...",
-    "link": "https://www.wtatennis.com/tournaments/2092/ningbo/2026/player-list",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 02:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08824956025823874,
-      "detections": []
-    }
-  },
-  {
-    "title": "Kinoshita Group Japan Open",
-    "description": "Player list coming soon. Please check back for updates. Player list coming soon. Please check back for updates. Player list coming soon. Please check back for updates ...",
-    "link": "https://www.wtatennis.com/tournaments/405/osaka/2026/player-list",
-    "source_name": "DDG/WTA",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 02:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.12454390512291601,
-      "detections": []
-    }
-  },
-  {
-    "title": "Toray Pan Pacific Open Tennis",
-    "description": "The Toray Pan Pacific Open is a WTA 500 tournament played on outdoor hard courts in Tokyo, Japan. The event started in 1973 and has a rich history with the WTA. One of the premier events in the Asian Swing, 28 singles players and 16 doubles teams compete ...",
-    "link": "https://www.wtatennis.com/tournaments/1056/tokyo/2027",
-    "source_name": "DDG/WTA",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 02:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04344843356699423,
       "detections": []
     }
   },
@@ -546,12 +630,26 @@
     }
   },
   {
+    "title": "tennis news",
+    "description": "Tennis News - Find latest Tennis news, match score and updates from International and domestic matches happened in India and the World at hindustantimes.com",
+    "link": "https://www.hindustantimes.com/sports/tennis",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-25 01:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0693526728912132,
+      "detections": []
+    }
+  },
+  {
     "title": "Ava Sock battles through injury to help MICDS sweep Class 1 girls tennis individual titles",
     "description": "The MICDS doubles team of senior Taylor Gast and junior Audrey Taves won their first state title after finishing as the Class 2 runner-up last season.",
     "link": "https://www.stltoday.com/sports/high-school/girls-tennis/article_cb5a85fd-9836-4d9a-8433-59cd7be4a539.html",
-    "source_name": "DDG/St. Louis Post-Dispatch",
+    "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 01:22 EEST",
+    "date": "2026-10-25 01:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -560,44 +658,16 @@
     }
   },
   {
-    "title": "Valle D'Aosta Ladies Open",
-    "description": "Follow the latest scores, order of play and draw information for Valle D'Aosta Ladies Open 2026: WTA 125 tournament played in COURMAYEUR • ITA.",
-    "link": "https://www.wtatennis.com/tournaments/1174/Courmayeur/2026/live",
+    "title": "Seven lefties, one rare edge: the left-handed players shaping the WTA top 100 in 2026",
+    "description": "Left-handed players account for just seven of the WTA's top 100, but they have made their presence felt in 2026. Maja Chwalinska, the highest-ranked of the group, reached the Roland Garros final",
+    "link": "https://tennisuptodate.com/wta/seven-lefties-one-rare-edge-the-left-handed-players-shaping-the-wta-top-100-in-2026",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 01:22 EEST",
+    "date": "2026-10-25 00:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057640022501763255,
-      "detections": []
-    }
-  },
-  {
-    "title": "Home star Naomi Osaka handed tough 1R matchup in Tokyo return",
-    "description": "In what will be her first Tokyo match in four years, Osaka will face Jasmine Paolini.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170856/home-star-naomi-osaka-handed-tough-1r-matchup-in-tokyo-return/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 00:50 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.052954598401092665,
-      "detections": []
-    }
-  },
-  {
-    "title": "Rafael Nadal's confession that no one expected",
-    "description": "Two years have passed without Rafa's energy, determination and charisma on the professional tour",
-    "link": "https://www.tennisworldusa.org/tennis/news/Rafael_Nadal/170861/rafael-nadal-s-confession-that-no-one-expected/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 00:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08235300333077816,
+      "score": 0.06192631102047749,
       "detections": []
     }
   },
@@ -630,20 +700,6 @@
     }
   },
   {
-    "title": "Alexander Zverev wants to become No. 1 soon: all scenarios",
-    "description": "The German ace is certain to become world number one for the first time in his career",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170860/alexander-zverev-wants-to-become-no-1-soon-all-scenarios/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-25 00:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.14823954847931667,
-      "detections": []
-    }
-  },
-  {
     "title": "Klugman to face Jacquemot in Wrexham Open final",
     "description": "Britain's Hannah Klugman will face Elsa Jacquemot of France in Sunday's Lexus Wrexham Open singles final.",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/c64g19g780k9o?at_medium=RSS&at_campaign=rss",
@@ -654,34 +710,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07709778942763214,
-      "detections": []
-    }
-  },
-  {
-    "title": "Daniil Medvedev's latest considerations open the debate",
-    "description": "The Russian ace has a very specific task this week at the ATP 250 in Almaty",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170859/daniil-medvedev-s-latest-considerations-open-the-debate/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 23:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04882526947140623,
-      "detections": []
-    }
-  },
-  {
-    "title": "Boris Becker has a message for Elina Svitolina and Gael Monfils after divorce",
-    "description": "Becker sends a message of support to Svitolina and Monfils.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170844/boris-becker-has-a-message-for-elina-svitolina-and-gael-monfils-after-divorce/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 23:10 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.045944374515374864,
       "detections": []
     }
   },
@@ -798,20 +826,6 @@
     }
   },
   {
-    "title": "Reason why Arthur Fils deserves to play the ATP Finals",
-    "description": "Fils has taken a huge step towards qualifying for the ATP Finals in Turin ",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170858/reason-why-arthur-fils-deserves-to-play-the-atp-finals/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 22:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.033219046945231326,
-      "detections": []
-    }
-  },
-  {
     "title": "Naomi Osaka’s baby daddy Cordae expecting second child?",
     "description": "Naomi Osaka‘s ex-boyfriend, rapper Cordae, appears to suggest that the tennis star’s love for him had faded in his new song “Helpless,” while seemingly revealing that he is expecting his second child. The former couple share a three-year-old daughter, Shai. Four-time Grand Slam champion Osaka and the American rapper went public with their relationship in […]",
     "link": "https://womenstennisblog.com/2026/10/24/naomi-osakas-baby-daddy-cordae-expecting-second-child/",
@@ -840,17 +854,18 @@
     }
   },
   {
-    "title": "Elena Rybakina fires stern warning to in-form Leylah Fernandez ahead of Ningbo final",
-    "description": "Rybakina reflects on beating Diana Shnaider in the Ningbo semifinal and facing Fernandez for the title.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170855/elena-rybakina-fires-stern-warning-to-inform-leylah-fernandez-ahead-of-ningbo-final/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 21:40 EEST",
+    "title": "[redacted: this text was flagged as a prompt-injection payload]",
+    "description": "[redacted: this text was flagged as a prompt-injection payload]",
+    "link": "https://www.tagesspiegel.de/sport/dpa-atp-tour-tennis-uberraschung-struff-steht-im-finale-von-brussel-16199016.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-24 21:38 EEST",
     "injection": {
       "scanned": true,
-      "risk": "medium",
-      "score": 0.05144809761585979,
-      "detections": []
+      "risk": "high",
+      "score": 0.8747277626180308,
+      "detections": [],
+      "redacted": true
     }
   },
   {
@@ -920,48 +935,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04258781012665124,
-      "detections": []
-    }
-  },
-  {
-    "title": "How Dunlap girls tennis team, and its star player, finished in IHSA state finals",
-    "description": "Dunlap junior Anna Yu finished her tennis season with second-team All-State honors after a tough semifinal loss.",
-    "link": "https://sports.yahoo.com/articles/dunlap-girls-tennis-team-star-183352284.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 20:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.031572168776552306,
-      "detections": []
-    }
-  },
-  {
-    "title": "4A girls tennis: LNC's Kate Champion a singles champ, Carrboro doubles team wins title",
-    "description": "The 2006 N.C. High School Athletic Association 4A girls tennis individual championships were hosted by Burlington Tennis Center on Friday and Saturday, Oct. 23-24.",
-    "link": "https://www.highschoolot.com/news/tennis/nchsaa-2026-4a-girls-individual-championships-singles-doubles-october/",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 20:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.035062419128545456,
-      "detections": []
-    }
-  },
-  {
-    "title": "Venus Williams draws 28-years-younger rival in Guangzhou first round",
-    "description": "Williams, who is 0-12 in 2026, set to meet Lilli Tagger in the Guangzhou first round.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170853/venus-williams-draws-28yearsyounger-rival-in-guangzhou-first-round/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 20:10 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.033902231448872784,
       "detections": []
     }
   },
@@ -1064,20 +1037,6 @@
     }
   },
   {
-    "title": "Carlos Alcaraz chooses two familiar rivals for Vienna Open preparations",
-    "description": "Alcaraz's decision to play in Austria delighted tournament director Herwig Straka, who contacted the Spaniard's representatives shortly after learning that the Six Kings Slam would not take place in October.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Carlos_Alcaraz/170852/carlos-alcaraz-chooses-two-familiar-rivals-for-vienna-open-preparations/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 19:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.043325852732629774,
-      "detections": []
-    }
-  },
-  {
     "title": "Monfils defends Svitolina after 'venomous' criticism",
     "description": "Gael Monfils describes criticism of Elina Svitolina since she announced the pair were ending their marriage as \"venomous\" and \"upsetting\".",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/ckz7xn4xep1go?at_medium=RSS&at_campaign=rss",
@@ -1106,20 +1065,6 @@
     }
   },
   {
-    "title": "Family backed tennis rise: Ons Jabeur climbs from hotel courts; inspires Arab, African women",
-    "description": "Ons Jabeur's journey from makeshift courts in hotels in Tunisia to three Grand Slam singles finals is a tale of years of determination, family sacrifice and belief in her distinctive playing style. Jabeur,",
-    "link": "https://www.msn.com/en-in/news/other/family-backed-tennis-rise-ons-jabeur-climbs-from-hotel-courts-inspires-arab-african-women/ar-AA2fZoVD",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 18:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04301991090545313,
-      "detections": []
-    }
-  },
-  {
     "title": "Biggest Climbers in the ATP Rankings in 2026",
     "description": "Two places. That’s how far Alexander Zverev will have climbed in 2026, from No. 3 at the start of the season to the top of the PIF ATP Rankings. For a decade he knocked; this year, the door finally gave way. 2026 Belongs to Zverev In Paris, he beat Flavio Cobolli 6-1, 4-6, 6-4, 6-7(5), […] The post Biggest Climbers in the ATP Rankings in 2026 appeared first on World Tennis Magazine .",
     "link": "https://worldtennismagazine.com/biggest-climbers-in-the-atp-rankings-in-2026/",
@@ -1130,34 +1075,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.25215883155020624,
-      "detections": []
-    }
-  },
-  {
-    "title": "Top-ranked Rybakina will play Fernandez in Ningbo Open final",
-    "description": "NINGBO, China (AP) — Top-ranked Elena Rybakina beat Diana Shnaider 6-3, 7-5 on Saturday to return to the Ningbo Open final.Defending champion Rybakina hit six aces but needed 11 set points to take the first set in a match that featured erratic serving and a total of 11 double-faults between her and Shnaider.",
-    "link": "https://sports.yahoo.com/articles/top-ranked-rybakina-play-fernandez-151646933.html",
-    "source_name": "Yahoo Sports Tennis",
-    "source_url": "https://sports.yahoo.com/tennis/",
-    "date": "2026-10-24 18:16 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06633981960743117,
-      "detections": []
-    }
-  },
-  {
-    "title": "Stan Wawrinka's Career Comes Full Circle With a Retirement Tournament in Basel",
-    "description": "Stan Wawrinka is set to retire at the season, playing his final tournament at the Swiss Indoors Basel this October. Here's what's planned for his farewell tribute, plus a look back at his three-major career.",
-    "link": "https://sports.yahoo.com/articles/stan-wawrinkas-career-comes-full-150100733.html",
-    "source_name": "Yahoo Sports Tennis",
-    "source_url": "https://sports.yahoo.com/tennis/",
-    "date": "2026-10-24 18:01 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.045410212410942626,
       "detections": []
     }
   },
@@ -1190,20 +1107,6 @@
     }
   },
   {
-    "title": "Jannik Sinner's injury situation takes a new turn after latest medical reports",
-    "description": "According to the latest report from La Gazzetta dello Sport, the five-time Grand Slam champion has made progress in recent days.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Jannik_Sinner/170851/jannik-sinner-s-injury-situation-takes-a-new-turn-after-latest-medical-reports/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 17:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.058205026130554234,
-      "detections": []
-    }
-  },
-  {
     "title": "ATP Vienna, Basel & WTA Tokyo, Guangzhou 2026 Live Streaming: How to Watch Tennis Online and on TV",
     "description": "ATP Vienna, Basel & WTA Tokyo, Guangzhou 2026 Live Streaming: How to Watch Tennis Online and on TV The 2026 tennis season continues with a blockbuster week of ATP and WTA action as the Erste Bank Open in Vienna, Swiss Indoors Basel, Toray Pan Pacific Open in Tokyo and Guangzhou Open take place from October […] The post ATP Vienna, Basel & WTA Tokyo, Guangzhou 2026 Live Streaming: How to Watch Tennis Online and on TV appeared first on Tennis Connected .",
     "link": "https://tennisconnected.com/atp-vienna-basel-wta-tokyo-guangzhou-2026-live-streaming-how-to-watch-tennis-online-and-on-tv/",
@@ -1214,20 +1117,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07274156523152908,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP Brussels Semifinal Predictions Including Arthur Fils vs Jan-Lennard Struff",
-    "description": "Aug 20, 2026; Mason, OH, USA; Arthur Fils (FRA) reacts after returning a shot against Thiago Agustin Tirante (ARG) during the Cincinnati Open at Lindner Family Tennis Center. Mandatory Credit: Aaron Doster-Imagn Images | Source: Lastwordonsports.com - Yesh Ginsburg",
-    "link": "https://lastwordonsports.com/tennis/2026/10/24/atp-brussels-semifinal-predictions-including-arthur-fils-vs-jan-lennard-struff/",
-    "source_name": "Last Word on Tennis",
-    "source_url": "https://lastwordonsports.com/tennis/",
-    "date": "2026-10-24 17:14 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.061380510000159025,
       "detections": []
     }
   },
@@ -1298,20 +1187,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.8307250230413316,
-      "detections": []
-    }
-  },
-  {
-    "title": "Carlos Alcaraz handed difficult Vienna draw as Medvedev awaits in his half",
-    "description": "The 23-year-old returns to the Austrian tournament for the first time since 2021. He is seeded second behind Alexander Zverev and will try to win his fourth title of the season.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Carlos_Alcaraz/170848/carlos-alcaraz-handed-difficult-vienna-draw-as-medvedev-awaits-in-his-half/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 16:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05133503125347631,
       "detections": []
     }
   },
@@ -1400,44 +1275,16 @@
     }
   },
   {
-    "title": "Arthur Fils claims he’s done something this year that ‘rarely happens’ as he closes in on ATP Finals qualification",
-    "description": "Arthur Fils has enjoyed an extraordinary year, and it feels like vindication after the fitness turmoil he’s been forced to deal with thus far in…",
-    "link": "https://tennishead.net/arthur-fils-claims-hes-done-something-this-year-that-rarely-happens-as-he-closes-in-on-atp-finals-qualification/",
-    "source_name": "Tennishead",
-    "source_url": "https://tennishead.net/tennis/news/",
-    "date": "2026-10-24 15:00 EEST",
+    "title": "Rafael Nadal shares heartbreaking update — 'Lived in constant pain' - AOL",
+    "description": "Rafael Nadal has opened up about the chronic pain he experienced throughout his tennis career, admitting he lived in constant pain due to Muller-Weiss syndrome and injuries",
+    "link": "https://www.aol.com/articles/rafael-nadal-shares-heartbreaking-lived-130615000.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-24 14:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039721898508778594,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ningbo: Elena Rybakina closes out Diana Shnaider in two sets in tight SF clash",
-    "description": "Rybakina beats Shnaider and reaches back-to-back Ningbo finals.",
-    "link": "https://www.tennisworldusa.org/tennis/news/On_the_WTA_results_with/170845/ningbo-elena-rybakina-closes-out-diana-shnaider-in-two-sets-in-tight-sf-clash/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 14:49 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03719160510588402,
-      "detections": []
-    }
-  },
-  {
-    "title": "Carlos Alcaraz to play US Open semi-finalist in the first round of the Vienna Open as nightmare draw is confirmed",
-    "description": "Carlos Alcaraz will return to the Vienna Open for the first time in five years next week, in a bid to regain his full fitness…",
-    "link": "https://tennishead.net/carlos-alcaraz-to-play-us-open-semi-finalist-in-the-first-round-of-the-vienna-open-as-nightmare-draw-is-confirmed/",
-    "source_name": "Tennishead",
-    "source_url": "https://tennishead.net/tennis/news/",
-    "date": "2026-10-24 14:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.048342181886716316,
+      "score": 0.12578330544971117,
       "detections": []
     }
   },
@@ -1456,34 +1303,6 @@
     }
   },
   {
-    "title": "Rybakina survives Shnaider test, sets up Ningbo final with Fernandez",
-    "description": "For the second straight year, Elena Rybakina is into the Ningbo final, though her path there has been anything but easy. After being pushed to three sets by surprise qualifier Katarzyna Kawa in the quarterfinals, the World No. 1 needed 11 set points to ...",
-    "link": "https://www.wtatennis.com/news/4598225/rybakina-survives-shnaider-test-sets-up-ningbo-final-with-fernandez",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 14:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04963828528124861,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ningbo: In-form Leylah Fernandez reaches second final of Asian swing",
-    "description": "Fernandez beats Marie Bouzkova to reach her maiden Ningbo final.",
-    "link": "https://www.tennisworldusa.org/tennis/news/On_the_WTA_results_with/170843/ningbo-inform-leylah-fernandez-reaches-second-final-of-asian-swing/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 14:01 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.054609651380660075,
-      "detections": []
-    }
-  },
-  {
     "title": "New British number one Boulter loses Japan semi-final",
     "description": "New British number one Katie Boulter loses 6-1 6-4 to Czech doubles specialist Katerina Siniakova in the Japan Open semi-finals.",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/ck4g15ql8gr8o?at_medium=RSS&at_campaign=rss",
@@ -1494,6 +1313,48 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.045512728999080064,
+      "detections": []
+    }
+  },
+  {
+    "title": "The shocking defeat that made Novak Djokovic debate skipping Wimbledon",
+    "description": "The first half of Novak Djokovic's 2018 season on the ATP Tour left fans very concerned about his future in tennis. Djokovic had sustained an...",
+    "link": "https://sports.yahoo.com/articles/shocking-defeat-made-novak-djokovic-110000150.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-24 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06116232845224117,
+      "detections": []
+    }
+  },
+  {
+    "title": "Daniil Medvedev names the Grand Slam tournament where he would consider retiring from tennis",
+    "description": "Daniil Medvedev already has some ideas about where he could retire from professional tennis. Medvedev is currently 30 years old, and is a Grand Slam...",
+    "link": "https://sports.yahoo.com/articles/daniil-medvedev-names-grand-slam-110000491.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-24 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03931911854842166,
+      "detections": []
+    }
+  },
+  {
+    "title": "There's a strong chance of America ending a 28-year tennis drought before the end of the season",
+    "description": "Ben Shelton faced immense pressure when he took to Arthur Ashe Stadium last month to contest his first Grand Slam final. After recording an incredibly...",
+    "link": "https://sports.yahoo.com/articles/strong-chance-america-ending-28-020000247.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-24 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.059201409434675,
       "detections": []
     }
   },
@@ -1512,20 +1373,6 @@
     }
   },
   {
-    "title": "'I Suffered Enormously' — Rafael Nadal Reveals the Hidden Cost of His Tennis Career",
-    "description": "That is what Carlos Moya asked Rafael Nadal after the latter had lost his match to Jordan Thompson at the 2024 Brisbane International, having played the match through pain.",
-    "link": "https://www.yardbarker.com/tennis/articles/i_suffered_enormously_rafael_nadal_reveals_the_hidden_cost_of_his_tennis_career/s1_17730_44467100",
-    "source_name": "DDG/Yardbarker",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 12:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.12050075542447918,
-      "detections": []
-    }
-  },
-  {
     "title": "Alex Eala told to make decision that ‘will change her career’ after ‘liability’ was exposed in latest loss",
     "description": "\"This one surgical decision will change her career and game.\" The post Alex Eala told to make decision that ‘will change her career’ after ‘liability’ was exposed in latest loss appeared first on Tennis365 .",
     "link": "https://www.tennis365.com/tennis-news/alex-eala-urged-decision-change-her-career-liability-loss-ningbo-open",
@@ -1536,76 +1383,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05774631791508113,
-      "detections": []
-    }
-  },
-  {
-    "title": "London's tennis players cry fault as bots snap up court bookings",
-    "description": "Sniper bots' that trawl reservation websites are distorting the fight for slots on the capital's 1,400 public courts",
-    "link": "https://www.ft.com/content/ec4f1473-dfcc-45bc-9705-8c7175f51737?syn-25a6b1a6=1",
-    "source_name": "DDG/Financial Times",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.064782358331119,
-      "detections": []
-    }
-  },
-  {
-    "title": "Scenes from the Missouri girls tennis state championships",
-    "description": "Missouri's girls tennis state championships had finals for Class 3 and Class 2 and early rounds for Class 1 on Friday in Springfield.",
-    "link": "https://www.stltoday.com/sports/high-school/girls-tennis/collection_87e8a7d1-20c2-44ce-a5c2-f31b10f99991.html",
-    "source_name": "DDG/St. Louis Post-Dispatch",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04535225160590594,
-      "detections": []
-    }
-  },
-  {
-    "title": "Much-loved tennis star Gael Monfils hailed for 'classy' act as marriage to Elina Svitolina breaks down",
-    "description": "A heartbroken Gael Monfils has been hailed for his \"class\" after the French tennis legend revealed that his now ex-wife — world No.6 Elina Svitolina — has been the victim of toxic criticism following their high-profile marriage breakdown.",
-    "link": "https://7news.com.au/sport/tennis/much-loved-tennis-star-gael-monfils-hailed-for-classy-act-as-marriage-to-elina-svitolina-breaks-down-c-23065497",
-    "source_name": "DDG/7NEWS Australia",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07124783607987037,
-      "detections": []
-    }
-  },
-  {
-    "title": "Rybakina vs. Fernandez: Everything to know about the Ningbo final",
-    "description": "Top seed Elena Rybakina will play Leylah Fernandez in the Ningbo final on Saturday. Here's everything you need to know about their championship match.",
-    "link": "https://www.wtatennis.com/news/4598107/elena-rybakina-vs-leylah-fernandez-everything-to-know-about-the-ningbo-final",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.058377858916827244,
-      "detections": []
-    }
-  },
-  {
-    "title": "The five players in tennis history to have won the WTA Finals but not a Grand Slam title",
-    "description": "Not every WTA Finals champion has also had the same success at Grand Slam tournaments. The WTA Finals have played host to the best",
-    "link": "https://sports.yahoo.com/articles/five-players-tennis-history-won-220000603.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-24 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.043692224637913765,
       "detections": []
     }
   },
@@ -1708,34 +1485,6 @@
     }
   },
   {
-    "title": "Elena Rybakina answers if she has played the best tennis of her career in 2026",
-    "description": "The 27-year-old has enjoyed a successful year, although there were also several tournaments where she struggled to produce the results she wanted.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170821/elena-rybakina-answers-if-she-has-played-the-best-tennis-of-her-career-in-2026/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-24 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0443710259085343,
-      "detections": []
-    }
-  },
-  {
-    "title": "Third time lucky: Hunter claims Osaka doubles crown",
-    "description": "Storm Hunter won her second women’s doubles title of the season alongside Janice Tjen in Osaka on Saturday afternoon.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/24/storm-hunter-osaka-doubles-title",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-24 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03744887575943339,
-      "detections": []
-    }
-  },
-  {
     "title": "Novak to face Humbert in Basel opener",
     "description": "Novak, seeded fourth, will open his campaign against world No. 35 Ugo Humbert. The Serbian has faced the Frenchman once before, in the fourth round of Wimbledon in 2019, winning in straight sets.",
     "link": "https://novakdjokovic.com/en/news/tennis/novak-to-face-humbert-in-basel-opener/",
@@ -1760,6 +1509,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05253227161674742,
+      "detections": []
+    }
+  },
+  {
+    "title": "Swiss duel for a spot in the main draw",
+    "description": "Swiss duel for a spot in the main drawBrunold and Bertola advance – Bernet falls narrowly to Altmaier",
+    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2026-10-Swiss-duel-for-a-spot-in-the-main-draw-.php",
+    "source_name": "Swiss Indoors Basel",
+    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
+    "date": "2026-10-24 03:00 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06228108296550875,
       "detections": []
     }
   },
@@ -1946,20 +1709,6 @@
     }
   },
   {
-    "title": "Ningbo: Elena Rybakina steps up to avoid shock QF loss to qualifier world No. 128",
-    "description": "Rybakina briefly collapsed, but played impressively in the third set to fend off Katarzyna Kawa in Ningbo.",
-    "link": "https://www.tennisworldusa.org/tennis/news/On_the_WTA_results_with/170831/ningbo-elena-rybakina-steps-up-to-avoid-shock-qf-loss-to-qualifier-world-no-128/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 17:45 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04973209927273008,
-      "detections": []
-    }
-  },
-  {
     "title": "ATP & WTA Tennis Schedule of Play 2026: Saturday October 24 for Almaty, Lyon, Brussels, Ningbo & Osaka",
     "description": "ATP & WTA Tennis Schedule of Play 2026: Almaty, Lyon, Brussels, Ningbo & Osaka LINK: Almaty Schedule | Lyon Schedule | Brussels Schedule | Ningbo Schedule | Osaka Schedule The ATP and WTA tennis schedule for October 19–25, 2026 features five tournaments across Europe and Asia as the professional tennis season enters its important late-season […] The post ATP & WTA Tennis Schedule of Play 2026: Saturday October 24 for Almaty, Lyon, Brussels, Ningbo & Osaka appeared first on Tennis Connected .",
     "link": "https://tennisconnected.com/atp-wta-tennis-schedule-of-play-2026-saturday-october-24-for-almaty-lyon-brussels-ningbo-osaka/",
@@ -1970,20 +1719,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09741561026592473,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ningbo: Diana Shnaider gets Iva Jovic revenge to reach fourth semifinal of 2026",
-    "description": "Shnaider overcame Jovic in three sets to book a semifinal spot in Ningbo.",
-    "link": "https://www.tennisworldusa.org/tennis/news/On_the_WTA_results_with/170826/ningbo-diana-shnaider-gets-iva-jovic-revenge-to-reach-fourth-semifinal-of-2026/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 15:17 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05335663898339158,
       "detections": []
     }
   },
@@ -2002,20 +1737,6 @@
     }
   },
   {
-    "title": "Journalist recalls heartbreaking Gael Monfils moment after his sudden retirement",
-    "description": "The 40-year-old French tennis star surprised many fans earlier this month when it emerged that he had already ended his professional career, despite previously planning to play his final tournaments in Lyon and Paris.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170811/journalist-recalls-heartbreaking-gael-monfils-moment-after-his-sudden-retirement/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 14:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05837596648380239,
-      "detections": []
-    }
-  },
-  {
     "title": "Boulter in Japan semis & back as British number one",
     "description": "Katie Boulter reclaims the British number one ranking after fighting back to beat Antonia Ruzic in three sets in the quarter-finals of the Japan Open.",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/c6ly35rzdgxyo?at_medium=RSS&at_campaign=rss",
@@ -2030,16 +1751,128 @@
     }
   },
   {
-    "title": "Coco Gauff's former coach praises Alex Eala: She handles herself beautifully",
-    "description": "The 21-year-old has enjoyed the best year of her professional career, winning her maiden WTA title, reaching the second week of Wimbledon and achieving a career-high ranking of world No. 18.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170809/coco-gauff-s-former-coach-praises-alex-eala-she-handles-herself-beautifully/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 13:00 EEST",
+    "title": "Tennis: ATP-Tour-News",
+    "description": "Erste Bank Open live: Das ATP-Turnier in Wien mit Zverev - Infos zur Übertragung im TV & Livestream",
+    "link": "https://ran.joyn.de/sports/tennis/atp",
+    "source_name": "DDG/ran.joyn",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03327457753698067,
+      "score": 0.5581230026506545,
+      "detections": []
+    }
+  },
+  {
+    "title": "This is a problem for the WTA Tour forever - former No 1 fires warning over forgotten star",
+    "description": "\"It's not going away until we know how she is.\"",
+    "link": "https://www.msn.com/en-za/sports/tennis/this-is-a-problem-for-the-wta-tour-forever-former-no-1-fires-warning-over-forgotten-star/ar-AA2fW8Lh",
+    "source_name": "DDG/Tennis365이(가) MSN.com에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03161093324536532,
+      "detections": []
+    }
+  },
+  {
+    "title": "Who's Still in the Race for the ATP Finals Without Jannik Sinner?",
+    "description": "Sinner's season-ending injury has changed the race to the Nitto ATP Finals. With just three weeks of qualifying left, these are the players still in the hunt.",
+    "link": "https://www.si.com/onsi/serve/news/whos-still-in-race-for-atp-finals-without-jannik-sinner-01m5j9y0m4yg",
+    "source_name": "DDG/Sports Illustrated",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.040244611028854155,
+      "detections": []
+    }
+  },
+  {
+    "title": "He is the ATP title winner who is unbeaten against Jannik Sinner but is now retiring from professional tennis",
+    "description": "Not many players can say they have never lost to Jannik Sinner after facing him. Sinner is currently on the injury sidelines, having ended his...",
+    "link": "https://sports.yahoo.com/articles/atp-title-winner-unbeaten-against-020000735.html",
+    "source_name": "DDG/Tennishead이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03816016352814787,
+      "detections": []
+    }
+  },
+  {
+    "title": "Kim Clijsters issues honest verdict on Iga Swiatek ending her season amid WTA Finals chase",
+    "description": "Iga Swiatek officially ended her 2026 season earlier this week after withdrawing from the Ningbo Open with a thigh injury. Making the announcement on social...",
+    "link": "https://sports.yahoo.com/articles/kim-clijsters-issues-honest-verdict-090000402.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.12125766220302446,
+      "detections": []
+    }
+  },
+  {
+    "title": "PGA Tour Pro Withdraws From Butterfield Bermuda Championship Due to Unfortunate Injury - AOL",
+    "description": "Max Greyserman's search for his first PGA Tour win has hit another setback. A back injury forced him to withdraw from the Butterfield Bermuda Championship during Friday's second round.",
+    "link": "https://www.aol.com/articles/pga-tour-pro-withdraws-butterfield-171541000.html",
+    "source_name": "DDG/AOL",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.045440987184283146,
+      "detections": []
+    }
+  },
+  {
+    "title": "Why tennis fans should be extremely excited by the WTA Finals this year after never before seen occurrence",
+    "description": "The field for the WTA Finals is now complete, with Karolina Muchova securing the eighth and final spot. Muchova was battling for that spot with...",
+    "link": "https://sports.yahoo.com/articles/why-tennis-fans-extremely-excited-010000369.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04239332569197372,
+      "detections": []
+    }
+  },
+  {
+    "title": "The five players in tennis history to have won the WTA Finals but not a Grand Slam title",
+    "description": "Not every WTA Finals champion has also had the same success at Grand Slam tournaments. The WTA Finals have played host to the best WTA...",
+    "link": "https://sports.yahoo.com/articles/five-players-tennis-history-won-220000603.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.039319028864056,
+      "detections": []
+    }
+  },
+  {
+    "title": "Rafael Nadal built his tennis career on looking forward. For a new book, he had to look back",
+    "description": "Assouline's \"Rafa Nadal\" maps the 22-time Grand Slam champion's career, from the trophies and tank tops to the physical and mental toll.",
+    "link": "https://www.nytimes.com/athletic/7709804/2026/10/23/rafael-nadal-tennis-career-book-assouline/",
+    "source_name": "DDG/The New York Times",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-23 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03111690215716184,
       "detections": []
     }
   },
@@ -2082,62 +1915,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.0424628028581238,
-      "detections": []
-    }
-  },
-  {
-    "title": "Alex Eala makes decision on her Australian Open preparations for 2027",
-    "description": "The former world No. 18 made her Australian Open main-draw debut in January 2026 but did not manage to get past the opening round.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170808/alex-eala-makes-decision-on-her-australian-open-preparations-for-2027/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 11:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.031111223843550643,
-      "detections": []
-    }
-  },
-  {
-    "title": "Frisco Centennial nets four-peat, Southlake Carroll falls short in UIL team tennis finals",
-    "description": "Centennial was in the final for the fifth straight year and dominated from start to finish.",
-    "link": "https://www.msn.com/en-us/news/other/frisco-centennial-nets-four-peat-southlake-carroll-falls-short-in-uil-team-tennis-finals/ar-AA2fS3o8",
-    "source_name": "DDG/Dallas Morning News on MSN.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-23 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.035424222708824865,
-      "detections": []
-    }
-  },
-  {
-    "title": "Skill Cards Meet Tennis: Champion Tennis Opens Free Mobile Trial Before Next Fest 2027",
-    "description": "A solo-built 3D tennis roguelite: 12 zodiac rivals, 15 skills, a $2.99 one-time unlock — no ads, no gacha, no stamina.",
-    "link": "https://www.greenbaypressgazette.com/press-release/story/197032/skill-cards-meet-tennis-champion-tennis-opens-free-mobile-trial-before-next-fest-2027/",
-    "source_name": "DDG/Green Bay Press-Gazette",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-23 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.039369701869929226,
-      "detections": []
-    }
-  },
-  {
-    "title": "Sam Querrey reacts to Alcaraz's Vienna decision: It's like winning the lottery",
-    "description": "The two former world No. 1 players have accepted wild cards for next week's ATP 500 tournaments. Djokovic will compete in Basel, while Alcaraz is set to play in Vienna.",
-    "link": "https://www.tennisworldusa.org/tennis/news/Tennis_Stories/170800/sam-querrey-reacts-to-alcaraz-s-vienna-decision-it-s-like-winning-the-lottery/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 09:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03506586007409641,
       "detections": []
     }
   },
@@ -2226,20 +2003,6 @@
     }
   },
   {
-    "title": "Inaugural National League Finals celebrates community tennis",
-    "description": "National League Finals brought community tennis champions to the Gold Coast to compete, connect and celebrate the spirit of team tennis.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/23/inaugural-national-league-finals-celebrates-community-tennis-on-the-gold-coast",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-23 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.025784045031648398,
-      "detections": []
-    }
-  },
-  {
     "title": "Fernandez Earns Back-to-Back Wins Over Alexandrova in Ningbo Quarters",
     "description": "Leylah Annie Fernandez has had Ekaterina Alexandrova’s number as of late, beating the world No. 33 for the second...",
     "link": "https://www.tenniscanada.com/news/pro-tennis/2026/fernandez-earns-back-to-back-wins-over-alexandrova-in-ningbo-quarters",
@@ -2264,20 +2027,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09855471515911761,
-      "detections": []
-    }
-  },
-  {
-    "title": "Leylah Fernandez admits one thing about Emma Raducanu and their US Open history",
-    "description": "The Canadian, who was only 19 at the time, had enjoyed a great tournament and defeated several of the biggest names in women's tennis before reaching the final.",
-    "link": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170794/leylah-fernandez-admits-one-thing-about-emma-raducanu-and-their-us-open-history/",
-    "source_name": "Tennis World USA",
-    "source_url": "https://www.tennisworldusa.org/",
-    "date": "2026-10-23 02:30 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03266866619224708,
       "detections": []
     }
   },
@@ -2422,6 +2171,104 @@
     }
   },
   {
+    "title": "41歳にして若手の壁となるワウリンカがATPツアー史上4番目の年長記録で本戦勝利「本当に楽しかった」 [ATPリヨン／テニス]",
+    "description": "ATPツアー公式戦「オーヴェルニュ ローヌ アルプ・グランプリ」（ATP250／フランス・リヨン／10月19～25日／賞金総額75万7320ユーロ／室内ハードコート）の男子シングルス1回戦で、41歳のスタン・ワウリンカ（スイス）が20歳のマルティン・ランダルーセ（スペイン）に6-3 6-7(2) 7-6(5)で競り勝ちワイルドカード（主催者推薦枠）の期待の応えた。～オーヴェルニュ ローヌ アルプ・",
+    "link": "https://news.yahoo.co.jp/articles/86e56a6dd9166006bc9be0f216967727126aa933",
+    "source_name": "DDG/Yahoo!ニュース",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-22 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048817432036207566,
+      "detections": []
+    }
+  },
+  {
+    "title": "What Novak Djokovic has achieved in 2026 that no other player on the ATP Tour has managed",
+    "description": "Djokovic is unmatched in one key area!",
+    "link": "https://www.msn.com/en-gb/sport/tennis/what-novak-djokovic-has-achieved-in-2026-that-no-other-player-on-the-atp-tour-has-managed/ar-AA2fMCzC",
+    "source_name": "DDG/Tennis365이(가) MSN.com에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-22 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05005519640089006,
+      "detections": []
+    }
+  },
+  {
+    "title": "Carlos Alcaraz's full record at the Queen's Club Championships as 2027 return announced",
+    "description": "After an injury hit 2026 campaign, Carlos Alcaraz is already making preparations for next year. The Spaniard missed a host of events throughout the summer...",
+    "link": "https://sports.yahoo.com/articles/carlos-alcaraz-full-record-queen-193000671.html",
+    "source_name": "DDG/Tennishead이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-22 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048938719579997014,
+      "detections": []
+    }
+  },
+  {
+    "title": "Jannik Sinner warned about his knee injury after ending his 2026 season early",
+    "description": "Jannik Sinner chose to end his 2026 ATP season earlier this month due to a knee injury that has kept him out of action since...",
+    "link": "https://sports.yahoo.com/articles/jannik-sinner-warned-knee-injury-190000129.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-22 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07328110564149072,
+      "detections": []
+    }
+  },
+  {
+    "title": "The reason Jack Draper is currently playing tennis in Brazil with Joao Fonseca",
+    "description": "Jack Draper's absence from the ATP Tour of late has been an expected one, given all the fitness troubles he's suffered in recent years. And,...",
+    "link": "https://sports.yahoo.com/articles/reason-jack-draper-currently-playing-173000911.html",
+    "source_name": "DDG/Tennishead이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-22 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03778966531425517,
+      "detections": []
+    }
+  },
+  {
+    "title": "Elena Rybakina says if her 2026 season is the best year she's ever had as a professional tennis player",
+    "description": "Elena Rybakina is on track to finish the season as the WTA year-end number one, after an incredibly successful 2026 campaign. While it has not...",
+    "link": "https://sports.yahoo.com/articles/elena-rybakina-says-her-2026-210000595.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-22 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.061512485175545355,
+      "detections": []
+    }
+  },
+  {
+    "title": "Black History Month 2026",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/black-history-month-2026",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "2026-10-22 12:30 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09627091164444065,
+      "detections": []
+    }
+  },
+  {
     "title": "Hungry’s Panna Udvardy Accuses National Federation Of Poor Treatment After BJK Cup Omission",
     "description": "Panna Udvardy says the Hungarian Tennis Federation (HTA) failed to support her when she was threatened and was informed at the last minute she wasn’t selected for the country’s Billie Jean King Cup tie. The 28-year-old is currently ranked 83rd in the world and is one of two women from her country ranked in the […]",
     "link": "https://www.ubitennis.net/2026/10/hungrys-panna-udvardy-accuses-national-federation-of-poor-treatment-after-bjk-cup-omission/",
@@ -2432,146 +2279,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04481373193226907,
-      "detections": []
-    }
-  },
-  {
-    "title": "How accepting the lows of tennis helped one player reach her peak - and keep going",
-    "description": "The 26-year-old's acceptance of a central tenet of tennis — losing more than winning — has helped her find success.",
-    "link": "https://www.nytimes.com/athletic/7708538/2026/10/22/ann-li-tennis-wta-us/",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-22 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.028509882100236663,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis-ATP blocks 234,000 abusive comments from reaching players, fans",
-    "description": "Oct 22 (Reuters) - Social media abuse was directed at over 85% of men's tennis players attracting engagement online in the past year, with the ATP blocking some 234,000 comments from reaching them or fans,",
-    "link": "https://www.msn.com/en-ca/sports/tennis/tennis-atp-blocks-234-000-abusive-comments-from-reaching-players-fans/ar-AA2fNAzl",
-    "source_name": "DDG/Reuters on MSN.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-22 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.42651137079372897,
-      "detections": []
-    }
-  },
-  {
-    "title": "USTA awards $200,000 for Kutzky Park tennis courts",
-    "description": "The City of Rochester has received a $200,000 Tennis Venue Services grant from the United States Tennis Association (UTSA) to support the reconstruction of six courts at the Rochester Outdoor Tennis Center in Kutzky Park.",
-    "link": "https://www.kttc.com/2026/10/22/utsa-awards-200000-kutzky-park-tennis-courts/",
-    "source_name": "DDG/KTTC",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-22 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.02729065113504765,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ursuline's State tennis qualifier & award-winning artist named Student Athlete of Week",
-    "description": "YOUNGSTOWN, Ohio (WKBN) — Ursuline senior Maria Meranto is just the second player in school history to qualify for the Girls State Tennis Tournament.",
-    "link": "https://www.wkbn.com/sports/ursulines-state-tennis-qualifier-award-winning-artist-named-student-athlete-of-week/",
-    "source_name": "DDG/WKBN",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-22 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04173087602980014,
-      "detections": []
-    }
-  },
-  {
-    "title": "Rybakina advances to face Kawa in Ningbo quarters after Polina Kudermetova retires",
-    "description": "Top seed Elena Rybakina is back in the Ningbo quarterfinals after Polina Kudermetova retired in the first set of their second-round match Thursday. Awaiting her is Katarzyna Kawa, who reached the last eight with her first career Top 20 win over Belinda Bencic.",
-    "link": "https://www.wtatennis.com/news/4597263/rybakina-advances-to-face-kawa-in-ningbo-quarters-after-polina-kudermetova-retires",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-22 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04329894519253442,
-      "detections": []
-    }
-  },
-  {
-    "title": "Li Na net worth detailed: Chinese tennis legend builds $60m fortune; Grand Slam success drives endorsements",
-    "description": "Li Na made history in tennis by becoming the first Chinese player to win a Grand Slam title. She achieved this milestone at the 2011 French Open and also won the 2014 Australian Open. During her career,",
-    "link": "https://www.msn.com/en-in/news/other/li-na-net-worth-detailed-chinese-tennis-legend-builds-60m-fortune-grand-slam-success-drives-endorsements/ar-AA2fQpky",
-    "source_name": "DDG/The Times of India on MSN.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-22 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05776786399772034,
-      "detections": []
-    }
-  },
-  {
-    "title": "Black History Month 2026",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/black-history-month-2026",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-10-22 10:15 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09627091164444065,
-      "detections": []
-    }
-  },
-  {
-    "title": "Dellavedova closes in on 100 match-win milestone",
-    "description": "A season full of sliding doors moments has Matthew Dellavedova on the verge of achieving a 44-year first.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/22/matthew-dellavedova-100-wins-feature",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-22 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.034995632919064136,
-      "detections": []
-    }
-  },
-  {
-    "title": "Rising stars headline Australia’s Billie Jean King Cup showdown against France",
-    "description": "Australia's top 50 players Talia Gibson and Kimberly Birrell will lead their country in next month's Billie Jean King Cup tie against France.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/22/australia-v-france-bjk-cup-team-announcement",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-22 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.045136868657391235,
-      "detections": []
-    }
-  },
-  {
-    "title": "Duckworth, Gibson secure quarterfinal berths",
-    "description": "James Duckworth and Talia Gibson respectively advance to Almaty and Osaka quarterfinals, each with straight-sets victories.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/22/duckworth-and-gibson-secure-quarterfinal-berths",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-22 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.059531956400666705,
       "detections": []
     }
   },
@@ -2814,6 +2521,20 @@
     }
   },
   {
+    "title": "British tennis star Jack Draper shows up at an unexpected place",
+    "description": "The British tennis star has been MIA since shutting down his 2026 season last month",
+    "link": "https://sports.yahoo.com/articles/british-tennis-star-jack-draper-205954177.html",
+    "source_name": "DDG/The Big Lead이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-21 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03478026365522891,
+      "detections": []
+    }
+  },
+  {
     "title": "Daniil Medvedev Praises Zverev’s Charge To Year-End No. 1 As He Eyes ATP Finals Spot",
     "description": "Daniil Medvedev says Alexander Zverev has earned the right to seal the No.1 spot later this season after being able to capitalise on his rivals’ injury misfortunes. The 29-year-old is set to become the first German man since Boris Becker in 1991 to top the ATP rankings after a stellar season in which he won […]",
     "link": "https://www.ubitennis.net/2026/10/daniil-medvedev-praises-zverevs-charge-to-year-end-no-1-as-he-eyes-atp-finals-spot/",
@@ -2842,48 +2563,6 @@
     }
   },
   {
-    "title": "How tennis doping rules on whereabouts and contamination will change under 2027 WADA rules",
-    "description": "Cases involving contamination — like high-profile ones involving Jannik Sinner and Iga Świątek — will have a wider range of defenses.",
-    "link": "https://www.nytimes.com/athletic/7710250/2026/10/21/tennis-doping-rules-wada-code-2027-whereabouts-contamination/",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-21 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06820403600495578,
-      "detections": []
-    }
-  },
-  {
-    "title": "Was Andrey Rublev favored by modern tennis? All the details",
-    "description": "The Russian ace no longer has the certainties he had a few years ago",
-    "link": "https://www.msn.com/en-us/news/other/was-andrey-rublev-favored-by-modern-tennis-all-the-details/ar-AA2fKFAH",
-    "source_name": "DDG/Tennis World USA on MSN.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-21 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0627136889119599,
-      "detections": []
-    }
-  },
-  {
-    "title": "Fernandez's marathon win, Kostyuk's retirement headline Day 3 in Ningbo",
-    "description": "Leylah Fernandez outlasted Aliaksandra Sasnovich in a 3-hour, 3-minute battle Wednesday to reach the Ningbo quarterfinals, while Marta Kostyuk's retirement propelled Ekaterina Alexandrova into the last eight and clinched Karolina Muchova's spot at the WTA Finals Indian Wells bid.",
-    "link": "https://www.wtatennis.com/news/4596745/fernandezs-marathon-win-kostyuks-retirement-headline-day-3-in-ningbo",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-21 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03805328502458168,
-      "detections": []
-    }
-  },
-  {
     "title": "The Off-Court Work That Keeps Players on Court",
     "description": "[★ FILL: How many years have you been playing, what surfaces do you usually play on, and roughly how many times a week? Write it in your own words; one or two sentences is plenty.] There’s one thing about tennis that people outside the sport consistently underestimate: it has no off-season. Football has breaks. Basketball […] The post The Off-Court Work That Keeps Players on Court appeared first on World Tennis Magazine .",
     "link": "https://worldtennismagazine.com/the-off-court-work-that-keeps-players-on-court/",
@@ -2894,20 +2573,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.3571051509020113,
-      "detections": []
-    }
-  },
-  {
-    "title": "My Tennis Life: Talia Gibson",
-    "description": "In a regular series, we speak to Australians shining on the world stage about the moments, lessons and people that have shaped them.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/21/talia-gibson-my-tennis-life",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-21 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03437197112075276,
       "detections": []
     }
   },
@@ -3108,6 +2773,48 @@
     }
   },
   {
+    "title": "Terminarz WTA Tour 2027: Gdzie zagrają Świątek i Chwalińska w nowym sezonie? [Harmonogram turniejów tenisistek]",
+    "description": "Terminarz cyklu WTA Tour na 2027 rok został już oficjalnie ogłoszony przez Stowarzyszenie Kobiecego Tenisa, dzięki czemu wiemy, kiedy i gdzie odbędą",
+    "link": "https://sport1.pl/terminarz-wta-tour-2027-gdzie-zagra-swiatek-i-chwalinska-harmonogram-turniejow-tenisistek",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.5183064288085882,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis-Thigh injury ends Swiatek's season and WTA Finals bid",
+    "description": "Iga Swiatek ended her season on Tuesday after withdrawing from the Ningbo Open with a thigh injury, a decision that also ended the six-time Grand Slam champion's hopes of qualifying for the WTA Finals.",
+    "link": "https://www.ksl.com/article/sports/tennis/tennis-thigh-injury-ends-swiateks-season-and-wta-finals-bid/51638544",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03334198046546122,
+      "detections": []
+    }
+  },
+  {
+    "title": "Swiatek withdraws from the Ningbo Open with a left thigh injury",
+    "description": "NINGBO, China (AP) — Iga Swiatek has withdrawn from the Ningbo Open in China because of an injured left thigh, diminishing her chances of contesting the season-ending WTA Finals at Indian Wells next month.The six-time major winner lost to eventual champion Maja Chwalinska in the semifinals at the Wuhan Open last week a nd struggled at times in that match.",
+    "link": "https://sports.yahoo.com/articles/swiatek-withdraws-ningbo-open-left-071024677.html",
+    "source_name": "DDG/Associated Press이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.056225654894871496,
+      "detections": []
+    }
+  },
+  {
     "title": "Boulter produces emphatic win at Japan Open",
     "description": "Britain's Katie Boulter claims a dominant win in her rain-affected first-round match against Himeno Sakatsume in the Japan Open.",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/c9vgrnnnz014o?at_medium=RSS&at_campaign=rss",
@@ -3150,62 +2857,6 @@
     }
   },
   {
-    "title": "FAGE named title partner of WTA Finals through 2029",
-    "description": "FAGE will become title partner of the WTA Finals in 2026, with the agreement covering the championship's move from Indian Wells to Charlotte and continuing through 2029.",
-    "link": "https://www.wtatennis.com/news/4594846/fage-named-title-partner-of-wta-finals-through-2029",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-20 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03332698498774206,
-      "detections": []
-    }
-  },
-  {
-    "title": "Week in review: The moment of Maja's career and Kartal's improbable run",
-    "description": "Maja Chwalinska won the first title of her career, Sonay Kartal came out of nowhere to reach a WTA 1000 final and more in the latest WTA week in review.",
-    "link": "https://www.wtatennis.com/news/4594826/week-in-review-the-moment-of-maja-chwalinskas-career-and-sonay-kartals-improbable-run",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-20 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.030034811026550753,
-      "detections": []
-    }
-  },
-  {
-    "title": "One WTA Finals singles spot remains open: Here's how Karolina Muchova can clinch it",
-    "description": "Karolina Muchova is sitting out Ningbo and Osaka, but she can secure the final place if Iga Swiatek and Marta Kostyuk fall short of key results in Ningbo.",
-    "link": "https://www.wtatennis.com/news/4594695/one-wta-finals-singles-spot-remains-open-heres-how-karolina-muchova-can-clinch-it",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-20 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04150148112960823,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis-thigh injury ends Swiatek's season and WTA Finals bid",
-    "description": "Oct 20 (Reuters) - Iga Swiatek ended her season on Tuesday after withdrawing from the Ningbo Open with a thigh injury, a decision that also ended the six-time Grand Slam champion's hopes of qualifying for the WTA Finals.",
-    "link": "https://www.msn.com/en-us/sports/tennis/tennis-thigh-injury-ends-swiatek-s-season-and-wta-finals-bid/ar-AA2fFBSo",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-20 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03479060040272924,
-      "detections": []
-    }
-  },
-  {
     "title": "UK's largest indoor tennis event returns to Wrexham",
     "description": "The Wrexham Open returns as some of tennis' biggest rising stars head to north Wales in search of glory.",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/cm20wlv50v4go?at_medium=RSS&at_campaign=rss",
@@ -3216,20 +2867,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03219891544158464,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ranking Movers: Hunter storms into top 20",
-    "description": "Storm Hunter returns to the women’s doubles top 20 after reaching her second straight final in Wuhan.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/20/storm-hunter-top-20-ranking-movers",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-20 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03324248961909797,
       "detections": []
     }
   },
@@ -3416,6 +3053,62 @@
     }
   },
   {
+    "title": "Meet your elite eight: A snapshot of the 2026 WTA Finals field",
+    "description": "It's official -- we have our eight-player WTA Finals singles field. Karolina Muchova qualified on Wednesday, and she will join Elena Rybakina, Aryna Sabalenka, Jessica Pegula, Coco Gauff, Mirra Andreeva,",
+    "link": "https://www.wtatennis.com/news/4594854/meet-your-elite-eight-a-snapshot-of-the-wta-finals-contenders",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-19 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06826461877425856,
+      "detections": []
+    }
+  },
+  {
+    "title": "Elena Rybakina outlines her main WTA Tour goal for the rest of the 2026 season",
+    "description": "Elena Rybakina has undoubtedly been the best player on the WTA Tour this year stastically, but she has produced some strange performances and endured some strange results. The star is yet to taste victory since lifting the US Open title in September ...",
+    "link": "https://www.tennis365.com/tennis-news/elena-rybakina-wta-tour-goal-2026-season",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-19 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06338972108872529,
+      "detections": []
+    }
+  },
+  {
+    "title": "Meet the star who still holds a 100% winning record on the WTA Tour in 2026",
+    "description": "An incredible record!",
+    "link": "https://www.msn.com/en-za/sports/tennis/meet-the-star-who-still-holds-a-100-winning-record-on-the-wta-tour-in-2026/ar-AA2fCywm",
+    "source_name": "DDG/Tennis365이(가) MSN.com에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-19 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04190846209975151,
+      "detections": []
+    }
+  },
+  {
+    "title": "\"Completely Disrespectful… It's Not Okay\" - Fans Rip Into Iga Swiatek's Physio After Heated Social Media Exchange Over Wuhan Injury Decision - AOL",
+    "description": "Iga Swiatek's physiotherapist, Maciej Ryszczuk, drew criticism from tennis fans after an altercation over the Polish star's decision to continue playing at the Wuhan Open despite an injury scare. Swiatek led 5-3 and held two set points.",
+    "link": "https://www.aol.com/articles/completely-disrespectful-not-okay-fans-115721000.html",
+    "source_name": "DDG/AOL",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-19 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04374382406366929,
+      "detections": []
+    }
+  },
+  {
     "title": "Elina Svitolina Announces Shock Split From Gael Monfils Days After The Frenchman Retires",
     "description": "Elina Svitolina has confirmed the end of her marriage to Gael Monfils in a social media post on Monday. The women’s world No.6 published a lengthy statement in which she described it as ‘the most difficult thing I have ever had to share.’ Svitolina first met Monfils in 2018, and they married in July 2021 […]",
     "link": "https://www.ubitennis.net/2026/10/elina-svitolina-announces-shock-split-from-gael-monfils-days-after-the-frenchman-retires/",
@@ -3444,48 +3137,6 @@
     }
   },
   {
-    "title": "Kerber wins the Luxembourg Ladies Tennis Masters for a second straight year",
-    "description": "Angelique Kerber defeated Yanina Wickmayer in Sunday's final, then reflected on the joy of returning to the court with a field of former Tour rivals, many of them mothers.",
-    "link": "https://www.wtatennis.com/news/4594700/kerber-wins-the-luxembourg-ladies-tennis-masters-for-a-second-straight-year",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-19 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0434307737755585,
-      "detections": []
-    }
-  },
-  {
-    "title": "Life after Roland Garros: How Chwalinska embraced the tough moments and won in Wuhan",
-    "description": "In the few months that followed Roland Garros, Maja Chwalinska had to learn how to handle a whole new level of attention, but a strong Asian swing and a first WTA 1000 title in Wuhan show how far she has come.",
-    "link": "https://www.wtatennis.com/news/4594227/maja-chwalinska-validates-her-rise-and-silences-any-doubts-with-wuhan-open-triumph",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-19 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.039100477540691105,
-      "detections": []
-    }
-  },
-  {
-    "title": "Former US Open champions Andreescu, Stephens climb rankings with titles",
-    "description": "Bianca Andreescu and Sloane Stephens won titles in Rovereto, Italy and Oklahoma, USA, respectively, as the former US Open champions continued their push back up the rankings. Andreescu climbed 36 places to No.",
-    "link": "https://www.wtatennis.com/news/4594233/former-us-open-champions-andreescu-stephens-climb-rankings-with-titles",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-19 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.052705371058111655,
-      "detections": []
-    }
-  },
-  {
     "title": "Inside British number one Kartal's remarkable comeback",
     "description": "Six months ago, Sonay Kartal could not brush her teeth without \"being in agony\" - now she's the British number one after three events back from a long-term back injury.",
     "link": "https://www.bbc.co.uk/sport/tennis/articles/c68xz5lvnz0ro?at_medium=RSS&at_campaign=rss",
@@ -3496,34 +3147,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03989039706208428,
-      "detections": []
-    }
-  },
-  {
-    "title": "Aussie Watch: Kubler returns in Almaty",
-    "description": "In his first match since March, Jason Kubler will play doubles with John Peers at the Almaty Open in Kazakhstan.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/19/jason-kubler-return-almaty",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-19 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03873260465780814,
-      "detections": []
-    }
-  },
-  {
-    "title": "Aussie Weekly Wrap: Australia finishes second in 12/u girls’ intercontinental tournament",
-    "description": "Celeste Rubiano, Vanessa Fitzgerald and Maria Gabrys reached the final of the 12/u girls’ Asian Tennis Federation Intercontinental Team Competition.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/19/australia-finishes-second-asian-tennis-federation-intercontinental-team-competition",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-19 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.038563914184088485,
       "detections": []
     }
   },
@@ -3808,16 +3431,30 @@
     }
   },
   {
-    "title": "Chwalinska's breakout season reaches new heights with a WTA 1000 title in Wuhan",
-    "description": "Maja Chwalinska completed another breakthrough week in Wuhan, rallying from a set down to defeat Sonay Kartal 2-6, 6-4, 6-2 and capture her first WTA title. The Pole became just the fourth player since 2009 to win her maiden WTA title at the WTA 1000 level.",
-    "link": "https://www.wtatennis.com/news/4593967/chwalinska-rallies-past-kartal-for-first-wta-title-in-wuhan",
-    "source_name": "DDG/Women's Tennis Association",
+    "title": "Alejandro Davidovich Fokina's comments right after winning the Shanghai title should worry the ATP Tour",
+    "description": "Spanish ace Davidovich Fokina was quick to reference Arthur Fils following his success, having been inspired by the Frenchman's return from injury. But while the Spaniard and his ATP rival deserve huge praise for their comebacks, comments from Davidovich Fokina concerning the matter won't exactly be welcomed by the ATP Tour.",
+    "link": "https://tennishead.net/alejandro-davidovich-fokinas-comments-right-after-winning-the-shanghai-title-should-worry-the-atp-tour/",
+    "source_name": "DDG/Tennishead",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-18 10:22 EEST",
+    "date": "2026-10-18 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04435713478652036,
+      "score": 0.05384096851241249,
+      "detections": []
+    }
+  },
+  {
+    "title": "Where to watch Grand Slam of Curling Invitational: Schedule, times, channels, live streams, scores for 2026",
+    "description": "The world's top curling teams return to the ice in British Columbia. Here's when and where to tune in.",
+    "link": "https://sports.yahoo.com/articles/where-watch-grand-slam-curling-050001688.html",
+    "source_name": "DDG/The Sporting News이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-18 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.041209516524460484,
       "detections": []
     }
   },
@@ -4060,30 +3697,16 @@
     }
   },
   {
-    "title": "Advantage Kartal or Chwalinska? Making the case for the Wuhan finalists",
-    "description": "Maja Chwalinska and Sonay Kartal will play for the Dongfeng • Voyah Wuhan Open title on Sunday. Ahead of their final, the first WTA 1000 final for both of them, we make the case for both players.",
-    "link": "https://www.wtatennis.com/news/4593546/wuhan-open-final-preview-sonay-kartal-vs-maja-chwalinska",
-    "source_name": "DDG/Women's Tennis Association",
+    "title": "Tennis-Injured Swiatek goes down fighting in Wuhan Open semi-final",
+    "description": "WUHAN, China, Oct 17 (Reuters) - A left-leg injury derailed Iga Swiatek as she went down fighting to Polish compatriot and childhood friend Maja Chwalinska 7-5 6-1 in the Wuhan Open semi-finals on Saturday. French Open runner-up Chwalinska, who was Sw...",
+    "link": "https://d2233.cms.socastsrm.com/2026/10/17/tennis-injured-swiatek-goes-down-fighting-in-wuhan-open-semi-final/",
+    "source_name": "DDG/socastsrm.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-17 10:22 EEST",
+    "date": "2026-10-17 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04186570231359019,
-      "detections": []
-    }
-  },
-  {
-    "title": "What Andy Murray said Ivan Lendl had added to his game after winning his first Grand Slam title",
-    "description": "With every near-miss Andy Murray suffered in his quest for a maiden Grand Slam title, many feared he was destined to just be the",
-    "link": "https://sports.yahoo.com/articles/andy-murray-said-ivan-lendl-020000289.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-17 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05787427280626507,
+      "score": 0.04367572641494418,
       "detections": []
     }
   },
@@ -4270,6 +3893,34 @@
     }
   },
   {
+    "title": "ATP Chairman Andrea Gaudenzi with proposed major changes for the ATP Tour from 2028",
+    "description": "ATP Chairman Andrea Gaudenzi outlines major changes for 2028: $350 million for players and a ranking overhaul.",
+    "link": "https://www.tennisnerd.net/news/atp-chairman-andrea-gaudenzi-with-proposed-major-changes-for-the-atp-tour-from-2028/70020",
+    "source_name": "DDG/tennisnerd",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-16 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04056282590162761,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Plots $350M Player Package & Calendar Reset Amid Carlos Alcaraz & Novak Djokovic's Tour Concerns",
+    "description": "ATP Chairman includes proposals regarding player compensation and calendar, addresing issues raised by Carlos Alcaraz and Novak Djokovic",
+    "link": "https://www.essentiallysports.com/tennis-news-atp-plots-three-hundred-and-fifty-million-player-package-calendar-reset-amid-carlos-alcaraz-novak-djokovics-tour-concerns/",
+    "source_name": "DDG/EssentiallySports",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-16 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03567510430884244,
+      "detections": []
+    }
+  },
+  {
     "title": "Sports quiz of the week: love, songs, speedy skating and celebrations",
     "description": "Have you followed the big stories in football, rugby, tennis, boxing, basketball, skateboarding, F1 and the NFL? Continue reading...",
     "link": "https://www.theguardian.com/sport/2026/oct/16/sports-quiz-week-football-rugby-tennis-boxing-basketball-skateboarding-f1-nfl",
@@ -4280,34 +3931,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.1267038115395109,
-      "detections": []
-    }
-  },
-  {
-    "title": "Chwalinska edges Sakkari in Wuhan thriller to make third WTA semifinal",
-    "description": "Maja Chwalinska showed both creativity and grit to defeat Maria Sakkari in the Dongfeng • Voyah Wuhan Open quarterfinals advancing to her third career tour-level semifinal, second of the Asian Swing and first on outdoor hard courts.",
-    "link": "https://www.wtatennis.com/news/4593212/chwalinska-edges-sakkari-in-wuhan-thriller-to-make-third-wta-semifinal",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-16 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05803366856348787,
-      "detections": []
-    }
-  },
-  {
-    "title": "Wuhan semifinals preview: An all-Polish reunion and a pair of surprises",
-    "description": "Iga Swiatek will play Maja Chwalinska in an all-Polish matchup, and a resurgent Sonay Kartal will take on Jelena Ostapenko. We break down both semifinals in Wuhan.",
-    "link": "https://www.wtatennis.com/news/4593246/wuhan-semifinal-preview-iga-swiatek-maja-chwalinska-jelena-ostapenko-sonay-kartal",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-16 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05476217611592673,
       "detections": []
     }
   },
@@ -4326,16 +3949,16 @@
     }
   },
   {
-    "title": "Rising Aussies: Ethan Wang",
-    "description": "Meet Ethan Wang, a 13-year-old from New South Wales, making the most of his tennis experiences.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/16/ethan-wang-rising-aussies",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "title": "World No.1s to headline Brisbane International",
+    "description": "World No.1s Elena Rybakina and Alexander Zverev will headline the Brisbane International 2027 presented by ANZ when the summer of tennis returns to the Queensland Tennis Centre.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/10/world-no1s-to-headline-brisbane-international-2027-1",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
     "date": "2026-10-16 03:00 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05347835358560239,
+      "score": 0.03735138840583717,
       "detections": []
     }
   },
@@ -4364,20 +3987,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.12327260563673685,
-      "detections": []
-    }
-  },
-  {
-    "title": "Proposed ATP Tour changes address player welfare, compensation",
-    "description": "The ATP Tour is proposing several rule changes in an effort to address player welfare, additional compensation, and enhancing pension and retirement benefits.",
-    "link": "https://www.espn.com/tennis/story/_/id/50189374/proposed-atp-tour-changes-address-player-welfare-compensation",
-    "source_name": "ESPN Tennis",
-    "source_url": "https://www.espn.com/tennis/",
-    "date": "2026-10-15 21:26 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03227283743200739,
       "detections": []
     }
   },
@@ -4480,44 +4089,100 @@
     }
   },
   {
-    "title": "Alejandro Davidovich Fokina Opens Up About Injury Battle After Reaching Shanghai Semis",
-    "description": "Alejandro Davidovich Fokina admits he should have stopped playing at Wimbledon earlier this year due to a back issue which ended up sidelining him from the Tour. The world No.26 missed more than two months of the Tour, with the Shanghai Masters being only the third event in his comeback. At the tournament, Davidovich Fokina […]",
-    "link": "https://www.ubitennis.net/2026/10/alejandro-davidovich-fokina-opens-up-about-injury-battle-after-reaching-shanghai-semis/",
-    "source_name": "Ubitennis",
-    "source_url": "https://www.ubitennis.net/",
-    "date": "2026-10-15 12:39 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04494842688573427,
-      "detections": []
-    }
-  },
-  {
-    "title": "Zheng Qinwen to miss Japan Open with continued shoulder injury",
-    "description": "Zheng Qinwen will miss next week's Kinoshita Group Japan Open in Osaka, citing a continued shoulder injury. It's her second consecutive withdrawal following her milestone title in Beijing.",
-    "link": "https://www.wtatennis.com/news/4592910/zheng-qinwen-to-miss-japan-open-with-continued-shoulder-injury",
-    "source_name": "DDG/Women's Tennis Association",
+    "title": "ATP chairman releases new statement detailing big changes for the tour in 2028",
+    "description": "Plans to make big changes to men's tennis in 2028 were revealed by ATP Tour chairman Andrea Gaudenzi on Thursday. Gaudenzi, a former Italian",
+    "link": "https://sports.yahoo.com/articles/atp-chairman-releases-statement-detailing-180000004.html",
+    "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-15 10:22 EEST",
+    "date": "2026-10-15 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050652591142182624,
+      "score": 0.16488669985310744,
       "detections": []
     }
   },
   {
-    "title": "How facing Williams sisters have lifted a weight from Joint's shoulders",
-    "description": "Two unforgettable centre court experiences have helped spark Maya Joint’s 2026 resurgence.",
-    "link": "https://www.tennis.com.au/fan-zone/news/2026/10/15/maya-joint-playing-the-williams-sisters",
-    "source_name": "Tennis Australia",
-    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-    "date": "2026-10-15 03:00 EEST",
+    "title": "Proposed ATP Tour changes address player welfare, compensation",
+    "description": "The ATP Tour is proposing several rule changes in an effort to address player welfare, additional compensation, and enhancing pension and retirement benefits.",
+    "link": "https://www.msn.com/en-us/news/other/proposed-atp-tour-changes-address-player-welfare-compensation/ar-AA2ejvvZ",
+    "source_name": "DDG/ESPN이(가) MSN.com에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-15 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.032919419649599393,
+      "score": 0.03227283743200739,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Tour proposes changes intended to reduce injury risk for stars",
+    "description": "The ATP Tour is proposing rule changes it says will \"reduce the pressure to overplay and help players manage the demands of the season.\"",
+    "link": "https://www.timesfreepress.com/news/2026/oct/15/atp-tour-proposes-changes-intended-to-reduce/",
+    "source_name": "DDG/Chattanooga Times Free Press",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-15 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03250706167308498,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Challenger Tour adds tracking data vendor Baseline Vision",
+    "description": "Baseline Vision's lightweight, AI-infused camera system is being used to manage data streaming across the ATP Challenger Tour.",
+    "link": "https://www.sportsbusinessjournal.com/Articles/2026/10/14/atp-challenger-tour-adds-tracking-data-vendor-baseline-vision/",
+    "source_name": "DDG/Sports Business Journal",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-15 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.025912323085528523,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Tour proposes rule changes designed to reduce overplaying after injuries to Carlos Alcaraz, Jannik Sinner",
+    "description": "With tennis stars like Carlos Alcaraz and Jannik Sinner missing long stretches this year due to injury, the ATP Tour is proposing rule changes it says will \"reduce the pressure to overplay and help players manage the demands of the season.\"",
+    "link": "https://www.nbcsports.com/tennis/news/atp-tour-proposes-rule-changes-designed-to-reduce-overplaying-after-injuries-to-carlos-alcaraz-jannik-sinner",
+    "source_name": "DDG/NBC Sports",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-15 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03594005484940541,
+      "detections": []
+    }
+  },
+  {
+    "title": "Brad Gilbert shares what he's heard about Jannik Sinner's injury after speaking to Darren Cahill",
+    "description": "Jannik Sinner's injury has been one of the more baffling stories in this otherwise crazy tennis campaign. After all, whilst we all saw Carlos Alcaraz...",
+    "link": "https://sports.yahoo.com/articles/brad-gilbert-shares-heard-jannik-090000639.html",
+    "source_name": "DDG/Tennishead이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-15 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.050359129173073065,
+      "detections": []
+    }
+  },
+  {
+    "title": "The honest admission Novak Djokovic made after losing the last match needed to complete the Calendar Grand Slam in 2021",
+    "description": "In 2021, Novak Djokovic came agonisingly close to completing arguably the most difficult feat in all of tennis: the Calendar Grand Slam. Since the beginning...",
+    "link": "https://sports.yahoo.com/articles/honest-admission-novak-djokovic-made-210000306.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-15 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.17097458256725506,
       "detections": []
     }
   },
@@ -4648,34 +4313,6 @@
     }
   },
   {
-    "title": "Swiatek earns 40th win of season as Svitolina holds off Samsonova",
-    "description": "Iga Swiatek defeated Magdalena Frech to record her 40th win of the season and move while Elina Svitolina rallied past Liudmila Samsonova in three sets at the Dongfeng • Voyah Wuhan Open as both players continued their bids to qualify for the WTA Finals.",
-    "link": "https://www.wtatennis.com/news/4592158/swiatek-earns-40th-win-of-season-as-svitolina-survives-samsonova-test",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-14 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04315089557748323,
-      "detections": []
-    }
-  },
-  {
-    "title": "In second Asian Swing, Jovic is embracing Chinese culture and history",
-    "description": "It's Iva Jovic View Profile 's second Asian Swing on the WTA Tour Driven by Mercedes-Benz, and this time around she's making a concerted effort to soak it all in.",
-    "link": "https://www.wtatennis.com/news/4592454/in-her-second-asian-swing-iva-jovic-is-embracing-chinese-culture-and-history",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-14 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.051244050977301156,
-      "detections": []
-    }
-  },
-  {
     "title": "Carlos Moyà 12 & Under Festival players confirmed",
     "description": "Find out who will be travelling to the Rafa Nadal Academy for next month's elite season-ending tournament...",
     "link": "https://www.tenniseurope.org/news/163732/Carlos-Moya-12-Under-Festival-players-confirmed",
@@ -4732,30 +4369,58 @@
     }
   },
   {
-    "title": "Guo's Wuhan upset carries deeper meaning; Samsonova, Putintseva win thrillers",
-    "description": "Guo Hanyu's upset in Wuhan over Sorana Cirstea was much more than a tennis match. It was a bright spot in what's been a difficult few months. Plus, Liudmila Samsonova and Yulia Putintseva picked up gritty three-set wins in Wuhan.",
-    "link": "https://www.wtatennis.com/news/4591364/hanyu-guo-upset-carries-deeper-meaning-liudmila-samsonova-yulia-putintseva-win-thrillers-in-wuhan",
-    "source_name": "DDG/Women's Tennis Association",
+    "title": "WTA Wuhan : Elise Mertens s'incline dès le premier tour",
+    "description": "Elise Mertens n'a pas réussi à franchir le premier tour du tournoi de tennis WTA 1.000 de Wuhan.",
+    "link": "https://www.lesoir.be/776535/article/2026-10-13/wta-wuhan-elise-mertens-sincline-des-le-premier-tour",
+    "source_name": "DDG/Le Soir",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-13 10:22 EEST",
+    "date": "2026-10-13 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03355478383181699,
+      "score": 0.3340627973338993,
       "detections": []
     }
   },
   {
-    "title": "Coco Gauff's $35.5 million annual earnings: How Grand Slam success, global endorsements and strategic investments helped the American tennis star build a growing business empire",
-    "description": "Coco Gauff is one of the most recognizable names in American tennis, with Grand Slam success married to a growing number of commercial partnerships and business interests, and it is her on-court performances that have helped establish her as one of the leading lights in women's sport.",
-    "link": "https://timesofindia.indiatimes.com/sports/international-sports/coco-gauffs-35-5-million-annual-earnings-how-grand-slam-success-global-endorsements-and-strategic-investments-helped-the-american-tennis-star-build-a-growing-business-empire/articleshow/134891977.cms",
-    "source_name": "DDG/The Times of India",
+    "title": "Serena Williams' coach calls out WTA Tour for not making statement to defend Coco Gauff, 'I am going to get in trouble'",
+    "description": "Coco Gauff received abuse on social media after an incident in her third-round win at the China Open. During Gauff's 7-5, 6-1 win over Xinran Sun, the American called for a video review, claiming she was distracted by the flashing LED screens at the side of the court.",
+    "link": "https://tennishead.net/serena-williams-coach-calls-out-wta-tour-for-not-making-statement-to-defend-coco-gauff-i-am-going-to-get-in-trouble/",
+    "source_name": "DDG/Tennishead",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-13 10:22 EEST",
+    "date": "2026-10-13 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.030577237103297916,
+      "score": 0.09796007323172647,
+      "detections": []
+    }
+  },
+  {
+    "title": "\"Give Us More\" - Tennis Insider Urges Jannik Sinner & His Team To Go Public With The Exact Nature Of His Knee Injury",
+    "description": "Jannik Sinner and his team have been urged by a tennis insider to be more open about the exact nature of the Italian's knee injury. Sinner has been dealing with the injury since his successful Wimbledon title defense in early July, and hasn't played in any ATP Tour-level competition since then.",
+    "link": "https://sports.yahoo.com/articles/us-more-tennis-insider-urges-204334736.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-13 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06683355942624387,
+      "detections": []
+    }
+  },
+  {
+    "title": "\"I don't understand\" - Tennis insider questions Jannik Sinner's continued silence on injury updates in face of silent doping ban rumours",
+    "description": "Tennis insider Gill Gross recently questioned the lack of injury updates from Jannik Sinner.",
+    "link": "https://www.sportskeeda.com/tennis/news-i-understand-tennis-insider-questions-jannik-sinner-s-continued-silence-injury-updates-face-silent-doping-ban-rumours",
+    "source_name": "DDG/sportskeeda.com",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-13 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.049280850063711815,
       "detections": []
     }
   },
@@ -4802,44 +4467,16 @@
     }
   },
   {
-    "title": "Zheng, Andreeva to miss Wuhan Open following Beijing final",
-    "description": "Following her historic China Open title in Beijing, Zheng Qinwen will miss the Wuhan Open. Beijing finalist Mirra Andreeva is also pulling out of the event.",
-    "link": "https://www.wtatennis.com/news/4590575/zheng-qinwen-mirra-andreeva-to-miss-wuhan-open-after-beijing-final",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-12 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04347979081957642,
-      "detections": []
-    }
-  },
-  {
-    "title": "Shi rides qualifying momentum to stunner over Eala in Wuhan",
-    "description": "Shi Han's dream week in Wuhan rolled on Monday as the Chinese qualifier rallied from a set down to upset No. 19 Alexandra Eala 4-6, 6-3, 6-3. The victory marked Shi's first Top 20 win and continued a breakout run that began in qualifying.",
-    "link": "https://www.wtatennis.com/news/4591136/shi-rides-qualifying-momentum-to-stunner-over-eala-in-wuhan",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-12 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03876338716611167,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis icons clash over radical Grand Slam format changes",
-    "description": "While John McEnroe wants to shorten fifth sets with a tie-break, Alex Corretja believes making the first week strictly best-of-three sets would revolutionize the sport",
-    "link": "https://www.msn.com/en-us/sports/tennis/tennis-icons-clash-over-radical-grand-slam-format-changes/ar-AA2e4rQl",
+    "title": "Jannik Sinner's injury shows something 'strange' is going on in men's tennis, says Arthur Fils",
+    "description": "Tennis fans will have to wait until at least 2027 before they get to see Jannik Sinner back in action after the world number one...",
+    "link": "https://sports.yahoo.com/articles/jannik-sinner-injury-shows-something-230000148.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-12 10:22 EEST",
+    "date": "2026-10-12 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05092873251091111,
+      "score": 0.045620160649614966,
       "detections": []
     }
   },
@@ -4886,20 +4523,6 @@
     }
   },
   {
-    "title": "Zheng Qinwen makes history with China Open win in first title since 2024",
-    "description": "Zheng Qinwen defeated Mirra Andreeva 7-5, 6-4 to become the first Chinese woman to win the China Open WTA 1000 title. The victory earned Zheng her first WTA 1000 crown and her sixth career WTA Tour title.",
-    "link": "https://www.wtatennis.com/news/4590546/zheng-qinwen-makes-history-with-china-open-wta-1000-title",
-    "source_name": "DDG/Women's Tennis Association",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-11 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08200692318517051,
-      "detections": []
-    }
-  },
-  {
     "title": "AO 2027 global campaign off to a flying start",
     "description": "With ticket sales surging, Australian Open 2027 is set to welcome fans from throughout the world.",
     "link": "https://ausopen.com/articles/news/ao-2027-global-campaign-flying-start",
@@ -4938,6 +4561,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.6640513234789788,
+      "detections": []
+    }
+  },
+  {
+    "title": "Coco Gauff flexes tennis skills in Gunna's 'pop it' music video",
+    "description": "The two-time Grand Slam champion is becoming a cultural phenomenon on and off the tennis court.",
+    "link": "https://www.yahoo.com/entertainment/music/articles/coco-gauff-flexes-tennis-skills-235252223.html",
+    "source_name": "DDG/The Big Lead이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-10 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.029904183601784016,
       "detections": []
     }
   },
@@ -5306,6 +4943,20 @@
     }
   },
   {
+    "title": "10 Tennis Players You Probably Forgot Reached a Grand Slam Final",
+    "description": "Tennis has produced several stars whose dominance at the Grand Slams has defined entire eras.",
+    "link": "https://www.sportskeeda.com/tennis/10-players-you-probably-forgot-reached-major-final",
+    "source_name": "DDG/sportskeeda.com",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-07 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06114735598824538,
+      "detections": []
+    }
+  },
+  {
     "title": "Tennis Europe Junior Masters: Line-Up Revealed!",
     "description": "",
     "link": "https://www.tenniseurope.org/news/163695/Tennis-Europe-Junior-Masters-LineUp-Revealed",
@@ -5358,6 +5009,62 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07425042373342593,
+      "detections": []
+    }
+  },
+  {
+    "title": "The head of Italian tennis releases statement as Jannik Sinner ends season early due to injury",
+    "description": "Jannik Sinner won't play another match in 2026 due to his knee injury. Earlier on Tuesday, Sinner announced that he had ended his season early....",
+    "link": "https://sports.yahoo.com/articles/head-italian-tennis-releases-statement-103000319.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-06 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05716141406499571,
+      "detections": []
+    }
+  },
+  {
+    "title": "Jannik Sinner shuts down 2026 season to recover from knee injury",
+    "description": "World No. 1 Jannik Sinner said he will sit out the rest of the 2026 tennis season to focus on recovering from a right knee injury.",
+    "link": "https://www.usatoday.com/story/sports/tennis/2026/10/06/jannik-sinner-out-rest-of-2026-season-knee-injury/92117282007/",
+    "source_name": "DDG/USA Today",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-06 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04043095908168564,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis-Djokovic wins China Open as de Minaur retires with injury",
+    "description": "Alex De Minaur retired with a groin injury during the China Open final against Novak Djokovic on Tuesday, handing the Serbian his seventh title at the tournament.",
+    "link": "https://www.ksl.com/article/sports/tennis/tennis-djokovic-wins-china-open-as-de-minaur-retires-with-injury/51632951",
+    "source_name": "DDG/KSL",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-06 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0457428417659727,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis-Sinner to miss rest of 2026 to recover from knee injury",
+    "description": "World number one Jannik Sinner will not compete again in 2026 after opting to continue his recovery from a knee injury that has sidelined him since his triumphant Wimbledon campaign in July, the Italian said on Tuesday.",
+    "link": "https://www.ksl.com/article/sports/tennis/tennis-sinner-to-miss-rest-of-2026-to-recover-from-knee-injury/51632863",
+    "source_name": "DDG/KSL",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-06 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06930248962010845,
       "detections": []
     }
   },
@@ -5418,6 +5125,20 @@
     }
   },
   {
+    "title": "Okko приобрел права на показ в России теннисных турниров ATP Tour",
+    "description": "Стриминговый сервис Okko приобрел эксклюзивные права на показ в России теннисных турниров ATP Tour. Соглашение рассчитано на три сезона, начиная с 2027 года. Пользователям будут доступны матчи категор",
+    "link": "https://www.forbes.ru/sport/569719-okko-priobrel-prava-na-pokaz-v-rossii-tennisnyh-turnirov-atp-tour",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-05 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0973936403152926,
+      "detections": []
+    }
+  },
+  {
     "title": "Djokovic rolls back years to beat Zverev as Sabalenka swept out in China Open",
     "description": "Novak Djokovic into semi-finals after 4-6, 6-4, 6-4 win Aryna Sabalenka loses to 34th-ranked Bartunkova Novak Djokovic rolled back the years to oust Alexander Zverev from the China Open on Sunday, beating the top seed 4-6, 6-4, 6-4 to set up a semi-final with Daniil Medvedev. The 39-year-old electrified a packed crowd in Beijing, where he extended an astonishing winning streak to 32 matches. Djokovic got off to a poor start, double-faulting twice in the first game to help Zverev, a decade his ju",
     "link": "https://www.theguardian.com/sport/2026/oct/04/aryna-sabalenka-out-of-china-open-straight-sets-tennis-defeat-nikola-bartunkova",
@@ -5456,20 +5177,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07221592117999256,
-      "detections": []
-    }
-  },
-  {
-    "title": "Gauff Builds Business Empire: Coco Gauff Enterprises anchors $50m brand; endorsements, media widen reach",
-    "description": "Coco Gauff has created a business profile beyond her Grand Slam results. Her growing portfolio includes major endorsements, Coco Gauff Enterprises, sports investments and media projects. American tennis star Serena Williams is increasingly building her career around opportunities that continue to develop away from the court,",
-    "link": "https://www.msn.com/en-in/news/other/gauff-builds-business-empire-coco-gauff-enterprises-anchors-50m-brand-endorsements-media-widen-reach/ar-AA2dCLhO",
-    "source_name": "DDG/The Times of India on MSN.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-04 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.034563399274963484,
       "detections": []
     }
   },
@@ -5558,30 +5265,30 @@
     }
   },
   {
-    "title": "Tennis antitrust lawsuit continues: Judge denies ATP, WTA and Grand Slam motions to dismiss",
-    "description": "The antitrust lawsuit which alleges a conspiracy between the tours and Grand Slams survived several motions for dismissal.",
-    "link": "https://www.nytimes.com/athletic/7650744/2026/10/01/tennis-antitrust-lawsuit-atp-wta-french-us-open-wimbledon/",
+    "title": "WTA Tour Announces Equal Pay Initiative for 2027 Tennis Season",
+    "description": "Better pay parity and schedule adjustments are part of a new pilot program announced by the WTA.",
+    "link": "https://www.msn.com/en-us/news/other/wta-tour-announces-equal-pay-initiative-for-2027-tennis-season/ar-AA2dqLLd",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-02 10:22 EEST",
+    "date": "2026-10-02 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05571367322036093,
+      "score": 0.029786889686478038,
       "detections": []
     }
   },
   {
-    "title": "Tennis antitrust lawsuit explained: Why ATP, WTA and Grand Slam dismissal attempts failed",
-    "description": "The Professional Tennis Players' Association remains a party in the lawsuit. Ilya S. Savenok / Getty Images The antitrust lawsuit filed in March 2025 against tennis' governing bodies by the Professional Tennis Players Association (PTPA) intended to ...",
-    "link": "https://www.nytimes.com/athletic/6204105/tennis-antitrust-lawsuit-atp-wta-grand-slams-ptpa/",
-    "source_name": "DDG/nytimes.com",
+    "title": "Five Tennis Players Retire in September 2026",
+    "description": "With the final Grand Slam of the 2026 season in the books, September also marked the end of five careers, including two former World No. 1s. Five Tennis Players Retire in September 2026 1. Kathinka von Deichmann Kathinka von Deichmann announced her retirement on Instagram. The 32-year-old will fondly be remembered as the first tennis …",
+    "link": "https://sports.yahoo.com/articles/five-tennis-players-retire-september-170757641.html",
+    "source_name": "DDG/Last Word이(가) Yahoo에서 작성",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-02 10:22 EEST",
+    "date": "2026-10-02 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04322715516799613,
+      "score": 0.05414971248442182,
       "detections": []
     }
   },
@@ -5624,6 +5331,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07301093656037223,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis-Alcaraz says five sets key to Grand Slam legacy, urges calendar reforms instead",
+    "description": "Oct 1 (Reuters) - Carlos Alcaraz said Grand Slam tournaments should remain best-of-five sets as shortening men's matches would damage the legacy of tennis' four majors, as the world number three stressed the need for changes to the packed tour calendar...",
+    "link": "https://kelo.com/2026/10/01/tennis-alcaraz-says-five-sets-key-to-grand-slam-legacy-urges-calendar-reforms-instead/",
+    "source_name": "DDG/KELO",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-10-01 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06795821754307445,
       "detections": []
     }
   },
@@ -5694,6 +5415,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05162065723247743,
+      "detections": []
+    }
+  },
+  {
+    "title": "Breaking: WTA to Overhaul Finals and Schedule Rules for 2027",
+    "description": "Breaking more news here: Bounces can report details of the WTA's new revamps which are being communicated to players this week at the China Open in Beijing. These changes were proposed by the WTA's newly created Tour Architecture Council and have ...",
+    "link": "https://www.benrothenberg.com/p/breaking-wta-calendar-2027-rule-changes-wta-finals-charlotte-format",
+    "source_name": "DDG/benrothenberg.com",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-30 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10047060217582798,
       "detections": []
     }
   },
@@ -5866,6 +5601,20 @@
     }
   },
   {
+    "title": "Battue au dernier tour des qualifications, Loïs Boisson intègre le tableau principal du WTA 125 d'Adana comme lucky-loser",
+    "description": "Battue dimanche au dernier tour des qualifications par l'Américaine Fiona Crawley, 227e, malgré une balle de match (2-6, 6-3, 7-5), Loïs Boisson a été repêchée dans le tableau principal du WTA 125 d'A",
+    "link": "https://www.lequipe.fr/Tennis/Actualites/Lois-boisson-integre-le-tableau-principal-du-wta-125-d-adana-en-turquie-comme-lucky-loser/1721711",
+    "source_name": "DDG/L'Équipe",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-27 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.30996108711281084,
+      "detections": []
+    }
+  },
+  {
     "title": "Full stands, a burst of rain and a busy first day for Tennis in Nagoya",
     "description": "NAGOYA, 27 September 2026 — The Centre Court stands were full for the very first match of Asian Games tennis on Sunday. Fans had come early to the Nagoya City Higashiyama Park Tennis Center, and the players began under a cloudy sky that would eventually change the day’s plans.",
     "link": "https://www.asiantennis.com/news/full-stands-a-burst-of-rain-and-a-busy-first-day-for-tennis-in-nagoya/",
@@ -5918,6 +5667,34 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.071087501209068,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA Tour step in as tennis star forced to pull out of tournament against her wishes",
+    "description": "The WTA has responded after Tatiana Prozorova claimed she was \"withdrawn\" from the Singapore Open, where she reached the semi-finals. The world No. 180 beat Wang Xinyu on Friday and then played a doubles match, where she was accidentally struck in the head by a ball.",
+    "link": "https://www.express.co.uk/sport/tennis/2252010/WTA-Tour-Tatiana-Prozorova-Singapore-Open-withdrawal",
+    "source_name": "DDG/Daily Express",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-26 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07134044290407526,
+      "detections": []
+    }
+  },
+  {
+    "title": "Remembering Elena Pero",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/remembering-elena-pero",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "2026-09-26 03:00 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.038496304615280016,
       "detections": []
     }
   },
@@ -5978,16 +5755,16 @@
     }
   },
   {
-    "title": "Remembering Elena Pero",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/remembering-elena-pero",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-09-25 03:00 EEST",
+    "title": "Tennis-Defending champion Sinner withdraws from China Open as knee injury recovery continues",
+    "description": "Sept 25 (Reuters) - World number one Jannik Sinner has withdrawn from the China Open, saying on Friday that he is not yet ready to compete as he continues to recover from the knee injury that also forced him to miss the US Open. The 25-year-old Itali...",
+    "link": "https://kelo.com/2026/09/25/tennis-defending-champion-sinner-withdraws-from-china-open-as-knee-injury-recovery-continues/",
+    "source_name": "DDG/KELO",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-25 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038496304615280016,
+      "score": 0.056011802388852804,
       "detections": []
     }
   },
@@ -6188,6 +5965,34 @@
     }
   },
   {
+    "title": "The ATP Tour should introduce new tournament to the tennis calendar after what's happened at the Davis Cup",
+    "description": "The United States vs the Czech Republic was the bumper tie of this selection of matches at the Davis Cup and it certainly did not disappoint. Ben Shelton and Learner Tien appeared for the United States, while Jakub Mensik and Jiri Lehecka starred for the ...",
+    "link": "https://www.msn.com/en-us/sports/tennis/the-atp-tour-should-introduce-new-tournament-to-the-tennis-calendar-after-what-s-happened-at-the-davis-cup/ar-AA2cCjt4",
+    "source_name": "DDG/MSN이(가) MSN.com에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0413086326916185,
+      "detections": []
+    }
+  },
+  {
+    "title": "Will the WTA Tour run out of money? Why the women's game should be well placed to thrive",
+    "description": "Star names in place to ensure WTA Tour can attract new sponsors.",
+    "link": "https://www.msn.com/en-us/news/other/will-the-wta-tour-run-out-of-money-why-the-women-s-game-should-be-well-placed-to-thrive/ar-AA2cCJcv",
+    "source_name": "DDG/Tennis365이(가) MSN.com에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03452273916755723,
+      "detections": []
+    }
+  },
+  {
     "title": "Ball pressure: the overlooked variable in player development",
     "description": "",
     "link": "https://www.tenniseurope.org/news/163639/Ball-pressure-the-overlooked-variable-in-player-development",
@@ -6258,6 +6063,20 @@
     }
   },
   {
+    "title": "WTA Tour Finals moves to Charlotte, N.C., as women's tennis takes full control of flagship event",
+    "description": "Elena Rybakina won the 2025 WTA Tour Finals, which was held in Riyadh, Saudi Arabia. Nur Photo / Getty Images The flagship event in women's tennis will move to Charlotte, N.C. for three years, starting in 2027, as the WTA Tour takes over operational ...",
+    "link": "https://www.nytimes.com/athletic/7599153/2026/09/16/wta-tour-finals-tennis-venue-format-charlotte/",
+    "source_name": "DDG/nytimes.com",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-09-16 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03750489561197599,
+      "detections": []
+    }
+  },
+  {
     "title": "Asia’s Davis Cup Spotlight Falls on Seoul",
     "description": "The Davis Cup returns this September with several Asian nations carrying their hopes onto courts around the world. The biggest contest from an Asian point of view will take place in Seoul, where Korea Republic and India meet in the Qualifiers Second Round on 18 and 19 September. At stake is a coveted place in the Davis Cup Final 8 in Bologna.",
     "link": "https://www.asiantennis.com/news/asias-davis-cup-spotlight-falls-on-seoul/",
@@ -6286,30 +6105,30 @@
     }
   },
   {
-    "title": "From Carmel to Grand Slam glory: Rajeev Ram retires after historic tennis career",
-    "description": "CARMEL, Ind. — From a Carmel High School state champion to a Grand Slam champion and world No. 1 doubles player, Rajeev Ram leaves tennis with a legacy few athletes achieve — one that began with a father introducing his son to the game. Every tennis ...",
-    "link": "https://www.wthr.com/article/sports/local-sports/rajeev-ram-tennis-grand-slam-us-open-olympics-carmel-high-school-retirement/531-a1f0e2c9-c2c0-46f2-a1e5-5792d5c1237b",
-    "source_name": "DDG/WTHR",
+    "title": "How the ATP rankings looked the last time Novak Djokovic was not in the top ten as he drops out again following US Open",
+    "description": "It was a US Open to forget for a lot of the ATP Tour's top stars, perhaps none more so than Novak Djokovic. In what...",
+    "link": "https://sports.yahoo.com/articles/atp-rankings-looked-last-time-230000901.html",
+    "source_name": "DDG/The Tennis Gazette이(가) Yahoo에서 작성",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-15 10:22 EEST",
+    "date": "2026-09-15 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04028212830203632,
+      "score": 0.11518763166174621,
       "detections": []
     }
   },
   {
-    "title": "Tennis stars END protests over Grand Slam prize money - after almost £80m was available at US Open",
-    "description": "TAMARA PRENN: Top players including Jannik Sinner, Jessica Pegula, Aryna Sabalenka, and Carlos Alcaraz joined the calls for prize money to reflect 22 per cent of each tournament's revenue.",
-    "link": "https://www.msn.com/en-in/news/other/tennis-stars-end-protests-over-grand-slam-prize-money-after-almost-80m-was-available-at-us-open/ar-AA2caj8R",
-    "source_name": "DDG/Daily Mail on MSN.com",
+    "title": "Today in Sports - Roger Federer announces retirement from tennis at age 41 with 20 grand slam wins",
+    "description": "Today in Sports, September 15 - Roger Federer announces retirement from tennis at age 41 with 20 grand slam wins",
+    "link": "https://apnews.com/article/roger-federer-tennis-6e1f8fa2dc02417ae5305d47d9c1d06d",
+    "source_name": "DDG/Associated Press",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-14 10:22 EEST",
+    "date": "2026-09-14 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10140487229025424,
+      "score": 0.041781543597453924,
       "detections": []
     }
   },
@@ -6748,30 +6567,16 @@
     }
   },
   {
-    "title": "Shelton relishing challenge of first Grand Slam final against Zverev",
-    "description": "NEW YORK, Sept 11 (Reuters) - Ben Shelton said he was thriving in unfamiliar territory after reaching his first Grand Slam final at the U.S. Open, with the American crediting a newfound consistency for his breakthrough run in New York. Shelton beat ...",
-    "link": "https://www.reuters.com/sports/tennis/shelton-relishing-challenge-first-grand-slam-final-against-zverev-2026-09-12/",
-    "source_name": "DDG/Reuters",
+    "title": "Ben Shelton-Frances Tiafoe US Open Semifinal Will Make Black Tennis History",
+    "description": "Ben Shelton and Frances Tiafoe will meet in a historic US Open semifinal carrying a milestone unseen in more than five decades. The post Ben Shelton-Frances Tiafoe US Open Semifinal Will Make Black Tennis History appeared first on HEAVY.",
+    "link": "https://sports.yahoo.com/articles/ben-shelton-frances-tiafoe-us-002956382.html",
+    "source_name": "DDG/HEAVY이(가) Yahoo에서 작성",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-12 10:22 EEST",
+    "date": "2026-09-12 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.056019136439808305,
-      "detections": []
-    }
-  },
-  {
-    "title": "Taylor Townsend and Katerina Siniakova Win Career Grand Slam at 2026 US Open",
-    "description": "No. 1 Taylor Townsend and Katerina Siniakova won the women's doubles tournament on Friday, September 11th, at Arthur Ashe Stadium. The title brought Townsend her first career Grand Slam win, while it also brought Siniakova her second. The pair defeated ...",
-    "link": "https://www.si.com/onsi/serve/news/taylor-townsend-katerina-siniakova-win-career-grand-slam-2026-us-open-01m293nna43w",
-    "source_name": "DDG/Sports Illustrated",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-12 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.039851192928712635,
+      "score": 0.07456565103848595,
       "detections": []
     }
   },
@@ -6874,16 +6679,16 @@
     }
   },
   {
-    "title": "Taylor Townsend, Katerina Siniakova complete career Grand Slam with US Open doubles title",
-    "description": "Taylor Townsend and Katerina Siniakova won their first U.S. Open women's doubles title together Friday, completing their career Grand Slam as a team by defeating the wild card pair of Ashlyn Krueger and Robin Montgomery in the final. Townsend and ...",
-    "link": "https://nypost.com/2026/09/11/sports/taylor-townsend-katerina-siniakova-complete-career-grand-slam-with-us-open-doubles-title/",
-    "source_name": "DDG/New York Post",
+    "title": "Harrison & GB's Skupski into men's doubles final",
+    "description": "Briton Neal Skupski and American Christian Harrison reach the US Open men's doubles final by beating top seeds Henry Patten and Harri Heliovaara.",
+    "link": "https://sports.yahoo.com/articles/harrison-gbs-skupski-mens-doubles-001411619.html",
+    "source_name": "DDG/BBC이(가) Yahoo에서 작성",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-11 10:22 EEST",
+    "date": "2026-09-11 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040168486842754834,
+      "score": 0.05041551571736749,
       "detections": []
     }
   },
@@ -6972,16 +6777,16 @@
     }
   },
   {
-    "title": "Who was the last American man to win a Grand Slam title? Shelton, Tiafoe can end drought",
-    "description": "The answer is Andy Roddick at the 2003 US Open, and the talk of no U.S. man hoisting a championship trophy at the end of a major yet again is not only becoming repetitive, but, after a 23-year drought, it is starting to evolve into an uncomfortable norm.",
-    "link": "https://www.usatoday.com/story/sports/tennis/open/2026/09/10/american-man-win-grand-slam-title-shelton-tiafoe/91687573007/",
-    "source_name": "DDG/USA Today",
+    "title": "Who has won multiple tennis Grand Slam singles titles?",
+    "description": "The Grand Slam tennis circuit features the Australian Open, French Open, Wimbledon and US Open. Which men and women have taken home the most titles?",
+    "link": "https://www.espn.com/tennis/story/_/id/39364315/who-won-most-grand-slams-tennis-history",
+    "source_name": "DDG/ESPN",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-10 10:22 EEST",
+    "date": "2026-09-10 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05191077488201692,
+      "score": 0.07708939917066263,
       "detections": []
     }
   },
@@ -7098,20 +6903,6 @@
     }
   },
   {
-    "title": "US Open star quit tennis at 20 and became nun after 'throwing' Grand Slam final",
-    "description": "The path to tennis greatness is rarely easy, even for those blessed with extraordinary ability. Andrea Jaeger was undeniably gifted, rocketing to world No. 2 at just 16 years old. The American reached two Grand Slam finals during her short-lived tennis ...",
-    "link": "https://www.aol.com/articles/us-open-star-quit-tennis-160754000.html",
-    "source_name": "DDG/AOL",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-06 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.036565954305454666,
-      "detections": []
-    }
-  },
-  {
     "title": "Coco Gauff Reaches Fifth Straight US Open Round of 16",
     "description": "No. 4 Coco Gauff has reached her fifth straight second week of the US Open by virtue of her 6-3, 6-4 win over Spain’s Cristina Bucsa on Saturday afternoon.",
     "link": "https://www.tennispanorama.com/coco-gauff-reaches-fifth-straight-us-open-round-of-16/",
@@ -7126,44 +6917,58 @@
     }
   },
   {
-    "title": "'You Can Say No'- Carlos Alcaraz Reveals Bold Plan To Deal With 'Impossible' Tennis Schedule & Injuries",
-    "description": "Injuries and physical exertion are a part of tennis, as they are for any other sport. But in recent years, the frequency of injuries has become so high that players have been forced to point to the demanding tour schedule. Carlos Alcaraz once again showed ...",
-    "link": "https://www.yardbarker.com/tennis/articles/you_can_say_no_carlos_alcaraz_reveals_bold_plan_to_deal_with_impossible_tennis_schedule_injuries/s1_17730_44253202",
-    "source_name": "DuckDuckGo News",
+    "title": "Alcaraz räumt ein, dass er nicht an der gesamten ATP Tour teilnehmen kann.",
+    "description": "Der amtierende US-Open-Sieger nannte bei dem Turnier in New York eine konkrete Zahl zu diesem Thema: 40 Wochen Tennis pro Jahr, wenn ein Profispieler an allen obligatorischen ATP-Tour-Turnieren teilnimmt, und es wird noch mehr Verletzungen geben, wenn sich ...",
+    "link": "https://www.vietnam.vn/de/alcaraz-thua-nhan-khong-the-tham-gia-het-atp-tour",
+    "source_name": "DDG/vietnam",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-03 10:22 EEST",
+    "date": "2026-09-04 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.14253129326764216,
+      "score": 0.7227661896400749,
       "detections": []
     }
   },
   {
-    "title": "Gael Monfils bids adieu to Grand Slam tennis by losing in the second round at the US Open",
-    "description": "NEW YORK — Gael Monfils bid adieu to Grand Slam tennis with a hard-fought loss to Learner Tien in the second round of the U.S. Open on Thursday night. The 40-year-old Frenchman, who is planning to retire at the end of the year, was knocked out 6-3, 6-4 ...",
-    "link": "https://www.washingtonpost.com/sports/tennis/2026/09/03/gael-monfils-us-open-grand-slam/427d960a-a804-11f1-9e38-f705d048bd5a_story.html",
-    "source_name": "DDG/Washington Post",
+    "title": "\"You Can Say No\"- Carlos Alcaraz Reveals Bold Plan To Deal With \"Impossible\" Tennis Schedule & Injuries",
+    "description": "Injuries and physical exertion are a part of tennis, as they are for any other sport. But in recent years, the frequency of injuries has become so high that players have been forced to point to the demanding tour schedule.",
+    "link": "https://sports.yahoo.com/articles/no-carlos-alcaraz-reveals-bold-064305757.html",
+    "source_name": "DDG/EssentiallySports이(가) Yahoo에서 작성",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-09-03 10:22 EEST",
+    "date": "2026-09-03 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029769740426304918,
+      "score": 0.163189258272095,
       "detections": []
     }
   },
   {
-    "title": "How many tennis Grand Slams are there? Explaining tennis' showpiece events and how the season progresses",
-    "description": "Grand Slams are the most important tennis competitions and bring together the best tennis players in the world throughout the year. Each of these tournaments has a lot of traditions and a special playing field, which makes success in Grand Slams the ...",
-    "link": "https://www.sportingnews.com/in/tennis/news/how-many-tennis-grand-slams-explaining-season-progresses/fa7fb13b081edf58ececdbfc",
-    "source_name": "DuckDuckGo News",
+    "title": "Photos of Grand Slam tennis action at the U.S. Open in New York",
+    "description": "",
+    "link": "https://sports.yahoo.com/articles/photos-grand-slam-tennis-action-222138680.html",
+    "source_name": "DDG/Associated Press이(가) Yahoo에서 작성",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-08-28 10:22 EEST",
+    "date": "2026-08-30 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046515033634499554,
+      "score": 0.03942273766332008,
+      "detections": []
+    }
+  },
+  {
+    "title": "Why an American could win men's Grand Slam title for first time in 23 years at US Open",
+    "description": "With reigning U.S. Open champion Jannik Sinner sidelined this year, the path is that much clearer for the American men in the field.",
+    "link": "https://sports.yahoo.com/articles/why-american-could-win-men-022615102.html",
+    "source_name": "DDG/NY Post Sports이(가) Yahoo에서 작성",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-08-30 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05047949147325604,
       "detections": []
     }
   },
@@ -7182,16 +6987,16 @@
     }
   },
   {
-    "title": "Grand Slam tennis tournaments create player council",
-    "description": "NEW YORK -- The Grand Slam tennis tournaments have created a player council, giving players greater input into matters involving the biggest events in the sport. The Grand Slam Player Advisory Council was announced Thursday by the Australian Open, the ...",
-    "link": "https://www.espn.com/tennis/story/_/id/49670424/grand-slam-tennis-tournaments-create-player-council",
-    "source_name": "DDG/ESPN",
+    "title": "Grand Slam tournaments create player council to give players more input into biggest tennis events",
+    "description": "The Grand Slam tennis tournaments have created a player council, giving players greater input into matters involving the biggest events in the sport.",
+    "link": "https://apnews.com/article/tennis-grand-slams-player-council-5212c65ebe100a694588b136b55f6fe9",
+    "source_name": "DDG/Associated Press",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-08-20 10:22 EEST",
+    "date": "2026-08-20 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03032977277370713,
+      "score": 0.027176823422085356,
       "detections": []
     }
   },
@@ -7211,7 +7016,7 @@
   },
   {
     "title": "Rafael Nadal Enjoys Summer in Croatia",
-    "description": "When it comes to hot tourist destinations this summer, Croatia and its beautiful Adriatic coast certainly seem to be high on the list. These days, Rafael Nadal has been spotted enjoying some time i…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/08/14/rafael-nadal-enjoys-summer-in-croatia/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7219,13 +7024,13 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03829077711259724,
+      "score": 0.04979084405991355,
       "detections": []
     }
   },
   {
     "title": "How and Why a Roger Federer Fan Lost Her Heart to Rafael Nadal",
-    "description": "Rafael Nadal has given fans countless memorable moments over the years, and we have seen time and again how much he cares about his youngest fans. Often, it is his smallest gestures away from compe…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/08/11/how-and-why-a-roger-federer-fan-lost-her-heart-to-rafael-nadal/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7233,13 +7038,13 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04269429055260531,
+      "score": 0.040664581887939304,
       "detections": []
     }
   },
   {
     "title": "Giant Rafael Nadal Mural Sparks Controversy in Paris",
-    "description": "A giant mural dedicated to Rafael Nadal has appeared on the facade of a building in Paris, attracting the attention of tourists and locals who have been stopping to take photos. But behind the eye-…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/08/10/giant-rafael-nadal-mural-sparks-controversy-in-paris/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7247,13 +7052,13 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0740645057600041,
+      "score": 0.07156367077852001,
       "detections": []
     }
   },
   {
     "title": "Rafa Roundup: Here’s Why There Aren’t More Nadal Fans in the USA",
-    "description": "(Clive Brunskill/Getty Images) ARTICLES: The director of Netflix’s Nadal documentary: “In the US there aren’t many Rafa fans; his mentality is the anti-Jordan” | claytennis.com — Was it easy to con…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/08/09/where-are-rafael-nadal-fans-in-the-usa-rafael-jodar-comparison/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7261,7 +7066,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05376773906432455,
+      "score": 0.03893900080797005,
       "detections": []
     }
   },
@@ -7280,8 +7085,22 @@
     }
   },
   {
+    "title": "EXPLAINER: Why DC Open title is only Alex Eala's first on WTA tour",
+    "description": "ALEX Eala already had two WTA trophies in her collection before Washington, so why is her DC Open triumph considered her first title on the WTA Tour? The distinction lies in the level of the tournament. Eala's previous championships in Guadalajara in 2025 ...",
+    "link": "https://www.spin.ph/tennis/wondering-why-dc-open-triumph-is-alex-eala-s-first-on-wta-tour-a5019-20260804?ref=home_feed_1",
+    "source_name": "DDG/SPIN",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-08-04 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03790995980058774,
+      "detections": []
+    }
+  },
+  {
     "title": "Rafael Nadal congratulates Alex Eala on winning her first WTA title",
-    "description": "Rafael Nadal congratulated Filipina Alex Eala after her breakthrough victory at the Mubadala DC Open, where she defeated top seed Jessica Pegula in the final to claim her first WTA title. After a l…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/08/04/rafael-nadal-congratulates-alex-eala-on-winning-her-first-wta-title/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7289,13 +7108,13 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04702319789109833,
+      "score": 0.04005714588600175,
       "detections": []
     }
   },
   {
     "title": "Rafa Roundup: Nadal enjoys summer with his wife and two sons in Ibiza",
-    "description": "ARTICLES: LeBron James and Rafael Nadal Bring Global Star Power to Dubrovnik’s E1 Weekend | Just Dubrovnik Dubrovnik has long been used to famous faces, but this weekend the city welcomed two of th…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/08/03/photos-rafael-nadal-enjoys-summer-with-his-wife-and-two-sons-in-ibiza/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7303,7 +7122,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04263528824881129,
+      "score": 0.04910661500312054,
       "detections": []
     }
   },
@@ -7313,7 +7132,7 @@
     "link": "https://www.wimbledon.com/en_GB/news/Play_Your_Way_to_Wimbledon_Returns_for_2026_Finals",
     "source_name": "Wimbledon",
     "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-07-31 03:00 EEST",
+    "date": "2026-08-01 03:00 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -7351,7 +7170,7 @@
   },
   {
     "title": "Roger Federer Visits Rafa Nadal’s New Museum in Manacor",
-    "description": "One of Rafael Nadal’s greatest rivals and now a good friend, Roger Federer, recently visited the Rafa Nadal Academy, where he also explored the new Rafa Nadal Museum in Manacor, Spain. This m…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/07/23/roger-federer-visits-rafa-nadal-new-museum-in-manacor/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7359,7 +7178,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03999212409959531,
+      "score": 0.0396365382988917,
       "detections": []
     }
   },
@@ -7379,7 +7198,7 @@
   },
   {
     "title": "Rafael Nadal Celebrates Spain’s World Cup Triumph from Mallorca",
-    "description": "All eyes were on the World Cup final between Spain and Argentina, played in New Jersey last night, as La Roja lifted the trophy with a dramatic 1-0 extra-time victory over Argentina. Although our c…",
+    "description": "",
     "link": "https://rafaelnadalfans.com/2026/07/20/rafael-nadal-celebrates-spains-world-cup-triumph-from-mallorca/",
     "source_name": "Rafael Nadal Fans",
     "source_url": "https://rafaelnadalfans.com/",
@@ -7387,7 +7206,49 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051933731616348656,
+      "score": 0.05311384433777248,
+      "detections": []
+    }
+  },
+  {
+    "title": "WTA: Tour announces mandatory SRY gene test for players to determine their sex in order to compete",
+    "description": "The WTA has announced that athletes will have to undergo a one-time test for the SRY gene, which determines biological sex, coming into effect on Tuesday; players face disciplinary action should they refuse testing The WTA has announced that tennis players ...",
+    "link": "https://www.skysports.com/tennis/news/13565278/wta-tour-announces-mandatory-sry-gene-test-for-players-to-determine-their-sex-in-order-to-compete",
+    "source_name": "DDG/Sky Sports",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-07-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.10724109273099448,
+      "detections": []
+    }
+  },
+  {
+    "title": "Players will need sex test to play on WTA Tour",
+    "description": "Tennis is the latest sport to introduce genetic testing for women The Women's Tennis Association (WTA) is to require all players to undergo genetic sex testing in order to compete on the WTA Tour. In the latest edition of its women's eligibility policy ...",
+    "link": "https://www.bbc.com/sport/tennis/articles/cn4nvwl9550o",
+    "source_name": "DDG/BBC",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-07-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0264936989264491,
+      "detections": []
+    }
+  },
+  {
+    "title": "Women's WTA Tour mandates gene test for eligibility",
+    "description": "WTA Tour to introduce once-in-a-lifetime SRY gene test New eligibility process takes effect on Tuesday Sports push for standardised rules after years of fragmented regulation on issue July 19 (Reuters) - Tennis players will be required to clear a one ...",
+    "link": "https://www.reuters.com/sports/tennis/womens-tour-mandates-gene-test-eligibility-2026-07-20/",
+    "source_name": "DDG/Reuters",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-07-20 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06293645012608842,
       "detections": []
     }
   },
@@ -7406,58 +7267,16 @@
     }
   },
   {
-    "title": "Sinner: ‘We made it happen, now it’s time to enjoy’",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/wimbledon_2026_sinner_quotes_final",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-07-12 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.037661110043557364,
-      "detections": []
-    }
-  },
-  {
-    "title": "Is tennis' relentless nature causing injury crisis?",
-    "description": "The timing of Jack Draper voicing his concerns about the amount of injuries players suffer was either extremely unfortunate or subtly calculated. Less than 24 hours after saying he felt the volume of injuries was \"pretty worrying\", the Briton pulled out of ...",
-    "link": "https://www.msn.com/en-us/health/other/is-tennis-relentless-nature-causing-injury-crisis/ar-AA26Pz4L",
+    "title": "Why is ESPN intent on replacing Chris McKendry as host of Grand Slam tennis coverage",
+    "description": "The only way ESPN should be moving Chris McKendry to play-by-play tennis coverage is if she wants to do it. Otherwise, this effort to push her out of the host desk at the ESPN-covered Grand Slams is a mistake. It…",
+    "link": "https://sports.yahoo.com/articles/why-espn-intent-replacing-chris-230038012.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-06-30 10:22 EEST",
+    "date": "2026-06-23 12:38 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037173372698337835,
-      "detections": []
-    }
-  },
-  {
-    "title": "Wimbledon 2026's Grand Slam debuts: Grant, Kostovic, Gjorcheska and more",
-    "description": "Five players will make their Grand Slam main-draw debuts at Wimbledon 2026 -- one direct entrant, three qualifiers and one wild card. Get to know them here: A post shared by Alicia Dudeney (@aliciadudeney) In recent years, the pipeline from college tennis ...",
-    "link": "https://www.wtatennis.com/news/4527596/wimbledon-2026s-grand-slam-debuts-grant-kostovic-gjorcheska-and-more",
-    "source_name": "DDG/WTA",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-06-27 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05016220852000444,
-      "detections": []
-    }
-  },
-  {
-    "title": "Emma Raducanu's former coach reveals key to next Grand Slam title",
-    "description": "Emma Raducanu can win more grand slam titles if she chases happiness rather than ranking points and stops worrying about her critics. That is the view of her former coach Mark Petchey as the British number one prepares for her latest crack at Wimbledon.",
-    "link": "https://www.espn.com/tennis/story/_/id/49173076/emma-raducanu-former-coach-reveals-key-next-grand-slam-title",
-    "source_name": "DDG/ESPN",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-06-25 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03835534713240808,
+      "score": 0.03654614985243193,
       "detections": []
     }
   },
@@ -7556,6 +7375,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.03970967401133687,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alexander Zverev wins French Open for his 1st Grand Slam tennis title",
+    "description": "Alexander Zverev is finally a Grand Slam champion. In his fourth major final, Zverev beat Flavio Cobolli for the French Open title on Sunday.",
+    "link": "https://www.seattletimes.com/sports/alexander-zverev-wins-french-open-for-his-1st-grand-slam-tennis-title/",
+    "source_name": "DDG/Seattle Times",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-06-07 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06186439963188691,
       "detections": []
     }
   },
@@ -7672,20 +7505,6 @@
     }
   },
   {
-    "title": "Teenager Kouame becomes youngest male Grand Slam match-winner in 17 years",
-    "description": "PARIS, May 26 (Reuters) - French teenager Moise Kouame announced himself on the Grand Slam stage ‌in emphatic fashion on Tuesday, beating former U.S. Open champion Marin Cilic 7-6(4) 6-2 6-1 at the French Open to become the youngest man to win a major ...",
-    "link": "https://www.reuters.com/sports/tennis/teenager-kouame-becomes-youngest-male-grand-slam-match-winner-17-years-2026-05-26/",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-05-26 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0516991340006985,
-      "detections": []
-    }
-  },
-  {
     "title": "Why tennis fans are turning to crypto when placing their bets",
     "description": "There has always been a certain type of tennis fan. A person who understands the details. How a player plays on clay rather than grass, how a serve changes when it counts the most, and what exactly a...",
     "link": "https://tennis-infinity.com/news/why-tennis-fans-are-turning-to-crypto-when-placing-their-bets",
@@ -7696,34 +7515,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.1557243629589015,
-      "detections": []
-    }
-  },
-  {
-    "title": "French Open free live streams 2026: How to watch tennis grand slam from Roland-Garros without cable",
-    "description": "We've already reached the second grand slam of the year, and it's surely going to bring some intense competition. The 2026 French Open returns to Paris this week. The draw is now official, and with defending champion Carlos Alcaraz pulled from the ...",
-    "link": "https://www.sportingnews.com/us/tennis/news/french-open-free-live-streams-2026-watch-grand-slam-roland-garros/d5b07d225ab4c55088ef7eb5",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-05-24 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08271052950510788,
-      "detections": []
-    }
-  },
-  {
-    "title": "The Bases Are Fully Loaded at the French Open for Jannik Sinner's Career Grand Slam",
-    "description": "Thwock. Thwock. Thwock. Even by the metronomic standards of a tennis practice session, there's something singularly routine about Jannik Sinner's. Robotic is probably too uncharitable, as it takes away agency and humanity, both of which are present.",
-    "link": "https://www.si.com/tennis/the-bases-fully-loaded-french-open-jannik-sinner-career-grand-slam",
-    "source_name": "DDG/Sports Illustrated",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-05-20 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07555820351110804,
       "detections": []
     }
   },
@@ -7780,20 +7571,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07746117284252436,
-      "detections": []
-    }
-  },
-  {
-    "title": "J.J. Wolf returns to tennis after 'car wreck' injury",
-    "description": "Joao Fonseca hasn't played a match since September and won't play again until the 2027 season. \"Hi everyone. I wanted to give you an update... Tennishead \"Don't Take That Away From Him\" - Carlos Alcaraz's Ex-Coach Hits Back at Critics ...",
-    "link": "https://sports.yahoo.com/articles/j-j-wolf-returns-tennis-180643195.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-05-07 10:22 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0517093104989416,
       "detections": []
     }
   },
@@ -7882,6 +7659,34 @@
     }
   },
   {
+    "title": "ATP Tour steps into retail with first official merch store in Madrid",
+    "description": "Tennis fans can now wear their love for the ATP Tour on their sleeve—or their cap, T-shirt, and socks—thanks to launch of its first official merch store. First debuting online in January 2026, the ATP Store features a variety of branded tennis apparel ...",
+    "link": "https://www.tennis.com/news/articles/atp-tour-steps-into-retail-new-initiative-first-official-merch-store-madrid-arrivals",
+    "source_name": "DDG/Tennis",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-04-24 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.032634556792682526,
+      "detections": []
+    }
+  },
+  {
+    "title": "Swiatek leads players' surprise as WTA head Portia Archer quits after two years",
+    "description": "A number of top players on the WTA tour have expressed their surprise at the abrupt decision by its chief executive, Portia Archer, to resign from her role this week after two years at the helm. \"I heard literally two minutes ago, so I really don't ...",
+    "link": "https://www.theguardian.com/sport/2026/apr/23/swiatek-leads-players-surprise-as-wta-head-portia-archer-quits-after-two-years",
+    "source_name": "DDG/The Guardian",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-04-24 12:38 EEST",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0561180302123583,
+      "detections": []
+    }
+  },
+  {
     "title": "Novak Djokovic supported by wife Jelena as tennis star shares worrying news",
     "description": "Novak Djokovic turned up in Madrid this week for the Laureus World Sports Awards with his wife Jelena, but not for tennis.  The 38-year-old Serb co-hosted the prestigious ceremony alongside Olympic sk...",
     "link": "https://tennis-infinity.com/news/novak-djokovic-supported-by-wife-jelena-as-tennis-star-shares-worrying-news",
@@ -7966,44 +7771,86 @@
     }
   },
   {
-    "title": "5 Common Tennis Injuries Of Weekend Warriors - And How To Avoid Them",
-    "description": "Forbes contributors publish independent expert analyses and insights. An experienced weaver of health, technology, ethics and spirituality. This voice experience is generated by AI. Learn more. This voice experience is generated by AI. Learn more.",
-    "link": "https://www.forbes.com/sites/talpatalon/2026/03/20/5-common-tennis-injuries-of-weekend-warriors--and-how-to-avoid-them/",
-    "source_name": "DuckDuckGo News",
+    "title": "Tennis player shares threats sent to personal phone, WTA Tour says no breach of private data",
+    "description": "Panna Udvardy received threats of violence on her personal phone ahead of a WTA match in Turkey. Robert Prange / Getty Images A women's tennis player has criticized the WTA Tour's response to threats of violence sent to her personal phone. Panna ...",
+    "link": "https://www.nytimes.com/athletic/7097217/2026/03/07/tennis-abuse-threats-betting-wta/",
+    "source_name": "DDG/nytimes.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-03-20 10:22 EET",
+    "date": "2026-03-07 12:38 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0734112659245951,
+      "score": 0.109216171859665,
       "detections": []
     }
   },
   {
-    "title": "Carlos Alcaraz becomes youngest man to complete career Grand Slam. Is calendar Slam next?",
-    "description": "Carlos Alcaraz had Novak Djokovic across the net from him and Rafael Nadal watching from above in Rod Laver Arena. His inspiration, and his idol. Alcaraz had visions of this as a kid — not entirely long ago, in the scheme of things — so there was no ...",
-    "link": "https://www.nbcnewyork.com/news/sports/tennis/carlos-alcaraz-calendar-grand-slam-chances/6453264/",
-    "source_name": "DDG/NBC New York",
+    "title": "Calendario ATP Tour 2026: fechas de los torneos Grand Slam, Masters 1000 y Copa Davis en la nueva temporada de tenis",
+    "description": "La temporada 2026 del tenis internacional traerá competencias de todo tipo para el gusto de los aficionados. El calendario de la Asociación de Tenistas Profesionales (ATP) para este año incluye, además de los tradicionales cuatro Grand Slam, nueve ...",
+    "link": "https://larepublica.pe/deportes/2026/01/08/calendario-atp-tour-2026-fechas-horarios-y-donde-ver-los-mejores-torneos-de-tenis-262592",
+    "source_name": "DDG/La República",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-02-01 10:22 EET",
+    "date": "2026-01-27 12:38 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.043279942446577076,
+      "score": 0.17543292603616978,
       "detections": []
     }
   },
   {
-    "title": "Taylor Fritz Questions Tennis Authorities as Injury Concerns Linger in Melbourne",
-    "description": "Jannik Sinner warned about his knee injury after ending his 2026 season early Jannik Sinner chose to end his 2026 ATP season earlier this month due to a knee injury that has kept him out of action since... The Tennis Gazette Carlos Alcaraz confirmed for ...",
-    "link": "https://sports.yahoo.com/articles/taylor-fritz-questions-tennis-authorities-232741791.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-01-21 10:22 EET",
+    "title": "Daniil delivers: Medvedev crowned 2026 Brisbane International champion",
+    "description": "Daniil Medvedev defeats Brandon Nakashima to secure his 22nd ATP title at the Brisbane International.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/01/brisbane-international-2026-mens-singles-final-medvedev-nakashima",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-01-11 02:00 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0716395610354831,
+      "score": 0.044985618246765544,
+      "detections": []
+    }
+  },
+  {
+    "title": "Aryna Sabalenka a Brisbane International champion again",
+    "description": "Aryna Sabalenka completed a perfect campaign at Pat Rafter Arena, with a straight-sets victory over Marta Kostyuk securing her second straight Brisbane International triumph.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/01/brisbane-international-2026-womens-final-report-sabalenka-kostyuk",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-01-11 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03256811186928217,
+      "detections": []
+    }
+  },
+  {
+    "title": "Women's tennis in 2026: The WTA players and storylines to watch this season",
+    "description": "The field for the WTA Finals is now complete, with Karolina Muchova securing the eighth and final spot. Muchova was battling for that spot with... The 2026 tennis season has witnessed countless significant moments, across both the WTA and ATP tours.",
+    "link": "https://sports.yahoo.com/articles/women-tennis-2026-wta-players-101606812.html",
+    "source_name": "DDG/Yahoo! Sports",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2025-12-30 12:38 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.039044828686096315,
+      "detections": []
+    }
+  },
+  {
+    "title": "The WTA and Mercedes: Everything to know about the biggest sponsorship in women's tennis history",
+    "description": "The Women's Tennis Association (WTA) is celebrating a commercial milestone after naming Mercedes-Benz as its new premier partner, which has usurped title sponsor as the top-tier designation on the tour. The long-term partnership will officially begin in ...",
+    "link": "https://www.sportspro.com/analysis/sponsorship-marketing/wta-tour-mercedes-tennis-sponsorship-explainer-marina-storti-hologic/",
+    "source_name": "DDG/sportspro",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2025-12-10 12:38 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07620612929401509,
       "detections": []
     }
   },
@@ -8130,20 +7977,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05268015682929094,
-      "detections": []
-    }
-  },
-  {
-    "title": "Swiss Indoors Basel kicks off with exciting qualifying matches and a top-notch main draw",
-    "description": "Swiss Indoors Basel kicks off with exciting qualifying matches and a top-notch main drawSwiss Indoors Basel 2025 is off to a rousing start, thrilling spectators at St. Jakobshalle from the outset.",
-    "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2025-10-18_Swiss-Indoors-Basel-kicks-off-with-exciting-qualifying-matches-and-a-top-notch-main-draw.php",
-    "source_name": "Swiss Indoors Basel",
-    "source_url": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/",
-    "date": "2025-10-18 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07067513086714539,
       "detections": []
     }
   }
