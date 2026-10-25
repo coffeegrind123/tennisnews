@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08113477997751921,
+      "score": 0.0741344837164909,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06239313642907972,
+      "score": 0.061570889268445984,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.46630743171865274,
+      "score": 0.3742083131772179,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07988143891898933,
+      "score": 0.07844014174516728,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.15059159957834423,
+      "score": 0.11489253571048472,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1965008511951361,
+      "score": 0.17366480852390856,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06604460622383783,
+      "score": 0.06059935976313145,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04523925888019744,
+      "score": 0.04476057422326397,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058533735946682736,
+      "score": 0.05548620133107868,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04536132421892741,
+      "score": 0.042685242406305765,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0680413035403321,
+      "score": 0.05375876057592716,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04386878636254758,
+      "score": 0.0382311927956425,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07873480838748032,
+      "score": 0.07430335948554821,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.03419672292954768,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.05066850152822621,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03541395468505126,
+      "score": 0.03392204116088773,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1284310225291502,
+      "score": 0.13001057870750016,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09664616117453932,
+      "score": 0.10542145595195437,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06399643516456799,
+      "score": 0.06055937555163351,
       "detections": []
     }
   },
@@ -395,7 +395,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.49964448051621474,
+      "score": 0.5329793440685826,
       "detections": []
     }
   },
@@ -411,7 +411,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03950947337189201,
+      "score": 0.03538839510136291,
       "detections": []
     }
   },
@@ -427,7 +427,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07543841440720393,
+      "score": 0.07571906177450831,
       "detections": []
     }
   },
@@ -443,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03473545663446729,
+      "score": 0.029144154423189468,
       "detections": []
     }
   },
@@ -459,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03987336568941923,
+      "score": 0.035190213047011865,
       "detections": []
     }
   },
@@ -475,7 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04639334952037721,
+      "score": 0.03827848018874669,
       "detections": []
     }
   },
@@ -491,7 +491,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
+      "detections": []
+    }
+  },
+  {
+    "title": "blair doing the lord's work because wdym @DidFokiFall has been perceived by a hall of famer",
+    "description": "",
+    "link": "https://nitter.meowing.monster/NoBSRussian/status/2114051152480190793#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-24 20:47 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04161625229023364,
       "detections": []
     }
   },
@@ -507,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.8157565774870035,
+      "score": 0.8163072737421272,
       "detections": []
     }
   },
@@ -523,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23332211479592385,
+      "score": 0.20489731187773993,
       "detections": []
     }
   },
@@ -539,23 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08265269410078507,
-      "detections": []
-    }
-  },
-  {
-    "title": "When you’re hungover and the brunch spot has a live DJ",
-    "description": "",
-    "link": "https://nitter.meowing.monster/Served_Podcast/status/2113319453031076165#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-22 20:19 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05567384009949165,
+      "score": 0.07987874857526957,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09150462371495022,
+      "score": 0.07133497694875393,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04766138540894144,
+      "score": 0.046315418836513,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.21472693283175764,
+      "score": 0.23987347141005802,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05932541785596207,
+      "score": 0.05961877571892252,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -795,7 +795,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053163022829473876,
+      "score": 0.05572261542285587,
       "detections": []
     }
   },
@@ -811,7 +811,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04636248595902691,
+      "score": 0.04470528805440326,
       "detections": []
     }
   },
@@ -827,7 +827,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08240137200855135,
+      "score": 0.08403347292194525,
       "detections": []
     }
   },
@@ -843,7 +843,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04339679714446196,
+      "score": 0.0394644775948789,
       "detections": []
     }
   },
@@ -859,7 +859,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04247206343275355,
+      "score": 0.042591908589375255,
       "detections": []
     }
   },
@@ -875,7 +875,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04402699632048303,
+      "score": 0.03909792038066847,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08151158469342734,
+      "score": 0.06257925036585399,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04968873077672124,
+      "score": 0.05102228692094869,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04500558978496103,
+      "score": 0.03963101051037897,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07052227682646396,
+      "score": 0.057425615670704803,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05356338664979976,
+      "score": 0.04507260583211605,
       "detections": []
     }
   }
