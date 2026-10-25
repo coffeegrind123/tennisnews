@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0741344837164909,
+      "score": 0.08113477997751921,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.061570889268445984,
+      "score": 0.06239313642907972,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3742083131772179,
+      "score": 0.46630743171865274,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07844014174516728,
+      "score": 0.07988143891898933,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11489253571048472,
+      "score": 0.15059159957834423,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.17366480852390856,
+      "score": 0.1965008511951361,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06059935976313145,
+      "score": 0.06604460622383783,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04476057422326397,
+      "score": 0.04523925888019744,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05548620133107868,
+      "score": 0.058533735946682736,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042685242406305765,
+      "score": 0.04536132421892741,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04110978562399009,
+      "score": 0.04838077284405698,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05375876057592716,
+      "score": 0.0680413035403321,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0382311927956425,
+      "score": 0.04386878636254758,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07430335948554821,
+      "score": 0.07873480838748032,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03419672292954768,
+      "score": 0.04011619627844751,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3805444408157251,
+      "score": 0.5250368602383791,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03392204116088773,
+      "score": 0.03541395468505126,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13001057870750016,
+      "score": 0.1284310225291502,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10542145595195437,
+      "score": 0.09664616117453932,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06055937555163351,
+      "score": 0.06399643516456799,
       "detections": []
     }
   },
@@ -395,7 +395,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5329793440685826,
+      "score": 0.49964448051621474,
+      "detections": []
+    }
+  },
+  {
+    "title": "Michael Zheng, the two-time NCAA champ, in the house at Columbia’s homecoming football game where he and his @CULionsMTEN teammates are honored as Ivy League champs",
+    "description": "",
+    "link": "https://nitter.meowing.monster/TennisPublisher/status/2114079096225316955#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-24 22:38 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03950947337189201,
       "detections": []
     }
   },
@@ -411,7 +427,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07571906177450831,
+      "score": 0.07543841440720393,
       "detections": []
     }
   },
@@ -427,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029144154423189468,
+      "score": 0.03473545663446729,
       "detections": []
     }
   },
@@ -443,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035190213047011865,
+      "score": 0.03987336568941923,
       "detections": []
     }
   },
@@ -459,23 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03827848018874669,
-      "detections": []
-    }
-  },
-  {
-    "title": "\"That's Count Dracula playing with P.T. Barnum\" is what a TV commentator from the 1984 US Open describing the doubles team of Ion Tiriac and Ilie Nastase",
-    "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2113670629144813863#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-23 19:35 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03532119947529569,
+      "score": 0.04639334952037721,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.8163072737421272,
+      "score": 0.8157565774870035,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.20489731187773993,
+      "score": 0.23332211479592385,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07987874857526957,
+      "score": 0.08265269410078507,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0473297687758046,
+      "score": 0.05567384009949165,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07133497694875393,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046315418836513,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23987347141005802,
+      "score": 0.21472693283175764,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05961877571892252,
+      "score": 0.05932541785596207,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09538015064692588,
+      "score": 0.12847031732239908,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0682846059170864,
+      "score": 0.09305625184728848,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10530321311829208,
+      "score": 0.10802246388680846,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04429579004191101,
+      "score": 0.04606339031995195,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03664577134024063,
+      "score": 0.046044345126827674,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05077455186343883,
+      "score": 0.058084135172919674,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035108805522030946,
+      "score": 0.0373607233899036,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05572261542285587,
+      "score": 0.053163022829473876,
       "detections": []
     }
   },
   {
-    "title": "Struff up 6-4 on Fils.\n\nPlaying incredibly well.",
+    "title": "ATP LIVE RACE\n \n4. Cobolli, 3.640\n5. Medvedev, 3.575 (Almaty F)\n6. Fils, 3.425\n7. Tiafoe, 3.380\n8. Jódar, 3.159\n--\n9. De Minaur, 2.880\n10. Djokovic, 2.840\n11. Fritz, 2.695 (Lyon F)\n12. Paul, 2.675\n13. Davidovich, 2.510\n14. Mensik, 2.495",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2114043657666052133#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114070571554070578#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 20:17 EEST",
+    "date": "2026-10-24 22:04 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03143540912062808,
+      "score": 0.04636248595902691,
       "detections": []
     }
   },
   {
-    "title": "Altmaier won\n\nMoutet and Duckworth lost\n\nMannarino is on court",
+    "title": "36 year old Jan Lennard Struff gets a fantastic win over world #10 Arthur Fils 6-4, 6-7(7), 7-6(5) to reach the final in Brussels.\n\nFils served for the match.\n\n5th career final, 1st since winning his only title in Munich 2024\n\nFaces Griekspoor (0-3)",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2114039302652895561#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114069776125292577#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 20:00 EEST",
+    "date": "2026-10-24 22:01 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04090635088994499,
+      "score": 0.08240137200855135,
       "detections": []
     }
   },
   {
-    "title": "🪫✈️ Not even a day off for these players, who competed in one tournament yesterday and are already playing in another today:\n\nMannarino (Almaty → Vienna)\nMoutet (Lyon → Vienna)\nAltmaier (Lyon → Basel)\nDuckworth (Almaty → Basel)\n\nLyon to Vienna or Basel is manageable, but travelling all the way from Almaty, potentially spending 15+ hours in transit, and competing the very next day? Brutal 🫩",
+    "title": "Both Fils and Cerundolo served for the match.\n\nCobolli had 4 MPs.\n\nAll lost.\n\nWhat a day.",
     "description": "",
-    "link": "https://nitter.meowing.monster/tennismasterr/status/2113816286858039770#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114069614804062451#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 05:14 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.12384393800361881,
-      "detections": []
-    }
-  },
-  {
-    "title": "Bublik withdraws from Basel.\n\nRuud is now seeded so won't need to face Shelton in R1.\n\nRuud vs. Stricker\n\nShelton vs. Q/LL",
-    "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2114038644600434939#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 19:57 EEST",
+    "date": "2026-10-24 22:00 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08660109209604397,
+      "score": 0.04339679714446196,
       "detections": []
     }
   },
   {
-    "title": "Not that all surprising Faria's results have dropped late in the season, has played SO MUCH tennis in 2026. Full list below:",
+    "title": "Another 3rd set tiebreak in Brussels.",
     "description": "",
-    "link": "https://nitter.meowing.monster/tennismasterr/status/2113992674562998784#m",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114067766588449006#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-24 16:55 EEST",
-    "is_retweet": true,
+    "date": "2026-10-24 21:53 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06550910398785759,
+      "score": 0.04247206343275355,
+      "detections": []
+    }
+  },
+  {
+    "title": "Fils broken when serving for the match.\n\nLost a break lead twice in this set.\n\nWhat a semifinals day in Brussels with two rollercoaster matches.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2114066293888344410#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-10-24 21:47 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04402699632048303,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06257925036585399,
+      "score": 0.08151158469342734,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05102228692094869,
+      "score": 0.04968873077672124,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03963101051037897,
+      "score": 0.04500558978496103,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057425615670704803,
+      "score": 0.07052227682646396,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04507260583211605,
+      "score": 0.05356338664979976,
       "detections": []
     }
   }
