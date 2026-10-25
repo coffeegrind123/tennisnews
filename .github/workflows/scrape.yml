@@ -36,7 +36,7 @@ jobs:
         if: steps.cache-camoufox.outputs.cache-hit != 'true'
         run: |
           cd backend
-          curl -fL -o camoufox.zip "https://github.com/coffeegrind123/camoufox-beta/releases/download/v158.0-beta.33-cg.9/camoufox-158.0-beta.33-lin.x86_64.zip"
+          curl -fL -o camoufox.zip "https://github.com/coffeegrind123/camoufox-free/releases/download/v158.0-beta.33-cg.9/camoufox-158.0-beta.33-lin.x86_64.zip"
           echo "a36f9eb5dfc48dd7d4073b97d71e3f2d9d8e166e8325981aecb4c2b3e3711ec5  camoufox.zip" | sha256sum -c -
           unzip -q camoufox.zip -d camoufox_build
           rm camoufox.zip

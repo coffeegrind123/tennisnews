@@ -1,16 +1,15 @@
 feedparser
 # The launcher, from the SAME fork and commit the workflow downloads the binary
-# from: coffeegrind123/camoufox-beta is JWriter20's main plus Web Serial, the
-# setter seal, the daijro/camoufox#779 stock-parity sweep and the glxtest GPU
-# probe. A launcher and a build that disagree about properties.json are not a
-# combination anyone tests.
+# from: coffeegrind123/camoufox-free is upstream daijro/camoufox main plus the
+# fixes its README lists. A launcher and a build that disagree about
+# properties.json are not a combination anyone tests.
 # [geoip] is not optional in practice: camoufox warns on every proxied launch
 # that it is "heavily recommended", and without it the spoofed locale, timezone
 # and geolocation describe a client somewhere other than the exit IP.
 # Pinned to a commit: upstream history rewrites have broken an unpinned ref
 # before (JWriter20 moved python/ to pythonlib/ on 2026-09-14, and upstream
 # moved it back to python/ on 2026-10-06).
-camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-beta.git@f597fa67fe29030b38c10dab193679adf84c073d#subdirectory=python
+camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-free.git@f597fa67fe29030b38c10dab193679adf84c073d#subdirectory=python
 # playwright: the launcher's own bound. cg.9's Juggler sends pageError's
 # location.url (the reason for the old <1.60 pin), and its CI ran on 1.62.
 playwright<1.63
