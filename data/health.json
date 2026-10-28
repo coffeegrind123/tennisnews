@@ -2,22 +2,17 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Tennis Connected": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
-      "error": ""
-    },
     "Tennis View Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -27,17 +22,12 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -52,12 +42,17 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
+    "Tennis Majors": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -72,19 +67,14 @@
       "count": 20,
       "error": ""
     },
-    "Open Court": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
+    "World Tennis Magazine": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Women's Tennis Blog": {
@@ -94,18 +84,30 @@
     },
     "ESPN Tennis": {
       "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
+      "count": 20,
+      "error": "",
+      "recovered_via": "browser"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": "",
+      "recovered_via": "browser"
     },
     "Tennis Ireland": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
     },
+    "Open Court": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:522, feedparser:522, Mozilla:522); last http=522, bozo=<unknown>:26:113: not well-formed (invalid token)"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "ATP Tour: never got past the Cloudflare challenge"
     },
     "Tennis.com": {
       "type": "scrape",
@@ -115,7 +117,8 @@
     "Tennis World USA": {
       "type": "scrape",
       "count": 25,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Tennishead": {
       "type": "scrape",
@@ -124,18 +127,8 @@
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-        "title": "잠시만 기다리십시오…",
-        "htmlLen": 28291,
-        "bodyTextLen": 165,
-        "markers": [
-          "near-empty-body"
-        ],
-        "bodyHead": "www.tennis.com.au 보안 확인 수행 중 이 웹 사이트는 보안 서비스를 사용하여 악의적인 봇으로부터 보호합니다. 이 페이지는 웹 사이트에서 사용자가 봇이 아님을 확인하는 동안에만 표시됩니다. Ray ID: a519bdb4fff1c66f Cloudflare의 성능 및 보안 개인 정보"
-      }
+      "count": 11,
+      "error": ""
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -149,8 +142,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-08-29&endD"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -185,7 +178,8 @@
     "Brisbane International": {
       "type": "scrape",
       "count": 3,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -204,7 +198,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 112,
+      "count": 27,
       "error": ""
     }
   },
@@ -213,15 +207,15 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 117,
+      "candidates": 109,
       "tiers": {
-        "timeline": 2,
-        "challenged": 10,
+        "timeline": 0,
+        "challenged": 8,
         "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 103,
-        "retired": 2,
+        "dead": 101,
+        "retired": 0,
         "retired_skipped": 0
       },
       "verified_good": [
@@ -231,8 +225,8 @@
         "https://nitter.meowing.monster"
       ],
       "verified_bad": [
-        "https://bird.habedieeh.re",
         "https://nuku.trabun.org",
+        "https://bird.habedieeh.re",
         "https://nitter.kareem.one"
       ],
       "bases": [
@@ -240,10 +234,9 @@
         "https://nitter.freedit.eu",
         "https://nitter.tiekoetter.com",
         "https://nitter.meowing.monster",
-        "https://nitter.mie.foundation",
-        "https://nitter.jaydenha.uk",
-        "https://nitter.mizuki.st",
-        "https://nitter.netbub.com"
+        "https://nuku.trabun.org",
+        "https://bird.habedieeh.re",
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -251,12 +244,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9704,
-    "allowed": 7437,
-    "blocked_pct": 56.6
+    "blocked": 9937,
+    "allowed": 6849,
+    "blocked_pct": 59.2
   },
   "navigation": {
-    "floored": 19,
+    "floored": 21,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -264,18 +257,16 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 620,
-    "flagged": 1,
-    "redacted": 1,
-    "by_source": {
-      "DuckDuckGo News": 1
-    },
-    "captured": 1
+    "scanned": 570,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
   },
   "injections": {
     "total_recorded": 70,
     "new_this_run": 0,
-    "repeat_this_run": 1,
+    "repeat_this_run": 0,
     "by_source": {
       "DuckDuckGo News": 25,
       "amylundydahl": 3,
@@ -320,11 +311,10 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-10-28 12:13:00 UTC",
+  "generated_at": "2026-10-28 19:33:31 UTC",
   "empty_sources": [
-    "ESPN Tennis",
-    "Tennis Australia",
-    "Tennis Ireland",
-    "US Open"
+    "ATP Tour",
+    "Open Court",
+    "Tennis Ireland"
   ]
 }
