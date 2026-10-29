@@ -7,7 +7,7 @@
       "count": 20,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -17,14 +17,14 @@
       "count": 16,
       "error": ""
     },
-    "Tennis Connected": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis Majors": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Tennis365": {
@@ -37,19 +37,14 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis Now": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -62,14 +57,14 @@
       "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Yahoo Sports Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Ubitennis": {
@@ -82,21 +77,26 @@
       "count": 10,
       "error": ""
     },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "ESPN Tennis": {
       "type": "rss",
       "count": 20,
       "error": "",
       "recovered_via": "browser"
     },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
+    },
+    "Tennis View Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
     },
     "Open Court": {
       "type": "rss",
@@ -105,8 +105,8 @@
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "ATP Tour: never got past the Cloudflare challenge"
+      "count": 13,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -126,7 +126,8 @@
     "Tennis Australia": {
       "type": "scrape",
       "count": 11,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -161,7 +162,8 @@
     "USTA Florida": {
       "type": "scrape",
       "count": 15,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -176,7 +178,8 @@
     "Brisbane International": {
       "type": "scrape",
       "count": 3,
-      "error": ""
+      "error": "",
+      "recovered_via": "challenge-wait"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -195,7 +198,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 88,
+      "count": 113,
       "error": ""
     }
   },
@@ -204,21 +207,21 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 118,
+      "candidates": 109,
       "tiers": {
-        "timeline": 1,
-        "challenged": 10,
+        "timeline": 0,
+        "challenged": 7,
         "rate-limited": 0,
         "nitter-empty": 0,
-        "no-tokens": 1,
-        "dead": 104,
+        "no-tokens": 0,
+        "dead": 100,
         "retired": 2,
         "retired_skipped": 0
       },
       "verified_good": [
         "https://lightbrd.com",
-        "https://nitter.freedit.eu",
         "https://nitter.tiekoetter.com",
+        "https://nitter.freedit.eu",
         "https://nitter.meowing.monster"
       ],
       "verified_bad": [
@@ -228,13 +231,13 @@
       ],
       "bases": [
         "https://lightbrd.com",
-        "https://nitter.freedit.eu",
         "https://nitter.tiekoetter.com",
+        "https://nitter.freedit.eu",
         "https://nitter.meowing.monster",
-        "https://nitter.mie.foundation",
-        "https://nitter.r4fo.com",
-        "https://nitter.netbub.com",
-        "https://bird.habedieeh.re"
+        "https://nitter.cz",
+        "https://bird.habedieeh.re",
+        "https://nuku.trabun.org",
+        "https://nitter.kareem.one"
       ]
     },
     "error": "",
@@ -242,12 +245,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 7270,
-    "allowed": 6065,
-    "blocked_pct": 54.5
+    "blocked": 7250,
+    "allowed": 6085,
+    "blocked_pct": 54.4
   },
   "navigation": {
-    "floored": 19,
+    "floored": 22,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -255,7 +258,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 630,
+    "scanned": 659,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -309,9 +312,8 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-10-29 12:16:50 UTC",
+  "generated_at": "2026-10-29 19:43:50 UTC",
   "empty_sources": [
-    "ATP Tour",
     "Open Court",
     "Tennis Ireland"
   ]
