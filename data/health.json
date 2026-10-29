@@ -2,6 +2,21 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis View Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
+    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -12,22 +27,7 @@
       "count": 10,
       "error": ""
     },
-    "Tennis View Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,14 +37,19 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Majors": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis Now": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "BBC Tennis": {
@@ -53,6 +58,11 @@
       "error": ""
     },
     "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -72,27 +82,16 @@
       "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "ESPN Tennis": {
       "type": "rss",
       "count": 20,
       "error": "",
       "recovered_via": "browser"
     },
-    "10sBalls": {
+    "Women's Tennis Blog": {
       "type": "rss",
-      "count": 16,
-      "error": "",
-      "recovered_via": "browser"
+      "count": 20,
+      "error": ""
     },
     "Tennis Ireland": {
       "type": "rss",
@@ -117,8 +116,7 @@
     "Tennis World USA": {
       "type": "scrape",
       "count": 25,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Tennishead": {
       "type": "scrape",
@@ -178,8 +176,7 @@
     "Brisbane International": {
       "type": "scrape",
       "count": 3,
-      "error": "",
-      "recovered_via": "challenge-wait"
+      "error": ""
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -198,7 +195,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 27,
+      "count": 88,
       "error": ""
     }
   },
@@ -207,15 +204,15 @@
     "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 109,
+      "candidates": 118,
       "tiers": {
-        "timeline": 0,
-        "challenged": 8,
+        "timeline": 1,
+        "challenged": 10,
         "rate-limited": 0,
         "nitter-empty": 0,
-        "no-tokens": 0,
-        "dead": 101,
-        "retired": 0,
+        "no-tokens": 1,
+        "dead": 104,
+        "retired": 2,
         "retired_skipped": 0
       },
       "verified_good": [
@@ -225,8 +222,8 @@
         "https://nitter.meowing.monster"
       ],
       "verified_bad": [
-        "https://nuku.trabun.org",
         "https://bird.habedieeh.re",
+        "https://nuku.trabun.org",
         "https://nitter.kareem.one"
       ],
       "bases": [
@@ -234,9 +231,10 @@
         "https://nitter.freedit.eu",
         "https://nitter.tiekoetter.com",
         "https://nitter.meowing.monster",
-        "https://nuku.trabun.org",
-        "https://bird.habedieeh.re",
-        "https://nitter.kareem.one"
+        "https://nitter.mie.foundation",
+        "https://nitter.r4fo.com",
+        "https://nitter.netbub.com",
+        "https://bird.habedieeh.re"
       ]
     },
     "error": "",
@@ -244,12 +242,12 @@
   },
   "proxy": "configured and reachable",
   "assets": {
-    "blocked": 9937,
-    "allowed": 6849,
-    "blocked_pct": 59.2
+    "blocked": 7270,
+    "allowed": 6065,
+    "blocked_pct": 54.5
   },
   "navigation": {
-    "floored": 21,
+    "floored": 19,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -257,7 +255,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 570,
+    "scanned": 630,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -311,7 +309,7 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-10-28 19:33:31 UTC",
+  "generated_at": "2026-10-29 12:16:50 UTC",
   "empty_sources": [
     "ATP Tour",
     "Open Court",
