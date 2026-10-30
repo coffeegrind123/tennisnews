@@ -1,5 +1,37 @@
 [
   {
+    "title": "Northwestern University head football coach David Braun is the most recent prominent sports figure to spotlight the failure of legalizing commercialized sports gambling across the country:\n\n\"I’m telling you what, I got 11-year-old and 9-year-old boys at home and I am terrified of how addictive gambling is... It’s predatory. It’s messed up what’s going on. You look at 18-25 year old young men out there right now and the predatory nature of this stuff—it’s really scary.\"",
+    "description": "",
+    "link": "https://lightbrd.com/SPGambling/status/2115088235114139952#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-27 16:28 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.4445090692529861,
+      "detections": []
+    }
+  },
+  {
+    "title": "From @MattFutterman :\n-\nnytimes.com/athletic/7737362…",
+    "description": "",
+    "link": "https://lightbrd.com/jon_wertheim/status/2116183186996928742#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-30 16:59 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05046134298844633,
+      "detections": []
+    }
+  },
+  {
     "title": "[redacted: this text was flagged as a prompt-injection payload]",
     "description": "",
     "link": "https://lightbrd.com/Eurosport_ES/status/2115533028088844538#m",
@@ -11,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "high",
-      "score": 0.8672940389615904,
+      "score": 0.8747173119668631,
       "detections": [],
       "redacted": true
     }
@@ -28,7 +60,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.044468480859829504,
+      "score": 0.046733550571463944,
       "detections": []
     }
   },
@@ -44,39 +76,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03546060633805967,
-      "detections": []
-    }
-  },
-  {
-    "title": "Very reasonable! 👏👏",
-    "description": "",
-    "link": "https://lightbrd.com/AmyLundyDahl/status/2114825042148413634#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-26 23:02 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.049490795228390144,
-      "detections": []
-    }
-  },
-  {
-    "title": "Gael Monfils on Instagram.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2113695013859176855#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-23 21:12 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0741344837164909,
+      "score": 0.03943061313261171,
       "detections": []
     }
   },
@@ -92,7 +92,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.028017701218674338,
+      "score": 0.032995343401875134,
       "detections": []
     }
   },
@@ -108,7 +108,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0441989718778951,
+      "score": 0.05486224225592177,
       "detections": []
     }
   },
@@ -124,7 +124,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07522298847185518,
+      "score": 0.06980714832019336,
       "detections": []
     }
   },
@@ -140,7 +140,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06059935976313145,
+      "score": 0.06604460622383783,
       "detections": []
     }
   },
@@ -156,7 +156,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04476057422326397,
+      "score": 0.04523925888019744,
       "detections": []
     }
   },
@@ -172,7 +172,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09089576416262182,
+      "score": 0.07330922021295676,
       "detections": []
     }
   },
@@ -188,7 +188,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05258694447134327,
+      "score": 0.06441888410774899,
       "detections": []
     }
   },
@@ -204,7 +204,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04110978562399009,
+      "score": 0.04838077284405698,
       "detections": []
     }
   },
@@ -220,7 +220,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -236,7 +236,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05375876057592716,
+      "score": 0.0680413035403321,
+      "detections": []
+    }
+  },
+  {
+    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
+    "description": "",
+    "link": "https://lightbrd.com/operskapevacica/status/2090571789659214069#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 01:48 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04011619627844751,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
+    "description": "",
+    "link": "https://lightbrd.com/jelenadjokovic/status/2090716683384103269#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 11:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.5250368602383791,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
+    "description": "",
+    "link": "https://lightbrd.com/NBA/status/2078598248726438111#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-07-19 00:50 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.057143928695953146,
+      "detections": []
+    }
+  },
+  {
+    "title": "🥹🥹🥹🥹🥹",
+    "description": "",
+    "link": "https://lightbrd.com/jelenadjokovic/status/2017249310388142394#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-01-30 16:51 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2923701160106168,
+      "detections": []
+    }
+  },
+  {
+    "title": "🤣🤣🤣🙌🏼",
+    "description": "",
+    "link": "https://lightbrd.com/jelenadjokovic/status/1987834454463652061#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-11-10 12:47 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -252,7 +332,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03392204116088773,
+      "score": 0.03541395468505126,
       "detections": []
     }
   },
@@ -268,7 +348,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13001057870750016,
+      "score": 0.1284310225291502,
       "detections": []
     }
   },
@@ -284,7 +364,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10542145595195437,
+      "score": 0.09664616117453932,
       "detections": []
     }
   },
@@ -300,7 +380,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06055937555163351,
+      "score": 0.06399643516456799,
       "detections": []
     }
   },
@@ -316,7 +396,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5329793440685826,
+      "score": 0.49964448051621474,
+      "detections": []
+    }
+  },
+  {
+    "title": "Renée Richards, the trans tennis player who won a lawsuit to play in the US Open and now regrets winning it msn.com/en-us/sports/tennis/…",
+    "description": "",
+    "link": "https://lightbrd.com/TennisPublisher/status/2116226667962343642#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-30 19:52 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04423508666665208,
       "detections": []
     }
   },
@@ -332,7 +428,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08662774914371321,
+      "score": 0.11873768314455883,
       "detections": []
     }
   },
@@ -348,7 +444,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07602618157073439,
+      "score": 0.08386997684835208,
       "detections": []
     }
   },
@@ -364,7 +460,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051000860547785964,
+      "score": 0.052997927480038634,
       "detections": []
     }
   },
@@ -380,23 +476,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06558425295855057,
-      "detections": []
-    }
-  },
-  {
-    "title": "Karl Hale Sets Ambitious Goal of Expanding Premier Racquet Clubs to 100 Locations Across North America worldtennismagazine.com/karl…",
-    "description": "",
-    "link": "https://lightbrd.com/TennisPublisher/status/2115539157523026097#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-28 22:20 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04864129052368154,
+      "score": 0.06876032701741443,
       "detections": []
     }
   },
@@ -412,7 +492,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -428,7 +508,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05625590020564612,
+      "score": 0.06717831592102584,
       "detections": []
     }
   },
@@ -444,7 +524,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.052903202808000996,
+      "score": 0.06376108223579785,
       "detections": []
     }
   },
@@ -460,7 +540,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03700804543316527,
+      "score": 0.054434974996237215,
       "detections": []
     }
   },
@@ -476,7 +556,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04271189076459731,
+      "score": 0.044814561940003904,
       "detections": []
     }
   },
@@ -492,7 +572,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07133497694875393,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
@@ -508,7 +588,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046315418836513,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
@@ -524,7 +604,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.23987347141005802,
+      "score": 0.21472693283175764,
       "detections": []
     }
   },
@@ -540,7 +620,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05961877571892252,
+      "score": 0.05932541785596207,
       "detections": []
     }
   },
@@ -556,7 +636,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -572,7 +652,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -588,7 +668,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09538015064692588,
+      "score": 0.12847031732239908,
       "detections": []
     }
   },
@@ -604,7 +684,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0682846059170864,
+      "score": 0.09305625184728848,
       "detections": []
     }
   },
@@ -620,7 +700,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10530321311829208,
+      "score": 0.10802246388680846,
       "detections": []
     }
   },
@@ -636,7 +716,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
       "detections": []
     }
   },
@@ -652,7 +732,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04429579004191101,
+      "score": 0.04606339031995195,
       "detections": []
     }
   },
@@ -668,7 +748,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03664577134024063,
+      "score": 0.046044345126827674,
       "detections": []
     }
   },
@@ -684,7 +764,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05077455186343883,
+      "score": 0.058084135172919674,
       "detections": []
     }
   },
@@ -700,7 +780,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035108805522030946,
+      "score": 0.0373607233899036,
       "detections": []
     }
   },
@@ -716,87 +796,103 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038471704956394716,
+      "score": 0.039732775306344684,
       "detections": []
     }
   },
   {
-    "title": "INCREDIBLE win!",
+    "title": "ATP LIVE RACE:\n\nQualified:\nZverev\nAlcaraz\nShelton\nMedvedev\n\n5. Cobolli, 3.680\n6. Fils, 3.525\n7. Tiafoe, 3.380\n8. Jódar, 3.184\n—\n9. De Minaur, 2.930 (Vienna QF)\n10. Djokovic, 2.890\n11. Fritz, 2.885 (Basel SF)\n12. Paul, 2.725\n...\n16. Lehecka, 2.400 (Basel SF)",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115952111112356051#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116240621224472824#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-30 01:41 EET",
+    "date": "2026-10-30 20:47 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031970156806321676,
+      "score": 0.0608830863218026,
       "detections": []
     }
   },
   {
-    "title": "Scenes in Basel",
+    "title": "Jiri Lehecka easily beats Jerome Jym 6-4, 6-2 to reach the semifinals in Basel.\n\n15th career tour-level semifinal\n4th semifinal of the year",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115950112522318296#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116239504856027452#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-30 01:33 EET",
+    "date": "2026-10-30 20:43 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05836758174019149,
+      "score": 0.10027361095913459,
       "detections": []
     }
   },
   {
-    "title": "ATP LIVE RACE:\n\nDjokovic will arrive Paris 294 points behind Jódar and 490 points behind Tiafoe (lets see about De Minaur)\n\nQualified:\nZverev\nAlcaraz\nShelton\n\n4. Medvedev, 3.710 (Vienna QF)\n5. Cobolli, 3.680\n6. Fils, 3.525 (Basel QF)\n7. Tiafoe, 3.380\n8. Jódar, 3.184\n—\n9. De Minaur, 2.930 (Vienna QF)\n10. Djokovic, 2.890\n11. Fritz, 2.785 (Basel QF)\n12. Paul, 2.725 (Vienna QF)\n13. Mensik, 2.500",
+    "title": "R1:\n\nMusetti-Hurkacz (R2 vs. Zverev)\nTien-Tsitsipas\nRublev-Etcheverry (R2 vs. De Minaur)\nDjokovic-Vacherot\nRinderknech-Cerundolo\nPaul-Rune\nDavidovich-Kouamé\nShapovalov-Khachanov\nNakashima-Berrettini\nLehecka-Michelsen (R2 vs. Alcaraz)\n\nThat's why one week M1000 are much better.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115912019262022135#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116238196950352269#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 23:01 EET",
+    "date": "2026-10-30 20:37 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06685916898453591,
+      "score": 0.10891839732464552,
       "detections": []
     }
   },
   {
-    "title": "Novak Djokovic needs at the very least semifinal in Paris to have a chance to make Turin.\n\nA final would likely do it and a title would surely do it.\n\nHe won't even have a first round bye there.",
+    "title": "Paris ATP Masters 1000, full draw:",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115911126823403937#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116237074559013060#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 22:58 EET",
+    "date": "2026-10-30 20:33 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0677175049978524,
+      "score": 0.0761746140863428,
       "detections": []
     }
   },
   {
-    "title": "Wow.\n\n36yo Jan Lennard Struff plays an INCREDIBLE match (didn't get broken in 2h35) to beat 39yo Novak Djokovic 6-7(4), 7-5, 7-6(5) and reach the QFs in Basel.\n\nIncredible match and his first win in 9 matches vs. the greatest of all time. \n\nStruff vs. Borges tomorrow.",
+    "title": "Novak Djokovic's draw in Paris:\n\nR1: Vacherot\nR2: Darderi\nR3: De Minaur or Rublev\nQF: Zverev\n\nHe will need to win all these matches to have any chance to make Turin.\n\nAt 39yo and with no days off, that would be one of the most impressive achievements of his career.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115910948888207801#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116236897798275328#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 22:57 EET",
+    "date": "2026-10-30 20:32 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05638761383993718,
+      "score": 0.3147022766679714,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP1000 @RolexPMasters main draw\nNext week coverage onsite",
+    "description": "",
+    "link": "https://lightbrd.com/MichalSamulski/status/2116238329012519073#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-30 20:38 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1055517890936521,
       "detections": []
     }
   },
@@ -812,7 +908,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.049306664374682535,
+      "score": 0.05476432692652012,
       "detections": []
     }
   },
@@ -828,7 +924,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.38118755056183357,
+      "score": 0.3515521895685726,
       "detections": []
     }
   },
@@ -844,7 +940,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08260389130450849,
+      "score": 0.09156454575493807,
       "detections": []
     }
   },
@@ -860,103 +956,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04241464843047057,
-      "detections": []
-    }
-  },
-  {
-    "title": "Carlos Alcaraz and Alexander Zverev have been named to represent their nations at the 2026 Davis Cup Final 8 in Bologna.",
-    "description": "",
-    "link": "https://lightbrd.com/MichalSamulski/status/2114756815099441154#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-26 18:31 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05329034944227605,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
-    "description": "",
-    "link": "https://nitter.freedit.eu/operskapevacica/status/2090571789659214069#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 01:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03419672292954768,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
-    "description": "",
-    "link": "https://nitter.freedit.eu/jelenadjokovic/status/2090716683384103269#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 11:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.3805444408157251,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
-    "description": "",
-    "link": "https://nitter.freedit.eu/NBA/status/2078598248726438111#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-07-19 00:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05066850152822621,
-      "detections": []
-    }
-  },
-  {
-    "title": "🥹🥹🥹🥹🥹",
-    "description": "",
-    "link": "https://nitter.freedit.eu/jelenadjokovic/status/2017249310388142394#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-01-30 16:51 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2797040348766316,
-      "detections": []
-    }
-  },
-  {
-    "title": "🤣🤣🤣🙌🏼",
-    "description": "",
-    "link": "https://nitter.freedit.eu/jelenadjokovic/status/1987834454463652061#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2025-11-10 12:47 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.04899177246397691,
       "detections": []
     }
   }
