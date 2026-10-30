@@ -1,5 +1,22 @@
 [
   {
+    "title": "[redacted: this text was flagged as a prompt-injection payload]",
+    "description": "",
+    "link": "https://lightbrd.com/Eurosport_ES/status/2115533028088844538#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-10-28 21:55 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "high",
+      "score": 0.8672940389615904,
+      "detections": [],
+      "redacted": true
+    }
+  },
+  {
     "title": "World No. 3 📈\n16 Career ATP Singles Titles 🏆\n3 Grand Slam Titles 🦘🇫🇷🗽\n1 Olympic Gold 🥇\n\nCountless Memories 🥹\n\nMerci, @stanwawrinka",
     "description": "",
     "link": "https://lightbrd.com/atptour/status/2115202390009799093#m",
@@ -11,7 +28,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046733550571463944,
+      "score": 0.044468480859829504,
       "detections": []
     }
   },
@@ -27,7 +44,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03943061313261171,
+      "score": 0.03546060633805967,
       "detections": []
     }
   },
@@ -43,7 +60,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06221612750483242,
+      "score": 0.049490795228390144,
       "detections": []
     }
   },
@@ -59,23 +76,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08113477997751921,
+      "score": 0.0741344837164909,
       "detections": []
     }
   },
   {
-    "title": "Life after tennis hits different for Rafael Nadal 💭🎾",
+    "title": "Struff and Djokovic is a good example of when tennis matches can be fun to watch.",
     "description": "",
-    "link": "https://lightbrd.com/tntsports/status/2113631248929189898#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-10-23 16:58 EEST",
-    "is_retweet": true,
+    "link": "https://lightbrd.com/perfecttennisuk/status/2115917742582669695#m",
+    "handle": "perfecttennisuk",
+    "author": "Perfect Tennis",
+    "outlet": "Perfect Tennis",
+    "date": "2026-10-29 23:24 EET",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06239313642907972,
+      "score": 0.028017701218674338,
       "detections": []
     }
   },
@@ -91,7 +108,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05486224225592177,
+      "score": 0.0441989718778951,
       "detections": []
     }
   },
@@ -107,7 +124,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06980714832019336,
+      "score": 0.07522298847185518,
       "detections": []
     }
   },
@@ -123,7 +140,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06604460622383783,
+      "score": 0.06059935976313145,
       "detections": []
     }
   },
@@ -139,23 +156,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04523925888019744,
-      "detections": []
-    }
-  },
-  {
-    "title": "Another match in 4K from Roger Federer's incredible 2017 season. This was the 3rd Fedal match that year after Federer had beaten his rival at Australian Open and Indian Wells. \n\nFederer vs Nadal - Miami 2017 in the video below!\n\nyoutube.com/watch?v=KoNJw6X_…",
-    "description": "",
-    "link": "https://lightbrd.com/RazOlsRF/status/2110750018131116071#m",
-    "handle": "perfecttennisuk",
-    "author": "Perfect Tennis",
-    "outlet": "Perfect Tennis",
-    "date": "2026-10-15 18:09 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.050066543752850606,
+      "score": 0.04476057422326397,
       "detections": []
     }
   },
@@ -171,7 +172,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07330922021295676,
+      "score": 0.09089576416262182,
       "detections": []
     }
   },
@@ -187,7 +188,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06441888410774899,
+      "score": 0.05258694447134327,
       "detections": []
     }
   },
@@ -203,7 +204,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -219,7 +220,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -235,87 +236,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0680413035403321,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
-    "description": "",
-    "link": "https://lightbrd.com/operskapevacica/status/2090571789659214069#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 01:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04011619627844751,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
-    "description": "",
-    "link": "https://lightbrd.com/jelenadjokovic/status/2090716683384103269#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 11:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.5250368602383791,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
-    "description": "",
-    "link": "https://lightbrd.com/NBA/status/2078598248726438111#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-07-19 00:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.057143928695953146,
-      "detections": []
-    }
-  },
-  {
-    "title": "🥹🥹🥹🥹🥹",
-    "description": "",
-    "link": "https://lightbrd.com/jelenadjokovic/status/2017249310388142394#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-01-30 16:51 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2923701160106168,
-      "detections": []
-    }
-  },
-  {
-    "title": "🤣🤣🤣🙌🏼",
-    "description": "",
-    "link": "https://lightbrd.com/jelenadjokovic/status/1987834454463652061#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2025-11-10 12:47 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.05375876057592716,
       "detections": []
     }
   },
@@ -331,7 +252,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03541395468505126,
+      "score": 0.03392204116088773,
       "detections": []
     }
   },
@@ -347,7 +268,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1284310225291502,
+      "score": 0.13001057870750016,
       "detections": []
     }
   },
@@ -363,7 +284,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09664616117453932,
+      "score": 0.10542145595195437,
       "detections": []
     }
   },
@@ -379,7 +300,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06399643516456799,
+      "score": 0.06055937555163351,
       "detections": []
     }
   },
@@ -395,7 +316,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.49964448051621474,
+      "score": 0.5329793440685826,
       "detections": []
     }
   },
@@ -411,7 +332,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11873768314455883,
+      "score": 0.08662774914371321,
       "detections": []
     }
   },
@@ -427,7 +348,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08386997684835208,
+      "score": 0.07602618157073439,
       "detections": []
     }
   },
@@ -443,7 +364,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.052997927480038634,
+      "score": 0.051000860547785964,
       "detections": []
     }
   },
@@ -459,7 +380,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06876032701741443,
+      "score": 0.06558425295855057,
       "detections": []
     }
   },
@@ -475,7 +396,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05476635490653955,
+      "score": 0.04864129052368154,
       "detections": []
     }
   },
@@ -491,7 +412,23 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
+      "detections": []
+    }
+  },
+  {
+    "title": "IRON MAN 🦾\n\nWith a record-breaking win at the #AustralianProTour event in Tamworth, Matthew Dellavedova becomes the first man since Ivan Lendl in 1982 to notch up 100 professional victories in a calendar year.\n\n#GoAussies",
+    "description": "",
+    "link": "https://lightbrd.com/TennisAustralia/status/2115625539742708095#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-10-29 04:03 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05625590020564612,
       "detections": []
     }
   },
@@ -507,7 +444,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06376108223579785,
+      "score": 0.052903202808000996,
       "detections": []
     }
   },
@@ -523,7 +460,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054434974996237215,
+      "score": 0.03700804543316527,
       "detections": []
     }
   },
@@ -539,23 +476,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.044814561940003904,
-      "detections": []
-    }
-  },
-  {
-    "title": "Could Magnus Norman be the perfect addition to Jannik Sinner’s team? 👀🎾\n\nKim Clijsters shares why Norman’s loyalty, work ethic, and tennis IQ make him a smart pick to help fill Darren Cahill’s shoes.\n\nWhat do you think of Norman joining Team Sinner? 👇",
-    "description": "",
-    "link": "https://lightbrd.com/loveallpodcast/status/2115180535794548942#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-27 22:35 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09920300218499174,
+      "score": 0.04271189076459731,
       "detections": []
     }
   },
@@ -571,7 +492,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09150462371495022,
+      "score": 0.07133497694875393,
       "detections": []
     }
   },
@@ -587,7 +508,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04766138540894144,
+      "score": 0.046315418836513,
       "detections": []
     }
   },
@@ -603,7 +524,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.21472693283175764,
+      "score": 0.23987347141005802,
       "detections": []
     }
   },
@@ -619,7 +540,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05932541785596207,
+      "score": 0.05961877571892252,
       "detections": []
     }
   },
@@ -635,7 +556,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
@@ -651,7 +572,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
@@ -667,7 +588,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
@@ -683,7 +604,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
@@ -699,7 +620,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
@@ -715,7 +636,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
@@ -731,7 +652,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
@@ -747,7 +668,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
@@ -763,7 +684,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
@@ -779,7 +700,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
@@ -795,87 +716,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039732775306344684,
+      "score": 0.038471704956394716,
       "detections": []
     }
   },
   {
-    "title": "Here you have it.",
+    "title": "INCREDIBLE win!",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115891227694604351#m",
+    "link": "https://lightbrd.com/josemorgado/status/2115952111112356051#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 21:39 EET",
+    "date": "2026-10-30 01:41 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05831007177144289,
+      "score": 0.031970156806321676,
       "detections": []
     }
   },
   {
-    "title": "Zverev.\n\n\"To be on the top of the world is very special. Today I played a very good match and I'm very happy about that.\n\nI have to wait a lot, but sometimes you have to wait for the good things in life. 2026 has been amazing\".",
+    "title": "Scenes in Basel",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115889943889182902#m",
+    "link": "https://lightbrd.com/josemorgado/status/2115950112522318296#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 21:34 EET",
+    "date": "2026-10-30 01:33 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05555133528876788,
+      "score": 0.05836758174019149,
       "detections": []
     }
   },
   {
-    "title": "ATP world feed now reviewing Zverev's path to world #1",
+    "title": "ATP LIVE RACE:\n\nDjokovic will arrive Paris 294 points behind Jódar and 490 points behind Tiafoe (lets see about De Minaur)\n\nQualified:\nZverev\nAlcaraz\nShelton\n\n4. Medvedev, 3.710 (Vienna QF)\n5. Cobolli, 3.680\n6. Fils, 3.525 (Basel QF)\n7. Tiafoe, 3.380\n8. Jódar, 3.184\n—\n9. De Minaur, 2.930 (Vienna QF)\n10. Djokovic, 2.890\n11. Fritz, 2.785 (Basel QF)\n12. Paul, 2.725 (Vienna QF)\n13. Mensik, 2.500",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115888406920106289#m",
+    "link": "https://lightbrd.com/josemorgado/status/2115912019262022135#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 21:28 EET",
+    "date": "2026-10-29 23:01 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0584632849166115,
+      "score": 0.06685916898453591,
       "detections": []
     }
   },
   {
-    "title": "Lots of emotions.\n\nZverev hugs is team as the world #1 is now official for next week.",
+    "title": "Novak Djokovic needs at the very least semifinal in Paris to have a chance to make Turin.\n\nA final would likely do it and a title would surely do it.\n\nHe won't even have a first round bye there.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115887071986651603#m",
+    "link": "https://lightbrd.com/josemorgado/status/2115911126823403937#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 21:22 EET",
+    "date": "2026-10-29 22:58 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03992398777066249,
+      "score": 0.0677175049978524,
       "detections": []
     }
   },
   {
-    "title": "NEW WORLD #1 ON MONDAY!\n\n2021 champ Alexander Zverev defeats Tallon Griekspoor 6-4, 7-5 to reach the QFs in Vienna for a 6th time and confirm that he will become the 30th world #1 in the history of the ATP Tour on Monday.",
+    "title": "Wow.\n\n36yo Jan Lennard Struff plays an INCREDIBLE match (didn't get broken in 2h35) to beat 39yo Novak Djokovic 6-7(4), 7-5, 7-6(5) and reach the QFs in Basel.\n\nIncredible match and his first win in 9 matches vs. the greatest of all time. \n\nStruff vs. Borges tomorrow.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2115886548461740443#m",
+    "link": "https://lightbrd.com/josemorgado/status/2115910948888207801#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-29 21:20 EET",
+    "date": "2026-10-29 22:57 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.063232093517904,
+      "score": 0.05638761383993718,
       "detections": []
     }
   },
@@ -891,7 +812,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05476432692652012,
+      "score": 0.049306664374682535,
       "detections": []
     }
   },
@@ -907,7 +828,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3515521895685726,
+      "score": 0.38118755056183357,
       "detections": []
     }
   },
@@ -923,7 +844,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09156454575493807,
+      "score": 0.08260389130450849,
       "detections": []
     }
   },
@@ -939,7 +860,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04899177246397691,
+      "score": 0.04241464843047057,
       "detections": []
     }
   },
@@ -955,7 +876,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05892017873583443,
+      "score": 0.05329034944227605,
+      "detections": []
+    }
+  },
+  {
+    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
+    "description": "",
+    "link": "https://nitter.freedit.eu/operskapevacica/status/2090571789659214069#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 01:48 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03419672292954768,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
+    "description": "",
+    "link": "https://nitter.freedit.eu/jelenadjokovic/status/2090716683384103269#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 11:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.3805444408157251,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
+    "description": "",
+    "link": "https://nitter.freedit.eu/NBA/status/2078598248726438111#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-07-19 00:50 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05066850152822621,
+      "detections": []
+    }
+  },
+  {
+    "title": "🥹🥹🥹🥹🥹",
+    "description": "",
+    "link": "https://nitter.freedit.eu/jelenadjokovic/status/2017249310388142394#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-01-30 16:51 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2797040348766316,
+      "detections": []
+    }
+  },
+  {
+    "title": "🤣🤣🤣🙌🏼",
+    "description": "",
+    "link": "https://nitter.freedit.eu/jelenadjokovic/status/1987834454463652061#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-11-10 12:47 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2797040348766316,
       "detections": []
     }
   }
