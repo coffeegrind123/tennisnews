@@ -497,6 +497,22 @@
     }
   },
   {
+    "title": "One of the points of the year. \n\nSimply ABSURD.",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2116895566299107343#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-01 16:10 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.032736086180949746,
+      "detections": []
+    }
+  },
+  {
     "title": "Official: Rafael Jodar becomes the first-ever player to make his ATP tour-level debut and break into the top 10 in the same season! 🤯",
     "description": "",
     "link": "https://lightbrd.com/BastienFachan/status/2116556316260925887#m",
@@ -541,22 +557,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.06376108223579785,
-      "detections": []
-    }
-  },
-  {
-    "title": "Protecting tennis players online takes more than just the WTA. 🎾\n\nLindsay Brandon, WTA Director of Safeguarding & Integrity, explains why social media companies need to be part of the solution and how the WTA is working to better educate players about online risks.",
-    "description": "",
-    "link": "https://lightbrd.com/loveallpodcast/status/2115420822433145199#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-10-28 14:30 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.054434974996237215,
       "detections": []
     }
   },
@@ -801,82 +801,98 @@
     }
   },
   {
-    "title": "Your Tokyo 2026 Champion, Diana Shnaider! 🏆\n\n#torayppo",
+    "title": "Novak Djokovic is back in Paris, where he will face Basel champ Valentin Vacherot in 48 hours!",
     "description": "",
-    "link": "https://lightbrd.com/WTA/status/2116786060072300910#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116938003960799387#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-01 08:54 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.17532303284215178,
-      "detections": []
-    }
-  },
-  {
-    "title": "FIRST EVER WTA TITLE ⭐️\n\nHarriet Dart has won her first ever WTA singles title in Guangzhou, defeating Tagger 4-6, 6-3, 6-4!\n\n#GuangzhouOpen",
-    "description": "",
-    "link": "https://lightbrd.com/WTA/status/2116846706184892835#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-01 12:55 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04329944515666422,
-      "detections": []
-    }
-  },
-  {
-    "title": "Sorana Cirstea is the top seed of the last tournament of her career, Hong Kong WTA 250 next week.\n\nPlays Maria Timofeeva in R1 then Venus Williams or Maty Stoiana.",
-    "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2116663253807870045#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-01 00:47 EET",
+    "date": "2026-11-01 18:58 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05822168783523297,
+      "score": 0.0712239065916555,
       "detections": []
     }
   },
   {
-    "title": "It's been a tough couple of weeks in terms of Live Race with different sites having different numbers. \n\nI'm using the ones from the ATP, but in the end maybe the Wikipedia of all websites is the one correct!\n\nIn that case, Jódar still ahead of Demon.",
+    "title": "Nice Monday schedule in Paris.",
     "description": "",
-    "link": "https://lightbrd.com/josemorgado/status/2116658702203732258#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116936516643721588#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-01 00:28 EET",
+    "date": "2026-11-01 18:52 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07397371336762959,
+      "score": 0.03819399055206395,
       "detections": []
     }
   },
   {
-    "title": "Alex de Minaur is the winner of 2026 ATP 500 Bonus Pool.\n\nHis reward is $1,025,000 in fixed bonus plus around $200,000 in its variable share.\n\nAlcaraz finishes 2nd, Fritz 3rd, Shelton 4th. Lehecka will be 5th with Basel title.",
+    "title": "Valentin Vacherot really has one of the most fascinating careers in recent years. \n\n2nd career title after Shanghai 2025\n\nWill finish 2026 ranked higher than in 2025!",
     "description": "",
-    "link": "https://lightbrd.com/AnnaK_4ever/status/2116609429646774430#m",
+    "link": "https://lightbrd.com/josemorgado/status/2116934368425890031#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-10-31 21:13 EET",
+    "date": "2026-11-01 18:44 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09694676717701792,
+      "detections": []
+    }
+  },
+  {
+    "title": "New ATP Top 10:\n\n1. Zverev, 9.550 (+1)\n2. Sinner, 9.450 (-1)\n3. Alcaraz, 6.100\n4. Shelton, 4.530\n5. Medvedev, 3.860\n6. Cobolli, 3.690\n7. Fils, 3.525 (+1)\n8. De Minaur, 3.410 (+2)\n9. Tiafoe, 3.380\n10. Jódar, 3.209 (+1)",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2116905240830058750#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-01 16:48 EET",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06032011152325809,
+      "score": 0.07258861347826573,
+      "detections": []
+    }
+  },
+  {
+    "title": "RT @gerebit0: 🥺 El emotivo abrazo de Carlos Alcaraz con su padre para celebrar el título en Viena y cómo le busca después para que entre en…",
+    "description": "",
+    "link": "https://lightbrd.com/josemorgado/status/2116916873405038793#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-01 17:34 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.7592718896835269,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alexander Zverev, Iga Swiatek and Elena Rybakina headline the Brisbane International 2027.",
+    "description": "",
+    "link": "https://lightbrd.com/MichalSamulski/status/2116963503269675063#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-11-01 20:40 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0607737835964807,
       "detections": []
     }
   },
@@ -941,22 +957,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09156454575493807,
-      "detections": []
-    }
-  },
-  {
-    "title": "On Tuesday November 3 during the night session, organisers @RolexPMasters will pay tribute to Gaël Monfils and his remarkable career.",
-    "description": "",
-    "link": "https://lightbrd.com/MichalSamulski/status/2114771438796435753#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-26 19:29 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04899177246397691,
       "detections": []
     }
   }
