@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T18:53:07+00:00",
+  "updated_at": "2026-11-02T14:24:55+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -8,9 +8,9 @@
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-10-29T12:14:04+00:00",
-      "fails_since_ok": 0,
-      "reason": "",
+      "last_fail": "2026-11-02T14:24:55+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-11-01T18:53:07+00:00",
       "tweets": 5
@@ -36,11 +36,11 @@
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-10-30T12:13:24+00:00",
-      "fails_since_ok": 1,
+      "fails_since_ok": 2,
       "tweets": 5,
-      "reason": "https://nitter.freedit.eu: instance has no X auth tokens",
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-10-30T19:12:49+00:00"
+      "last_fail": "2026-11-02T14:24:55+00:00"
     },
     "https://nitter.kareem.one": {
       "last_fail": "2026-10-15T18:19:31+00:00",
@@ -50,11 +50,11 @@
     },
     "https://nitter.meowing.monster": {
       "last_ok": "2026-10-28T12:11:18+00:00",
-      "fails_since_ok": 0,
+      "fails_since_ok": 1,
       "tweets": 5,
-      "reason": "",
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-10-16T17:55:57+00:00"
+      "last_fail": "2026-11-02T14:24:55+00:00"
     },
     "https://nitter.net": {
       "retired": true,
