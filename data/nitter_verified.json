@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T14:24:55+00:00",
+  "updated_at": "2026-11-03T13:40:17+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -8,8 +8,8 @@
       "permanent": true
     },
     "https://lightbrd.com": {
-      "last_fail": "2026-11-02T14:24:55+00:00",
-      "fails_since_ok": 1,
+      "last_fail": "2026-11-03T13:32:57+00:00",
+      "fails_since_ok": 2,
       "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-11-01T18:53:07+00:00",
@@ -36,11 +36,17 @@
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-10-30T12:13:24+00:00",
-      "fails_since_ok": 2,
+      "fails_since_ok": 3,
       "tweets": 5,
       "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-11-02T14:24:55+00:00"
+      "last_fail": "2026-11-03T13:36:28+00:00"
+    },
+    "https://nitter.jaydenha.uk": {
+      "last_fail": "2026-11-03T13:40:13+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
+      "permanent": false
     },
     "https://nitter.kareem.one": {
       "last_fail": "2026-10-15T18:19:31+00:00",
@@ -49,12 +55,19 @@
       "permanent": true
     },
     "https://nitter.meowing.monster": {
-      "last_ok": "2026-10-28T12:11:18+00:00",
-      "fails_since_ok": 1,
+      "last_ok": "2026-11-03T13:36:32+00:00",
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "interstitial did not clear in the browser",
+      "reason": "",
       "permanent": false,
       "last_fail": "2026-11-02T14:24:55+00:00"
+    },
+    "https://nitter.mizuki.st": {
+      "last_ok": "2026-11-03T13:40:17+00:00",
+      "fails_since_ok": 0,
+      "tweets": 5,
+      "reason": "",
+      "permanent": false
     },
     "https://nitter.net": {
       "retired": true,
@@ -63,8 +76,8 @@
       "reason": "operator retired the instance: nitter.net Cease and desist On 24 August 2026 cease and desist letters have been sent by X&nbsp;Corp. demanding a perman"
     },
     "https://nitter.netbub.com": {
-      "last_fail": "2026-10-15T10:46:11+00:00",
-      "fails_since_ok": 1,
+      "last_fail": "2026-11-03T13:37:42+00:00",
+      "fails_since_ok": 2,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },

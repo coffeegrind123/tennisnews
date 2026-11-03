@@ -2,11 +2,6 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Connected": {
       "type": "rss",
       "count": 10,
@@ -17,17 +12,17 @@
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -37,29 +32,19 @@
       "count": 10,
       "error": ""
     },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Now": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "BBC Tennis": {
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -67,9 +52,24 @@
       "count": 20,
       "error": ""
     },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Ubitennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Tennis Nerd": {
@@ -117,21 +117,20 @@
       "count": 0,
       "error": "",
       "empty_diagnostic": {
-        "url": "https://www.tennisworldusa.org/?__cf_chl_rt_tk=HFahQ7OE1R3ViBrn.Ift67xXwGurCHz60F.dMSPwcAY-1793628987-1.0.1.1-dUX26xqFfNa7rF9.OryOFNci5o.yT0zYSex_F4a.9Wc",
+        "url": "https://www.tennisworldusa.org/",
         "title": "Just a moment...",
-        "htmlLen": 5662,
-        "bodyTextLen": 0,
+        "htmlLen": 44389,
+        "bodyTextLen": 270,
         "markers": [
-          "cloudflare-challenge",
-          "near-empty-body"
+          "cloudflare-challenge"
         ],
-        "bodyHead": ""
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a54bac4aadc4c4c8 Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 11,
       "error": ""
     },
     "Tennis Australia": {
@@ -140,14 +139,15 @@
       "error": "",
       "empty_diagnostic": {
         "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
-        "title": "잠시만 기다리십시오…",
-        "htmlLen": 44366,
-        "bodyTextLen": 165,
+        "title": "Just a moment...",
+        "htmlLen": 44538,
+        "bodyTextLen": 265,
         "markers": [
-          "near-empty-body"
+          "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennis.com.au 보안 확인 수행 중 이 웹 사이트는 보안 서비스를 사용하여 악의적인 봇으로부터 보호합니다. 이 페이지는 웹 사이트에서 사용자가 봇이 아님을 확인하는 동안에만 표시됩니다. Ray ID: a543c3e99a5ca36c Cloudflare의 성능 및 보안 개인 정보"
-      }
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a54bae60fddf0a91 Performance and Securit"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -161,8 +161,8 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 0,
-      "error": "APIRequestContext.get: aborted\nCall log:\n  - → GET https://www.usopen.org/relatedcontent/rest/v2/uso_v1/en/content/byType/news?zone=3&subType=articles&subType=match%20preview&startDate=2026-09-03&endD"
+      "count": 25,
+      "error": ""
     },
     "Wimbledon": {
       "type": "scrape",
@@ -185,14 +185,15 @@
       "error": "",
       "empty_diagnostic": {
         "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
-        "title": "잠시만 기다리십시오…",
-        "htmlLen": 44341,
-        "bodyTextLen": 167,
+        "title": "Just a moment...",
+        "htmlLen": 44492,
+        "bodyTextLen": 267,
         "markers": [
-          "near-empty-body"
+          "cloudflare-challenge"
         ],
-        "bodyHead": "www.ustaflorida.com 보안 확인 수행 중 이 웹 사이트는 보안 서비스를 사용하여 악의적인 봇으로부터 보호합니다. 이 페이지는 웹 사이트에서 사용자가 봇이 아님을 확인하는 동안에만 표시됩니다. Ray ID: a543c8a778c23c85 Cloudflare의 성능 및 보안 개인 정보"
-      }
+        "bodyHead": "www.ustaflorida.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a54bb379ff25af8c Performance and Secur"
+      },
+      "challenge_retry": "never cleared"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -201,13 +202,34 @@
     },
     "Tennis Panorama": {
       "type": "scrape",
-      "count": 10,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennispanorama.com/",
+        "title": "Tennis Panorama delivers daily tennis news - Tennis Panorama",
+        "htmlLen": 30054,
+        "bodyTextLen": 0,
+        "markers": [
+          "near-empty-body"
+        ],
+        "bodyHead": ""
+      }
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 3,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/brisbane-international",
+        "title": "Just a moment...",
+        "htmlLen": 44457,
+        "bodyTextLen": 265,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a54bb5ff6aa30a91 Performance and Securit"
+      },
+      "challenge_retry": "never cleared"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -216,59 +238,70 @@
     },
     "Tennis Europe": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_FORBIDDEN\nCall log:\n  - navigating to \"https://www.tenniseurope.org/newslist/News\", waiting until \"domcontentloaded\"\n"
+      "count": 10,
+      "error": ""
     },
     "Swiss Indoors Basel": {
       "type": "scrape",
-      "count": 0,
-      "error": "Page.goto: NS_ERROR_PROXY_FORBIDDEN\nCall log:\n  - navigating to \"https://www.swissindoorsbasel.ch/en/tournament/tournament-news/\", waiting until \"domcontentloaded\"\n"
+      "count": 19,
+      "error": ""
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 0,
-      "error": "DuckDuckGo News returned nothing for any query. tennis: Error: Page.goto: NS_ERROR_PROXY_FORBIDDEN\nCall log:\n  - navigating to \"https://duckduckgo.com/?q | ATP tour: Error: Page.goto: NS_ERROR_PROXY_F"
+      "count": 133,
+      "error": ""
     }
   },
   "twitter": {
-    "tweets": 0,
-    "accounts": 0,
-    "error": "no tweets from any instance (tried ['https://nitter.freedit.eu', 'https://lightbrd.com', 'https://nitter.meowing.monster']) - every one failed its interstitial, rate limited us, or served empty timelines",
+    "tweets": 60,
+    "accounts": 12,
     "instances": {
       "status": "discovered",
-      "candidates": 3,
+      "candidates": 118,
       "tiers": {
         "timeline": 0,
-        "challenged": 0,
-        "rate-limited": 0,
+        "challenged": 11,
+        "rate-limited": 1,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 3,
-        "retired": 0,
+        "dead": 105,
+        "retired": 1,
         "retired_skipped": 0
       },
       "verified_good": [
-        "https://nitter.freedit.eu",
         "https://lightbrd.com",
+        "https://nitter.freedit.eu",
         "https://nitter.meowing.monster"
       ],
-      "verified_bad": [],
+      "verified_bad": [
+        "https://nitter.kareem.one",
+        "https://bird.habedieeh.re",
+        "https://nuku.trabun.org",
+        "https://nitter.tiekoetter.com"
+      ],
       "bases": [
-        "https://nitter.freedit.eu",
         "https://lightbrd.com",
-        "https://nitter.meowing.monster"
+        "https://nitter.freedit.eu",
+        "https://nitter.meowing.monster",
+        "https://nitter.netbub.com",
+        "https://nitter.jaydenha.uk",
+        "https://nitter.mizuki.st",
+        "https://nitter.cz",
+        "https://nitter.mie.foundation"
       ]
     },
-    "zero_streak": 1
+    "error": "",
+    "zero_streak": 0
   },
-  "proxy": "configured and reachable",
+  "proxy_error": "4 attempts failed: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "proxy": "configured but UNREACHABLE - fell back to direct",
   "assets": {
-    "blocked": 7243,
-    "allowed": 5985,
-    "blocked_pct": 54.8
+    "blocked": 7805,
+    "allowed": 7225,
+    "blocked_pct": 51.9
   },
   "navigation": {
-    "floored": 19,
+    "floored": 2,
     "retried": 0,
     "retry_saved": 0,
     "budget_exhausted": 0
@@ -276,7 +309,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 358,
+    "scanned": 573,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -330,18 +363,16 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-11-02 14:24:59 UTC",
+  "generated_at": "2026-11-03 13:40:22 UTC",
   "empty_sources": [
     "10sBalls",
-    "DuckDuckGo News",
+    "Brisbane International",
     "ESPN Tennis",
     "Open Court",
-    "Swiss Indoors Basel",
     "Tennis Australia",
-    "Tennis Europe",
     "Tennis Ireland",
+    "Tennis Panorama",
     "Tennis World USA",
-    "US Open",
     "USTA Florida"
   ]
 }
