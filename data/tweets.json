@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03724238802622633,
+      "score": 0.04144896092340092,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03336310759236631,
+      "score": 0.036731902110856106,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08026641212196395,
+      "score": 0.07135710531148698,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08491793444436099,
+      "score": 0.0854599093998839,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.4354248988701447,
+      "score": 0.4445090692529861,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0710483412490521,
+      "score": 0.07721556649667996,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06043070662121837,
+      "score": 0.06329550417716358,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09774370119340972,
+      "score": 0.10755840218567497,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.028017701218674338,
+      "score": 0.032995343401875134,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0441989718778951,
+      "score": 0.05486224225592177,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06147424377533417,
+      "score": 0.07830127598035423,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09089576416262182,
+      "score": 0.07330922021295676,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05258694447134327,
+      "score": 0.06441888410774899,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04110978562399009,
+      "score": 0.04838077284405698,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03419672292954768,
+      "score": 0.04011619627844751,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3805444408157251,
+      "score": 0.5250368602383791,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -315,254 +315,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
-      "detections": []
-    }
-  },
-  {
-    "title": "No comment",
-    "description": "",
-    "link": "https://nitter.mizuki.st/tomtebbutt/status/2113992147418628389#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-24 16:52 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03392204116088773,
-      "detections": []
-    }
-  },
-  {
-    "title": "I suspect you know a lot more than most of us 😃",
-    "description": "",
-    "link": "https://nitter.mizuki.st/tomtebbutt/status/2109691321040380360#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-12 20:03 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.13001057870750016,
-      "detections": []
-    }
-  },
-  {
-    "title": "Stefanos Tsitsipas on camera after win > Fritz. \"I'm not a huge fan of math myself,\" he says. \"It was an assessment of today's match.  X, Y and Z has been over-complicating things. In the end 1, 2 and 3 was easier than any of the other theories I might have had in the beginning.\"",
-    "description": "",
-    "link": "https://nitter.mizuki.st/tomtebbutt/status/2109668517649735930#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-12 18:32 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10542145595195437,
-      "detections": []
-    }
-  },
-  {
-    "title": "For Canadian nighthawks:\nNow on TSN2 \nFernandez vs Alexandrova\nOn TSN5\nAuger-Aliassime vs Carreno Busta",
-    "description": "",
-    "link": "https://nitter.mizuki.st/tomtebbutt/status/2109508012167532656#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-12 07:54 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06055937555163351,
-      "detections": []
-    }
-  },
-  {
-    "title": "PLEASE - S'IL VOUS PLAIT\nGreg Rusedski, who grew up in Montreal and speaks some French, is pronouncing Auger-Aliassime\n\"Oh-JURE-aliassime.\"\nIt's \"Oh-ZHAY-aliassime.\"\nDon't like to criticize - but he should be among the last to be mispronouncing it (doing Shapovalov-Tabilo now)!",
-    "description": "",
-    "link": "https://nitter.mizuki.st/tomtebbutt/status/2106208056027590835#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-10-03 05:21 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.5329793440685826,
-      "detections": []
-    }
-  },
-  {
-    "title": "What an incredible day for French tennis so far in Paris. \n\nSingles and doubles.",
-    "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2117975856320561437#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-04 15:42 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.035621716405140225,
-      "detections": []
-    }
-  },
-  {
-    "title": "Nuno Borges acabará a época como número 1 de Portugal. \n\nbolamarela.pt/jaime-faria-de…",
-    "description": "",
-    "link": "https://nitter.mizuki.st/Bola_Amarela/status/2117973406553620742#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-04 15:33 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.5424058325724055,
-      "detections": []
-    }
-  },
-  {
-    "title": "Sunday OOP at the WTA Finals in Indian Wells.\n\nWorld #1 Rybakina vs. Wimbledon champ Noskova to open the event \n\nMatches start at noon local 8pm London time, which is a great timing for Europe.",
-    "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2117968612774621508#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-04 15:14 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03690904520659971,
-      "detections": []
-    }
-  },
-  {
-    "title": "Monday OOP:",
-    "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2117968765652811857#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-04 15:14 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.033449242244857506,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP LIVE RACE:\n\nQualified:\nZverev\nAlcaraz\nShelton\nMedvedev\nCobolli\nFils\n\n7. Tiafoe, 3.390 - OUT of Paris\n8. Jódar, 3.234 - OUT of Paris\n--\n9. De Minaur, 3.170 (R2)\n10. Djokovic, 2.940 (R2)\n11. Fritz, 2.900 (R2)\n12. Paul, 2.825 (R3)",
-    "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2117963091258294590#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-04 14:52 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06531562045306562,
-      "detections": []
-    }
-  },
-  {
-    "title": "Alexander Zverev, Iga Swiatek and Elena Rybakina headline the Brisbane International 2027.",
-    "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2116963503269675063#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-11-01 20:40 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05635694418644775,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP1000 @RolexPMasters main draw\nNext week coverage onsite",
-    "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2116238329012519073#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-30 20:38 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.1065688117039021,
-      "detections": []
-    }
-  },
-  {
-    "title": "Australian tennis knows perfectly well how to appreciate its champions.\n5-time Grand Slam singles champion Frank Sedgman (99 year-old) will feature on the official @AustralianOpen 2027 match coin.\n📷 @TennisAustralia",
-    "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2115512252199494020#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-28 20:33 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.049306664374682535,
-      "detections": []
-    }
-  },
-  {
-    "title": "Wildcards for @RolexPMasters \n\nMAIN DRAW\nTitouan Droguet\nArthur Gea\nQuentin Halys\nKyrian Jacquet\n\nQUALIES\nFelix Balshaw\nBenjamin Bonzi\nHugo Gaston\nMoïse Kouame",
-    "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2115098911669141583#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-27 17:10 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.38118755056183357,
-      "detections": []
-    }
-  },
-  {
-    "title": "Players confirmed for Kooyong Classic, 12-14 January.\n\nArthur Fils\nHolger Rune\nLearner Tien\nLorenzo Musetti\nMatteo Berrettini\nDenis Shapovalov\nKaren Khachanov\nNick Kyrgios\n\nPaula Badosa\nAlja Tomljanovic",
-    "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2115019098023457140#m",
-    "handle": "MichalSamulski",
-    "author": "Michal Samulski",
-    "outlet": "ITWA / Tennis Hall of Fame",
-    "date": "2026-10-27 11:53 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08260389130450849,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
   {
     "title": "Flooding is bad still in Vero Beach… I couldn’t get to my house after flying in from New York and had to walk thru water sometimes as high as knee deep in the dark to get to the house as i didn’t want risk driving my little car thru the water",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2117816690667090157#m",
+    "link": "https://nitter.mizuki.st/TennisPublisher/status/2117816690667090157#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -571,14 +331,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042271771710290056,
+      "score": 0.0451716483444422,
       "detections": []
     }
   },
   {
     "title": "The BIG-10 is ruining college football & college sports... 24-team playoff which no-one, even the top ESPN analysts and commentators, want, helped ruin the PAC-12 conference and no-one likes cross-country conferences, which they put into motion",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2117622025841983708#m",
+    "link": "https://nitter.mizuki.st/TennisPublisher/status/2117622025841983708#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -587,14 +347,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03412007536408873,
+      "score": 0.03890900194167532,
       "detections": []
     }
   },
   {
     "title": "Some crazy NYC history… A Peculiar NYC Location For A Presidential Oath of Office Ceremony piped.video/iTU57Rigz9c?is=GvbP… via @YouTube",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2117437861964239187#m",
+    "link": "https://nitter.mizuki.st/TennisPublisher/status/2117437861964239187#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -603,14 +363,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07659466338751716,
+      "score": 0.07832742561146233,
       "detections": []
     }
   },
   {
     "title": "Hey @djohnstonuga this is the first third of what put @watchdogwilliam on the \"questionable\" list for UGA- Ole Miss on Saturday. I'm confident though he'll move to probable by Wednesday!  The Georgia Football Experience at American Whiskey in New York City piped.video/cVpq6yYQWPU?si=AS4T…",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisPublisher/status/2117408937477570636#m",
+    "link": "https://nitter.mizuki.st/TennisPublisher/status/2117408937477570636#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -619,14 +379,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03945118938642188,
+      "score": 0.04417175596497737,
       "detections": []
     }
   },
   {
     "title": "Hatem McDadi Named Director of Education for Professional Tennis Registry\nptrtennis.org/en/news/hatem-…",
     "description": "",
-    "link": "https://nitter.meowing.monster/ptrtennis/status/2117331881364803627#m",
+    "link": "https://nitter.mizuki.st/ptrtennis/status/2117331881364803627#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -635,14 +395,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.19383820771909313,
+      "score": 0.21993063926696593,
       "detections": []
     }
   },
   {
     "title": "Had the chance to attend the USA Standing Adaptive Tennis tournament at @SMU. \n\nThe athletes have decreased mobility due to amputations, congenital conditions, etc., and they are SO impressive. \n\nThis is Nico Basaez from Chile (vs. Yusuke Hatano of Japan). Amazing. @USTATexas",
     "description": "",
-    "link": "https://nitter.meowing.monster/BlairHenley/status/1602024208615219207#m",
+    "link": "https://nitter.mizuki.st/BlairHenley/status/1602024208615219207#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -651,14 +411,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
   {
     "title": "The WTA is getting into merch, with a Hello Kitty collab at the Finals and an online store coming next spring. \n\nMore on that, plus Osaka, Shelton, and the ATP’s next fashion collab, in Hard Court. 🔗 ⬇️",
     "description": "",
-    "link": "https://nitter.meowing.monster/jessicaschiffer/status/2117627054061473931#m",
+    "link": "https://nitter.mizuki.st/jessicaschiffer/status/2117627054061473931#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -667,14 +427,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03725621722028847,
+      "score": 0.04881638468510818,
       "detections": []
     }
   },
   {
     "title": "One of the points of the year. \n\nSimply ABSURD.",
     "description": "",
-    "link": "https://nitter.meowing.monster/josemorgado/status/2116895566299107343#m",
+    "link": "https://nitter.mizuki.st/josemorgado/status/2116895566299107343#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -683,14 +443,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03048200516521035,
+      "score": 0.032736086180949746,
       "detections": []
     }
   },
   {
     "title": "Official: Rafael Jodar becomes the first-ever player to make his ATP tour-level debut and break into the top 10 in the same season! 🤯",
     "description": "",
-    "link": "https://nitter.meowing.monster/BastienFachan/status/2116556316260925887#m",
+    "link": "https://nitter.mizuki.st/BastienFachan/status/2116556316260925887#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -699,14 +459,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08026641212196395,
+      "score": 0.07135710531148698,
       "detections": []
     }
   },
   {
     "title": "IRON MAN 🦾\n\nWith a record-breaking win at the #AustralianProTour event in Tamworth, Matthew Dellavedova becomes the first man since Ivan Lendl in 1982 to notch up 100 professional victories in a calendar year.\n\n#GoAussies",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisAustralia/status/2115625539742708095#m",
+    "link": "https://nitter.mizuki.st/TennisAustralia/status/2115625539742708095#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -715,14 +475,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05625590020564612,
+      "score": 0.06717831592102584,
       "detections": []
     }
   },
   {
     "title": "13 ATP singles titles ✅ \nCareer-high ranking of No. 6 🌎 \n2 Grand Slam SFs 👏 \n3 Masters 1000 finals 🥈\n\nIt's been a pleasure, @Gael_Monfils \n\n#RolexParisMasters",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisTV/status/2117709180383404076#m",
+    "link": "https://nitter.mizuki.st/TennisTV/status/2117709180383404076#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
@@ -731,14 +491,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042557228780362756,
+      "score": 0.05389319304011393,
       "detections": []
     }
   },
   {
     "title": "FORZA FLAVIO 🇮🇹🗣️\n\nCobolli has qualified for the Nitto ATP Finals for the FIRST TIME! 👏",
     "description": "",
-    "link": "https://nitter.meowing.monster/TennisTV/status/2117733463822655635#m",
+    "link": "https://nitter.mizuki.st/TennisTV/status/2117733463822655635#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
@@ -747,14 +507,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.092277781525269,
+      "score": 0.11637125852992343,
       "detections": []
     }
   },
   {
     "title": "All hail Gael 👑🥹\n\nA special moment for a special player... and some dance moves 🕺\n\n@RolexPMasters | #RolexParisMasters | @Gael_Monfils",
     "description": "",
-    "link": "https://nitter.meowing.monster/atptour/status/2117711136627798349#m",
+    "link": "https://nitter.mizuki.st/atptour/status/2117711136627798349#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
@@ -763,14 +523,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1660682284526192,
+      "score": 0.16966353110936164,
       "detections": []
     }
   },
   {
     "title": "Early birthday present secured ♥️\n\n#ChinaOpen",
     "description": "",
-    "link": "https://nitter.meowing.monster/WTA/status/2107830605727797663#m",
+    "link": "https://nitter.mizuki.st/WTA/status/2107830605727797663#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
@@ -779,14 +539,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07133497694875393,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
   {
     "title": "Took care of business 💼\n\n@ElinaSvitolina is into her 29th career WTA 1000 quarterfinal after defeating Li!\n\n#ChinaOpen",
     "description": "",
-    "link": "https://nitter.meowing.monster/WTA/status/2107852780220129298#m",
+    "link": "https://nitter.mizuki.st/WTA/status/2107852780220129298#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
@@ -795,14 +555,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046315418836513,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
   {
     "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
     "description": "",
-    "link": "https://nitter.meowing.monster/theslicetennis/status/2047772450298228828#m",
+    "link": "https://nitter.mizuki.st/theslicetennis/status/2047772450298228828#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -811,14 +571,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
   {
     "title": "Alcaraz didn't win, but he still make a statement. How did you like Alcaraz's look this US Open?\n\nPresented by @SIASport\n\n#alcaraz #USOpen #tennis",
     "description": "",
-    "link": "https://nitter.meowing.monster/theslicetennis/status/2099494620602286223#m",
+    "link": "https://nitter.mizuki.st/theslicetennis/status/2099494620602286223#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -827,14 +587,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09538015064692588,
+      "score": 0.12847031732239908,
       "detections": []
     }
   },
   {
     "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
     "description": "",
-    "link": "https://nitter.meowing.monster/theslicetennis/status/2094654232460771681#m",
+    "link": "https://nitter.mizuki.st/theslicetennis/status/2094654232460771681#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -843,14 +603,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0682846059170864,
+      "score": 0.09305625184728848,
       "detections": []
     }
   },
   {
     "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
     "description": "",
-    "link": "https://nitter.meowing.monster/theslicetennis/status/2094288856296145080#m",
+    "link": "https://nitter.mizuki.st/theslicetennis/status/2094288856296145080#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -859,14 +619,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10530321311829208,
+      "score": 0.10802246388680846,
       "detections": []
     }
   },
   {
     "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
     "description": "",
-    "link": "https://nitter.meowing.monster/theslicetennis/status/2090301130009915703#m",
+    "link": "https://nitter.mizuki.st/theslicetennis/status/2090301130009915703#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -875,7 +635,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
+      "detections": []
+    }
+  },
+  {
+    "title": "No comment",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2113992147418628389#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-24 16:52 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03541395468505126,
+      "detections": []
+    }
+  },
+  {
+    "title": "I suspect you know a lot more than most of us 😃",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2109691321040380360#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 20:03 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1284310225291502,
+      "detections": []
+    }
+  },
+  {
+    "title": "Stefanos Tsitsipas on camera after win > Fritz. \"I'm not a huge fan of math myself,\" he says. \"It was an assessment of today's match.  X, Y and Z has been over-complicating things. In the end 1, 2 and 3 was easier than any of the other theories I might have had in the beginning.\"",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2109668517649735930#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 18:32 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09664616117453932,
+      "detections": []
+    }
+  },
+  {
+    "title": "For Canadian nighthawks:\nNow on TSN2 \nFernandez vs Alexandrova\nOn TSN5\nAuger-Aliassime vs Carreno Busta",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2109508012167532656#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-12 07:54 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06399643516456799,
+      "detections": []
+    }
+  },
+  {
+    "title": "PLEASE - S'IL VOUS PLAIT\nGreg Rusedski, who grew up in Montreal and speaks some French, is pronouncing Auger-Aliassime\n\"Oh-JURE-aliassime.\"\nIt's \"Oh-ZHAY-aliassime.\"\nDon't like to criticize - but he should be among the last to be mispronouncing it (doing Shapovalov-Tabilo now)!",
+    "description": "",
+    "link": "https://nitter.meowing.monster/tomtebbutt/status/2106208056027590835#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-10-03 05:21 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.49964448051621474,
       "detections": []
     }
   },
@@ -891,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04429579004191101,
+      "score": 0.04606339031995195,
       "detections": []
     }
   },
@@ -907,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03664577134024063,
+      "score": 0.046044345126827674,
       "detections": []
     }
   },
@@ -923,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05077455186343883,
+      "score": 0.058084135172919674,
       "detections": []
     }
   },
@@ -939,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035108805522030946,
+      "score": 0.0373607233899036,
       "detections": []
     }
   },
@@ -955,7 +795,167 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05572261542285587,
+      "score": 0.053163022829473876,
+      "detections": []
+    }
+  },
+  {
+    "title": "Carlos Alcaraz defeats Alex Michelsen 7-6(4), 6-3 to reach the last 16 in Paris! \n\nHe will face Matteo Berrettini tomorrow!",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2118070067120455869#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-04 21:57 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2651311850407706,
+      "detections": []
+    }
+  },
+  {
+    "title": "Incredible",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2118068371476672921#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-04 21:50 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.043143494772700054,
+      "detections": []
+    }
+  },
+  {
+    "title": "Carlitos 👀",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2118059773992276179#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-04 21:16 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0889487853596127,
+      "detections": []
+    }
+  },
+  {
+    "title": "37 (!) aces from Fritz today.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2118040472052531580#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-04 19:59 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04188269006261444,
+      "detections": []
+    }
+  },
+  {
+    "title": "Fritz is now two wins away from Turin. One of them potentially vs. Alcaraz...\n\nATP LIVE RACE:\n\nQualified:\nZverev\nAlcaraz\nShelton\nMedvedev\nCobolli\nFils\n\n7. Tiafoe, 3.390 - OUT of Paris\n8. Jódar, 3.234 - OUT of Paris\n--\n9. De Minaur, 3.170 - OUT of Paris \n10. Fritz, 2.950 (R3)\n11. Djokovic, 2.940 - OUT of Paris\n12. Paul, 2.825 (R3)",
+    "description": "",
+    "link": "https://nitter.meowing.monster/josemorgado/status/2118040380524417040#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-04 19:59 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08805208215933555,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alexander Zverev, Iga Swiatek and Elena Rybakina headline the Brisbane International 2027.",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2116963503269675063#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-11-01 20:40 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0607737835964807,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP1000 @RolexPMasters main draw\nNext week coverage onsite",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2116238329012519073#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-30 20:38 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.1055517890936521,
+      "detections": []
+    }
+  },
+  {
+    "title": "Australian tennis knows perfectly well how to appreciate its champions.\n5-time Grand Slam singles champion Frank Sedgman (99 year-old) will feature on the official @AustralianOpen 2027 match coin.\n📷 @TennisAustralia",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2115512252199494020#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-28 20:33 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05476432692652012,
+      "detections": []
+    }
+  },
+  {
+    "title": "Wildcards for @RolexPMasters \n\nMAIN DRAW\nTitouan Droguet\nArthur Gea\nQuentin Halys\nKyrian Jacquet\n\nQUALIES\nFelix Balshaw\nBenjamin Bonzi\nHugo Gaston\nMoïse Kouame",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2115098911669141583#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-27 17:10 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.3515521895685726,
+      "detections": []
+    }
+  },
+  {
+    "title": "Players confirmed for Kooyong Classic, 12-14 January.\n\nArthur Fils\nHolger Rune\nLearner Tien\nLorenzo Musetti\nMatteo Berrettini\nDenis Shapovalov\nKaren Khachanov\nNick Kyrgios\n\nPaula Badosa\nAlja Tomljanovic",
+    "description": "",
+    "link": "https://nitter.meowing.monster/MichalSamulski/status/2115019098023457140#m",
+    "handle": "MichalSamulski",
+    "author": "Michal Samulski",
+    "outlet": "ITWA / Tennis Hall of Fame",
+    "date": "2026-10-27 11:53 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09156454575493807,
       "detections": []
     }
   }
