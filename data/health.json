@@ -23,14 +23,14 @@
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis365": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "Tennis Majors": {
@@ -58,6 +58,11 @@
       "count": 20,
       "error": ""
     },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Racquet Magazine": {
       "type": "rss",
       "count": 10,
@@ -68,17 +73,12 @@
       "count": 20,
       "error": ""
     },
-    "Ubitennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
+    "Ubitennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -88,15 +88,15 @@
       "count": 0,
       "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
     },
     "Open Court": {
       "type": "rss",
@@ -105,8 +105,8 @@
     },
     "ATP Tour": {
       "type": "scrape",
-      "count": 0,
-      "error": "ATP Tour: never got past the Cloudflare challenge"
+      "count": 13,
+      "error": ""
     },
     "Tennis.com": {
       "type": "scrape",
@@ -125,7 +125,7 @@
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5566df67b6efb1c Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a55c4d4abfdf518a Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
@@ -181,7 +181,7 @@
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.ustaflorida.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a556739eaabea22d Performance and Secur"
+        "bodyHead": "www.ustaflorida.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a55c52abf9db4cb8 Performance and Secur"
       },
       "challenge_retry": "never cleared"
     },
@@ -217,7 +217,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 135,
+      "count": 116,
       "error": ""
     }
   },
@@ -228,12 +228,12 @@
       "status": "discovered",
       "candidates": 118,
       "tiers": {
-        "timeline": 1,
-        "challenged": 15,
-        "rate-limited": 0,
+        "timeline": 0,
+        "challenged": 13,
+        "rate-limited": 1,
         "nitter-empty": 0,
         "no-tokens": 0,
-        "dead": 100,
+        "dead": 102,
         "retired": 2,
         "retired_skipped": 0
       },
@@ -244,21 +244,21 @@
       ],
       "verified_bad": [
         "https://nitter.tiekoetter.com",
-        "https://lightbrd.com",
         "https://bird.habedieeh.re",
+        "https://nuku.trabun.org",
+        "https://lightbrd.com",
         "https://nitter.freedit.eu",
-        "https://nitter.kareem.one",
-        "https://nuku.trabun.org"
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://nitter.mizuki.st",
         "https://nitter.xitter.cc",
         "https://nitter.meowing.monster",
-        "https://nitter.mie.foundation",
-        "https://nitter.netbub.com",
         "https://nitter.jaydenha.uk",
-        "https://twiiit.com",
-        "https://nitter.tiekoetter.com"
+        "https://nitter.netbub.com",
+        "https://nitter.mie.foundation",
+        "https://nitter.tiekoetter.com",
+        "https://bird.habedieeh.re"
       ]
     },
     "error": "",
@@ -267,9 +267,9 @@
   "proxy_error": "4 attempts failed: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
   "proxy": "configured but UNREACHABLE - fell back to direct",
   "assets": {
-    "blocked": 9509,
-    "allowed": 7595,
-    "blocked_pct": 55.6
+    "blocked": 6409,
+    "allowed": 8388,
+    "blocked_pct": 43.3
   },
   "navigation": {
     "floored": 2,
@@ -280,7 +280,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 603,
+    "scanned": 604,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -334,9 +334,8 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-11-04 20:48:39 UTC",
+  "generated_at": "2026-11-05 13:54:43 UTC",
   "empty_sources": [
-    "ATP Tour",
     "ESPN Tennis",
     "Open Court",
     "Tennis Ireland",
