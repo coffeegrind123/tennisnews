@@ -8,12 +8,17 @@
       "error": "",
       "recovered_via": "browser"
     },
-    "Tennis Connected": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis View Magazine": {
+    "Tennis Connected": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -23,22 +28,17 @@
       "count": 10,
       "error": ""
     },
+    "Tennis365": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -53,14 +53,14 @@
       "count": 20,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "BBC Tennis": {
       "type": "rss",
       "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
       "error": ""
     },
     "Yahoo Sports Tennis": {
@@ -73,14 +73,14 @@
       "count": 20,
       "error": ""
     },
-    "Tennis Nerd": {
+    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Women's Tennis Blog": {
+    "Tennis Nerd": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "ESPN Tennis": {
@@ -88,15 +88,15 @@
       "count": 0,
       "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
-    },
-    "World Tennis Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
     },
     "Open Court": {
       "type": "rss",
@@ -120,12 +120,12 @@
       "empty_diagnostic": {
         "url": "https://www.tennisworldusa.org/",
         "title": "Just a moment...",
-        "htmlLen": 44389,
+        "htmlLen": 44368,
         "bodyTextLen": 270,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a55ec313cf911fd1 Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a56473bc7ae88f42 Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
@@ -141,12 +141,12 @@
       "empty_diagnostic": {
         "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
         "title": "Just a moment...",
-        "htmlLen": 44559,
+        "htmlLen": 44538,
         "bodyTextLen": 265,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a55ec51e5e512c1f Performance and Securit"
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a56475c7cd1eed40 Performance and Securit"
       },
       "challenge_retry": "never cleared"
     },
@@ -182,19 +182,8 @@
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 0,
-      "error": "",
-      "empty_diagnostic": {
-        "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
-        "title": "Just a moment...",
-        "htmlLen": 44514,
-        "bodyTextLen": 267,
-        "markers": [
-          "cloudflare-challenge"
-        ],
-        "bodyHead": "www.ustaflorida.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a55eca388a5cd6cb Performance and Secur"
-      },
-      "challenge_retry": "never cleared"
+      "count": 15,
+      "error": ""
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -208,8 +197,19 @@
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 3,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/brisbane-international",
+        "title": "Just a moment...",
+        "htmlLen": 44435,
+        "bodyTextLen": 265,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5647d62ff36ed40 Performance and Securit"
+      },
+      "challenge_retry": "never cleared"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -228,7 +228,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 133,
+      "count": 132,
       "error": ""
     }
   },
@@ -239,9 +239,9 @@
       "status": "discovered",
       "candidates": 118,
       "tiers": {
-        "timeline": 0,
+        "timeline": 1,
         "challenged": 13,
-        "rate-limited": 1,
+        "rate-limited": 0,
         "nitter-empty": 0,
         "no-tokens": 0,
         "dead": 102,
@@ -254,22 +254,22 @@
         "https://nitter.meowing.monster"
       ],
       "verified_bad": [
-        "https://nitter.kareem.one",
-        "https://bird.habedieeh.re",
-        "https://nitter.freedit.eu",
+        "https://nuku.trabun.org",
         "https://nitter.tiekoetter.com",
+        "https://bird.habedieeh.re",
         "https://lightbrd.com",
-        "https://nuku.trabun.org"
+        "https://nitter.freedit.eu",
+        "https://nitter.kareem.one"
       ],
       "bases": [
         "https://nitter.xitter.cc",
         "https://nitter.mizuki.st",
         "https://nitter.meowing.monster",
+        "https://nitter.mie.foundation",
         "https://nitter.jaydenha.uk",
         "https://nitter.netbub.com",
         "https://nitter.cz",
-        "https://nitter.mie.foundation",
-        "https://nitter.kareem.one"
+        "https://nuku.trabun.org"
       ]
     },
     "error": "",
@@ -278,9 +278,9 @@
   "proxy_error": "4 attempts failed: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
   "proxy": "configured but UNREACHABLE - fell back to direct",
   "assets": {
-    "blocked": 5913,
-    "allowed": 8191,
-    "blocked_pct": 41.9
+    "blocked": 6861,
+    "allowed": 8797,
+    "blocked_pct": 43.8
   },
   "navigation": {
     "floored": 2,
@@ -291,7 +291,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 608,
+    "scanned": 620,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -345,13 +345,13 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-11-05 21:05:47 UTC",
+  "generated_at": "2026-11-06 13:41:10 UTC",
   "empty_sources": [
+    "Brisbane International",
     "ESPN Tennis",
     "Open Court",
     "Tennis Australia",
     "Tennis Ireland",
-    "Tennis World USA",
-    "USTA Florida"
+    "Tennis World USA"
   ]
 }
