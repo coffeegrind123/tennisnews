@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T07:23:36+00:00",
+  "updated_at": "2026-11-08T12:51:36+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -29,22 +29,22 @@
       "permanent": false
     },
     "https://nitter.cz": {
-      "last_fail": "2026-10-15T18:16:00+00:00",
-      "fails_since_ok": 2,
+      "last_fail": "2026-11-08T12:48:02+00:00",
+      "fails_since_ok": 3,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },
     "https://nitter.freedit.eu": {
       "last_ok": "2026-10-30T12:13:24+00:00",
-      "fails_since_ok": 3,
+      "fails_since_ok": 4,
       "tweets": 5,
       "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-11-03T13:36:28+00:00"
+      "last_fail": "2026-11-08T12:51:36+00:00"
     },
     "https://nitter.jaydenha.uk": {
-      "last_fail": "2026-11-03T13:40:13+00:00",
-      "fails_since_ok": 1,
+      "last_fail": "2026-11-08T12:44:30+00:00",
+      "fails_since_ok": 2,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },
@@ -56,20 +56,20 @@
     },
     "https://nitter.meowing.monster": {
       "last_ok": "2026-11-08T07:23:36+00:00",
-      "fails_since_ok": 0,
+      "fails_since_ok": 1,
       "tweets": 5,
-      "reason": "",
+      "reason": "https://nitter.meowing.monster: instance cannot resolve @theslicetennis - backend cannot read X",
       "permanent": false,
-      "last_fail": "2026-11-02T14:24:55+00:00"
+      "last_fail": "2026-11-08T12:40:54+00:00"
     },
     "https://nitter.mie.foundation": {
-      "last_fail": "2026-11-03T20:38:02+00:00",
-      "fails_since_ok": 1,
+      "last_fail": "2026-11-08T12:40:59+00:00",
+      "fails_since_ok": 2,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },
     "https://nitter.mizuki.st": {
-      "last_ok": "2026-11-08T07:22:37+00:00",
+      "last_ok": "2026-11-08T12:40:10+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
@@ -83,8 +83,8 @@
       "reason": "operator retired the instance: nitter.net Cease and desist On 24 August 2026 cease and desist letters have been sent by X&nbsp;Corp. demanding a perman"
     },
     "https://nitter.netbub.com": {
-      "last_fail": "2026-11-03T13:37:42+00:00",
-      "fails_since_ok": 2,
+      "last_fail": "2026-11-08T12:40:59+00:00",
+      "fails_since_ok": 3,
       "reason": "interstitial did not clear in the browser",
       "permanent": false
     },
@@ -100,11 +100,11 @@
     },
     "https://nitter.xitter.cc": {
       "last_ok": "2026-11-05T21:04:42+00:00",
-      "fails_since_ok": 3,
+      "fails_since_ok": 4,
       "tweets": 5,
-      "reason": "https://nitter.xitter.cc: instance cannot resolve @michalsamulski - backend cannot read X",
+      "reason": "https://nitter.xitter.cc: instance cannot resolve @theslicetennis - backend cannot read X",
       "permanent": false,
-      "last_fail": "2026-11-08T07:23:35+00:00"
+      "last_fail": "2026-11-08T12:48:06+00:00"
     },
     "https://nt.vern.cc": {
       "last_fail": "2026-09-03T17:43:23+00:00",
