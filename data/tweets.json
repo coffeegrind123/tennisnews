@@ -11,7 +11,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2676794322800487,
+      "score": 0.2955225175186213,
+      "detections": []
+    }
+  },
+  {
+    "title": "Via MARCA, Juan Carlos Ferrero has revealed he was in talks with Jódar’s father about potentially coaching the 20yo. However, Jódar’s camp ultimately chose a different direction.\n\nmarca.com/tenis/copa-masters…",
+    "description": "",
+    "link": "https://nitter.mizuki.st/josemorgado/status/2119841594086240524#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-11-09 19:16 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0990976560472724,
+      "detections": []
+    }
+  },
+  {
+    "title": "🚨 Shelton deja On y vuelve a New Balance\n\nDespués de varios años con la marca suiza, vuelve a New Balance con un acuerdo multimillonario.\n\n💵 Un fijo de 5 millones de dólares al año\n💰 Un extra de 5 millones más si acaba el año entre el 2-10 del Ranking\n🫰 Extra de 3 millones más si acaba el año número 1\n\nEs decir, podría ganar hasta 13 millones al año. Uno de los mayores contratos del tenis actual.\n\n🎙️ Hard-Court",
+    "description": "",
+    "link": "https://nitter.mizuki.st/jmgmoron/status/2119842192579830018#m",
+    "handle": "amylundydahl",
+    "author": "Amy Lundy",
+    "outlet": "Tennis Connected",
+    "date": "2026-11-09 19:18 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.8181049344010998,
       "detections": []
     }
   },
@@ -27,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16826702788251877,
+      "score": 0.11953459245178616,
       "detections": []
     }
   },
@@ -43,39 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06613658925602467,
-      "detections": []
-    }
-  },
-  {
-    "title": "CARLOS ALCARAZ: YOUNGEST PLAYER EVER TO COMPLETE THE CAREER PARISIAN DOUBLE! 🏆🏆",
-    "description": "",
-    "link": "https://nitter.mizuki.st/BastienFachan/status/2119465984201548086#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-11-08 18:24 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10628026932529373,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ben Shelton says he told Carlos Alcaraz he was adding Juan Carlos Ferrero to his team before the news dropped, ‘He told me he was so happy for me’\n\n“Obviously I reached out to him before the news dropped. I wanted to let him know because I know how long and successful their relationship has been. I don’t know that there’s a better guy on tour than Carlos Alcaraz. He hit me back right away after winning Vienna. He told me he was so happy for me and how big the improvements in my game were gonna b",
-    "description": "",
-    "link": "https://nitter.mizuki.st/TheTennisLetter/status/2119154093935759621#m",
-    "handle": "amylundydahl",
-    "author": "Amy Lundy",
-    "outlet": "Tennis Connected",
-    "date": "2026-11-07 21:44 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.057914914411506625,
+      "score": 0.06409156469897609,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07707111525163768,
+      "score": 0.06012734721717932,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039788328438929384,
+      "score": 0.037686115804881244,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06894217634911919,
+      "score": 0.06888517374123118,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10038878750389235,
+      "score": 0.08920270199827438,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.057338832947297094,
+      "score": 0.051936956262092965,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07830127598035423,
+      "score": 0.06147424377533417,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07330922021295676,
+      "score": 0.09089576416262182,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06441888410774899,
+      "score": 0.05258694447134327,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -235,7 +235,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
+      "score": 0.029767043147506597,
+      "detections": []
+    }
+  },
+  {
+    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
+    "description": "",
+    "link": "https://nitter.mizuki.st/operskapevacica/status/2090571789659214069#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 01:48 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03419672292954768,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
+    "description": "",
+    "link": "https://nitter.mizuki.st/jelenadjokovic/status/2090716683384103269#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-08-21 11:24 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.3805444408157251,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
+    "description": "",
+    "link": "https://nitter.mizuki.st/NBA/status/2078598248726438111#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-07-19 00:50 EEST",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05066850152822621,
+      "detections": []
+    }
+  },
+  {
+    "title": "🥹🥹🥹🥹🥹",
+    "description": "",
+    "link": "https://nitter.mizuki.st/jelenadjokovic/status/2017249310388142394#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2026-01-30 16:51 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2797040348766316,
+      "detections": []
+    }
+  },
+  {
+    "title": "🤣🤣🤣🙌🏼",
+    "description": "",
+    "link": "https://nitter.mizuki.st/jelenadjokovic/status/1987834454463652061#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-11-10 12:47 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
@@ -251,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.050192487662305774,
+      "score": 0.04889494919354154,
       "detections": []
     }
   },
@@ -267,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05933079535901656,
+      "score": 0.054985783334473945,
       "detections": []
     }
   },
@@ -283,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053032137891327276,
+      "score": 0.042383945005601775,
       "detections": []
     }
   },
@@ -299,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04612204196622091,
+      "score": 0.040989335473016156,
       "detections": []
     }
   },
@@ -315,7 +395,39 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03541395468505126,
+      "score": 0.03392204116088773,
+      "detections": []
+    }
+  },
+  {
+    "title": "Here's PTR CEO Lynne Rolley at the WTA Foundation Brunch in Indian Wells, Calif., with its honoree new @TennisHalloFame inductee Mary Carillo (left) and former Australian Open semifinalist and new USTA Nominating Committee Chair Marianne Werdel #WTAFinals",
+    "description": "",
+    "link": "https://nitter.mizuki.st/ptrtennis/status/2119805036733608231#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-09 16:51 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.038486470262047906,
+      "detections": []
+    }
+  },
+  {
+    "title": "Great news on American tennis  si.com/onsi/serve/news/ameri…",
+    "description": "",
+    "link": "https://nitter.mizuki.st/TennisPublisher/status/2119820795639718029#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-09 17:53 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03903663375995603,
       "detections": []
     }
   },
@@ -331,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.14102645815082962,
+      "score": 0.16687969536719943,
       "detections": []
     }
   },
@@ -347,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12098829536348953,
+      "score": 0.11641622965346482,
       "detections": []
     }
   },
@@ -363,39 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04448405355690448,
-      "detections": []
-    }
-  },
-  {
-    "title": "It’s National Donut Day… and I was happy to discover that a franchise of my namesake “Randy’s Donuts” is coming soon just a few blocks from my apartment",
-    "description": "",
-    "link": "https://nitter.mizuki.st/TennisPublisher/status/2118327526250717352#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-05 15:00 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.027634538534820324,
-      "detections": []
-    }
-  },
-  {
-    "title": "Here's PTR CEO Lynne Rolley at the #WTAFinals in Indian Wells this week with her childhood friend and old doubles partner Peggy Michel, a former @Wimbledon doubles champion, now the assistant tournament director of the @BNPParibasOpen",
-    "description": "",
-    "link": "https://nitter.mizuki.st/ptrtennis/status/2118046665961529373#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-04 20:24 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04256903301508201,
+      "score": 0.03545342687099106,
       "detections": []
     }
   },
@@ -411,7 +491,55 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
+      "score": 0.07516741505665173,
+      "detections": []
+    }
+  },
+  {
+    "title": "Great setup in the courtyard for “Tennis Talks” with @BlairHenley and a range of guests including Petko and Muguruza (tournament director) so far. \n\nDuring fan Q&A, Muguruza said Sabalenka was her favorite top player to compete against. #FAGEWTAFinals",
+    "description": "",
+    "link": "https://nitter.mizuki.st/HanlonWalsh/status/2119949406787297365#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-10 02:24 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05435027493408207,
+      "detections": []
+    }
+  },
+  {
+    "title": "When happens when Coco’s mind “turns off?” \n\nDrop shots, of course.",
+    "description": "",
+    "link": "https://nitter.mizuki.st/BlairHenley/status/2119888770678010068#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-09 22:24 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.030309517668098706,
+      "detections": []
+    }
+  },
+  {
+    "title": "EXCLUSIVE: Ben Shelton is leaving On for New Balance. I have all the details on his contract, which starts in January; why On decided not to match (with direct comments from the brand); and what’s riding on a Shelton-branded shoe. 🔗⬇️",
+    "description": "",
+    "link": "https://nitter.mizuki.st/jessicaschiffer/status/2119790747008315741#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-09 15:54 EET",
+    "is_retweet": true,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.33430756212260715,
       "detections": []
     }
   },
@@ -427,55 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03221765202021586,
-      "detections": []
-    }
-  },
-  {
-    "title": "so cuteeee",
-    "description": "",
-    "link": "https://nitter.mizuki.st/sainzocaraz/status/2119014159597891782#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-07 12:28 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06449976893574615,
-      "detections": []
-    }
-  },
-  {
-    "title": "this pov is even crazier",
-    "description": "",
-    "link": "https://nitter.mizuki.st/miayaps/status/2119195655830945938#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-08 00:29 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.039788328438929384,
-      "detections": []
-    }
-  },
-  {
-    "title": "I love the WTA 😭",
-    "description": "",
-    "link": "https://nitter.mizuki.st/jonahtennis/status/2118909572274589833#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-07 05:33 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0541803348029594,
+      "score": 0.02951354519487663,
       "detections": []
     }
   },
@@ -491,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05389319304011393,
+      "score": 0.042557228780362756,
       "detections": []
     }
   },
@@ -507,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11637125852992343,
+      "score": 0.092277781525269,
       "detections": []
     }
   },
@@ -523,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16966353110936164,
+      "score": 0.1660682284526192,
       "detections": []
     }
   },
@@ -539,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09150462371495022,
+      "score": 0.07133497694875393,
       "detections": []
     }
   },
@@ -555,14 +635,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04766138540894144,
+      "score": 0.046315418836513,
       "detections": []
     }
   },
   {
     "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
     "description": "",
-    "link": "https://nitter.mizuki.st/theslicetennis/status/2047772450298228828#m",
+    "link": "https://nitter.ip6arpa.uk/theslicetennis/status/2047772450298228828#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -571,14 +651,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
   {
     "title": "Alcaraz didn't win, but he still make a statement. How did you like Alcaraz's look this US Open?\n\nPresented by @SIASport\n\n#alcaraz #USOpen #tennis",
     "description": "",
-    "link": "https://nitter.mizuki.st/theslicetennis/status/2099494620602286223#m",
+    "link": "https://nitter.ip6arpa.uk/theslicetennis/status/2099494620602286223#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -587,14 +667,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
   {
     "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
     "description": "",
-    "link": "https://nitter.mizuki.st/theslicetennis/status/2094654232460771681#m",
+    "link": "https://nitter.ip6arpa.uk/theslicetennis/status/2094654232460771681#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -603,14 +683,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
   {
     "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
     "description": "",
-    "link": "https://nitter.mizuki.st/theslicetennis/status/2094288856296145080#m",
+    "link": "https://nitter.ip6arpa.uk/theslicetennis/status/2094288856296145080#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -619,14 +699,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
   {
     "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
     "description": "",
-    "link": "https://nitter.mizuki.st/theslicetennis/status/2090301130009915703#m",
+    "link": "https://nitter.ip6arpa.uk/theslicetennis/status/2090301130009915703#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -635,14 +715,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
   {
     "title": "FIRST TITLE 🏆\n\nIt's third time lucky in tour-level finals for Kimberly Birrell as she claims the all-Aussie battle against Maya Joint 6-4 6-2, scoring her maiden WTA title at the Korea Open!\n\n#GoAussies",
     "description": "",
-    "link": "https://nitter.mizuki.st/TennisAustralia/status/2104122798918738099#m",
+    "link": "https://nitter.ip6arpa.uk/TennisAustralia/status/2104122798918738099#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -651,14 +731,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.04429579004191101,
       "detections": []
     }
   },
   {
     "title": "Great graphic. And massive fan of the Wikipedia colour scheme 😍",
     "description": "",
-    "link": "https://nitter.mizuki.st/MattyAT/status/2099245223511736380#m",
+    "link": "https://nitter.ip6arpa.uk/MattyAT/status/2099245223511736380#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -667,14 +747,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
   {
     "title": "Outstanding third-set stats for Elena Rybakina:\n\n> 100% first-serve points won\n> 15 winners, 6 unforced errors\n> 4/4 points won at net\n> generated 5 break points to Sabalenka's 0\n\n#USOpen",
     "description": "",
-    "link": "https://nitter.mizuki.st/MattyAT/status/2098919180179493135#m",
+    "link": "https://nitter.ip6arpa.uk/MattyAT/status/2098919180179493135#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -683,14 +763,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
   {
     "title": "Sabalenka v Rybakina.\nThree Grand Slam finals. \nThree three-set battles. \nOne of the best big-stage rivalries.",
     "description": "",
-    "link": "https://nitter.mizuki.st/MattyAT/status/2098898071954600347#m",
+    "link": "https://nitter.ip6arpa.uk/MattyAT/status/2098898071954600347#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -699,14 +779,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
   {
     "title": "Speaking of match-ups, we're guaranteed a Grand Slam final rematch with Sabalenka through to the #USOpen decider.\n\nSABALENKA v RYBAKINA\nAO 2023 F - Sabalenka won\nAO 2026 F - Rybakina won\n\nSABALENKA v GAUFF\nUS 2023 F - Gauff won\nRG 2025 F - Gauff won",
     "description": "",
-    "link": "https://nitter.mizuki.st/MattyAT/status/2098216555628917173#m",
+    "link": "https://nitter.ip6arpa.uk/MattyAT/status/2098216555628917173#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -715,94 +795,94 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053163022829473876,
+      "score": 0.05572261542285587,
       "detections": []
     }
   },
   {
-    "title": "Shelton going to New Balence was rumored back during the US Open and it is happening starting in the 2027 season.",
+    "title": "Mladenovic and Guo just won the match tiebreak from\n\n0-6 down\n2-8 down\n6-9 down\n9-10 down\n\nInsane stuff.",
     "description": "",
-    "link": "https://nitter.mizuki.st/TennisUpdates26/status/2119803011648061603#m",
+    "link": "https://nitter.ip6arpa.uk/josemorgado/status/2119999235806695773#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-09 16:43 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04571475519587278,
-      "detections": []
-    }
-  },
-  {
-    "title": "Linette 🇵🇱 wins a tour title at 34 👏\n\nOnly 4 other players have won one at 34 or older in the last six seasons:\n\n🔹 Tatjana Maria 🇩🇪 : Bogota 2022 (34), Bogota 2023 (35), Queen's 2025 (37)\n🔹 Angelique Kerber 🇩🇪 : Strasbourg 2022 (34)\n🔹 Irina-Camelia Begu 🇷🇴 : Iasi 2025 (34)\n🔹 Sorana Cirstea 🇷🇴 : Cleveland 2025 (35), Cluj-Napoca 2026 (35)\n🔹 Magda Linette 🇵🇱 : Chennai 2026 (34) 🆕\n\n✍️ WTA 250 level and above, WTA 125 excluded",
-    "description": "",
-    "link": "https://nitter.mizuki.st/hawk_ai_tennis/status/2119790405076029612#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-09 15:53 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08241681235270405,
-      "detections": []
-    }
-  },
-  {
-    "title": "4th career title for Linette, who will finish the year inside the top 50.\n\nIronically, takes Frech out of the top 50 (now #51) but still three Polish players inside the top 50.",
-    "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2119788058040263156#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-09 15:43 EET",
+    "date": "2026-11-10 05:43 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08945156724961331,
+      "score": 0.04171528384202894,
       "detections": []
     }
   },
   {
-    "title": "Fantastic win for Errani/Paolini last night.\n\nAnd a great crowd!",
+    "title": "OMG what a miss from Hsieh.",
     "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2119787153097883704#m",
+    "link": "https://nitter.ip6arpa.uk/josemorgado/status/2119998842775195716#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-09 15:40 EET",
+    "date": "2026-11-10 05:41 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.039714578468997994,
+      "score": 0.06415171561312585,
       "detections": []
     }
   },
   {
-    "title": "Flavio Cobolli is in Turin already.",
+    "title": "Wow.\n\nFrom 0-6, 2-8 and 6-9 to 9-9 in the match tiebreak.",
     "description": "",
-    "link": "https://nitter.mizuki.st/josemorgado/status/2119779101804462362#m",
+    "link": "https://nitter.ip6arpa.uk/josemorgado/status/2119998278058021372#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-09 15:08 EET",
+    "date": "2026-11-10 05:39 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05941140216018482,
+      "score": 0.03056396164249319,
+      "detections": []
+    }
+  },
+  {
+    "title": "Last match of the day is a fun one",
+    "description": "",
+    "link": "https://nitter.ip6arpa.uk/josemorgado/status/2119974989374034422#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-10 04:06 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.029700326722903583,
+      "detections": []
+    }
+  },
+  {
+    "title": "Top seeds start with a win in Indian Wells.",
+    "description": "",
+    "link": "https://nitter.ip6arpa.uk/josemorgado/status/2119970674966188167#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-10 03:49 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.030390756723226407,
       "detections": []
     }
   },
   {
     "title": "Alexander Zverev, Iga Swiatek and Elena Rybakina headline the Brisbane International 2027.",
     "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2116963503269675063#m",
+    "link": "https://nitter.ip6arpa.uk/MichalSamulski/status/2116963503269675063#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -811,14 +891,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0607737835964807,
+      "score": 0.05635694418644775,
       "detections": []
     }
   },
   {
     "title": "ATP1000 @RolexPMasters main draw\nNext week coverage onsite",
     "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2116238329012519073#m",
+    "link": "https://nitter.ip6arpa.uk/MichalSamulski/status/2116238329012519073#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -827,14 +907,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1055517890936521,
+      "score": 0.1065688117039021,
       "detections": []
     }
   },
   {
     "title": "Australian tennis knows perfectly well how to appreciate its champions.\n5-time Grand Slam singles champion Frank Sedgman (99 year-old) will feature on the official @AustralianOpen 2027 match coin.\n📷 @TennisAustralia",
     "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2115512252199494020#m",
+    "link": "https://nitter.ip6arpa.uk/MichalSamulski/status/2115512252199494020#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -843,14 +923,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05476432692652012,
+      "score": 0.049306664374682535,
       "detections": []
     }
   },
   {
     "title": "Wildcards for @RolexPMasters \n\nMAIN DRAW\nTitouan Droguet\nArthur Gea\nQuentin Halys\nKyrian Jacquet\n\nQUALIES\nFelix Balshaw\nBenjamin Bonzi\nHugo Gaston\nMoïse Kouame",
     "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2115098911669141583#m",
+    "link": "https://nitter.ip6arpa.uk/MichalSamulski/status/2115098911669141583#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -859,14 +939,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3515521895685726,
+      "score": 0.38118755056183357,
       "detections": []
     }
   },
   {
     "title": "Players confirmed for Kooyong Classic, 12-14 January.\n\nArthur Fils\nHolger Rune\nLearner Tien\nLorenzo Musetti\nMatteo Berrettini\nDenis Shapovalov\nKaren Khachanov\nNick Kyrgios\n\nPaula Badosa\nAlja Tomljanovic",
     "description": "",
-    "link": "https://nitter.mizuki.st/MichalSamulski/status/2115019098023457140#m",
+    "link": "https://nitter.ip6arpa.uk/MichalSamulski/status/2115019098023457140#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -875,87 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09156454575493807,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
-    "description": "",
-    "link": "https://nitter.meowing.monster/operskapevacica/status/2090571789659214069#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 01:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04011619627844751,
-      "detections": []
-    }
-  },
-  {
-    "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
-    "description": "",
-    "link": "https://nitter.meowing.monster/jelenadjokovic/status/2090716683384103269#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 11:24 EEST",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.5250368602383791,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
-    "description": "",
-    "link": "https://nitter.meowing.monster/NBA/status/2078598248726438111#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-07-19 00:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.057143928695953146,
-      "detections": []
-    }
-  },
-  {
-    "title": "🥹🥹🥹🥹🥹",
-    "description": "",
-    "link": "https://nitter.meowing.monster/jelenadjokovic/status/2017249310388142394#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-01-30 16:51 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2923701160106168,
-      "detections": []
-    }
-  },
-  {
-    "title": "🤣🤣🤣🙌🏼",
-    "description": "",
-    "link": "https://nitter.meowing.monster/jelenadjokovic/status/1987834454463652061#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2025-11-10 12:47 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.08260389130450849,
       "detections": []
     }
   }
