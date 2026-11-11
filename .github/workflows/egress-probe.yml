@@ -41,14 +41,14 @@ jobs:
         uses: actions/cache@v4
         with:
           path: backend/camoufox_build
-          key: camoufox-cg-v159.0.1-beta.35-cg.14-v1
+          key: camoufox-cg-v159.0.1-beta.35-cg.15-v1
 
       - name: Download camoufox browser
         if: steps.cache-camoufox.outputs.cache-hit != 'true'
         run: |
           cd backend
-          curl -fL -o camoufox.zip "https://github.com/coffeegrind123/camoufox-free/releases/download/v159.0.1-beta.35-cg.14/camoufox-159.0.1-beta.35-lin.x86_64.zip"
-          echo "35b5f72bbd4e83ae8e723a393796cf25608b7a1372733f1a1de6e348385fd299  camoufox.zip" | sha256sum -c -
+          curl -fL -o camoufox.zip "https://github.com/coffeegrind123/camoufox-free/releases/download/v159.0.1-beta.35-cg.15/camoufox-159.0.1-beta.35-lin.x86_64.zip"
+          echo "a9247c60a9a9eb1ba734ef235ae78398b004cedaeb9778accf6641f971ba9103  camoufox.zip" | sha256sum -c -
           unzip -q camoufox.zip -d camoufox_build
           rm camoufox.zip
           chmod +x camoufox_build/camoufox-bin
