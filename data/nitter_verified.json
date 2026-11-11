@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T13:29:17+00:00",
+  "updated_at": "2026-11-11T19:47:36+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -20,7 +20,7 @@
       "retired_at": "2026-09-03T19:31:19+00:00",
       "permanent": false,
       "reason": "",
-      "last_ok": "2026-11-11T13:29:17+00:00",
+      "last_ok": "2026-11-11T19:41:27+00:00",
       "fails_since_ok": 0,
       "tweets": 5
     },
@@ -46,7 +46,7 @@
       "last_fail": "2026-11-08T12:51:36+00:00"
     },
     "https://nitter.ip6arpa.uk": {
-      "last_ok": "2026-11-11T13:25:07+00:00",
+      "last_ok": "2026-11-11T19:42:07+00:00",
       "fails_since_ok": 0,
       "tweets": 5,
       "reason": "",
@@ -65,10 +65,10 @@
       "permanent": true
     },
     "https://nitter.meowing.monster": {
-      "last_ok": "2026-11-09T14:55:38+00:00",
-      "fails_since_ok": 2,
+      "last_ok": "2026-11-11T19:46:50+00:00",
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "interstitial did not clear in the browser",
+      "reason": "",
       "permanent": false,
       "last_fail": "2026-11-11T13:25:34+00:00"
     },
@@ -79,10 +79,10 @@
       "permanent": false
     },
     "https://nitter.mizuki.st": {
-      "last_ok": "2026-11-10T14:10:46+00:00",
-      "fails_since_ok": 1,
+      "last_ok": "2026-11-11T19:47:27+00:00",
+      "fails_since_ok": 0,
       "tweets": 5,
-      "reason": "interstitial did not clear in the browser",
+      "reason": "",
       "permanent": false,
       "last_fail": "2026-11-11T13:25:34+00:00"
     },
@@ -117,9 +117,9 @@
       "last_fail": "2026-11-08T12:48:06+00:00"
     },
     "https://nitterts.pages.dev": {
-      "last_fail": "2026-11-10T14:11:26+00:00",
-      "fails_since_ok": 0,
-      "reason": "",
+      "last_fail": "2026-11-11T19:41:37+00:00",
+      "fails_since_ok": 1,
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
       "last_ok": "2026-11-11T13:29:06+00:00",
       "tweets": 5
@@ -134,6 +134,13 @@
       "last_fail": "2026-10-15T10:49:53+00:00",
       "fails_since_ok": 8,
       "reason": "interstitial did not clear in the browser",
+      "permanent": false
+    },
+    "https://twiiit.com": {
+      "last_ok": "2026-11-11T19:47:36+00:00",
+      "fails_since_ok": 0,
+      "tweets": 5,
+      "reason": "",
       "permanent": false
     },
     "https://xcancel.com": {
