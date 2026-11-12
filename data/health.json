@@ -2,16 +2,16 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "10sBalls": {
       "type": "rss",
       "count": 16,
       "error": "",
       "recovered_via": "browser"
+    },
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
     },
     "Tennis Connected": {
       "type": "rss",
@@ -23,17 +23,12 @@
       "count": 10,
       "error": ""
     },
-    "Tennis Majors": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Perfect Tennis": {
+    "Tennis365": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis365": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -43,17 +38,12 @@
       "count": 10,
       "error": ""
     },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Guardian Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -63,9 +53,9 @@
       "count": 10,
       "error": ""
     },
-    "World Tennis Magazine": {
+    "BBC Tennis": {
       "type": "rss",
-      "count": 10,
+      "count": 20,
       "error": ""
     },
     "Racquet Magazine": {
@@ -78,20 +68,30 @@
       "count": 20,
       "error": ""
     },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "Tennis Nerd": {
       "type": "rss",
       "count": 10,
+      "error": ""
+    },
+    "Women's Tennis Blog": {
+      "type": "rss",
+      "count": 20,
       "error": ""
     },
     "ESPN Tennis": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
-    },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
     },
     "Tennis Ireland": {
       "type": "rss",
@@ -120,18 +120,18 @@
       "empty_diagnostic": {
         "url": "https://www.tennisworldusa.org/",
         "title": "Just a moment...",
-        "htmlLen": 44368,
+        "htmlLen": 44347,
         "bodyTextLen": 270,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5962b4bcf749166 Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a597328c3ba56e84 Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
     "Tennishead": {
       "type": "scrape",
-      "count": 10,
+      "count": 12,
       "error": ""
     },
     "Tennis Australia": {
@@ -139,14 +139,14 @@
       "count": 0,
       "error": "",
       "empty_diagnostic": {
-        "url": "https://www.tennis.com.au/fan-zone/news",
+        "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
         "title": "Just a moment...",
-        "htmlLen": 44408,
+        "htmlLen": 44517,
         "bodyTextLen": 265,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5962d551d79ca7c Performance and Securit"
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a59734abeebaec08 Performance and Securit"
       },
       "challenge_retry": "never cleared"
     },
@@ -177,7 +177,7 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 12,
+      "count": 11,
       "error": ""
     },
     "USTA Florida": {
@@ -197,8 +197,19 @@
     },
     "Brisbane International": {
       "type": "scrape",
-      "count": 6,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/brisbane-international",
+        "title": "Just a moment...",
+        "htmlLen": 44435,
+        "bodyTextLen": 265,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5973bb12f95ec08 Performance and Securit"
+      },
+      "challenge_retry": "never cleared"
     },
     "Asian Tennis Federation": {
       "type": "scrape",
@@ -217,7 +228,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 124,
+      "count": 103,
       "error": ""
     }
   },
@@ -229,42 +240,43 @@
       "candidates": 120,
       "tiers": {
         "timeline": 2,
-        "challenged": 13,
+        "challenged": 14,
         "rate-limited": 0,
-        "nitter-empty": 1,
-        "no-tokens": 0,
-        "dead": 102,
+        "nitter-empty": 0,
+        "no-tokens": 1,
+        "dead": 101,
         "retired": 2,
         "retired_skipped": 0
       },
       "verified_good": [
-        "https://nitter.catsarch.com",
         "https://nitter.ip6arpa.uk",
+        "https://nitter.catsarch.com",
         "https://nitter.mizuki.st",
         "https://nitterts.pages.dev",
         "https://nitter.meowing.monster",
         "https://twiiit.com"
       ],
       "verified_bad": [
-        "https://nitter.jaydenha.uk",
-        "https://nitter.tiekoetter.com",
-        "https://nitter.netbub.com",
-        "https://nitter.freedit.eu",
-        "https://nitter.xitter.cc",
-        "https://lightbrd.com",
         "https://nitter.kareem.one",
+        "https://nitter.tiekoetter.com",
+        "https://lightbrd.com",
+        "https://nitter.xitter.cc",
+        "https://nitter.netbub.com",
+        "https://bird.habedieeh.re",
+        "https://nitter.jaydenha.uk",
+        "https://nitter.freedit.eu",
         "https://nuku.trabun.org",
-        "https://bird.habedieeh.re"
+        "https://nitter.cz"
       ],
       "bases": [
-        "https://nitter.catsarch.com",
         "https://nitter.ip6arpa.uk",
+        "https://nitter.catsarch.com",
         "https://nitter.mizuki.st",
         "https://nitterts.pages.dev",
         "https://nitter.meowing.monster",
         "https://twiiit.com",
-        "https://nitter.mie.foundation",
-        "https://nitter.jaydenha.uk"
+        "https://nitter.kareem.one",
+        "https://nitter.tiekoetter.com"
       ]
     },
     "error": "",
@@ -273,9 +285,9 @@
   "proxy_error": "4 attempts failed: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
   "proxy": "configured but UNREACHABLE - fell back to direct",
   "assets": {
-    "blocked": 6884,
-    "allowed": 8460,
-    "blocked_pct": 44.9
+    "blocked": 6516,
+    "allowed": 8398,
+    "blocked_pct": 43.7
   },
   "navigation": {
     "floored": 2,
@@ -286,7 +298,7 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 616,
+    "scanned": 591,
     "flagged": 0,
     "redacted": 0,
     "by_source": {},
@@ -340,8 +352,9 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-11-12 14:28:43 UTC",
+  "generated_at": "2026-11-12 17:29:05 UTC",
   "empty_sources": [
+    "Brisbane International",
     "ESPN Tennis",
     "Open Court",
     "Tennis Australia",
