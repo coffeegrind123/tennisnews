@@ -9,7 +9,7 @@ feedparser
 # Pinned to a commit: upstream history rewrites have broken an unpinned ref
 # before (JWriter20 moved python/ to pythonlib/ on 2026-09-14, and upstream
 # moved it back to python/ on 2026-10-06).
-camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-free.git@eedd3de3310e6190813a132d0304396b3f3ff620#subdirectory=python
-# playwright: the launcher's own bound. cg.15's Juggler sends pageError's
+camoufox[geoip] @ git+https://github.com/coffeegrind123/camoufox-free.git@16ae94e5eec7eaac9784c3a282e073fb20600505#subdirectory=python
+# playwright: the launcher's own bound. cg.16's Juggler sends pageError's
 # location.url (the reason for the old <1.60 pin), and its CI ran on 1.62.
 playwright<1.63
