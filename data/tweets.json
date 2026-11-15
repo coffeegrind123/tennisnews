@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.028802884786626855,
+      "score": 0.03181488021601282,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.059782026224879964,
+      "score": 0.06698496685588523,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0990976560472724,
+      "score": 0.08536269181742208,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.8181049344010998,
+      "score": 0.7263625735996913,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11953459245178616,
+      "score": 0.16826702788251877,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06012734721717932,
+      "score": 0.07707111525163768,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037686115804881244,
+      "score": 0.039788328438929384,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06888517374123118,
+      "score": 0.06894217634911919,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08920270199827438,
+      "score": 0.10038878750389235,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051936956262092965,
+      "score": 0.057338832947297094,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06147424377533417,
+      "score": 0.07830127598035423,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09089576416262182,
+      "score": 0.07330922021295676,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05258694447134327,
+      "score": 0.06441888410774899,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04110978562399009,
+      "score": 0.04838077284405698,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03419672292954768,
+      "score": 0.04011619627844751,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3805444408157251,
+      "score": 0.5250368602383791,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0437178268353447,
+      "score": 0.046912031898292586,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04889494919354154,
+      "score": 0.050192487662305774,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054985783334473945,
+      "score": 0.05933079535901656,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042383945005601775,
+      "score": 0.053032137891327276,
       "detections": []
     }
   },
@@ -395,7 +395,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040989335473016156,
+      "score": 0.04612204196622091,
       "detections": []
     }
   },
@@ -411,7 +411,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09576697850521662,
+      "score": 0.1529257426018081,
       "detections": []
     }
   },
@@ -427,7 +427,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03624828645706406,
+      "score": 0.04532120020482068,
       "detections": []
     }
   },
@@ -443,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07786085088001861,
+      "score": 0.08214085500756234,
       "detections": []
     }
   },
@@ -459,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05304697483932295,
+      "score": 0.06331709232518144,
       "detections": []
     }
   },
@@ -475,7 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09964079006697121,
+      "score": 0.11009862399433541,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06720613184491891,
+      "score": 0.0834472072211916,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05434344166324996,
+      "score": 0.05620974024343299,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07120865999646238,
+      "score": 0.060623727215462074,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08762845305836302,
+      "score": 0.08491442903107052,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042557228780362756,
+      "score": 0.05389319304011393,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.092277781525269,
+      "score": 0.11637125852992343,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1660682284526192,
+      "score": 0.16966353110936164,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07133497694875393,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046315418836513,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09538015064692588,
+      "score": 0.12847031732239908,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0682846059170864,
+      "score": 0.09305625184728848,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10530321311829208,
+      "score": 0.10802246388680846,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04429579004191101,
+      "score": 0.04606339031995195,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03664577134024063,
+      "score": 0.046044345126827674,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05077455186343883,
+      "score": 0.058084135172919674,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035108805522030946,
+      "score": 0.0373607233899036,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05572261542285587,
+      "score": 0.053163022829473876,
       "detections": []
     }
   },
   {
-    "title": "\"I just hope people have fun. I miss this tournament. Just wanna be healthy again\".",
+    "title": "Guto showing his power vs. Alcaraz earlier in practice.\n\nvia @TennisTV on Instagram",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2121953828731830762#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122043237410185690#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-15 15:09 EET",
+    "date": "2026-11-15 21:05 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03527875791538197,
+      "score": 0.10595136306811861,
       "detections": []
     }
   },
   {
-    "title": "ATP Finals starting with Gaudenzi and multiple former world #1s. \n\nJannik Sinner got the biggest ovation as expected.",
+    "title": "Guto.\n\n\"Carlos [Alcaraz] is the most impressive one. The way he treats us, giving advices, joking. He is amazing.\"\n\nvia @TennisTV on Instagram",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2121953341819289883#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122042794432753987#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-15 15:07 EET",
+    "date": "2026-11-15 21:03 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.052931334620415244,
+      "score": 0.2770935852489647,
       "detections": []
     }
   },
   {
-    "title": "Zverev vs. Jódar to start the ATP Finals.\n\nLIVE @sporttvportugal 7.\n\n#TENISnaSPORTTV",
+    "title": "Juniors world #1 Luís Guto Miguel is having the week of his life in Turin. \n\n\"Today was the first time I played points with Alcaraz. I the beginning I was shaking but then I just relaxed and enjoyed\".\n\nvia @TennisTV on Instagram",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2121951689284506086#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122042600102187248#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-15 15:01 EET",
+    "date": "2026-11-15 21:02 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08623487733733966,
+      "score": 0.06813909325115944,
       "detections": []
     }
   },
   {
-    "title": "a few detours, but we’re getting there 🥹✨🙌🏼",
+    "title": "The next WTA rankings will feature neither Aryna Sabalenka nor Iga Swiatek in the top 2 for the first time since March 2022",
     "description": "",
-    "link": "https://nitter.catsarch.com/Bandreescu_/status/2121789004681261508#m",
+    "link": "https://nitter.catsarch.com/BastienFachan/status/2121387940240560313#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-15 04:14 EET",
+    "date": "2026-11-14 01:41 EET",
     "is_retweet": true,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.032265941984259264,
+      "score": 0.10536291671210092,
       "detections": []
     }
   },
   {
-    "title": "Have never experienced anything like it with the crowd today. Unreal stuff",
+    "title": "Ferrero on Shelton.\n\n\"I like that he is hungry to improve. Got a great team. I'm gonna spend three weeks with him in Florida and I'm very looking forward to that.\"\n\n(ATP WorldFeed)",
     "description": "",
-    "link": "https://nitter.catsarch.com/tennisportalen/status/2121723506824003909#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2121983511284396427#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-14 23:54 EET",
-    "is_retweet": true,
+    "date": "2026-11-15 17:07 EET",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04633513025431307,
+      "score": 0.03706983654225012,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040404507692511055,
+      "score": 0.04665474196923189,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03864400678608278,
+      "score": 0.04259064996623944,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.049609339818030916,
+      "score": 0.0550089205112685,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03323786084137684,
+      "score": 0.03997189245268028,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054835563683844527,
+      "score": 0.0622448091342645,
       "detections": []
     }
   }
