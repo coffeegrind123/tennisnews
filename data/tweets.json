@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.028802884786626855,
+      "score": 0.03181488021601282,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.059782026224879964,
+      "score": 0.06698496685588523,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0990976560472724,
+      "score": 0.08536269181742208,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.8181049344010998,
+      "score": 0.7263625735996913,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.11953459245178616,
+      "score": 0.16826702788251877,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06012734721717932,
+      "score": 0.07707111525163768,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.037686115804881244,
+      "score": 0.039788328438929384,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06888517374123118,
+      "score": 0.06894217634911919,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08920270199827438,
+      "score": 0.10038878750389235,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051936956262092965,
+      "score": 0.057338832947297094,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06147424377533417,
+      "score": 0.07830127598035423,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09089576416262182,
+      "score": 0.07330922021295676,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05258694447134327,
+      "score": 0.06441888410774899,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04110978562399009,
+      "score": 0.04838077284405698,
       "detections": []
     }
   },
@@ -235,7 +235,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.029767043147506597,
+      "score": 0.031627229987510885,
       "detections": []
     }
   },
@@ -251,7 +251,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03419672292954768,
+      "score": 0.04011619627844751,
       "detections": []
     }
   },
@@ -267,7 +267,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.3805444408157251,
+      "score": 0.5250368602383791,
       "detections": []
     }
   },
@@ -283,7 +283,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05066850152822621,
+      "score": 0.057143928695953146,
       "detections": []
     }
   },
@@ -299,7 +299,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -315,7 +315,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2797040348766316,
+      "score": 0.2923701160106168,
       "detections": []
     }
   },
@@ -331,7 +331,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0437178268353447,
+      "score": 0.046912031898292586,
       "detections": []
     }
   },
@@ -347,7 +347,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04889494919354154,
+      "score": 0.050192487662305774,
       "detections": []
     }
   },
@@ -363,7 +363,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054985783334473945,
+      "score": 0.05933079535901656,
       "detections": []
     }
   },
@@ -379,7 +379,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042383945005601775,
+      "score": 0.053032137891327276,
       "detections": []
     }
   },
@@ -395,7 +395,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040989335473016156,
+      "score": 0.04612204196622091,
       "detections": []
     }
   },
@@ -411,7 +411,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09576697850521662,
+      "score": 0.1529257426018081,
       "detections": []
     }
   },
@@ -427,7 +427,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03624828645706406,
+      "score": 0.04532120020482068,
       "detections": []
     }
   },
@@ -443,7 +443,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07786085088001861,
+      "score": 0.08214085500756234,
       "detections": []
     }
   },
@@ -459,7 +459,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05304697483932295,
+      "score": 0.06331709232518144,
       "detections": []
     }
   },
@@ -475,7 +475,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09964079006697121,
+      "score": 0.11009862399433541,
       "detections": []
     }
   },
@@ -491,7 +491,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07516741505665173,
+      "score": 0.08314474589953268,
       "detections": []
     }
   },
@@ -507,7 +507,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06720613184491891,
+      "score": 0.0834472072211916,
       "detections": []
     }
   },
@@ -523,7 +523,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05434344166324996,
+      "score": 0.05620974024343299,
       "detections": []
     }
   },
@@ -539,7 +539,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07120865999646238,
+      "score": 0.060623727215462074,
       "detections": []
     }
   },
@@ -555,7 +555,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08762845305836302,
+      "score": 0.08491442903107052,
       "detections": []
     }
   },
@@ -571,7 +571,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.042557228780362756,
+      "score": 0.05389319304011393,
       "detections": []
     }
   },
@@ -587,7 +587,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.092277781525269,
+      "score": 0.11637125852992343,
       "detections": []
     }
   },
@@ -603,7 +603,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1660682284526192,
+      "score": 0.16966353110936164,
       "detections": []
     }
   },
@@ -619,7 +619,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07133497694875393,
+      "score": 0.09150462371495022,
       "detections": []
     }
   },
@@ -635,7 +635,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046315418836513,
+      "score": 0.04766138540894144,
       "detections": []
     }
   },
@@ -651,7 +651,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04542394578462053,
+      "score": 0.04662039750201252,
       "detections": []
     }
   },
@@ -667,7 +667,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09538015064692588,
+      "score": 0.12847031732239908,
       "detections": []
     }
   },
@@ -683,7 +683,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0682846059170864,
+      "score": 0.09305625184728848,
       "detections": []
     }
   },
@@ -699,7 +699,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10530321311829208,
+      "score": 0.10802246388680846,
       "detections": []
     }
   },
@@ -715,7 +715,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1652456502399341,
+      "score": 0.16234388205363884,
       "detections": []
     }
   },
@@ -731,7 +731,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04429579004191101,
+      "score": 0.04606339031995195,
       "detections": []
     }
   },
@@ -747,7 +747,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03664577134024063,
+      "score": 0.046044345126827674,
       "detections": []
     }
   },
@@ -763,7 +763,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05077455186343883,
+      "score": 0.058084135172919674,
       "detections": []
     }
   },
@@ -779,7 +779,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035108805522030946,
+      "score": 0.0373607233899036,
       "detections": []
     }
   },
@@ -795,87 +795,87 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05572261542285587,
+      "score": 0.053163022829473876,
       "detections": []
     }
   },
   {
-    "title": "Maria Sharapova 2004:\n\n- Wins her first Grand Slam in Europe\n- Wins the WTA Finals in California\n- 55-15 record\n\nMirra Andreeva 2026:\n\n- Wins her first Grand Slam in Europe\n- Wins the WTA Finals in California\n- 55-16 record",
+    "title": "Alcaraz today:\n\n9.6 performance rating\n21 winners\n9 unforced errors",
     "description": "",
-    "link": "https://nitter.catsarch.com/BastienFachan/status/2122092911789543550#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122335048577798341#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-16 00:22 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.056125744201874495,
-      "detections": []
-    }
-  },
-  {
-    "title": "Andreeva a BIG favorite to leave Melbourne as the new world #1.",
-    "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2122167542689288207#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-16 05:19 EET",
+    "date": "2026-11-16 16:24 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.034170136640376485,
+      "score": 0.039932634313579275,
       "detections": []
     }
   },
   {
-    "title": "Btw, Zverev does have a point about the new Top 10.\n\nATP Year-End Top 10 in 2026 saw the biggest turnover (5 players who were not YE Top 10 the year before) since 2019 Year-End Top 10 (also five new players).",
+    "title": "Carlos Alcaraz:\n\n23 years old.\n\n60 top 10 wins.",
     "description": "",
-    "link": "https://nitter.catsarch.com/AnnaK_4ever/status/2122036165851185293#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122334784097866127#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-15 20:37 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.09583474627667747,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tuesday schedule in Turin.",
-    "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2122138210687963262#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-16 03:22 EET",
+    "date": "2026-11-16 16:23 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04016780792054657,
+      "score": 0.06134953437203543,
       "detections": []
     }
   },
   {
-    "title": "Katerina Siniakova: \n12 Grand Slam titles\n2 Olympic Gold Medals\n2 WTA Finals\n10 WTA 1000\n\nIncredible.",
+    "title": "World #3 and seven-time Grand Slam champ Carlos Alcaraz easily beats Frances Tiafoe 6-2, 6-2 to start his 2026 ATP Finals campaign in Turin. \n\n10 consecutive wins\n\n43-5 in 2026\n\n8-2 vs. top 10 players in 2026",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2122131902710616502#m",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122334397324026340#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-16 02:57 EET",
+    "date": "2026-11-16 16:22 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03880763802540257,
+      "score": 0.2954157595774344,
+      "detections": []
+    }
+  },
+  {
+    "title": "Just too good.",
+    "description": "",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122332643564126536#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-16 16:15 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03859870149580807,
+      "detections": []
+    }
+  },
+  {
+    "title": "Pennetta and Schiavone.",
+    "description": "",
+    "link": "https://nitter.catsarch.com/josemorgado/status/2122332338575053282#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-16 16:13 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05962892641373017,
       "detections": []
     }
   },
@@ -891,7 +891,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.040404507692511055,
+      "score": 0.04665474196923189,
       "detections": []
     }
   },
@@ -907,7 +907,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03864400678608278,
+      "score": 0.04259064996623944,
       "detections": []
     }
   },
@@ -923,7 +923,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.049609339818030916,
+      "score": 0.0550089205112685,
       "detections": []
     }
   },
@@ -939,7 +939,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03323786084137684,
+      "score": 0.03997189245268028,
       "detections": []
     }
   },
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.054835563683844527,
+      "score": 0.0622448091342645,
       "detections": []
     }
   }
