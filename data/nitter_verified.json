@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T14:28:10+00:00",
+  "updated_at": "2026-11-17T15:25:40+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -20,7 +20,7 @@
       "retired_at": "2026-09-03T19:31:19+00:00",
       "permanent": false,
       "reason": "",
-      "last_ok": "2026-11-16T14:28:10+00:00",
+      "last_ok": "2026-11-17T15:25:40+00:00",
       "fails_since_ok": 0,
       "tweets": 5
     },
@@ -47,11 +47,11 @@
     },
     "https://nitter.ip6arpa.uk": {
       "last_ok": "2026-11-12T17:27:59+00:00",
-      "fails_since_ok": 1,
+      "fails_since_ok": 2,
       "tweets": 5,
       "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-11-13T13:51:25+00:00"
+      "last_fail": "2026-11-17T15:25:07+00:00"
     },
     "https://nitter.jaydenha.uk": {
       "last_fail": "2026-11-11T13:29:05+00:00",
