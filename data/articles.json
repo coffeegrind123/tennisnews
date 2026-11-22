@@ -1,5 +1,75 @@
 [
   {
+    "title": "Wimbledon commemorates 25 years of introducing local children to tennis with celebratory event",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/wimbledon_commemorates_25_years_of_wjti",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03525633408513069,
+      "detections": []
+    }
+  },
+  {
+    "title": "US Open 2026: Week One Recap",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/us-open-2026---week-one-review",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.044531358470140656,
+      "detections": []
+    }
+  },
+  {
+    "title": "Grand Slams announce formation of a Grand Slam Player Advisory Council",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/grand_slam_player_advisory_council",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.053587163366012915,
+      "detections": []
+    }
+  },
+  {
+    "title": "Play Your Way to Wimbledon Returns to SW19 for the 2026 National Finals",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/Play_Your_Way_to_Wimbledon_Returns_for_2026_Finals",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0413043389921365,
+      "detections": []
+    }
+  },
+  {
+    "title": "The Championships 2026 sets new records for attendance and digital audience",
+    "description": "I have read, understand and agree to the Terms of Use",
+    "link": "https://www.wimbledon.com/en_GB/news/THE_CHAMPIONSHIPS_2026_SETS_NEW_RECORDS_FOR_ATTENDANCE_AND_DIGITAL_AUDIENCE",
+    "source_name": "Wimbledon",
+    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.055440490775770575,
+      "detections": []
+    }
+  },
+  {
     "title": "'Like clockwork': 24 hours with the Champions’ Dinner dresser",
     "description": "I have read, understand and agree to the Terms of Use",
     "link": "https://www.wimbledon.com/en_GB/news/wimbledon_2026_meet_elisabeth_piner_champions_dinner_dresser",
@@ -38,6 +108,34 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07057330234805129,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ground Passes",
+    "description": "Explore the full Brisbane International precinct and soak up the summer atmosphere. Enjoy access to outside courts, practice sessions, live entertainment, food and beverage offerings, family activities and fan experiences throughout the venue.",
+    "link": "https://www.tennis.com.au/brisbane-international/tickets#tabs-76c6dce724-item-36201a7f20-tab",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.024167688401180047,
+      "detections": []
+    }
+  },
+  {
+    "title": "Premium Experiences",
+    "description": "Where world-class tennis meets elevated hospitality. Designed for those who appreciate the finer things, enjoy exclusive spaces, premium seating, and an electric on-court atmosphere - perfect for hosting or celebrating. This is more than a tournament, it’s Brisbane at its best.",
+    "link": "https://www.tennis.com.au/brisbane-international/premium-experiences",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.02546044184050357,
       "detections": []
     }
   },
@@ -98,26 +196,12 @@
     }
   },
   {
-    "title": "Texas A&M women's tennis unveils 2026 national championship rings - AOL",
-    "description": "Texas A&M women's tennis received its 2026 national championship rings after defeating Auburn to capture its second NCAA title in three seasons.",
-    "link": "https://www.aol.com/articles/texas-m-womens-tennis-unveils-121523000.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 14:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0337112305606456,
-      "detections": []
-    }
-  },
-  {
     "title": "Grand Slam of Darts 2026 LIVE: Semifinal score updates and commentary",
     "description": "Gerwyn Price, Kevin Doets, Michael van Gerwen and Gian van Veen face off in the Grand Slam of Darts semifinals - follow the action live with ESPN.",
     "link": "https://www.espn.com/darts/story/_/id/50560840/grand-slam-2026-darts-semifinals-live",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 14:43 EET",
+    "date": "2026-11-22 14:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -168,16 +252,16 @@
     }
   },
   {
-    "title": "Jannik Sinner facing ‘tricky situation’ as Brad Gilbert warns of ‘longer’ wait",
-    "description": "Will Jannik Sinner be fit for the 2027 Australian Open? The post Jannik Sinner facing ‘tricky situation’ as Brad Gilbert warns of ‘longer’ wait appeared first on Tennis365 .",
-    "link": "https://www.tennis365.com/tennis-news/jannik-sinner-facing-tricky-situation-brad-gilbert-warns-longer-wait",
-    "source_name": "Tennis365",
-    "source_url": "https://www.tennis365.com/tennis-news",
-    "date": "2026-11-22 13:45 EET",
+    "title": "Texas A&M women's tennis unveils 2026 national championship rings",
+    "description": "Texas A&M women's tennis received its 2026 national championship rings after defeating Auburn to capture its second NCAA title in three seasons.",
+    "link": "https://sports.yahoo.com/articles/texas-m-womens-tennis-unveils-121523879.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.048350957441134004,
+      "score": 0.036472597327312714,
       "detections": []
     }
   },
@@ -187,7 +271,7 @@
     "link": "https://www.sportskeeda.com/tennis/alexander-zverev-vs-carlos-alcaraz-preview-head-to-head-odds-prediction-betting-tips-atp-finals-2026-final",
     "source_name": "DDG/sportskeeda.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 13:43 EET",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -201,7 +285,7 @@
     "link": "https://sports.yahoo.com/articles/official-psg-confirm-d-sir-120700718.html",
     "source_name": "DDG/Get French Football News on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 13:43 EET",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -215,7 +299,7 @@
     "link": "https://sports.yahoo.com/articles/grand-slam-darts-price-faces-115509023.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 13:43 EET",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -224,12 +308,26 @@
     }
   },
   {
+    "title": "Grand Slam of Darts 2026: Schedule, order of play, results, prize money and previous winners",
+    "description": "Everything you need to know about the 2026 Grand Slam of Darts as world number one Luke Littler targets a third straight success in Wolverhampton.",
+    "link": "https://www.bbc.com/sport/darts/articles/cmwyqy57ejy6o",
+    "source_name": "DDG/BBC",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-22 13:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05692156832793561,
+      "detections": []
+    }
+  },
+  {
     "title": "Grand Slam of Darts 2026 LIVE: Gerwyn Price vs Kevin Doets in semi-final - updates, scores & results",
     "description": "Gerwyn Price plays Kevin Doets in the semi-finals of the 2026 Grand Slam of Darts.",
     "link": "https://www.bbc.com/sport/darts/live/c9gkljvv65ldt",
-    "source_name": "DuckDuckGo News",
+    "source_name": "DDG/BBC",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 13:43 EET",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -243,7 +341,7 @@
     "link": "https://www.aol.com/articles/grand-slam-darts-schedule-results-152248000.html",
     "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 13:43 EET",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -252,16 +350,30 @@
     }
   },
   {
-    "title": "Grand Slam of Darts 2026: Schedule, order of play, results, prize money and previous winners",
-    "description": "Everything you need to know about the 2026 Grand Slam of Darts as world number one Luke Littler targets a third straight success in Wolverhampton.",
-    "link": "https://www.bbc.com/sport/darts/articles/cmwyqy57ejy6o",
-    "source_name": "DDG/BBC",
+    "title": "Grand Slam of Darts: Price and Doets exchange early breaks in semi-final - AOL",
+    "description": "Follow live text updates as Gerwyn Price plays Kevin Doets in the semi-finals of the 2026 Grand Slam of Darts.",
+    "link": "https://www.aol.com/articles/grand-slam-darts-price-faces-115509000.html",
+    "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 13:43 EET",
+    "date": "2026-11-22 13:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05692156832793561,
+      "score": 0.05049317803746092,
+      "detections": []
+    }
+  },
+  {
+    "title": "Jannik Sinner facing ‘tricky situation’ as Brad Gilbert warns of ‘longer’ wait",
+    "description": "Will Jannik Sinner be fit for the 2027 Australian Open? The post Jannik Sinner facing ‘tricky situation’ as Brad Gilbert warns of ‘longer’ wait appeared first on Tennis365 .",
+    "link": "https://www.tennis365.com/tennis-news/jannik-sinner-facing-tricky-situation-brad-gilbert-warns-longer-wait",
+    "source_name": "Tennis365",
+    "source_url": "https://www.tennis365.com/tennis-news",
+    "date": "2026-11-22 13:45 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.048350957441134004,
       "detections": []
     }
   },
@@ -299,7 +411,7 @@
     "link": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/billie-jean-king-wanted-unfiltered-110000181.html",
     "source_name": "DDG/LA Times on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 12:43 EET",
+    "date": "2026-11-22 12:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -364,6 +476,20 @@
     }
   },
   {
+    "title": "\"Gross & Offensive To Everyone Who Works In College Tennis\" - Fans Furious As Tennessee Signs 23 y/o WTA Player For 2027 - AOL",
+    "description": "The University of Tennessee's decision to bring a 23-year-old WTA tennis player, Radka Zelnickova, into its college program for the 2027 season has sparked widespread backlash among tennis fans. The Slovakian tennis player signed with the University of Tennessee women's tennis team in November 2026 to join the program in January 2027.",
+    "link": "https://www.aol.com/articles/gross-offensive-everyone-works-college-182309000.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-22 11:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.14504208212985267,
+      "detections": []
+    }
+  },
+  {
     "title": "Mirra Andreeva ‘has a fiery temper, but she’s learned to temper it’, says tennis great",
     "description": "\"She goes down 4-1 in the first set, and I’m expecting her to blow up. No, she wins 11 games in a row.\" The post Mirra Andreeva ‘has a fiery temper, but she’s learned to temper it’, says tennis great appeared first on Tennis365 .",
     "link": "https://www.tennis365.com/wta-tour/mirra-andreeva-fiery-temper-learned-temper-tennis-great-martina-navratilova",
@@ -374,20 +500,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04532684207243324,
-      "detections": []
-    }
-  },
-  {
-    "title": "\"Gross & Offensive To Everyone Who Works In College Tennis\" - Fans Furious As Tennessee Signs 23 y/o WTA Player For 2027 - AOL",
-    "description": "The University of Tennessee's decision to bring a 23-year-old WTA tennis player, Radka Zelnickova, into its college program for the 2027 season has sparked widespread backlash among tennis fans. The Slovakian tennis player signed with the University of Tennessee women's tennis team in November 2026 to join the program in January 2027.",
-    "link": "https://www.aol.com/articles/gross-offensive-everyone-works-college-182309000.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 11:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.14504208212985267,
       "detections": []
     }
   },
@@ -462,20 +574,6 @@
     }
   },
   {
-    "title": "From table tennis to travel: How couple kept their love alive for 70 years",
-    "description": "Meet Colin and Carol Hill from Cleveleys who are still loved up after 70 years of wedded bliss.",
-    "link": "https://www.yahoo.com/lifestyle/articles/table-tennis-travel-couple-kept-072208323.html",
-    "source_name": "DuckDuckGo News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 09:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.032285989688877643,
-      "detections": []
-    }
-  },
-  {
     "title": "“Carlos Alcaraz 2, Juan Carlos Ferrero 0” – Fans Troll Ben Shelton’s New Coach After Spaniard’s Stunning ATP Finals Comeback Win",
     "description": "Fans have targeted Ben Shelton’s new coach and Carlos Alcaraz’s former coach, Juan Carlos Ferrero, after the World No. 3 pulled off a stunning comeback win at the ATP Finals.",
     "link": "https://sports.yahoo.com/articles/carlos-alcaraz-2-juan-carlos-073123585.html",
@@ -518,6 +616,20 @@
     }
   },
   {
+    "title": "From table tennis to travel: How couple kept their love alive for 70 years",
+    "description": "Meet Colin and Carol Hill from Cleveleys who are still loved up after 70 years of wedded bliss.",
+    "link": "https://www.yahoo.com/lifestyle/articles/table-tennis-travel-couple-kept-072208323.html",
+    "source_name": "DuckDuckGo News",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-22 08:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.032285989688877643,
+      "detections": []
+    }
+  },
+  {
     "title": "Alexander Zverev makes ‘the best’ comment about Carlos Alcaraz as star’s astonishing record highlighted",
     "description": "Carlos Alcaraz has lost only two matches since returning to action after his wrist injury. The post Alexander Zverev makes ‘the best’ comment about Carlos Alcaraz as star’s astonishing record highlighted appeared first on Tennis365 .",
     "link": "https://www.tennis365.com/atp-tour/alexander-zverev-makes-best-comment-carlos-alcaraz-stars-astonishing-record-highlighted",
@@ -537,7 +649,7 @@
     "link": "https://www.ocregister.com/2026/11/21/portola-girls-tennis-falls-to-mira-costa-in-4-hour-grinder-for-socal-title/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 07:43 EET",
+    "date": "2026-11-22 07:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -551,7 +663,7 @@
     "link": "https://www.sportskeeda.com/tennis/news-watch-rafael-nadal-wife-mery-eldest-son-control-emotions-wild-celebration-real-madrid-s-comeback-win",
     "source_name": "DDG/sportskeeda.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 07:43 EET",
+    "date": "2026-11-22 07:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -579,7 +691,7 @@
     "link": "https://www.sportingnews.com/us/darts/news/2026-grand-slam-darts-semifinals-final-live-results-scores-schedule/fa74046cb53a36cc119edfe6",
     "source_name": "DDG/Sporting News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 05:43 EET",
+    "date": "2026-11-22 05:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -621,7 +733,7 @@
     "link": "https://www.sportingnews.com/us/tsn/news/watch-grand-slam-curling-national-schedule-channels-streams-scores/3d3b8bc7f5146f18cec49603",
     "source_name": "DDG/Sporting News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 04:43 EET",
+    "date": "2026-11-22 04:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -663,7 +775,7 @@
     "link": "https://www.nytimes.com/athletic/7797722/2026/11/21/tennis-atp-tour-prize-money-bonuses-rankings-calendar/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 03:43 EET",
+    "date": "2026-11-22 03:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -677,7 +789,7 @@
     "link": "https://www.nytimes.com/athletic/7795478/2026/11/21/carlos-alcaraz-tennis-season-2026-atp/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 03:43 EET",
+    "date": "2026-11-22 03:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -700,6 +812,20 @@
     }
   },
   {
+    "title": "2026 Grand Slam of Darts semifinals, final predictions and previews",
+    "description": "We're in for a treat on Day 9 in Wolverhampton.",
+    "link": "https://sports.yahoo.com/articles/2026-grand-slam-darts-semifinals-010111417.html",
+    "source_name": "DDG/The Sporting News on Yahoo",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-22 02:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03357315213669163,
+      "detections": []
+    }
+  },
+  {
     "title": "Why Does Ben Shelton Trouble Carlos Alcaraz So Much?",
     "description": "Tennis - U.S. Open - Flushing Meadows, New York, United States - September 4, 2026 Spain's Carlos Alcaraz in action during his third round match against China's Yibing Wu REUTERS/Jeenah Moon | Source: Lastwordonsports.com - Steen Kirby",
     "link": "https://lastwordonsports.com/tennis/2026/11/21/why-does-ben-shelton-trouble-carlos-alcaraz-so-much/",
@@ -710,34 +836,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.09484067166940337,
-      "detections": []
-    }
-  },
-  {
-    "title": "2026 Grand Slam of Darts semifinals, final predictions and previews",
-    "description": "We're in for a treat on Day 9 in Wolverhampton.",
-    "link": "https://sports.yahoo.com/articles/2026-grand-slam-darts-semifinals-010111417.html",
-    "source_name": "DDG/The Sporting News on Yahoo",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 02:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03357315213669163,
-      "detections": []
-    }
-  },
-  {
-    "title": "2026 Grand Slam of Darts semifinals, final predictions and previews | Sporting News",
-    "description": "We're in for a treat on Day 9 in Wolverhampton.",
-    "link": "https://www.sportingnews.com/uk/darts/news/2026-grand-slam-darts-semifinals-final-prediction-preview/033cdaf40249487c3784b7a4",
-    "source_name": "DDG/Sporting News",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 02:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03930660947452604,
       "detections": []
     }
   },
@@ -770,6 +868,34 @@
     }
   },
   {
+    "title": "Inside Zverev & Alcaraz's jaw-dropping serving at Nitto ATP Finals",
+    "description": "Alexander Zverev and Carlos Alcaraz have combined to win an astonishing 98.8 per cent of their service games at the Nitto ATP Finals, where they have battled past the best players in the world to reach the championship match. It is safe to say that serve will be critical once again Sunday in Turin.",
+    "link": "https://www.atptour.com/en/news/zverev-alcaraz-infosys-atp-beyond-the-numbers-nitto-atp-finals-2026",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-22 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07033225341169036,
+      "detections": []
+    }
+  },
+  {
+    "title": "BJK Cup: Hunter, Gibson blitz to secure Australian advantage",
+    "description": "Australia is one win away from capturing their Billie Jean King Cup Play-off tie against France after strong performances on Day 1.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/22/australia-v-france-bjk-cup-day-1-wrap",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-22 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.045419210283352635,
+      "detections": []
+    }
+  },
+  {
     "title": "Loaded Field in Bologna Stands Between Canada and Davis Cup Glory: Meet the Opposition",
     "description": "Many of the tour's superpower nations and top players will be present at the Davis Cup Final 8 in Bologna, making it a...",
     "link": "https://www.tenniscanada.com/news/pro-tennis/2026/loaded-field-in-bologna-stands-between-canada-and-davis-cup-glory-meet-the-opposition",
@@ -789,7 +915,7 @@
     "link": "https://sports.yahoo.com/articles/two-big-stars-confirmed-miss-000000625.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 01:43 EET",
+    "date": "2026-11-22 01:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -803,7 +929,7 @@
     "link": "https://sports.yahoo.com/articles/atp-finals-already-proven-real-000000636.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 01:43 EET",
+    "date": "2026-11-22 01:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -850,48 +976,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.04611137116465573,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis-Alcaraz digs deep to beat Shelton, will face world number one Zverev in final",
-    "description": "TURIN, Italy, Nov 21 (Reuters) - Seven-times Grand Slam champion Carlos Alcaraz battled back from a set down to beat American Ben Shelton 3-6 6-3 7-6(1) in their ATP Finals semi-final to charge into Sunday's showcase for the second consecutive year. A...",
-    "link": "https://kelo.com/2026/11/21/tennis-alcaraz-digs-deep-to-beat-shelton-and-reach-final/",
-    "source_name": "DDG/KELO",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 00:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05330463551919773,
-      "detections": []
-    }
-  },
-  {
-    "title": "Zverev to face Alcaraz in the championship match at the ATP Finals in a test of his No. 1 ranking",
-    "description": "Alexander Zverev has faced criticism for weeks about ascending to the No. 1 ranking without beating Carlos Alcaraz or Jannik Sinner.",
-    "link": "https://www.clickondetroit.com/sports/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/",
-    "source_name": "DDG/clickondetroit.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 00:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.35689392120714336,
-      "detections": []
-    }
-  },
-  {
-    "title": "Grand Slam of Darts: Michael van Gerwen beats Tom Sykes in quarter-final",
-    "description": "Grand Slam of Darts: Michael van Gerwen beats Tom Sykes in quarter-final",
-    "link": "https://www.bbc.com/sport/darts/articles/cm894gg55gxyo",
-    "source_name": "DDG/BBC",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-22 00:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04716287211205632,
       "detections": []
     }
   },
@@ -952,6 +1036,90 @@
     }
   },
   {
+    "title": "What The Clash? Has a New Update With \"The Tennis Menace\"",
+    "description": "What The Clash? has been given a new content update with a familiar face from What The Golf? as part of \"The Tennis Menace\"",
+    "link": "https://bleedingcool.com/games/what-the-clash-has-a-new-update-with-the-tennis-menace/",
+    "source_name": "DDG/bleedingcool.com",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 23:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.07419397542176623,
+      "detections": []
+    }
+  },
+  {
+    "title": "Tennis-Alcaraz digs deep to beat Shelton, will face world number one Zverev in final",
+    "description": "TURIN, Italy, Nov 21 (Reuters) - Seven-times Grand Slam champion Carlos Alcaraz battled back from a set down to beat American Ben Shelton 3-6 6-3 7-6(1) in their ATP Finals semi-final to charge into Sunday's showcase for the second consecutive year. A...",
+    "link": "https://kelo.com/2026/11/21/tennis-alcaraz-digs-deep-to-beat-shelton-and-reach-final/",
+    "source_name": "DDG/KELO",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 23:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05330463551919773,
+      "detections": []
+    }
+  },
+  {
+    "title": "Zverev to face Alcaraz in the championship match at the ATP Finals in a test of his No. 1 ranking",
+    "description": "Alexander Zverev has faced criticism for weeks about ascending to the No. 1 ranking without beating Carlos Alcaraz or Jannik Sinner.",
+    "link": "https://www.clickondetroit.com/sports/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/",
+    "source_name": "DDG/clickondetroit.com",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 23:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.35689392120714336,
+      "detections": []
+    }
+  },
+  {
+    "title": "Carlos Alcaraz meets Alexander Zverev in ATP Finals: How to watch and purse",
+    "description": "Seven-time Grand Slam winner Carlos Alcaraz will take on top-ranked Alexander Zverev in the ATP Finals in Turin, Italy. Here's what to know.",
+    "link": "https://sports.yahoo.com/articles/carlos-alcaraz-meets-alexander-zverev-213537017.html",
+    "source_name": "DDG/USA TODAY Sports on Yahoo",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 23:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05821889972530943,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Finals 2026: Carlos Alcaraz will face world No. 1 Alexander Zverev for the title",
+    "description": "This year's season-ending men's event is reaching its conclusion, with Alcaraz into the final.",
+    "link": "https://www.nytimes.com/athletic/7768449/2026/11/21/atp-finals-2026-draw-players-schedule-prize-money/",
+    "source_name": "DDG/The New York Times",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 23:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.058239645396206886,
+      "detections": []
+    }
+  },
+  {
+    "title": "Grand Slam of Darts: Michael van Gerwen beats Tom Sykes in quarter-final",
+    "description": "Grand Slam of Darts: Michael van Gerwen beats Tom Sykes in quarter-final",
+    "link": "https://www.bbc.com/sport/darts/articles/cm894gg55gxyo",
+    "source_name": "DDG/BBC",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 23:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04716287211205632,
+      "detections": []
+    }
+  },
+  {
     "title": "Zverev Stays Unbroken, Sets Alcaraz Final in Turin",
     "description": "It will be Alexander Zverev vs Carlos Alcaraz in Sunday's title match at the ATP Finals in Turin.",
     "link": "https://tennisnow.com/zverev-stays-unbroken-sets-alcaraz-final-in-turin/",
@@ -976,48 +1144,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05378796597447067,
-      "detections": []
-    }
-  },
-  {
-    "title": "What The Clash? Has a New Update With \"The Tennis Menace\"",
-    "description": "What The Clash? has been given a new content update with a familiar face from What The Golf? as part of \"The Tennis Menace\"",
-    "link": "https://bleedingcool.com/games/what-the-clash-has-a-new-update-with-the-tennis-menace/",
-    "source_name": "DDG/bleedingcool.com",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 23:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07419397542176623,
-      "detections": []
-    }
-  },
-  {
-    "title": "Carlos Alcaraz meets Alexander Zverev in ATP Finals: How to watch and purse",
-    "description": "Seven-time Grand Slam winner Carlos Alcaraz will take on top-ranked Alexander Zverev in the ATP Finals in Turin, Italy. Here's what to know.",
-    "link": "https://sports.yahoo.com/articles/carlos-alcaraz-meets-alexander-zverev-213537017.html",
-    "source_name": "DDG/USA TODAY Sports on Yahoo",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 23:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05821889972530943,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP Finals 2026: Carlos Alcaraz will face world No. 1 Alexander Zverev for the title",
-    "description": "This year's season-ending men's event is reaching its conclusion, with Alcaraz into the final.",
-    "link": "https://www.nytimes.com/athletic/7768449/2026/11/21/atp-finals-2026-draw-players-schedule-prize-money/",
-    "source_name": "DDG/The New York Times",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 23:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.058239645396206886,
       "detections": []
     }
   },
@@ -1111,7 +1237,7 @@
     "link": "https://sports.yahoo.com/articles/every-player-beaten-jannik-sinner-210000931.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 22:43 EET",
+    "date": "2026-11-21 22:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1176,26 +1302,12 @@
     }
   },
   {
-    "title": "British Bulldog Ranah Stoiber Survives Wild Roller Coaster To Reach NCAA Women’s Singles Final In Front of Home Georgia Crowd",
-    "description": "by Randy Walker @TennisPublisher ATHENS, Ga. — Ranah Stoiber experienced just about every emotion a tennis player can experience in a single match. There was dominance, frustration, disbelief, pressure, and ultimately, the exhilaration of victory. Playing in front of an enthusiastic home crowd at the University of Georgia, the British-born Bulldog survived a wild three-set […] The post British Bulldog Ranah Stoiber Survives Wild Roller Coaster To Reach NCAA Women’s Singles Final In Front of Home",
-    "link": "https://worldtennismagazine.com/british-bulldog-ranah-stoiber-survives-wild-roller-coaster-to-reach-ncaa-womens-singles-final-in-front-of-home-georgia-crowd/",
-    "source_name": "World Tennis Magazine",
-    "source_url": "https://worldtennismagazine.com/",
-    "date": "2026-11-21 21:44 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03594309193627748,
-      "detections": []
-    }
-  },
-  {
     "title": "Rafael Nadal a near-unanimous selection to Real Madrid board",
     "description": "By Field Level Media Nov 21 (Field Level Media) - Spain's most accomplished tennis star is now helping make decisions for one of the country's biggest soccer clubs. Rafael Nadal, who won 22 grand slam titles over a 23-year career, was approved to joi...",
     "link": "https://kelo.com/2026/11/21/rafael-nadal-a-near-unanimous-selection-to-real-madrid-board/",
     "source_name": "DDG/KELO",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 21:43 EET",
+    "date": "2026-11-21 21:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1209,11 +1321,25 @@
     "link": "https://www.aol.com/articles/rafael-nadal-near-unanimous-selection-194640000.html",
     "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 21:43 EET",
+    "date": "2026-11-21 21:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
       "score": 0.03774010538941716,
+      "detections": []
+    }
+  },
+  {
+    "title": "British Bulldog Ranah Stoiber Survives Wild Roller Coaster To Reach NCAA Women’s Singles Final In Front of Home Georgia Crowd",
+    "description": "by Randy Walker @TennisPublisher ATHENS, Ga. — Ranah Stoiber experienced just about every emotion a tennis player can experience in a single match. There was dominance, frustration, disbelief, pressure, and ultimately, the exhilaration of victory. Playing in front of an enthusiastic home crowd at the University of Georgia, the British-born Bulldog survived a wild three-set […] The post British Bulldog Ranah Stoiber Survives Wild Roller Coaster To Reach NCAA Women’s Singles Final In Front of Home",
+    "link": "https://worldtennismagazine.com/british-bulldog-ranah-stoiber-survives-wild-roller-coaster-to-reach-ncaa-womens-singles-final-in-front-of-home-georgia-crowd/",
+    "source_name": "World Tennis Magazine",
+    "source_url": "https://worldtennismagazine.com/",
+    "date": "2026-11-21 21:44 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03594309193627748,
       "detections": []
     }
   },
@@ -1260,6 +1386,34 @@
     }
   },
   {
+    "title": "Alcaraz shakes off thigh injury to beat Shelton and reach championship match at ATP Finals",
+    "description": "By ANDREW DAMPF TURIN, Italy (AP) — Carlos Alcaraz had his left thigh wrapped up. Tape on his right knee. Memories of the 4 ½ months he missed earlier this year due to a right wrist injury. Still, the seven-time Grand Slam…",
+    "link": "https://www.baltimoresun.com/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/",
+    "source_name": "DDG/The Baltimore Sun",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 20:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04555396076608647,
+      "detections": []
+    }
+  },
+  {
+    "title": "Jannik Sinner told he won't be able to copy Novak Djokovic's 'miraculous' injury comeback if he has knee surgery",
+    "description": "Jannik Sinner has been absent from the tennis tour for four months now, ever since he beat Alexander Zverev to lift the Wimbledon title. Ironically,...",
+    "link": "https://sports.yahoo.com/articles/jannik-sinner-told-won-t-183000648.html",
+    "source_name": "DDG/Tennishead on Yahoo",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 20:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.23543738816814994,
+      "detections": []
+    }
+  },
+  {
     "title": "Solinco Chroma – Prototype Racquet Review",
     "description": "The Solinco Chroma is the best racquet Solinco has made so far, and I can say that without hesitation. It’s a 99 sq in, 16×20 frame with a 23 mm beam that sits right between power, spin, and control. It suits flat, aggressive hitters better than heavy-topspin baseliners. I’ve been playing a Pro Stock prototype […] The post Solinco Chroma – Prototype Racquet Review appeared first on Tennisnerd.net .",
     "link": "https://www.tennisnerd.net/gear/racquets/solinco-chroma-prototype-racquet-review/70743",
@@ -1284,34 +1438,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05858910641927688,
-      "detections": []
-    }
-  },
-  {
-    "title": "Alcaraz shakes off thigh injury to beat Shelton and reach championship match at ATP Finals",
-    "description": "By ANDREW DAMPF TURIN, Italy (AP) — Carlos Alcaraz had his left thigh wrapped up. Tape on his right knee. Memories of the 4 ½ months he missed earlier this year due to a right wrist injury. Still, the seven-time Grand Slam…",
-    "link": "https://www.baltimoresun.com/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/",
-    "source_name": "DDG/The Baltimore Sun",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 20:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04555396076608647,
-      "detections": []
-    }
-  },
-  {
-    "title": "Jannik Sinner told he won't be able to copy Novak Djokovic's 'miraculous' injury comeback if he has knee surgery",
-    "description": "Jannik Sinner has been absent from the tennis tour for four months now, ever since he beat Alexander Zverev to lift the Wimbledon title. Ironically,...",
-    "link": "https://sports.yahoo.com/articles/jannik-sinner-told-won-t-183000648.html",
-    "source_name": "DDG/Tennishead on Yahoo",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 20:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.23543738816814994,
       "detections": []
     }
   },
@@ -1363,7 +1489,7 @@
     "link": "https://sports.yahoo.com/articles/carlos-alcaraz-makes-italian-tennis-173010270.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 19:43 EET",
+    "date": "2026-11-21 19:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1377,7 +1503,7 @@
     "link": "https://www.aol.com/articles/jannik-sinner-injury-layoff-coco-172619000.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 19:43 EET",
+    "date": "2026-11-21 19:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1391,7 +1517,7 @@
     "link": "https://www.sportskeeda.com/tennis/news-insane-choke-ben-shelton-fans-lose-hope-american-ever-winning-slam-carlos-alcaraz-destroys-atp-finals-despite-injury",
     "source_name": "DDG/sportskeeda.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 19:43 EET",
+    "date": "2026-11-21 19:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1498,6 +1624,34 @@
     }
   },
   {
+    "title": "Masked Burglars Break Into Tennis Star's $9.3 Million California Home, But House Sitters Have Other Plans",
+    "description": "Two masked burglars broke into the Los Angeles home of tennis champion Sloane Stephens, apparently expecting an easy target. Instead, barking dogs, alert housesitters, and a shouted warning sent them running before they could steal a thing. The frightening encounter unfolded Tuesday night, November 17, at the 2017 U.S. Open champion's home in Sherman Oaks,...",
+    "link": "https://sports.yahoo.com/articles/masked-burglars-break-tennis-star-153035566.html",
+    "source_name": "DDG/Backyard Garden Lover on Yahoo",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 17:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11280942871019753,
+      "detections": []
+    }
+  },
+  {
+    "title": "Elena Rybakina Tops 2026 WTA Prize Money Standings With $11 Million Haul",
+    "description": "It was a season to remember for Elena Rybakina, with the 27-year-old hitting new heights in a career-defining 2026.",
+    "link": "https://www.si.com/onsi/serve/news/elena-rybakina-tops-2026-wta-prize-money-standings-11-million-haul-01m7q7y0wgp7",
+    "source_name": "DDG/Sports Illustrated",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-21 17:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03878500863754639,
+      "detections": []
+    }
+  },
+  {
     "title": "“Great points, great games” – Alcaraz rises when it matters, turns back Shelton to reach a second straight ATP Finals final",
     "description": "Down a set and a break of momentum against Ben Shelton, Carlos Alcaraz found another gear in Turin on Saturday, winning 3-6, 6-3, 7-6(1) and dominating the tie-break 7-1. Two days after an MRI on his hamstring, the Spaniard extends his winning streak to 13 matches and will play for the title on Sunday.",
     "link": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/alcaraz-rises-when-it-matters-turns-back-shelton-to-reach-a-second-straight-atp-finals-final-867561.html",
@@ -1526,44 +1680,16 @@
     }
   },
   {
-    "title": "Masked Burglars Break Into Tennis Star's $9.3 Million California Home, But House Sitters Have Other Plans",
-    "description": "Two masked burglars broke into the Los Angeles home of tennis champion Sloane Stephens, apparently expecting an easy target. Instead, barking dogs, alert housesitters, and a shouted warning sent them running before they could steal a thing. The frightening encounter unfolded Tuesday night, November 17, at the 2017 U.S. Open champion's home in Sherman Oaks,...",
-    "link": "https://sports.yahoo.com/articles/masked-burglars-break-tennis-star-153035566.html",
-    "source_name": "DDG/Backyard Garden Lover on Yahoo",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 17:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.11280942871019753,
-      "detections": []
-    }
-  },
-  {
     "title": "Felix Auger-Aliassime names the player with the best serve on the ATP Tour currently",
     "description": "Alexander Zverev has been the best player on the ATP Tour this season, and a big reason for that is his serve. The German has...",
     "link": "https://sports.yahoo.com/articles/felix-auger-aliassime-names-player-151348268.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 17:43 EET",
+    "date": "2026-11-21 16:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
       "score": 0.2408606765130403,
-      "detections": []
-    }
-  },
-  {
-    "title": "Elena Rybakina Tops 2026 WTA Prize Money Standings With $11 Million Haul",
-    "description": "It was a season to remember for Elena Rybakina, with the 27-year-old hitting new heights in a career-defining 2026.",
-    "link": "https://www.si.com/onsi/serve/news/elena-rybakina-tops-2026-wta-prize-money-standings-11-million-haul-01m7q7y0wgp7",
-    "source_name": "DDG/Sports Illustrated",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 17:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03878500863754639,
       "detections": []
     }
   },
@@ -1573,7 +1699,7 @@
     "link": "https://sports.yahoo.com/articles/brad-gilbert-agrees-rafael-nadal-140000685.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1587,7 +1713,7 @@
     "link": "https://www.usatoday.com/story/entertainment/puzzles/crosswords/2026/11/21/tennis-point-that-never-touches-the-receiver-s-racket-crossword-clue/92896069007/",
     "source_name": "DDG/USA Today",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1596,16 +1722,16 @@
     }
   },
   {
-    "title": "Parking plan for Leeds leisure centre tennis courts rejected",
+    "title": "Parking spaces plan for tennis courts rejected",
     "description": "A retrospective application had been made for 46 spaces on tennis courts at a Leeds leisure centre.",
-    "link": "https://www.bbc.com/news/articles/c3vg2r8k4p0do",
-    "source_name": "DDG/BBC",
+    "link": "https://www.yahoo.com/news/world/articles/parking-spaces-plan-tennis-courts-121611568.html",
+    "source_name": "DDG/BBC on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.030441649879314456,
+      "score": 0.0294021522199863,
       "detections": []
     }
   },
@@ -1615,7 +1741,7 @@
     "link": "https://www.pennlive.com/tv/2026/11/where-to-watch-carlos-alcaraz-vs-ben-shelton-tennis-semifinals-for-free-today.html",
     "source_name": "DDG/Penn Live",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1629,7 +1755,7 @@
     "link": "https://sports.yahoo.com/articles/tennis-urged-bring-serving-rule-030000869.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1643,7 +1769,7 @@
     "link": "https://www.ksl.com/article/51647303/tennis-coach-takes-on-more-work-and-cuts-spending-after-expert-advice",
     "source_name": "DDG/KSL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1657,7 +1783,7 @@
     "link": "https://www.sportskeeda.com/tennis/news-makes-sense-serena-williams-coach-shocked-tennis-hall-fame-snub-russian-wta-icon-despite-2-grand-slam-titles",
     "source_name": "DDG/sportskeeda.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1671,25 +1797,11 @@
     "link": "https://www.aol.com/articles/tjmaxx-selling-tennis-bracelet-only-113000000.html",
     "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
       "score": 0.031477376814513645,
-      "detections": []
-    }
-  },
-  {
-    "title": "Parking spaces plan for tennis courts rejected",
-    "description": "A retrospective application had been made for 46 spaces on tennis courts at a Leeds leisure centre.",
-    "link": "https://www.yahoo.com/news/world/articles/parking-spaces-plan-tennis-courts-121611568.html",
-    "source_name": "DDG/BBC on Yahoo",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0294021522199863,
       "detections": []
     }
   },
@@ -1699,7 +1811,7 @@
     "link": "https://journalnow.com/sports/college/wfu/article_95f71f8c-0ae2-43a8-bf6b-9c1f08484828.html",
     "source_name": "DDG/Winston-Salem Journal",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1713,7 +1825,7 @@
     "link": "https://sports.yahoo.com/articles/brad-gilbert-theory-why-carlos-110000153.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1727,7 +1839,7 @@
     "link": "https://sports.yahoo.com/articles/carlos-alcaraz-injury-atp-finals-100011330.html",
     "source_name": "DDG/College Sports Network on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-21 15:43 EET",
+    "date": "2026-11-21 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -1872,6 +1984,188 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.06929739785259129,
+      "detections": []
+    }
+  },
+  {
+    "title": "Final Preview: Zverev vs. Alcaraz in Nitto ATP Finals championship blockbuster",
+    "description": "Entering the Nitto ATP Finals, there were two clear favourites: World No. 1 Alexander Zverev and Carlos Alcaraz. Now, Sunday evening not before 6 p.m. local time, the two superstars will clash for the prestigious trophy at the season finale.",
+    "link": "https://www.atptour.com/en/news/nitto-atp-finals-2026-final-preview",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11088381302965289,
+      "detections": []
+    }
+  },
+  {
+    "title": "How much prize money will the Nitto ATP Finals champion earn?",
+    "description": "Alexander Zverev and Carlos Alcaraz are set to face off in the Nitto ATP Finals championship match. Find out here how much prize money is up for grabs in Turin.",
+    "link": "https://www.atptour.com/en/news/nitto-atp-finals-2026-champion-prize-money",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.09872841665352823,
+      "detections": []
+    }
+  },
+  {
+    "title": "What time do Zverev & Alcaraz meet in the Nitto ATP Finals title match?",
+    "description": "Alexander Zverev and Carlos Alcaraz will face off in the championship match of the Nitto ATP Finals Sunday. Find out here what time will the duo square off in Turin.",
+    "link": "https://www.atptour.com/en/news/nitto-atp-finals-2026-final-schedule",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06076590101245694,
+      "detections": []
+    }
+  },
+  {
+    "title": "What were the Nitto ATP Finals results?",
+    "description": "The Nitto ATP Finals continued Saturday, when Carlos Alcaraz and Alexander Zverev won their semi-final matches at the prestigious season-ending championships. View here full Nitto ATP Finals Saturday results.",
+    "link": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.11104757844783357,
+      "detections": []
+    }
+  },
+  {
+    "title": "What is the Nitto ATP Finals schedule?",
+    "description": "The Nitto ATP Finals concludes on Sunday when Alexander Zverev and Carlos Alcaraz compete in Turin. View here full Nitto ATP Finals Sunday schedule.",
+    "link": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.08901716105692932,
+      "detections": []
+    }
+  },
+  {
+    "title": "Zverev downs Medvedev, sets Nitto ATP Finals title clash with Alcaraz",
+    "description": "Alexander Zverev set a fitting finale at the Nitto ATP Finals Saturday, when he ousted Daniil Medvedev to set up a championship-match clash with second seed Carlos Alcaraz at the prestigious season-ending event.",
+    "link": "https://www.atptour.com/en/news/zverev-medvedev-nitto-atp-finals-2026-saturday",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05965186295844095,
+      "detections": []
+    }
+  },
+  {
+    "title": "Arribage/Olivetti save 3 MPs, reach Nitto ATP Finals title match",
+    "description": "Theo Arribage and Albano Olivetti won a classic on Saturday night at the Nitto ATP Finals, where they saved match points to reach the final.",
+    "link": "https://www.atptour.com/en/news/arribage-olivetti-krawietz-puetz-nitto-atp-finals-2026-saturday",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03952418495226759,
+      "detections": []
+    }
+  },
+  {
+    "title": "The Nitto ATP Finals doubles dynamic: Who’s more likely to?",
+    "description": " Watch the Nitto ATP Finals doubles stars take on The Doubles Dynamic, a fun partner challenge revealing how well they know each other on and off the court.",
+    "link": "https://www.atptour.com/en/news/partnerships-doubles-game-nitto-atp-finals-2026",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04649472311529554,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alcaraz survives Shelton to reach final of Nitto ATP Finals",
+    "description": "Carlos Alcaraz demonstrated his fighting qualities to return to the Nitto ATP Finals championship match on Saturday in Turin.",
+    "link": "https://www.atptour.com/en/news/alcaraz-shelton-nitto-atp-finals-2026-saturday",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04999001988427025,
+      "detections": []
+    }
+  },
+  {
+    "title": "Arevalo/Pavic reach title match at Nitto ATP Finals",
+    "description": "Marcelo Arevalo and Mate Pavic advanced to the title match at the Nitto ATP Finals once again on Saturday in Turin.",
+    "link": "https://www.atptour.com/en/news/harrison-skupski-arevalo-pavic-nitto-atp-finals-2026-saturday",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06243022055328154,
+      "detections": []
+    }
+  },
+  {
+    "title": "Landaluce qualifies for 2nd Next Gen ATP Finals; Kouame makes historic debut",
+    "description": "Martin Landaluce and Moise Kouame have both qualified for the Next Gen ATP Finals, which will be held in Reggio Calabria, Italy, from 9-13 December. ",
+    "link": "https://www.atptour.com/en/news/landaluce-kouame-next-gen-atp-finals-2026-qualification",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04244793848245178,
+      "detections": []
+    }
+  },
+  {
+    "title": "Hewitt brings ATP No. 1 Club pedigree to the Lexus ATP Head2Head Challenge!",
+    "description": "Lleyton Hewitt and host Natalie Pike were tasked with building a perfect hybrid of ATP No. 1 Club stars for the Nitto ATP Finals edition of the Lexus ATP Head2Head Challenge.",
+    "link": "https://www.atptour.com/en/news/lexus-atp-head2head-challenge-nitto-atp-finals-2026",
+    "source_name": "ATP Tour",
+    "source_url": "https://www.atptour.com/en/news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.028403433130860686,
+      "detections": []
+    }
+  },
+  {
+    "title": "Draw revealed for Australia’s BJK Cup mission against France",
+    "description": "Talia Gibson and Storm Hunter will fly the Australian flag on Day 1 of their Billie Jean King Cup Play-off tie.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/21/australia-v-france-bjk-cup-draw",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-21 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04375153836323854,
       "detections": []
     }
   },
@@ -2259,7 +2553,7 @@
     "link": "https://sports.yahoo.com/articles/arizona-alexander-rozin-advances-semifinals-000000328.html",
     "source_name": "DDG/SB Nation on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2273,7 +2567,7 @@
     "link": "https://wsvn.com/news/us-world/athletes-with-special-needs-connect/",
     "source_name": "DDG/7News Miami",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2287,7 +2581,7 @@
     "link": "https://sports.yahoo.com/articles/retired-tennis-star-caroline-wozniacki-221355837.html",
     "source_name": "DDG/HoopsHype on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2301,7 +2595,7 @@
     "link": "https://www.clickondetroit.com/sports/2026/11/20/atp-tour-unveils-expanded-compensation-plan-that-will-benefit-the-top-250-players/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2315,7 +2609,7 @@
     "link": "https://sports.yahoo.com/articles/taylor-fritz-admits-carlos-alcaraz-230000031.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2329,11 +2623,25 @@
     "link": "https://www.bbc.com/sport/tennis/articles/cqd01n33x0geo",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
       "score": 0.030178531788609343,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Finals Livestream: How to Watch Today's Round Robin Live for Free",
+    "description": "The 2026 tennis season is coming to a close. The WTA Finals are over, but which singles and doubles players of the ATP Tour will be victorious this week?",
+    "link": "https://www.pcmag.com/news/how-to-watch-the-2026-atp-finals-for-free-nov-20",
+    "source_name": "DDG/PC Magazine",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-20 15:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.06989848656793361,
       "detections": []
     }
   },
@@ -2343,25 +2651,11 @@
     "link": "https://sports.yahoo.com/articles/atp-increases-player-compensation-350m-130800810.html",
     "source_name": "DDG/BBC on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
       "score": 0.02951133509068961,
-      "detections": []
-    }
-  },
-  {
-    "title": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
-    "description": "The ATP Tour unveiled a new player compensation plan on Friday that is projected to exceed $350 million starting in 2028 and provide better pay for up to 250 players in men's tennis.",
-    "link": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players",
-    "source_name": "DDG/ESPN",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03781740240433829,
       "detections": []
     }
   },
@@ -2371,11 +2665,25 @@
     "link": "https://www.nytimes.com/athletic/live-blogs/atp-finals-2026-live-updates-schedule-scores-results/6LKlXRh5iaXe/",
     "source_name": "DDG/The New York Times",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
       "score": 0.05508312408984406,
+      "detections": []
+    }
+  },
+  {
+    "title": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
+    "description": "The ATP Tour unveiled a new player compensation plan on Friday that is projected to exceed $350 million starting in 2028 and provide better pay for up to 250 players in men's tennis.",
+    "link": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players",
+    "source_name": "DDG/ESPN",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-20 15:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03781740240433829,
       "detections": []
     }
   },
@@ -2385,7 +2693,7 @@
     "link": "https://www.aol.com/articles/ben-shelton-digs-deep-against-161152000.html",
     "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2399,7 +2707,7 @@
     "link": "https://sports.yahoo.com/articles/alexander-zverev-picks-atp-player-120000318.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2413,7 +2721,7 @@
     "link": "https://sports.yahoo.com/articles/jannik-sinner-team-may-made-140000361.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2427,7 +2735,7 @@
     "link": "https://sports.yahoo.com/articles/iga-swiatek-tipped-real-dark-180000034.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2441,7 +2749,7 @@
     "link": "https://sports.yahoo.com/articles/ons-jabeur-still-outsmart-wta-123016322.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2455,7 +2763,7 @@
     "link": "https://kelo.com/2026/11/20/tennis-alcaraz-eases-injury-concerns-with-cobolli-win-to-complete-perfect-atp-finals-group-stage/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2469,7 +2777,7 @@
     "link": "https://www.nytimes.com/athletic/7795478/2026/11/20/carlos-alcaraz-tennis-season-2026-atp/",
     "source_name": "DDG/The New York Times",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2483,7 +2791,7 @@
     "link": "https://sports.yahoo.com/articles/alcaraz-puts-injury-concerns-aside-150005931.html",
     "source_name": "DDG/BBC on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2497,7 +2805,7 @@
     "link": "https://sports.yahoo.com/articles/billie-jean-king-now-shares-010000258.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-20 15:43 EET",
+    "date": "2026-11-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2786,26 +3094,12 @@
     }
   },
   {
-    "title": "ATP Finals Livestream: How to Watch Today's Round Robin Live for Free",
-    "description": "The 2026 tennis season is coming to a close. The WTA Finals are over, but which singles and doubles players of the ATP Tour will be victorious this week?",
-    "link": "https://www.pcmag.com/news/how-to-watch-the-2026-atp-finals-for-free-nov-19",
-    "source_name": "DDG/PC Magazine",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.06989848656793361,
-      "detections": []
-    }
-  },
-  {
     "title": "Shelton beats Jodar to reach last four of ATP Finals for first time",
     "description": "US Open runner-up Ben Shelton is into the last four of the ATP Finals for the first time after beating Rafael Jodar. Shelton had to dig deep to see off the 20-year-old Spaniard, who is completing his first season on the ATP Tour, but eventually prevailed 7-6 (10-8) 7-5.",
     "link": "https://sports.yahoo.com/articles/shelton-beats-jodar-reach-last-220340878.html",
     "source_name": "DDG/dpa international on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2819,7 +3113,7 @@
     "link": "https://sports.yahoo.com/articles/rafael-jodar-five-best-results-010000845.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2833,7 +3127,7 @@
     "link": "https://sports.yahoo.com/articles/mirra-andreeva-sister-performed-wta-170000292.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2847,7 +3141,7 @@
     "link": "https://sports.yahoo.com/articles/three-time-grand-slam-finalist-090000652.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2861,7 +3155,7 @@
     "link": "https://sports.yahoo.com/articles/carlos-alcaraz-gets-100-real-120443307.html",
     "source_name": "DDG/College Sports Network on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2875,7 +3169,7 @@
     "link": "https://kelo.com/2026/11/18/tennis-alcaraz-calm-over-hamstring-scare-at-atp-finals-after-injury-hit-season/",
     "source_name": "DDG/KELO",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2889,7 +3183,7 @@
     "link": "https://sports.yahoo.com/articles/report-alcaraz-doubtful-rest-atp-113335633.html",
     "source_name": "DDG/dpa international on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2903,7 +3197,7 @@
     "link": "https://sports.yahoo.com/articles/gta-6-jannik-sinner-comeback-094713542.html",
     "source_name": "DDG/College Sports Network on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -2917,7 +3211,7 @@
     "link": "https://www.nytimes.com/athletic/7671698/2026/11/18/claire-liu-tennis-grand-slams/",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-19 15:43 EET",
+    "date": "2026-11-19 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3062,6 +3356,48 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.07064876789174937,
+      "detections": []
+    }
+  },
+  {
+    "title": "Australian Open “led the way” for wheelchair tennis, recalls Di Toro",
+    "description": "Ten-time AO wheelchair singles champion Danni Di Toro is this week’s guest on The Sit-Down podcast.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/19/danni-di-toro-australian-open-the-sit-down-podcast",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-19 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.05234928422665019,
+      "detections": []
+    }
+  },
+  {
+    "title": "Ash Barty to be inducted into International Tennis Hall of Fame",
+    "description": "Three-time Grand Slam singles champion and former world No.1 Ash Barty will next year become the 35th Australian to enter the International Tennis Hall of Fame.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/19/ash-barty-international-tennis-hall-of-fame-2027",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-19 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03279594519287884,
+      "detections": []
+    }
+  },
+  {
+    "title": "Newks ’26: Milestones stack up for Hijikata after Djokovic victory",
+    "description": "Rinky Hijikata has been nominated for the prestigious Newcombe Medal after a coming-of-age season in which he entered the top 60 and earned a win over the great Novak Djokovic.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/19/hijikata-newcombe-medal-milestones-djokovic-win",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-19 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.032418889835847405,
       "detections": []
     }
   },
@@ -3309,7 +3645,7 @@
     "link": "https://sports.yahoo.com/articles/why-arthur-fils-ideal-plans-220000064.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-18 15:43 EET",
+    "date": "2026-11-18 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3323,7 +3659,7 @@
     "link": "https://sports.yahoo.com/articles/kim-clijsters-states-reason-she-020000194.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-18 15:43 EET",
+    "date": "2026-11-18 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3337,7 +3673,7 @@
     "link": "https://sports.yahoo.com/articles/former-us-open-champion-reaches-020000922.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-18 15:43 EET",
+    "date": "2026-11-18 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3351,7 +3687,7 @@
     "link": "https://sports.yahoo.com/articles/jannik-sinner-set-significant-step-170000456.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-18 15:43 EET",
+    "date": "2026-11-18 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3365,7 +3701,7 @@
     "link": "https://www.wimbledon.com/en_GB/news/wimbledon_names_harvey_its_first_official_legal_assistant_partner",
     "source_name": "Wimbledon",
     "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-11-18 15:39 EET",
+    "date": "2026-11-18 15:51 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3426,6 +3762,34 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.10141311192163606,
+      "detections": []
+    }
+  },
+  {
+    "title": "My Tennis Life: Li Tu",
+    "description": "In this series, we chat to Australia’s beloved tennis stars about their journey and the people who have influenced their careers.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/18/li-tu-my-tennis-life",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-18 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.02964782298448939,
+      "detections": []
+    }
+  },
+  {
+    "title": "Nominees revealed for the 2026 Newcombe Medal",
+    "description": "World No.11 Alex de Minaur (NSW), [36] Talia Gibson (WA), [47] Kimberly Birrell (Qld), [59] Rinky Hijikata (NSW) and [91] Taylah Preston (WA) have been nominated for the prestigious Newcombe Medal in 2026, awarded annually to the nation’s most outstanding",
+    "link": "https://www.tennis.com.au/fan-zone/features-and-media/media-releases/2026/11/18/nominees-revealed-for-the-2026-newcombe-medal",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-18 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.047336049794252516,
       "detections": []
     }
   },
@@ -3617,7 +3981,7 @@
     "link": "https://sports.yahoo.com/articles/doubles-players-atp-finals-issue-171747291.html",
     "source_name": "DDG/Associated Press on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-17 15:43 EET",
+    "date": "2026-11-17 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3631,7 +3995,7 @@
     "link": "https://sports.yahoo.com/articles/she-player-best-tiebreaks-wta-000000770.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-17 15:43 EET",
+    "date": "2026-11-17 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3645,7 +4009,7 @@
     "link": "https://sports.yahoo.com/articles/five-players-earned-most-prize-090000027.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-17 15:43 EET",
+    "date": "2026-11-17 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3659,7 +4023,7 @@
     "link": "https://www.aol.com/articles/iga-swiatek-reveals-one-thing-160538000.html",
     "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-17 15:43 EET",
+    "date": "2026-11-17 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3673,7 +4037,7 @@
     "link": "https://sports.yahoo.com/articles/madison-keys-claims-dramatic-change-020000958.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-17 15:43 EET",
+    "date": "2026-11-17 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3687,7 +4051,7 @@
     "link": "https://sports.yahoo.com/articles/coco-gauff-claims-unwanted-record-130000385.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-17 15:43 EET",
+    "date": "2026-11-17 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -3794,6 +4158,20 @@
     }
   },
   {
+    "title": "Stosur spurring on Australia's next generation",
+    "description": "Australian Billie Jean King Cup Captain Sam Stosur's strong winning culture motivates team for French revenge mission.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/17/sam-stosur-australia-v-france-billie-jean-king-cup",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-17 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03521861282423411,
+      "detections": []
+    }
+  },
+  {
     "title": "AO LIVE 2027 serves global dance icons, cultural trailblazers, electrifying entertainment",
     "description": "Global dance music icons Benny Benassi and Fedde Le Grand and cultural trailblazer RuPaul will headline an exciting new wave of artists set to take over Melbourne Park as part of AO LIVE 2027.",
     "link": "https://ausopen.com/articles/news/ao-live-2027-serves-global-dance-icons-cultural-trailblazers-and-electrifying",
@@ -3860,6 +4238,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.035320026433389724,
+      "detections": []
+    }
+  },
+  {
+    "title": "Rybakina returns to Brisbane International as new leader in women’s tennis",
+    "description": "Elena Rybakina won two Grand Slam titles in 2026 and ended the season as world No.1, establishing herself as the most potent force in the women’s game.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/11/elena-rybakina-returns-to-brisbane-as-leading-wta-player",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-11-17 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.037177267789888814,
       "detections": []
     }
   },
@@ -4065,7 +4457,7 @@
     "link": "https://sports.yahoo.com/articles/watch-carlos-alcaraz-vs-frances-122000649.html",
     "source_name": "DDG/Athlon Sports on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-16 15:43 EET",
+    "date": "2026-11-16 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4079,7 +4471,7 @@
     "link": "https://sports.yahoo.com/articles/tennis-top-talents-strut-style-201108602.html",
     "source_name": "DDG/WWD on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-16 15:43 EET",
+    "date": "2026-11-16 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4093,7 +4485,7 @@
     "link": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/bad-lighting-dry-skin-bill-133853882.html",
     "source_name": "DDG/Business Insider on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-16 15:43 EET",
+    "date": "2026-11-16 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4182,6 +4574,34 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.08703200276432481,
+      "detections": []
+    }
+  },
+  {
+    "title": "Aussie watch: Jones surges ahead in AO 2027 wildcard race after Brisbane run",
+    "description": "Emerson Jones is one step closer to a second straight AO wildcard after her Australian Pro Tour semifinal at the Queensland Tennis Centre.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/16/emerson-jones-leads-ao27-wildcard-points-race",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-16 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.034167851281395455,
+      "detections": []
+    }
+  },
+  {
+    "title": "Young players take next step at 10/u Green Ball Nationals",
+    "description": "Some of Australia's most promising young players will compete at the 10/u Green Ball Nationals in Penrith this week.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/16/2026-greenball-nationals-preview",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-16 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.038803010772211675,
       "detections": []
     }
   },
@@ -4597,7 +5017,7 @@
     "link": "https://sports.yahoo.com/articles/carlos-alcaraz-atp-finals-upstage-142429107.html",
     "source_name": "DDG/Forbes on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-14 15:43 EET",
+    "date": "2026-11-14 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4611,7 +5031,7 @@
     "link": "https://sports.yahoo.com/articles/wta-tour-facing-pressure-discipline-224728091.html",
     "source_name": "DuckDuckGo News",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-14 15:43 EET",
+    "date": "2026-11-14 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4625,7 +5045,7 @@
     "link": "https://sports.yahoo.com/articles/seventeen-tournaments-fifteen-champions-wta-153031089.html",
     "source_name": "DDG/Last Word on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-14 15:43 EET",
+    "date": "2026-11-14 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4639,7 +5059,7 @@
     "link": "https://sports.yahoo.com/articles/madison-keys-ons-jabeur-returning-193355702.html",
     "source_name": "DDG/The Big Lead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-14 15:43 EET",
+    "date": "2026-11-14 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4653,7 +5073,7 @@
     "link": "https://sports.yahoo.com/articles/happen-wta-tour-first-time-120000308.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-14 15:43 EET",
+    "date": "2026-11-14 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4765,7 +5185,7 @@
     "link": "https://bolavip.com/en/tennis/exclusive-taylor-fritz-opens-up-on-knee-struggles-sinner-and-alcaraz-gap-and-loneliness-on-atp-tour",
     "source_name": "DDG/bolavip",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-13 15:43 EET",
+    "date": "2026-11-13 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4798,6 +5218,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.034188751481635506,
+      "detections": []
+    }
+  },
+  {
+    "title": "Trending up: Sharma’s comeback gaining steam",
+    "description": "Astra Sharma, Matthew Dellavedova, Rinky Hijikata, Storm Hunter and Jake Delaney are all moving in a positive direction as the 2027 Summer of Tennis nears.",
+    "link": "https://www.tennis.com.au/fan-zone/news/2026/11/13/trending-up-sharma-dellavedova-hijikata-hunter-delaney",
+    "source_name": "Tennis Australia",
+    "source_url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+    "date": "2026-11-13 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.030051589197270436,
       "detections": []
     }
   },
@@ -4891,7 +5325,7 @@
     "link": "https://sports.yahoo.com/articles/jimmy-connors-states-carlos-alcaraz-150000181.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-12 15:43 EET",
+    "date": "2026-11-12 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4905,7 +5339,7 @@
     "link": "https://sports.yahoo.com/articles/lorenzo-musetti-shares-rest-atp-130000194.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-12 15:43 EET",
+    "date": "2026-11-12 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4919,7 +5353,7 @@
     "link": "https://www.postandcourier.com/moultrie-news/news/credit-one-chs-open-tickets-on-sale/article_0ce008b7-28d9-4a8e-87ac-3528a7c60d55.html",
     "source_name": "DDG/Post and Courier",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-12 15:43 EET",
+    "date": "2026-11-12 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -4933,7 +5367,7 @@
     "link": "https://kelo.com/2026/11/11/tennis-tunisian-jabeur-targeting-wta-tour-return-in-2027/",
     "source_name": "DDG/KELO",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-12 15:43 EET",
+    "date": "2026-11-12 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5026,6 +5460,20 @@
     }
   },
   {
+    "title": "\"If I'm Jessica Pegula, I'm Flipping Chairs\" - Andy Roddick Blasts WTA For 'Ridiculous' & 'Terrible' Hot Mic Drama At WTA Finals",
+    "description": "Andy Roddick recently criticized the WTA Tour over the hot mic controversy at the WTA Finals involving Jessica Pegula and Mirra Andreeva. During a practice session at Indian Wells, Pegula's conversation with her coach, Mark Knowles, was broadcast without either of them knowing.",
+    "link": "https://sports.yahoo.com/articles/m-jessica-pegula-m-flipping-120726504.html",
+    "source_name": "DDG/College Sports Network on Yahoo",
+    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
+    "date": "2026-11-11 15:54 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.21513273380502687,
+      "detections": []
+    }
+  },
+  {
     "title": "Give Me the Ball! review – tennis trailblazer Billie Jean King is ferocious force for equality",
     "description": "Sparky and engaging documentary about the ‘battle of the sexes’ player, who fought her whole career to ensure the women’s game got the respect it deserved After the engaging Evert and Navratilova documentary Chris and Martina: The Final Set comes this watchable and engaging documentary portrait of Billie Jean King. It includes sparky talking-head contributions from the woman herself, in her vivid red glasses, one of many sets that she apparently carries in a separate accessory case – perhaps the",
     "link": "https://www.theguardian.com/film/2026/nov/11/give-me-the-ball-review-billie-jean-king-documentary",
@@ -5082,20 +5530,6 @@
     }
   },
   {
-    "title": "Laver Cup: Zverev, Alcaraz confirmed to represent Team Europe at Los Angeles 2027",
-    "description": "World No.1 Alexander Zverev and seven-time Grand Slam champion Carlos Alcaraz are the first players confirmed for Laver Cup 2027 at Los Angeles' Intuit Dome, which will see the celebration of the event's 10th edition.",
-    "link": "https://ausopen.com/articles/news/laver-cup-zverev-alcaraz-confirmed-represent-team-europe-los-angeles-2027",
-    "source_name": "Australian Open",
-    "source_url": "https://ausopen.com/news",
-    "date": "2026-11-11 02:00 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.10158815945386906,
-      "detections": []
-    }
-  },
-  {
     "title": "Anett Kontaveit announces engagement to longtime partner Brent Lepistu during Jamaican vacation",
     "description": "Posting a series of photos from her Jamaican vacation, Estonian Anett Kontaveit slipped in a picture of her hand wearing an engagement ring, tagging her longtime partner, Brent Lepistu. View this post on Instagram A post shared by Anett Kontaveit (@anett_kontaveit) The former WTA world No. 2, who retired from professional tennis in […]",
     "link": "https://womenstennisblog.com/2026/11/10/anett-kontaveit-announces-engagement-to-longtime-partner-brent-lepistu-during-jamaican-vacation/",
@@ -5129,7 +5563,7 @@
     "link": "https://sports.yahoo.com/articles/jannik-sinner-suggests-long-wants-150000874.html",
     "source_name": "DDG/The Tennis Gazette on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-10 15:43 EET",
+    "date": "2026-11-10 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5148,6 +5582,20 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.050211875020110736,
+      "detections": []
+    }
+  },
+  {
+    "title": "Naomi Osaka to revisit site of tennis comeback",
+    "description": "In 2024, Naomi Osaka returned to tennis as a mother at the Brisbane International. Three years on, she'll be targeting her first title at Pat Rafter Arena.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/11/osaka-returns-to-site-of-comeback",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-11-10 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.03386023759381758,
       "detections": []
     }
   },
@@ -5171,7 +5619,7 @@
     "link": "https://sports.yahoo.com/articles/alex-eala-prize-money-2026-210000743.html",
     "source_name": "DDG/Tennishead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-09 15:43 EET",
+    "date": "2026-11-09 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5190,20 +5638,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.038878463354316835,
-      "detections": []
-    }
-  },
-  {
-    "title": "YoPRO and AO extend partnership to champion performance and progress",
-    "description": "The renewed partnership will see YoPRO expand its presence across the tournament, player and workforce environments, and year-round tennis initiatives, further strengthening its connection to the Australian Open.",
-    "link": "https://ausopen.com/articles/news/yopro-and-ao-extend-partnership-champion-performance-and-progress",
-    "source_name": "Australian Open",
-    "source_url": "https://ausopen.com/news",
-    "date": "2026-11-09 02:00 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.023754114388475633,
       "detections": []
     }
   },
@@ -5292,26 +5726,12 @@
     }
   },
   {
-    "title": "Sorana Cirstea posts message after playing final tournament of her career, 'an incredible year'",
-    "description": "Sorana Cirstea's 20-year journey on the WTA Tour has come to an end. The Romanian star, who made her WTA debut in 2006, saw her...",
-    "link": "https://sports.yahoo.com/articles/sorana-cirstea-posts-message-playing-140000101.html",
-    "source_name": "DDG/Tennishead on Yahoo",
-    "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-08 15:43 EET",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.036454217562350066,
-      "detections": []
-    }
-  },
-  {
     "title": "Are Tennis Balls Really Behind the Tour's Injury Crisis?",
     "description": "Carlos Alcaraz spent four months away this season with a right wrist injury, missing the French Open and Wimbledon. Jannik Sinner withdrew from the US Open with",
     "link": "https://www.si.com/onsi/serve/news/are-tennis-balls-really-behind-tours-injury-crisis-01m6pmayrqy1",
     "source_name": "DDG/Sports Illustrated",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-08 15:43 EET",
+    "date": "2026-11-08 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5325,7 +5745,7 @@
     "link": "https://www.wimbledon.com/en_GB/news/rhs_chelsea_flower_show",
     "source_name": "Wimbledon",
     "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-11-08 15:39 EET",
+    "date": "2026-11-08 15:51 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5558,6 +5978,20 @@
     }
   },
   {
+    "title": "Medvedev, Osaka back for Brisbane International 2027",
+    "description": "Defending men's champion Daniil Medvedev and four-time major winner Naomi Osaka to join world No.1s Elena Rybakina and Alexander Zverev in Brisbane field.",
+    "link": "https://www.tennis.com.au/brisbane-international/news/2026/11/medvedev-osaka-back-for-brisbane-international-2027",
+    "source_name": "Brisbane International",
+    "source_url": "https://www.brisbaneinternational.com.au/",
+    "date": "2026-11-05 02:00 EET",
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04377344676538166,
+      "detections": []
+    }
+  },
+  {
     "title": "Webinar: 'The gap between practice and match play is mental, and it can be coached.'",
     "description": "",
     "link": "https://www.tenniseurope.org/news/163817/Webinar-The-gap-between-practice-and-match-play-is-mental-and-it-can-be-coached",
@@ -5605,7 +6039,7 @@
     "link": "https://sports.yahoo.com/articles/gbs-stojsavljevic-17-claims-first-100615328.html",
     "source_name": "DDG/BBC on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-04 15:43 EET",
+    "date": "2026-11-04 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5619,7 +6053,7 @@
     "link": "https://www.aol.com/articles/british-teenager-mika-stojsavljevic-beats-100813000.html",
     "source_name": "DDG/AOL",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-04 15:43 EET",
+    "date": "2026-11-04 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5661,7 +6095,7 @@
     "link": "https://sports.yahoo.com/articles/death-threats-briton-burrage-wta-202617166.html",
     "source_name": "DDG/BBC on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-11-03 15:43 EET",
+    "date": "2026-11-03 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5773,7 +6207,7 @@
     "link": "https://www.clickondetroit.com/sports/2026/10/31/venus-williams-loses-her-doubles-match-at-guangzhou-on-the-wta-tour/",
     "source_name": "DDG/clickondetroit.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-31 15:43 EET",
+    "date": "2026-10-31 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5787,7 +6221,7 @@
     "link": "https://sports.yahoo.com/articles/briton-dart-reaches-first-wta-113800972.html",
     "source_name": "DDG/BBC on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-31 15:43 EET",
+    "date": "2026-10-31 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5829,7 +6263,7 @@
     "link": "https://www.bbc.com/sport/tennis/articles/cq5ynegm2p53o",
     "source_name": "DDG/BBC",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-30 15:43 EET",
+    "date": "2026-10-30 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -5983,7 +6417,7 @@
     "link": "https://sports.yahoo.com/articles/hailey-baptiste-victoria-mboko-eyeing-235614706.html",
     "source_name": "DDG/The Big Lead on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-27 15:43 EET",
+    "date": "2026-10-27 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6123,7 +6557,7 @@
     "link": "https://www.si.com/onsi/serve/news/why-grass-courts-are-disappearing-from-professional-tennis-01m3wfswbvfx",
     "source_name": "DDG/Sports Illustrated",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-25 15:43 EET",
+    "date": "2026-10-25 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6221,7 +6655,7 @@
     "link": "https://d2233.cms.socastsrm.com/2026/10/20/tennis-swiatek-loses-last-chance-to-qualify-for-wta-finals-after-withdrawing-from-ningbo/",
     "source_name": "DDG/socastsrm.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-20 15:43 EEST",
+    "date": "2026-10-20 15:54 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6347,7 +6781,7 @@
     "link": "https://www.clickondetroit.com/sports/2026/10/15/atp-tour-proposes-rule-changes-designed-to-reduce-overplaying-after-injuries-to-alcaraz-and-sinner/",
     "source_name": "DDG/clickondetroit.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-15 15:43 EEST",
+    "date": "2026-10-15 15:54 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6361,7 +6795,7 @@
     "link": "https://www.espn.com/tennis/story/_/id/50189374/proposed-atp-tour-changes-address-player-welfare-compensation",
     "source_name": "DDG/ESPN",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-15 15:43 EEST",
+    "date": "2026-10-15 15:54 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6389,7 +6823,7 @@
     "link": "https://sports.yahoo.com/articles/us-more-tennis-insider-urges-204334736.html",
     "source_name": "DDG/College Football Network on Yahoo",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-13 15:43 EEST",
+    "date": "2026-10-13 15:54 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6557,7 +6991,7 @@
     "link": "https://www.clickondetroit.com/sports/2026/10/01/wta-announces-major-milestone-with-equal-prize-money-at-italian-open-and-other-big-events-in-2027/",
     "source_name": "DDG/clickondetroit.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-10-01 15:43 EEST",
+    "date": "2026-10-01 15:54 EEST",
     "injection": {
       "scanned": true,
       "risk": "medium",
@@ -6958,34 +7392,6 @@
     }
   },
   {
-    "title": "Wimbledon commemorates 25 years of introducing local children to tennis with celebratory event",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/wimbledon_commemorates_25_years_of_wjti",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-09-07 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.03525633408513069,
-      "detections": []
-    }
-  },
-  {
-    "title": "US Open 2026: Week One Recap",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/us-open-2026---week-one-review",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-09-07 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.044531358470140656,
-      "detections": []
-    }
-  },
-  {
     "title": "Major coup – Rafael Jódar is coming to Basel!",
     "description": "Major coup – Rafael Jódar is coming to Basel!The breakthrough player of the year completes the Star Line-Up",
     "link": "https://www.swissindoorsbasel.ch/en/tournament/tournament-news/articles/2026-08-28_Major-coup-Rafael-Jodar-is-coming-to-Basel.php",
@@ -6996,20 +7402,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05134739516428542,
-      "detections": []
-    }
-  },
-  {
-    "title": "Grand Slams announce formation of a Grand Slam Player Advisory Council",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/grand_slam_player_advisory_council",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-08-20 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.053587163366012915,
       "detections": []
     }
   },
@@ -7112,20 +7504,6 @@
     }
   },
   {
-    "title": "Play Your Way to Wimbledon Returns to SW19 for the 2026 National Finals",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/Play_Your_Way_to_Wimbledon_Returns_for_2026_Finals",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-07-31 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.0413043389921365,
-      "detections": []
-    }
-  },
-  {
     "title": "How player form and statistics influence table tennis odds",
     "description": "Table tennis is probably the most dynamic sport, attracting people worldwide. Its fast-paced nature makes it popular among bookies trying to predict potential winners.  They consider the player's phys...",
     "link": "https://tennis-infinity.com/news/how-player-form-and-statistics-influence-table-tennis-odds",
@@ -7136,20 +7514,6 @@
       "scanned": true,
       "risk": "medium",
       "score": 0.05217113542590682,
-      "detections": []
-    }
-  },
-  {
-    "title": "The Championships 2026 sets new records for attendance and digital audience",
-    "description": "I have read, understand and agree to the Terms of Use",
-    "link": "https://www.wimbledon.com/en_GB/news/THE_CHAMPIONSHIPS_2026_SETS_NEW_RECORDS_FOR_ATTENDANCE_AND_DIGITAL_AUDIENCE",
-    "source_name": "Wimbledon",
-    "source_url": "https://www.wimbledon.com/en_GB/news/index.html",
-    "date": "2026-07-28 03:00 EEST",
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.055440490775770575,
       "detections": []
     }
   },
@@ -7607,7 +7971,7 @@
     "link": "https://health.yahoo.com/conditions/musculoskeletal/articles/5-common-tennis-injuries-weekend-163402073.html",
     "source_name": "DDG/yahoo.com",
     "source_url": "https://duckduckgo.com/?q=tennis&iar=news&df=d",
-    "date": "2026-03-20 15:43 EET",
+    "date": "2026-03-20 15:54 EET",
     "injection": {
       "scanned": true,
       "risk": "medium",
