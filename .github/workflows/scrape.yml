@@ -75,6 +75,12 @@ jobs:
           node-version: '20'
 
       - name: Install defender bridge deps
+        # onnxruntime-node (via @huggingface/transformers) downloads its CUDA build
+        # on install; Microsoft's v1.21.0 GPU archive now 404s, which failed every
+        # run from 2026-11-18. The runner has no GPU; the CPU runtime ships in
+        # the package.
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
         working-directory: backend
         run: npm install --omit=dev --no-audit --no-fund
 
