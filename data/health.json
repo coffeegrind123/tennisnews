@@ -2,6 +2,11 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
+    "Lob & Smash": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "10sBalls": {
       "type": "rss",
       "count": 16,
@@ -18,32 +23,17 @@
       "count": 20,
       "error": ""
     },
-    "Perfect Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
     "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Lob & Smash": {
+    "Perfect Tennis": {
       "type": "rss",
-      "count": 20,
+      "count": 10,
       "error": ""
     },
     "Tennis365": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Last Word on Tennis": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis Now": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -53,7 +43,22 @@
       "count": 20,
       "error": ""
     },
+    "Last Word on Tennis": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
     "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "ESPN Tennis": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -73,17 +78,7 @@
       "count": 20,
       "error": ""
     },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "World Tennis Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -93,20 +88,25 @@
       "count": 20,
       "error": ""
     },
-    "ESPN Tennis": {
-      "type": "rss",
-      "count": 0,
-      "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
-    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
     },
+    "World Tennis Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 0,
+      "error": "no entries from any user agent (Mozilla:None, feedparser:None, Mozilla:None); last http=None, bozo=<urlopen error [Errno 110] Connection timed out>"
+    },
     "ATP Tour": {
       "type": "scrape",
-      "count": 13,
-      "error": ""
+      "count": 0,
+      "error": "ATP Tour: never got past the Cloudflare challenge"
     },
     "Tennis.com": {
       "type": "scrape",
@@ -125,7 +125,7 @@
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5f1afa5585ba942 Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5f9eca75b2e88dc Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
@@ -136,8 +136,19 @@
     },
     "Tennis Australia": {
       "type": "scrape",
-      "count": 11,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.tennis.com.au/news-and-events/news-and-features/all-news",
+        "title": "Just a moment...",
+        "htmlLen": 44559,
+        "bodyTextLen": 265,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5f9eeb10a7c5ddf Performance and Securit"
+      },
+      "challenge_retry": "never cleared"
     },
     "Tennis Infinity": {
       "type": "scrape",
@@ -166,13 +177,24 @@
     },
     "Tennis Canada": {
       "type": "scrape",
-      "count": 12,
+      "count": 11,
       "error": ""
     },
     "USTA Florida": {
       "type": "scrape",
-      "count": 15,
-      "error": ""
+      "count": 0,
+      "error": "",
+      "empty_diagnostic": {
+        "url": "https://www.ustaflorida.com/news/?ki-cf-botcl=1",
+        "title": "Just a moment...",
+        "htmlLen": 44514,
+        "bodyTextLen": 267,
+        "markers": [
+          "cloudflare-challenge"
+        ],
+        "bodyHead": "www.ustaflorida.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5f9f3c92ea0efce Performance and Secur"
+      },
+      "challenge_retry": "never cleared"
     },
     "Rafael Nadal Fans": {
       "type": "scrape",
@@ -191,12 +213,12 @@
       "empty_diagnostic": {
         "url": "https://www.tennis.com.au/brisbane-international",
         "title": "Just a moment...",
-        "htmlLen": 44435,
+        "htmlLen": 44456,
         "bodyTextLen": 265,
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5f1b7cabf735756 Performance and Securit"
+        "bodyHead": "www.tennis.com.au Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a5f9f6cd8e633741 Performance and Securit"
       },
       "challenge_retry": "never cleared"
     },
@@ -229,8 +251,8 @@
       "candidates": 120,
       "tiers": {
         "timeline": 3,
-        "challenged": 14,
-        "rate-limited": 0,
+        "challenged": 13,
+        "rate-limited": 1,
         "nitter-empty": 1,
         "no-tokens": 0,
         "dead": 100,
@@ -239,31 +261,31 @@
       },
       "verified_good": [
         "https://nitter.catsarch.com",
-        "https://twiiit.com",
-        "https://nitter.meowing.monster",
-        "https://nitter.mizuki.st",
-        "https://nitterts.pages.dev"
-      ],
-      "verified_bad": [
-        "https://nitter.tiekoetter.com",
-        "https://nitter.netbub.com",
-        "https://bird.habedieeh.re",
-        "https://nuku.trabun.org",
-        "https://nitter.freedit.eu",
-        "https://nitter.xitter.cc",
-        "https://nitter.kareem.one",
-        "https://nitter.ip6arpa.uk",
-        "https://lightbrd.com"
-      ],
-      "bases": [
-        "https://nitter.catsarch.com",
-        "https://twiiit.com",
         "https://nitter.meowing.monster",
         "https://nitter.mizuki.st",
         "https://nitterts.pages.dev",
+        "https://twiiit.com"
+      ],
+      "verified_bad": [
+        "https://lightbrd.com",
+        "https://nitter.freedit.eu",
+        "https://nitter.ip6arpa.uk",
+        "https://nitter.xitter.cc",
+        "https://nitter.kareem.one",
+        "https://nuku.trabun.org",
+        "https://bird.habedieeh.re",
+        "https://nitter.netbub.com",
+        "https://nitter.tiekoetter.com"
+      ],
+      "bases": [
+        "https://nitter.catsarch.com",
+        "https://nitter.meowing.monster",
+        "https://nitter.mizuki.st",
+        "https://nitterts.pages.dev",
+        "https://twiiit.com",
         "https://nohup.cz",
         "https://nitter.mie.foundation",
-        "https://nitter.femboy.delivery"
+        "https://nitter.r4fo.com"
       ]
     },
     "error": "",
@@ -272,9 +294,9 @@
   "proxy_error": "4 attempts failed: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
   "proxy": "configured but UNREACHABLE - fell back to direct",
   "assets": {
-    "blocked": 11061,
-    "allowed": 7913,
-    "blocked_pct": 58.3
+    "blocked": 4568,
+    "allowed": 7023,
+    "blocked_pct": 39.4
   },
   "navigation": {
     "floored": 2,
@@ -285,17 +307,15 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 606,
-    "flagged": 1,
-    "redacted": 1,
-    "by_source": {
-      "Tennis365": 1
-    },
-    "captured": 1
+    "scanned": 577,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
   },
   "injections": {
     "total_recorded": 74,
-    "new_this_run": 1,
+    "new_this_run": 0,
     "repeat_this_run": 0,
     "by_source": {
       "DuckDuckGo News": 25,
@@ -341,11 +361,14 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-11-23 17:02:02 UTC",
+  "generated_at": "2026-11-24 17:03:53 UTC",
   "empty_sources": [
+    "ATP Tour",
     "Brisbane International",
-    "ESPN Tennis",
+    "Tennis Australia",
     "Tennis Ireland",
-    "Tennis World USA"
+    "Tennis Now",
+    "Tennis World USA",
+    "USTA Florida"
   ]
 }
