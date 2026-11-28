@@ -2,12 +2,12 @@
   "browser_ok": true,
   "browser_error": "",
   "sources": {
-    "Lob & Smash": {
+    "Tennis Majors": {
       "type": "rss",
       "count": 20,
       "error": ""
     },
-    "Tennis Majors": {
+    "Lob & Smash": {
       "type": "rss",
       "count": 20,
       "error": ""
@@ -17,12 +17,12 @@
       "count": 10,
       "error": ""
     },
-    "Perfect Tennis": {
+    "Tennis View Magazine": {
       "type": "rss",
       "count": 10,
       "error": ""
     },
-    "Tennis Now": {
+    "Perfect Tennis": {
       "type": "rss",
       "count": 10,
       "error": ""
@@ -37,6 +37,41 @@
       "count": 10,
       "error": ""
     },
+    "Tennis Now": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Guardian Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Racquet Magazine": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "BBC Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Ubitennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
+    "Tennis Nerd": {
+      "type": "rss",
+      "count": 10,
+      "error": ""
+    },
+    "Yahoo Sports Tennis": {
+      "type": "rss",
+      "count": 20,
+      "error": ""
+    },
     "Open Court": {
       "type": "rss",
       "count": 10,
@@ -47,44 +82,9 @@
       "count": 10,
       "error": ""
     },
-    "Racquet Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Tennis View Magazine": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "Ubitennis": {
+    "Women's Tennis Blog": {
       "type": "rss",
       "count": 20,
-      "error": ""
-    },
-    "Guardian Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "BBC Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Yahoo Sports Tennis": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
-    "Tennis Nerd": {
-      "type": "rss",
-      "count": 10,
-      "error": ""
-    },
-    "10sBalls": {
-      "type": "rss",
-      "count": 16,
       "error": ""
     },
     "ESPN Tennis": {
@@ -92,15 +92,15 @@
       "count": 0,
       "error": "no entries from any user agent (Mozilla:202, feedparser:202, Mozilla:202); last http=202, bozo=None"
     },
-    "Women's Tennis Blog": {
-      "type": "rss",
-      "count": 20,
-      "error": ""
-    },
     "Tennis Ireland": {
       "type": "rss",
       "count": 0,
       "error": "no entries from any user agent (Mozilla:403, feedparser:403, Mozilla:403); last http=403, bozo=<unknown>:15:4: mismatched tag"
+    },
+    "10sBalls": {
+      "type": "rss",
+      "count": 16,
+      "error": ""
     },
     "ATP Tour": {
       "type": "scrape",
@@ -124,7 +124,7 @@
         "markers": [
           "cloudflare-challenge"
         ],
-        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a6124c545c74ccc8 Performance and Se"
+        "bodyHead": "www.tennisworldusa.org Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a61a2a1d9fe10434 Performance and Se"
       },
       "challenge_retry": "never cleared"
     },
@@ -150,7 +150,7 @@
     },
     "US Open": {
       "type": "scrape",
-      "count": 10,
+      "count": 9,
       "error": ""
     },
     "Wimbledon": {
@@ -205,7 +205,7 @@
     },
     "DuckDuckGo News": {
       "type": "scrape",
-      "count": 134,
+      "count": 139,
       "error": ""
     }
   },
@@ -217,11 +217,11 @@
       "candidates": 119,
       "tiers": {
         "timeline": 1,
-        "challenged": 13,
+        "challenged": 12,
         "rate-limited": 0,
         "nitter-empty": 1,
         "no-tokens": 1,
-        "dead": 101,
+        "dead": 102,
         "retired": 2,
         "retired_skipped": 0
       },
@@ -232,12 +232,13 @@
       ],
       "verified_bad": [
         "https://nitter.kareem.one",
-        "https://nitter.ip6arpa.uk",
-        "https://lightbrd.com",
-        "https://nitter.freedit.eu",
-        "https://nitter.netbub.com",
         "https://nuku.trabun.org",
-        "https://bird.habedieeh.re"
+        "https://bird.habedieeh.re",
+        "https://nitter.netbub.com",
+        "https://nitter.ip6arpa.uk",
+        "https://nitter.freedit.eu",
+        "https://lightbrd.com",
+        "https://nitter.tiekoetter.com"
       ],
       "bases": [
         "https://nitter.catsarch.com",
@@ -245,9 +246,9 @@
         "https://nitter.mizuki.st",
         "https://nohup.cz",
         "https://nitter.femboy.delivery",
-        "https://twiiit.com",
         "https://nitter.adminforge.de",
-        "https://nitter.kareem.one"
+        "https://nitter.kareem.one",
+        "https://nuku.trabun.org"
       ]
     },
     "error": "",
@@ -256,9 +257,9 @@
   "proxy_error": "4 attempts failed: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>; URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
   "proxy": "configured but UNREACHABLE - fell back to direct",
   "assets": {
-    "blocked": 6622,
-    "allowed": 7843,
-    "blocked_pct": 45.8
+    "blocked": 6848,
+    "allowed": 8350,
+    "blocked_pct": 45.1
   },
   "navigation": {
     "floored": 2,
@@ -269,17 +270,15 @@
   "defender": {
     "available": true,
     "error": "",
-    "scanned": 636,
-    "flagged": 1,
-    "redacted": 1,
-    "by_source": {
-      "Yahoo Sports Tennis": 1
-    },
-    "captured": 1
+    "scanned": 637,
+    "flagged": 0,
+    "redacted": 0,
+    "by_source": {},
+    "captured": 0
   },
   "injections": {
     "total_recorded": 75,
-    "new_this_run": 1,
+    "new_this_run": 0,
     "repeat_this_run": 0,
     "by_source": {
       "DuckDuckGo News": 25,
@@ -325,7 +324,7 @@
       "DDG/ZEIT ONLINE": 1
     }
   },
-  "generated_at": "2026-11-27 15:59:59 UTC",
+  "generated_at": "2026-11-28 14:54:23 UTC",
   "empty_sources": [
     "ESPN Tennis",
     "Tennis Ireland",

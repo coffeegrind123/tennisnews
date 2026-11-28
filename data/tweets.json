@@ -11,7 +11,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03181488021601282,
+      "score": 0.028802884786626855,
       "detections": []
     }
   },
@@ -27,7 +27,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.05179519244163513,
+      "score": 0.04721046410956472,
       "detections": []
     }
   },
@@ -43,7 +43,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.13436788939151867,
+      "score": 0.13772788051523724,
       "detections": []
     }
   },
@@ -59,7 +59,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2720814044045725,
+      "score": 0.27883675740211084,
       "detections": []
     }
   },
@@ -75,7 +75,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09241314007885425,
+      "score": 0.08570088103228046,
       "detections": []
     }
   },
@@ -91,7 +91,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04227833258738136,
+      "score": 0.03737784809793281,
       "detections": []
     }
   },
@@ -107,7 +107,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.1983970279557613,
+      "score": 0.2067450092948178,
       "detections": []
     }
   },
@@ -123,7 +123,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0542559823092234,
+      "score": 0.04728698258260119,
       "detections": []
     }
   },
@@ -139,7 +139,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04983544937349141,
+      "score": 0.040229123040499616,
       "detections": []
     }
   },
@@ -155,7 +155,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03830885785287667,
+      "score": 0.03160021454149872,
       "detections": []
     }
   },
@@ -171,7 +171,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07830127598035423,
+      "score": 0.06147424377533417,
       "detections": []
     }
   },
@@ -187,7 +187,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07330922021295676,
+      "score": 0.09089576416262182,
       "detections": []
     }
   },
@@ -203,7 +203,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06441888410774899,
+      "score": 0.05258694447134327,
       "detections": []
     }
   },
@@ -219,7 +219,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04838077284405698,
+      "score": 0.04110978562399009,
       "detections": []
     }
   },
@@ -235,30 +235,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.031627229987510885,
-      "detections": []
-    }
-  },
-  {
-    "title": "Novak Djokovic’s inat is on full display in the new documentary. That uniquely Serbian instinct to dig in when the world pushes back—to turn doubt, hostility and adversity into fuel. You can analyze his greatness in numbers, but you can’t understand Novak without understanding inat. 🇷🇸🐐",
-    "description": "",
-    "link": "https://nitter.catsarch.com/operskapevacica/status/2090571789659214069#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-08-21 01:48 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04011619627844751,
+      "score": 0.029767043147506597,
       "detections": []
     }
   },
   {
     "title": "Ok ok im curious…. Anyone watched the doc yet? 🫣 #thewolfinwinter",
     "description": "",
-    "link": "https://nitter.catsarch.com/jelenadjokovic/status/2090716683384103269#m",
+    "link": "https://nohup.cz/jelenadjokovic/status/2090716683384103269#m",
     "handle": "jelenadjokovic",
     "author": "Jelena Djokovic",
     "outlet": "Djokovic family",
@@ -267,30 +251,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.5250368602383791,
-      "detections": []
-    }
-  },
-  {
-    "title": "Tennis star Novak Djokovic hits 3 straight 3-pointers at @FanaticsFest 👌",
-    "description": "",
-    "link": "https://nitter.catsarch.com/NBA/status/2078598248726438111#m",
-    "handle": "jelenadjokovic",
-    "author": "Jelena Djokovic",
-    "outlet": "Djokovic family",
-    "date": "2026-07-19 00:50 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.057143928695953146,
+      "score": 0.3805444408157251,
       "detections": []
     }
   },
   {
     "title": "🥹🥹🥹🥹🥹",
     "description": "",
-    "link": "https://nitter.catsarch.com/jelenadjokovic/status/2017249310388142394#m",
+    "link": "https://nohup.cz/jelenadjokovic/status/2017249310388142394#m",
     "handle": "jelenadjokovic",
     "author": "Jelena Djokovic",
     "outlet": "Djokovic family",
@@ -299,14 +267,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
       "detections": []
     }
   },
   {
     "title": "🤣🤣🤣🙌🏼",
     "description": "",
-    "link": "https://nitter.catsarch.com/jelenadjokovic/status/1987834454463652061#m",
+    "link": "https://nohup.cz/jelenadjokovic/status/1987834454463652061#m",
     "handle": "jelenadjokovic",
     "author": "Jelena Djokovic",
     "outlet": "Djokovic family",
@@ -315,14 +283,46 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.2923701160106168,
+      "score": 0.2797040348766316,
+      "detections": []
+    }
+  },
+  {
+    "title": "What a symbolic day. \nFor Novak’s 1st title: he beat Massú.\nFor His 100th: he beat Massú’s student.\n19 years apart.\nTime, the greatest storyteller. @DjokerNole",
+    "description": "",
+    "link": "https://nohup.cz/jelenadjokovic/status/1926326281005646256#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-05-24 20:15 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.047977627844710775,
+      "detections": []
+    }
+  },
+  {
+    "title": "Wow kakva simbolika @DjokerNole \nPrvu titulu osvojio protiv Masua. \nStotu osvojio 19 godina kasnije protiv njegovog igrača, Huberta.",
+    "description": "",
+    "link": "https://nohup.cz/jelenadjokovic/status/1926324194091946102#m",
+    "handle": "jelenadjokovic",
+    "author": "Jelena Djokovic",
+    "outlet": "Djokovic family",
+    "date": "2025-05-24 20:07 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.4542063143027797,
       "detections": []
     }
   },
   {
     "title": "DAVIS CUP on TSN\nToday: Czechia vs Italy - 10 am (ET) TSN3\nSaturday: Spain vs GBR - 6 am (ET) TSN4\nSunday: FINAL - 9 am (ET) TSN2",
     "description": "",
-    "link": "https://nitter.catsarch.com/tomtebbutt/status/2126333912284831931#m",
+    "link": "https://nohup.cz/tomtebbutt/status/2126333912284831931#m",
     "handle": "tomtebbutt",
     "author": "Tom Tebbutt",
     "outlet": "Tennis Canada",
@@ -331,14 +331,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12956081462992988,
+      "score": 0.14014470904076168,
       "detections": []
     }
   },
   {
     "title": "UPDATE:\nDAVIS CUP QFs: Canada vs Czechia - Bologna, Italy. TODAY at 10 am ET on TSN5 and TVA Sports.\n1 #152 Liam Draxl CAN vs #58 Tomáš Macháč CZE\n2 #17 Félix Auger-Aliassime CAN vs #14 Jiří Lehečka CZE",
     "description": "",
-    "link": "https://nitter.catsarch.com/tomtebbutt/status/2125248663207440733#m",
+    "link": "https://nohup.cz/tomtebbutt/status/2125248663207440733#m",
     "handle": "tomtebbutt",
     "author": "Tom Tebbutt",
     "outlet": "Tennis Canada",
@@ -347,46 +347,30 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07814131045580659,
+      "score": 0.07269795068233961,
       "detections": []
     }
   },
   {
     "title": "DAVIS CUP QFs: Canada vs Czechia - Bologna, Italy.\nTODAY at 10 am ET on TSN5 and TVA Sports.\n1 #152 Liam Draxl CAN vs #15 Jakub Menšík CZE\n2 #17 Félix Auger-Aliassime CAN vs #14 Jiří Lehečka CZE",
     "description": "",
-    "link": "https://nitter.catsarch.com/tomtebbutt/status/2125106632052887987#m",
+    "link": "https://nohup.cz/tomtebbutt/status/2125106632052887987#m",
     "handle": "tomtebbutt",
     "author": "Tom Tebbutt",
     "outlet": "Tennis Canada",
     "date": "2026-11-24 07:57 EET",
-    "is_retweet": true,
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.06770853692142656,
-      "detections": []
-    }
-  },
-  {
-    "title": "A TRUMP IMPERSONATOR JUST STOLE THE SHOW IN CANADA! 😂🇨🇦\n\nMark Carney joins in as a Trump impersonator brings the house down at the Parliamentary Press Gallery Dinner. COMEDY GOLD! 🤣",
-    "description": "",
-    "link": "https://nitter.catsarch.com/BrittanyinTexas/status/2124354996003131742#m",
-    "handle": "tomtebbutt",
-    "author": "Tom Tebbutt",
-    "outlet": "Tennis Canada",
-    "date": "2026-11-22 06:11 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.07914131618628042,
+      "score": 0.07236628939850902,
       "detections": []
     }
   },
   {
     "title": "Bianca Andreescu completes a fantastic run of 4 WTA 125 tournaments. One r/u, 3 titles, including today in Colombia 6-3, 6-3 over Elizabeth Mandlik. She's 19-1 since week of Oct. 18. Only 3 wins went to a 3rd set. Ranking #183 at US Open - now #77.\nDirect entry to ’27 AO assured.",
     "description": "",
-    "link": "https://nitter.catsarch.com/tomtebbutt/status/2121701929718067286#m",
+    "link": "https://nohup.cz/tomtebbutt/status/2121701929718067286#m",
     "handle": "tomtebbutt",
     "author": "Tom Tebbutt",
     "outlet": "Tennis Canada",
@@ -395,30 +379,46 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046912031898292586,
+      "score": 0.0437178268353447,
       "detections": []
     }
   },
   {
-    "title": "From our author",
+    "title": "We've come a long way since jerks like Connors, McEnroe and Nastase - a lot of that due to Roger, Rafa, Novak and Andy - not totally perfect but decent guys.",
     "description": "",
-    "link": "https://nitter.catsarch.com/DelpoBook/status/2126331094987403557#m",
-    "handle": "tennispublisher",
-    "author": "Randy Walker",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-27 17:03 EET",
-    "is_retweet": true,
+    "link": "https://nohup.cz/tomtebbutt/status/2118915956428923204#m",
+    "handle": "tomtebbutt",
+    "author": "Tom Tebbutt",
+    "outlet": "Tennis Canada",
+    "date": "2026-11-07 05:58 EET",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07585090939193384,
+      "score": 0.04889494919354154,
+      "detections": []
+    }
+  },
+  {
+    "title": "Magic of Christmas in New York City youtu.be/5TY1_5IDCGU?si=gKew… via @YouTube",
+    "description": "",
+    "link": "https://nohup.cz/TennisPublisher/status/2126347478752801141#m",
+    "handle": "tennispublisher",
+    "author": "Randy Walker",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-27 18:08 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04136195556409084,
       "detections": []
     }
   },
   {
     "title": "First Thanksgiving since my mom passed on November 13",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisPublisher/status/2126083639037337720#m",
+    "link": "https://nohup.cz/TennisPublisher/status/2126083639037337720#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -427,14 +427,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03669098375027915,
+      "score": 0.03193217734836789,
       "detections": []
     }
   },
   {
     "title": "Is it really the premier college tennis event when 13 of the top 20 ranked men and women skip the event?!? Hope the college tennis brain trust can reverse this decision",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisPublisher/status/2125575418531209568#m",
+    "link": "https://nohup.cz/TennisPublisher/status/2125575418531209568#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -443,14 +443,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0492294636201841,
+      "score": 0.04557625533942392,
       "detections": []
     }
   },
   {
     "title": "Crowd for the NCAA singles finals on a cool and wet Sunday before Thanksgiving in Athens, Georgia",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisPublisher/status/2124696142315487453#m",
+    "link": "https://nohup.cz/TennisPublisher/status/2124696142315487453#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -459,14 +459,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.035696197714399566,
+      "score": 0.030433276775445058,
       "detections": []
     }
   },
   {
     "title": "American Katie Rolls Wins NCAA Women’s Singles Title For University of Virginia worldtennismagazine.com/amer… #NCAATennis @UVAWomensTennis",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisPublisher/status/2124634316793659628#m",
+    "link": "https://nohup.cz/TennisPublisher/status/2124634316793659628#m",
     "handle": "tennispublisher",
     "author": "Randy Walker",
     "outlet": "World Tennis Magazine",
@@ -475,14 +475,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08421675819111897,
+      "score": 0.07337001225924532,
       "detections": []
     }
   },
   {
     "title": "Had the chance to attend the USA Standing Adaptive Tennis tournament at @SMU. \n\nThe athletes have decreased mobility due to amputations, congenital conditions, etc., and they are SO impressive. \n\nThis is Nico Basaez from Chile (vs. Yusuke Hatano of Japan). Amazing. @USTATexas",
     "description": "",
-    "link": "https://nitter.catsarch.com/BlairHenley/status/1602024208615219207#m",
+    "link": "https://nohup.cz/BlairHenley/status/1602024208615219207#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -491,46 +491,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.08314474589953268,
-      "detections": []
-    }
-  },
-  {
-    "title": "Every collection starts somewhere, and my @CrateandBarrel collection started in Milan 🤍 So much inspiration from the vintage pieces we saw along the way ✨\n\ncrateandbarrel.com/collabora…",
-    "description": "",
-    "link": "https://nitter.catsarch.com/Venuseswilliams/status/2125641244080750748#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-25 19:22 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.05427018745130176,
-      "detections": []
-    }
-  },
-  {
-    "title": "RT @mintrbls: let @CocoGauff rest!",
-    "description": "",
-    "link": "https://nitter.catsarch.com/BlairHenley/status/2125750935938826559#m",
-    "handle": "blairhenley",
-    "author": "Blair Henley",
-    "outlet": "World Tennis Magazine",
-    "date": "2026-11-26 02:38 EET",
-    "is_retweet": false,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.08351896522443969,
+      "score": 0.07516741505665173,
       "detections": []
     }
   },
   {
     "title": "If you listened to the last @loveallpodcast episode, it was so fun to hear Lindsay and Kim talk about what it was like playing each other.",
     "description": "",
-    "link": "https://nitter.catsarch.com/BlairHenley/status/2125078360611021030#m",
+    "link": "https://nohup.cz/BlairHenley/status/2125078360611021030#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
@@ -539,110 +507,142 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.051187297015516435,
+      "score": 0.04352624941443914,
       "detections": []
     }
   },
   {
-    "title": "Coco said she beat everybody's butts at UNO during the rain delay😆",
+    "title": "Obviously asked Linda Noskova about her new, fancier nose ring, which she added to her collection before Asia.",
     "description": "",
-    "link": "https://nitter.catsarch.com/hoppang121/status/2124331309577523585#m",
+    "link": "https://nohup.cz/BlairHenley/status/2121040454720659942#m",
     "handle": "blairhenley",
     "author": "Blair Henley",
     "outlet": "World Tennis Magazine",
-    "date": "2026-11-22 04:37 EET",
-    "is_retweet": true,
+    "date": "2026-11-13 02:40 EET",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09391313347258343,
+      "score": 0.08762845305836302,
       "detections": []
     }
   },
   {
-    "title": "Carlos Alcaraz, Nitto ATP Finals CHAMPION 🏆\n\n#NittoATPFinals",
+    "title": "Honestly only Coco could win a match with an apparent injury, come to a suite visit and fully commit to TikTok excellence with the fans who were there.",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisTV/status/2124587557044305992#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-11-22 21:35 EET",
-    "is_retweet": true,
+    "link": "https://nohup.cz/BlairHenley/status/2121008002136445164#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-13 00:31 EET",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07616922580735158,
+      "score": 0.03503464909195546,
       "detections": []
     }
   },
   {
-    "title": "CARLOS ALCARAZ. \n\nNITTO ATP FINALS CHAMPION. \n\n#NittoATPFinals",
+    "title": "When happens when Coco’s mind “turns off?” \n\nDrop shots, of course.",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisTV/status/2124582882777927688#m",
-    "handle": "tennisviewmag",
-    "author": "Tennis View Mag",
-    "outlet": "Tennis View Magazine",
-    "date": "2026-11-22 21:16 EET",
-    "is_retweet": true,
+    "link": "https://nohup.cz/BlairHenley/status/2119888770678010068#m",
+    "handle": "blairhenley",
+    "author": "Blair Henley",
+    "outlet": "World Tennis Magazine",
+    "date": "2026-11-09 22:24 EET",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.07235320764650763,
+      "score": 0.030309517668098706,
       "detections": []
     }
   },
   {
-    "title": "Back with a bang. 💥\n\n@carlosalcaraz #NittoATPFinals",
+    "title": "Anisimova Stuns Sabalenka To Reach Wimbledon Semis\n\ntennisviewmag.com/tennis-vie…",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisTV/status/2124584133049368695#m",
+    "link": "https://nohup.cz/TennisViewMag/status/1943594631129678258#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-11-22 21:21 EET",
-    "is_retweet": true,
+    "date": "2025-07-11 11:54 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.20530232100981358,
+      "score": 0.06599450041263814,
       "detections": []
     }
   },
   {
-    "title": "A huge moment for Arribage and Olivetti 🇫🇷\n\nThe French pair defeat Arevalo/Pavic 3-6 7-6 10-6 to claim a maiden Nitto ATP Finals title! 🌟\n\n#NittoATPFinals",
+    "title": "Wimbledon: Sinner Throttles Shelton, Advances To Semifinal\n\ntennisviewmag.com/tennis-vie…\n\n#Wimbledon",
     "description": "",
-    "link": "https://nitter.catsarch.com/TennisTV/status/2124530248486097014#m",
+    "link": "https://nohup.cz/TennisViewMag/status/1943594166698553519#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-11-22 17:47 EET",
-    "is_retweet": true,
+    "date": "2025-07-11 11:52 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0637066186843594,
+      "score": 0.05334819490638234,
       "detections": []
     }
   },
   {
-    "title": "It all adds up to this…🏆\n\n@intesasanpaolo | #partner",
+    "title": "Anisimova Reaches Her First Wimbledon Semifinal\n\ntennisviewmag.com/tennis-vie…\n\n#Wimbledon",
     "description": "",
-    "link": "https://nitter.catsarch.com/atptour/status/2124499026812846106#m",
+    "link": "https://nohup.cz/TennisViewMag/status/1942872997150199941#m",
     "handle": "tennisviewmag",
     "author": "Tennis View Mag",
     "outlet": "Tennis View Magazine",
-    "date": "2026-11-22 15:43 EET",
-    "is_retweet": true,
+    "date": "2025-07-09 12:06 EEST",
+    "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.24213702644828716,
+      "score": 0.052219655666423705,
+      "detections": []
+    }
+  },
+  {
+    "title": "Wimbledon: Shelton Moves Into A Meeting With World No. One\n\ntennisviewmag.com/tennis-vie…\n\n#Wimbledon",
+    "description": "",
+    "link": "https://nohup.cz/TennisViewMag/status/1942529040239452415#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2025-07-08 13:19 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04434050612736757,
+      "detections": []
+    }
+  },
+  {
+    "title": "Alcaraz Eliminates Rublev To Reach Wimbledon Quarters\n\ntennisviewmag.com/tennis-vie…",
+    "description": "",
+    "link": "https://nohup.cz/TennisViewMag/status/1942197510358876252#m",
+    "handle": "tennisviewmag",
+    "author": "Tennis View Mag",
+    "outlet": "Tennis View Magazine",
+    "date": "2025-07-07 15:22 EEST",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.0490642253631871,
       "detections": []
     }
   },
   {
     "title": "Felix Auger-Aliassime Interview: What clicked at the 2025 US Open?\n\n0:00 Intro \n0:15 NHL Playoffs (@CanadiensMTL ) \n1:30 @uts_tour_  Champion\n4:20 US Open 2025 Run \n9:29 Felix's Change in Mentality  \n12:55 Partnership with  @PolestarCars  \n14:45 Canadian Davis Cup Moments \n17:40 Is Felix the new Father of Canadian Tennis? (Or is it @denis_shapo? 🤔 )\n\n@felixtennis joins The Slice for a mid-clay swing update.",
     "description": "",
-    "link": "https://nitter.catsarch.com/theslicetennis/status/2047772450298228828#m",
+    "link": "https://nohup.cz/theslicetennis/status/2047772450298228828#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -651,14 +651,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04662039750201252,
+      "score": 0.04542394578462053,
       "detections": []
     }
   },
   {
     "title": "Alcaraz didn't win, but he still make a statement. How did you like Alcaraz's look this US Open?\n\nPresented by @SIASport\n\n#alcaraz #USOpen #tennis",
     "description": "",
-    "link": "https://nitter.catsarch.com/theslicetennis/status/2099494620602286223#m",
+    "link": "https://nohup.cz/theslicetennis/status/2099494620602286223#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -667,14 +667,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.12847031732239908,
+      "score": 0.09538015064692588,
       "detections": []
     }
   },
   {
     "title": "How did Stef beat Arthur? Was it expectations - or the lack thereof? \n\nPresented by @SIASport\n\n#fils #tsitsipas #usopen2026",
     "description": "",
-    "link": "https://nitter.catsarch.com/theslicetennis/status/2094654232460771681#m",
+    "link": "https://nohup.cz/theslicetennis/status/2094654232460771681#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -683,14 +683,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.09305625184728848,
+      "score": 0.0682846059170864,
       "detections": []
     }
   },
   {
     "title": "What happened to Sinner? We still don't know - but we miss him at the US Open.\n\nPresented by @SIASport\n\n#sinner #tennis #usopen",
     "description": "",
-    "link": "https://nitter.catsarch.com/theslicetennis/status/2094288856296145080#m",
+    "link": "https://nohup.cz/theslicetennis/status/2094288856296145080#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -699,14 +699,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.10802246388680846,
+      "score": 0.10530321311829208,
       "detections": []
     }
   },
   {
     "title": "Djokovic is playing on his own tour. How will he do @usopen?\n\nPresented by @SIASport\n\n#djokovic #cincinnati #usopen2026",
     "description": "",
-    "link": "https://nitter.catsarch.com/theslicetennis/status/2090301130009915703#m",
+    "link": "https://nohup.cz/theslicetennis/status/2090301130009915703#m",
     "handle": "theslicetennis",
     "author": "The Slice Tennis",
     "outlet": "The Slice",
@@ -715,30 +715,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.16234388205363884,
-      "detections": []
-    }
-  },
-  {
-    "title": "FIRST TITLE 🏆\n\nIt's third time lucky in tour-level finals for Kimberly Birrell as she claims the all-Aussie battle against Maya Joint 6-4 6-2, scoring her maiden WTA title at the Korea Open!\n\n#GoAussies",
-    "description": "",
-    "link": "https://nitter.catsarch.com/TennisAustralia/status/2104122798918738099#m",
-    "handle": "mattyat",
-    "author": "Matt Trollope",
-    "outlet": "Tennis Australia",
-    "date": "2026-09-27 11:15 EEST",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.04606339031995195,
+      "score": 0.1652456502399341,
       "detections": []
     }
   },
   {
     "title": "Great graphic. And massive fan of the Wikipedia colour scheme 😍",
     "description": "",
-    "link": "https://nitter.catsarch.com/MattyAT/status/2099245223511736380#m",
+    "link": "https://nohup.cz/MattyAT/status/2099245223511736380#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -747,14 +731,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.046044345126827674,
+      "score": 0.03664577134024063,
       "detections": []
     }
   },
   {
     "title": "Outstanding third-set stats for Elena Rybakina:\n\n> 100% first-serve points won\n> 15 winners, 6 unforced errors\n> 4/4 points won at net\n> generated 5 break points to Sabalenka's 0\n\n#USOpen",
     "description": "",
-    "link": "https://nitter.catsarch.com/MattyAT/status/2098919180179493135#m",
+    "link": "https://nohup.cz/MattyAT/status/2098919180179493135#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -763,14 +747,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.058084135172919674,
+      "score": 0.05077455186343883,
       "detections": []
     }
   },
   {
     "title": "Sabalenka v Rybakina.\nThree Grand Slam finals. \nThree three-set battles. \nOne of the best big-stage rivalries.",
     "description": "",
-    "link": "https://nitter.catsarch.com/MattyAT/status/2098898071954600347#m",
+    "link": "https://nohup.cz/MattyAT/status/2098898071954600347#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
@@ -779,110 +763,126 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0373607233899036,
+      "score": 0.035108805522030946,
       "detections": []
     }
   },
   {
-    "title": "Speaking of match-ups, we're guaranteed a Grand Slam final rematch with Sabalenka through to the #USOpen decider.\n\nSABALENKA v RYBAKINA\nAO 2023 F - Sabalenka won\nAO 2026 F - Rybakina won\n\nSABALENKA v GAUFF\nUS 2023 F - Gauff won\nRG 2025 F - Gauff won",
+    "title": "Incredible.",
     "description": "",
-    "link": "https://nitter.catsarch.com/MattyAT/status/2098216555628917173#m",
+    "link": "https://nohup.cz/MattyAT/status/2098209818066735162#m",
     "handle": "mattyat",
     "author": "Matt Trollope",
     "outlet": "Tennis Australia",
-    "date": "2026-09-11 04:06 EEST",
+    "date": "2026-09-11 03:39 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053163022829473876,
+      "score": 0.03560637203202293,
       "detections": []
     }
   },
   {
-    "title": "Berrettini actually giving some words of advice to Musetti between sets.",
+    "title": "LOVE how @OptaAce track match-up stats, and this is a banger re: Sabalenka v Pegula.\n\nThey're the first pair to meet this deep in the #USOpen women's SFs for three years in a row since Graf-Sabatini almost 40 years ago (1988-1990)",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2126344785023918537#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-27 17:57 EET",
+    "link": "https://nohup.cz/MattyAT/status/2098206962358030654#m",
+    "handle": "mattyat",
+    "author": "Matt Trollope",
+    "outlet": "Tennis Australia",
+    "date": "2026-09-11 03:28 EEST",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04530493756293079,
+      "score": 0.05674812699050424,
       "detections": []
     }
   },
   {
-    "title": "Video che smonta tutto lo schifo che da due mesi sta girando intorno alla Nazionale di tennis: #Berrettini che esulta per il game portato a casa da #Musetti e poi gli dà un consiglio sull’atteggiamento in risposta contro Mensik",
+    "title": "SPAIN INTO THE FINAL!\n\nCarlos Alcaraz easily beats Arthur Fery 6-2, 6-1 and Spain is back into the Davis Cup final for the second consecutive year. \n\nThey will face Italy, three time defending champs, again tomorrow. \n\n15 consecutive wins for Alcaraz 🔥",
     "description": "",
-    "link": "https://nitter.catsarch.com/teozorzoli/status/2126341192585764926#m",
+    "link": "https://nohup.cz/josemorgado/status/2126684823972433930#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-27 17:43 EET",
-    "is_retweet": true,
-    "injection": {
-      "scanned": true,
-      "risk": "medium",
-      "score": 0.7713877577998215,
-      "detections": []
-    }
-  },
-  {
-    "title": "Musetti leads Mensik 6-3 in Bologna.",
-    "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2126344317656838609#m",
-    "handle": "josemorgado",
-    "author": "José Morgado",
-    "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-27 17:56 EET",
+    "date": "2026-11-28 16:29 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.053675404717802896,
+      "score": 0.12841009459363956,
       "detections": []
     }
   },
   {
-    "title": "Of course, BROKEN in the next game with an horror service game.",
+    "title": "Carlitos 😱🔥",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2126343561700372739#m",
+    "link": "https://nohup.cz/josemorgado/status/2126677723607130513#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-27 17:53 EET",
+    "date": "2026-11-28 16:00 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.038249952534671165,
+      "score": 0.07520995512149165,
       "detections": []
     }
   },
   {
-    "title": "Mensik has 8 aces in three service games.\n\nIt won't be easy to break him in these conditions this weekend.",
+    "title": "So good from Jódar so far.",
     "description": "",
-    "link": "https://nitter.catsarch.com/josemorgado/status/2126341271035990271#m",
+    "link": "https://nohup.cz/josemorgado/status/2126652539273728190#m",
     "handle": "josemorgado",
     "author": "José Morgado",
     "outlet": "Record Portugal / SportTV",
-    "date": "2026-11-27 17:43 EET",
+    "date": "2026-11-28 14:20 EET",
     "is_retweet": false,
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.03695864020426695,
+      "score": 0.03626604073640216,
+      "detections": []
+    }
+  },
+  {
+    "title": "Guto will be a top 500",
+    "description": "",
+    "link": "https://nohup.cz/josemorgado/status/2126484973033062738#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-28 03:15 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.054355786882395056,
+      "detections": []
+    }
+  },
+  {
+    "title": "FINALISTS!\n\nLorenzo Musetti and Andrea Vavassori come back from 1-3 down in the tiebreak to beat Jiri Lehecka and Tomas Machac 3-6, 6-1, 7-6(4) in the deciding doubles rubber.\n\n3-time defending champ Italy defeats Czechia 2-1 to reach an historic 4th consecutive Davis Cup Final!",
+    "description": "",
+    "link": "https://nohup.cz/josemorgado/status/2126430354881777666#m",
+    "handle": "josemorgado",
+    "author": "José Morgado",
+    "outlet": "Record Portugal / SportTV",
+    "date": "2026-11-27 23:37 EET",
+    "is_retweet": false,
+    "injection": {
+      "scanned": true,
+      "risk": "medium",
+      "score": 0.04522085435525767,
       "detections": []
     }
   },
   {
     "title": "2026 WTA Players Awards - nominees\n\nThe winners will be announced across the week of December 14.",
     "description": "",
-    "link": "https://nitter.catsarch.com/MichalSamulski/status/2123709816908439814#m",
+    "link": "https://nohup.cz/MichalSamulski/status/2123709816908439814#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -891,14 +891,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04531668890433945,
+      "score": 0.03717834432075533,
       "detections": []
     }
   },
   {
     "title": "Alexander Zverev, Ben Shelton and Flavio Cobolli are confirmed for next year's ATP500 Munich, 10-18 April.",
     "description": "",
-    "link": "https://nitter.catsarch.com/MichalSamulski/status/2122720220535980350#m",
+    "link": "https://nohup.cz/MichalSamulski/status/2122720220535980350#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -907,14 +907,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0823984547974273,
+      "score": 0.0737185260364441,
       "detections": []
     }
   },
   {
     "title": "2026 Tournament of the Year awards:\n\nATP1000: Shanghai\nATP500: Doha \nATP250: Almaty\n\nStandards of Excellence awards:\n\nATP 1000: Monte-Carlo ATP 500: Barcelona, Beijing, London, Vienna ATP 250: Bastad, Stockholm",
     "description": "",
-    "link": "https://nitter.catsarch.com/MichalSamulski/status/2121644915050566059#m",
+    "link": "https://nohup.cz/MichalSamulski/status/2121644915050566059#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -923,14 +923,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04665474196923189,
+      "score": 0.040404507692511055,
       "detections": []
     }
   },
   {
     "title": "ATP Finals in Turin - singles and doubles draw",
     "description": "",
-    "link": "https://nitter.catsarch.com/MichalSamulski/status/2120849606577705463#m",
+    "link": "https://nohup.cz/MichalSamulski/status/2120849606577705463#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -939,14 +939,14 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.04259064996623944,
+      "score": 0.03864400678608278,
       "detections": []
     }
   },
   {
     "title": "Another return to @bybitsthlmopen where it all began for me - starting tennis coverage onsite.\nBack in 1992, I watched Becker, Edberg, Sampras, Stich and Courier at the Globen. Today with Fritz, Rune and Musetti at Kungliga Tennishallen.",
     "description": "",
-    "link": "https://nitter.catsarch.com/MichalSamulski/status/2120830532829565258#m",
+    "link": "https://nohup.cz/MichalSamulski/status/2120830532829565258#m",
     "handle": "MichalSamulski",
     "author": "Michal Samulski",
     "outlet": "ITWA / Tennis Hall of Fame",
@@ -955,7 +955,7 @@
     "injection": {
       "scanned": true,
       "risk": "medium",
-      "score": 0.0550089205112685,
+      "score": 0.049609339818030916,
       "detections": []
     }
   }

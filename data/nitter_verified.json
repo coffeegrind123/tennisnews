@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:58:49+00:00",
+  "updated_at": "2026-11-28T14:53:40+00:00",
   "instances": {
     "https://bird.habedieeh.re": {
       "last_fail": "2026-10-15T18:19:36+00:00",
@@ -20,7 +20,7 @@
       "retired_at": "2026-09-03T19:31:19+00:00",
       "permanent": false,
       "reason": "",
-      "last_ok": "2026-11-27T15:58:49+00:00",
+      "last_ok": "2026-11-28T14:53:22+00:00",
       "fails_since_ok": 0,
       "tweets": 5
     },
@@ -67,11 +67,11 @@
     },
     "https://nitter.meowing.monster": {
       "last_ok": "2026-11-22T13:59:29+00:00",
-      "fails_since_ok": 0,
+      "fails_since_ok": 1,
       "tweets": 5,
-      "reason": "",
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-11-11T13:25:34+00:00"
+      "last_fail": "2026-11-28T14:53:38+00:00"
     },
     "https://nitter.mie.foundation": {
       "last_fail": "2026-11-08T12:40:59+00:00",
@@ -81,11 +81,11 @@
     },
     "https://nitter.mizuki.st": {
       "last_ok": "2026-11-22T20:42:17+00:00",
-      "fails_since_ok": 0,
+      "fails_since_ok": 1,
       "tweets": 2,
-      "reason": "",
+      "reason": "interstitial did not clear in the browser",
       "permanent": false,
-      "last_fail": "2026-11-11T13:25:34+00:00"
+      "last_fail": "2026-11-28T14:53:38+00:00"
     },
     "https://nitter.net": {
       "retired": true,
@@ -124,6 +124,13 @@
       "permanent": false,
       "last_ok": "2026-11-11T13:29:06+00:00",
       "tweets": 5
+    },
+    "https://nohup.cz": {
+      "last_ok": "2026-11-28T14:53:40+00:00",
+      "fails_since_ok": 0,
+      "tweets": 5,
+      "reason": "",
+      "permanent": false
     },
     "https://nt.vern.cc": {
       "last_fail": "2026-09-03T17:43:23+00:00",
